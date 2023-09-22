@@ -1,0 +1,33 @@
+.jumppage-container {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+.jumppage-container .btn {
+  border-radius: 86rpx;
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: 600;
+  height: 97rpx;
+  overflow: visible;
+  position: relative;
+  width: 430rpx;
+}
+.btn-jump {
+  background-image: url(https://images3.c-ctrip.com/zt/wechat/flight/jumppage-btn-jump.png);
+  margin-bottom: 40rpx;
+}
+.btn-back,
+.btn-jump {
+  background-size: cover;
+}
+.btn-back {
+  background-image: url(https://images3.c-ctrip.com/zt/wechat/flight/jumppage-btn-back.png);
+}

@@ -1,0 +1,59 @@
+@import "/pages/market/sub-vendors.wxss";
+.wx_unlimit_qrcode_wrap {
+  font-family: Source Han Sans CN, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  text-align: center;
+}
+.wx_unlimit_qrcode_wrap image {
+  display: block;
+  margin: 45%auto 40rpx;
+  width: 280rpx;
+}
+.ani_dot {
+  display: inline-block;
+  font-family: simsun;
+  overflow: hidden;
+  vertical-align: bottom;
+  width: 1.5em;
+}
+@-webkit-keyframes dot {
+  0% {
+    margin-right: 1.5em;
+    width: 0;
+  }
+  33% {
+    margin-right: 1em;
+    width: 0.5em;
+  }
+  66% {
+    margin-right: 0.5em;
+    width: 1em;
+  }
+  100% {
+    margin-right: 0;
+    width: 1.5em;
+  }
+}
+.ani_dot {
+  animation: dot 2s step-start infinite;
+}
+@keyframes dot {
+  0% {
+    margin-right: 1.5em;
+    width: 0;
+  }
+  33% {
+    margin-right: 1em;
+    width: 0.5em;
+  }
+  66% {
+    margin-right: 0.5em;
+    width: 1em;
+  }
+  100% {
+    margin-right: 0;
+    width: 1.5em;
+  }
+}
+.train-toast text {
+  font-size: 22rpx;
+}

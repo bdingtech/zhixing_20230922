@@ -1,0 +1,127 @@
+@import "/pages/train/sub-vendors.wxss";
+@import "/pages/train/sub-common/5bfdf44b3a7493a05d34e7e06f02e7f8.wxss";
+.train-assignee-page {
+  padding-top: 20rpx;
+}
+.train-assignee-page .pasg-add {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  padding: 0 40rpx;
+}
+.train-assignee-page .export-content {
+  background: #fff;
+  border-radius: 20rpx;
+  flex-direction: column;
+  height: 126rpx;
+  margin: 0 20rpx 20rpx;
+}
+.train-assignee-page .export-content,
+.train-assignee-page .export-content .export-btn {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.train-assignee-page .export-content .export-btn .icon {
+  height: 40rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+}
+.train-assignee-page .export-content .export-btn .txt {
+  color: #0080ff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+}
+.train-assignee-page .ty.export-content .export-btn .icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/icon_ck_input_orange.png)
+    no-repeat;
+  background-size: contain;
+}
+.train-assignee-page .zx.export-content .export-btn .icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/icon_ck_input_blue.png)
+    no-repeat;
+  background-size: contain;
+}
+.train-assignee-page .train-list {
+  padding-top: 1prx;
+}
+.train-assignee-page .train-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 100rpx;
+  position: relative;
+}
+.train-assignee-page .train-list .item:last-child {
+  border-bottom: 0;
+}
+.train-assignee-page .train-list .label {
+  color: #999;
+  font-size: 30rpx;
+  width: 200rpx;
+}
+.train-assignee-page .train-list .label .ifont-detail {
+  color: #ccc;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.train-assignee-page .train-list .cont {
+  flex: 1;
+}
+.train-assignee-page .train-list .cont .strong {
+  font-weight: 600;
+}
+.train-assignee-page .train-list .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+}
+.train-assignee-page .h5-input {
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  height: 100rpx;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+}
+.train-assignee-page .placeholder {
+  color: #ccc;
+  font-size: 30rpx;
+}
+.train-assignee-page .bold {
+  font-weight: 700;
+}
+.train-assignee-page .text-tips {
+  color: #999;
+  font-size: 24rpx;
+  margin: 20rpx 40rpx 10rpx;
+}
+.train-assignee-page .text-tips .col {
+  color: #f76e21;
+}
+.train-assignee-page .bottom-view {
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0 0 16rpx 0 rgba(0, 0, 0, 0.04);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+.train-assignee-page .bottom-view .btn {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}

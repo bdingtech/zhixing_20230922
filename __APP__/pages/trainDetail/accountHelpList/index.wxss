@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@import "/pages/trainDetail/sub-vendors.wxss";
+page {
+  background: #f6f6f6;
+}
+.account-help-list .order-list .note {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20rpx 20rpx 0;
+  padding: 20rpx 30rpx;
+}
+.account-help-list .order-list .note .img {
+  height: 26rpx;
+  margin-right: 16rpx;
+  width: 28rpx;
+}
+.account-help-list .order-list .note .txt {
+  color: #666;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.account-help-list .order-list .order-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx 20rpx 0;
+  padding: 26rpx 30rpx 38rpx;
+}
+.account-help-list .order-list .order-box .txt {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.account-help-list .order-list .order-box .order-top {
+  margin-bottom: 2rpx;
+}
+.account-help-list .order-list .order-box .order-top .tit .strong {
+  color: #222;
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+}
+.account-help-list .order-list .order-box .order-top .tit .tblue {
+  color: #0080ff;
+}
+.account-help-list .order-list .order-box .order-top .tit .tred {
+  color: #fe4839;
+}
+.account-help-list .order-list .order-box .order-top .tit .tgreen {
+  color: #05aa58;
+}
+.account-help-list .order-list .order-box .order-top .tit .tgrey {
+  color: #666;
+}
+.account-help-list .order-list .order-box .order-top .tit .flex-center {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.account-help-list
+  .order-list
+  .order-box
+  .order-top
+  .tit
+  .flex-center
+  .icon-loading-ty {
+  animation: loading 1.5s linear infinite;
+  background: url(http://images3.c-ctrip.com/zt/wechat/loading-ty.png) no-repeat
+    50% / cover;
+  height: 34rpx;
+  margin: 0 8rpx 0 0;
+  width: 34rpx;
+}
+.account-help-list
+  .order-list
+  .order-box
+  .order-top
+  .tit
+  .flex-center
+  .icon-loading-zx {
+  animation: loading 1.5s linear infinite;
+  background: url(http://images3.c-ctrip.com/zt/wechat/loading-zx.png) no-repeat
+    50% / cover;
+  height: 34rpx;
+  margin: 0 8rpx 0 0;
+  width: 34rpx;
+}
+.account-help-list .order-list .order-box .order-top .tit .loading-ty {
+  color: #fc6e51;
+}
+.account-help-list .order-list .order-box .order-top .tit .loading-zx {
+  color: #0080ff;
+}
+.account-help-list .order-list .order-box .order-route-desc {
+  margin-bottom: 18rpx;
+}
+.account-help-list .order-list .order-box .assistance-order-desc {
+  border-top: 1rpx dashed #eee;
+  line-height: 34rpx;
+  padding-top: 34rpx;
+}
+.account-help-list .order-list .list-tip {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  color: #ccc;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 36rpx;
+  margin-bottom: calc(30rpx + env(safe-area-inset-bottom));
+  margin-top: 30rpx;
+}
+.account-help-list .order-list .list-tip::before {
+  background: #ccc;
+  content: "";
+  height: 2rpx;
+  margin-right: 12rpx;
+  width: 20rpx;
+}
+.account-help-list .order-list .list-tip::after {
+  background: #ccc;
+  content: "";
+  height: 2rpx;
+  margin-left: 12rpx;
+  width: 20rpx;
+}
+.account-help-list .no-order-show {
+  padding-bottom: calc(80rpx + env(safe-area-inset-bottom));
+}
+.account-help-list .no-order-show .none-order-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+  padding: 70rpx 20rpx 20rpx;
+}
+.account-help-list .no-order-show .none-order-box .img {
+  height: 152rpx;
+  margin-bottom: 34rpx;
+  width: 242rpx;
+}
+.account-help-list .no-order-show .none-order-box .title {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 6rpx;
+}
+.account-help-list .no-order-show .none-order-box .subTitle {
+  color: #999;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin-bottom: 70rpx;
+}
+.account-help-list .no-order-show .none-order-box .tip-box {
+  background: #f6faff;
+  border-radius: 12rpx;
+  color: #333;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 100rpx;
+  width: 100%;
+}
+.account-help-list .no-order-show .none-order-box .tip-box,
+.account-help-list .no-order-show .none-order-box .tip-box .tip {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 36rpx;
+}
+.account-help-list .no-order-show .none-order-box .tip-box .tip {
+  -ms-flex-pack: center;
+  flex: 1;
+  height: 36rpx;
+  justify-content: center;
+}
+.account-help-list .no-order-show .none-order-box .tip-box .tip:first-child {
+  border-right: 2rpx solid #d8e7fa;
+}
+.account-help-list .no-order-show .none-order-box .tip-box.zx .tip::before {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/grab/bqxqy/icon_dh@3x.png)
+    no-repeat;
+  background-size: 26rpx 26rpx;
+  content: "";
+  height: 26rpx;
+  margin-right: 8rpx;
+  width: 26rpx;
+}
+.account-help-list .no-order-show .none-order-box .tip-box.ty .tip::before {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/grab/bqxqy/icon_dh_ty@3x.png)
+    no-repeat;
+  background-size: 26rpx 26rpx;
+  content: "";
+  height: 26rpx;
+  margin-right: 8rpx;
+  width: 26rpx;
+}
+.account-help-list .qus-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx;
+  padding: 26rpx 30rpx 40rpx;
+}
+.account-help-list .qus-box .tit {
+  font-size: 34rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.account-help-list .qus-box .txt-qus {
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 44rpx;
+  margin-bottom: 8rpx;
+  padding-left: 44rpx;
+  position: relative;
+}
+.account-help-list .qus-box .txt-qus::before {
+  background: #0080ff;
+  border-radius: 8rpx;
+  color: #fff;
+  content: "问";
+  font-size: 20rpx;
+  font-weight: 700;
+  height: 32rpx;
+  left: 0;
+  line-height: 32rpx;
+  position: absolute;
+  text-align: center;
+  top: 6rpx;
+  width: 32rpx;
+}
+.account-help-list .qus-box .txt-anw {
+  color: #999;
+  font-size: 26rpx;
+  margin: 0 0 30rpx 44rpx;
+}
+.account-help-list .qus-box .txt-anw:last-child {
+  margin-bottom: 0;
+}
+.account-help-list .qus-box .desc {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}
+.account-help-list .qus-box .desc .dot {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 34rpx;
+  margin-right: 16rpx;
+}
+.account-help-list .qus-box .desc .dot::after {
+  background: #999;
+  border-radius: 50%;
+  content: "";
+  height: 8rpx;
+  width: 8rpx;
+}
+.account-help-list .qus-box .desc .content {
+  color: #999;
+  font-size: 26rpx;
+  line-height: 34rpx;
+}
+.zx .botm-advg {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/botm-advg-zx.png);
+}
+.ty .botm-advg,
+.zx .botm-advg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 74rpx;
+  margin: 48rpx auto 0;
+  width: 454rpx;
+}
+.ty .botm-advg {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.song/grab/bqxqy/img_slogan_ty@3x.png);
+}
+@-webkit-keyframes loading {
+  0% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(1turn);
+  }
+}
+@keyframes loading {
+  0% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(1turn);
+  }
+}

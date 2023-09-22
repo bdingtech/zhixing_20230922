@@ -1,0 +1,24 @@
+.common-train-canvas-image .canvas-box {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108.8vw;
+  justify-content: center;
+  width: 85vw;
+}
+.common-train-canvas-image .btn {
+  background: url(http://pic.c-ctrip.com/train/railway_v2/zhuli/share-btn.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 102rpx;
+  left: 50%;
+  margin-left: -273rpx;
+  margin-top: 80rpx;
+  width: 546rpx;
+}
+.common-train-canvas-image .btn::after {
+  border: 0;
+}

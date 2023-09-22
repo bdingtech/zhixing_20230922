@@ -1,0 +1,284 @@
+page {
+  flex-direction: column;
+}
+.sel-tab,
+page {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sel-tab {
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+  height: 88rpx;
+  line-height: 88rpx;
+  padding: 0 40rpx;
+  position: relative;
+}
+.sel-tab .item {
+  color: #999;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+}
+.sel-tab .item.cur {
+  color: #333;
+  font-weight: 600;
+}
+.sel-tab .scrollbar {
+  bottom: 0;
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  width: 50%;
+  z-index: -1;
+}
+.ty .sel-tab .scrollbar::after {
+  background: #fc6e51;
+}
+.ty .sel-tab .scrollbar::after,
+.zx .sel-tab .scrollbar::after {
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 140rpx;
+}
+.zx .sel-tab .scrollbar::after {
+  background: #5495e6;
+}
+.sel-tab .item:nth-of-type(1).cur ~ .scrollbar {
+  transform: translateZ(0);
+}
+.sel-tab .item:nth-of-type(2).cur ~ .scrollbar {
+  transform: translate3d(100%, 0, 0);
+}
+.sel-tab .item:nth-of-type(1).cur ~ .scrollbar::after {
+  margin-left: -50rpx;
+}
+.sel-tab .item:nth-of-type(2).cur ~ .scrollbar::after {
+  margin-left: -90rpx;
+}
+.sel-tab .item.cur ~ .scrollbar {
+  z-index: 2;
+}
+.checi-box {
+  padding: 70rpx 50rpx;
+}
+.checi-box .item {
+  border-bottom: 1rpx solid #e5e5e5;
+  margin-bottom: 46rpx;
+}
+.checi-box .item .tit {
+  color: #999;
+  font-size: 28rpx;
+}
+.checi-box .item .input-txt {
+  font-size: 48rpx;
+  font-weight: 600;
+  height: 94rpx;
+  width: 100%;
+}
+.checi-box .item .input-plder {
+  color: #999;
+  font-weight: 400;
+}
+.checi-box .item .date {
+  font-size: 48rpx;
+  font-weight: 600;
+  height: 94rpx;
+  line-height: 94rpx;
+}
+.ty .checi-box .history .checi {
+  background: #ffe5d6;
+  color: #fc6e51;
+}
+.ty .checi-box .history .checi,
+.zx .checi-box .history .checi {
+  border-radius: 44rpx;
+  display: inline-block;
+  font-size: 28rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-right: 12rpx;
+  padding: 0 20rpx;
+}
+.zx .checi-box .history .checi {
+  background: #e3efff;
+  color: #5495e6;
+}
+.checi-box .history .clear {
+  color: #999;
+  float: right;
+  font-size: 26rpx;
+  line-height: 44rpx;
+}
+.checi-box .history .clear::before {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-0827.png) no-repeat;
+  background-position: 0 0;
+  background-size: 100rpx 40rpx;
+  content: "";
+  display: inline-block;
+  height: 30rpx;
+  margin: -4rpx 6rpx 0 0;
+  vertical-align: middle;
+  width: 30rpx;
+}
+.checi-box .btn-primary {
+  border-radius: 4rpx;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 50rpx;
+}
+.checi-box .btn-primary::after {
+  border: 0;
+}
+.checi-box .info {
+  margin-top: 50rpx;
+}
+.checi-box .info .txt {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+.checi-box .info .txt::before {
+  background: #d4d4d4;
+  border-radius: 8rpx;
+  content: "";
+  display: inline-block;
+  height: 8rpx;
+  margin: -4rpx 12rpx 0 0;
+  vertical-align: middle;
+  width: 8rpx;
+}
+.order-box {
+  padding: 40rpx;
+}
+.order-box .txt {
+  color: #999;
+  font-size: 28rpx;
+}
+.order-box .item {
+  border-bottom: 1rpx solid #e5e5e5;
+  padding: 40rpx 0;
+  position: relative;
+}
+.order-box .item::after {
+  border-bottom: 3rpx solid #ccc;
+  border-left: 3rpx solid #ccc;
+  content: "";
+  height: 14rpx;
+  margin-top: -5rpx;
+  position: absolute;
+  right: 5rpx;
+  top: 50%;
+  transform: rotate(-135deg);
+  width: 14rpx;
+}
+.order-box .item .tit {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+.order-box .item .time {
+  color: #666;
+  font-size: 28rpx;
+}
+.order-box .item .icon-arr {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-0827.png) no-repeat;
+  background-position: -30rpx -28rpx;
+  background-size: 100rpx 40rpx;
+  height: 12rpx;
+  margin: -10rpx 12rpx 0;
+  width: 28rpx;
+}
+.order-none {
+  margin-top: 140rpx;
+  text-align: center;
+}
+.order-none .img-none {
+  height: 200rpx;
+  width: 200rpx;
+}
+.order-none .txt {
+  color: #666;
+  font-size: 28rpx;
+  margin: 70rpx 0 50rpx;
+}
+.unlogin .txt {
+  color: #666;
+  font-size: 34rpx;
+  line-height: 48rpx;
+  margin: 50%auto 0;
+  text-align: center;
+  width: 410rpx;
+}
+.unlogin .btn-login {
+  border-radius: 88rpx;
+  color: #fff;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 80rpx;
+  width: 536rpx;
+}
+.unlogin.ty .btn-login {
+  background: #fc6e51;
+}
+.unlogin.zx .btn-login {
+  background: #5495e6;
+}
+.unlogin .btn-login::after {
+  border: 0;
+}
+.unlogin .btn-login_hover::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+.fixed-home {
+  border-radius: 312rpx;
+  bottom: 150rpx;
+  height: 312rpx;
+  padding: 0;
+  position: fixed;
+  right: -70rpx;
+  transform: scale(0.4);
+  width: 312rpx;
+}
+.fixed-home::after {
+  border: 0;
+}
+.fixed-home.ty {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_index_page_ty.png)
+    no-repeat;
+}
+.fixed-home.zx {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_index_page_zx.png)
+    no-repeat;
+}
+.fixed-share {
+  border-radius: 312rpx;
+  bottom: 30rpx;
+  height: 312rpx;
+  padding: 0;
+  position: fixed;
+  right: -70rpx;
+  transform: scale(0.4);
+  width: 312rpx;
+}
+.fixed-share::after {
+  border: 0;
+}
+.fixed-share.ty {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_share_ty.png)
+    no-repeat;
+}
+.fixed-share.zx {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_share_zx.png)
+    no-repeat;
+}

@@ -1,0 +1,11 @@
+{
+  "disableScroll": true,
+  "navigationBarTitleText": "门票首页",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0075F4",
+  "backgroundColorBottom": "#EFEFEF",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

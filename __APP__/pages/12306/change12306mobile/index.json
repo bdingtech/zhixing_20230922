@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTitleText": "手机修改",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

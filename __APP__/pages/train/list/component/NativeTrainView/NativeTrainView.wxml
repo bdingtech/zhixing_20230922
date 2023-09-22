@@ -1,0 +1,214 @@
+<view bindtap="clickTrainItem" class="{{'sel-box '+(hasScaned?'scaned ':'')+(train._isChecked4Share&&isShareMode||train._isSharedFromFriend?'active ':'')+zxTyStr}}">
+    <view class="tag-box" wx:if="{{(!isSaleTimeMode||!train.isPreSale)&&!isAlternateMode&&train._sucRateTags&&train._sucRateTags.length>0}}">
+        <block wx:for="{{train._sucRateTags}}" wx:for-index="tagIndex" wx:for-item="tag" wx:key="tagIndex">
+            <view class="tag-rate" wx:if="{{tag.type===1}}">
+                <view class="rate-txt">{{tag.tag}}</view>
+                <image class="rate-shape" src="https://images3.c-ctrip.com/ztrip/train_snow/2023_04/tag_z@3x.png"></image>
+            </view>
+            <view catchtap="onClickQueueInfoIcon" class="queue-number" wx:if="{{tag.type===2}}">
+                <image class="queue-shape1" src="https://images3.c-ctrip.com/ztrip/train_snow/2023_04/tag_sl@3x.png"></image>
+                <view class="txt">{{tag.tag}}</view>
+                <image class="info-icon" src="https://images3.c-ctrip.com/ztrip/train_snow/2023_04/zsl@3x.png"></image>
+                <image class="queue-shape2" src="https://images3.c-ctrip.com/ztrip/train_snow/2023_04/tag_green@3x.png"></image>
+            </view>
+        </block>
+    </view>
+    <view class="hot-tag-box" wx:if="{{isSaleTimeMode&&train.isPreSale&&train._hotTrainInfo}}">
+        <view class="hot-tag-bg"></view>
+        <view class="hot-title">{{train._hotTrainInfo.title}}</view>
+        <rich-text class="hot-sub-title" nodes="{{train._hotTrainInfo.subTitle}}"></rich-text>
+    </view>
+    <view class="sel-bd" wx:if="{{train.IsSaleStop&&train.SaleNote=='列车停运'}}">
+        <view class="sel-stop">
+            <view class="sel-stop-from">
+              {{train.DepartStation}}
+            </view>
+            <view class="sel-checi">
+                <view class="{{'icon from '+(train.IsStartStation?'shizhong':'guolu')}}"></view>
+                <view class="{{'icon to '+(train.IsEndStation?'shizhong':'guolu')}}"></view>
+            </view>
+            <view class="sel-stop-to">
+              {{train.ArriveStation}}
+            </view>
+            <view class="checi">{{train.TrainNumber}}</view>
+        </view>
+        <view class="sel-info">
+            <text class="color-red">列车停运</text>
+        </view>
+    </view>
+    <block wx:else>
+        <view class="sel-bd">
+            <view class="sel-from">
+                <view class="dtime color-primary">
+                {{train.DepartTime}}
+              </view>
+                <view class="dstation">
+                {{train.DepartStation}}
+              </view>
+            </view>
+            <view class="sel-checi">
+                <view class="text">{{train.TimesCost}}</view>
+                <view class="img">
+                    <image class="sel-icon" src="https://images3.c-ctrip.com/ztrip/train.song/order_details/icon_ht_lb@3x.png"></image>
+                </view>
+                <view class="text">
+                    <view class="text-number">{{train.TrainNumber}}</view>
+                    <view class="att-img" wx:if="{{train.isCanPointsPay}}">
+                        <image class="att-icon" src="https://images3.c-ctrip.com/ztrip/train.song/order_details/tag_dh_n@3x.png"></image>
+                    </view>
+                    <view class="att-img" wx:if="{{train.IsFastPass}}">
+                        <image class="att-sfz-icon " src="https://images3.c-ctrip.com/ztrip/train.song/order_details/tag_sfz_n@3x.png"></image>
+                    </view>
+                    <view class="att-img" wx:if="{{train.IsCanSilent}}">
+                        <image class="att-icon" src="https://images3.c-ctrip.com/ztrip/train.song/order_details/tag_j_n@3x.png"></image>
+                    </view>
+                    <view class="att-img" wx:if="{{train.canChooseBedFlag}}">
+                        <image webp class="att-icon" src="https://images3.c-ctrip.com/ztrip/train.song/order_details/V10.0/lby/tag_px@3x.webp"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="sel-to">
+                <view class="dtime">
+                {{train.ArriveTime}}
+                <view class="small">
+                  {{train.TakeDays>0?'+'+train.TakeDays:''}}
+                </view>
+                </view>
+                <view class="astation">
+                {{train.ArriveStation}}
+              </view>
+            </view>
+            <view class="share-radio" wx:if="{{isShareMode}}">
+                <view class="radio-view radio-checked" wx:if="{{train._isChecked4Share}}"></view>
+                <view class="radio-view radio-check" wx:else></view>
+                <view style="position:absolute;opacity:0;z-index:-1">{{isShareMode?'':' '}}</view>
+            </view>
+            <view class="sel-price">
+                <view class="train-price color-red">{{train.SeatList[0].SeatPrice}}</view>
+                <view class="train-hotel-cashback color-red" wx:if="{{train._hotelTagCashBack}}">{{train._hotelTagCashBack.crossText}}</view>
+            </view>
+        </view>
+        <view class="sel-info">
+            <view h class="color-red" wx:if="{{train.preSaleTimeStr}}">
+                <rich-text nodes="{{train.preSaleTimeStr}}"></rich-text>
+            </view>
+            <view class="color-red" wx:elif="{{train.isPreSale}}">
+                {{train.preSaleTimeStr}}
+            </view>
+            <view class="color-red" wx:elif="{{train._noSeat}}">
+            {{isNewGuest?'车票已售罄，抢票成功率较低；新人免费高速抢票':'暂无余票，'+(train.IsCanHB&&isHouBuConfig?'可候补抢票':'建议抢票')+(train.SucRate?'，抢票成功率: '+train._sucRateText:'')}}
+            </view>
+            <block wx:else>
+                <view class="{{'item '+(!seat.SeatInventory?'disabled':'')}}" wx:if="{{seatIndex<4}}" wx:for="{{train.seats}}" wx:for-index="seatIndex" wx:for-item="seat" wx:key="seatIndex">
+                    <text wx:if="{{seat.isSubTrainSeat&&!train._isShowSmartJianLou}}">{{seat.subTrainSeatDesc}}</text>
+                    <block wx:elif="{{seat.SeatInventory==0&&train.IsCanHB&&isHouBuConfig}}">
+                                {{seat._seatName+' '}}
+                                <text class="color-red" wx:if="{{seat._seatName==='无座'||train._isExceedAlternatTime}}">抢</text>
+                        <view catchtap="onClickAlternateIcon" class="{{(isAlternateMode?seats[seatIndex]._hasAlternated?'alternate-delete':'alternate-add':'color-red')+' alternate'}}" data-seatname="{{seat.SeatName}}" wx:else>
+                            <text>候补</text>
+                            <view class="alternate-icon">
+                                <image class="img" src="{{seats[seatIndex]._hasAlternated?'https://images3.c-ctrip.com/ztrip/train.song/order_details/icon/choose@3x.png':'https://images3.c-ctrip.com/ztrip/train.song/order_details/icon/tj@3x.png'}}" wx:if="{{isAlternateMode}}"></image>
+                            </view>
+                        </view>
+                    </block>
+                    <block wx:else>
+                                {{seat.SeatInventory<20?seat._seatName+' '+seat.SeatInventory+'张':seat._seatName+' '+'有'}}
+                                <text class="color-red" wx:if="{{seat.SeatInventory==0}}">
+                                    (抢)
+                                </text>
+                    </block>
+                </view>
+            </block>
+            <view class="tag-right" wx:if="{{train.isPreSale&&!train._isPreSecKill}}">
+                去预约
+            </view>
+            <view class="tag-right" wx:if="{{!train.isPreSale&&train._noSeat}}">
+                  {{train.IsCanHB&&isHouBuConfig?'候补抢票':'去抢票'}}
+                </view>
+        </view>
+        <view class="sub-trip-desc" wx:if="{{train._isShowSmartJianLou&&train._subTrainSeat.smartSeatCardTripInfo}}">
+            <view class="head">
+                <view class="tit-left">
+                    <view class="title flex-center">
+                        <view>{{train._subTrainSeat.type===3?'多买几站':train._subTrainSeat.type===2?'同车换座':'少买几站'}}</view>
+                        <image class="bg" src="https://images3.c-ctrip.com/ztrip/train_snow/2023_06/bgx@3x.png"></image>
+                    </view>
+                    <view>{{train._subTrainSeat.tripDesc}}</view>
+                </view>
+                <view catchtap="onClickAllRemainTicket" class="tit-right">全部<view class="iconfont2 ifont2-arr"></view>
+                </view>
+            </view>
+            <view class="content">
+                <view class="scheme-stride" wx:if="{{train._subTrainSeat.type===1}}">
+                    <view class="line-solid first"></view>
+                    <view class="line-dashed last"></view>
+                    <view class="stride-info">
+                        <view class="part">
+                            <view class="station">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStation}}</view>
+                            <view class="tag-status">上车</view>
+                        </view>
+                        <view class="part">
+                            <view class="station tgrey">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStation}}</view>
+                            <view class="icon-dot"></view>
+                        </view>
+                        <view class="part">
+                            <view class="station">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[1].toStation||train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStation}}</view>
+                            <view class="tag-status">下车</view>
+                            <view class="tag-grey">{{train._subTrainSeat.smartSeatCardTripInfo._tagDesc}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="scheme-stride" wx:if="{{train._subTrainSeat.type===2}}">
+                    <view class="line-solid first"></view>
+                    <view class="line-solid last"></view>
+                    <view class="stride-info">
+                        <view class="part">
+                            <view class="station">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStation}}</view>
+                            <view class="tag-status">上车</view>
+                            <view class="tag-white">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].seatName}}</view>
+                        </view>
+                        <view class="part">
+                            <view class="station tgrey">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStation}}</view>
+                            <view class="tag-grey">车内换座</view>
+                        </view>
+                        <view class="part">
+                            <view class="station">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[1].toStation||train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStation}}</view>
+                            <view class="tag-status">下车</view>
+                            <view class="tag-white">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[1].seatName||train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].seatName}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="scheme-stride" wx:if="{{train._subTrainSeat.type===3}}">
+                    <view class="line-solid first"></view>
+                    <view class="line-solid last"></view>
+                    <view class="stride-info">
+                        <view class="part" wx:if="{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStationDiff>0}}">
+                            <view class="station tgrey">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStation}}</view>
+                            <view class="icon-dot"></view>
+                            <view class="{{'tag-grey '+(train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStationDiff>0?'to-diff':'')}}">
+                      {{'多买'+train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStationDiff+'站'}}
+                    </view>
+                        </view>
+                        <view class="part">
+                            <view class="station">{{train._subTrainSeat.smartSeatCardTripInfo.originTrainInfo.originFromStation}}</view>
+                            <view class="tag-status">上车</view>
+                        </view>
+                        <view class="part">
+                            <view class="station ">{{train._subTrainSeat.smartSeatCardTripInfo.originTrainInfo.originToStation}}</view>
+                            <view class="tag-status">下车</view>
+                        </view>
+                        <view class="part" wx:if="{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStationDiff>0}}">
+                            <view class="station tgrey">{{train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStation}}</view>
+                            <view class="icon-dot"></view>
+                            <view class="{{'tag-grey to-diff '+(train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].fromStationDiff>0?'from-diff':'')}}">
+                      {{'多买'+train._subTrainSeat.smartSeatCardTripInfo.subTrainSegments[0].toStationDiff+'站'}}
+                    </view>
+                        </view>
+                    </view>
+                </view>
+                <view catchtap="onClickSmartScheme" class="button">预订</view>
+            </view>
+        </view>
+    </block>
+    <slot></slot>
+</view>

@@ -1,0 +1,12 @@
+.slogan-box {
+  padding-top: 60rpx;
+  text-align: center;
+}
+.slogan-box .app-slogan {
+  height: 114rpx;
+  width: 620rpx;
+}
+.slogan-box .new-slogan {
+  height: 132rpx;
+  width: 530rpx;
+}

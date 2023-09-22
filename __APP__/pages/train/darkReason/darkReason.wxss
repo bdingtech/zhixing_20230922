@@ -1,0 +1,64 @@
+@import "/pages/train/sub-vendors.wxss";
+@import "/pages/train/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+.dark-reason {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: fixed;
+}
+.dark-reason,
+.dark-reason .page-content {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+}
+.dark-reason .page-content {
+  flex: 1;
+  height: calc(100vh - 108rpx - env(safe-area-inset-bottom));
+}
+.dark-reason .content {
+  height: 1915rpx;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.zx.dark-reason .content {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-05/h5_validation.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.ty.dark-reason .content {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-05/h5_validation_tie.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.dark-reason .btn-content {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 20rpx 20rpx env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  z-index: 3;
+}
+.dark-reason .btn {
+  border-radius: 48rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.zx.dark-reason .btn {
+  background: #198cff;
+}
+.ty.dark-reason .btn {
+  background: #fc6e51;
+}
+.dark-reason .common-head-view .top-bar.fixed.ty,
+.dark-reason .common-head-view .top-bar.fixed.zx {
+  background: transparent;
+}

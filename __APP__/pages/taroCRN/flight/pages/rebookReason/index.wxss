@@ -1,0 +1,28 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+._Dj {
+  margin: 16rpx 16rpx 0;
+}
+._Ei {
+  padding: 24rpx 32rpx;
+}
+._Rh {
+  margin-bottom: 16rpx;
+}
+._Pa {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+._Gi {
+  margin-bottom: 8rpx;
+}
+._Kc {
+  color: #999;
+}
+._Bd {
+  color: #ccc;
+}
+page {
+  height: 100vh;
+}

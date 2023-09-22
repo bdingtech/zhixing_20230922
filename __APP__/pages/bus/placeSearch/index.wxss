@@ -1,0 +1,105 @@
+@import "/pages/bus/sub-vendors.wxss";
+.bus-input {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.bus-input .prefix-dom {
+  margin-right: 20rpx;
+}
+.bus-input .prefix-dom .input-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  letter-spacing: 0.12rpx;
+}
+.bus-input .input-dom {
+  flex: auto;
+  line-height: 40rpx;
+}
+.bus-input .ifont-closed {
+  color: #bebebe;
+  font-size: 24rpx;
+  position: absolute;
+  right: 20rpx;
+  z-index: 2;
+}
+.place-search {
+  background: #fff;
+  font-family: PingFangSC-Semibold;
+  height: 100%;
+  padding: 0 30rpx;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 60rpx);
+}
+.place-search .place-headbar .headbar {
+  background: #fff;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.place-search .place-headbar .box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  position: relative;
+}
+.place-search .place-headbar .box .ifont-arr {
+  color: #333;
+  font-size: 36rpx;
+  left: 16rpx;
+  position: absolute;
+  transform: rotate(180deg);
+}
+.place-search .place-headbar .box .title {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.place-search .place-search-input {
+  height: 70rpx;
+  margin: 30rpx 0;
+}
+.place-search .place-search-input .place-search-input-dom {
+  background: #f2f2f2;
+  border-radius: 45rpx;
+  height: 100%;
+  padding: 0 40rpx;
+}
+.place-search .place-search-input .place-search-input-clearbtn {
+  right: 60rpx;
+}
+.place-search .place-list {
+  height: calc(100% - 100rpx - env(safe-area-inset-bottom));
+  overflow: auto;
+  position: absolute;
+  width: calc(100% - 60rpx);
+}
+.place-search .place-item {
+  margin-bottom: 32rpx;
+}
+.place-search .place-item .place-name {
+  color: #333;
+  font-size: 32rpx;
+  letter-spacing: 0.26rpx;
+}
+.place-search .place-item .place-address {
+  color: #999;
+  font-size: 27rpx;
+  letter-spacing: 0.22rpx;
+}
+.place-search .place-item:last-child {
+  margin-bottom: 0;
+}

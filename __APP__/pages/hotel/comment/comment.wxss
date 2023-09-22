@@ -1,0 +1,200 @@
+@import "/pages/hotel/sub-vendors.wxss";
+.ht-comment-page {
+  padding: 16rpx;
+}
+.ht-comment-page .comment-box {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 26rpx 32rpx;
+}
+.ht-comment-page .tit-wrap {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.ht-comment-page .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.ht-comment-page .rule-desc {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ht-comment-page .rule-desc .icon {
+  height: 22rpx;
+  margin-right: 10rpx;
+  width: 20rpx;
+}
+.ht-comment-page .rule-desc .primary {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.ht-comment-page .scores {
+  margin-top: 32rpx;
+}
+.ht-comment-page .scores .item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 36rpx;
+}
+.ht-comment-page .scores .item .label {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  margin-right: 48rpx;
+}
+.ht-comment-page .scores .item .emoji {
+  height: 48rpx;
+  margin-right: 24rpx;
+  width: 48rpx;
+}
+.ht-comment-page .scores .item .txt {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  text-align: right;
+}
+.ht-comment-page .comments .comment-input {
+  background: hsla(0, 0%, 93%, 0);
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 240rpx;
+  line-height: 42rpx;
+  margin-bottom: 32rpx;
+  margin-top: 20rpx;
+  width: 100%;
+}
+.ht-comment-page .comments .comment-holder {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 42rpx;
+}
+.ht-comment-page .comments .desc {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  text-align: right;
+}
+.ht-comment-page .comments .actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32rpx;
+}
+.ht-comment-page .comments .actions .item {
+  border-radius: 16rpx;
+  height: 148rpx;
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+  position: relative;
+  width: 148rpx;
+}
+.ht-comment-page .comments .actions .item:nth-child(4n) {
+  margin-right: 0;
+}
+.ht-comment-page .comments .actions .item .photo {
+  border-radius: 16rpx;
+  height: 148rpx;
+  width: 148rpx;
+}
+.ht-comment-page .comments .actions .item .close {
+  height: 32rpx;
+  position: absolute;
+  right: -16rpx;
+  top: -16rpx;
+  width: 32rpx;
+}
+.ht-comment-page .lived-types {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx 0;
+  padding: 26rpx 32rpx;
+}
+.ht-comment-page .lived-types .tit {
+  margin-bottom: 30rpx;
+}
+.ht-comment-page .lived-types .type {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #f5f5f5;
+  border: 2rpx solid #f5f5f5;
+  border-radius: 16rpx;
+  color: #222;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 88rpx;
+  justify-content: center;
+  margin-bottom: 16rpx;
+  margin-right: 16rpx;
+  width: calc(33.33333% - 32rpx / 3 - 4rpx);
+}
+.ht-comment-page .lived-types .type:nth-child(3n) {
+  margin-right: 0;
+}
+.ht-comment-page .ht-post-wrap {
+  margin-bottom: calc(150rpx + env(safe-area-inset-bottom));
+  padding: 26rpx 32rpx;
+}
+.ht-comment-page .btn-wrap {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 16rpx 16rpx env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+}
+.ht-comment-page .btn-wrap .btn {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  justify-content: center;
+  line-height: 44rpx;
+}
+.zx .ht-comment-page .lived-types .type.active {
+  background: #f9fbff;
+  border: 2rpx solid #198cff;
+}
+.ty .ht-comment-page .lived-types .type.active {
+  background: #f9fbff;
+  border: 2rpx solid #fc6e51;
+}

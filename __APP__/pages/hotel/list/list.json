@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#efefef",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "hotel-list-item": "./components/HotelListItemV2/HotelListItemV2",
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "component": true,
+  "usingComponents": { "comp": "./comp", "custom-wrapper": "./custom-wrapper" }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "disbleScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../../../../custom-wrapper",
+    "comp": "../../../../../../comp"
+  }
+}

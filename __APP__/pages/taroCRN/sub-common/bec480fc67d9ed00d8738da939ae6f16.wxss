@@ -1,0 +1,32 @@
+.zt-header-view {
+  height: 88rpx;
+}
+.zt-header-view .iconfont {
+  font-size: 36rpx;
+  text-align: center;
+}
+.zt-header-view-left {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  position: absolute;
+}
+.zt-header-view-left-default {
+  height: 88rpx;
+  margin-left: 10rpx;
+  width: 88rpx;
+}
+.zt-header-view-content,
+.zt-header-view-left-default {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.zt-header-view-content {
+  height: 100%;
+}

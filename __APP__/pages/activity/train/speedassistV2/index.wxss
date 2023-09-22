@@ -1,0 +1,330 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 100;
+}
+.top-bar .ifont-back,
+.top-bar .ifont-home {
+  bottom: 0;
+  font-size: 32rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  width: 88rpx;
+}
+.top-bar .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+}
+.wrap-blue,
+.wrap-orage {
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrap-blue {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0042e8),
+    color-stop(55%, #0034cb),
+    color-stop(90%, #1a6be4)
+  );
+  background: -webkit-linear-gradient(top, #0042e8, #0034cb 55%, #1a6be4 90%);
+  background: -o-linear-gradient(top, #0042e8, #0034cb 55%, #1a6be4 90%);
+  background: linear-gradient(180deg, #0042e8, #0034cb 55%, #1a6be4 90%);
+  padding-bottom: 24rpx;
+}
+.wrap-blue .slogan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/slogan-blue.png)
+    no-repeat;
+  background-size: cover;
+  height: 240rpx;
+  margin: 100rpx auto 0;
+  width: 674rpx;
+}
+.wrap-blue .top-txt {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/top-txt.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 68rpx;
+  line-height: 64rpx;
+  margin: -32rpx auto 0;
+  padding-top: 4rpx;
+  position: relative;
+  text-align: center;
+  width: 542rpx;
+  z-index: 2;
+}
+.wrap-blue .main-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/wrap-blue.png)
+    no-repeat;
+  background-size: 100% 1110rpx;
+  margin-top: -44rpx;
+  padding-top: 96rpx;
+}
+.wrap-blue .main-bd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/main-blue.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 534rpx;
+  margin: 0 auto;
+  padding-top: 330rpx;
+  width: 664rpx;
+}
+.wrap-blue .btn-submit {
+  animation: scale 1s ease-in-out infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/btn-blue.png)
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: 36rpx;
+  font-weight: 700;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 500rpx;
+}
+.wrap-blue .botm-txt {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/txt-blue.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 224rpx;
+  margin: 320rpx auto 0;
+  padding: 14rpx 18rpx 22rpx 64rpx;
+  width: 714rpx;
+}
+.wrap-blue .botm-txt .icon-ku {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/icon-blue-ku.png)
+    no-repeat;
+  background-size: cover;
+  height: 156rpx;
+  margin-right: 22rpx;
+  width: 156rpx;
+}
+.wrap-blue .botm-txt .tit {
+  font-size: 42rpx;
+  font-weight: 700;
+}
+.wrap-blue .botm-txt .tblue {
+  color: #2678f6;
+}
+.wrap-blue .botm-txt .txt {
+  color: #999;
+  font-size: 30rpx;
+  margin-top: 4rpx;
+}
+.wrap-orage {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7a42f),
+    color-stop(80%, #fe6f26),
+    to(#e3350e)
+  );
+  background: -webkit-linear-gradient(top, #f7a42f, #fe6f26 80%, #e3350e);
+  background: -o-linear-gradient(top, #f7a42f, #fe6f26 80%, #e3350e);
+  background: linear-gradient(180deg, #f7a42f, #fe6f26 80%, #e3350e);
+  padding-bottom: 110rpx;
+}
+.wrap-orage::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/wrap-orage.png)
+    no-repeat;
+  background-size: 100% 1224rpx;
+  content: "";
+  height: 1224rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrap-orage .top-txt {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(208, 58, 26, 0)),
+    color-stop(#c33617),
+    to(rgba(208, 58, 26, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(208, 58, 26, 0),
+    #c33617,
+    rgba(208, 58, 26, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(208, 58, 26, 0),
+    #c33617,
+    rgba(208, 58, 26, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(208, 58, 26, 0),
+    #c33617,
+    rgba(208, 58, 26, 0)
+  );
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 56rpx;
+  margin: 96rpx auto 0;
+  position: relative;
+  text-align: center;
+  width: 600rpx;
+  z-index: 2;
+}
+.wrap-orage .top-txt .strong {
+  font-weight: 700;
+  margin: 0 12rpx;
+}
+.wrap-orage .slogan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/slogan-orage.png)
+    no-repeat;
+  background-size: cover;
+  height: 250rpx;
+  margin: -6rpx auto 0;
+  position: relative;
+  width: 668rpx;
+  z-index: 2;
+}
+.wrap-orage .top-ren {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/ren-orage.png)
+    no-repeat;
+  background-size: cover;
+  height: 284rpx;
+  margin: -28rpx auto 0;
+  position: relative;
+  width: 480rpx;
+  z-index: 2;
+}
+.wrap-orage .main-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/main-orage.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 40rpx rgba(213, 3, 3, 0.4);
+  box-sizing: border-box;
+  height: 560rpx;
+  margin: -36rpx auto 0;
+  padding-top: 360rpx;
+  position: relative;
+  width: 626rpx;
+  z-index: 2;
+}
+.wrap-orage .main-box::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/coin-orage.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 200rpx;
+  left: -116rpx;
+  position: absolute;
+  top: 40rpx;
+  width: 200rpx;
+}
+.wrap-orage .main-box.wechat-corp {
+  background: url(https://images3.c-ctrip.com/zt/0yingxiao/202109/main-orage.png)
+    no-repeat;
+  background-size: cover;
+}
+.wrap-orage .btn-submit {
+  animation: scale 1s ease-in-out infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/btn-orage.png)
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: 36rpx;
+  font-weight: 700;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 500rpx;
+}
+.wrap-orage .botm-txt {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 76rpx;
+  position: relative;
+  z-index: 2;
+}
+.wrap-orage .botm-txt .icon-ku {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/icon-orage-ku.png)
+    no-repeat;
+  background-size: cover;
+  height: 170rpx;
+  width: 170rpx;
+}
+.wrap-orage .botm-txt .bdbox {
+  -ms-flex-pack: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210325-ztrip-speedup-weixin-new/txt-orage.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 120rpx;
+  justify-content: center;
+  margin-right: 24rpx;
+  padding: 0 50rpx;
+  width: 478rpx;
+}
+.wrap-orage .botm-txt .txt {
+  color: #fffdf0;
+  font-size: 26rpx;
+  margin-bottom: 4rpx;
+}
+.wrap-orage .botm-txt .txt:last-child {
+  margin-bottom: 0;
+}
+@-webkit-keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

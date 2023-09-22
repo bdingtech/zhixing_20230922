@@ -1,0 +1,13 @@
+{
+  "enablePullDownRefresh": true,
+  "disableScroll": true,
+  "navigationBarTitleText": "",
+  "navigationBarFrontColor": "#ffffff",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0066E6",
+  "backgroundColorBottom": "#f5f5f5",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

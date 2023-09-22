@@ -1,0 +1,356 @@
+.flight-tickets-change-explain .zt-drawer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.flight-tickets-change-explain .zt-drawer .zt-drawer-content {
+  background: #f5f5f5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 2rpx;
+}
+.flight-tickets-change-explain.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  background: #f5f5f5;
+  padding-bottom: 0;
+}
+.flight-tickets-change-explain .refund-box {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding: 26rpx 32rpx 32rpx;
+  position: relative;
+}
+.flight-tickets-change-explain .refund-box:first-child {
+  margin-top: 0;
+}
+.flight-tickets-change-explain .refund-box .flt-title {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  z-index: 0;
+}
+.flight-tickets-change-explain .refund-box .flt-title::before {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huojiaye/10.0/zx_fuhao@3x.png)
+    no-repeat 0 0 / cover;
+  bottom: 0;
+  content: "";
+  height: 14rpx;
+  left: -4rpx;
+  position: absolute;
+  width: 82rpx;
+  z-index: -1;
+}
+.flight-tickets-change-explain .refund-box .flt-title.ty::before {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huojiaye/10.0/ty_fuhao@3x.png)
+    no-repeat 0 0 / cover;
+}
+.flight-tickets-change-explain .refund-box .txt13 {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 38rpx;
+  margin-top: 26rpx;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+.flight-tickets-change-explain .refund-box .txt {
+  color: #666;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  margin-top: 2rpx;
+}
+.flight-tickets-change-explain .refund-box .txt navigator {
+  display: inline;
+}
+.flight-tickets-change-explain .refund-box .introduction {
+  margin-top: 6rpx;
+}
+.flight-tickets-change-explain .refund-box .introduction .txt {
+  padding-left: 52rpx;
+}
+.flight-tickets-change-explain .pop-product-info {
+  background: #f5f5f5;
+  box-sizing: border-box;
+  height: 1000rpx;
+  min-height: 2rpx;
+}
+.flight-tickets-change-explain .intro-item {
+  margin-top: 24rpx;
+}
+.flight-tickets-change-explain .intro-item:first-child {
+  margin-top: 0;
+}
+.flight-tickets-change-explain .introduction .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-bottom: 6rpx;
+}
+.flight-tickets-change-explain .introduction .tit .icon {
+  height: 32rpx;
+  margin-left: 4rpx;
+  margin-right: 16rpx;
+  width: 32rpx;
+}
+.flight-tickets-change-explain .luggage-rule {
+  margin-top: 52rpx;
+}
+.flight-tickets-change-explain .luggage-rule:first-child {
+  margin-top: 0;
+}
+.flight-tickets-change-explain .intro-banner {
+  background: #f7f7f7;
+  border-radius: 20rpx;
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  padding: 20rpx 28rpx 20rpx 24rpx;
+}
+.flight-tickets-change-explain .refund-table {
+  border: 2rpx solid #ededed;
+  border-radius: 20rpx;
+  color: #333;
+  font-size: 26rpx;
+  font-weight: 500;
+  line-height: 34rpx;
+  margin-top: 24rpx;
+}
+.flight-tickets-change-explain .refund-table .header {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f7fbfe),
+    to(#f2f8ff)
+  );
+  background: -webkit-linear-gradient(right, #f7fbfe, #f2f8ff);
+  background: -o-linear-gradient(right, #f7fbfe 0, #f2f8ff 100%);
+  background: linear-gradient(-90deg, #f7fbfe, #f2f8ff);
+  color: #3c5a86;
+  padding: 22rpx 0 22rpx 24rpx;
+}
+.flight-tickets-change-explain .refund-table .first {
+  padding-left: 24rpx;
+  text-align: left;
+}
+.flight-tickets-change-explain .refund-table .zt-inner-table .zt-th {
+  font-family: PingFangSC-Medium;
+  padding: 18rpx 0 18rpx 24rpx;
+}
+.flight-tickets-change-explain .refund-table .zt-inner-table .zt-td {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  padding-bottom: 24rpx;
+  padding-top: 24rpx;
+  position: relative;
+}
+.flight-tickets-change-explain
+  .refund-table
+  .zt-inner-table
+  .zt-td
+  .current-info {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  line-height: 32rpx;
+  margin-bottom: 2rpx;
+}
+.flight-tickets-change-explain
+  .refund-table
+  .zt-inner-table
+  .zt-td.current::before {
+  background: #198cff;
+  border-radius: 4rpx;
+  content: "";
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 6rpx;
+}
+.flight-tickets-change-explain .refund-table .zt-tr-span.botm {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  padding: 24rpx 0 24rpx 24rpx;
+}
+.flight-tickets-change-explain .ifont-detail {
+  color: #ccc;
+  font-size: 26rpx;
+  margin: -2rpx 6rpx 0;
+}
+.flight-tickets-change-explain .pop-btm .left {
+  padding-left: 16rpx;
+}
+.flight-tickets-change-explain .pop-btm .left .sale-price {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-bottom: -8rpx;
+}
+.flight-tickets-change-explain .no-luggage-remark-info {
+  border: 1rpx solid #ededed;
+  border-radius: 16rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  padding: 16rpx 24rpx;
+}
+.luggage-image {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+.luggage-image .img {
+  height: 236rpx;
+  width: 284rpx;
+}
+.luggage-image .dim {
+  color: #bdbdbd;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 24rpx;
+  line-height: 24rpx;
+  position: absolute;
+}
+.luggage-image .height {
+  left: 24rpx;
+  top: 116rpx;
+}
+.luggage-image .length {
+  left: 110rpx;
+  top: 204rpx;
+}
+.luggage-image .width {
+  bottom: 24rpx;
+  right: 16rpx;
+}
+.luggage-desc {
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+.luggage-desc .luggage-title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-bottom: 16rpx;
+}
+.luggage-desc .desc {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+}
+.flt-refund-pop-tip-list.train-tip-list .tip-item {
+  margin-bottom: 10rpx;
+}
+.flt-refund-pop-tip-list.train-tip-list .tip-item .dot::after {
+  height: 6rpx;
+  width: 6rpx;
+}
+.remark-extra .cont-hd {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  margin-bottom: 16rpx;
+}
+.remark-extra .type-item {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  margin-bottom: 16rpx;
+  padding: 16rpx 24rpx;
+  width: calc(50% - 8rpx);
+}
+.remark-extra .type-item:nth-child(odd) {
+  margin-right: 16rpx;
+}
+.remark-extra .type-cont {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.remark-extra .type-title {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 24rpx;
+  margin-top: 2rpx;
+}
+.remark-extra .ifont2-arr {
+  color: #ccc;
+  font-size: 24rpx;
+}
+.remark-extra .cont-tail {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+}
+.no-icon {
+  height: 28rpx;
+  margin-right: 6rpx;
+  width: 28rpx;
+}
+.zt-tab.refund-pop-tab {
+  margin: 0 16rpx 16rpx;
+}
+.zt-tab.refund-rule-tab .zt-tab-item {
+  font-size: 24rpx;
+  height: 44rpx;
+  width: 104rpx;
+}
+.refund-pop-hd {
+  height: 108rpx;
+  min-height: 108rpx;
+  position: relative;
+}
+.refund-pop-hd .refund-pop-hd-img {
+  height: 38rpx;
+  width: 374rpx;
+}
+.refund-pop-hd .close-icon {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 30rpx;
+  width: 48rpx;
+}
+.flt-refund-intro-pop.common-action-sheet .action-sheet-bg {
+  z-index: 20002;
+}
+.flt-refund-intro-pop.common-action-sheet .action-sheet-content {
+  background: #f5f5f5;
+  z-index: 20003;
+}
+.flt-refund-intro-pop.common-action-sheet
+  .action-sheet-content
+  .flt-title::before {
+  display: none;
+}

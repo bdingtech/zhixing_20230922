@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.page {
+  bottom: 0;
+  color: #333;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+.pay-before {
+  background: #f5f5f5;
+}
+.pay-after {
+  background: #fff;
+}
+.h5-button::after {
+  border: 0;
+}
+.page .price {
+  font-size: 68rpx;
+  font-weight: 600;
+  line-height: 74rpx;
+}
+.page .price::before {
+  content: "¥";
+  font-size: 52rpx;
+}
+.pay-before .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin: 40rpx 30rpx 0;
+}
+.pay-before .price {
+  margin-top: 30rpx;
+}
+.pay-before .price-loading {
+  font-size: 30rpx;
+  font-weight: 400;
+  margin-top: 30rpx;
+}
+.pay-before .pay-info {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 30rpx;
+  height: 108rpx;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+}
+.pay-before .pay-info .lbox {
+  color: #666;
+}
+.pay-before .pay-info .rbox {
+  font-weight: 600;
+}
+.pay-before .btn-pay {
+  background: #4ac268;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 60rpx;
+  width: 690rpx;
+}
+.pay-after .icon-wechat {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-wechat.png)
+    no-repeat;
+  background-size: cover;
+  display: block;
+  height: 56rpx;
+  margin: 28rpx auto 0;
+  width: 64rpx;
+}
+.pay-after .tit {
+  color: #4ac268;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-top: 28rpx;
+}
+.pay-after .price {
+  margin-top: 56rpx;
+}
+.pay-after .info {
+  left: 10%;
+  position: absolute;
+  right: 10%;
+  top: 60%;
+}
+.pay-after .info .txt {
+  color: #666;
+  font-size: 32rpx;
+}
+.pay-after .info .strong {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-top: 20rpx;
+}
+.pay-after .btn-back,
+.pay-before .btn-back {
+  background: #fff;
+  border: 2rpx solid #4ac268;
+  border-radius: 16rpx;
+  bottom: 124rpx;
+  color: #09bb07;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 76rpx;
+  left: 50%;
+  line-height: 72rpx;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 208rpx;
+}

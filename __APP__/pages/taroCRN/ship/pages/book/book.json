@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "订单填写",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#F5F5F5",
+  "backgroundColorBottom": "#F5F5F5",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

@@ -1,0 +1,66 @@
+page {
+  background: #f2f2f2;
+}
+.book-list {
+  background: #fff;
+  border-top: 2rpx solid #e4e4e4;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  overflow: hidden;
+  width: 100vw;
+}
+.book-list,
+.item {
+  border-bottom: 2rpx solid #e4e4e4;
+}
+.item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 30rpx;
+  width: 100%;
+}
+.item .label {
+  color: #777;
+  width: 20%;
+}
+.item .input-txt {
+  color: #333;
+  height: 100rpx;
+  width: 70%;
+}
+.item .picker {
+  color: #333;
+  height: 100rpx;
+  width: 80%;
+}
+.item .picker .address {
+  min-width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+.item:last-child {
+  border: 0;
+}
+.btn {
+  border-radius: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 36rpx;
+  height: 100rpx;
+  left: 0;
+  line-height: 100rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+.btn.ty {
+  background: #fc6e51;
+}
+.btn.zx {
+  background: #5495e6;
+}

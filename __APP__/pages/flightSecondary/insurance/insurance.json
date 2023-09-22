@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "navigationBarTitleText": "套餐说明",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

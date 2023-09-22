@@ -1,0 +1,122 @@
+<view bindtap="toHotelDetail" class="item {{zxTyStr}} {{hotel.hotelStatus!==0?'abnormal-status':''}}" id="hotel{{hotel.hotelId}}">
+    <image class="tonight-sale-bg" src="{{_configs.tonightSaleBg}}" wx:if="{{showTonightTime}}"></image>
+    <image class="status-image" src="{{statusImage}}" wx:if="{{statusImage&&statusImage!==''}}"></image>
+    <view class="lbox">
+        <image lazyLoad class="pic-hotel" src="{{hotel.logo}}"></image>
+        <image class="collected-hotel" src="{{_configs.collectedIcon}}" wx:if="{{hotel.logoShowInfo.logoShowType===512}}"></image>
+        <view class="tag-{{_configs.logoClassName[hotel.logoShowInfo.logoShowType]||'txt'}}" wx:if="{{hotel.logoShowInfo.logoShowIcon}}">
+            <text class="remark-txt" wx:if="{{hotel.logoShowInfo.logoShowType!=65536&&_configs.logoClassName[hotel.logoShowInfo.logoShowType]}}">{{hotel.logoShowInfo.logoRemark}}</text>
+        </view>
+        <view class="tag-ad" wx:if="{{hotel.advertiseFlag}}">广告</view>
+        <image class="logo-show-icon" mode="widthFix" src="{{hotel.logoShowInfo.logoShowIcon}}" wx:if="{{hotel.logoShowInfo.logoShowIcon}}"></image>
+        <view class="tag-jinpai" wx:if="{{hotel.logoShowInfo.topLogoRemark}}">{{hotel.logoShowInfo.topLogoRemark}}</view>
+        <image class="tag-yxh" mode="heightFix" src="{{hotel.logoShowInfo.topLogoShowImg}}" wx:if="{{hotel.logoShowInfo.topLogoShowImg}}"></image>
+        <view class="tonight-countdown" wx:if="{{showTonightTime&&tonightSaleTime.second}}">
+            <image webp class="tonight-icon" mode="heightFix" src="{{_configs.tonightIcon}}"></image>
+            <view class="count-time">
+                <text>{{tonightSaleTime.hour}}</text>:
+        <text>{{tonightSaleTime.minute}}</text>:
+        <text>{{tonightSaleTime.second}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="cont">
+        <view class="tit">
+            <text class="name">{{hotel.name}}</text>
+            <text class="type" wx:if="{{hotel.hotelBrandLabel}}">{{hotel.hotelBrandLabel}}</text>
+            <view class="icon-wrapper">
+                <block wx:for="{{hotel.starList}}" wx:key="item">
+                    <view class="hotel-star" wx:if="{{hotel.starLicence}}"></view>
+                    <view class="hotel-zuanshi" wx:else></view>
+                </block>
+                <image webp class="diam-icon" mode="widthFix" src="{{hotel.dStarIcon}}" wx:if="{{hotel.dStarIcon}}"></image>
+                <image class="star-icon" src="{{hotel.starIcon}}" wx:if="{{hotel.starIcon}}"></image>
+            </view>
+        </view>
+        <view class="desb">
+            <view class="score" wx:if="{{hotel.commonScore>0}}">{{hotel.commonScore}}</view>
+            <view class="comment-txt no-score" wx:else>暂无评分</view>
+            <view class="comment-wrap">
+                <view wx:if="{{hotel.commentNumber}}">{{hotel.commentNumber}}</view>
+                <view wx:if="{{hotel.collectionNumber&&hotel.commentNumber}}">·</view>
+                <view wx:if="{{hotel.collectionNumber}}">{{hotel.collectionNumber}}</view>
+            </view>
+        </view>
+        <view class="comment-txt" wx:if="{{hotel.recommendWord||hotel.commentView}}">“{{hotel.recommendWord||hotel.commentView}}”</view>
+        <view class="dist" wx:if="{{hotel.hourRoomInfo&&hotel.hourRoomInfo.hourRange}}">
+            <text class="c-as">可住时段 {{hotel.hourRoomInfo.hourRange}}</text>
+        </view>
+        <view class="dist" wx:if="{{hotel.distanceRemark||hotel.zoneStr}}">
+            <view class="ellipsis-wrap">
+                <text class="c-as" wx:if="{{hotel.distanceRemark}}">{{hotel.distanceRemark}}</text>
+                <view class="dot" wx:if="{{hotel.distanceRemark&&hotel.zoneStr}}">·</view>
+                <text class="c-as" wx:if="{{hotel.zoneStr}}">{{hotel.zoneStr}}</text>
+            </view>
+        </view>
+        <view class="tag">
+            <image class="tag-huiyuan" src="{{hotel.importantRightIcon}}" wx:if="{{hotel.importantRightIcon}}"></image>
+            <view class="tag-white{{item.style===3?' member':''}}" style="background-color:{{item.backgroundColor}};color:{{item.textColor}};" wx:for="{{hotel.promotionTagList}}" wx:key="index">
+                <image class="icon" mode="heightFix" src="{{item.iconUrl}}" wx:if="{{item.iconUrl}}"></image>
+                <text>{{item.text+item.tagAmount}}</text>
+            </view>
+        </view>
+        <view class="rank" wx:if="{{hotel.hotelRankInfo&&hotel.hotelRankInfo.icon}}">
+            <image class="left" mode="heightFix" src="{{hotel.hotelRankInfo.icon}}"></image>
+            <view class="desc">{{hotel.hotelRankInfo.desc}}</view>
+        </view>
+        <view catchtap="onShowPriceModal" wx:if="{{(hotel.hotelStatus&1<<13)===0&&hotel.priceInfo.couponSalePrice!==undefined}}">
+            <view class="info{{hotel.groupLabel?' end':''}}">
+                <view class="remark" style="color:{{hotel.hotelAddInfo.incentiveInfo.color}}">
+          {{hotel.hotelAddInfo.incentiveInfo.content}}
+        </view>
+                <view catchtap="onShowPriceModal" class="pinfo">
+                    <view class="s" wx:if="{{hotel.priceInfo.discountPrice&&!hotel.tonightEndTime&&!hotel.bargainIcon}}">
+            {{'￥'+hotel.priceInfo.discountPrice}}
+          </view>
+                    <image class="bagain-icon" mode="widthFix" src="{{hotel.bargainIcon}}" wx:if="{{hotel.bargainIcon}}"></image>
+                    <view class="price color-red{{hotel.hourRoomInfo&&hotel.hourRoomInfo.hourNum?' hour-num':''}}">{{hotel.displayPrice}}</view>
+                    <view class="hour-num" wx:if="{{hotel.hourRoomInfo&&hotel.hourRoomInfo.hourNum}}">
+            /{{hotel.hourRoomInfo.hourNum}}小时
+          </view>
+                </view>
+            </view>
+            <view catchtap="onShowPriceModal" class="binfo{{hotel.groupLabel?' spb':''}}" wx:if="{{hotel.showDiscountInfo}}">
+                <view class="glabel" wx:if="{{hotel.groupLabel}}">{{hotel.groupLabel}}</view>
+                <view class="discount-tags">
+                    <view class="discount-tag" wx:for="{{hotel.promotionDiscountList}}" wx:key="index">
+                        <image class="icon" mode="heightFix" src="{{item.iconUrl}}" wx:if="{{item.iconUrl}}"></image>
+                        <view class="text" style="background-color:{{item.backgroundColor}};color:{{item.textColor}};" wx:else>
+              {{item.text}}
+            </view>
+                        <view class="v-line" wx:if="{{index===0}}"></view>
+                    </view>
+                    <block wx:if="{{hotel.priceInfo.couponTag}}">
+                        <view class="promotion-tag" wx:if="{{hotel.specialStylePromotionTag}}">
+                            <view class="left">{{hotel.specialStylePromotionTag.text}}</view>
+                            <view class="mid"></view>
+                            <view class="right">
+                {{hotel.priceInfo.couponTag}}
+                <text class="iconfont ifont-arr"></text>
+                            </view>
+                        </view>
+                        <view class="discount-tag discount-price" wx:else>
+                            <view class="text">
+                {{hotel.priceInfo.couponTag}}
+                <text class="ifont-arr iconfont"></text>
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </view>
+            <view class="parity-info" wx:if="{{hotel.platformPriceList&&hotel.platformPriceList.length}}">
+                <view class="parity-wrapper" wx:for="{{hotel.platformPriceList}}" wx:key="index">
+                    <view class="parity">
+                        <text class="name">{{item.platformName}}</text>
+                        <text class="price">¥{{item.platformPriceDisplay||'--'}}</text>
+                    </view>
+                    <text class="slash" wx:if="{{index<hotel.platformPriceList.length-1}}">/</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

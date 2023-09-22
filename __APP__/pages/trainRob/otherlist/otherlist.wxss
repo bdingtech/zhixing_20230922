@@ -1,0 +1,364 @@
+._qt {
+  padding-bottom: 20rpx;
+}
+._nd {
+  width: 750rpx;
+}
+._od {
+  height: 240rpx;
+}
+._Lp {
+  height: 296rpx;
+}
+._Pp {
+  width: 560rpx;
+}
+._Gi {
+  margin-bottom: 8rpx;
+}
+._pd {
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+._Oc {
+  line-height: 48rpx;
+}
+._qd {
+  margin-top: 24rpx;
+}
+._rd {
+  width: 670rpx;
+}
+._sd {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+._td {
+  margin-top: 56rpx;
+}
+._ud {
+  width: 686rpx;
+}
+._vd {
+  background: #edf6ff;
+}
+._NA {
+  width: 335rpx;
+}
+._Qf {
+  margin-right: 16rpx;
+}
+.stride-train-drawer.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  border-radius: 40rpx 40rpx 0 0;
+}
+.train-list-nodata-view {
+  margin: 180rpx 0;
+  text-align: center;
+}
+.train-list-nodata-view .img-selnone {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200rpx;
+  margin: 0 auto;
+  width: 424rpx;
+}
+.train-list-nodata-view .img-selnone.zx {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-zx.png);
+}
+.train-list-nodata-view .img-selnone.ty {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-ty.png);
+}
+.train-list-nodata-view .tit {
+  font-size: 32rpx;
+  margin-top: 16rpx;
+}
+.train-list-nodata-view .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.train-list-nodata-view .new-img {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_kzt2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320rpx;
+  margin: 0 auto;
+  width: 466rpx;
+}
+.grab-train-card {
+  -ms-flex-pack: justify;
+  background: #fff;
+  border-radius: 20rpx;
+  justify-content: space-between;
+  margin-bottom: 12rpx;
+  padding: 18rpx 32rpx 20rpx;
+  position: relative;
+}
+.grab-train-card.pb74 {
+  padding-bottom: 74rpx;
+}
+.grab-train-card .time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 46rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 48rpx;
+  margin-bottom: 4rpx;
+}
+.grab-train-card .normal-txt {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30rpx;
+}
+.grab-train-card .normal-txt.disabled,
+.grab-train-card .normal-txt.gray-color {
+  color: #999;
+}
+.grab-train-card .normal-txt.sta {
+  font-size: 24rpx;
+}
+.grab-train-card .normal-txt.color-red {
+  color: #ff5959;
+}
+.grab-train-card .sel-icon {
+  height: 8rpx;
+  margin: 2rpx 0;
+  width: 112rpx;
+}
+.grab-train-card .check-icon {
+  height: 36rpx;
+  margin-bottom: 24rpx;
+  margin-top: 24rpx;
+  width: 36rpx;
+}
+.grab-train-card .seat-item {
+  margin-top: 24rpx;
+}
+.grab-train-card .seat-item .houbu {
+  margin-left: 8rpx;
+}
+.grab-train-card .idcard-icon {
+  height: 24rpx;
+  margin-left: 4rpx;
+  width: 32rpx;
+}
+.grab-train-card .second .time-cost {
+  margin-top: 8rpx;
+}
+.grab-train-card .fourth,
+.grab-train-card .third {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.grab-train-card .o_tips {
+  bottom: 20rpx;
+  position: absolute;
+}
+.grab-train-card .o_tips.ty {
+  color: #34bf46;
+}
+.grab-train-card .o_tips.zx {
+  color: #fe4839;
+}
+.grab-train-card .first,
+.grab-train-card .fourth,
+.grab-train-card .second,
+.grab-train-card .third {
+  flex: 1;
+}
+.grab-train-card .third {
+  position: relative;
+}
+.grab-train-card .third .small {
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 30rpx;
+  position: absolute;
+  right: -26rpx;
+  top: 6rpx;
+}
+.grab-train-card .first .h-color {
+  color: #198cff;
+}
+.ty .grab-train-card .first .h-color {
+  color: #fd9227;
+}
+.qp-otherlist-rtl {
+  margin-bottom: 12rpx;
+  margin-right: -12rpx;
+}
+.qp-otherlist-rtl .r-tit {
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  padding: 12rpx 0 16rpx 20rpx;
+}
+.qp-otherlist-rtl .t-list {
+  height: 178rpx;
+}
+.qp-otherlist-rtl .t-list .item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-right: 12rpx;
+  padding: 18rpx 32rpx 20rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box {
+  -ms-flex-pack: justify;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  justify-content: space-between;
+  letter-spacing: 0;
+  margin-bottom: 24rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .txt {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 46rpx;
+  line-height: 48rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .txt_1 {
+  color: #222;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .txt_2 {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .time {
+  margin-bottom: 4rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .sel-icon {
+  height: 8rpx;
+  margin: 2rpx 0;
+  width: 112rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .check-icon {
+  height: 36rpx;
+  margin-bottom: 24rpx;
+  margin-top: 24rpx;
+  width: 36rpx;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .to {
+  position: relative;
+}
+.qp-otherlist-rtl .t-list .item .cont-box .to .diff-day {
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 30rpx;
+  position: absolute;
+  right: -26rpx;
+  top: 6rpx;
+}
+.qp-otherlist-rtl .t-list .item .desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+}
+.content-box {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  margin-bottom: calc(186rpx + env(safe-area-inset-bottom));
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+.content-box .otherlist .zt-main-list {
+  padding: 12rpx 0;
+}
+.train-list {
+  margin: 0 12rpx 20rpx;
+}
+.qiangpiao-list .tit {
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 34rpx;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin: 24rpx 0 16rpx 20rpx;
+}
+.qiangpiao-list .tit.top-tit {
+  margin-top: 12rpx;
+}
+.amount-tip {
+  background: #fffaf5;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: calc(70rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 122rpx;
+  padding-top: 20rpx;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.amount-tip .amount {
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  margin-left: 32rpx;
+}
+.amount-tip .amount,
+.amount-tip .txt {
+  color: #fd8700;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.amount-tip .txt {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+}
+.amount-tip .txt::before {
+  background: #fd8700;
+  content: "";
+  display: block;
+  height: 16rpx;
+  margin: 8rpx 8rpx 0;
+  width: 2rpx;
+}
+.train-btn-fixed {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  bottom: 0;
+  padding-top: 16rpx;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+.safe-padding-bottom {
+  padding-bottom: calc(env(safe-area-inset-bottom) + 16rpx);
+}
+.btn-ok {
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0 16rpx;
+  padding: 0;
+}
+.otherlist .zt-main-list {
+  margin: 0 12rpx 20rpx;
+}

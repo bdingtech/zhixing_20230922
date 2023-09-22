@@ -1,0 +1,15 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#f5f5f5",
+  "backgroundColorTop": "#f5f5f5",
+  "backgroundColorBottom": "#f5f5f5",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "navigationBarTitleText": "改签确认",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

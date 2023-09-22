@@ -1,0 +1,448 @@
+@import "/pages/smart/packageA/sub-vendors.wxss";
+.smart-trip-summary-component {
+  -ms-flex-pack: justify;
+  background: #fff;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+  justify-content: space-between;
+  margin: 10rpx 20rpx 20rpx;
+  padding: 32rpx 36rpx 40rpx;
+  position: relative;
+}
+.smart-trip-summary-component .tips {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2012_12/tag.png)
+    no-repeat;
+  background-size: contain;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 68rpx;
+  left: 50%;
+  line-height: 52rpx;
+  margin-left: -97rpx;
+  position: absolute;
+  text-align: center;
+  top: -6rpx;
+  width: 194rpx;
+}
+.smart-trip-summary-component .station-cont {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.smart-trip-summary-component .station-cont .process-date {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-bottom: 8rpx;
+}
+.smart-trip-summary-component .station-cont .station-name {
+  color: #333;
+  display: inline-block;
+  font-family: PingFangSC-Semibold;
+  font-size: 48rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 60rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.smart-trip-summary-component .to-station {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.smart-trip-summary-component .to-station .station-name {
+  text-align: right;
+}
+.smart-trip-summary-component .transfer-mode-and-time {
+  -ms-flex-pack: end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 12rpx;
+}
+.smart-trip-summary-component .transfer-mode-and-time .transfer-mode {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32rpx;
+  justify-content: center;
+}
+.smart-trip-summary-component .transfer-mode-and-time .transfer-mode .point {
+  border-radius: 50%;
+  height: 6rpx;
+  width: 6rpx;
+}
+.smart-trip-summary-component
+  .transfer-mode-and-time
+  .transfer-mode
+  .point:not(:last-child) {
+  margin-right: 8rpx;
+}
+.smart-trip-summary-component .transfer-mode-and-time .transfer-mode .low-gray {
+  background: #e6e6e6;
+}
+.smart-trip-summary-component .transfer-mode-and-time .transfer-mode .gray {
+  background: #ccc;
+}
+.smart-trip-summary-component .transfer-mode-and-time .transfer-mode .icon {
+  color: #ccc;
+  height: 32rpx;
+  margin-right: 8rpx;
+  width: 32rpx;
+}
+.smart-trip-summary-component .transfer-mode-and-time .time {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30rpx;
+  margin-top: 12rpx;
+}
+.smart-trip-detail-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32rpx;
+}
+.smart-trip-detail-item .transfer-type-and-time {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+.smart-trip-detail-item .transfer-type-and-time .sequence-type {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-trip-detail-item .transfer-type-and-time .sequence-type .sequence {
+  border: 4rpx solid #e8f3ff;
+  border-radius: 8rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-right: 12rpx;
+  text-align: center;
+  width: 28rpx;
+}
+.smart-trip-detail-item .transfer-type-and-time .sequence-type .type {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-trip-detail-item .transfer-type-and-time .time {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.smart-trip-detail-item .transfer-type-and-time .arrive-time {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: right;
+}
+.smart-trip-detail-item .transfer-type-and-time .arrive-time .day-diff {
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  left: -14rpx;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  position: absolute;
+  top: 0;
+}
+.smart-trip-detail-item .transfer-type-and-time .arrive-time .time {
+  flex: 1;
+}
+.smart-trip-detail-item.zx .transfer-type-and-time .sequence-type .sequence {
+  background: #198cff;
+}
+.smart-trip-detail-item.ty .transfer-type-and-time .sequence-type .sequence {
+  background: #fc6e51;
+}
+.smart-trip-detail-item .gap {
+  border: 2rpx dashed #dedede;
+  height: 184rpx;
+  margin: 0 28rpx;
+  position: relative;
+  transform: scaleX(0.5);
+}
+.smart-trip-detail-item .gap .cont {
+  background: #ddd;
+  border-radius: 10rpx;
+  height: 96rpx;
+  left: -4rpx;
+  position: absolute;
+  top: 76rpx;
+  width: 8rpx;
+}
+.smart-trip-detail-item .transfer-info {
+  -ms-flex-pack: justify;
+  flex: 1;
+  flex-direction: column;
+}
+.smart-trip-detail-item .transfer-info,
+.smart-trip-detail-item .transfer-info .date-no-seat-price {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.smart-trip-detail-item .transfer-info .date-no-seat-price {
+  -ms-flex-pack: justify;
+}
+.smart-trip-detail-item .transfer-info .date-no-seat-price .date-and-no {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-trip-detail-item .transfer-info .date-no-seat-price .date-and-no .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-trip-detail-item
+  .transfer-info
+  .date-no-seat-price
+  .date-and-no
+  .split-line {
+  background: #ccc;
+  display: inline-block;
+  height: 20rpx;
+  margin: 0 16rpx;
+  transform: scaleX(0.5);
+  width: 2rpx;
+}
+.smart-trip-detail-item .transfer-info .date-no-seat-price .seat-info .price,
+.smart-trip-detail-item .transfer-info .date-no-seat-price .seat-info .seat {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-trip-detail-item .transfer-info .date-no-seat-price .seat-info .seat {
+  margin-right: 8rpx;
+}
+.smart-trip-detail-item .transfer-info .station-name {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.smart-trip-transfer-panel {
+  margin-bottom: 40rpx;
+}
+.smart-trip-transfer-panel .transit {
+  -ms-flex-align: center;
+  -ms-flex-pack: start;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 30rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60rpx;
+  justify-content: flex-start;
+  left: -10rpx;
+  margin-bottom: 28rpx;
+  margin-top: 24rpx;
+  position: relative;
+  width: 662rpx;
+}
+.smart-trip-transfer-panel .transit .combine-seat-icon,
+.smart-trip-transfer-panel .transit .transfer-in-city-icon {
+  height: 32rpx;
+  margin-left: 16rpx;
+  margin-right: 14rpx;
+  width: 32rpx;
+}
+.smart-trip-transfer-panel .transit .transit-type {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-right: 24rpx;
+}
+.smart-trip-transfer-panel .transit .transit-info {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.smart-trip-transfer-panel .transit .ifont-transfer-same {
+  font-size: 32rpx;
+  margin-left: 16rpx;
+  margin-right: 14rpx;
+}
+.smart-trip-transfer-panel .transit .ifont-transfer-same.zx {
+  color: #198cff;
+}
+.smart-trip-transfer-panel .transit .ifont-transfer-same.ty {
+  color: #fc6e51;
+}
+.smart-trip-detail-card-component {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 20rpx 20rpx 60rpx;
+  padding: 36rpx 30rpx 32rpx 34rpx;
+}
+.smart-share-landing-btn-group {
+  -ms-flex-pack: justify;
+  background: #fff;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+}
+.smart-share-landing-btn-group .share-process {
+  border-radius: 48rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 96rpx;
+  letter-spacing: 0;
+  line-height: 96rpx;
+  text-align: center;
+  width: 240rpx;
+}
+.smart-share-landing-btn-group.zx .share-process {
+  border: 2rpx solid #198cff;
+  color: #198cff;
+}
+.smart-share-landing-btn-group.ty .share-process {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.smart-share-landing-btn-group .buy-same-process {
+  border-radius: 200rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 96rpx;
+  letter-spacing: 0;
+  line-height: 96rpx;
+  text-align: center;
+  width: 450rpx;
+}
+.smart-share-landing-btn-group.zx .buy-same-process {
+  background: #198cff;
+}
+.smart-share-landing-btn-group.ty .buy-same-process {
+  background: #fc6e51;
+}
+page {
+  background: #f5f5f5;
+}
+.smart-trip-share-landing-index .bd {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: calc(136rpx + env(safe-area-inset-bottom));
+  position: relative;
+}
+.ztrip-h5 .smart-trip-share-landing-index .bd {
+  background: #fff;
+}
+.smart-trip-share-landing-index .bd::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.smart-trip-share-landing-index .bd::before {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  content: "";
+  height: 320rpx;
+  left: -20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 140%;
+}
+.smart-trip-share-landing-index .bd .container {
+  background: #f5f5f5;
+}
+.smart-trip-share-landing-index .bd .container .hidden-area {
+  height: 174rpx;
+  width: 100%;
+}
+.smart-trip-share-landing-index .bd .container .theme-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.smart-trip-share-landing-index .bd .container .theme-img .tit-img {
+  height: 174rpx;
+  width: 100%;
+}
+.smart-trip-share-landing-index .bd .container .business-summary {
+  margin: 60rpx 56rpx 44rpx 54rpx;
+}
+.smart-trip-share-landing-index .bd .container .business-summary .summary-img {
+  height: 150rpx;
+  width: 640rpx;
+}
+.smart-trip-share-landing-index.zx .bd::before {
+  background: -webkit-linear-gradient(top, #0075f4 80%, #0080ff);
+}
+.smart-trip-share-landing-index.ty .bd::before {
+  background: #3c4365;
+}

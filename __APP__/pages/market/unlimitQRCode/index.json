@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "页面加载中",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

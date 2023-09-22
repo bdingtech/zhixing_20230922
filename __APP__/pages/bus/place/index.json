@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

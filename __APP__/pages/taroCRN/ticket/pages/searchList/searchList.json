@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColor": "#ffffff",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

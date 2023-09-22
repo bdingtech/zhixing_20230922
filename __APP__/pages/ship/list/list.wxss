@@ -1,0 +1,349 @@
+@import "/pages/ship/sub-vendors.wxss";
+.bus-date-picker .date-picker {
+  width: 100%;
+}
+.bus-date-picker .date-picker .calendar-list {
+  flex: 1;
+  overflow: hidden;
+  padding: 5rpx 0 10rpx 20rpx;
+}
+.bus-date-picker .date-picker .calendar-list .calendar-scroll-list {
+  white-space: nowrap;
+  width: 100%;
+}
+.bus-date-picker
+  .date-picker
+  .calendar-list
+  .calendar-scroll-list::-webkit-scrollbar {
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.bus-date-picker .date-picker .calendar-list.zx .item.cur {
+  background: #0080ff;
+}
+.bus-date-picker .date-picker .calendar-list.ty .item.cur {
+  background: #fc6e51;
+}
+.bus-date-picker .date-picker.three {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  width: 100%;
+}
+.bus-date-picker .date-picker.three .calendar-list .item {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 110rpx;
+  margin-right: 10rpx;
+  padding: 8rpx;
+  text-align: center;
+  width: 112rpx;
+}
+.bus-date-picker .date-picker.three .calendar-list .item::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.bus-date-picker .date-picker.three .calendar-list .item.cur {
+  border-radius: 8rpx;
+  color: #fff;
+  font-weight: 600;
+}
+.bus-date-picker .date-picker.three .calendar-list .item .date {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.bus-date-picker .date-picker.three .calendar-list .item .week {
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.bus-date-picker .date-picker.three .calendar-list .item .desc {
+  font-size: 20rpx;
+  line-height: 36rpx;
+  margin-left: -12rpx;
+}
+.bus-date-picker .date-picker.three .calendar-list .item.cur .desc {
+  font-weight: 600;
+}
+.bus-date-picker .date-picker.three .calendar-all {
+  box-shadow: -10rpx 0 16rpx -14rpx rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 110rpx;
+  padding: 26rpx 26rpx 0;
+  text-align: center;
+  width: 110rpx;
+}
+.bus-date-picker .date-picker.three .calendar-all .img {
+  background-image: url(https://images3.c-ctrip.com/train/wechat/bus/calender.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rpx;
+  width: 60rpx;
+}
+.bus-date-picker .date-picker.two {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+}
+.bus-date-picker .date-picker.two .calendar-list .item {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 88rpx;
+  margin-right: 24rpx;
+  padding: 12rpx 8rpx;
+  text-align: center;
+  width: 88rpx;
+}
+.bus-date-picker .date-picker.two .calendar-list .item::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.bus-date-picker .date-picker.two .calendar-list .item.cur {
+  border-radius: 12rpx;
+  color: #fff;
+  font-weight: 600;
+}
+.bus-date-picker .date-picker.two .calendar-list .item .date {
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.bus-date-picker .date-picker.two .calendar-list .item .week {
+  font-size: 22rpx;
+  line-height: 28rpx;
+}
+.bus-date-picker .date-picker.two .calendar-all {
+  box-shadow: -10rpx 0 16rpx -14rpx rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 110rpx;
+  padding: 25rpx 25rpx 0;
+  text-align: center;
+  width: 110rpx;
+}
+.bus-date-picker .date-picker.two .calendar-all .img {
+  background-image: url(https://images3.c-ctrip.com/train/wechat/bus/calender.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rpx;
+  width: 60rpx;
+}
+.ship-list-item {
+  -ms-flex-pack: justify;
+  background: #fff;
+  border-radius: 20rpx;
+  justify-content: space-between;
+  margin-bottom: 12rpx;
+  padding: 32rpx;
+  position: relative;
+}
+.ship-list-item.pt44 {
+  padding-top: 44rpx;
+}
+.ship-list-item .tagList {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 4rpx;
+  position: absolute;
+  top: 4rpx;
+}
+.ship-list-item .tag {
+  background: #eaf6ff;
+  border-radius: 16rpx 0 20rpx 0;
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 30rpx;
+  line-height: 30rpx;
+  line-height: 24rpx;
+  padding: 4rpx 12rpx;
+}
+.ship-list-item .tag:not(:last-child) {
+  margin-right: 8rpx;
+}
+.ship-list-item .tag .ifont-detail {
+  color: #198cff;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.ship-list-item .flow-shift {
+  margin: 10rpx 0 12rpx;
+}
+.ship-list-item .flow-shift .time-tag {
+  background: #ededed;
+  border-radius: 8rpx;
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 16rpx;
+  font-weight: 500;
+  height: 24rpx;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  margin-right: 8rpx;
+  text-align: center;
+  width: 24rpx;
+}
+.ship-list-item .flow-shift .f-time {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.ship-list-item .flow-shift .mr20 {
+  margin-right: 20rpx;
+}
+.ship-list-item .txt {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ship-list-item .time-txt {
+  font-family: ZX-Regular;
+  font-size: 46rpx;
+  line-height: 48rpx;
+  margin-bottom: 12rpx;
+}
+.ship-list-item .station-txt {
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.ship-list-item .other-txt {
+  color: #999;
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.ship-list-item .middle .icon {
+  display: block;
+  height: 8rpx;
+  margin: 4rpx 0 6rpx;
+  width: 112rpx;
+}
+.ship-list-item .to {
+  position: relative;
+  text-align: right;
+}
+.ship-list-item .to .cost-days {
+  color: #333;
+  font-size: 20rpx;
+  position: absolute;
+  right: -50rpx;
+}
+.ship-list-item .from,
+.ship-list-item .to {
+  width: 160rpx;
+}
+.ship-list-item .price {
+  color: #ff5967;
+  font-family: ZX-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: right;
+  width: 180rpx;
+}
+.ship-list-item .price .unit {
+  line-height: 38rpx;
+}
+.ship-list-item .price .num {
+  color: #ff5967;
+  font-size: 46rpx;
+  line-height: 48rpx;
+}
+.ship-list-item .unbookable-tips {
+  color: #666;
+  font-size: 22rpx;
+  margin-top: 12rpx;
+  text-align: right;
+  width: 180rpx;
+}
+.ship-list-item.disabled {
+  opacity: 0.6;
+}
+.ship-list-item.disabled .price,
+.ship-list-item.disabled .price .num {
+  color: #222;
+}
+.ship-list-item .flow-ship .from,
+.ship-list-item .flow-ship .to {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ship-list-item .time-type-desc {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(94.98%, #fafcff),
+    color-stop(9.27%, #f5faff)
+  );
+  background: -webkit-linear-gradient(right, #fafcff 94.98%, #f5faff 0);
+  background: -o-linear-gradient(right, #fafcff 94.98%, #f5faff 9.27%);
+  background: linear-gradient(-90deg, #fafcff 94.98%, #f5faff 0);
+  border-radius: 20rpx;
+  color: #222;
+  font-size: 22rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin-top: 20rpx;
+  padding: 0 26rpx;
+}
+.ship-list .content-box {
+  box-sizing: border-box;
+  padding: 12rpx;
+}
+.ship-list .bus-date-picker .date-picker.two {
+  background: none;
+}
+.ship-list .bus-date-picker .date-picker.two .calendar-list .item.cur {
+  border-radius: 16rpx;
+}
+.ship-list .bus-date-picker .date-picker.two .calendar-list .item .date {
+  font-family: ZX-Regular;
+}
+.ship-list .bus-notice-board-component {
+  margin: 20rpx 12rpx 0;
+}
+.ship-list .bus-notice-board-component .bus-notice-board.bus-list-noticeboard {
+  background: #fff;
+  border-radius: 20rpx;
+}
+.ship-list .no-result {
+  padding-top: 220rpx;
+}
+.ship-list .no-result .img {
+  background: url(https://images3.c-ctrip.com/train/wechat/bus/noresult.png)
+    no-repeat;
+  background-size: cover;
+  height: 137rpx;
+  margin: auto auto 20rpx;
+  width: 212rpx;
+}
+.ty .ship-list .no-result .img {
+  background: url(https://images3.c-ctrip.com/train/wechat/bus/unresultty.png)
+    no-repeat;
+  background-size: cover;
+}
+.ship-list .no-result .text {
+  color: #222;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+  width: 100%;
+}
+.ship-list .no-result .text .strong {
+  font-weight: 600;
+  padding-left: 10rpx;
+}

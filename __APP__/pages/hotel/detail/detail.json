@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "酒店详情",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#fff",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "hotel-list-item": "../list/components/HotelListItemV2/HotelListItemV2",
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

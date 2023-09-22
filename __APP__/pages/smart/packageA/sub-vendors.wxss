@@ -1,0 +1,751 @@
+.smart-pop-layer .pay-detail {
+  background: rgba(0, 0, 0, 0.6);
+  bottom: calc(136rpx + env(safe-area-inset-bottom));
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 950;
+}
+.smart-pop-layer .pay-detail.fix-at-bottom {
+  bottom: 0;
+}
+.smart-pop-layer .pay-detail-bd {
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+  border-radius: 20rpx 20rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 40rpx;
+  position: fixed;
+  right: 0;
+  top: auto;
+}
+.smart-pop-layer .pay-detail-bd.visible {
+  animation: translate3 0.2s linear forwards;
+}
+@-webkit-keyframes translate3 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(calc(-132rpx - env(safe-area-inset-bottom)));
+  }
+}
+@keyframes translate3 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(calc(-132rpx - env(safe-area-inset-bottom)));
+  }
+}
+.smart-pop-layer .pay-detail-bd.hidden {
+  animation: translate3-hidden 0.2s linear forwards;
+}
+@-webkit-keyframes translate3-hidden {
+  0% {
+    transform: translateY(calc(-132rpx - env(safe-area-inset-bottom)));
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+@keyframes translate3-hidden {
+  0% {
+    transform: translateY(calc(-132rpx - env(safe-area-inset-bottom)));
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+.smart-pop-layer .pay-detail-bd.visible.fix-at-bottom {
+  animation: translate4 0.2s linear forwards;
+}
+@-webkit-keyframes translate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes translate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.smart-pop-layer .pay-detail-bd.hidden.fix-at-bottom {
+  animation: translate4-hidden 0.2s linear forwards;
+}
+@-webkit-keyframes translate4-hidden {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+@keyframes translate4-hidden {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+.smart-pop-layer .pay-detail-bd .item {
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  padding: 25rpx 0;
+}
+.smart-pop-layer .pay-detail-bd .item:last-child {
+  border-bottom: 0;
+}
+.smart-pop-layer .pay-detail-bd .item .lst {
+  margin-bottom: 12rpx;
+}
+.smart-pop-layer .pay-detail-bd .item .detail {
+  color: #999;
+  font-size: 24rpx;
+}
+.smart-pop-layer .pay-detail-bd .item .lst:last-child {
+  margin-bottom: 0;
+}
+.smart-pop-layer .pay-detail-bd .item .img-ico {
+  display: inline-block;
+  float: left;
+  height: 30rpx;
+  margin-left: 1rpx;
+  padding-right: 8rpx;
+  padding-top: 8rpx;
+  vertical-align: middle;
+  width: 30rpx;
+}
+.smart-flight-refund-pop .pop-botm-hd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  height: 112rpx;
+  line-height: 112rpx;
+  text-align: center;
+}
+.smart-flight-refund-pop .pop-botm-hd .tit {
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.smart-flight-refund-pop .pop-botm-hd .btn-cancel,
+.smart-flight-refund-pop .pop-botm-hd .btn-submit {
+  font-size: 32rpx;
+  width: 144rpx;
+}
+.smart-flight-refund-pop .pop-botm-hd .btn-cancel {
+  color: #666;
+}
+.smart-flight-refund-pop .pop-botm-hd .btn-submit {
+  font-weight: 600;
+}
+.smart-flight-refund-pop .pop-botm-bd {
+  -webkit-overflow-scrolling: touch;
+  border-top: 1rpx solid #eee;
+  overflow-y: scroll;
+}
+.smart-flight-refund-pop .pop-botm-bd.country-bd {
+  height: 70vh;
+  position: relative;
+}
+.smart-flight-refund-pop .pop-pasg-info {
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+  height: 1000rpx;
+  padding: 0 40rpx 40rpx;
+}
+.smart-flight-refund-pop .pop-pasg-info .txt {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 30rpx;
+}
+.smart-flight-refund-pop .pop-pasg-info .item {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 12rpx;
+}
+.smart-flight-refund-pop .pop-pasg-info .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  margin: 40rpx 0 20rpx;
+}
+.smart-flight-refund-pop .pop-pasg-info image {
+  width: 100%;
+}
+.smart-flight-refund-pop .pop-product-info {
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+  height: 1000rpx;
+  padding: 0 30rpx 40rpx;
+}
+.smart-flight-refund-pop .pop-product-info .box {
+  margin-top: 40rpx;
+}
+.smart-flight-refund-pop .pop-product-info .box .title {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.smart-flight-refund-pop .pop-product-info .box .title::before {
+  background: #fc6e51;
+  border-radius: 6rpx;
+  content: "";
+  display: inline-block;
+  height: 30rpx;
+  margin-right: 20rpx;
+  width: 6rpx;
+}
+.smart-flight-refund-pop .pop-product-info.zx .box .title::before {
+  background: #0080ff;
+}
+.smart-flight-refund-pop .pop-product-info .box .introduction {
+  background: #fffaf8;
+  padding: 40rpx 30rpx 10rpx;
+}
+.smart-flight-refund-pop .pop-product-info.zx .box .introduction {
+  background: #f7f9fd;
+}
+.smart-flight-refund-pop .box .introduction .tit {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin-bottom: 10rpx;
+}
+.smart-flight-refund-pop .box .introduction .tit .image {
+  height: 30rpx;
+  margin-right: 10rpx;
+  width: 30rpx;
+}
+.smart-flight-refund-pop .box .introduction .txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-bottom: 6rpx;
+  padding-left: 40rpx;
+}
+.smart-flight-refund-pop .box .introduction .txt navigator {
+  display: inline;
+}
+.smart-flight-refund-pop .box .area {
+  border: 2rpx solid #eee;
+  color: #222;
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+.smart-flight-refund-pop .box .area .tit {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f9f9f9;
+  color: #999;
+  font-size: 26rpx;
+  height: 68rpx;
+  padding: 0 30rpx;
+}
+.smart-flight-refund-pop .box .area .table,
+.smart-flight-refund-pop .box .area .tit {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-flight-refund-pop .box .area .table.last-child {
+  border-bottom: 0;
+}
+.smart-flight-refund-pop .box .area .table .left {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-right: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  padding: 30rpx;
+  width: 100rpx;
+}
+.smart-flight-refund-pop .box.wd50 .area .table .left {
+  flex: 1;
+}
+.smart-flight-refund-pop .box .area .table .right {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 30rpx;
+}
+.smart-flight-refund-pop .box .area .row {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.smart-flight-refund-pop .box .area .row:not(:first-child) {
+  margin-top: 10rpx;
+}
+.smart-flight-refund-pop .box .plain .tit {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.smart-flight-refund-pop .box .plain .txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.flight-refund-modify-drawer .pay-detail-bd {
+  padding: 0;
+}
+.smart-ship-refund .tab-bar {
+  -ms-flex-align: center;
+  -ms-flex-pack: space-evenly;
+  align-items: center;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  height: 108rpx;
+  justify-content: space-evenly;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.smart-ship-refund .tab-item.cur {
+  color: #0080ff;
+  position: relative;
+}
+.smart-ship-refund .tab-item.cur::after {
+  background: #0080ff;
+  border-radius: 4rpx;
+  content: "";
+  height: 8rpx;
+  left: 25%;
+  position: absolute;
+  top: 78rpx;
+  width: 50%;
+}
+.smart-ship-refund .tab-content {
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  height: 1000rpx;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  overflow: hidden;
+  padding-bottom: 100rpx;
+  padding-top: 20rpx;
+  text-align: justify;
+}
+.smart-ship-refund .desc-list {
+  height: 100%;
+}
+.smart-ship-refund .desc {
+  margin: 20rpx 0;
+}
+.smart-price-detail-dialog .closeTouch {
+  -ms-flex-pack: end;
+  flex: 1;
+  padding-right: 30rpx;
+}
+.smart-price-detail-dialog .closeInner,
+.smart-price-detail-dialog .closeTouch {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.smart-price-detail-dialog .closeInner {
+  -ms-flex-pack: end;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60rpx;
+  width: 60rpx;
+}
+.smart-price-detail-dialog .closeRIcon {
+  color: #c3c3c3;
+  font-size: 40rpx;
+}
+.smart-price-detail-dialog .content {
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+  justify-content: space-around;
+}
+.smart-price-detail-dialog .detailTxt {
+  color: #222;
+  font-size: 36rpx;
+  font-weight: 700;
+  text-align: center;
+}
+.smart-price-detail-dialog .closeIcon {
+  color: #c3c3c3;
+  font-size: 44rpx;
+  text-align: right;
+}
+.smart-price-detail-dialog .cRight {
+  background: transparent;
+  height: 10rpx;
+  width: 10rpx;
+}
+.smart-price-detail-dialog .itemWrap {
+  margin-bottom: 40rpx;
+  margin-top: 10rpx;
+}
+.smart-price-detail-dialog .titleTxt {
+  color: #222;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.smart-price-detail-dialog .lineItem {
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-price-detail-dialog .nameTxt {
+  color: #666;
+  font-size: 26rpx;
+}
+.smart-price-detail-dialog .priceDesc {
+  color: #333;
+  font-size: 32rpx;
+}
+.smart-price-detail-dialog .priceDesc.red-mark {
+  color: #ff5959;
+}
+.smart-price-detail-dialog .priceDesc.red-mark::before {
+  background: #ff5959;
+  content: "";
+  display: block;
+  height: 2rpx;
+  margin-right: 2rpx;
+  width: 16rpx;
+}
+.smart-price-detail-dialog .flexItem {
+  flex: 1;
+}
+.smart-price-detail-dialog .mt7 {
+  margin-top: 14rpx;
+}
+.smart-price-detail-dialog .mt7 .price-item-desc {
+  color: #ff5959;
+  flex: 1;
+  font-size: 22rpx;
+  margin-right: 8rpx;
+  margin-top: 4rpx;
+}
+.smart-new-user-gifts {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding: 18rpx 30rpx 18rpx 18rpx;
+}
+.smart-new-user-gifts,
+.smart-new-user-gifts .left {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-new-user-gifts .left .gifts-icon {
+  height: 76rpx;
+  width: 76rpx;
+}
+.smart-new-user-gifts .left .separator {
+  border-left: 1rpx solid #ededed;
+  height: 60rpx;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+  transform: scaleX(0.5);
+  width: 0;
+}
+.smart-new-user-gifts .left .content .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.smart-new-user-gifts .left .content .subTitle {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.smart-new-user-gifts .right {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.smart-new-user-gifts .right .shareButton {
+  background: #ff5959;
+  border-radius: 56rpx;
+  color: #fff;
+  font-size: 26rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-right: 0;
+  text-align: center;
+  width: 144rpx;
+}
+.smart-new-user-gifts .right .status-icon {
+  height: 24rpx;
+  width: 24rpx;
+}
+.smart-new-user-gifts .right .status-desc {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  line-height: 32rpx;
+}
+.smart-new-user-gifts .right .status-desc.ty {
+  color: #ff925a;
+}
+.traffic-guide-plan-title-banner {
+  background: #f7f7f7;
+  border-radius: 12rpx;
+  height: 64rpx;
+  padding: 0 16rpx;
+}
+.traffic-guide-plan-title-banner,
+.traffic-guide-plan-title-banner .title-left {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.traffic-guide-plan-title-banner .title-left .title-tag {
+  background: #198cff;
+  border-radius: 6rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-right: 22rpx;
+  padding: 0 6rpx;
+}
+.traffic-guide-plan-title-banner .title-left .plan-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.traffic-guide-plan-title-banner .title-right {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.traffic-guide-plan-title-banner .title-right .plan-desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.traffic-guide-plan-title-banner .title-right .title-separator {
+  background: #c4c4c4;
+  height: 16rpx;
+  margin: 0 12rpx;
+  width: 2rpx;
+}
+.traffic-guide-plan-public-step-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.traffic-guide-plan-public-step-box .step-type-icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/icon_bus@3x.png)
+    no-repeat;
+  background-size: cover;
+  height: 36rpx;
+  left: 10rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36rpx;
+}
+.traffic-guide-plan-public-step-box .step-type-icon.taxi {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/icon_taxi@3x.png)
+    no-repeat;
+  background-size: cover;
+}
+.traffic-guide-plan-public-step-box .step-trans-icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/transfer_bus@3x.png)
+    no-repeat;
+  background-size: cover;
+  height: 188rpx;
+  margin-left: 74rpx;
+  width: 28rpx;
+}
+.traffic-guide-plan-public-step-box .step-trans-icon.taxi {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/transfer_taxi@3x.png)
+    no-repeat;
+  background-size: cover;
+}
+.smart-trip-traffic-guide-pop {
+  height: 100%;
+  margin: 0-10rpx;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.smart-trip-traffic-guide-pop ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.smart-trip-traffic-guide-pop .traffic-guide-title-bar {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 108rpx;
+  line-height: 108rpx;
+  position: relative;
+  text-align: center;
+}
+.smart-trip-traffic-guide-pop .traffic-guide-title-bar .close-icon {
+  background: url(https://images3.c-ctrip.com/zt/train/common/train-order-smart-reschedule-close.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48rpx;
+}
+.smart-trip-traffic-guide-pop .traffic-guide-content {
+  height: calc(100% - 108rpx);
+}
+.smart-trip-traffic-guide-pop .traffic-plan {
+  padding: 20rpx 0 40rpx;
+}
+.smart-trip-traffic-guide-pop .traffic-plan .traffic-plan-guide {
+  margin-top: 32rpx;
+}
+.smart-trip-traffic-guide-pop .traffic-plan .traffic-plan-guide .station-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-left: 20rpx;
+}
+.smart-trip-traffic-guide-pop .traffic-plan .traffic-plan-guide .instructions {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 116rpx;
+  line-height: 34rpx;
+  margin-left: 20rpx;
+}
+.smart-trip-traffic-guide-pop
+  .traffic-plan
+  .traffic-plan-guide
+  .end-point-banner {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 74rpx;
+}
+.smart-trip-traffic-guide-pop
+  .traffic-plan
+  .traffic-plan-guide
+  .end-point-banner
+  .end-point-icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/start_point@3x.png)
+    no-repeat;
+  background-size: cover;
+  height: 28rpx;
+  width: 28rpx;
+}
+.smart-trip-traffic-guide-pop
+  .traffic-plan
+  .traffic-plan-guide
+  .end-point-banner
+  .end-point-icon.end {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/end_point@3x.png)
+    no-repeat;
+  background-size: cover;
+}
+.smart-trip-traffic-guide-pop .traffic-plan .traffic-plan-guide .walk-step {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 74rpx;
+}
+.smart-trip-traffic-guide-pop
+  .traffic-plan
+  .traffic-plan-guide
+  .walk-step
+  .walk-step-icon {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_10/mini/link@3x.png)
+    no-repeat;
+  background-size: cover;
+  height: 108rpx;
+  margin: 0 8rpx;
+  width: 12rpx;
+}

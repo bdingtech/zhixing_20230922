@@ -1,0 +1,33 @@
+._qe {
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+._Uc {
+  letter-spacing: 0;
+}
+._re {
+  line-height: 32rpx;
+  line-height: 48rpx;
+}
+._se {
+  background: #f2f9ff;
+}
+._te {
+  border-radius: 14rpx;
+  border-radius: 14px;
+}
+._ue {
+  width: 152rpx;
+}
+._ve {
+  padding: 0 12rpx;
+}
+._we {
+  color: #ccc;
+}
+._xe {
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+}

@@ -1,0 +1,2279 @@
+@charset "UTF-8";
+@import "/pages/smart/packageA/sub-vendors.wxss";
+@import "/pages/smart/packageA/sub-common/8eb6adebf46f3f880fd68265fe6db89c.wxss";
+@import "/pages/smart/packageA/sub-common/fa100b4d0df918bb326f38abed01ce42.wxss";
+@import "/pages/smart/packageA/sub-common/ce52d88a6f16c8bdb2407608ffdc7c73.wxss";
+._cp {
+  margin: 24rpx 52rpx 0;
+}
+._dp {
+  animation: breathing 1.2s infinite;
+}
+._Hg {
+  width: 200rpx;
+}
+._ep {
+  width: 340rpx;
+}
+._fp {
+  margin: 34rpx 52rpx 0;
+}
+._lk {
+  width: 160rpx;
+}
+._gp {
+  width: 84rpx;
+}
+._pf {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+._hp {
+  height: 70rpx;
+}
+._ip {
+  padding: 24rpx 32rpx 44rpx;
+}
+._jp {
+  margin: 16rpx 20rpx 0;
+}
+._Wk {
+  height: 154rpx;
+}
+._kp {
+  margin: 6rpx 0 6rpx 24rpx;
+}
+._lp {
+  width: 444rpx;
+}
+._mp {
+  margin: 20rpx 0;
+}
+._De {
+  height: 32rpx;
+}
+._np {
+  margin-right: 42rpx;
+}
+._op {
+  width: 232rpx;
+}
+._zo {
+  margin: 20rpx 20rpx 0;
+}
+._pp {
+  padding: 32rpx 16rpx 16rpx;
+}
+._Yn {
+  margin-bottom: 24rpx;
+}
+._qp {
+  width: 54rpx;
+}
+._mh {
+  height: 108rpx;
+}
+._Qf {
+  margin-right: 16rpx;
+}
+._rp {
+  width: 220rpx;
+}
+._sp {
+  padding: 32rpx 16rpx;
+}
+._tp {
+  width: 382rpx;
+}
+._up {
+  margin-right: 48rpx;
+}
+._Tk {
+  width: 56rpx;
+}
+._If {
+  width: 136rpx;
+}
+._vp {
+  margin-left: 24rpx;
+}
+.smart-tripdetail-bottomlayer {
+  background: #fff;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+}
+.smart-tripdetail-bottomlayer .button {
+  background: #198cff;
+  border-radius: 48rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.smart-tripdetail-bottomlayer.ty .button {
+  background: #ff925a;
+}
+.smart-mini-table .zx-table {
+  border-radius: 16rpx;
+}
+.smart-mini-table .table-noborder {
+  border-right: 1rpx solid #ccc;
+}
+.smart-mini-table .tr {
+  white-space: nowrap;
+}
+.smart-mini-table .td {
+  border: 1rpx solid #ccc;
+  border-bottom: none;
+  border-left: none;
+  display: inline-block;
+  line-height: 35rpx;
+  padding: 16rpx;
+  text-align: center;
+  white-space: nowrap;
+}
+.smart-mini-table .td:first-child {
+  border-left: 1rpx solid #ccc;
+}
+.smart-mini-table .tr.s-class-row .td {
+  font-size: 26rpx;
+}
+.smart-mini-table .td-noborder {
+  border-right: none;
+}
+.smart-mini-table .thead .td {
+  background: #f5f5f5;
+  border-top: 1rpx solid #ccc;
+  color: #333;
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 16rpx;
+  white-space: nowrap;
+}
+.smart-mini-table .thead {
+  overflow: visible;
+}
+.smart-mini-table .thead .td.td:last-child {
+  border-right: 1rpx solid #ccc;
+}
+.smart-mini-table .s-class-row:nth-last-of-type(1) .td {
+  border-bottom: 1rpx solid #ccc;
+}
+.smart-mini-table .s-class-header .td:last-child {
+  border-right: none;
+}
+.smart-bus-refund-pop .mod-book-modal {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 111;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-mask {
+  animation: fade 0.2s linear forwards;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 112;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-mask.hidden {
+  animation: fade-hidden 0.2s linear forwards;
+}
+@-webkit-keyframes fade-hidden {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-hidden {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper {
+  background-color: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  box-shadow: 0 4rpx 20rpx 0 hsla(0, 0%, 82%, 0.5);
+  position: absolute;
+  top: 173rpx;
+  width: 100%;
+  z-index: 113;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper.h5 {
+  top: 410rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper.visible {
+  animation: translate 0.2s linear forwards;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper.hidden {
+  animation: translate-hidden 0.2s linear forwards;
+}
+@-webkit-keyframes translate-hidden {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+@keyframes translate-hidden {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+@-webkit-keyframes translate {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes translate {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar {
+  -ms-flex-align: center;
+  -ms-flex-pack: space-evenly;
+  align-items: center;
+  border-radius: 32rpx 16rpx 0 0;
+  box-shadow: 0 4rpx 20rpx 0 hsla(0, 0%, 82%, 0.5);
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  height: 108rpx;
+  justify-content: space-evenly;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .content .check,
+.smart-bus-refund-pop .mod-book-modal .content .meal,
+.smart-bus-refund-pop .mod-book-modal .content .model,
+.smart-bus-refund-pop .mod-book-modal .content .order,
+.smart-bus-refund-pop .mod-book-modal .content .retreat,
+.smart-bus-refund-pop .mod-book-modal .content .wipe {
+  position: relative;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content {
+  height: 100%;
+  padding-bottom: 190rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .hid {
+  height: 1rpx;
+  width: 100%;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .order {
+  margin-bottom: 60rpx;
+  margin-top: 60rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .check {
+  margin-bottom: 60rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .check .map {
+  height: 200rpx;
+  margin: 32rpx auto 0;
+  width: 690rpx;
+}
+.smart-bus-refund-pop
+  .mod-book-modal
+  .modal-wrapper
+  .content
+  .check
+  .map
+  .name {
+  background: #fff;
+  border-radius: 18rpx;
+  box-shadow: 0 2rpx 4rpx 0 rgba(0, 0, 0, 0.12);
+  left: 54%;
+  padding: 5rpx;
+  position: absolute;
+  top: 29%;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .wipe {
+  margin-bottom: 60rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .retreat {
+  padding-bottom: 700rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .retreat .desc {
+  padding-top: 18rpx;
+}
+.smart-bus-refund-pop
+  .mod-book-modal
+  .modal-wrapper
+  .content
+  .retreat
+  .desc::before {
+  top: 18rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .desc {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-left: 30rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .desc::before {
+  border-radius: 4rpx;
+  content: "";
+  height: 36rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 8rpx;
+}
+.smart-bus-refund-pop .zx.mod-book-modal .modal-wrapper .content .desc::before {
+  background: #0080ff;
+}
+.smart-bus-refund-pop .ty.mod-book-modal .modal-wrapper .content .desc::before {
+  background: #ff5959;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .deta {
+  margin: 32rpx 30rpx 0;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .deta .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .deta .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin-bottom: 28rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+}
+.smart-bus-refund-pop
+  .mod-book-modal
+  .modal-wrapper
+  .content
+  .deta
+  .tit.no-wrap {
+  white-space: nowrap;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .content .deta .con {
+  color: #333;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  text-align: justify;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .retreat .deta .lst {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin-bottom: 48rpx;
+  margin-top: 24rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .retreat .deta .aff {
+  margin-top: 24rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .meal,
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .model {
+  margin: 60rpx 0;
+}
+.smart-bus-refund-pop .mod-ook-modal .modal-wrapper .model .deta {
+  margin-left: 0;
+}
+.smart-bus-refund-pop .mod-ook-modal .modal-wrapper .model .deta .img-item {
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .model .deta .car-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .model .deta .tit {
+  white-space: nowrap;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .model .deta .img-cont {
+  text-align: center;
+}
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.fir
+  .item:first-child,
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.sec
+  .item:nth-of-type(2),
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.thir
+  .item:nth-of-type(3) {
+  color: #0080ff;
+}
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.fir
+  .item:first-child,
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.sec
+  .item:nth-of-type(2),
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.thir
+  .item:nth-of-type(3) {
+  color: #ff5959;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.fir::after {
+  left: 189rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.fir::after,
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.sec::after {
+  background: #0080ff;
+  border-radius: 4rpx;
+  content: "";
+  height: 8rpx;
+  position: absolute;
+  top: 104rpx;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  width: 72rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.sec::after {
+  left: 489rpx;
+}
+.smart-bus-refund-pop .zx.mod-book-modal .modal-wrapper .tabbar.fir::after {
+  background: #0080ff;
+}
+.smart-bus-refund-pop .ty.mod-book-modal .modal-wrapper .tabbar.fir::after {
+  background: #ff5959;
+}
+.smart-bus-refund-pop .zx.mod-book-modal .modal-wrapper .tabbar.sec::after {
+  background: #0080ff;
+}
+.smart-bus-refund-pop .ty.mod-book-modal .modal-wrapper .tabbar.sec::after {
+  background: #ff5959;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.fir.adapt::after {
+  left: 104rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.fir.adapt::after,
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.sec.adapt::after {
+  background: #0080ff;
+  border-radius: 4rpx;
+  content: "";
+  height: 8rpx;
+  position: absolute;
+  top: 104rpx;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  width: 72rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.sec.adapt::after {
+  left: 339rpx;
+}
+.smart-bus-refund-pop .mod-book-modal .modal-wrapper .tabbar.thir.adapt::after {
+  background: #0080ff;
+  border-radius: 4rpx;
+  content: "";
+  height: 8rpx;
+  left: 561rpx;
+  position: absolute;
+  top: 104rpx;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  width: 72rpx;
+}
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.fir.adapt::after {
+  background: #0080ff;
+}
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.fir.adapt::after {
+  background: #ff5959;
+}
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.sec.adapt::after {
+  background: #0080ff;
+}
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.sec.adapt::after {
+  background: #ff5959;
+}
+.smart-bus-refund-pop
+  .zx.mod-book-modal
+  .modal-wrapper
+  .tabbar.thir.adapt::after {
+  background: #0080ff;
+}
+.smart-bus-refund-pop
+  .ty.mod-book-modal
+  .modal-wrapper
+  .tabbar.thir.adapt::after {
+  background: #ff5959;
+}
+.smart-bus-refund-pop cover-view {
+  visibility: visible;
+}
+.smart-tripdetail-robmodal {
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 32rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  width: 600rpx;
+}
+.smart-tripdetail-robmodal .title {
+  color: #333;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 56rpx;
+  margin-bottom: 14rpx;
+}
+.smart-tripdetail-robmodal .sub-title {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 42rpx;
+}
+.smart-tripdetail-robmodal .desc {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 30rpx;
+}
+.smart-tripdetail-robmodal .icon {
+  height: 200rpx;
+  margin-bottom: 20rpx;
+  margin-top: 40rpx;
+  width: 480rpx;
+}
+.smart-tripdetail-robmodal .btn-wrap {
+  margin-top: 40rpx;
+  width: 100%;
+}
+.smart-tripdetail-robmodal .btn {
+  background-color: #f5f5f5;
+  border-radius: 12rpx;
+  color: #666;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.smart-tripdetail-robmodal .cancle {
+  margin-right: 20rpx;
+}
+.smart-tripdetail-robmodal .confirm {
+  background-color: #0080ff;
+  color: #fff;
+}
+.smart-x-member-pop .zt-drawer-content {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#feebd0),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #feebd0, #f5f5f5);
+  background: -o-linear-gradient(top, #feebd0 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #feebd0, #f5f5f5);
+  border-radius: 40rpx 40rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+}
+.smart-x-member-pop .header {
+  border-radius: 40rpx 40rpx 0 0;
+  box-sizing: border-box;
+  flex: 0 0 136rpx;
+  height: 136rpx;
+  overflow: hidden;
+  padding: 44rpx 0 32rpx 50rpx;
+  position: relative;
+}
+.smart-x-member-pop .header .tit {
+  color: #803906;
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  position: relative;
+}
+.smart-x-member-pop .header .bg {
+  height: 264rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 264rpx;
+}
+.smart-x-member-pop .header .header-icon-closed {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 50rpx;
+  width: 48rpx;
+}
+.smart-x-member-pop .container {
+  flex: 1;
+  overflow: auto;
+}
+.smart-x-member-pop .container .core-rights-box,
+.smart-x-member-pop .container .union-vip-rights-box,
+.smart-x-member-pop .container .vip-grade-rights-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx 16rpx 0;
+  padding: 30rpx 0 40rpx;
+}
+.smart-x-member-pop .container .core-rights-box .tit-box,
+.smart-x-member-pop .container .union-vip-rights-box .tit-box,
+.smart-x-member-pop .container .vip-grade-rights-box .tit-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30rpx;
+}
+.smart-x-member-pop .container .core-rights-box .tit-box .line,
+.smart-x-member-pop .container .union-vip-rights-box .tit-box .line,
+.smart-x-member-pop .container .vip-grade-rights-box .tit-box .line {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ffeacc),
+    to(#ffca80)
+  );
+  background: -webkit-linear-gradient(bottom, #ffeacc, #ffca80);
+  background: -o-linear-gradient(bottom, #ffeacc 0, #ffca80 100%);
+  background: linear-gradient(0deg, #ffeacc, #ffca80);
+  border-radius: 4rpx;
+  height: 34rpx;
+  width: 10rpx;
+}
+.smart-x-member-pop .container .core-rights-box .tit-box .tit,
+.smart-x-member-pop .container .union-vip-rights-box .tit-box .tit,
+.smart-x-member-pop .container .vip-grade-rights-box .tit-box .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 10rpx;
+}
+.smart-x-member-pop .container .core-rights-box {
+  margin-top: 0;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box {
+  height: 336rpx;
+  margin-top: 20rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 336rpx;
+  justify-content: center;
+  width: 320rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff5e8;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 308rpx;
+  width: 280rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .img-tit {
+  border-radius: 24rpx;
+  height: 172rpx;
+  margin-top: 8rpx;
+  width: 264rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 20rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .sub-tit {
+  color: #803906;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 6rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur {
+  height: 336rpx;
+  margin: 0 auto;
+  width: 320rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur
+  .img-tit {
+  height: 198rpx;
+  width: 304rpx;
+}
+.smart-x-member-pop
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur
+  .tit {
+  font-size: 32rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 22rpx;
+}
+.smart-x-member-pop .container .union-vip-rights-box .detail-box,
+.smart-x-member-pop .container .vip-grade-rights-box .detail-box {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 60rpx 0;
+}
+.smart-x-member-pop
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box,
+.smart-x-member-pop
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  width: 80rpx;
+}
+.smart-x-member-pop
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .icon,
+.smart-x-member-pop
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .icon {
+  height: 80rpx;
+  width: 80rpx;
+}
+.smart-x-member-pop
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .tit,
+.smart-x-member-pop
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 22rpx;
+  font-weight: 600;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 12rpx;
+}
+.smart-x-member-pop
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .desc,
+.smart-x-member-pop
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-left: 10rpx;
+}
+.smart-x-member-pop .container .blank {
+  background: transparent;
+  height: calc(266rpx + env(safe-area-inset-bottom));
+  width: 100%;
+}
+.smart-x-member-pop .footer {
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0 0 8rpx 0 rgba(0, 0, 0, 0.04);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: absolute;
+  right: 0;
+}
+.smart-x-member-pop .footer.v2 {
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.smart-x-member-pop .footer .button-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1a1a1a),
+    to(#404040)
+  );
+  background: -webkit-linear-gradient(left, #1a1a1a, #404040);
+  background: -o-linear-gradient(left, #1a1a1a 0, #404040 100%);
+  background: linear-gradient(90deg, #1a1a1a, #404040);
+  border-radius: 28rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96rpx;
+  padding: 8rpx 8rpx 8rpx 40rpx;
+}
+.smart-x-member-pop .footer .button-box .price {
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ZX-Regular;
+  font-size: 52rpx;
+  font-weight: 400;
+  height: 62rpx;
+  line-height: 62rpx;
+}
+.smart-x-member-pop .footer .button-box .price::before {
+  content: "¥";
+  display: block;
+  font-family: ZX-Regular;
+  font-size: 32rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 14rpx;
+}
+.smart-x-member-pop .footer .button-box .unit {
+  margin-left: 2rpx;
+}
+.smart-x-member-pop .footer .button-box .tag,
+.smart-x-member-pop .footer .button-box .unit {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 14rpx;
+}
+.smart-x-member-pop .footer .button-box .tag {
+  flex: 1;
+  margin-left: 10rpx;
+  opacity: 0.5;
+}
+.smart-x-member-pop .footer .button-box .btn-confirm {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffecd1),
+    to(#ffd199)
+  );
+  background: -webkit-linear-gradient(left, #ffecd1, #ffd199);
+  background: -o-linear-gradient(left, #ffecd1 0, #ffd199 100%);
+  background: linear-gradient(-270deg, #ffecd1, #ffd199);
+  border-radius: 20rpx;
+  color: #803906;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 224rpx;
+}
+.smart-x-member-pop .footer .button-box-v2 {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.smart-x-member-pop .footer .button-box-v2 .btn-double {
+  border-radius: 24rpx;
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0;
+  padding: 0;
+  width: 352rpx;
+}
+.smart-x-member-pop .footer .button-box-v2 .btn-double.left {
+  background: #f7f7f7;
+  color: #666;
+}
+.smart-x-member-pop .footer .button-box-v2 .btn-double.right {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffecd1),
+    to(#ffd199)
+  );
+  background: -webkit-linear-gradient(left, #ffecd1, #ffd199);
+  background: -o-linear-gradient(left, #ffecd1 0, #ffd199 100%);
+  background: linear-gradient(-270deg, #ffecd1, #ffd199);
+  color: #803906;
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.smart-x-notice-swiper {
+  height: 64rpx;
+  margin: 0 20rpx;
+}
+.smart-x-notice-swiper .notice-item {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 20rpx;
+  line-height: 64rpx;
+  padding: 0 32rpx;
+}
+.smart-x-notice-swiper .content {
+  color: #fff;
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 0;
+}
+.smart-x-notice-swiper .arrow {
+  color: #fff;
+  font-size: 20rpx;
+  margin-left: 26rpx;
+}
+.smart-tripdetail-simple {
+  margin: 24rpx 52rpx 32rpx;
+}
+.smart-tripdetail-simple .top-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.smart-tripdetail-simple .top-box .l-time {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.smart-tripdetail-simple .top-box .r-shift .zz-tag {
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 6rpx;
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 28rpx;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-right: 8rpx;
+  text-align: center;
+  width: 52rpx;
+}
+.smart-tripdetail-simple .top-box .r-shift .trip-no {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 36rpx;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-tripdetail-simple .top-box .r-shift .zz-icon {
+  height: 24rpx;
+  margin: 0 8rpx;
+  width: 24rpx;
+}
+.smart-tripdetail-simple .sta-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 34rpx;
+}
+.smart-tripdetail-simple .sta-box .time {
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 58rpx;
+  font-weight: 600;
+  height: 60rpx;
+  letter-spacing: 0;
+  line-height: 60rpx;
+}
+.smart-tripdetail-simple .sta-box .sta {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 36rpx;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-top: 4rpx;
+}
+.smart-tripdetail-simple .sta-box .m-box {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 6rpx;
+}
+.smart-tripdetail-simple .sta-box .m-box .time-tips {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.smart-tripdetail-simple .sta-box .m-box .transfer-icon {
+  height: 16rpx;
+  margin-top: 8rpx;
+  width: 104rpx;
+}
+.smart-tripdetail-simple .sta-box .r-box {
+  text-align: right;
+}
+.smart-x-transfer-card .combine {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin: 14rpx 0;
+  max-width: 382rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-x-transfer-card .combine .exchange-desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  margin-left: 4rpx;
+}
+.smart-x-transfer-card .exchange-box .t-icon {
+  height: 24rpx;
+  margin-right: 8rpx;
+  width: 24rpx;
+}
+.smart-x-transfer-card .exchange-box .desc {
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  max-width: 382rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-x-transfer-card .exchange-box .stay-info {
+  margin-top: 8rpx;
+}
+.collapse-trip-info .sequence-box {
+  background: rgba(26, 140, 255, 0.1);
+  border-radius: 16rpx;
+  padding: 8rpx 0;
+  width: 48rpx;
+}
+.collapse-trip-info .sequence-box .s-item .idx {
+  background: #198cff;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  width: 32rpx;
+}
+.collapse-trip-info .sequence-box .s-item .icons {
+  margin: 20rpx 0;
+}
+.collapse-trip-info .sequence-box .s-item .icons.m36 {
+  margin: 36rpx 0;
+}
+.collapse-trip-info .sequence-box .s-item .icons .icon {
+  background: rgba(25, 140, 255, 0.2);
+  border-radius: 50%;
+  height: 6rpx;
+  width: 6rpx;
+}
+.collapse-trip-info .sequence-box .s-item .icons .icon.mid-icon {
+  background: rgba(25, 140, 255, 0.4);
+  margin: 8rpx 0;
+}
+.collapse-trip-info .time {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  width: 170rpx;
+}
+.collapse-trip-info .v-line {
+  background: #ccc;
+  border-radius: 0 0;
+  height: 20rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  width: 2rpx;
+}
+.collapse-trip-info .station {
+  color: #222;
+  font-size: 28rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  max-width: 370rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.collapse-trip-info .duration,
+.collapse-trip-info .station {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.collapse-trip-info .duration {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-right: 42rpx;
+  width: 160rpx;
+}
+.collapse-trip-info .train-info {
+  margin: 6rpx 0 6rpx 24rpx;
+}
+.collapse-trip-info .train-info .transfer-item {
+  margin: 14rpx 0;
+}
+.smart-tripdetail-trip-item {
+  padding: 0 12rpx;
+}
+.smart-tripdetail-trip-item .left {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-right: 28rpx;
+}
+.smart-tripdetail-trip-item .icon-bg {
+  background-color: rgba(26, 140, 255, 0.1);
+  border-radius: 8rpx;
+  height: 44rpx;
+  width: 44rpx;
+}
+.ty .smart-tripdetail-trip-item .icon-bg {
+  background-color: rgba(252, 110, 81, 0.1);
+}
+.smart-tripdetail-trip-item .trip-icon {
+  color: #0080ff;
+  font-size: 24rpx;
+}
+.smart-tripdetail-trip-item .type-name {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 36rpx;
+  margin-left: 8rpx;
+}
+.smart-tripdetail-trip-item .time {
+  -ms-flex-align: end;
+  -ms-flex-pack: justify;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16rpx;
+}
+.smart-tripdetail-trip-item .time-txt {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+}
+.smart-tripdetail-trip-item .day-diff {
+  color: #333;
+  font-size: 18rpx;
+  left: -24rpx;
+  position: absolute;
+  top: 10rpx;
+}
+.smart-tripdetail-trip-item .cost-time {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.smart-tripdetail-trip-item .arriive-time {
+  position: relative;
+}
+.smart-tripdetail-trip-item .line-wrap {
+  height: 192rpx;
+  width: 8rpx;
+}
+.smart-tripdetail-trip-item .right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28rpx;
+  margin-top: 2rpx;
+}
+.smart-tripdetail-trip-item .date {
+  color: #333;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+.smart-tripdetail-trip-item .split-line {
+  background-color: #ededed;
+  height: 20rpx;
+  margin: 0 11rpx;
+  width: 2rpx;
+}
+.smart-tripdetail-trip-item .air-icon {
+  height: 28rpx;
+  margin-right: 8rpx;
+  width: 28rpx;
+}
+.smart-tripdetail-trip-item .number {
+  color: #333;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  margin-right: 12rpx;
+}
+.smart-tripdetail-trip-item .rob-tag {
+  background: rgba(255, 89, 89, 0.15);
+  border-radius: 8rpx;
+  color: #ff5959;
+  font-size: 20rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  width: 52rpx;
+}
+.smart-tripdetail-trip-item .station {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 26rpx;
+  width: 0;
+}
+.smart-tripdetail-trip-item .station-txt {
+  color: #333;
+  font-size: 34rpx;
+  font-weight: 500;
+  line-height: 44rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-tripdetail-trip-item .to-station {
+  margin-bottom: 10rpx;
+}
+.smart-tripdetail-trip-item .flight {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 26rpx;
+}
+.smart-tripdetail-trip-item .flight-cal {
+  margin-top: 4rpx;
+}
+.smart-tripdetail-trip-item .train-info {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 26rpx;
+}
+.smart-tripdetail-trip-item .train-info .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 4rpx;
+  margin-top: 4rpx;
+}
+.smart-transfer-panel .transit {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(#f8f8f8)
+  );
+  background: -webkit-linear-gradient(right, #fff, #f8f8f8);
+  background: -o-linear-gradient(right, #fff 0, #f8f8f8 100%);
+  background: linear-gradient(-90deg, #fff, #f8f8f8);
+  border-radius: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 60rpx;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: 24rpx;
+  margin-top: 24rpx;
+  position: relative;
+  width: 670rpx;
+}
+.smart-transfer-panel .transit .iconfont {
+  font-size: 30rpx;
+  margin: 0 12rpx 0 22rpx;
+  opacity: 0.8;
+}
+.smart-transfer-panel .transit .combine-seat-icon {
+  height: 30rpx;
+  margin: 0 12rpx 0 22rpx;
+  width: 30rpx;
+}
+.smart-transfer-panel .transit .ifont-qus {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin-left: 8rpx;
+  opacity: unset;
+}
+.smart-transfer-panel .transit .transit-type {
+  color: #333;
+  margin-right: 16rpx;
+}
+.smart-transfer-panel .transit .transit-info {
+  color: #999;
+}
+.smart-transfer-panel .transit .color-blue {
+  color: #198cff;
+}
+.smart-transfer-panel .transit .color-red {
+  color: #ff5959;
+}
+.smart-transfer-panel .transit .guide-box .guide-icon {
+  height: 24rpx;
+  margin-right: 4rpx;
+  width: 24rpx;
+}
+.smart-transfer-panel .transit .guide-box .guide-txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.unfold-trip-info {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.5s, opacity 0.25s, visibility 0.25s;
+  z-index: 10;
+}
+.unfold-trip-info.unfold {
+  padding: 32rpx 20rpx 56rpx;
+}
+.unfold-trip-info .end-box,
+.unfold-trip-info .start-box {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(#f8f8f8)
+  );
+  background: -webkit-linear-gradient(right, #fff, #f8f8f8);
+  background: -o-linear-gradient(right, #fff 0, #f8f8f8 100%);
+  background: linear-gradient(-90deg, #fff, #f8f8f8);
+  border-radius: 30rpx;
+  height: 60rpx;
+}
+.unfold-trip-info .end-box .tag,
+.unfold-trip-info .start-box .tag {
+  border-radius: 50%;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 32rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 12rpx;
+  text-align: center;
+  width: 32rpx;
+}
+.unfold-trip-info .end-box .txt,
+.unfold-trip-info .start-box .txt {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.unfold-trip-info .end-box .tit,
+.unfold-trip-info .start-box .tit {
+  color: #333;
+  margin-right: 12rpx;
+}
+.unfold-trip-info .end-box .sub-tit,
+.unfold-trip-info .start-box .sub-tit {
+  color: #999;
+}
+.unfold-trip-info .start-box {
+  margin-bottom: 24rpx;
+}
+.unfold-trip-info .start-box .tag {
+  background: #198cff;
+  border: 4rpx solid #e6f2ff;
+}
+.unfold-trip-info .end-box {
+  margin-top: 24rpx;
+}
+.unfold-trip-info .end-box .tag {
+  background: #ff5959;
+  border: 4rpx solid #ffebeb;
+}
+.smart-tripdetail-trip {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 16rpx 20rpx 0;
+  padding: 24rpx 32rpx 44rpx;
+  position: relative;
+}
+.smart-tripdetail-trip.unfold {
+  padding: 0;
+}
+.smart-tripdetail-trip .status-icon {
+  -ms-flex-pack: center;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2022_01/icon_arrow_bg@3x.png);
+  background-size: contain;
+  bottom: 0;
+  height: 28rpx;
+  justify-content: center;
+  left: calc(50% - 64rpx);
+  position: absolute;
+  width: 130rpx;
+  z-index: 11;
+}
+.smart-tripdetail-trip .status-icon .icon {
+  height: 14rpx;
+  transform: rotate(180deg);
+  width: 22rpx;
+}
+.smart-tripdetail-trip .status-icon .icon.opend {
+  transform: rotate(1turn);
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+.smart-tripdetail-trainseats {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 32rpx 16rpx 16rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box {
+  margin-bottom: 8rpx;
+  padding: 0 16rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item {
+  background: #fff;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .sequence {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(#f8f8f8)
+  );
+  background: -webkit-linear-gradient(right, #fff, #f8f8f8);
+  background: -o-linear-gradient(right, #fff 0, #f8f8f8 100%);
+  background: linear-gradient(-90deg, #fff, #f8f8f8);
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 108rpx;
+  line-height: 24rpx;
+  margin-right: 16rpx;
+  padding: 18rpx 20rpx 18rpx 12rpx;
+  text-align: center;
+  width: 56rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+.smart-tripdetail-trainseats
+  .trip-seat-box
+  .ts-item
+  .seat-scroll::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item {
+  -ms-flex-negative: 0;
+  background: #f8f8f8;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 108rpx;
+  margin-bottom: 24rpx;
+  width: 220rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item.not-last {
+  margin-right: 16rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item.current {
+  background: #f3f7ff;
+  border: 2rpx solid #0080ff;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item .seat-name {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item .nor-txt {
+  -ms-flex-negative: 0;
+  color: #333;
+  flex-shrink: 0;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item .nor-txt.ml4 {
+  margin-left: 4rpx;
+}
+.smart-tripdetail-trainseats
+  .trip-seat-box
+  .ts-item
+  .seat-item
+  .nor-txt.no-ticket {
+  color: #999;
+}
+.smart-tripdetail-trainseats .trip-seat-box .ts-item .seat-item .nor-txt.rob {
+  color: #ff5959;
+}
+.smart-tripdetail-trainseats .tips-box {
+  background: rgba(247, 110, 33, 0.05);
+  border-radius: 12rpx;
+  height: 56rpx;
+  margin: 0 12rpx;
+}
+.smart-tripdetail-trainseats .tips-box .ifont-detail {
+  color: #f76e21;
+  font-size: 24rpx;
+  margin-left: 16rpx;
+  margin-right: 8rpx;
+  transform: rotate(180deg);
+}
+.smart-tripdetail-trainseats .tips-box .t-cont {
+  color: #f76e21;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 582rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item {
+  padding: 32rpx 16rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item,
+.smart-tripdetail-trainseats .product-box .product-item .l-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.smart-tripdetail-trainseats .product-box .product-item .l-box .tit-box .tit {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box.mw302 {
+  max-width: 302rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box.mw252 {
+  max-width: 252rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box
+  .desc-item
+  .d-icon {
+  height: 24rpx;
+  margin-right: 6rpx;
+  width: 24rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box
+  .desc-item
+  .desc {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .tit-box
+  .desc-box
+  .desc-item
+  .v-line {
+  background: #9eadc3;
+  height: 16rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  width: 2rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .l-box .price-box {
+  -ms-flex-align: end;
+  -ms-flex-pack: center;
+  align-items: flex-end;
+  justify-content: center;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .price-box
+  .ticket-price {
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .l-box .price-box .tag {
+  background: #fee;
+  border-radius: 6rpx;
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+  font-weight: 400;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.smart-tripdetail-trainseats
+  .product-box
+  .product-item
+  .l-box
+  .price-box
+  .p-price {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .l-box .mt8 {
+  margin-top: 8rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .r-box {
+  background: #198cff;
+  border-radius: 16rpx;
+  height: 80rpx;
+  margin-left: 24rpx;
+  width: 136rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .r-box .btn-name {
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smart-tripdetail-trainseats .product-box .product-item .r-box .btn-desc {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+}
+.smart-trip-seat {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 32rpx 16rpx 16rpx;
+}
+.smart-trip-seat .header {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.smart-trip-seat .header .title {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-left: 16rpx;
+}
+.smart-trip-seat .header .refund-rule {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: right;
+}
+.smart-trip-seat .header .refund-rule .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  height: 32rpx;
+  line-height: 30rpx;
+  padding-left: 4rpx;
+  padding-right: 16rpx;
+}
+.smart-trip-seat .seatlist {
+  -webkit-overflow-scrolling: touch;
+  background: #f5f5f5;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24rpx;
+  overflow-x: auto;
+}
+.smart-trip-seat .seatlist::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.smart-trip-seat .seatlist .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  flex: 1;
+  line-height: 34rpx;
+  min-width: 28%;
+  overflow: hidden;
+  padding: 22rpx 0 18rpx;
+  position: relative;
+  text-align: center;
+}
+.smart-trip-seat .seatlist .item .ifont-select {
+  bottom: -4rpx;
+  color: #0080ff;
+  display: none;
+  height: 32rpx;
+  position: absolute;
+  right: -4rpx;
+  width: 38rpx;
+}
+.smart-trip-seat .seatlist .item::after {
+  background: #eee;
+  bottom: 12rpx;
+  content: "";
+  position: absolute;
+  right: -2rpx;
+  top: 12rpx;
+  width: 2rpx;
+  z-index: 2;
+}
+.smart-trip-seat .seatlist .item:last-child::after {
+  display: none;
+}
+.smart-trip-seat .seatlist .item.current {
+  z-index: 5;
+}
+.smart-trip-seat .seatlist .item.current::after {
+  display: none;
+}
+.smart-trip-seat .seatlist .item.current .ifont-select {
+  display: block;
+}
+.ty .smart-trip-seat .seatlist .item.current {
+  background: rgba(252, 110, 81, 0.1);
+  border: 2rpx solid #fc6e51;
+}
+.zx .smart-trip-seat .seatlist .item.current {
+  background: rgba(0, 128, 255, 0.1);
+  border: 2rpx solid #0080ff;
+}
+.smart-trip-seat .seatlist .item .rob {
+  color: #ff5959;
+  display: inline;
+}
+.smart-trip-seat .seatlist .item .refund-rule,
+.smart-trip-seat .seatlist .item .seat-name,
+.smart-trip-seat .seatlist .item .seat-num,
+.smart-trip-seat .seatlist .item .seat-price {
+  margin-bottom: 4rpx;
+}
+.smart-trip-seat .seatlist .item .seat-name {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  padding: 0 10rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-trip-seat .seatlist .item .seat-price {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.smart-trip-seat .seatlist .item .seat-price::before {
+  content: "￥";
+  font-size: 20rpx;
+  margin-right: -2rpx;
+}
+.smart-trip-seat .seatlist .item .seat-num {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.smart-trip-seat .seatlist .item .seat-num.bus {
+  color: #999;
+}
+.smart-trip-seat .seatlist .item .refund-rule {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.smart-trip-seat .seatlist .item .refund-rule .ifont-arr {
+  color: #333;
+  font-size: 16rpx;
+  height: 32rpx;
+  line-height: 30rpx;
+}
+.smartx-reschedule-trips-area {
+  background: #fff;
+  border-radius: 24rpx;
+  margin-top: 16rpx;
+  position: relative;
+}
+.smartx-reschedule-trips-area .tripinfo {
+  padding: 30rpx 32rpx;
+}
+.smartx-reschedule-trips-area .tripinfo .l-box .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 46rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.smartx-reschedule-trips-area .tripinfo .l-box .price::before {
+  color: #ff5959;
+  content: "¥";
+  display: block;
+  font-family: ZX-Regular;
+  font-size: 30rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  margin-right: 2rpx;
+}
+.smartx-reschedule-trips-area .tripinfo .l-box .station {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin-top: 12rpx;
+}
+.smartx-reschedule-trips-area .tripinfo .m-tripidx {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.smartx-reschedule-trips-area .tripinfo .r-btn {
+  border-radius: 16rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 72rpx;
+  letter-spacing: 0;
+  line-height: 72rpx;
+  margin-left: 24rpx;
+  text-align: center;
+  width: 140rpx;
+}
+.smartx-reschedule-trips-area .h-line {
+  border-bottom: 2rpx dashed #dedede;
+  margin: 0 32rpx;
+}
+.smartx-reschedule-trips-area .book-tips {
+  background: #fff;
+  border-bottom: 1rpx dashed #dedede;
+  border-radius: 0 24rpx 24rpx 0;
+  border-right: 1rpx dashed #dedede;
+  border-top: 1rpx dashed #dedede;
+  height: 40rpx;
+  left: 32rpx;
+  position: absolute;
+  top: 128rpx;
+  width: 140rpx;
+  z-index: 1;
+}
+.smartx-reschedule-trips-area .book-tips .icon {
+  height: 24rpx;
+  margin-right: 4rpx;
+  width: 24rpx;
+}
+.smartx-reschedule-trips-area .book-tips .txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+}
+.smart-tripdetail-seat {
+  margin: 20rpx 20rpx 0;
+}
+.smart-tripdetail-seat .smart-trip-seat:not(:last-child) {
+  margin-bottom: 20rpx;
+}
+.smart-tripdetail-tips {
+  margin: 24rpx 32rpx calc(30rpx + env(safe-area-inset-bottom));
+}
+.smart-tripdetail-tips .txt {
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.smart-tripdetail-tips .tip-item .tit {
+  color: #f76e21;
+}
+.smart-tripdetail-tips .tip-item .content {
+  color: #999;
+}
+.smart-tripdetail-tips .tip-item .content.unfold {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 686rpx;
+}
+.smart-tripdetail-tips .tip-item .content .train-cont {
+  display: inline;
+}
+.smart-tripdetail-tips .tip-item .content .train-rule {
+  color: #198cff;
+  text-decoration: underline;
+}
+.smart-tripdetail-tips .tip-item:not(:last-child) {
+  margin-bottom: 16rpx;
+}
+.smart-tripdetail-tips .view-all {
+  color: #999;
+  margin-top: 24rpx;
+  text-align: center;
+}
+.smart-tripdetail-tips .view-all .ifont2-zhankai_linea_12 {
+  color: #999;
+  font-size: 24rpx;
+  margin-left: 4rpx;
+}
+.page-detail {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 0;
+}
+.page-detail::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.page-detail::before {
+  content: "";
+  height: 432rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.page-detail.zx::before {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.page-detail.ty::before {
+  background: #3c4365;
+}
+.page-detail::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  top: 354rpx;
+  width: 750rpx;
+  z-index: -1;
+}
+.smart-trip-detail {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

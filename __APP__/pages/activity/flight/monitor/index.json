@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "智行机票低价监控",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarFrontColor": "#000000",
+  "backgroundColorTop": "#FF0036",
+  "backgroundColorBottom": "#FFE7B0",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

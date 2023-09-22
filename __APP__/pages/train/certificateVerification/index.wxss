@@ -1,0 +1,108 @@
+@import "/pages/train/sub-vendors.wxss";
+page {
+  background: #fff;
+}
+.certificate-verification {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.certificate-verification,
+.certificate-verification .incomplete-box .info {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.certificate-verification .incomplete-box .info {
+  padding: 140rpx 60rpx 40rpx;
+}
+.certificate-verification .incomplete-box .info .img {
+  height: 240rpx;
+  width: 240rpx;
+}
+.certificate-verification .incomplete-box .info .txt {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-top: 60rpx;
+  text-align: center;
+}
+.certificate-verification .incomplete-box .info .tip {
+  color: #999;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-top: 42rpx;
+  text-align: center;
+}
+.certificate-verification .incomplete-box .info .tip .note {
+  color: #198cff;
+}
+.certificate-verification .incomplete-box .btn-box {
+  padding: 0 60rpx;
+}
+.certificate-verification .incomplete-box .btn-box .btn {
+  border-radius: 50rpx;
+  font-size: 36rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  width: 630rpx;
+}
+.certificate-verification .incomplete-box .btn-box .btn.face {
+  background: -webkit-linear-gradient(3.89deg, #0daeff, #07f);
+  background: -o-linear-gradient(3.89deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(86.11deg, #0daeff, #07f);
+  color: #fff;
+}
+.certificate-verification .incomplete-box .btn-box .btn.message {
+  background: rgba(25, 140, 255, 0.1);
+  color: #198cff;
+  margin-top: 40rpx;
+}
+.certificate-verification .incomplete-box .no-verify {
+  color: #198cff;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.certificate-verification .protocol {
+  bottom: calc(env(safe-area-inset-bottom) + 20rpx);
+  color: #333;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  position: absolute;
+  text-align: center;
+}
+.certificate-verification .protocol .note {
+  color: #198cff;
+}
+.certificate-verification.ty .incomplete-box .info .note {
+  color: #fc6e51;
+}
+.certificate-verification.ty .incomplete-box .btn-box .btn.face {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff9166),
+    to(#fc6e51)
+  );
+  background: -webkit-linear-gradient(left, #ff9166, #fc6e51);
+  background: -o-linear-gradient(left, #ff9166 0, #fc6e51 100%);
+  background: linear-gradient(90deg, #ff9166, #fc6e51);
+  color: #fff;
+}
+.certificate-verification.ty .incomplete-box .btn-box .btn.message {
+  background: rgba(252, 110, 81, 0.1);
+  color: #fc6e51;
+  margin-top: 40rpx;
+}
+.certificate-verification.ty .incomplete-box .no-verify,
+.certificate-verification.ty .protocol .note {
+  color: #fc6e51;
+}

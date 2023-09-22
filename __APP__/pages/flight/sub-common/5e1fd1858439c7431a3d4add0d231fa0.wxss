@@ -1,0 +1,44 @@
+.common-activity-pop .modal-container {
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+.common-activity-pop .modal-container .modal-content {
+  border-radius: 8rpx;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+}
+.common-activity-pop .modal-container .icon-closed {
+  border: 1rpx solid #fff;
+  border-radius: 50%;
+  bottom: -140rpx;
+  height: 64rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 64rpx;
+}
+.common-activity-pop .modal-container .icon-closed::after,
+.common-activity-pop .modal-container .icon-closed::before {
+  background: #fff;
+  content: "";
+  height: 4rpx;
+  left: 50%;
+  margin: -2rpx 0 0-17rpx;
+  position: absolute;
+  top: 50%;
+  width: 34rpx;
+}
+.common-activity-pop .modal-container .icon-closed::before {
+  transform: rotate(45deg);
+}
+.common-activity-pop .modal-container .icon-closed::after {
+  transform: rotate(-45deg);
+}

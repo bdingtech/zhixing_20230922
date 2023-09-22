@@ -1,0 +1,155 @@
+.coupon-btn {
+  margin: 20rpx;
+}
+.coupon-btn .btn-unused {
+  background: #fff;
+  color: #0493ff;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.coupon-btn .btn-unused_hover::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+.coupon-box .item {
+  background: #fff;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  margin: 20rpx;
+  overflow: hidden;
+  padding: 30rpx 40rpx 0;
+  position: relative;
+}
+.coupon-box.active .item {
+  border: 1rpx solid #fe4839;
+  position: relative;
+}
+.coupon-box.active.ty .item::before {
+  background: url(http://images3.c-ctrip.com/zt/wechat/icon-select-ty.png)
+    no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48rpx;
+}
+.coupon-box.active.zx .item::before {
+  background: url(http://images3.c-ctrip.com/zt/wechat/icon-select-zx.png)
+    no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48rpx;
+}
+.coupon-box .coupon-price {
+  box-sizing: border-box;
+  color: #fd4d21;
+  float: left;
+  line-height: 100rpx;
+  margin-right: 30rpx;
+  padding-right: 30rpx;
+  position: relative;
+  text-align: right;
+  width: 150rpx;
+}
+.coupon-box .coupon-price .strong {
+  font-size: 56rpx;
+}
+.coupon-box .coupon-price .yuan {
+  font-size: 24rpx;
+}
+.coupon-box .coupon-price .price-tag {
+  background: #fd4d21;
+  border-radius: 28rpx 28rpx 28rpx 0;
+  color: #fff;
+  font-size: 16rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 0 10rpx;
+  position: absolute;
+  right: -20rpx;
+  top: 0;
+}
+.coupon-box .coupon-bd {
+  min-height: 148rpx;
+  overflow: hidden;
+}
+.coupon-box .tit {
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.coupon-box .tit .ifont-detail {
+  color: #999;
+  margin: -4rpx 0 0 8rpx;
+}
+.coupon-box .txt {
+  color: #808f9e;
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+.coupon-box .coupon-hd {
+  border-image: url(data:image/gif;base64,R0lGODlhBQAFAIAAAOrq6v///yH5BAEHAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7)
+    2 stretch;
+  border-style: solid;
+  border-width: 2rpx 0 0;
+  clear: both;
+}
+.coupon-box .coupon-hd .btn-use {
+  background: #fff;
+  color: #0493ff;
+  font-size: 30rpx;
+  height: 80rpx;
+}
+.coupon-box .coupon-hd .btn-use::after {
+  border: 0;
+}
+.coupon-box .coupon-hd .btn-use_hover::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+.coupon-box.disabled {
+  color: #999;
+}
+.coupon-box.disabled .coupon-price .price-tag {
+  background: #999;
+}
+.coupon-box.disabled .coupon-hd .btn-use {
+  color: #999;
+}
+.coupon-tit {
+  margin: 20rpx 20rpx 0;
+}
+.coupon-box.disabled,
+.coupon-box.disabled .coupon-price,
+.coupon-box.disabled .txt,
+.coupon-tit {
+  color: #979797;
+}
+.coupon-box.disabled .coupon-hd {
+  line-height: 80rpx;
+}
+.coupon-box .icon-qus {
+  border: 2rpx solid #ccc;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40rpx;
+  margin: -4rpx 0 0 12rpx;
+  position: relative;
+  vertical-align: middle;
+  width: 40rpx;
+}
+.coupon-box .icon-qus::after {
+  color: #999;
+  content: "?";
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  position: absolute;
+  text-align: center;
+  width: 40rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "排行榜",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#0066e6",
+  "backgroundColorTop": "#0066e6",
+  "backgroundColorBottom": "#FFFFFF",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

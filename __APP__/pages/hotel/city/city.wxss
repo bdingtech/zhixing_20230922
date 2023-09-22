@@ -1,0 +1,341 @@
+@import "/pages/hotel/sub-vendors.wxss";
+.ht-city-root .header-bg-view-content,
+.ht-city-root .page-wrapper-header {
+  background-color: #efefef;
+}
+.ht-city {
+  flex-flow: column nowrap;
+  height: 100%;
+  padding: 0 16rpx;
+}
+.ht-city,
+.ht-city .search-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ht-city .search-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.ht-city .search-wrap .ifont-search {
+  color: #999;
+  left: 32rpx;
+  position: absolute;
+  top: 34rpx;
+}
+.ht-city .search-wrap .ifont-del {
+  color: #999;
+  position: absolute;
+  right: 132rpx;
+  top: 34rpx;
+}
+.ht-city .search-wrap .input {
+  background: #fff;
+  border: 3rpx solid #e6e6e6;
+  border-radius: 24rpx;
+  color: #222;
+  flex: 1;
+  font-family: PingFangSC-Semibold;
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 38rpx;
+  padding: 26rpx 64rpx 26rpx 80rpx;
+}
+.ht-city .search-wrap .input-holder {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.ht-city .search-wrap .cancel {
+  color: #82868f;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  font-weight: 400;
+  height: 42rpx;
+  margin: 0 20rpx;
+  width: 60rpx;
+}
+.ht-city .result {
+  background: #fff;
+  border-radius: 24rpx;
+  flex: 1;
+  margin-top: 24rpx;
+  overflow: hidden;
+  padding: 28rpx 32rpx;
+  position: relative;
+  width: calc(100% - 64rpx);
+}
+.ht-city .result ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.ht-city .result .search-item {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20rpx 0;
+}
+.ht-city .result .search-item:first-child {
+  padding-top: 0;
+}
+.ht-city .result .search-item:last-child {
+  border-bottom: none;
+}
+.ht-city .result .left {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+}
+.ht-city .result .left .iconfont {
+  margin: 6rpx 16rpx 0 0;
+}
+.ht-city .result .left .tit-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ht-city .result .left .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  width: 100%;
+}
+.ht-city .result .left .desc {
+  margin-top: 8rpx;
+}
+.ht-city .result .catg,
+.ht-city .result .left .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.ht-city .result .pois {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16rpx;
+  width: 100%;
+}
+.ht-city .result .pois,
+.ht-city .result .pois .poi {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ht-city .result .pois .poi {
+  -ms-flex-pack: center;
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  color: #222;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 70rpx;
+  justify-content: center;
+  margin: 0 16rpx 16rpx 0;
+  padding: 0 15rpx;
+  text-align: center;
+  width: calc(33.33333% - 32rpx / 3 - 30rpx);
+}
+.ht-city .result .pois .poi:nth-child(3n) {
+  margin-right: 0;
+}
+.ht-city .city-wrap {
+  padding-right: 12rpx;
+}
+.ht-city .city-wrap .type {
+  margin-bottom: 20rpx;
+}
+.ht-city .city-wrap .type .items {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+.ht-city .city-wrap .type .items .item {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #f7f7f7;
+  border: none;
+  border-radius: 16rpx;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 68rpx;
+  justify-content: center;
+  margin: 0 16rpx 16rpx 0;
+  padding: 0 15rpx;
+  position: relative;
+  text-align: center;
+  width: calc(25% - 48rpx / 4 - 30rpx);
+}
+.ht-city .city-wrap .type .items .item:nth-child(4n) {
+  margin-right: 0;
+}
+.ht-city .city-wrap .type .items .item.primary {
+  background: #edf6ff;
+}
+.ht-city .city-wrap .type .items .hot-tag {
+  height: 28rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(12rpx, -12rpx);
+  width: 52rpx;
+}
+.ht-city .city-wrap .label {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  margin-bottom: 20rpx;
+}
+.ht-city .city-wrap .label.history {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.ht-city .city-wrap .location {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ht-city .city-wrap .licon {
+  height: 20rpx;
+  margin: 6rpx 6rpx 0 0;
+  width: 20rpx;
+}
+.ht-city .city-wrap .address-wrap .detail {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.ht-city .city-wrap .address-wrap .city {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin: 8rpx 0 0 26rpx;
+}
+.ht-city .city-wrap .city-list {
+  margin-top: 40rpx;
+}
+.ht-city .city-wrap .city-list .tag {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.ht-city .city-wrap .city-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  height: 100rpx;
+  line-height: 40rpx;
+}
+.ht-city .city-wrap .city-list .item:last-child {
+  border-bottom: none;
+}
+.ht-city .city-wrap .tick {
+  height: 40rpx;
+  position: absolute;
+  right: 72rpx;
+  width: 40rpx;
+}
+.ht-city .city-tag-faker {
+  position: absolute;
+  right: 10rpx;
+  top: 200rpx;
+}
+.ht-city .city-tag-list {
+  position: absolute;
+  right: 18rpx;
+  text-align: center;
+  top: 200rpx;
+}
+.ht-city .city-tag-list .tag-wrap {
+  height: 34rpx;
+}
+.ht-city .city-tag-list .tag {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.ht-city .city-notice-tag {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/yuyantao/Citychoose/zimuxuanzhong@3x.webp);
+  background-size: 100% 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+  position: absolute;
+  right: 80rpx;
+  transform: translateY(-50%);
+  width: 114rpx;
+}
+.ht-city .city-notice-tag .txt {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 56rpx;
+  font-weight: 500;
+  line-height: 96rpx;
+  margin-right: 18rpx;
+}
+.zx .ht-city .search-wrap .input:hover {
+  border: 3rpx solid #198cff;
+}
+.ty .ht-city .search-wrap .input:hover {
+  border: 3rpx solid #fc6e51;
+}

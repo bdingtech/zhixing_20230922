@@ -1,0 +1,32 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.shareinfo-set {
+  background: #fff;
+  padding: 30rpx 30rpx 90rpx;
+}
+.shareinfo-set .topNote {
+  -ms-flex-pack: center;
+  background: #0080ff;
+  border-radius: 16rpx;
+  color: #fff;
+  flex-direction: column;
+  font-size: 24rpx;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  overflow: hidden;
+  padding: 30rpx;
+}
+.shareinfo-set .row {
+  margin-top: 30rpx;
+}
+.shareinfo-set .row .h5-button {
+  background-color: initial;
+  border: 1rpx solid #eee;
+  border-radius: 50rpx;
+  box-shadow: 0 10rpx 20rpx -13rpx rgba(32, 56, 117, 0.35);
+  transition: color 0.3s, background 0.3s, scale 0.3s, border-color 0.3s;
+}
+.shareinfo-set .active .h5-button {
+  border-color: #2aaf67;
+  color: #2aaf67;
+  scale: 1.05;
+}

@@ -1,0 +1,811 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+page {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2e60ff),
+    color-stop(35%, #4ecfff),
+    color-stop(70%, #d2efff)
+  );
+  background: -webkit-linear-gradient(top, #2e60ff, #4ecfff 35%, #d2efff 70%);
+  background: -o-linear-gradient(top, #2e60ff, #4ecfff 35%, #d2efff 70%);
+  background: linear-gradient(180deg, #2e60ff, #4ecfff 35%, #d2efff 70%);
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 100;
+}
+.top-bar .ifont-back,
+.top-bar .ifont-home {
+  bottom: 0;
+  font-size: 32rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  width: 88rpx;
+}
+.top-bar .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+}
+.top-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20221222-ztrip-train-welfare-group/top-bg.png)
+    no-repeat 0 100%;
+  background-size: 100% 488rpx;
+  height: 380rpx;
+  position: relative;
+}
+.top-box .slogan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/slogan.png)
+    no-repeat;
+  background-size: cover;
+  height: 162rpx;
+  margin: 120rpx 0 0 20rpx;
+  width: 460rpx;
+}
+.top-box .fixed-rule {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/fixed-rule.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 150rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 0;
+  width: 40rpx;
+}
+.wrap {
+  margin-top: -24rpx;
+}
+.main-box {
+  background: #fff;
+  border-radius: 52rpx;
+  margin: 0 22rpx;
+  padding: 56rpx 44rpx 44rpx;
+  position: relative;
+}
+.main-hd {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.main-hd .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.main-hd .txt {
+  color: #00a1ff;
+  font-size: 24rpx;
+}
+.main-bd {
+  margin-top: 30rpx;
+  position: relative;
+  z-index: 2;
+}
+.main-bd .input-txt {
+  background: #f5f5f7;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  height: 82rpx;
+  padding: 0 24rpx;
+  width: 100%;
+}
+.main-bd .input-pld {
+  color: #c4c4c4;
+  font-size: 28rpx;
+}
+.main-bd .btn-line,
+.main-bd .btn-speed {
+  border-radius: 96rpx;
+  font-weight: 700;
+  height: 106rpx;
+  line-height: 106rpx;
+  width: 100%;
+}
+.main-bd .btn-speed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20221222-ztrip-train-welfare-group/btn-speed.png)
+    no-repeat;
+  background-size: 100% 106rpx;
+  color: #fff;
+  font-size: 38rpx;
+  margin-top: 60rpx;
+  overflow: inherit;
+}
+.main-bd .btn-speed[disabled] {
+  background: #fdc49a !important;
+  font-size: 32rpx !important;
+  margin-top: 40rpx;
+}
+.main-bd .btn-speed .tag {
+  background: url(https://images3.c-ctrip.com/zt/activity/20221222-ztrip-train-welfare-group/btn-tag.png)
+    no-repeat;
+  background-size: cover;
+  color: #a20100;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 32rpx;
+  position: absolute;
+  right: -34rpx;
+  text-align: center;
+  top: -24rpx;
+  width: 128rpx;
+}
+.main-bd .btn-speed + .btn-speed {
+  margin-top: 20rpx;
+}
+.main-bd .btn-line {
+  background: #fff;
+  border: 2rpx solid #ff8206;
+  color: #ff9741;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+.main-bd .info {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 16rpx;
+}
+.main-bd .info .icon-quan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20221222-ztrip-train-welfare-group/icon-jiausquan.png);
+  background-size: cover;
+  height: 26rpx;
+  margin-right: 8rpx;
+  width: 42rpx;
+}
+.main-bd .info .txt {
+  color: #88320d;
+  font-size: 24rpx;
+  font-weight: 700;
+}
+.main-bd .info .torage {
+  color: #ff913d;
+}
+.banner-box {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 14rpx;
+}
+.banner-box .img {
+  border-radius: 16rpx;
+  height: 108rpx;
+  width: 100%;
+}
+.botm-advg {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/botm-zx.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 80rpx;
+  bottom: calc(40rpx + env(safe-area-inset-bottom));
+  height: 150rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 646rpx;
+}
+.pop-botm {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  max-height: 80%;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.pop-botm .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: -52rpx;
+  width: 48rpx;
+  z-index: 9;
+}
+.pop-orderinfo {
+  background: #e9f7ff;
+  border-radius: 16rpx 16rpx 0 0;
+  padding-bottom: calc(48rpx + env(safe-area-inset-bottom));
+}
+.pop-orderinfo-hd {
+  padding: 60rpx 0 20rpx;
+}
+.pop-orderinfo-hd .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/tit-orderinfo.png)
+    no-repeat;
+  background-size: cover;
+  height: 42rpx;
+  margin: 0 auto;
+  width: 424rpx;
+}
+.pop-orderinfo-bd {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20rpx 32rpx 0;
+}
+.pop-orderinfo-bd .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/orderinfo-step.png)
+    no-repeat;
+  background-size: 288rpx 400rpx;
+  height: 100rpx;
+  margin-top: 60rpx;
+  width: 288rpx;
+}
+.pop-orderinfo-bd .tit:first-child {
+  margin-top: 0;
+}
+.pop-orderinfo-bd .tit.step-1 {
+  background-position: 0 0;
+}
+.pop-orderinfo-bd .tit.step-2 {
+  background-position: 0-100rpx;
+}
+.pop-orderinfo-bd .tit.step-3 {
+  background-position: 0-200rpx;
+}
+.pop-orderinfo-bd .tit.step-4 {
+  background-position: 0-300rpx;
+}
+.pop-orderinfo-bd .txt {
+  color: #1982ed;
+  font-size: 28rpx;
+  margin: 20rpx 0 0 18rpx;
+}
+.pop-orderinfo-bd .img {
+  border: 1rpx solid #99e9ff;
+  border-radius: 16rpx;
+  display: block;
+  margin: 20rpx 0 0 18rpx;
+  width: 646rpx;
+}
+.pop-join {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fdf2d1),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #fdf2d1, #fff);
+  background: -o-linear-gradient(top, #fdf2d1 0, #fff 100%);
+  background: linear-gradient(-180deg, #fdf2d1, #fff);
+  border-radius: 18rpx 18rpx 0 0;
+  box-shadow: inset 0 0 20rpx rgba(131, 255, 237, 0.61);
+  padding-bottom: 44rpx;
+}
+.pop-join::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20211011-ztrip-order-coupon/pop-bojin-hd.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 114rpx;
+  top: -84rpx;
+  width: 494rpx;
+}
+.pop-join-bd {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-y: auto;
+  padding: 64rpx 24rpx 20rpx;
+}
+.pop-join-txt {
+  color: #fff;
+  font-weight: 700;
+  margin: 0 24rpx;
+}
+.pop-join-txt .tit {
+  color: #88320d;
+  font-size: 36rpx;
+  text-align: center;
+}
+.pop-join-txt .txt {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.pop-join-txt .span {
+  color: #ffdc6c;
+}
+.pop-join-qrcode {
+  border-radius: 20rpx 20rpx 0 0;
+  margin-top: 15rpx;
+  padding: 52rpx 0 48rpx;
+  position: relative;
+  white-space: nowrap;
+}
+.pop-join-qrcode .qrcode-bg {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20211011-ztrip-order-coupon/qrcode-bg.png)
+    no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 401rpx;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 400rpx;
+}
+.pop-join-qrcode .qrcode {
+  display: block;
+  height: 332rpx;
+  margin: 0 auto;
+  width: 332rpx;
+}
+.pop-join-qrcode .span {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 500;
+  margin-top: 24rpx;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.pop-join-qrcode .span::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20211011-ztrip-order-coupon/pop-bojin-trang.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 14rpx;
+  left: 50%;
+  position: absolute;
+  top: -20rpx;
+  transform: translateX(-50%);
+  width: 20rpx;
+}
+.pop-join-qrcode .tit {
+  color: #fa6400;
+}
+.pop-join-welfare {
+  -ms-flex-pack: justify;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fdf2d1),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #fdf2d1, #fff);
+  background: -o-linear-gradient(top, #fdf2d1 0, #fff 100%);
+  background: linear-gradient(-180deg, #fdf2d1, #fff);
+  border-radius: 34rpx 34rpx 34rpx 34rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  height: 171rpx;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  padding: 80rpx 42rpx;
+  position: relative;
+}
+.pop-join-welfare .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20211011-ztrip-order-coupon/pop-bojin-tit.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 0 0 10rpx 8rpx 8rpx 10rpx;
+  color: #88320d;
+  font-size: 24rpx;
+  height: 48rpx;
+  left: 50%;
+  line-height: 44rpx;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 298rpx;
+}
+.pop-join-welfare .item {
+  background: #fff;
+  border: 0.5rpx solid #f4deb5;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  color: #88320d;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin-bottom: 16rpx;
+  padding: 18rpx 12rpx;
+  position: relative;
+  width: 43%;
+}
+.pop-join-welfare .item image {
+  background: #ffe2e2;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  height: 80rpx;
+  margin-right: 14rpx;
+  width: 80rpx;
+}
+.pop-join-welfare .item .item-right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.pop-join-welfare .item .item-right .span {
+  color: #c66717;
+  font-size: 20rpx;
+}
+.pop-join-dialog {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 44rpx 16rpx 0;
+}
+.pop-join-dialog .avatar {
+  border: 1rpx solid #bffeff;
+  border-radius: 100rpx;
+  height: 100rpx;
+  margin-right: 4rpx;
+  width: 100rpx;
+}
+.pop-join-dialog .cont {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -ms-flex-align: start;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/dialog-box.png)
+    no-repeat;
+  background-size: 100% 108rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 108rpx;
+  justify-content: center;
+  padding: 0 66rpx;
+}
+.pop-join-dialog .span {
+  color: #ffdc6c;
+}
+.pop-join-dialog .tit {
+  font-size: 26rpx;
+  font-weight: 700;
+}
+.pop-join-dialog .txt {
+  font-size: 20rpx;
+  margin-top: 4rpx;
+}
+.pop-mid {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+.pop-mid .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210622-ztrip-exclusive-large-quota-coupons/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  bottom: -132rpx;
+  height: 72rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 72rpx;
+}
+.pop-fail {
+  height: 464rpx;
+  width: 492rpx;
+}
+.pop-fail .icon-closed {
+  animation: opacity 1s ease-in-out forwards;
+  opacity: 0;
+}
+.pop-fail .icon-rock {
+  animation: rock 1s ease-in-out forwards;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-rock.png)
+    no-repeat;
+  background-size: cover;
+  height: 260rpx;
+  left: 50%;
+  margin-left: -100rpx;
+  opacity: 0;
+  position: absolute;
+  top: -116rpx;
+  width: 200rpx;
+  z-index: 2;
+}
+.pop-fail-bd {
+  animation: opacity 1s ease-in-out 0.75s forwards;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-mid-bd.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 464rpx;
+  opacity: 0;
+  padding: 180rpx 40rpx 40rpx;
+  position: relative;
+  width: 492rpx;
+}
+.pop-fail-bd::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-yun.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 306rpx;
+  left: 50%;
+  position: absolute;
+  top: -116rpx;
+  transform: translateX(-50%);
+  width: 624rpx;
+}
+.pop-fail-bd .txt {
+  color: #666;
+  font-size: 28rpx;
+  font-weight: 700;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.pop-fail-bd .span {
+  color: #ff5a5a;
+}
+.pop-fail-bd .btn-go {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#ff602d),
+    to(#fe3c2b)
+  );
+  background: -webkit-linear-gradient(left bottom, #ff602d, #fe3c2b);
+  background: -o-linear-gradient(left bottom, #ff602d, #fe3c2b);
+  background: linear-gradient(left bottom, #ff602d, #fe3c2b);
+  border-radius: 70rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 700;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 54rpx;
+  width: 304rpx;
+}
+.pop-rule {
+  background-color: #fff;
+}
+.pop-rule .txt {
+  color: #555;
+  line-height: 50rpx;
+}
+.pop-rule .title {
+  color: #333;
+  font-size: 40rpx;
+  padding: 20rpx 0 0;
+  text-align: center;
+}
+.pop-rule-bd {
+  padding: 40rpx 30rpx 80rpx;
+}
+.pop-rule-bd view {
+  margin-bottom: 20rpx;
+}
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rock {
+  0% {
+    opacity: 0;
+    transform: translateY(400%) scale(0);
+    transform-origin: center center;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transform-origin: center center;
+  }
+}
+@keyframes rock {
+  0% {
+    opacity: 0;
+    transform: translateY(400%) scale(0);
+    transform-origin: center center;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transform-origin: center center;
+  }
+}
+.pop-suc {
+  background: #fff;
+  border-radius: 32rpx;
+  padding: 60rpx 40rpx 40rpx;
+  text-align: center;
+  width: 600rpx;
+}
+.pop-suc .tit {
+  font-size: 44rpx;
+  font-weight: 700;
+  margin-bottom: 40rpx;
+}
+.pop-suc .txt {
+  color: #666;
+  font-size: 28rpx;
+  margin-top: 12rpx;
+}
+.pop-suc .btn-go {
+  background: #198cff;
+  border-radius: 88rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 40rpx;
+  width: 400rpx;
+}
+.pop-fail-new {
+  animation: opacity 1s ease-in-out 0.75s forwards;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-mid-bd.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 464rpx;
+  opacity: 0;
+  padding: 140rpx 40rpx 40rpx;
+  position: relative;
+  text-align: center;
+  width: 492rpx;
+}
+.pop-fail-new::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-yun.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 306rpx;
+  left: 50%;
+  position: absolute;
+  top: -116rpx;
+  transform: translateX(-50%);
+  width: 624rpx;
+}
+.pop-fail-new .tit {
+  color: #666765;
+  font-size: 32rpx;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.pop-fail-new .txt {
+  color: #666765;
+  font-size: 26rpx;
+  font-weight: 500;
+  margin-top: 10rpx;
+}
+.pop-fail-new .span {
+  color: #ff5a5a;
+}
+.pop-fail-new .tred {
+  color: #ff5a5a;
+  font-size: 24rpx;
+  margin-top: 28rpx;
+}
+.pop-fail-new .btn-go {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#ff602d),
+    to(#fe3c2b)
+  );
+  background: -webkit-linear-gradient(left bottom, #ff602d, #fe3c2b);
+  background: -o-linear-gradient(left bottom, #ff602d, #fe3c2b);
+  background: linear-gradient(left bottom, #ff602d, #fe3c2b);
+  border-radius: 70rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 700;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 20rpx;
+  width: 304rpx;
+}
+.main-invite {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f4fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #f4fbff, #fff);
+  background: -o-linear-gradient(top, #f4fbff, #fff);
+  background: linear-gradient(180deg, #f4fbff, #fff);
+  border-radius: 28rpx;
+  box-sizing: border-box;
+  height: 204rpx;
+  margin-top: 34rpx;
+  padding-top: 40rpx;
+}
+.main-invite .info {
+  color: #cf8d71;
+  font-size: 0.6rem;
+  margin-top: 18rpx;
+  text-align: center;
+}
+.invite-list {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.invite-list .item {
+  margin-right: 44rpx;
+}
+.invite-list .item:last-child {
+  margin-right: 0;
+}
+.invite-list .avatar {
+  border: 1rpx solid #ff913d;
+  border-radius: 84rpx;
+  height: 84rpx;
+  width: 84rpx;
+}
+.invite-list .btn-add {
+  background: url(https://images3.c-ctrip.com/zt/activity/20221222-ztrip-train-welfare-group/btn-add.png);
+  background-size: cover;
+  height: 88rpx;
+  margin: 0;
+  padding: 0;
+  width: 88rpx;
+}

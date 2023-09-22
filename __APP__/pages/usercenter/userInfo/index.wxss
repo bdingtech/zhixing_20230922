@@ -1,0 +1,104 @@
+@import "/pages/usercenter/sub-vendors.wxss";
+.user-info-auth-pop .auth-pop {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 40rpx;
+  padding: 50rpx 20rpx 40rpx;
+}
+.user-info-auth-pop .auth-pop-txt {
+  color: #333;
+  font-size: 32rpx;
+  line-height: 50rpx;
+  margin: 0 30rpx;
+  text-align: center;
+}
+.user-info-auth-pop .btn-item {
+  background-color: #0080ff;
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 50rpx;
+  position: relative;
+  text-align: center;
+}
+.user-info-auth-pop .btn-item:not(:last-child) {
+  background-color: #fff;
+  border: 1rpx solid #0080ff;
+  color: #0080ff;
+  margin-right: 20rpx;
+}
+.userInfo-management {
+  margin-top: 20rpx;
+}
+.userInfo-management .userInfo-management-c {
+  background: #fff;
+  padding: 0 30rpx;
+}
+.userInfo-management .item {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #f0f0f0;
+  box-sizing: border-box;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  height: 108rpx;
+  justify-content: space-between;
+  line-height: 108rpx;
+}
+.userInfo-management .item:last-child {
+  border-width: 0;
+}
+.userInfo-management .item .image-btn {
+  display: block;
+}
+.userInfo-management .item .image-btn-c {
+  background: transparent !important;
+}
+.userInfo-management .item .right-box {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.userInfo-management .item .right-box .account,
+.userInfo-management .item .right-box .placeholder-class {
+  color: #999;
+  font-size: 32rpx;
+  text-align: right;
+}
+.userInfo-management .item .right-box .iconfont {
+  font-size: 24rpx;
+  margin-top: 2rpx;
+}
+.userInfo-management .item .right-box .icon {
+  color: #ccc;
+  margin-left: 20rpx;
+  width: 32rpx;
+}
+.userInfo-management .item .right-box .image {
+  border-radius: 40rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.userInfo-management .handleWithdraw {
+  background: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 36rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 60rpx 50rpx 0;
+}
+.userInfo-management .unSubmit {
+  background: #f5f5f5;
+  color: #ccc;
+}

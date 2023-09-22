@@ -1,0 +1,208 @@
+@import "/functionalPages/sub-vendors.wxss";
+.smart-search-site {
+  background: #f5f5f5;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.smart-search-site .search-input-box {
+  background: #fff;
+  padding: 20rpx 30rpx 30rpx;
+}
+.smart-search-site .search-input-box.wxgov {
+  background: #0086f6;
+  padding: 24rpx 20rpx;
+}
+.smart-search-site .search-input-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: start;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 34rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 68rpx;
+  justify-content: flex-start;
+}
+.smart-search-site .search-input-bd .iconfont {
+  color: #999;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.smart-search-site .icon-del {
+  margin-left: auto;
+}
+.smart-search-site .search-module_input {
+  background: transparent;
+  box-sizing: border-box;
+  flex: 1;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: left;
+}
+.smart-search-site .search-module_input_focus {
+  color: #999;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.train_smart-search-result .list {
+  background: #fff;
+  font-size: 30rpx;
+  padding: 0 30rpx;
+}
+.train_smart-search-result .row {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+}
+.train_smart-search-result .city-tag {
+  background-color: #0080ff;
+  border-radius: 18rpx;
+  color: #fff;
+  font-size: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.train_smart-search-result .city-txt {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.train_smart-search-result .station-type {
+  border-radius: 18rpx;
+  font-size: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.train_smart-search-result .station-name {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.train_smart-search-result .air-tag {
+  background-color: rgba(3, 184, 111, 0.1);
+  color: #03b86f;
+}
+.train_smart-search-result .train-tag {
+  background-color: rgba(25, 140, 255, 0.1);
+  color: #0080ff;
+}
+.train_smart-search-result .bus-tag {
+  background-color: rgba(255, 157, 0, 0.1);
+  color: #ff9d00;
+}
+.train_smart-search-result .ship-tag {
+  background-color: rgba(111, 89, 255, 0.1);
+  color: #6f59ff;
+}
+.train_smart-search-result .scene-tag {
+  background-color: rgba(255, 89, 100, 0.1);
+  color: #ff5959;
+}
+.train_smart-search-result .tag-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.ty .train_smart-search-result .train-tag {
+  background-color: rgba(255, 89, 89, 0.063);
+}
+.train_smart_location .city-module_items::after {
+  background: #eee;
+  content: "";
+  height: 20rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rpx;
+}
+.train_smart_location .city-module_items:nth-child(4n)::after {
+  display: none;
+}
+.train_smart_location .city-module_type {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+.train_smart_location .city-module_items {
+  display: block;
+  margin-bottom: 10rpx;
+  margin-top: 24rpx;
+  overflow: hidden;
+  padding: 0 0 0 30rpx;
+  position: relative;
+}
+.train_smart_location .city-module_name1 {
+  background: #fff;
+  border-radius: 8rpx;
+  float: left;
+  font-size: 26rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  margin: 0 16rpx 16rpx 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 150rpx;
+}
+.train_smart_location .city-module_name1 .ifont-location {
+  font-size: 25rpx;
+  margin: -6rpx 4rpx 0 0;
+}
+.train_smart_hot_city .city-module_items::after {
+  background: #eee;
+  content: "";
+  height: 20rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rpx;
+}
+.train_smart_hot_city .city-module_items:nth-child(4n)::after {
+  display: none;
+}
+.train_smart_hot_city .city-module_type {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+.train_smart_hot_city .city-module_items {
+  display: block;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  padding: 0 0 0 30rpx;
+  position: relative;
+}
+.train_smart_hot_city .city-module_name1 {
+  background: #fff;
+  border-radius: 8rpx;
+  float: left;
+  font-size: 26rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  margin: 0 16rpx 16rpx 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: calc(25% - 16rpx);
+}
+.train_smart_hot_city .city-module_name1 .ifont-location {
+  font-size: 25rpx;
+  margin: -6rpx 4rpx 0 0;
+}

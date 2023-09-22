@@ -1,0 +1,455 @@
+@import "/pages/hotel/sub-vendors.wxss";
+.custom-map .top-bar {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20rpx;
+}
+.custom-map .top-bar .back-icon,
+.custom-map .top-bar .lbox {
+  height: 72rpx;
+  width: 72rpx;
+}
+.custom-map .location {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 72rpx;
+  justify-content: flex-end;
+  margin: 0 20rpx 20rpx 0;
+}
+.custom-map .location .hotel {
+  height: 72rpx;
+  width: 172rpx;
+}
+.custom-map .location .current {
+  height: 72rpx;
+  width: 72rpx;
+}
+.custom-map .location .wx-button-cover-view-inner {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.custom-map .nav {
+  width: calc(100% - 184rpx);
+}
+.custom-map .nav,
+.custom-map .nav .actions-wrapper {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.custom-map .nav .actions-wrapper {
+  background: #fff;
+  border-radius: 18rpx;
+  height: 70rpx;
+  width: 340rpx;
+}
+.custom-map .nav .actions-wrapper .action {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 18rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  justify-content: center;
+  margin: 4rpx;
+}
+.cover-view-card {
+  background: transparent;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
+}
+.info-card {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.info-card,
+.info-card .to-other {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.info-card .to-other {
+  -ms-flex-align: center;
+  align-items: center;
+  height: 76rpx;
+  position: relative;
+}
+.info-card .to-other .bg {
+  height: 106rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.info-card .to-other .action,
+.info-card .to-other .tit-wrap {
+  position: relative;
+  z-index: 1;
+}
+.info-card .to-other .tit-wrap {
+  flex: 1;
+  margin-left: 70rpx;
+}
+.info-card .to-other .tit {
+  font-family: PingFangSC-Semibold;
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.info-card .to-other .desc {
+  color: #3c5a86;
+}
+.info-card .to-other .action,
+.info-card .to-other .desc {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+}
+.info-card .to-other .action {
+  margin-right: 32rpx;
+}
+.info-card .to-other .ifont-arr {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  margin-left: 4rpx;
+}
+.info-card .info-wrapper {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 10rpx;
+  padding: 30rpx;
+  width: 100%;
+  z-index: 1;
+}
+.info-card .info-wrapper .title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.info-card .info-wrapper .address,
+.info-card .info-wrapper .distance {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  margin: 15rpx 0;
+}
+.info-card .info-wrapper .actions-wrapper,
+.info-card .info-wrapper .actions-wrapper .action,
+.info-card .info-wrapper .address,
+.info-card .info-wrapper .distance {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.info-card .info-wrapper .actions-wrapper .action {
+  -ms-flex-pack: center;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  justify-content: center;
+  margin-top: 20rpx;
+  width: 100%;
+}
+.info-card .info-wrapper .actions-wrapper .action.booking {
+  border-radius: 24rpx;
+  margin-right: 20rpx;
+  width: 300rpx;
+}
+.info-card .info-wrapper .actions-wrapper .action.booking.zx {
+  background: #edf6ff;
+  color: #198cff;
+}
+.info-card .info-wrapper .actions-wrapper .action.booking.ty {
+  background: #ffeae5;
+  color: #fc6e51;
+}
+.info-card
+  .info-wrapper
+  .actions-wrapper
+  .action
+  .wx-button-cover-view-wrapper {
+  border: none;
+}
+.info-card .info-wrapper .iconfont {
+  height: 22rpx;
+  margin-right: 30rpx;
+  margin-top: -12rpx;
+  width: 19rpx;
+}
+.info-card .info-wrapper .iconfont.ifont-gps {
+  margin-right: 20rpx;
+}
+.info-card .nearby-wrap {
+  background: #fff;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: relative;
+  width: 100%;
+}
+.info-card .nearby-wrap .top-arrow-wrap {
+  height: 15.2rpx;
+  padding-bottom: 36rpx;
+  text-align: center;
+  width: 100%;
+}
+.info-card .nearby-wrap .top-arrow-wrap .arrow {
+  height: 15.2rpx;
+  margin-top: 8rpx;
+  width: 64rpx;
+}
+.info-card .nearby-wrap .top-arrow-wrap .arrow.down {
+  transform: rotate(180deg);
+}
+.info-card .nearby-wrap .title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  margin: -30rpx 30rpx 30rpx;
+}
+.info-card .nearby-wrap .tabs {
+  margin: 0 30rpx;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.info-card .nearby-wrap .tabs.select .tab {
+  padding-bottom: 18rpx;
+}
+.info-card .nearby-wrap .tabs.select .icon {
+  display: none;
+}
+.info-card .nearby-wrap .tabs.select .txt {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+}
+.info-card .nearby-wrap .tab {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 60rpx;
+  position: relative;
+}
+.info-card .nearby-wrap .tab .icon {
+  height: 28rpx;
+  width: 28rpx;
+}
+.info-card .nearby-wrap .tab .txt {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.info-card .nearby-wrap .tab .btline {
+  bottom: 0;
+  height: 8rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 48rpx;
+}
+.info-card .nearby-wrap .list {
+  height: 0;
+  overflow-y: auto;
+  position: relative;
+}
+.info-card .nearby-wrap .list.active {
+  height: 640rpx;
+  transition: height 0.3s;
+}
+.info-card .nearby-wrap .list .item {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  border-top: 1rpx solid #f5f5f5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 22rpx 30rpx;
+  position: relative;
+}
+.info-card .nearby-wrap .list .item.selected {
+  background: #f5f5f5;
+}
+.info-card .nearby-wrap .list .left {
+  height: 120rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+}
+.info-card .nearby-wrap .list .left .img {
+  border-radius: 16rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.info-card .nearby-wrap .list .right {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.info-card .nearby-wrap .list .name {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  margin-bottom: 8rpx;
+}
+.info-card .nearby-wrap .list .open-time,
+.info-card .nearby-wrap .list .price {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: calc(100% - 100rpx);
+}
+.info-card .nearby-wrap .list .tags {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.info-card .nearby-wrap .list .tags text {
+  border: 1rpx solid;
+  border-radius: 8rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  padding: 0 8rpx;
+}
+.info-card .nearby-wrap .list .point,
+.info-card .nearby-wrap .list .point-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.info-card .nearby-wrap .list .point {
+  -ms-flex-pack: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 30rpx;
+  justify-content: center;
+  line-height: 24rpx;
+  margin-right: 10rpx;
+  width: 46rpx;
+}
+.info-card .nearby-wrap .list .remark {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  margin-top: 8rpx;
+}
+.info-card .nearby-wrap .list .nav-btn-wrap {
+  bottom: 22rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.info-card .nearby-wrap .list .nav-btn-wrap,
+.info-card .nearby-wrap .list .navto {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.info-card .nearby-wrap .list .navto {
+  -ms-flex-pack: center;
+  background: #edf6ff;
+  border-radius: 12rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 44rpx;
+  justify-content: center;
+  line-height: 28rpx;
+  width: 90rpx;
+}
+.info-card .nearby-wrap .list .navto .nav-arrow {
+  height: 22rpx;
+  width: 22rpx;
+}
+.info-card .nearby-wrap .list .nav-detail {
+  border-radius: 12rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-left: 16rpx;
+  text-align: center;
+  width: 90rpx;
+}
+.custom-map.zx .nav .actions-wrapper .active {
+  background: rgba(26, 140, 255, 0.1);
+  border: 1rpx solid rgba(25, 140, 255, 0.4);
+  color: #198cff;
+}
+.custom-map.zx .nearby-wrap .tags text {
+  border-color: #198cff;
+  color: #198cff;
+}
+.custom-map.zx .navto {
+  background: #edf6ff;
+  color: #198cff;
+}
+.custom-map.ty .nav .actions-wrapper .active {
+  background: rgba(252, 110, 81, 0.1);
+  border: 1rpx solid rgba(252, 110, 81, 0.4);
+  color: #fc6e51;
+}
+.custom-map.ty .nearby-wrap .tags text {
+  border-color: #fc6e51;
+  color: #fc6e51;
+}

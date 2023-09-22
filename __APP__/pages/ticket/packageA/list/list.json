@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "景点列表",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

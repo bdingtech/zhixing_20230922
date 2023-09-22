@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选择退票原因",
+  "backgroundColor": "#5495e6",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

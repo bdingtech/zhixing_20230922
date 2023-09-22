@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "酒店卡券包",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#ffffff",
+  "backgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

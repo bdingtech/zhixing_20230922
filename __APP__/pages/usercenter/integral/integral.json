@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的积分",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#fff",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

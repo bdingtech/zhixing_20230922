@@ -1,0 +1,211 @@
+.pvp.regift-wrap {
+  margin: 16rpx auto;
+  position: relative;
+  width: 100%;
+}
+.pvp.regift-innerbox.red-dot::after {
+  background: #e25124;
+  border-radius: 50%;
+  content: "";
+  height: 8rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 14rpx;
+  width: 8rpx;
+}
+.pvp .regift-innerbox {
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  padding-left: 6%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.pvp .regiftbar-img {
+  box-sizing: border-box;
+  display: block;
+  height: 44rpx;
+  position: relative;
+  width: 44rpx;
+  z-index: 2;
+}
+.pvp .regiftbar-img-box {
+  animation: domZoomIn 1.5s ease-in 0s;
+  background-color: #fff;
+  border: 2rpx solid #9abaec;
+  border-radius: 10rpx 0 10rpx 0;
+  box-sizing: border-box;
+  height: 52rpx;
+  justify-content: center;
+  margin-right: 4rpx;
+  width: 52rpx;
+}
+.pvp .regift-flex,
+.pvp .regiftbar-img-box {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+.pvp .regift-prize-info {
+  animation: textIn 1.5s ease-in 0s;
+  color: #4a4a4a;
+  flex: 1;
+  font-size: 24rpx;
+  line-height: normal;
+  overflow: hidden;
+  padding-left: 6rpx;
+  padding-right: 199rpx;
+  pointer-events: none;
+}
+.regift-prize-desc,
+.regift-prize-tip {
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 600;
+  text-shadow: 0 0 2px rgba(39, 62, 106, 0.82);
+}
+.pvp .regift-prize-text,
+.regift-prize-desc,
+.regift-prize-tip {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pvp .regift-prize-text {
+  color: #273e6a;
+  font-size: 16rpx;
+}
+.pvp .regiftbar-bg-box {
+  height: 102rpx;
+  position: relative;
+}
+.pvp .regiftbar-btn {
+  animation: btnBeat 1.5s ease infinite both;
+}
+.pvp .regift-look-btn,
+.pvp .regiftbar-btn {
+  display: block;
+  height: 102rpx;
+  position: absolute;
+  right: -4rpx;
+  top: 0;
+  width: 192rpx;
+  z-index: 1;
+}
+.pvp .regiftbar-gift-bg {
+  display: block;
+  height: 102rpx;
+  width: 100%;
+}
+.pvp .regiftbar-bg {
+  display: none;
+  height: 102rpx;
+  width: 100%;
+}
+.pvp .regiftbar-bg.bg-block {
+  display: block;
+}
+.pvp .regiftbar-gift-bg.bg-null {
+  opacity: 0;
+}
+.pvp .regiftbar-btn.regift-null,
+.pvp .regiftbar-gift-bg.regift-null {
+  display: none;
+}
+@-webkit-keyframes domZoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  80% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes domZoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  80% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+@keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes btnBeat {
+  from {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes btnBeat {
+  from {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

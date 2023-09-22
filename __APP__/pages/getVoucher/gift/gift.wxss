@@ -1,0 +1,308 @@
+image,
+page,
+text,
+view {
+  box-sizing: border-box;
+  display: block;
+}
+page {
+  height: 100%;
+  overflow-y: scroll;
+}
+.gift-container,
+page {
+  background: #212356;
+  width: 100%;
+}
+.gift-container {
+  min-height: 100%;
+}
+.gift-top-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/user/plugins/getvoucher/0101/regift-bg.png)
+    no-repeat top;
+  background-size: 100%auto;
+  min-height: 692rpx;
+  position: relative;
+  width: 100%;
+}
+.gift-w-desc {
+  color: #8d91f5;
+  font-size: 24rpx;
+  height: 180rpx;
+  left: 38rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  padding: 10rpx 20rpx;
+  position: absolute;
+  top: 188rpx;
+  width: 272rpx;
+  word-break: break-all;
+}
+.gift-middle-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/user/plugins/getvoucher/0101/regift-middle-bg.png)
+    repeat-y 50%;
+  background-size: contain;
+  width: 100%;
+}
+.gift-bottom-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/user/plugins/getvoucher/0101/regift-bottom-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 188rpx;
+  margin-top: -82rpx;
+  width: 100%;
+}
+.gift-role {
+  color: #d49b38;
+  font-size: 20rpx;
+  margin: 0 auto;
+  padding-bottom: 24rpx;
+  text-align: center;
+}
+.gift-list {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100rpx;
+  position: relative;
+}
+.gift-list::before {
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/user/plugins/getvoucher/0101/float-left.png)
+    no-repeat 50%;
+  background-size: contain;
+  content: "";
+  height: 206rpx;
+  left: -84rpx;
+  position: absolute;
+  top: 180rpx;
+  width: 194rpx;
+}
+.gift-item {
+  margin-bottom: 10rpx;
+  margin-right: 24rpx;
+  position: relative;
+  width: 170rpx;
+}
+.gift-item:nth-child(3n) {
+  margin-right: 0;
+}
+.gift-item-top {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rpx;
+  overflow: hidden;
+  width: 100%;
+}
+.gift-expland {
+  color: #9b9b9b;
+  font-size: 20rpx;
+}
+.gift-expland-icon {
+  height: 20rpx;
+  margin-left: 4rpx;
+  position: relative;
+  top: 2rpx;
+  width: 20rpx;
+}
+.gift-item-reward {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  height: 168rpx;
+  justify-content: center;
+  position: relative;
+  width: 170rpx;
+}
+.gift-item-reward::before {
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/user/plugins/getvoucher/0101/reward-kuang.png)
+    no-repeat 50%;
+  background-size: contain;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.gift-item-reward image {
+  height: 160rpx;
+  width: 160rpx;
+}
+.gift-name {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #333;
+  display: -webkit-box;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+  max-height: 66rpx;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  word-break: break-all;
+}
+.gift-tip-popup {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: -316rpx;
+  width: 428rpx;
+  z-index: 5;
+}
+.gift-tip-arrow {
+  border-left: 14rpx solid transparent;
+  border-right: 14rpx solid transparent;
+  border-top: 20rpx solid #fff;
+  height: 0;
+  position: relative;
+  right: -132rpx;
+  top: 0;
+  width: 0;
+}
+.gift-tip-contain {
+  background: #fff;
+  border-radius: 8rpx;
+  box-shadow: 0 4rpx 12rpx 0 rgba(0, 0, 0, 0.25);
+  left: -24rpx;
+  padding: 32rpx 22rpx;
+  position: relative;
+  width: 428rpx;
+}
+.gift-item:nth-child(1) .gift-tip-arrow {
+  right: -142rpx;
+}
+.gift-item:nth-child(2) .gift-tip-contain,
+.gift-item:nth-child(5) .gift-tip-contain,
+.gift-item:nth-child(8) .gift-tip-contain {
+  left: -132rpx;
+}
+.gift-item:nth-child(3n) .gift-tip-contain {
+  left: auto;
+  right: 240rpx;
+}
+.gift-tip-title {
+  color: #d7a145;
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-bottom: 16rpx;
+  position: relative;
+  text-align: center;
+}
+.gift-tip-img {
+  border: 2rpx solid #f8d7a2;
+  padding: 8rpx;
+  width: 100%;
+}
+.gift-tip-img image {
+  width: 100%;
+}
+page {
+  background-color: #3d77b1;
+  overflow-y: auto;
+}
+.gift-detail-wrap text,
+.gift-detail-wrap view {
+  box-sizing: border-box;
+  line-height: 1;
+}
+.gift-detail-wrap {
+  background: #3d77b1
+    url(https://image-1251917893.file.myqcloud.com/TIP_XCX/PUBG/user-plugin/regift-act-bg.jpg)
+    no-repeat top;
+  background-size: 100%auto;
+  box-sizing: border-box;
+  height: 1624rpx;
+  padding-top: 426rpx;
+  width: 100%;
+}
+.gift-info-main {
+  align-items: center;
+  background: url(https://image-1251917893.file.myqcloud.com/TIP_XCX/PUBG/user-plugin/act-detail.png)
+    no-repeat top;
+  background-size: contain;
+  color: #494341;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  font-size: 25rpx;
+  height: 903rpx;
+  margin: 0 auto;
+  padding-top: 154rpx;
+  width: 747rpx;
+}
+.gift-info-main .gift-brand {
+  color: #e25124;
+}
+.gift-role {
+  padding-bottom: 18rpx;
+}
+.gift-info-main text {
+  width: 551rpx;
+}
+.gift-tip {
+  color: rgba(66, 66, 70, 0.92);
+  font-size: 21rpx;
+  padding-top: 76rpx;
+  text-align: center;
+}
+.gift-tip image {
+  display: block;
+  height: 255rpx;
+  margin-top: 14rpx;
+  width: 551rpx;
+}
+.gift-img {
+  background: #c3c0bf;
+  border: 2rpx solid hsla(15, 3%, 76%, 0.8);
+  box-shadow: 2rpx 3rpx 3rpx 0 rgba(0, 0, 0, 0.2);
+  height: 132rpx;
+  margin-top: 20rpx;
+  position: relative;
+  width: 132rpx;
+}
+.icon-bd::after {
+  background: url(https://image-1251917893.file.myqcloud.com/Esports/user/img/must-tag.png)
+    no-repeat top;
+  background-size: 100%auto;
+  width: 60rpx;
+}
+.icon-bd::after,
+.icon-cj::after {
+  content: "";
+  height: 48rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.icon-cj::after {
+  background: url(https://image-1251917893.file.myqcloud.com/Esports/user/img/may-tag.png)
+    no-repeat top;
+  background-size: 100%auto;
+  width: 88rpx;
+}
+.gift-img image {
+  height: 130rpx;
+  width: 130rpx;
+}
+.act-git-name {
+  color: #424246;
+  font-size: 21rpx;
+  margin-top: 12rpx;
+  text-align: center;
+}
+.gift-desc,
+.gift-title {
+  text-indent: 48rpx;
+}
+.gift-desc {
+  padding-top: 12rpx;
+  width: 551rpx;
+}
+.gift-desc text {
+  line-height: 32rpx;
+  width: auto;
+}

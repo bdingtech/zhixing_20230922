@@ -1,0 +1,171 @@
+@import "/pages/flightAfterSale/sub-vendors.wxss";
+.image-picker {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border: 2rpx solid #eee;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  padding: 26rpx 32rpx 24rpx;
+  width: 150rpx;
+}
+.image-picker .picker-icon {
+  height: 60rpx;
+  width: 60rpx;
+}
+.image-picker .picker-title {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+  white-space: nowrap;
+}
+.flight-refund-reason {
+  padding: 16rpx;
+}
+.flight-refund-reason .reason-item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 16rpx;
+}
+.flight-refund-reason .reason-item-banner {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+}
+.flight-refund-reason .reason-item-banner .title {
+  color: #333;
+  display: block;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.flight-refund-reason .reason-item-banner .sub-title {
+  color: #999;
+  display: block;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+.flight-refund-reason .reason-item-banner .ifont-arr {
+  color: #999;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.flight-refund-reason .upload-proof-box {
+  padding: 0 30rpx 60rpx;
+}
+.flight-refund-reason .upload-proof-box .line-divider {
+  background: #ededed;
+  height: 2rpx;
+  transform: scaleY(0.5);
+}
+.flight-refund-reason .upload-proof-box .upload-hint {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 38rpx;
+}
+.flight-refund-reason .upload-proof-box .ticket-tab {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 38rpx 0 0 24rpx;
+}
+.flight-refund-reason .upload-proof-box .ticket-tab .ticket-tab-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-right: 60rpx;
+}
+.flight-refund-reason .upload-proof-box .ticket-tab .ticket-tab-item.cur {
+  color: #198cff;
+}
+.flight-refund-reason
+  .upload-proof-box
+  .ticket-tab
+  .ticket-tab-item.cur::after {
+  background: #198cff;
+  border-radius: 3rpx;
+  content: "";
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 6rpx;
+  margin-top: 8rpx;
+  width: 38rpx;
+}
+.flight-refund-reason .upload-proof-box .image-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 8rpx;
+}
+.flight-refund-reason .upload-proof-box .image-list .image-item {
+  margin: 28rpx 28rpx 0 0;
+}
+.flight-refund-reason .upload-proof-box .image-list .upload-img-wrapper {
+  background: #f8f8f8;
+  border: 2rpx solid #eee;
+  border-radius: 12rpx;
+  height: 150rpx;
+  position: relative;
+  width: 150rpx;
+}
+.flight-refund-reason
+  .upload-proof-box
+  .image-list
+  .upload-img-wrapper
+  .upload-img {
+  height: 150rpx;
+  margin: 0 8rpx;
+  width: 132rpx;
+}
+.flight-refund-reason
+  .upload-proof-box
+  .image-list
+  .upload-img-wrapper
+  .close-icon {
+  height: 28rpx;
+  position: absolute;
+  right: -6rpx;
+  top: -6rpx;
+  width: 28rpx;
+}
+.flight-refund-reason .upload-proof-box .entrance-tips {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-top: 48rpx;
+  text-align: justify;
+}
+.flight-refund-reason .upload-proof-box .btn-primary.proof-next-btn {
+  background: #198cff;
+  border-radius: 44rpx;
+  height: 88rpx;
+  margin-top: 120rpx;
+}
+.flight-refund-reason .upload-proof-box .btn-primary.proof-next-btn.disabled {
+  background: #ddd;
+}

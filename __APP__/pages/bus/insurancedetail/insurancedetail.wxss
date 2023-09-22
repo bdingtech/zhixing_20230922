@@ -1,0 +1,141 @@
+@import "/pages/bus/sub-vendors.wxss";
+.insure .tzone {
+  background: #fff;
+  padding: 30rpx;
+}
+.insure .tzone,
+.insure .tzone .title {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.insure .tzone .title {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.insure .tzone .title .img {
+  height: 40rpx;
+  margin-right: 8rpx;
+  width: 40rpx;
+}
+.insure .tzone .desc {
+  color: #0970ff;
+  font-size: 26rpx;
+  margin-left: auto;
+}
+.insure .passenger {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 30rpx;
+  position: relative;
+}
+.insure .passenger .tbox {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.insure .passenger .tbox::before {
+  border-radius: 4rpx;
+  content: "";
+  height: 36rpx;
+  left: 0;
+  position: absolute;
+  top: 35rpx;
+  width: 8rpx;
+}
+.insure .passenger .tbox.zx::before {
+  background: #0080ff;
+}
+.insure .passenger .tbox.ty::before {
+  background: #ff6245;
+}
+.insure .passenger .tbox .name {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.insure .passenger .tbox .status {
+  color: #999;
+  font-size: 28rpx;
+  margin-left: auto;
+}
+.insure .passenger .tbox .status.suc {
+  color: #00b87a;
+}
+.insure .passenger .tbox .refund {
+  color: #0080ff;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.insure .passenger .tbox .line {
+  background-color: #ededed;
+  height: 20rpx;
+  margin: 0 20rpx;
+  width: 2rpx;
+}
+.insure .passenger .bbox {
+  margin-top: 32rpx;
+}
+.insure .passenger .bbox .info {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 7rpx;
+}
+.insure .passenger .bbox .tit {
+  color: #999;
+  font-size: 28rpx;
+  margin-right: 52rpx;
+  width: 160rpx;
+}
+.insure .passenger .bbox .con {
+  color: #000;
+  font-size: 30rpx;
+}
+.bus-insurance-refund-pop .bg {
+  height: 236rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.bus-insurance-refund-pop .refund-title {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.bus-insurance-refund-pop .btn-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60rpx 32rpx 0;
+}
+.bus-insurance-refund-pop .btn {
+  border-radius: 24rpx;
+  flex: 1;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.bus-insurance-refund-pop .btn.cancel {
+  background: #f7f7f7;
+  color: #666;
+  margin-right: 20rpx;
+}
+.bus-insurance-refund-pop .btn.confirm {
+  background: #edf7ff;
+  color: #0080ff;
+}

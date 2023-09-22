@@ -1,0 +1,78 @@
+page {
+  background-color: #fff !important;
+}
+.routeplan-page {
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.routeplan-page,
+.routeplan-tab-content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+}
+.routeplan-tab-content {
+  flex-direction: column;
+  flex: 1;
+}
+.routeplan-map-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+#routeMap {
+  flex: 1;
+}
+.routeplan-detail-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}
+.routeplan-flex-1 {
+  flex: 1;
+  overflow: hidden;
+}
+.routeplan-network-err-container {
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+.routeplan-network-err-container .routeplan-img-container {
+  margin: 160rpx auto 0;
+  width: 376rpx;
+  height: 216rpx;
+}
+.routeplan-network-err-container .routeplan-img-container .routeplan-img {
+  width: 100%;
+  height: 100%;
+}
+.routeplan-network-err-h {
+  margin-bottom: 4px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.routeplan-network-err-f {
+  line-height: 18px;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}
+.routeplan-retry-button {
+  margin-top: 35px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 92px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #427cff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #427cff;
+}

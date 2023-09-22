@@ -1,0 +1,711 @@
+@charset "UTF-8";
+@import "/pages/train/sub-vendors.wxss";
+page {
+  background: #f5f5f5;
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #333;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 100;
+}
+.zx .top-bar.fixed {
+  background: #80b5ff;
+}
+.ty .top-bar.fixed {
+  background: #3c4365;
+}
+.top-bar.fixed .tit {
+  display: block;
+}
+.top-bar .ifont-back,
+.top-bar .ifont-home {
+  bottom: 0;
+  font-size: 32rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  width: 88rpx;
+}
+.top-bar .tit {
+  display: none;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+}
+.top-box {
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 652rpx;
+  padding-bottom: 256rpx;
+  position: relative;
+}
+.ty .top-box,
+.zx .top-box {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/top-bg-zx.png);
+}
+.top-own {
+  padding: 32rpx 0 20rpx 40rpx;
+}
+.top-own .top-img {
+  bottom: 256rpx;
+  height: 180rpx;
+  position: absolute;
+  right: 0;
+  width: 300rpx;
+}
+.top-own .tit,
+.top-own .top-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-own .tit {
+  height: 50rpx;
+  margin-bottom: 18rpx;
+  width: 428rpx;
+}
+.top-own .txt {
+  font-size: 26rpx;
+  line-height: 38rpx;
+  margin: 4rpx 250rpx 0 0;
+  padding-left: 34rpx;
+  position: relative;
+}
+.top-own .txt::before {
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 26rpx;
+  left: 0;
+  position: absolute;
+  top: 6rpx;
+  width: 26rpx;
+}
+.zx .top-own .top-img {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/img_purchase.png);
+}
+.zx .top-own .tit {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/img_invitation_zi.png);
+}
+.zx .top-own .txt {
+  color: rgba(13, 34, 64, 0.7);
+}
+.zx .top-own .txt::before {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/icon_hook2.png);
+}
+.ty .top-own .top-img {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/img_purchase.png);
+}
+.ty .top-own .tit {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/img_invitation_zi.png);
+}
+.ty .top-own .txt {
+  color: rgba(13, 34, 64, 0.7);
+}
+.ty .top-own .txt::before {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/icon_hook2.png);
+}
+.top-friend {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14rpx 40rpx 28rpx;
+}
+.top-friend .lbox {
+  height: 112rpx;
+  margin: 0 20rpx 12rpx 0;
+  width: 112rpx;
+}
+.top-friend .avatar {
+  border: 4rpx solid #fff;
+  border-radius: 104rpx;
+  display: block;
+  height: 104rpx;
+  width: 104rpx;
+}
+.top-friend .tag {
+  border-radius: 40rpx;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin: -26rpx auto 0;
+  position: relative;
+  text-align: center;
+  width: 100rpx;
+  z-index: 2;
+}
+.top-friend .cont {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  height: 148rpx;
+  padding: 24rpx 30rpx;
+}
+.top-friend .txt {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.zx .top-friend .tag {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff, #07f);
+  background: linear-gradient(90deg, #0daeff, #07f);
+}
+.zx .top-friend .cont {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/top-dialog.png);
+}
+.zx .top-friend .txt {
+  color: #0d2240;
+}
+.ty .top-friend .tag {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff, #07f);
+  background: linear-gradient(90deg, #0daeff, #07f);
+}
+.ty .top-friend .cont {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/top-dialog.png);
+}
+.ty .top-friend .txt {
+  color: #0d2240;
+}
+.wrap {
+  margin-top: -256rpx;
+  padding-bottom: calc(80rpx + env(safe-area-inset-bottom));
+}
+.white-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx 16rpx;
+  position: relative;
+  z-index: 2;
+}
+.white-box .btn-submit {
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 38rpx;
+  font-weight: 700;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.ty .white-box .btn-submit,
+.zx .white-box .btn-submit {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff, #07f);
+  background: linear-gradient(90deg, #0daeff, #07f);
+  box-shadow: 0 4rpx 12rpx rgba(0, 119, 255, 0.4);
+}
+.white-box .btn-submit-grey {
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 38rpx;
+  font-weight: 700;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.ty .white-box .btn-submit-grey,
+.zx .white-box .btn-submit-grey {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ccc),
+    to(#999)
+  );
+  background: -webkit-linear-gradient(left, #ccc, #999);
+  background: -o-linear-gradient(left, #ccc, #999);
+  background: linear-gradient(90deg, #ccc, #999);
+}
+.order-box {
+  padding: 0 30rpx;
+}
+.order-box.open {
+  z-index: 3000;
+}
+.order-box.open .order-hd {
+  border-bottom: 1rpx solid #f0f3f7;
+  position: relative;
+  z-index: 10;
+}
+.order-box.open .ifont-triangle {
+  transform: rotate(180deg);
+}
+.order-box.open .order-bd {
+  display: block;
+}
+.order-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+}
+.order-hd .tit {
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.order-hd .rbox {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.order-hd .date {
+  font-size: 30rpx;
+}
+.order-hd .ifont-triangle {
+  font-size: 12rpx;
+  margin-left: 8rpx;
+}
+.order-bd {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 50rpx 30rpx 30rpx;
+  position: absolute;
+  right: 0;
+  top: 80rpx;
+}
+.order-bd .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin-bottom: 24rpx;
+}
+.order-bd .label {
+  color: #999;
+  width: 104rpx;
+}
+.order-bd .cont {
+  font-weight: 700;
+  word-break: break-all;
+}
+.order-bd .tips {
+  background: #f7f7f7;
+  border-radius: 12rpx;
+  color: #666;
+  font-size: 24rpx;
+  margin: 30rpx -10rpx 0;
+  padding: 24rpx 20rpx;
+}
+.login-12306 {
+  padding: 64rpx 40rpx 60rpx;
+  text-align: center;
+}
+.login-12306 .icon-nohelp {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 180rpx;
+  margin: 0 auto;
+  width: 180rpx;
+}
+.login-12306 .tit {
+  font-size: 42rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+}
+.login-12306 .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 8rpx;
+}
+.login-12306 .tips {
+  margin-top: 32rpx;
+}
+.login-12306 .btn-submit {
+  margin-top: 36rpx;
+}
+.ty .login-12306 .icon-nohelp,
+.zx .login-12306 .icon-nohelp {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/icon_ticket.png);
+}
+.invite-none-v2 {
+  padding: 64rpx 40rpx 60rpx;
+  text-align: center;
+}
+.invite-none-v2 .icon-nohelp {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 180rpx;
+  margin: 0 auto;
+  width: 180rpx;
+}
+.invite-none-v2 .tit {
+  font-size: 42rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+}
+.invite-none-v2 .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 8rpx;
+}
+.invite-none-v2 .tips {
+  margin-top: 32rpx;
+}
+.invite-none-v2 .btn-submit {
+  margin-top: 36rpx;
+}
+.ty .invite-none-v2 .icon-nohelp,
+.zx .invite-none-v2 .icon-nohelp {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-10/WeChat/icon_ticket.png);
+}
+.invite-none-v2 .btn-submit-grey {
+  margin-top: 20rpx;
+}
+.invite-box {
+  padding: 48rpx 40rpx 60rpx;
+}
+.invite-box .tit {
+  font-size: 38rpx;
+  font-weight: 700;
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+.invite-box .tit::after,
+.invite-box .tit::before {
+  content: "";
+  display: inline-block;
+  height: 4rpx;
+  margin: -4rpx 16rpx 0;
+  vertical-align: middle;
+  width: 48rpx;
+}
+.invite-box .tit::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 80%, 0)),
+    to(#ccc)
+  );
+  background: -webkit-linear-gradient(left, hsla(0, 0%, 80%, 0), #ccc);
+  background: -o-linear-gradient(left, hsla(0, 0%, 80%, 0), #ccc);
+  background: linear-gradient(90deg, hsla(0, 0%, 80%, 0), #ccc);
+}
+.invite-box .tit::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 80%, 0)),
+    to(#ccc)
+  );
+  background: -webkit-linear-gradient(right, hsla(0, 0%, 80%, 0), #ccc);
+  background: -o-linear-gradient(right, hsla(0, 0%, 80%, 0), #ccc);
+  background: linear-gradient(270deg, hsla(0, 0%, 80%, 0), #ccc);
+}
+.invite-box .rich-box {
+  display: inline-block;
+}
+.invite-box .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  text-align: center;
+}
+.invite-bd,
+.invite-box .btn-submit {
+  margin-top: 32rpx;
+}
+.invite-bd {
+  height: 120rpx;
+  margin-bottom: 36rpx;
+  overflow: hidden;
+  position: relative;
+}
+.invite-bd::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 100%, 0)),
+    color-stop(90%, #fff)
+  );
+  background: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0), #fff 90%);
+  background: -o-linear-gradient(left, hsla(0, 0%, 100%, 0), #fff 90%);
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 90%);
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30rpx;
+  z-index: 5;
+}
+.invite-list {
+  -webkit-overflow-scrolling: touch;
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 40rpx;
+  white-space: nowrap;
+}
+.invite-list .item {
+  display: inline-block;
+  margin-right: 36rpx;
+  text-align: center;
+  vertical-align: top;
+}
+.invite-list .avatar {
+  border-radius: 80rpx;
+  display: block;
+  height: 80rpx;
+  width: 80rpx;
+}
+.invite-list .name {
+  font-size: 24rpx;
+  margin-top: 4rpx;
+  max-width: 80rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.invite-list .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.invite-list .btn-add {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 80rpx;
+  display: block;
+  height: 80rpx;
+  width: 80rpx;
+}
+.ty .invite-list .btn-add,
+.zx .invite-list .btn-add {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/btn-add-zx.png);
+}
+.help-note {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 26rpx 30rpx 40rpx;
+}
+.help-note .item {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+.help-note .item::after {
+  background: #f0f3f7;
+  content: "";
+  height: 80rpx;
+  position: absolute;
+  right: 0;
+  top: 38rpx;
+  width: 1rpx;
+}
+.help-note .item:last-child::after {
+  display: none;
+}
+.help-note .icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 72rpx;
+  margin: 0 auto;
+  width: 72rpx;
+}
+.help-note .h {
+  font-size: 26rpx;
+  font-weight: 700;
+  margin-top: 8rpx;
+}
+.help-note .t {
+  color: #999;
+  font-size: 20rpx;
+}
+.zx .help-note .icon-advg-1 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-1-zx.png);
+}
+.zx .help-note .icon-advg-2 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-2-zx.png);
+}
+.zx .help-note .icon-advg-3 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-3-zx.png);
+}
+.ty .help-note .icon-advg-1 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-1-zx.png);
+}
+.ty .help-note .icon-advg-2 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-2-zx.png);
+}
+.ty .help-note .icon-advg-3 {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/icon-advg-3-zx.png);
+}
+.qus-box {
+  padding: 26rpx 30rpx 40rpx;
+}
+.qus-box .tit {
+  font-size: 34rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.qus-box .txt-qus {
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 44rpx;
+  margin-bottom: 8rpx;
+  padding-left: 44rpx;
+  position: relative;
+}
+.qus-box .txt-qus::before {
+  border-radius: 8rpx;
+  color: #fff;
+  content: "问";
+  font-size: 20rpx;
+  font-weight: 700;
+  height: 32rpx;
+  left: 0;
+  line-height: 32rpx;
+  position: absolute;
+  text-align: center;
+  top: 6rpx;
+  width: 32rpx;
+}
+.ty .qus-box .txt-qus::before,
+.zx .qus-box .txt-qus::before {
+  background: #0080ff;
+}
+.qus-box .txt-anw {
+  color: #999;
+  font-size: 26rpx;
+  margin: 0 0 30rpx 44rpx;
+}
+.qus-box .txt-anw:last-child {
+  margin-bottom: 0;
+}
+.qus-box .desc {
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}
+.qus-box .desc,
+.qus-box .desc .dot {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.qus-box .desc .dot {
+  -ms-flex-align: center;
+  align-items: center;
+  height: 34rpx;
+  margin-right: 16rpx;
+}
+.qus-box .desc .dot::after {
+  background: #999;
+  border-radius: 50%;
+  content: "";
+  height: 8rpx;
+  width: 8rpx;
+}
+.qus-box .desc .content {
+  color: #999;
+  font-size: 26rpx;
+  line-height: 34rpx;
+}
+.botm-advg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 74rpx;
+  margin: 48rpx auto 0;
+  width: 454rpx;
+}
+.zx .botm-advg {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20210903-ztrip-wechat/botm-advg-zx.png);
+}
+.warm-tip-box {
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.warm-tip-box .tips {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin: 20rpx 40rpx 0;
+}
+.warm-tip-box .btn-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40rpx 0 88rpx;
+}
+.warm-tip-box .btn-box .btn {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 48rpx;
+  flex: 1;
+  font-size: 36rpx;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 96rpx;
+  margin: 0 20rpx;
+  text-align: center;
+}
+.warm-tip-box .btn-box .exit {
+  background-color: #ededed;
+  color: #333;
+}
+.warm-tip-box .btn-box .agree {
+  background-color: #198cff;
+  color: #fff;
+}
+.ifont-radio {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.ifont-radioed {
+  color: #198cff;
+  font-size: 28rpx;
+}

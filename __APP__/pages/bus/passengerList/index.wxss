@@ -1,0 +1,261 @@
+@import "/pages/bus/sub-vendors.wxss";
+@import "/pages/bus/sub-common/107180af6f6bc04d795e83cb4aa3e010.wxss";
+page {
+  background-color: #fff;
+}
+.passenger-list .fixed-top {
+  background: #f8f8f8;
+  height: 128rpx;
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+}
+.passenger-list .fixed-top .content {
+  margin: 0 30rpx;
+  padding-top: 20rpx;
+}
+.passenger-list .fixed-top .btn {
+  background-color: #fff;
+  border-radius: 54rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.ty.passenger-list .fixed-top .btn {
+  color: #ff5959;
+}
+.zx.passenger-list .fixed-top .btn {
+  color: #0080ff;
+}
+.passenger-list .fixed-top .btn .ifont-fail {
+  font-size: 34rpx;
+  font-weight: 500;
+  margin: -6rpx 8rpx 0 0;
+  transform: rotate(45deg);
+}
+.passenger-list .fixed-top .btn .txt {
+  font-weight: 500;
+}
+.passenger-list .wrap {
+  padding: 128rpx 30rpx 148rpx;
+}
+.passenger-list .wrap .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #f0f0f0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 136rpx;
+}
+.passenger-list .wrap .item .check {
+  height: 44rpx;
+  width: 50rpx;
+}
+.passenger-list .wrap .item .main {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.passenger-list .wrap .item .title {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.passenger-list .wrap .item .title .name {
+  color: #222;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.passenger-list .wrap .item .title .type {
+  border: 1rpx solid #999;
+  border-radius: 6rpx;
+  color: #999;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-left: 12rpx;
+  padding: 2rpx 6rpx;
+  text-align: center;
+}
+.passenger-list .wrap .item .card {
+  color: #999;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 6rpx;
+}
+.passenger-list .wrap .item .card .red {
+  color: #ff5959;
+}
+.passenger-list .wrap .item .edit {
+  height: 48rpx;
+  width: 48rpx;
+}
+.passenger-list .wrap .item .ifont-edit {
+  color: #ccc;
+  font-size: 34rpx;
+}
+.passenger-list .wrap .item .icon-check {
+  background: url(https://images3.c-ctrip.com/train/wechat/bus/uncheck.png)
+    no-repeat;
+  background-size: 44rpx 44rpx;
+  height: 44rpx;
+  width: 50rpx;
+}
+.ty.passenger-list .wrap .item.cur .icon-check {
+  background: url(https://images3.c-ctrip.com/train/wechat/bus/zxcheck.png)
+    no-repeat;
+  background-size: 44rpx 44rpx;
+}
+.zx.passenger-list .wrap .item.cur .icon-check {
+  background: url(https://images3.c-ctrip.com/train/wechat/bus/check.png)
+    no-repeat;
+  background-size: 44rpx 44rpx;
+}
+.passenger-list .fixed-bottom {
+  background: #fff;
+  bottom: 0;
+  height: 128rpx;
+  left: 0;
+  padding: 0 20rpx;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+.passenger-list .fixed-bottom .content {
+  height: 88rpx;
+  margin: 20rpx 0;
+  width: 100%;
+}
+.passenger-list .fixed-bottom .btn {
+  border-radius: 48rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 100%;
+  text-align: center;
+}
+.ty.passenger-list .fixed-bottom .btn {
+  background-color: #ff5959;
+}
+.zx.passenger-list .fixed-bottom .btn {
+  background-color: #0080ff;
+}
+.passenger-list
+  .guide-component
+  .guide-root
+  .bus-passenerList-guide-display-conent.root-display-box {
+  left: 20rpx;
+  width: calc(100% - 40rpx);
+}
+.passenger-list .guide-component .guide-tip {
+  bottom: -120rpx;
+  height: 124rpx;
+  left: 20rpx;
+  position: absolute;
+  width: calc(100% - 40rpx);
+}
+.passenger-list .guide-component .guide-tip .guide-bus-passenerList {
+  height: 100%;
+}
+.passenger-list .guide-component .guide-tip .guide-bus-passenerList .guide-row {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 80rpx;
+}
+.passenger-list
+  .guide-component
+  .guide-tip
+  .guide-bus-passenerList
+  .guide-point {
+  animation: movePoint 1.2s ease-in-out infinite;
+  height: 100%;
+  margin-bottom: 20rpx;
+  transform: translateY(-10rpx);
+  width: 134.6rpx;
+}
+.passenger-list
+  .guide-component
+  .guide-tip
+  .guide-bus-passenerList
+  .guide-line {
+  height: 124rpx;
+  margin: 0 20rpx 0 8rpx;
+  width: 25rpx;
+}
+.passenger-list
+  .guide-component
+  .guide-tip
+  .guide-bus-passenerList
+  .guide-text {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+}
+.passenger-list
+  .guide-component
+  .guide-tip
+  .guide-bus-passenerList
+  .guide-text
+  .hl {
+  color: #ffda8b;
+  margin: 0 8rpx;
+}
+.passenger-list
+  .guide-component
+  .guide-tip
+  .guide-bus-passenerList
+  .guide-jump-btn {
+  border: 1rpx solid #979797;
+  border-radius: 26rpx;
+  border-radius: 26px;
+  color: #fff;
+  float: right;
+  font-size: 25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-right: 10rpx;
+  text-align: center;
+  width: 152rpx;
+}
+@-webkit-keyframes movePoint {
+  0% {
+    transform: translate(-5rpx, 5rpx);
+  }
+  25% {
+    transform: translate(-15rpx, 15rpx);
+  }
+  50% {
+    transform: translate(-20rpx, 20rpx);
+  }
+  75% {
+    transform: translate(-15rpx, 15rpx);
+  }
+  100% {
+    transform: translate(-5rpx, 5rpx);
+  }
+}
+@keyframes movePoint {
+  0% {
+    transform: translate(-5rpx, 5rpx);
+  }
+  25% {
+    transform: translate(-15rpx, 15rpx);
+  }
+  50% {
+    transform: translate(-20rpx, 20rpx);
+  }
+  75% {
+    transform: translate(-15rpx, 15rpx);
+  }
+  100% {
+    transform: translate(-5rpx, 5rpx);
+  }
+}

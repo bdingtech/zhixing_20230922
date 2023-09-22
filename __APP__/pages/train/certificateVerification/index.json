@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "人证核验",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

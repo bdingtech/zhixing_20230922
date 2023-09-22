@@ -1,0 +1,90 @@
+@import "/wxss/common.wxss";
+.dialog-content {
+  background: #fff
+    url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/common/reward-bg.png)
+    no-repeat top;
+  background-size: 560rpx auto;
+}
+.role-select-nav {
+  align-items: center;
+  color: #999;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 24rpx;
+  justify-content: center;
+  margin-top: 16rpx;
+  padding-bottom: 48rpx;
+}
+.role-select-tip {
+  color: #333;
+  white-space: nowrap;
+}
+.role-select-desc {
+  max-width: 250rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.role-exchange {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/wzry/role-exchange.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 48rpx;
+  width: 48rpx;
+}
+.reward-title {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/common/reward-title.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 128rpx;
+  width: 560rpx;
+}
+.reward-pic {
+  display: block;
+  height: 136rpx;
+  margin: -24rpx auto 16rpx;
+  width: 136rpx;
+}
+.reward-name {
+  color: #333;
+  display: block;
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 16rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dialog-btn-wrap {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60rpx;
+}
+.dialog-btn-wrap navigator:first-child {
+  margin-right: 16rpx;
+}
+.email-btn {
+  background: #fff;
+  border: 2rpx solid #ff9e74;
+  border-radius: 4rpx;
+  color: #ff9e74;
+}
+.continue-btn,
+.email-btn {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 28rpx;
+  height: 64rpx;
+  justify-content: center;
+  width: 240rpx;
+}
+.continue-btn {
+  background-image: linear-gradient(45deg, #f99b73, #9473ff);
+  border-radius: 4rpx;
+  color: #fff;
+}

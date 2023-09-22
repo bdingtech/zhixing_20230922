@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "积分明细",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "backgroundColorTop": "#efefef",
+  "backgroundColorBottom": "#efefef",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

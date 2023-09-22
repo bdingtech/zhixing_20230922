@@ -1,0 +1,137 @@
+@import "/pages/bus/sub-vendors.wxss";
+.bus-coupon-item.disable {
+  filter: grayscale(0.8);
+}
+.bus-coupon-item .list-item {
+  background: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 30rpx 0 rgba(0, 0, 0, 0.05);
+  margin: 20rpx;
+  padding: 26rpx 30rpx 18rpx;
+}
+.bus-coupon-item .list-item.unavail {
+  filter: grayscale(100%);
+}
+.bus-coupon-item .list-item .detail {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.bus-coupon-item .list-item .detail::after {
+  background: #ededed;
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  top: 105rpx;
+  width: 100%;
+}
+.bus-coupon-item .list-item .price {
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 60rpx;
+}
+.bus-coupon-item .list-item .price .pre {
+  font-size: 24rpx;
+}
+.bus-coupon-item .list-item .info {
+  color: #333;
+  flex: 2;
+  font-size: 32rpx;
+  margin-bottom: 6rpx;
+  margin-left: 30rpx;
+}
+.bus-coupon-item .list-item .info .affix {
+  font-weight: 700;
+}
+.bus-coupon-item .list-item .info .expires {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.bus-coupon-item .list-item .choose {
+  flex: 1;
+  height: 40rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40rpx;
+}
+.bus-coupon-item .list-item .remark {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-right: 3rpx;
+  position: relative;
+  width: 100%;
+}
+.bus-coupon-item .list-item .remark .line {
+  display: block;
+  font-size: 22rpx;
+  line-height: 1.5;
+  min-width: 100%;
+  word-break: break-all;
+}
+.bus-coupon-item .list-item .desc {
+  margin-right: 25rpx;
+}
+.bus-coupon-item .list-item .desc.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.bus-coupon-item .list-item .desc.ellipsis .line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.bus-coupon-item .list-item .remark .desc.ellipsis .line {
+  display: inline-block;
+}
+.bus-coupon-item .list-item .remark .ifont-arr {
+  font-size: 20rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(90deg);
+}
+.bus-coupon-item .list-item .remark .ifont-arr.show {
+  transform: rotate(270deg);
+}
+.bus-coupon-item .ifont-radio {
+  color: #ccc;
+  font-size: 43rpx;
+}
+.bus-coupon-item .ifont-radioed {
+  color: #0080ff;
+  font-size: 43rpx;
+}
+.book-coupon .condition {
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  margin: 20rpx;
+  padding: 32rpx 30rpx;
+}
+.book-coupon .condition .select {
+  margin-left: auto;
+}
+.book-coupon .list {
+  padding-bottom: 20rpx;
+}
+.ifont-radio {
+  color: #ccc;
+  font-size: 43rpx;
+}
+.ifont-radioed {
+  color: #0080ff;
+  font-size: 43rpx;
+}

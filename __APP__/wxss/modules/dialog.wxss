@@ -1,0 +1,38 @@
+.dialog-wrap {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.dialog-content {
+  background: #fff;
+  border-radius: 8rpx;
+  box-shadow: 0 0 2rpx 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 64rpx 48rpx 0;
+  position: relative;
+  width: 560rpx;
+}
+.dialog-close {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/wzry/wz-expand-close.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 96rpx;
+  margin-top: 44rpx;
+  width: 96rpx;
+}
+.dialog-title {
+  color: #4a4a4a;
+  font-size: 32rpx;
+  font-weight: 700;
+  padding-bottom: 44rpx;
+  text-align: center;
+}

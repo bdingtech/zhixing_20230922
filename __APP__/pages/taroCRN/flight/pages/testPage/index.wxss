@@ -1,0 +1,125 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+.maskBox {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 990;
+}
+.maskActive {
+  flex: 1;
+}
+.maskActive,
+.popContent {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popContent {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16rpx;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32rpx;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+.popChart {
+  height: 340rpx;
+  width: 464rpx;
+}
+.popFont {
+  flex-direction: column;
+  margin-bottom: 42rpx;
+}
+.popFont,
+.popTitle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popTitle {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: row;
+  height: 48rpx;
+  justify-content: center;
+  margin: 16rpx 0;
+  width: 100%;
+}
+.popTitleMain {
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.popTitleNo,
+.popTitleUnit {
+  color: #fa6400;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.popTitleNo {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.popText {
+  color: #666;
+  font-size: 30rpx;
+  text-align: center;
+  width: 498rpx;
+}
+.popBtn {
+  -ms-flex-pack: distribute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  height: 72rpx;
+  justify-content: space-around;
+  width: 100%;
+}
+.popBtnDel {
+  background-color: #fff;
+  border: 2rpx solid #2698f7;
+  color: #2698f7;
+}
+.popBtnCancel,
+.popBtnDel {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 8rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  height: 72rpx;
+  justify-content: center;
+  width: 230rpx;
+}
+.popBtnCancel {
+  background-color: #2698f7;
+  color: #fff;
+}

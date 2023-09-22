@@ -1,0 +1,47 @@
+.mdpage-loading {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 3003;
+}
+.mdpage-loading .text {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 35%;
+}
+.mdpage-loading .loading-bar {
+  height: 24rpx;
+  margin: 50rpx auto;
+  width: 180rpx;
+}
+.mdpage-loading .loading-bar .icon-loading {
+  animation: train 1.5s infinite;
+  animation-fill-mode: both;
+  background: url(http://images3.c-ctrip.com/train/wxapp/icon-bupiao.png)
+    no-repeat;
+  background-position: -180rpx -200rpx;
+  background-size: 750rpx 280rpx;
+  float: left;
+  height: 24rpx;
+  width: 180rpx;
+}
+@-webkit-keyframes train {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes train {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

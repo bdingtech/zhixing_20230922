@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "编辑乘车人",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "backgroundColorBottom": "#EFEFEF",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,102 @@
+.ship-booking-rule-drawer .zt-drawer {
+  border-radius: 40rpx 40rpx 0 0;
+}
+.ship-booking-rule-drawer .content {
+  position: relative;
+}
+.ship-booking-rule-drawer .content .drawer-tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  padding-top: 30rpx;
+  text-align: center;
+}
+.ship-booking-rule-drawer .content .ifont2-close {
+  color: #ccc;
+  font-size: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+}
+.ship-booking-rule-drawer .content .tab-list {
+  padding: 18rpx 40rpx;
+}
+.ship-booking-rule-drawer .content .tab-list .tab-item .tab-name {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  line-height: 44rpx;
+}
+.ship-booking-rule-drawer .content .tab-list .tab-item .tab-name.active {
+  color: #333;
+}
+.ship-booking-rule-drawer .content .tab-list .tab-item .bar {
+  background: #198cff;
+  border-radius: 3rpx;
+  height: 6rpx;
+  margin-top: 4rpx;
+  visibility: hidden;
+  width: 40rpx;
+}
+.ship-booking-rule-drawer .content .tab-list .tab-item .bar.active {
+  visibility: visible;
+}
+.ship-booking-rule-drawer .content .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  margin-bottom: 20rpx;
+  margin-left: 10rpx;
+}
+.ship-booking-rule-drawer .content .table-item {
+  margin: 0 30rpx 40rpx;
+}
+.ship-booking-rule-drawer .content .table-item .desc-table .rft-tr {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.ship-booking-rule-drawer .content .table-item .desc-table .rft-tr .td-label {
+  color: #222;
+  padding: 10rpx 0;
+  width: 180rpx;
+}
+.ship-booking-rule-drawer .content .table-item .desc-table .rft-tr .td-desc {
+  padding: 0 10rpx;
+}
+.ship-booking-rule-drawer
+  .content
+  .table-item
+  .desc-table
+  .rft-tr
+  .td-desc
+  .txt {
+  display: block;
+  text-align: left;
+}
+.ship-booking-rule-drawer .content .normal-item {
+  margin: 0 30rpx 40rpx;
+}
+.ship-booking-rule-drawer .content .normal-item .desc-list {
+  background: #f7f9fa;
+  border-radius: 20rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  padding: 24rpx;
+}
+.ship-booking-rule-drawer .content .cont-scroll {
+  max-height: 1104rpx;
+}

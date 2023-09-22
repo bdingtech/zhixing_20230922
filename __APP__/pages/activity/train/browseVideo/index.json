@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "点赞视频号",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#ffffff",
+  "backgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

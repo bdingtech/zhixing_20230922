@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "test",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#198CFF",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

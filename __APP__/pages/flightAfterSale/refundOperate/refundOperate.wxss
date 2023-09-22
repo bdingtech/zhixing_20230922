@@ -1,0 +1,126 @@
+@import "/pages/flightAfterSale/sub-vendors.wxss";
+.wrap {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  padding: 16rpx 0 calc(140rpx + env(safe-area-inset-bottom));
+}
+.white-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx 16rpx;
+}
+.operate-box {
+  padding: 30rpx;
+}
+.operate-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.operate-hd .tag {
+  border-radius: 44rpx;
+  font-size: 26rpx;
+  font-weight: 700;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-right: 12rpx;
+  text-align: center;
+  width: 84rpx;
+}
+.zx .operate-hd .tag {
+  background: #eaf5ff;
+  color: #0080ff;
+}
+.ty .operate-hd .tag {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.operate-hd .tit {
+  font-style: 36rpx;
+  font-weight: 700;
+}
+.operate-hd .rbox {
+  color: #999;
+  font-size: 26rpx;
+  margin-left: auto;
+}
+.operate-bd {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  margin-top: 28rpx;
+  padding: 24rpx;
+}
+.operate-bd .item {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22rpx;
+}
+.operate-bd .item:last-child {
+  margin-bottom: 0;
+}
+.operate-bd .item.disabled {
+  color: #999;
+}
+.operate-bd .name,
+.operate-bd .rbox {
+  font-size: 28rpx;
+}
+.operate-bd .twarn {
+  color: #f76e21;
+}
+.operate-bd .ifont-radio,
+.operate-bd .ifont-radioed {
+  font-size: 40rpx;
+}
+.operate-bd .ifont-radio {
+  color: #ccc;
+}
+.zx .operate-bd .ifont-radioed {
+  color: #0080ff;
+}
+.ty .operate-bd .ifont-radioed {
+  color: #fc6e51;
+}
+.operate-bd .tips {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff8ed;
+  border-radius: 12rpx;
+  color: #f76e21;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24rpx;
+  padding: 12rpx 20rpx;
+}
+.operate-bd .ifont-line-tips {
+  font-size: 24rpx;
+  margin: 0 12rpx 0 0;
+}
+.operate-bd .cont {
+  font-size: 24rpx;
+}
+.fixed-bottm {
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0-4rpx 20rpx rgba(0, 0, 0, 0.05);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.fixed-bottm .btn-next {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 88rpx;
+  line-height: 88rpx;
+}

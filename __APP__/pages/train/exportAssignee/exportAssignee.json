@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "选择乘车人",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorBottom": "#efefef",
+  "backgroundColorTop": "#efefef",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

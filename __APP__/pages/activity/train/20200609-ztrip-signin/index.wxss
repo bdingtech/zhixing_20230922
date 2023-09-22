@@ -1,0 +1,1377 @@
+@charset "UTF-8";
+@import "/pages/activity/train/sub-vendors.wxss";
+page {
+  background: #fff;
+}
+.cont {
+  flex: 1;
+}
+.top-box {
+  padding-bottom: 120rpx;
+  position: relative;
+}
+.top-box.zx {
+  background: -webkit-linear-gradient(top left, #07acff, #1367ff);
+}
+.top-box.ty {
+  background: -webkit-linear-gradient(top left, #ffa24f, #ff4949);
+}
+.top-box::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/top-mask.png)
+    no-repeat;
+  background-size: 100% 44rpx;
+  bottom: 0;
+  height: 44rpx;
+  z-index: 3;
+}
+.top-box.unsigned::before,
+.top-box::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.top-box.unsigned::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/top-bg.png)
+    no-repeat;
+  background-size: 100% 480rpx;
+  height: 480rpx;
+  top: 0;
+}
+.top-bar {
+  color: #fff;
+  padding-top: 40rpx;
+  position: relative;
+  z-index: 5;
+}
+.top-bar.iphone {
+  padding-top: 88rpx;
+}
+.top-bar.fixed {
+  background: #fff;
+  color: #333;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.top-bar-hd {
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  position: relative;
+  text-align: center;
+}
+.top-bar-hd .ifont-back {
+  bottom: 0;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  width: 88rpx;
+}
+.top-bar-hd .tit {
+  font-weight: 500;
+}
+.top-bar-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: none;
+  flex-flow: row wrap;
+  height: 88rpx;
+  padding: 0 30rpx;
+}
+.top-bar.fixed .top-bar-bd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top-bar-bd .txt {
+  color: #999;
+  font-size: 30rpx;
+  margin-left: auto;
+}
+.top-status {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20rpx 30rpx 32rpx;
+  position: relative;
+  z-index: 5;
+}
+.top-bar-bd .label,
+.top-status .label {
+  font-size: 30rpx;
+}
+.top-bar-bd .total,
+.top-status .total {
+  font-family: DIN Alternate;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.top-status .convert {
+  border-radius: 44rpx;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 22rpx;
+  line-height: 44rpx;
+  margin-left: 20rpx;
+  padding: 0 14rpx;
+}
+.top-status .convert .ifont-arr {
+  font-size: 16rpx;
+  margin: -4rpx 0 0 2rpx;
+}
+.zx .convert {
+  background: #3a98ef;
+}
+.ty .convert {
+  background: -webkit-linear-gradient(left top, #fc7045, #fa6537);
+}
+.top-sign {
+  margin: 40rpx auto 48rpx;
+  position: relative;
+  z-index: 5;
+}
+.top-sign .btn-sign {
+  background-color: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 44rpx;
+  font-weight: 600;
+  height: 200rpx;
+  line-height: 60rpx;
+  padding: 52rpx 0;
+  width: 200rpx;
+}
+.top-sign .btn-sign .txt {
+  display: block;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.zx .btn-sign {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/btn-sign-zx.png);
+  color: #0080ff;
+}
+.ty .btn-sign {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/btn-sign-ty.png);
+  color: #fc6e51;
+}
+.top-sign .tag {
+  border-radius: 38rpx;
+  bottom: -8rpx;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 20rpx;
+  left: 50%;
+  line-height: 38rpx;
+  padding: 0 14rpx;
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 2;
+}
+.zx .top-sign .tag {
+  background: -webkit-linear-gradient(top left, #3196ff, #1987f9);
+}
+.ty .top-sign .tag {
+  background: -webkit-linear-gradient(top left, #ff5e2c, #fa5523);
+}
+.wrap {
+  margin-top: -120rpx;
+  padding-bottom: calc(40rpx + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 5;
+}
+.sign-box {
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 12rpx rgba(26, 54, 75, 0.1);
+  margin: 0 30rpx;
+  padding: 40rpx 30rpx;
+}
+.sign-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sign-hd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.sign-hd .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.sign-hd .ifont-detail {
+  font-size: 24rpx;
+  margin: -4rpx 0 0 6rpx;
+}
+.sign-bd {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  position: relative;
+}
+.sign-bd::after {
+  background: #f5f5f5;
+  content: "";
+  height: 6rpx;
+  left: 36rpx;
+  position: absolute;
+  right: 36rpx;
+  top: 42rpx;
+}
+.sign-bd .item {
+  color: #999;
+  font-size: 24rpx;
+  position: relative;
+  text-align: center;
+  width: 68rpx;
+  z-index: 2;
+}
+.sign-bd .card {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  height: 90rpx;
+  justify-content: center;
+  width: 68rpx;
+}
+.sign-bd .week {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+.sign-bd .no,
+.sign-bd .txt {
+  width: 100%;
+}
+.sign-bd .txt {
+  font-size: 22rpx;
+}
+.sign-bd icon {
+  display: block;
+  height: 36rpx;
+  margin: 6rpx auto -12rpx;
+  width: 36rpx;
+}
+.sign-bd .last .card,
+.sign-bd icon {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/icon-card.png)
+    no-repeat;
+  background-size: 76rpx 172rpx;
+}
+.sign-bd.zx .done .card {
+  background: -webkit-linear-gradient(top left, #e0f3ff, #d7e9ff);
+  color: #0080ff;
+  opacity: 0.6;
+}
+.sign-bd.ty .done .card {
+  background: -webkit-linear-gradient(top left, #ffe2d4, #ffd1ce);
+  color: #fc6e51;
+}
+.sign-bd.zx .icon-suc {
+  background-position: 0-96rpx;
+}
+.sign-bd.ty .icon-suc {
+  background-position: -40rpx -96rpx;
+}
+.sign-bd .icon-star {
+  background-position: -40rpx -136rpx;
+}
+.sign-bd.zx .now .card {
+  background: -webkit-linear-gradient(top left, #62c2ff, #338fff);
+  color: #fff;
+}
+.sign-bd.ty .now .card {
+  background: -webkit-linear-gradient(top left, #ff7f3d, #ff4d4d);
+  color: #fff;
+}
+.sign-bd .now .icon-star {
+  background-position: 0-136rpx;
+}
+.activity-entry {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 40rpx 30rpx 0;
+}
+.activity-entry .item {
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  flex: 1;
+  height: 216rpx;
+  margin-right: 16rpx;
+  padding: 20rpx;
+  position: relative;
+}
+.activity-entry .item::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/activity-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 16rpx;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.activity-entry .item::after {
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 114rpx;
+  position: absolute;
+  right: 0;
+  width: 120rpx;
+}
+.activity-entry .item:last-child {
+  margin-right: 0;
+}
+.activity-entry .tit {
+  font-size: 32rpx;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+.activity-entry .btn-go,
+.activity-entry .txt {
+  font-size: 22rpx;
+  position: relative;
+  z-index: 2;
+}
+.activity-entry .btn-go {
+  border-radius: 48rpx;
+  color: #fff;
+  font-weight: 700;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin: 16rpx 0 0;
+  width: 120rpx;
+}
+.activity-entry .item.draw {
+  background: -webkit-linear-gradient(top left, #ffe7b9, #ffba95);
+  color: #d44d00;
+}
+.activity-entry .item.draw::after {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/activity-draw.png);
+}
+.activity-entry .item.draw .btn-go {
+  background: -webkit-linear-gradient(left, #ffa240, #ff6310);
+}
+.activity-entry .item.punch {
+  background: -webkit-linear-gradient(top left, #b9ebff, #8ec1ff);
+  color: #2879dd;
+}
+.activity-entry .item.punch::after {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/activity-punch.png);
+}
+.activity-entry .item.punch .btn-go {
+  background: -webkit-linear-gradient(left, #62bafe, #367aff);
+}
+.activity-entry .item.shop {
+  background: -webkit-linear-gradient(top left, #ffe0da, #ff9c8b);
+  color: #e74529;
+}
+.activity-entry .item.shop::after {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/activity-shop.png);
+}
+.activity-entry .item.shop .btn-go {
+  background: -webkit-linear-gradient(left, #ff8b66, #ff5158);
+}
+.swiper-box {
+  margin: 40rpx 30rpx 0;
+}
+.swiper-box .swiper {
+  height: 210rpx;
+}
+.swiper-box .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/coupon-bg.png)
+    no-repeat;
+  background-size: 100% 160rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 160rpx;
+  padding: 0 32rpx 0 60rpx;
+  position: relative;
+  width: 100%;
+}
+.swiper-box .tag {
+  background: -webkit-linear-gradient(top left, #ffc44d, #ff7d3d);
+  border-radius: 20rpx 0 16rpx;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 600;
+  left: 0;
+  line-height: 36rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  top: 0;
+}
+.swiper-box .price {
+  color: #ff5959;
+  font-family: DIN Alternate;
+  font-size: 60rpx;
+  font-weight: 600;
+  margin-right: 40rpx;
+}
+.swiper-box .price::before {
+  content: "¥";
+  font-size: 30rpx;
+  margin-right: 4rpx;
+}
+.swiper-box .tit {
+  color: #ff5959;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.swiper-box .progress-bar {
+  background: #ffd28b;
+  border-radius: 8rpx;
+  height: 8rpx;
+  margin-top: 10rpx;
+  position: relative;
+  width: 240rpx;
+}
+.swiper-box .progress-bar .line {
+  background: #ff5959;
+  border-radius: 8rpx;
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.swiper-box .txt {
+  color: #ff5959;
+  font-size: 20rpx;
+  margin-top: 8rpx;
+}
+.swiper-box .btn-dui {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/btn-dui.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 100rpx;
+  box-shadow: 0 0 10rpx #c62900;
+  color: #fe4f4b;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0;
+  width: 100rpx;
+}
+.swiper-box .btn-dui.grey,
+.swiper-box .btn-dui[disabled] {
+  color: #fe4f4b;
+  font-size: 22rpx;
+  opacity: 0.6;
+}
+.htit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-left: 30rpx;
+}
+.htit::before {
+  content: "";
+  display: inline-block;
+  height: 36rpx;
+  margin: -4rpx 12rpx 0 0;
+  vertical-align: middle;
+  width: 8rpx;
+}
+.htit.zx::before {
+  background: -webkit-linear-gradient(top left, #0af, #0080ff);
+}
+.htit.ty::before {
+  background: -webkit-linear-gradient(top left, #ff925a, #fc6e51);
+}
+.welfare-box {
+  margin-top: 10rpx;
+}
+.welfare-box .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140rpx;
+  margin-left: 120rpx;
+  padding-right: 30rpx;
+  position: relative;
+}
+.welfare-box .item:last-child {
+  border-bottom: 0;
+}
+.welfare-box .icon {
+  height: 68rpx;
+  left: -88rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 68rpx;
+}
+.welfare-box .tit {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.welfare-box .txt {
+  color: #999;
+  font-size: 24rpx;
+}
+.welfare-box .btn-go {
+  border-radius: 60rpx;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0;
+  width: 128rpx;
+}
+.welfare-box .btn-go .icon-star {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/icon-star.png)
+    no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 28rpx;
+  margin: -4rpx 0 0 8rpx;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.welfare-box .btn-go.zx {
+  background: -webkit-linear-gradient(top left, #0af, #0080ff);
+}
+.welfare-box .btn-go.ty {
+  background: -webkit-linear-gradient(top left, #ff925a, #fc6e51);
+}
+.welfare-box .btn-go[disabled] {
+  background: #e5e5e5;
+  color: #fff;
+  font-size: 24rpx;
+}
+.welfare-box .btn-go-disabled {
+  background: #ccc;
+  border-radius: 60rpx;
+  color: #e6e6e6;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0;
+  width: 128rpx;
+}
+.exchange-box {
+  margin-top: 40rpx;
+}
+.member-exchange-coupon {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 132rpx;
+  margin-left: 230rpx;
+  padding: 30rpx 30rpx 30rpx 20rpx;
+  position: relative;
+}
+.member-exchange-coupon:last-child {
+  border-bottom: 0;
+}
+.member-exchange-coupon .coupon-left {
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  color: #fff;
+  height: 132rpx;
+  left: -200rpx;
+  padding: 24rpx;
+  position: absolute;
+  top: 30rpx;
+  width: 200rpx;
+}
+.member-exchange-coupon .coupon-left::before {
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 200rpx 0 0#fff;
+  content: "";
+  height: 16rpx;
+  left: -8rpx;
+  position: absolute;
+  top: 58rpx;
+  width: 16rpx;
+}
+.member-exchange-coupon .coupon-left::after,
+.pop-weekend-coupon::after {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/mumber-coupon.png);
+  background-repeat: no-repeat;
+  background-size: 488rpx 84rpx;
+  bottom: 0;
+  content: "";
+  height: 84rpx;
+  position: absolute;
+  right: 0;
+  width: 88rpx;
+}
+.member-exchange-coupon .coupon-left .tit {
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 54rpx;
+  line-height: 54rpx;
+  overflow: hidden;
+}
+.member-exchange-coupon .coupon-left .strong {
+  font-family: DIN Alternate;
+  font-size: 46rpx;
+  margin-right: 4rpx;
+}
+.member-exchange-coupon .coupon-left .txt {
+  font-size: 21rpx;
+  line-height: 30rpx;
+  margin-top: 2rpx;
+  opacity: 0.7;
+}
+.member-exchange-coupon .coupon-box {
+  flex: 1;
+}
+.member-exchange-coupon .coupon-box .tit {
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+}
+.member-exchange-coupon .coupon-box .txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+.member-exchange-coupon .coupon-box .jifen {
+  color: #fc6e51;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 10rpx;
+}
+.member-exchange-coupon .coupon-box .tag {
+  background: #fc6e51;
+  border-radius: 30rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin: -4rpx 0 0 6rpx;
+  padding: 0 8rpx;
+  vertical-align: middle;
+}
+.member-exchange-coupon .btn-exchange {
+  background: -webkit-linear-gradient(left, #f2ca79, #d99e4c);
+  color: #fff;
+}
+.member-exchange-coupon .btn-exchange,
+.member-exchange-coupon .btn-exchange-disabled {
+  border-radius: 60rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 128rpx;
+}
+.member-exchange-coupon .btn-exchange-disabled {
+  background-color: #ccc;
+  color: #e6e6e6;
+}
+.member-exchange-coupon .hotel {
+  background: -webkit-linear-gradient(top, #10b9f8, #1997fa);
+}
+.member-exchange-coupon .hotel::after {
+  background-position: 0 0;
+}
+.member-exchange-coupon .flight {
+  background: -webkit-linear-gradient(top, #febb77, #ed8024);
+}
+.member-exchange-coupon .flight::after {
+  background-position: -100rpx 0;
+}
+.member-exchange-coupon .train {
+  background: -webkit-linear-gradient(top, #f2653a, #f24e4b);
+}
+.member-exchange-coupon .train::after {
+  background-position: -200rpx 0;
+}
+.member-exchange-coupon .ticket {
+  background: -webkit-linear-gradient(top, #8174f9, #7456f2);
+}
+.member-exchange-coupon .ticket::after {
+  background-position: -300rpx 0;
+}
+.member-exchange-coupon .bus {
+  background: -webkit-linear-gradient(top, #2693ff, #06f);
+}
+.member-exchange-coupon .bus::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/mumber-coupon-bus.png)
+    no-repeat;
+  background-size: cover;
+}
+.exchange-more {
+  margin: 10rpx 30rpx 0;
+}
+.exchange-more .btn-more {
+  border-radius: 88rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  width: 100%;
+}
+.exchange-more .btn-more.zx {
+  background: -webkit-linear-gradient(top left, #0af, #0080ff);
+}
+.exchange-more .btn-more.ty {
+  background: -webkit-linear-gradient(top left, #ff925a, #fc6e51);
+}
+.pop-mid {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+}
+.pop-botm,
+.pop-mid {
+  position: fixed;
+  z-index: 1000;
+}
+.pop-botm {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.pop-suc {
+  background: #fff;
+  border-radius: 32rpx;
+}
+.pop-suc-hd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/pop-suc-top.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #fff;
+  height: 324rpx;
+  margin-top: -92rpx;
+  padding: 180rpx 40rpx 40rpx;
+  text-align: center;
+  width: 600rpx;
+}
+.pop-suc-hd .tit {
+  font-size: 44rpx;
+  font-weight: 600;
+}
+.pop-suc-hd .txt {
+  font-size: 28rpx;
+  margin-top: 4rpx;
+}
+.pop-suc-bd {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 50rpx 36rpx 60rpx;
+}
+.pop-suc-bd .tit {
+  color: #f44a4a;
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  text-align: center;
+  width: 100%;
+}
+.pop-suc-bd .tit::after,
+.pop-suc-bd .tit::before {
+  content: "";
+  display: inline-block;
+  height: 4rpx;
+  margin: -4rpx 12rpx 0;
+  vertical-align: middle;
+  width: 50rpx;
+}
+.pop-suc-bd .tit::before {
+  background: -webkit-linear-gradient(left, rgba(244, 74, 74, 0), #f44a4a);
+}
+.pop-suc-bd .tit::after {
+  background: -webkit-linear-gradient(right, rgba(244, 74, 74, 0), #f44a4a);
+}
+.pop-suc-bd .item {
+  background: -webkit-linear-gradient(top left, #ffead6, #ffd2c0);
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  height: 208rpx;
+  padding: 24rpx 0;
+  text-align: center;
+  width: 166rpx;
+}
+.pop-suc-bd .txt {
+  color: #f44a4a;
+  font-size: 24rpx;
+}
+.pop-suc-bd .btn-go {
+  background: -webkit-linear-gradient(left, #ffa671, #ff6262);
+  border-radius: 44rpx;
+  color: #fff;
+  font-size: 22rpx;
+  font-weight: 600;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 0;
+  width: 108rpx;
+}
+.pop-suc-bd .jifen {
+  color: #f44a4a;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin: 20rpx 0;
+}
+.pop-suc-bd .jifen::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/icon-star-red.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 40rpx;
+  margin: -4rpx 4rpx 0;
+  vertical-align: middle;
+  width: 40rpx;
+}
+.pop-suc-bd .prize {
+  display: block;
+  height: 70rpx;
+  margin: 10rpx auto 0;
+  width: 80rpx;
+}
+.pop-share {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/pop-share.png)
+    no-repeat;
+  background-size: cover;
+  height: 848rpx;
+  top: 42%;
+}
+.pop-share-hd {
+  box-sizing: border-box;
+  color: #fff;
+  height: 192rpx;
+  padding-top: 56rpx;
+  text-align: center;
+}
+.pop-share-hd .tit {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.pop-share-hd .txt {
+  font-size: 28rpx;
+  margin-top: 4rpx;
+}
+.pop-share-bd {
+  padding: 48rpx 40rpx 48rpx 50rpx;
+  position: relative;
+}
+.pop-share-bd .date {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+}
+.pop-share-bd .strong {
+  font-family: DIN Alternate;
+  font-size: 66rpx;
+  font-weight: 600;
+  margin-right: 16rpx;
+  padding-right: 16rpx;
+  position: relative;
+}
+.pop-share-bd .strong::after {
+  background: #d6d6d6;
+  content: "";
+  height: 96rpx;
+  margin-top: -24rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 2rpx;
+}
+.pop-share-bd .txt {
+  font-size: 22rpx;
+  line-height: 32rpx;
+  white-space: pre-wrap;
+}
+.pop-share-bd .tit {
+  font-size: 56rpx;
+  font-weight: lighter;
+  line-height: 80rpx;
+  margin-top: 72rpx;
+  white-space: pre-wrap;
+}
+.pop-share-bd .yi {
+  font-size: 24rpx;
+  position: absolute;
+  right: 48rpx;
+  top: 58rpx;
+  width: 28rpx;
+}
+.pop-share-botm {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 144rpx 50rpx 0;
+}
+.pop-share-botm .logo {
+  height: 66rpx;
+  width: 158rpx;
+}
+.pop-share-botm .qrcode {
+  height: 72rpx;
+  width: 72rpx;
+}
+.pop-select {
+  padding: 40rpx 30rpx calc(40rpx + constant(safe-area-inset-bottom));
+  text-align: center;
+}
+.pop-select-hd {
+  position: relative;
+}
+.pop-select-hd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.pop-select-hd .ifont-closed {
+  border: 4rpx solid #ccc;
+  border-radius: 42rpx;
+  color: #999;
+  font-size: 20rpx;
+  height: 42rpx;
+  line-height: 44rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 42rpx;
+}
+.pop-select-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+.pop-select-bd .item {
+  margin-right: 150rpx;
+}
+.pop-select-bd .item:last-child {
+  margin-right: 0;
+}
+.pop-select-bd .icon-pyq,
+.pop-select-bd .icon-wechat {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 80rpx;
+  margin: 0 auto;
+  width: 80rpx;
+}
+.pop-select-bd .icon-wechat {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/icon-wechat.png);
+}
+.pop-select-bd .icon-pyq {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/icon-pyq.png);
+}
+.pop-select-bd .txt {
+  font-size: 26rpx;
+  margin-top: 12rpx;
+}
+.pop-pyq {
+  left: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+.pop-pyq,
+.pop-pyq .img-bg {
+  height: 1334rpx;
+  width: 750rpx;
+}
+.pop-pyq .img-bg {
+  border: 0;
+  display: block;
+}
+.pop-pyq .img-top {
+  height: 460rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 750rpx;
+  z-index: 2;
+}
+.pop-pyq .date {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  left: 60rpx;
+  position: absolute;
+  top: 520rpx;
+  width: 200rpx;
+}
+.pop-pyq .strong {
+  font-family: DIN Alternate;
+  font-size: 80rpx;
+  font-weight: 600;
+  margin-right: 16rpx;
+  padding-right: 16rpx;
+  position: relative;
+}
+.pop-pyq .strong::after {
+  background: #999;
+  content: "";
+  height: 112rpx;
+  margin-top: -28rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 2rpx;
+}
+.pop-pyq .txt {
+  font-size: 22rpx;
+  line-height: 32rpx;
+  white-space: pre-wrap;
+}
+.pop-pyq .yi {
+  font-size: 26rpx;
+  line-height: 32rpx;
+  position: absolute;
+  right: 60rpx;
+  text-align: center;
+  top: 540rpx;
+  width: 30rpx;
+}
+.pop-pyq .tit {
+  font-size: 60rpx;
+  font-weight: lighter;
+  left: 60rpx;
+  line-height: 82rpx;
+  position: absolute;
+  top: 704rpx;
+  white-space: pre-wrap;
+}
+.pop-pyq .logo {
+  bottom: 60rpx;
+  height: 66rpx;
+  left: 60rpx;
+  position: absolute;
+  width: 158rpx;
+}
+.pop-pyq .qrcode {
+  bottom: 50rpx;
+  height: 80rpx;
+  position: absolute;
+  right: 60rpx;
+  width: 80rpx;
+}
+.pop-remind {
+  background: #fff;
+  border-radius: 32rpx;
+  box-sizing: border-box;
+  padding: 120rpx 40rpx 50rpx;
+}
+.pop-remind::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/pop-coin.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 130rpx;
+  left: 50%;
+  position: absolute;
+  top: -40rpx;
+  transform: translateX(-50%);
+  width: 222rpx;
+}
+.pop-remind .remind-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  text-align: center;
+}
+.pop-remind .remind-desc {
+  margin: 30rpx 0 40rpx;
+}
+.pop-remind .btn-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-remind .btn-box .h5-button {
+  border-radius: 12rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  margin-right: 20rpx;
+}
+.pop-remind .btn-box .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-remind .btn-box .btn-cancel {
+  background: #f5f5f5;
+  color: #666;
+}
+.pop-remind .btn-box .btn-submit {
+  background: #ff8a32;
+  color: #fff;
+  font-weight: 700;
+}
+.pop-weekend {
+  background: #fff;
+  border-radius: 32rpx;
+  box-sizing: border-box;
+  padding: 104rpx 40rpx 50rpx;
+}
+.pop-weekend .icon-fail,
+.pop-weekend .icon-suc {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/mumber-pop-icon.png)
+    no-repeat;
+  background-size: 148rpx 468rpx;
+  height: 148rpx;
+  left: 50%;
+  position: absolute;
+  top: -74rpx;
+  transform: translateX(-50%);
+  width: 148rpx;
+}
+.pop-weekend .icon-suc.zx {
+  background-position: 0 0;
+}
+.pop-weekend .icon-fail {
+  background-position: 0-160rpx;
+}
+.pop-weekend .icon-suc.ty {
+  background-position: 0-320rpx;
+}
+.pop-weekend-hd {
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+.pop-weekend-hd .tit {
+  font-size: 44rpx;
+  font-weight: 600;
+}
+.pop-weekend-hd .txt {
+  color: #666;
+  font-size: 28rpx;
+}
+.pop-weekend-coupon {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 134rpx;
+  padding: 0 32rpx;
+  position: relative;
+}
+.pop-weekend-coupon::before {
+  background: url(http://pic.c-ctrip.com/train/zt/wechat/pop-mumber-coupon.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 134rpx;
+  left: 136rpx;
+  position: absolute;
+  top: 0;
+  width: 16rpx;
+}
+.pop-weekend-coupon.hotel {
+  background: -webkit-linear-gradient(top, #10b9f8, #1997fa);
+}
+.pop-weekend-coupon.hotel::after {
+  background-position: 0 0;
+}
+.pop-weekend-coupon.flight {
+  background: -webkit-linear-gradient(top, #febb77, #ed8024);
+}
+.pop-weekend-coupon.flight::after {
+  background-position: -100rpx 0;
+}
+.pop-weekend-coupon.train {
+  background: -webkit-linear-gradient(top, #f2653a, #f24e4b);
+}
+.pop-weekend-coupon.train::after {
+  background-position: -200rpx 0;
+}
+.pop-weekend-coupon.ticket {
+  background: -webkit-linear-gradient(top, #8174f9, #7456f2);
+}
+.pop-weekend-coupon.ticket::after {
+  background-position: -300rpx 0;
+}
+.pop-weekend-coupon.bus {
+  background: -webkit-linear-gradient(top, #2693ff, #06f);
+}
+.pop-weekend-coupon.bus::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/mumber-coupon-bus.png)
+    no-repeat;
+  background-size: cover;
+}
+.pop-weekend-coupon .lbox {
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-right: 28rpx;
+  width: 120rpx;
+}
+.pop-weekend-coupon .strong {
+  font-family: DIN Alternate;
+  font-size: 52rpx;
+  margin-right: 6rpx;
+}
+.pop-weekend-coupon .tit {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.pop-weekend-coupon .txt {
+  font-size: 24rpx;
+  opacity: 0.6;
+}
+.pop-weekend-txt {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.pop-weekend-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50rpx;
+}
+.pop-weekend-btn .h5-button {
+  border-radius: 88rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 16rpx;
+}
+.pop-weekend-btn .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-weekend-btn .btn-primary {
+  font-weight: 600;
+}
+.pop-detain {
+  height: 668rpx;
+}
+.pop-detain .img {
+  height: 668rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 600rpx;
+}
+.pop-detain-hd {
+  color: #fff;
+  padding: 50rpx 50rpx 0;
+  position: relative;
+  text-align: center;
+  z-index: 3;
+}
+.pop-detain-hd .tit {
+  font-size: 46rpx;
+  font-weight: 700;
+}
+.pop-detain-hd .txt {
+  font-size: 32rpx;
+  margin-top: 6rpx;
+  opacity: 0.6;
+}
+.pop-detain-hd .txt::after,
+.pop-detain-hd .txt::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200609-ztrip-signin/pop-detain-txt.png)
+    no-repeat;
+  background-size: 52rpx 28rpx;
+  content: "";
+  display: inline-block;
+  height: 12rpx;
+  margin: -4rpx 16rpx 0;
+  vertical-align: middle;
+  width: 52rpx;
+}
+.pop-detain-hd .txt::before {
+  background-position: 0 0;
+}
+.pop-detain-hd .txt::after {
+  background-position: 0-16rpx;
+}
+.pop-detain-bd {
+  box-sizing: border-box;
+  margin: 304rpx 50rpx 30rpx;
+  position: relative;
+  z-index: 3;
+}
+.pop-detain .btn-go {
+  background: -webkit-linear-gradient(left, #fff8f4, #ffe6e6);
+  border-radius: 96rpx;
+  color: #ff6363;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.pop-detain-bd .txt {
+  color: #ffeae9;
+  margin-top: 30rpx;
+  text-align: center;
+}

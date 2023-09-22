@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单支付",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

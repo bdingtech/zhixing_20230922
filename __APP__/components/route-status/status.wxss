@@ -1,0 +1,53 @@
+.container {
+  height: 86px;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container,
+.default-btn {
+  font-size: 14px;
+  color: #666;
+}
+.default-btn {
+  width: 90px;
+  height: 34px;
+  margin-top: 8px;
+  border-radius: 100px;
+  line-height: 34px;
+  text-align: center;
+  background: #efefef;
+  letter-spacing: 0;
+}
+.loading-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 4px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAADMElEQVR4Ae2aAwwdTxDG/6htG2HtRrWNoLYd1G6cMkZt27Zt27bb7TfJ1ri5tzv3Lq+b5Hvc25nfYnZ27/6p0rNmTMsBOsC/EXDu3LkJodpz5swZM3v27FXQOeg+9Ebrvv5tFZWhsnRNqAGXL1+eEk62hMOL4PgLSPnUC7qW6qC6QgO4dOnSRHBuIPQUUpb0FBpIdUcNEC39P9QejtyElJBukg2yFSggDGaG8X2QCkj7yGYggPPmzSvJ6DUJ3STbooAIAk1h6BWkoqRX5IMIoIZTYZAfSP6w1D0XEr3iDlduQLkJqZDpJifweC4F8tHSOLr+bwLYPrRwWuRjRICURURxaH6ATnKHKvnqG5BSpSiAPYJGzZ8/Pxd6ppCP6wbyAXXibDO3ZOgs1OHbniBQP7kr+cwGpIw+ILD9sNVQKfXft/b3798fF//d9TkXW7IBadsivFBvh0OV/rDu1o+gzkUsQNp40t5MCOwYnK/mtXah7MpI9pPkOwewtgDcU8B14Wx7EGDyovzHCJeM2p6AKDjWMtzuRYsWZfUCs2Gfjj84gKsswu3ZtGlTAh/7zCS45omBvVUcwHOW4J5juGUn4fM4gMZhAHY1tHmOA3jfUkDpo5T6F5+36e8r/pRxUAOg3EVDu/c5gG8sAF6joYn3Vj9A70IvpfpN7zWzYPdNUIAd1qxZk/hXuSwgDyDopPhF750TABQZojdXrlwZ3yOX3b148eKk39jsbA7HH6LnTOce9RAlzh5l55K9BQsWpMPnh5YAz0kvE68WLlyYGvNpsFeqBrAsemiutQDGXyZosTQwMEGnevd+8/8z1N+LkmuUS4vP6yyngmNEUzXkmYV/M58+QjP0GQrZaMzbLQikagbJ9k697p3/oVU34r24rrs0Pu8wgGAk20LbJVTehnYK3/y2Dd/LarAS+L5ceAu2SHLD+5zCPt6XwdBqvJfTAauK7kElLfJZ8shisg4c+aF4+hT8kAAI48hC4NAJQ7ECBRCAjcD3O5AKWAOljw1PQO+kADjHhu7gNxaP7t3Nl/DfPnM3QN0t7JA+hOAeI3EPArlHuWLtYTz3OKW8HKADjEl9Ai2/qjfaoKI/AAAAAElFTkSuQmCC);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: loading 1s linear infinite;
+}
+@-webkit-keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.loading {
+  flex-direction: row;
+}

@@ -1,0 +1,42 @@
+._md {
+  padding-bottom: 20rpx;
+  padding-top: 56rpx;
+}
+._nd {
+  width: 750rpx;
+}
+._od {
+  height: 240rpx;
+}
+._pd {
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+._Oc {
+  line-height: 48rpx;
+}
+._qd {
+  margin-top: 24rpx;
+}
+._rd {
+  width: 670rpx;
+}
+._sd {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+._td {
+  margin-top: 56rpx;
+}
+._ud {
+  width: 686rpx;
+}
+._vd {
+  background: #edf6ff;
+}
+.stride-train-drawer.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  border-radius: 40rpx 40rpx 0 0;
+}

@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "#0066E6",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

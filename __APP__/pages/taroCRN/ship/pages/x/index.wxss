@@ -1,0 +1,283 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+._Pt {
+  margin: 8rpx 16rpx 0;
+}
+._Qt {
+  margin: 32rpx 32rpx 0;
+}
+._vi {
+  border-radius: 12rpx;
+}
+._lj {
+  margin-right: 12rpx;
+}
+._bh {
+  padding: 0 8rpx;
+}
+._ok {
+  color: #333;
+}
+._Rt {
+  margin: 20rpx 32rpx 0;
+}
+._St {
+  padding-bottom: 24rpx;
+}
+._pf {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+._kk {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+._Xk {
+  margin-top: 16rpx;
+}
+._dl {
+  padding: 0 4rpx;
+}
+._ff {
+  line-height: 24rpx;
+}
+._Tt {
+  font-family: PingFangSC-Medium;
+  font-size: 16rpx;
+  font-weight: 500;
+}
+._Uc {
+  letter-spacing: 0;
+}
+._Ye {
+  width: 24rpx;
+}
+._og {
+  height: 24rpx;
+}
+._Mm {
+  background: #00c777;
+}
+._Hi {
+  background: #ff5959;
+}
+._Ut {
+  font-family: ZX-Regular;
+  font-size: 16rpx;
+}
+._Es {
+  right: -4rpx;
+}
+._Vt {
+  bottom: 34rpx;
+}
+._Oo {
+  width: 10rpx;
+}
+._gg {
+  height: 68rpx;
+}
+._bn {
+  margin-right: 24rpx;
+}
+._vl {
+  font-size: 30rpx;
+  font-weight: 500;
+}
+._Xm {
+  text-overflow: ellipsis;
+}
+._Ym {
+  white-space: nowrap;
+}
+._Vg {
+  height: 86rpx;
+}
+._ag {
+  margin: 0 32rpx;
+}
+._Ol {
+  height: 26rpx;
+}
+._On {
+  margin-right: 10rpx;
+}
+._Jo {
+  color: #03b86f;
+}
+._ot {
+  width: 12rpx;
+}
+._dg {
+  height: 20rpx;
+}
+._uh {
+  margin-left: 10rpx;
+}
+._ss {
+  padding: 24rpx 0;
+}
+._Wt {
+  border-top: 0.5rpx solid #ededed;
+}
+._Xt {
+  height: 4rpx;
+}
+._er {
+  margin: 16rpx 16rpx 0;
+}
+._et {
+  padding: 26rpx 32rpx 32rpx;
+}
+._hk {
+  font-size: 26rpx;
+  font-weight: 500;
+}
+._Ij {
+  width: 36rpx;
+}
+._Ee {
+  margin-left: 12rpx;
+}
+._Hk {
+  margin: 12rpx 12rpx 0;
+}
+._pi {
+  height: 6rpx;
+}
+._Ka {
+  border-radius: 4rpx;
+}
+._Kq {
+  background: #d8d8d8;
+}
+._ft {
+  margin-right: 16rpx;
+  margin-top: 15rpx;
+}
+._Et {
+  margin: 24rpx 16rpx 0;
+}
+._Ft {
+  padding: 20rpx 32rpx 24rpx 20rpx;
+}
+._Gt {
+  border-radius: 20rpx 0 16rpx 0;
+}
+._vd {
+  background: #edf6ff;
+}
+._ve {
+  padding: 0 12rpx;
+}
+._Ht {
+  margin: -18rpx 4rpx 4rpx -18rpx;
+}
+._ue {
+  width: 152rpx;
+}
+._It {
+  height: 152rpx;
+}
+._le {
+  margin-right: 20rpx;
+}
+._Jt {
+  background-color: #ccc;
+}
+._mn {
+  margin-left: 32rpx;
+}
+._Kc {
+  color: #999;
+}
+._nj {
+  flex: 1;
+  flex-direction: column;
+}
+._os {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+._cg {
+  margin-top: 12rpx;
+}
+._Jr {
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+}
+._Bj {
+  margin-top: 10rpx;
+}
+._bf {
+  color: #ff5959;
+}
+._Kt {
+  font-family: ZX-Regular;
+  font-size: 46rpx;
+}
+._Vf {
+  width: 88rpx;
+}
+._Zq {
+  background-color: #0080ff;
+}
+._Lt {
+  font-size: 36rpx;
+  font-weight: 500;
+}
+._Mt {
+  background-color: #999;
+}
+._ci {
+  right: -10rpx;
+}
+._io {
+  top: -14rpx;
+}
+._Rj {
+  height: 28rpx;
+}
+._Nt {
+  padding: 2rpx 6rpx 4rpx;
+}
+._Ot {
+  border: 2rpx solid #fff;
+  border-radius: 24rpx 24rpx 24rpx 10rpx;
+}
+._Dn {
+  line-height: 22rpx;
+}
+._cf {
+  margin-left: 6rpx;
+}
+._bg {
+  margin-top: 20rpx;
+}
+._sf {
+  height: 16rpx;
+}
+._wl {
+  width: 1rpx;
+}
+._Yk {
+  background: #ccc;
+}
+._Dm {
+  margin: 0 12rpx;
+}
+._Aj {
+  min-height: 2rpx;
+}
+._Fj {
+  margin-bottom: 96rpx;
+}
+._Gj {
+  width: 618rpx;
+}
+._Hj {
+  height: 232rpx;
+}
+page {
+  height: 100vh;
+}

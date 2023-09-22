@@ -1,0 +1,1885 @@
+@charset "UTF-8";
+@import "/pages/trainsmart/sub-vendors.wxss";
+@import "/pages/trainsmart/sub-common/8eb6adebf46f3f880fd68265fe6db89c.wxss";
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-detail {
+  padding: 2rpx 0 20rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-detail
+  .white-box {
+  margin: 0 16rpx 16rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-detail
+  .btn-pay {
+  border-radius: 96rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 40rpx 20rpx 0;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-tick {
+  padding: 4rpx 4rpx 24rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd {
+  -ms-flex-pack: justify;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 18rpx 26rpx 24rpx;
+}
+.zx .train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f0ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #e0f0ff, #fff);
+  background: -o-linear-gradient(top, #e0f0ff, #fff);
+  background: linear-gradient(180deg, #e0f0ff, #fff);
+}
+.ty .train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fff);
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .from,
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .to {
+  width: 150rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .to {
+  text-align: right;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .mid {
+  text-align: center;
+  width: 140rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .date {
+  color: #999;
+  font-size: 24rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .time {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .station {
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .schedule {
+  border: 2rpx solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin: 40rpx auto 0;
+  position: relative;
+  width: 100rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::after,
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::before {
+  background: hsla(0, 0%, 80%, 0.5);
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 18rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::before {
+  left: -18rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::after {
+  right: -18rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-hd .ifont-sfz {
+  font-size: 32rpx;
+  margin-left: 4rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-list {
+  margin: 0 20rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-tips {
+  padding: 20rpx 30rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer .pop-payment-tips .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-tips
+  .txt::before {
+  background: #d8d8d8;
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 13rpx;
+  width: 6rpx;
+}
+.train-smart-split-ticket-confirm-second-pay-layer
+  .pop-payment-tips
+  .txt:last-child {
+  margin-bottom: 0;
+}
+.train-smart-split-ticket-cancel-stay-layer .action-sheet-bg {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s;
+  width: 100vw;
+  z-index: 1000;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20rpx 30rpx;
+  position: relative;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head .lbox {
+  margin-right: 20rpx;
+  width: 80rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head .avatar {
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head .tag {
+  background: #fff;
+  border-radius: 40rpx;
+  font-size: 16rpx;
+  line-height: 40rpx;
+  margin-top: -22rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head .cont {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 0 16rpx 16rpx 16rpx;
+  padding: 16rpx 24rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-split-ticket-cancel-stay-layer
+  .confirm-second-pop
+  .head
+  .cont::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/top-txt-arr.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 18rpx;
+  left: -12rpx;
+  position: absolute;
+  top: 0;
+  width: 12rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .head .txt {
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 44rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop.active {
+  transform: translateY(0);
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 16rpx 16rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop::before {
+  border-radius: 16rpx 16rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #fc6e51);
+}
+.train-smart-split-ticket-cancel-stay-layer .confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .split-botm-box {
+  background: #fff;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+}
+.train-smart-split-ticket-cancel-stay-layer .split-botm-box .h5-button {
+  border-radius: 88rpx;
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 18rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer
+  .split-botm-box
+  .h5-button:last-child {
+  margin-right: 0;
+}
+.train-smart-split-ticket-cancel-stay-layer .split-botm-box .btn-2line {
+  line-height: 44rpx;
+  padding: 10rpx 0;
+}
+.train-smart-split-ticket-cancel-stay-layer
+  .split-botm-box
+  .btn-2line
+  .time-text {
+  -ms-flex-pack: center;
+  font-size: 20rpx;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 28rpx;
+  margin-top: -4rpx;
+}
+.train-smart-split-ticket-cancel-stay-layer .split-botm-box .btn-submit-zx {
+  background: #e5f2ff;
+  color: #0080ff;
+}
+.train-smart-split-ticket-cancel-stay-layer .split-botm-box .btn-submit-ty {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.train-smart-ticket-banner-n .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-ticket-banner-n .first-trip {
+  padding: 26rpx 30rpx 24rpx;
+}
+.train-smart-ticket-banner-n .first-trip .left-chain,
+.train-smart-ticket-banner-n .first-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-ticket-banner-n .first-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-ticket-banner-n .first-trip .right-chain {
+  right: 26rpx;
+}
+.train-smart-ticket-banner-n .first-trip.detail {
+  border-radius: 20rpx 20rpx 0 0;
+  box-sizing: border-box;
+  height: 180rpx;
+  padding-bottom: 12rpx;
+  z-index: 1000;
+}
+.train-smart-ticket-banner-n .first-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.train-smart-ticket-banner-n .first-trip.detail .btn-detail .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.train-smart-ticket-banner-n .first-trip.detail .first-trip-detail {
+  display: block;
+}
+.train-smart-ticket-banner-n .first-trip .tit {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-grey.png)
+    no-repeat;
+  background-size: cover;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 202rpx;
+}
+.train-smart-ticket-banner-n .first-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.train-smart-ticket-banner-n .first-trip-hd .cont {
+  color: #999;
+}
+.train-smart-ticket-banner-n .first-trip-hd .status {
+  color: #666;
+}
+.train-smart-ticket-banner-n .first-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.train-smart-ticket-banner-n .first-trip-hd .btn-detail .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .train-smart-ticket-banner-n .first-trip-hd .btn-detail {
+  background: #e8f3ff;
+  color: #0080ff;
+}
+.ty .train-smart-ticket-banner-n .first-trip-hd .btn-detail {
+  background: #e5f7f0;
+  color: #03b86f;
+}
+.train-smart-ticket-banner-n .first-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 2rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .from,
+.train-smart-ticket-banner-n .first-trip-bd .to {
+  font-weight: 700;
+  width: 120rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .to {
+  text-align: right;
+}
+.train-smart-ticket-banner-n .first-trip-bd .mid {
+  position: relative;
+  text-align: center;
+  width: 152rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .mid::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.train-smart-ticket-banner-n .first-trip-bd .time {
+  font-size: 44rpx;
+  line-height: 60rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .station {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  margin-top: -10rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .seat {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.train-smart-ticket-banner-n .first-trip-bd .color-green {
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
+.train-smart-ticket-banner-n .first-trip-detail {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 0 20rpx 20rpx;
+  position: absolute;
+  right: 0;
+  top: 180rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list,
+.train-smart-ticket-banner-n .pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list .item,
+.train-smart-ticket-banner-n .pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list .item:last-child,
+.train-smart-ticket-banner-n .pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.train-smart-ticket-banner-n .first-trip-list .name,
+.train-smart-ticket-banner-n .pop-pasg-list .name,
+.train-smart-ticket-banner-n .pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-ticket-banner-n .first-trip-list .tag-grey,
+.train-smart-ticket-banner-n .first-trip-list .tag-window,
+.train-smart-ticket-banner-n .pop-pasg-list .tag-grey,
+.train-smart-ticket-banner-n .pop-pasg-list .tag-window,
+.train-smart-ticket-banner-n .pop-payment-list .tag-grey,
+.train-smart-ticket-banner-n .pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list .tag-grey,
+.train-smart-ticket-banner-n .pop-pasg-list .tag-grey,
+.train-smart-ticket-banner-n .pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list .tag-window,
+.train-smart-ticket-banner-n .pop-pasg-list .tag-window,
+.train-smart-ticket-banner-n .pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.train-smart-ticket-banner-n .first-trip-list .seat,
+.train-smart-ticket-banner-n .pop-pasg-list .seat,
+.train-smart-ticket-banner-n .pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.train-smart-ticket-banner-s .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-ticket-banner-s .second-trip {
+  border: 4rpx solid #fff;
+  padding: 32rpx 12rpx;
+}
+.train-smart-ticket-banner-s .second-trip .left-chain,
+.train-smart-ticket-banner-s .second-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-ticket-banner-s .second-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-ticket-banner-s .second-trip .right-chain {
+  right: 26rpx;
+}
+.zx .train-smart-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .train-smart-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.train-smart-ticket-banner-s .second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .train-smart-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .train-smart-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.train-smart-ticket-banner-s .second-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin: 0 14rpx;
+}
+.zx .train-smart-ticket-banner-s .second-trip-hd {
+  color: #073e7b;
+}
+.ty .train-smart-ticket-banner-s .second-trip-hd {
+  color: #333;
+}
+.train-smart-ticket-banner-s .second-trip-hd .color-red {
+  font-weight: 700;
+}
+.train-smart-ticket-banner-s .second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+}
+.zx .train-smart-ticket-banner-s .second-trip-bd {
+  color: #073e7b;
+}
+.ty .train-smart-ticket-banner-s .second-trip-bd {
+  color: #333;
+}
+.train-smart-ticket-banner-s .second-trip-bd .from,
+.train-smart-ticket-banner-s .second-trip-bd .to {
+  font-weight: 700;
+  width: 150rpx;
+}
+.train-smart-ticket-banner-s .second-trip-bd .to {
+  text-align: right;
+}
+.train-smart-ticket-banner-s .second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.train-smart-ticket-banner-s .second-trip-bd .schedule::after,
+.train-smart-ticket-banner-s .second-trip-bd .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.train-smart-ticket-banner-s .second-trip-bd .schedule::before {
+  left: -24rpx;
+}
+.train-smart-ticket-banner-s .second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .train-smart-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx .train-smart-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx .train-smart-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .train-smart-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty .train-smart-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty .train-smart-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.train-smart-ticket-banner-s .second-trip-bd .time {
+  font-size: 52rpx;
+  line-height: 60rpx;
+}
+.train-smart-ticket-banner-s .second-trip-bd .station {
+  font-size: 28rpx;
+}
+.train-smart-ticket-banner-s .second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24rpx;
+  padding: 16rpx 24rpx;
+}
+.train-smart-ticket-banner-s .second-trip-tick .lbox,
+.train-smart-ticket-banner-s .second-trip-tick .mid,
+.train-smart-ticket-banner-s .second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.train-smart-ticket-banner-s .second-trip-tick .lbox {
+  text-align: left;
+}
+.train-smart-ticket-banner-s .second-trip-tick .mid {
+  text-align: center;
+}
+.train-smart-ticket-banner-s .second-trip-tick .rbox {
+  text-align: right;
+}
+.train-smart-ticket-banner-s .second-trip-tick .label {
+  color: #999;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+.train-smart-ticket-banner-s .second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.train-smart-ticket-banner-s .second-trip-tick .tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 60rpx;
+  margin: 16rpx -24rpx -16rpx;
+  padding: 0 24rpx;
+}
+.train-smart-ticket-banner-s .second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.train-smart-ticket-banner-s .second-trip-pasg .name,
+.train-smart-ticket-banner-s .second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-ticket-banner-s .second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.train-smart-ticket-banner-s .second-trip-pasg .seat {
+  flex: 1.3;
+  font-size: 28rpx;
+}
+.train-smart-ticket-banner-s .second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.train-smart-ticket-banner-s .second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.top-bar .ifont-back {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.top-bar .tit {
+  display: none;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+  text-align: center;
+}
+.top-bar.fixed .tit {
+  display: block;
+}
+.zx .top-bar.fixed {
+  background: #0066e6;
+}
+.ty .top-bar.fixed {
+  background: #3c4365;
+}
+.top-box {
+  padding-bottom: 164rpx;
+  position: relative;
+  text-align: center;
+}
+.top-box::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.top-box .tit {
+  color: #fff;
+  font-size: 44rpx;
+  font-weight: 700;
+  margin: -8rpx 40rpx 0;
+}
+.top-box .txt-bd {
+  margin: 6rpx 40rpx 0;
+}
+.top-box .txt {
+  color: #ccd5ff;
+  font-size: 26rpx;
+}
+.top-box .strong {
+  color: #fff;
+  font-weight: 700;
+}
+.zx .top-box {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.ty .top-box {
+  background: #3c4365;
+}
+.top-box .tag {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.top-box .tag .yuyin-icon {
+  height: 28rpx;
+  margin-right: 2rpx;
+  width: 28rpx;
+}
+.top-hd {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-avatar-bg.png)
+    no-repeat top;
+  background-size: 172rpx 172rpx;
+  padding: 38rpx;
+}
+.top-hd .avatar {
+  border-radius: 96rpx;
+  height: 96rpx;
+  width: 96rpx;
+}
+.top-hd .tag {
+  background: #fff;
+  border-radius: 48rpx;
+  font-size: 22rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin: -30rpx auto 0;
+  position: relative;
+  width: 140rpx;
+  z-index: 2;
+}
+.wrap {
+  margin-top: -140rpx;
+  padding-bottom: calc(140rpx + env(safe-area-inset-bottom));
+}
+.white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.first-trip {
+  padding: 26rpx 30rpx 24rpx;
+}
+.first-trip.detail {
+  border-radius: 20rpx 20rpx 0 0;
+  padding-bottom: 12rpx;
+  z-index: 1000;
+}
+.first-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.first-trip.detail .btn-detail .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.first-trip.detail .first-trip-detail {
+  display: block;
+}
+.first-trip .tit {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-grey.png)
+    no-repeat;
+  background-size: cover;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 202rpx;
+}
+.first-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.first-trip-hd .cont {
+  color: #999;
+}
+.first-trip-hd .status {
+  color: #666;
+}
+.first-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.first-trip-hd .btn-detail .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .first-trip-hd .btn-detail {
+  background: #e8f3ff;
+  color: #0080ff;
+}
+.ty .first-trip-hd .btn-detail {
+  background: #e5f7f0;
+  color: #03b86f;
+}
+.first-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 2rpx;
+}
+.first-trip-bd .from,
+.first-trip-bd .to {
+  font-weight: 700;
+  width: 120rpx;
+}
+.first-trip-bd .to {
+  text-align: right;
+}
+.first-trip-bd .mid {
+  position: relative;
+  text-align: center;
+  width: 152rpx;
+}
+.first-trip-bd .mid::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.first-trip-bd .time {
+  font-size: 44rpx;
+  line-height: 60rpx;
+}
+.first-trip-bd .station {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  margin-top: -10rpx;
+}
+.first-trip-bd .seat {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.first-trip-bd .color-green {
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
+.first-trip-detail {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 0 20rpx 20rpx;
+  position: absolute;
+  right: 0;
+  top: 180rpx;
+}
+.first-trip-list,
+.pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.first-trip-list .item,
+.pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.first-trip-list .item:last-child,
+.pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.first-trip-list .name,
+.pop-pasg-list .name,
+.pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.first-trip-list .tag-grey,
+.first-trip-list .tag-window,
+.pop-pasg-list .tag-grey,
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-grey,
+.pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.first-trip-list .tag-grey,
+.pop-pasg-list .tag-grey,
+.pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.first-trip-list .tag-window,
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.first-trip-list .seat,
+.pop-pasg-list .seat,
+.pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.second-trip {
+  border: 4rpx solid #fff;
+  padding: 32rpx 12rpx;
+}
+.zx .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.second-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin: 0 14rpx;
+}
+.zx .second-trip-hd {
+  color: #073e7b;
+}
+.ty .second-trip-hd {
+  color: #333;
+}
+.second-trip-hd .color-red {
+  font-weight: 700;
+}
+.second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+}
+.zx .second-trip-bd {
+  color: #073e7b;
+}
+.ty .second-trip-bd {
+  color: #333;
+}
+.second-trip-bd .from,
+.second-trip-bd .to {
+  font-weight: 700;
+  width: 150rpx;
+}
+.second-trip-bd .to {
+  text-align: right;
+}
+.second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.second-trip-bd .schedule::after,
+.second-trip-bd .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.second-trip-bd .schedule::before {
+  left: -24rpx;
+}
+.second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.second-trip-bd .time {
+  font-size: 52rpx;
+  line-height: 60rpx;
+}
+.second-trip-bd .station {
+  font-size: 28rpx;
+}
+.second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24rpx;
+  padding: 16rpx 24rpx;
+}
+.second-trip-tick .lbox,
+.second-trip-tick .mid,
+.second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.second-trip-tick .lbox {
+  text-align: left;
+}
+.second-trip-tick .mid {
+  text-align: center;
+}
+.second-trip-tick .rbox {
+  text-align: right;
+}
+.second-trip-tick .label {
+  color: #999;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+.second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.second-trip-tick .tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 60rpx;
+  margin: 16rpx -24rpx -16rpx;
+  padding: 0 24rpx;
+}
+.second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.second-trip-pasg .name,
+.second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.second-trip-pasg .seat {
+  flex: 1.3;
+  font-size: 28rpx;
+}
+.second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.qa-box {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-qa.png);
+  background-position: 100%0;
+  background-repeat: no-repeat;
+  background-size: 140rpx 130rpx;
+  padding: 24rpx 30rpx 30rpx;
+}
+.qa-box .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-bottom: 16rpx;
+}
+.qa-box .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 10rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.qa-box .txt::before {
+  background: #d8d8d8;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 14rpx;
+  width: 8rpx;
+}
+.fixed-botm {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.fixed-botm,
+.fixed-botm .h5-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fixed-botm .h5-button {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 96rpx;
+  flex: 1;
+  flex-direction: column;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 44rpx;
+  margin-right: 18rpx;
+}
+.fixed-botm .btn-cancel {
+  background: #feeceb;
+}
+.fixed-botm .btn-red .timeout {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  opacity: 0.6;
+}
+.pop-botm {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.pop-botm .icon-closed {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/pop-botm-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  width: 48rpx;
+}
+.pop-botm-hd {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+  justify-content: center;
+}
+.pop-botm-hd .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.pop-pasg-list {
+  padding: 0 16rpx 24rpx;
+}
+.pop-pasg-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  height: 108rpx;
+  margin-bottom: 16rpx;
+  padding: 0 30rpx;
+}
+.pop-pasg-list .item:last-child {
+  margin-bottom: 0;
+}
+.pop-payment-detail {
+  padding: 2rpx 0 20rpx;
+}
+.pop-payment-detail .white-box {
+  margin: 0 16rpx 16rpx;
+}
+.pop-payment-detail .btn-pay {
+  border-radius: 96rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 40rpx 20rpx 0;
+}
+.pop-payment-tick {
+  padding: 4rpx 4rpx 24rpx;
+}
+.pop-payment-hd {
+  -ms-flex-pack: justify;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 18rpx 26rpx 24rpx;
+}
+.zx .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f0ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #e0f0ff, #fff);
+  background: -o-linear-gradient(top, #e0f0ff, #fff);
+  background: linear-gradient(180deg, #e0f0ff, #fff);
+}
+.ty .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fff);
+}
+.pop-payment-hd .from,
+.pop-payment-hd .to {
+  width: 150rpx;
+}
+.pop-payment-hd .to {
+  text-align: right;
+}
+.pop-payment-hd .mid {
+  text-align: center;
+  width: 140rpx;
+}
+.pop-payment-hd .date {
+  color: #999;
+  font-size: 24rpx;
+}
+.pop-payment-hd .time {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.pop-payment-hd .station {
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.pop-payment-hd .schedule {
+  border: 2rpx solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin: 40rpx auto 0;
+  position: relative;
+  width: 100rpx;
+}
+.pop-payment-hd .schedule::after,
+.pop-payment-hd .schedule::before {
+  background: hsla(0, 0%, 80%, 0.5);
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 18rpx;
+}
+.pop-payment-hd .schedule::before {
+  left: -18rpx;
+}
+.pop-payment-hd .schedule::after {
+  right: -18rpx;
+}
+.pop-payment-hd .txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.pop-payment-hd .ifont-sfz {
+  font-size: 32rpx;
+  margin-left: 4rpx;
+}
+.pop-payment-list {
+  margin: 0 20rpx;
+}
+.pop-payment-tips {
+  padding: 20rpx 30rpx;
+}
+.pop-payment-tips .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+}
+.pop-payment-tips .txt::before {
+  background: #d8d8d8;
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 13rpx;
+  width: 6rpx;
+}
+.pop-payment-tips .txt:last-child {
+  margin-bottom: 0;
+}
+.confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 16rpx 16rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.confirm-second-pop::before {
+  border-radius: 16rpx 16rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #fc6e51);
+}
+.confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.suggest-box {
+  padding: 30rpx;
+}
+.suggest-hd {
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.suggest-hd .tag {
+  background: #00b965;
+  border-radius: 6rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin: -6rpx 12rpx 0 0;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.suggest-bd-con {
+  background: #f2fbf8;
+  padding: 16rpx 20rpx;
+}
+.suggest-bd {
+  border-radius: 12rpx;
+  margin-top: 8rpx;
+}
+.suggest-bd .txt {
+  color: #00b965;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-bottom: 8rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.suggest-bd .txt:last-child {
+  margin-bottom: 0;
+}
+.suggest-bd .txt::before {
+  background: #9ae3c5;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 12rpx;
+  width: 8rpx;
+}

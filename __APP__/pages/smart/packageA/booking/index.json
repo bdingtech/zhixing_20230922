@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "行程预订",
+  "backgroundColor": "#0066E6",
+  "backgroundColorBottom": "#efefef",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

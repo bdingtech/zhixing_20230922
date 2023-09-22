@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColorBottom": "#FF6526",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

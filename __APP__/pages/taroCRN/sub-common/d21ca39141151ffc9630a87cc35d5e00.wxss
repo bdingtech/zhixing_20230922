@@ -1,0 +1,75 @@
+.common-head-view .top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.common-head-view .top-bar.fixed.ty {
+  background: #3c4365;
+}
+.common-head-view .top-bar.fixed.zx {
+  background: #0066e6;
+}
+.common-head-view .top-bar .ifont-back,
+.common-head-view .top-bar .ifont-home {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.common-head-view .top-bar .ifont2-fanhui_linea_24 {
+  bottom: 0;
+  font-size: 48rpx;
+  height: 88rpx;
+  left: 0;
+  margin-left: 32rpx;
+  position: absolute;
+  text-align: center;
+}
+.common-head-view .top-bar .tit {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 200rpx;
+}
+.common-head-view .top-bar .tit .title {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 600;
+  justify-content: center;
+}
+.common-head-view .top-bar .tit .sub-title,
+.common-head-view .top-bar .tit .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.common-head-view .top-bar .tit .sub-title {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: -6rpx;
+  text-align: center;
+}
+.common-head-view .top-box {
+  height: 88rpx;
+  position: relative;
+}

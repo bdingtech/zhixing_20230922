@@ -1,0 +1,584 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.groupScanCodeV2 .torage {
+  color: #ff4e33;
+}
+.groupScanCodeV2 .top-bar {
+  color: #fff;
+  height: 2.2rem;
+  left: 0;
+  padding-top: env(safe-area-inset-top);
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: background 0.3s ease-in-out;
+  z-index: 100;
+}
+.groupScanCodeV2 .top-bar .ifont-back,
+.groupScanCodeV2 .top-bar .ifont-share {
+  bottom: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  position: absolute;
+  width: 2.2rem;
+}
+.groupScanCodeV2 .top-bar .ifont-back {
+  left: 0;
+}
+.groupScanCodeV2 .top-bar .ifont-share {
+  right: 0;
+}
+.groupScanCodeV2 .top-bar .h5-h1 {
+  font-size: 0.8rem;
+  line-height: 2.2rem;
+  margin: 0 3rem;
+}
+.groupScanCodeV2 .top-bar.fixed {
+  background: #00e2a1;
+}
+.groupScanCodeV2 .top-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220422-ztrip-private-group/top-bg.png)
+    no-repeat 0 100%;
+  background-size: 100% 20.85rem;
+  height: 15.35rem;
+  overflow: hidden;
+  padding-top: calc(3rem + env(safe-area-inset-top));
+  position: relative;
+  z-index: 2;
+}
+.groupScanCodeV2 .top-box::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220422-ztrip-private-group/top-after.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 7rem;
+  content: "";
+  height: 9.2rem;
+  position: absolute;
+  right: 0;
+  width: 10.8rem;
+}
+.groupScanCodeV2 .top-box .slogan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220422-ztrip-private-group/slogan.png)
+    no-repeat;
+  background-size: cover;
+  height: 4.95rem;
+  margin-left: 0.3rem;
+  position: relative;
+  width: 10.45rem;
+  z-index: 2;
+}
+.groupScanCodeV2 .top-box .subtit {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#05d5ce),
+    to(rgba(0, 149, 154, 0.2))
+  );
+  background: -webkit-linear-gradient(left, #05d5ce, rgba(0, 149, 154, 0.2));
+  background: -o-linear-gradient(left, #05d5ce, rgba(0, 149, 154, 0.2));
+  background: linear-gradient(90deg, #05d5ce, rgba(0, 149, 154, 0.2));
+  border-radius: 1.65rem;
+  color: #fff;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 700;
+  height: 1.65rem;
+  margin: 0.15rem 0 0 1.2rem;
+  padding: 0 0.6rem;
+}
+.groupScanCodeV2 .top-box .icon-heart {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220422-ztrip-private-group/icon-heart.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 9.15rem;
+  height: 2rem;
+  left: -0.55rem;
+  position: absolute;
+  width: 2.1rem;
+}
+.groupScanCodeV2 .wrap {
+  margin-top: -7.6rem;
+  padding-bottom: calc(2.9rem + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 3;
+}
+.groupScanCodeV2 .white-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/white-top.png)
+    no-repeat;
+  background-size: 100% 1.5rem;
+  margin: 0 0.35rem;
+  padding: 1.1rem 1.35rem 2.1rem;
+  position: relative;
+}
+.groupScanCodeV2 .white-box::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/white-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: 1.475rem;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 1.475rem;
+}
+.groupScanCodeV2 .white-box::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/white-botm.png)
+    no-repeat;
+  background-size: 100% 1.5rem;
+  bottom: 0;
+  content: "";
+  height: 1.5rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.groupScanCodeV2 .white-box .htit {
+  height: 76rpx;
+  left: 50%;
+  margin: 0 auto 6rpx;
+  position: relative;
+  transform: translateX(-50%);
+  width: auto;
+  width: 284rpx;
+  z-index: 2;
+}
+.groupScanCodeV2 .white-box .htxt {
+  color: #065168;
+  font-size: 0.6rem;
+  margin: 0.2rem 0 1.1rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.groupScanCodeV2 .exclusive-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+  position: relative;
+  z-index: 2;
+}
+.groupScanCodeV2 .exclusive-list .li {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(232, 245, 254, 0.8)),
+    color-stop(40%, rgba(227, 255, 251, 0.8))
+  );
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(232, 245, 254, 0.8),
+    rgba(227, 255, 251, 0.8) 40%
+  );
+  background: -o-linear-gradient(
+    top left,
+    rgba(232, 245, 254, 0.8),
+    rgba(227, 255, 251, 0.8) 40%
+  );
+  background: linear-gradient(
+    top left,
+    rgba(232, 245, 254, 0.8),
+    rgba(227, 255, 251, 0.8) 40%
+  );
+  border-radius: 28rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 4.8rem;
+  margin-right: 0.5rem;
+  padding-top: 0.1rem;
+  text-align: center;
+}
+.groupScanCodeV2 .exclusive-list .li:last-child {
+  margin-right: 0;
+}
+.groupScanCodeV2 .exclusive-list .li .text {
+  color: #165e74;
+  font-size: 0.5rem;
+  margin-top: 0.15rem;
+  opacity: 0.6;
+}
+.groupScanCodeV2 .exclusive-list .icon {
+  height: 2.4rem;
+  margin: 0 auto;
+  width: 3.5rem;
+}
+.groupScanCodeV2 .exclusive-list .tit {
+  height: 0.7rem;
+  margin: 0.35rem auto 0;
+  width: 3.6rem;
+}
+.groupScanCodeV2 .exclusive-list .h5-p {
+  color: #165e74;
+  font-size: 0.5rem;
+  margin-top: 0.15rem;
+  opacity: 0.6;
+}
+.groupScanCodeV2 .exclusive-btn {
+  margin: 1.3rem auto 0;
+  position: relative;
+  width: 15.55rem;
+  z-index: 2;
+}
+.groupScanCodeV2 .exclusive-btn .btn-submit {
+  animation: btnscale 1.5s ease-in-out infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/btn-big.png)
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 3.6rem;
+  width: 100%;
+}
+.groupScanCodeV2 .exclusive-btn .tit {
+  height: 0.9rem;
+  margin: 0 auto;
+}
+.groupScanCodeV2 .exclusive-btn .icon-hand {
+  animation: handmove 1.5s ease-in-out infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/icon-hand.png)
+    no-repeat;
+  background-size: cover;
+  height: 2.65rem;
+  position: absolute;
+  right: 1.4rem;
+  top: 2.4rem;
+  width: 2.65rem;
+}
+.groupScanCodeV2 .exclusive-btn .h5-p {
+  color: #ff8235;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+@-webkit-keyframes btnscale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+@keyframes btnscale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+@-webkit-keyframes handmove {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  45% {
+    transform: translate(-0.5rem, -0.5rem);
+  }
+}
+@keyframes handmove {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  45% {
+    transform: translate(-0.5rem, -0.5rem);
+  }
+}
+.groupScanCodeV2 .botm-advg {
+  height: 3.8rem;
+  margin: 1.55rem auto 0;
+  overflow: hidden;
+  position: relative;
+  width: 16.1rem;
+}
+.groupScanCodeV2 .botm-advg::after {
+  background: hsla(0, 0%, 100%, 0);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.groupScanCodeV2 .botm-advg-scroll {
+  height: 3.8rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1rem;
+  width: 16.1rem;
+}
+.groupScanCodeV2 .botm-advg-bd {
+  padding-bottom: 1rem;
+  width: 32.2rem;
+}
+.groupScanCodeV2 .botm-advg-bd .ty,
+.groupScanCodeV2 .botm-advg-bd .zx,
+.groupScanCodeV2 .botm-advg-bd .zxapp {
+  background-repeat: no-repeat;
+  background-size: 16.1rem 3.8rem;
+  filter: drop-shadow(-16.1rem 0 0#399F64);
+  height: 3.8rem;
+  margin-left: 16.1rem;
+  transform: translateX(0);
+  width: 16.1rem;
+}
+.groupScanCodeV2 .botm-advg-bd .zx {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/temp/botm-advg-zx-dijia.svg);
+}
+.groupScanCodeV2 .botm-advg-bd .ty {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/temp/botm-advg-ty.svg);
+}
+.groupScanCodeV2 .botm-advg-bd .zxapp {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/temp/botm-advg-zx-app.svg);
+}
+.groupScanCodeV2 .pop-botm {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(3%, #fff),
+    to(#97c3f9)
+  );
+  background: -webkit-linear-gradient(top, #fff 3%, #97c3f9);
+  background: -o-linear-gradient(top, #fff 3%, #97c3f9);
+  background: linear-gradient(180deg, #fff 3%, #97c3f9);
+  border: 4rpx solid #adfffc;
+  border-bottom: 0;
+  border-radius: 40rpx 40rpx 0 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  max-height: 80%;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.groupScanCodeV2 .pop-botm-hd {
+  padding: 60rpx 0 24rpx;
+  position: relative;
+}
+.groupScanCodeV2 .pop-botm-hd .tit {
+  height: 76rpx;
+  margin: 0 auto 0 50%;
+  transform: translateX(-50%);
+  width: 484rpx;
+}
+.groupScanCodeV2 .pop-botm-hd .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220324-ztrip-private-group/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  width: 48rpx;
+}
+.groupScanCodeV2 .pop-botm-bd {
+  box-sizing: border-box;
+  min-height: 680rpx;
+  padding: 4rpx 60rpx 80rpx;
+}
+.groupScanCodeV2 .pop-botm-bd .title {
+  color: #2a1674;
+  font-size: 26rpx;
+  margin-top: 50rpx;
+  opacity: 0.8;
+  text-align: center;
+}
+.groupScanCodeV2 .select-area-list {
+  grid-gap: 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.groupScanCodeV2 .select-area-list .li {
+  background: #fff;
+  border-radius: 1.8rem;
+  color: #00105b;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  text-align: center;
+}
+.groupScanCodeV2 .select-area-list .li.cur {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#731fdc),
+    to(#3913cb)
+  );
+  background: -webkit-linear-gradient(left, #731fdc, #3913cb);
+  background: -o-linear-gradient(left, #731fdc, #3913cb);
+  background: linear-gradient(90deg, #731fdc, #3913cb);
+  color: #fff;
+}
+.groupScanCodeV2 .qrcode-new {
+  margin-top: 1.3rem;
+  padding-top: 0.25rem;
+  position: relative;
+  text-align: center;
+}
+.groupScanCodeV2 .qrcode-new .torage {
+  color: #ff7e32;
+}
+.groupScanCodeV2 .qrcode-new .h5-h4 {
+  font-size: 0.7rem;
+}
+.groupScanCodeV2 .qrcode-bd {
+  height: auto;
+  margin: 0.4rem auto 2rem;
+  position: relative;
+  width: 7.8rem;
+}
+.groupScanCodeV2 .qrcode-bd::after,
+.groupScanCodeV2 .qrcode-bd::before {
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 4rem;
+  position: absolute;
+  top: 1.9rem;
+  width: 4.25rem;
+}
+.groupScanCodeV2 .qrcode-bd::before {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/icon-arr-left.png);
+  left: -4.75rem;
+}
+.groupScanCodeV2 .qrcode-bd::after {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/icon-arr-right.png);
+  right: -4.75rem;
+}
+.groupScanCodeV2 .qrcode-bd .icon-hand {
+  right: -2.7rem;
+  top: 3.6rem;
+}
+.groupScanCodeV2 .qrcode-bd .icon-hand::before {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/icon-light-orage.png);
+}
+.groupScanCodeV2 .qrcode-bd .tips {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/tips-bg.png)
+    no-repeat;
+  background-size: cover;
+  bottom: -1.15rem;
+  box-sizing: border-box;
+  color: #ff7e32;
+  font-size: 0.6rem;
+  font-weight: 700;
+  height: 1.15rem;
+  left: 50%;
+  line-height: 1rem;
+  margin-left: -2.7rem;
+  padding-top: 0.15rem;
+  position: absolute;
+  text-align: center;
+  width: 5.4rem;
+  z-index: 2;
+}
+.groupScanCodeV2 .qrcode-bd .img {
+  height: 6.8rem;
+  left: 0.6rem;
+  position: relative;
+  width: 6.8rem;
+}
+.groupScanCodeV2 .qrcode-show {
+  padding: 0.5rem;
+  position: relative;
+}
+.groupScanCodeV2 .qrcode-show::after,
+.groupScanCodeV2 .qrcode-show::before {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 1.55rem;
+  left: 0;
+  position: absolute;
+  width: 7.8rem;
+}
+.groupScanCodeV2 .qrcode-show::before {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/qrcode-top.png);
+  top: 0;
+}
+.groupScanCodeV2 .qrcode-show::after {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/qrcode-botm.png);
+  bottom: 0;
+}
+.groupScanCodeV2 .qrcode-show .img {
+  height: 6.8rem;
+  width: 6.8rem;
+}
+.groupScanCodeV2 .qrcode-show .h5-p {
+  font-size: 0.55rem;
+  letter-spacing: 4rpx;
+  margin: 0.15rem 0-0.15rem;
+}
+.groupScanCodeV2 .btn-box {
+  margin: 0 auto 0.75rem;
+  padding-bottom: 0.2rem;
+  position: relative;
+  width: 10.5rem;
+}
+.groupScanCodeV2 .btn-box::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffa43e),
+    color-stop(#ff6c2f),
+    to(#ffa43e)
+  );
+  background: -webkit-linear-gradient(left, #ffa43e, #ff6c2f, #ffa43e);
+  background: -o-linear-gradient(left, #ffa43e, #ff6c2f, #ffa43e);
+  background: linear-gradient(90deg, #ffa43e, #ff6c2f, #ffa43e);
+  border-radius: 2.2rem;
+  bottom: 0;
+  content: "";
+  height: 2.2rem;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  right: 0;
+}
+.groupScanCodeV2 .btn-box .icon-hand {
+  right: -1.1rem;
+  top: 0.2rem;
+}
+.groupScanCodeV2 .btn-box .icon-hand::before {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/icon-light-white.png);
+}
+.groupScanCodeV2 .btn-box .btn-join {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/btn-join.png)
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  height: 2.2rem;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.groupScanCodeV2 .txt {
+  color: #ff8235;
+  font-size: 0.6rem;
+  text-decoration: underline;
+}

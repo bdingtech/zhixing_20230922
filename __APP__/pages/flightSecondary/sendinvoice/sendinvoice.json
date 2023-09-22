@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "获取英文行程单",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

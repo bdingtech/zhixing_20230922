@@ -1,0 +1,18 @@
+.treaty-wrap {
+  height: 100%;
+}
+.treaty-contain {
+  padding: 0 32rpx 160rpx;
+}
+.treaty-contain text {
+  color: #9b9b9b;
+  display: block;
+  font-size: 24rpx;
+}
+.treaty-title {
+  color: #4a4a4a;
+  font-size: 28rpx;
+  font-weight: 600;
+  padding-bottom: 8rpx;
+  padding-top: 24rpx;
+}

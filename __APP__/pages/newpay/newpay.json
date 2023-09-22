@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#EDEEEF",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTitleText": "支付",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

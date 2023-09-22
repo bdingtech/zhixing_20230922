@@ -1,0 +1,5 @@
+@import "/pages/12306/sub-vendors.wxss";
+@import "/pages/12306/sub-common/2e358fff59cb4ed3f035df53adc96079.wxss";
+page {
+  background: #fff;
+}

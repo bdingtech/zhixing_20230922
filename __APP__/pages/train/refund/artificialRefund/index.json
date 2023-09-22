@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0066E6",
+  "backgroundColorBottom": "#EFEFEF",
+  "navigationBarTitleText": "人工客票退票申请",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

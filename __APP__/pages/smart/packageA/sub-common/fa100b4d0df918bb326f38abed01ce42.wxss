@@ -1,0 +1,41 @@
+.entrance-pop,
+.entrance-pop .zt-layer {
+  z-index: 10002 !important;
+}
+.entrance-pop .zt-drawer-title {
+  font-weight: 500;
+}
+.entrance-pop .zt-drawer-content {
+  max-height: 800rpx;
+  overflow: auto;
+  padding: 20rpx 30rpx 180rpx;
+  position: relative;
+}
+.entrance-pop .zt-drawer-content .title {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.entrance-pop .zt-drawer-content .content-box {
+  background: #f8f8f8;
+  border-radius: 20rpx;
+  color: #666;
+  font-size: 26rpx;
+  margin: 20rpx 0 60rpx;
+  padding: 20rpx 30rpx;
+  word-break: break-all;
+}
+.entrance-pop .zt-drawer-content .btn-submit-box {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 20rpx 30rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+}
+.entrance-pop .zt-drawer-content .btn-submit {
+  border-radius: 44rpx;
+}
+.entrance-pop .zt-drawer {
+  z-index: 10002 !important;
+}

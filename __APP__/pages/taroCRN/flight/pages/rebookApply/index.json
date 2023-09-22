@@ -1,0 +1,15 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#efefef",
+  "backgroundColorTop": "#efefef",
+  "backgroundColorBottom": "#efefef",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "navigationBarTitleText": "退票详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

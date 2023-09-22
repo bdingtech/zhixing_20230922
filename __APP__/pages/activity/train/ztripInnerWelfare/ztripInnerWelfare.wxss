@@ -1,0 +1,581 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+page {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2693ff),
+    to(#06f)
+  );
+  background: -webkit-linear-gradient(left, #2693ff, #06f);
+  background: -o-linear-gradient(left, #2693ff, #06f);
+  background: linear-gradient(90deg, #2693ff, #06f);
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.top-bar.fixed {
+  background: #f83130;
+}
+.top-bar .ifont-back,
+.top-bar .ifont-home {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.top-bar .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin: 0 200rpx;
+  text-align: center;
+}
+.top-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/top-bg.png)
+    no-repeat 0 100%;
+  background-size: 100% 700rpx;
+  height: 512rpx;
+  position: relative;
+}
+.top-box .slogan {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 164rpx;
+  margin: 0 auto;
+  width: 590rpx;
+}
+.top-box .slogan.zx {
+  background-image: url(https://images3.c-ctrip.com/ztrip/2020LU/2021-05/sogbuting.png);
+}
+.top-box .txt-rule {
+  background: hsla(0, 0%, 100%, 0.15);
+  border-radius: 44rpx 0 0 44rpx;
+  bottom: 466rpx;
+  color: #fff;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: absolute;
+  right: 0;
+}
+.wrap {
+  margin-top: -286rpx;
+}
+.wrap::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/wechat-botm.png)
+    no-repeat;
+  background-size: 100% 632rpx;
+  bottom: 0;
+  content: "";
+  height: 632rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.hongbao-box {
+  position: relative;
+  z-index: 2;
+}
+.hongbao-main {
+  border-radius: 18rpx;
+  padding-top: 36rpx;
+  position: relative;
+}
+.hongbao-main::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff5540),
+    to(#cf1d31)
+  );
+  background: -webkit-linear-gradient(top, #ff5540, #cf1d31);
+  background: -o-linear-gradient(top, #ff5540, #cf1d31);
+  background: linear-gradient(180deg, #ff5540, #cf1d31);
+  border-radius: 36rpx 36rpx 0 0;
+  bottom: 0;
+  box-shadow: inset 0 4rpx 0 hsla(0, 0%, 100%, 0.5);
+  content: "";
+  left: 30rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 0;
+}
+.hongbao-main::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-before.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 158rpx;
+  position: absolute;
+  right: 22rpx;
+  top: 92rpx;
+  width: 664rpx;
+  z-index: 4;
+}
+.hongbao-main .info {
+  -ms-flex-pack: justify;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  margin: 0 80rpx;
+  opacity: 0.7;
+  position: relative;
+  z-index: 2;
+}
+.hongbao-main .info text {
+  text-decoration: underline;
+}
+.hongbao-bd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-bd.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 420rpx;
+  margin: 6rpx auto 0;
+  padding: 168rpx 100rpx 0;
+  position: relative;
+  width: 724rpx;
+  z-index: 2;
+}
+.hongbao-bd .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-tit.png)
+    no-repeat;
+  background-size: cover;
+  height: 44rpx;
+  width: 236rpx;
+}
+.hongbao-bd .num {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #b80600;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 56rpx;
+  font-weight: bolder;
+  margin-top: 10rpx;
+}
+.hongbao-bd .num .x {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-x.png)
+    no-repeat;
+  background-size: cover;
+  height: 44rpx;
+  margin-right: 8rpx;
+  width: 34rpx;
+}
+.hongbao-bd .num .ge {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-ge.png)
+    no-repeat;
+  background-size: cover;
+  height: 44rpx;
+  margin-left: 8rpx;
+  width: 44rpx;
+}
+.hongbao-bd .txt {
+  color: #ff5959;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-top: 8rpx;
+}
+.hongbao-botm {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-botm.png)
+    no-repeat;
+  background-size: 100% 470rpx;
+  box-sizing: border-box;
+  height: 470rpx;
+  margin: -100rpx 10rpx 0;
+  padding-top: 158rpx;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+.hongbao-botm .txt {
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.hongbao-botm .btn-get {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/hongbao-btn-get.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 128rpx;
+  color: #cc060b;
+  font-size: 44rpx;
+  font-weight: 700;
+  height: 128rpx;
+  line-height: 128rpx;
+  margin-top: 24rpx;
+  width: 578rpx;
+}
+.hongbao-botm .btn-get[disabled] {
+  background: #bababa !important;
+  color: #fff !important;
+  font-size: 32rpx !important;
+}
+.botm-advg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 60rpx;
+  height: 72rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 420rpx;
+}
+.botm-advg.zx {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/botm-advg-zx.png);
+  z-index: 5;
+}
+.pop-mid {
+  background: -webkit-linear-gradient(80deg, #fefaee, #ffe4c9);
+  background: -o-linear-gradient(80deg, #fefaee, #ffe4c9);
+  background: linear-gradient(10deg, #fefaee, #ffe4c9);
+  box-shadow: inset 0 0 14rpx rgba(254, 139, 60, 0.75);
+  box-sizing: border-box;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 608rpx;
+  z-index: 1000;
+}
+.pop-mid .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  bottom: -132rpx;
+  height: 72rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 72rpx;
+}
+.pop-suc {
+  border-radius: 0 0 20rpx 20rpx;
+  padding: 56rpx 30rpx 70rpx;
+  top: 52%;
+}
+.pop-suc::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/pop-suc-hd.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 210rpx;
+  left: 50%;
+  position: absolute;
+  top: -208rpx;
+  transform: translateX(-50%);
+  width: 706rpx;
+}
+.pop-fail {
+  border-radius: 20rpx;
+  padding: 70rpx 30rpx;
+}
+.pop-fail,
+.pop-suc {
+  text-align: center;
+}
+.pop-fail .tit,
+.pop-suc .tit {
+  color: #c30701;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.pop-fail .txt,
+.pop-suc .txt {
+  color: #c30701;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-top: 24rpx;
+}
+.pop-fail .btn-submit,
+.pop-suc .btn-submit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201203-ztrip-group-of-inner-welfare/pop-btn-suc.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 96rpx;
+  box-shadow: 0 8rpx 22rpx #ffdca9;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-top: 60rpx;
+  width: 548rpx;
+}
+.pop-rule {
+  border-radius: 20rpx;
+  padding: 56rpx 0 70rpx;
+}
+.pop-rule .tit {
+  color: #c30701;
+  font-size: 40rpx;
+  font-weight: 700;
+  text-align: center;
+}
+.pop-rule-bd {
+  -webkit-overflow-scrolling: touch;
+  margin-top: 28rpx;
+  max-height: 400rpx;
+  overflow-y: auto;
+  padding: 0 30rpx;
+}
+.pop-rule-bd .txt {
+  color: #c30701;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.pop-rule-bd .txt:last-child {
+  margin-bottom: 0;
+}
+.banner-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(20%, #ffecb3),
+    color-stop(80%, #ffd4b8)
+  );
+  background: -webkit-linear-gradient(left, #ffecb3 20%, #ffd4b8 80%);
+  background: -o-linear-gradient(left, #ffecb3 20%, #ffd4b8 80%);
+  background: linear-gradient(90deg, #ffecb3 20%, #ffd4b8 80%);
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 160rpx;
+  margin: -38rpx 30rpx 0;
+  padding: 0 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.banner-box .icon {
+  height: 120rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+}
+.banner-box .tit {
+  color: #b12600;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.banner-box .txt {
+  color: #b12600;
+  font-size: 24rpx;
+  opacity: 0.6;
+}
+.banner-box .btn-go {
+  background: -webkit-linear-gradient(10deg, #fea112, #fe4912);
+  background: -o-linear-gradient(10deg, #fea112, #fe4912);
+  background: linear-gradient(80deg, #fea112, #fe4912);
+  border-radius: 64rpx;
+  box-shadow: 0 2rpx 0 red;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 700;
+  height: 64rpx;
+  line-height: 64rpx;
+  width: 140rpx;
+}
+.pop-botm {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  max-height: 80%;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.pop-botm .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  width: 48rpx;
+  z-index: 9;
+}
+.pop-join {
+  background: -webkit-linear-gradient(268deg, #0855cd 50%, #138ee8);
+  background: -o-linear-gradient(268deg, #0855cd 50%, #138ee8);
+  background: linear-gradient(182deg, #0855cd 50%, #138ee8);
+  border-radius: 20rpx 20rpx 0 0;
+  box-shadow: inset 0 0 20rpx rgba(131, 255, 237, 0.61);
+  padding-bottom: 44rpx;
+}
+.pop-join::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-join-top.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 114rpx;
+  top: -84rpx;
+  width: 494rpx;
+}
+.pop-join-bd {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-y: auto;
+  padding: 64rpx 24rpx 20rpx;
+}
+.pop-join-txt {
+  color: #fff;
+  font-weight: 700;
+  margin: 0 24rpx;
+}
+.pop-join-txt .tit {
+  font-size: 36rpx;
+}
+.pop-join-txt .txt {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.pop-join-txt .span {
+  color: #ffdc6c;
+}
+.pop-join-qrcode {
+  background: #0040a5;
+  border-radius: 20rpx 20rpx 0 0;
+  margin-top: 44rpx;
+  padding: 104rpx 0 48rpx;
+  position: relative;
+}
+.pop-join-qrcode .tit {
+  background: #0080ff;
+  border-radius: 0 0 30rpx 30rpx;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: 700;
+  left: 50%;
+  line-height: 70rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 424rpx;
+}
+.pop-join-qrcode .qrcode {
+  display: block;
+  height: 332rpx;
+  margin: 0 auto;
+  width: 332rpx;
+}
+.pop-join-welfare {
+  background: #0040a5;
+  border-radius: 0 0 20rpx 20rpx;
+  margin-top: 20rpx;
+  padding: 50rpx 42rpx;
+  position: relative;
+}
+.pop-join-welfare::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/pop-join-line.png)
+    no-repeat;
+  background-size: 100% 24rpx;
+  content: "";
+  height: 24rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -22rpx;
+}
+.pop-join-welfare .item {
+  color: #ffdb67;
+  font-size: 24rpx;
+  font-weight: 700;
+  line-height: 36rpx;
+  margin-bottom: 16rpx;
+  padding-left: 28rpx;
+  position: relative;
+}
+.pop-join-welfare .item:last-child {
+  margin-bottom: 0;
+}
+.pop-join-welfare .item::before {
+  background: hsla(0, 0%, 100%, 0.31);
+  border-radius: 12rpx;
+  content: "";
+  height: 12rpx;
+  left: 0;
+  position: absolute;
+  top: 12rpx;
+  width: 12rpx;
+}
+.pop-join-dialog {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 44rpx 16rpx 0;
+}
+.pop-join-dialog .avatar {
+  border: 1rpx solid #bffeff;
+  border-radius: 100rpx;
+  height: 100rpx;
+  margin-right: 4rpx;
+  width: 100rpx;
+}
+.pop-join-dialog .cont {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -ms-flex-align: start;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/dialog-box.png)
+    no-repeat;
+  background-size: 100% 108rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 108rpx;
+  justify-content: center;
+  padding: 0 66rpx;
+}
+.pop-join-dialog .span {
+  color: #ffdc6c;
+}
+.pop-join-dialog .tit {
+  font-size: 26rpx;
+  font-weight: 700;
+}
+.pop-join-dialog .txt {
+  font-size: 20rpx;
+  margin-top: 4rpx;
+}
+.bgt-box {
+  border-radius: 20rpx;
+  margin: -38rpx 30rpx 0;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "开通铂金会员",
+  "navigationBarBackgroundColor": "#553AA9",
+  "navigationBarTextStyle": "white",
+  "backgroundColorTop": "#553AA9",
+  "backgroundColorBottom": "#F5F5F5",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

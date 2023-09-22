@@ -1,0 +1,65 @@
+@import "/pages/12306/sub-vendors.wxss";
+.account-12306-management .item {
+  -ms-flex-pack: justify;
+  background: #fff;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 32rpx;
+  height: 108rpx;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  padding: 38rpx 40rpx;
+}
+.account-12306-management .item,
+.account-12306-management .item .right-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.account-12306-management .item .right-box {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.account-12306-management .item .right-box .account {
+  color: #999;
+  font-size: 32rpx;
+}
+.account-12306-management .item .right-box .iconfont {
+  font-size: 24rpx;
+  margin-top: 2rpx;
+}
+.account-12306-management .item .right-box .icon {
+  color: #ccc;
+  margin-left: 20rpx;
+  width: 32rpx;
+}
+.account-12306-management .item .icon-title {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.account-12306-management .item .icon-title .icon {
+  background-color: #0080ff;
+  border-radius: 36rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 50rpx;
+  line-height: 56rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  width: 50rpx;
+}
+.account-12306-management .handleWithdraw {
+  background: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 60rpx;
+  width: 670rpx;
+}

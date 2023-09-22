@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "#099fde",
+  "navigationBarTitleText": "航线选择",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

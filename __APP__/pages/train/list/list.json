@@ -1,0 +1,13 @@
+{
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0066E6",
+  "backgroundColorBottom": "#efefef",
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "native-train-view": "./component/NativeTrainView/NativeTrainView",
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

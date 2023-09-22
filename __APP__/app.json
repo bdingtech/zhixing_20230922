@@ -1,0 +1,520 @@
+{
+  "permission": {
+    "scope.userLocation": { "desc": "您的位置信息将用于定位您的当前所在城市" }
+  },
+  "preloadRule": {
+    "pages/home/index": { "packages": ["pages/train"] },
+    "pages/ticket/index/index": {
+      "network": "all",
+      "packages": ["ticket_stub"]
+    },
+    "pages/myctrip/list/list": {
+      "network": "all",
+      "packages": ["pages/trainDetail"]
+    },
+    "pages/train/booking/booking": {
+      "network": "all",
+      "packages": ["pages/trainDetail"]
+    },
+    "pages/trainRob/grabrate/grabrate": {
+      "network": "all",
+      "packages": ["pages/trainDetail"]
+    },
+    "pages/trnshare/grablist/grablist": {
+      "network": "all",
+      "packages": ["pages/train"]
+    }
+  },
+  "requiredPrivateInfos": ["getLocation"],
+  "debug": true,
+  "tabBar": {
+    "color": "#7F8389",
+    "selectedColor": "#5495e6",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/home/bar_sy@3x.png",
+        "selectedIconPath": "images/home/bar_sy_yx@3x.png"
+      },
+      {
+        "pagePath": "pages/trnshare/grablist/grablist",
+        "text": "抢票",
+        "iconPath": "images/home/bar_qp@3x.png",
+        "selectedIconPath": "images/home/bar_qp_yx@3x.png"
+      },
+      {
+        "pagePath": "pages/myctrip/list/list",
+        "text": "订单",
+        "iconPath": "images/home/bar_dd@3x.png",
+        "selectedIconPath": "images/home/bar_dd_yx@3x.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "images/home/bar_grzx@3x.png",
+        "selectedIconPath": "images/home/bar_grzx_yx@3x.png"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "pages/trainRob/",
+      "pages": [
+        "setgrab/setgrab",
+        "otherlist/otherlist",
+        "grabrate/grabrate",
+        "crossTrainList/crossTrainList"
+      ]
+    },
+    {
+      "root": "pages/train/",
+      "pages": [
+        "orderdetail/orderdetail",
+        "passengerlist/passengerlist",
+        "list/list",
+        "booking/booking",
+        "refund/index",
+        "refund/artificialRefund/index",
+        "refund/refundResult/index",
+        "passenger/index",
+        "assignee/assignee",
+        "exportAssignee/exportAssignee",
+        "gaiqian/gaiqian",
+        "detention/detention",
+        "share/share",
+        "bookx/bookx",
+        "smsWebview/index",
+        "userVerify/index",
+        "accounthelp/index1",
+        "friendbuy/index",
+        "darkReason/darkReason",
+        "certificateVerification/index",
+        "coupon/coupon",
+        "studentVerification/studentVerification"
+      ]
+    },
+    {
+      "root": "pages/trainminor/",
+      "pages": [
+        "zhengwandian/zhengwandian",
+        "zhengwandian/list",
+        "daping/daping",
+        "journey/journey",
+        "servicenotice/servicenotice",
+        "jumppage/jumppage"
+      ]
+    },
+    {
+      "root": "pages/trainsmart/",
+      "pages": [
+        "smartSplitTicket/index",
+        "smartRSTicket/index",
+        "smartCSTicket/index"
+      ]
+    },
+    {
+      "root": "pages/trainDetail/",
+      "pages": [
+        "graborder/graborder",
+        "order/order",
+        "grabsuccess/grabsuccess",
+        "accountHelpList/index",
+        "accountHelpOrder/index",
+        "grabRepeat/index",
+        "jianlouConfirm/index",
+        "webviewpay/index",
+        "friendSpeedUp/index",
+        "shelves/shelves",
+        "secSkill/secSkill",
+        "insuranceOrderDetail/insuranceOrderDetail",
+        "ticketQrcode/ticketQrcode"
+      ]
+    },
+    {
+      "root": "pages/12306/",
+      "pages": [
+        "face/face",
+        "faceAuth/faceAuth",
+        "login/login",
+        "register/register",
+        "member/member",
+        "retrievePassWord/retrievePassWord",
+        "management12306account/index",
+        "change12306mobile/index",
+        "change12306password/index",
+        "dark/index",
+        "dark/predark",
+        "register/sendSms/sendSms",
+        "login/sendSms/sendSms"
+      ]
+    },
+    {
+      "root": "pages/flight/",
+      "pages": [
+        "list/list",
+        "bookx/bookx",
+        "book/book",
+        "detail/detail",
+        "flightPassenger/flightPassenger",
+        "monitoredit/monitoredit",
+        "monitordetail/monitordetail",
+        "roundtrip/roundtrip",
+        "multiFlights/multiFlights",
+        "specialList/specialList",
+        "invite/invite",
+        "__plugin__/wx50b5593e81dd937a/pages/index/index",
+        "__plugin__/wx50b5593e81dd937a/pages/search/search",
+        "__plugin__/wx50b5593e81dd937a/pages/transit-detail/detail"
+      ]
+    },
+    {
+      "root": "pages/flightIntl/",
+      "pages": [
+        "list/list",
+        "bookx/bookx",
+        "book/book",
+        "passenger/passenger",
+        "detail/detail"
+      ]
+    },
+    {
+      "root": "pages/flightSecondary/",
+      "pages": [
+        "coupon/coupon",
+        "productdetail/productdetail",
+        "address/address",
+        "insurance/insurance",
+        "bap/bap",
+        "sendinvoice/sendinvoice",
+        "priceparity/priceparity"
+      ]
+    },
+    {
+      "root": "pages/flightAfterSale/",
+      "pages": [
+        "rebookApply/rebookApply",
+        "rebookOperate/rebookOperate",
+        "rebookList/rebookList",
+        "rebookConfirm/rebookConfirm",
+        "rebookDetail/rebookDetail",
+        "refundOperate/refundOperate",
+        "refundDetail/refundDetail",
+        "refundReason/refundReason"
+      ]
+    },
+    {
+      "root": "pages/bus/",
+      "pages": [
+        "list/list",
+        "editPassenger/index",
+        "passengerList/index",
+        "newbook/book",
+        "place/index",
+        "placeSearch/index",
+        "bookcoupon/bookcoupon",
+        "neworderdetail/orderdetail",
+        "insurancedetail/insurancedetail",
+        "citySelect/index",
+        "simpleBook/simpleBook",
+        "stationScanBook/stationScanBook",
+        "map/map"
+      ]
+    },
+    {
+      "root": "pages/hotel/",
+      "pages": [
+        "list/list",
+        "detail/detail",
+        "map/map",
+        "coupon/coupon",
+        "swan/swan",
+        "facility/facility",
+        "keywordsearch/index",
+        "packages/selectcoupon/selectcoupon",
+        "packages/monitoredit/monitoredit",
+        "packages/monitordetail/monitordetail",
+        "packages/monitorlist/monitorlist",
+        "packages/collect/collect",
+        "packages/sharedOrder/sharedOrder",
+        "booking/booking",
+        "order/order",
+        "orderCancel/orderCancel",
+        "dianping/dianping",
+        "picshow/picshow",
+        "imagebox/imagebox",
+        "transitpage/transitpage",
+        "invoiceinfo/invoiceinfo",
+        "city/city",
+        "comment/comment",
+        "comment/myComments"
+      ]
+    },
+    {
+      "root": "pages/smart/packageA/",
+      "pages": [
+        "searchSite/index",
+        "searchList/index",
+        "multiPlan/index",
+        "tripDetail/index",
+        "booking/index",
+        "orderDetail/index",
+        "robTaskSetting/index",
+        "newTripDetail/index",
+        "shareLanding/index"
+      ]
+    },
+    {
+      "root": "pages/ship/",
+      "pages": [
+        "list/list",
+        "book/book",
+        "x/x",
+        "orderdetail/orderdetail",
+        "shipline/shipline",
+        "passengerList/index",
+        "editPassenger/index"
+      ]
+    },
+    {
+      "root": "pages/ticket/",
+      "name": "ticket_stub",
+      "pages": [
+        "packageA/search/search",
+        "index/index",
+        "packageA/list/list",
+        "packageA/detail/detail",
+        "packageA/book/book",
+        "packageA/order/order",
+        "packageA/refund/refund",
+        "packageA/coupon/coupon",
+        "packageA/evaluate/evaluate",
+        "packageA/activity/live/index"
+      ]
+    },
+    {
+      "root": "pages/activity/train/",
+      "pages": [
+        "school/school",
+        "ztripInnerWelfare/ztripInnerWelfare",
+        "vipCouponShare/vipCouponShare",
+        "20200609-ztrip-signin/index",
+        "avatarAndNameAuth/index",
+        "newStudentGift/studentGift",
+        "20201224-ztrip-back-home-ticket/jumppage",
+        "speedassistV2/index",
+        "speedassist/0901/speedassist0901",
+        "speedassist/0902/speedassist0902",
+        "speedassist/0903/speedassist0903",
+        "speedassist/0904/speedassist0904",
+        "welfareGroup/index",
+        "20210512-ztrip-taobao-sale/index",
+        "ztrip-assist-official-account/index",
+        "20210714-ztrip-station-coupon-verification-for-retailer-scan/index",
+        "groupScanCode/index",
+        "groupScanCodeV2/index",
+        "shareInfoSet/index",
+        "20220217-ztrip-lottery/index",
+        "20220418-ztrip-game-for-peace/index",
+        "browseVideo/index",
+        "imMiddlePage/index",
+        "__plugin__/wx87ebb56764fea681/pages/goods/index/index",
+        "__plugin__/wx87ebb56764fea681/pages/goods/mygoods/index",
+        "__plugin__/wx87ebb56764fea681/pages/role/role",
+        "__plugin__/wx87ebb56764fea681/pages/goods/treaty/index",
+        "__plugin__/wx87ebb56764fea681/pages/getVoucher/gift/gift",
+        "__plugin__/wx87ebb56764fea681/pages/privacypolicy/privacypolicy"
+      ]
+    },
+    {
+      "root": "pages/activity/flight/",
+      "pages": [
+        "monitor/index",
+        "invite/index",
+        "inviteCashBack/index",
+        "flightSpecial/flightSpecial",
+        "kanjia/index"
+      ]
+    },
+    {
+      "root": "pages/robshareV3/",
+      "disableOther": true,
+      "pages": ["index", "rank/rank"]
+    },
+    {
+      "root": "pages/usercenter/",
+      "pages": [
+        "kaquan/kaquan",
+        "member/member",
+        "memberRights/index",
+        "store/store",
+        "integral/integral",
+        "plsell/plsell",
+        "tmall/index",
+        "management/index",
+        "accountapplication/index",
+        "userInfo/index",
+        "shareCollection/shareCollection",
+        "globalSearch/index",
+        "realNameVerify/index"
+      ]
+    },
+    { "root": "pages/zxpay/index/", "pages": ["index"] },
+    { "root": "pages/accounts/", "pages": ["login"] },
+    {
+      "root": "functionalPages/",
+      "pages": [
+        "subscribeApp/index",
+        "calendar/index",
+        "city/index",
+        "trainCity/index",
+        "flightCity/index",
+        "trainSmartCity/index",
+        "avatarAndNameAuth/index",
+        "country/country",
+        "share/share",
+        "subscribe/index",
+        "transit/index",
+        "twebview/index",
+        "twebview/index1",
+        "twebview/index2",
+        "twebview/index3",
+        "twebview/index4",
+        "twebviewV2/index",
+        "twebviewV2/index1",
+        "twebviewV2/index2",
+        "twebviewV2/index3",
+        "twebviewV2/index4",
+        "ocr/index",
+        "middle/index",
+        "testpage/testpage",
+        "testpage/section",
+        "trainCitySelector/trainCitySelector"
+      ]
+    },
+    {
+      "root": "pages/logoutAccount/",
+      "pages": ["logoutReason/index", "logoutVerifyCode/index", "logout/index"]
+    },
+    {
+      "root": "pages/trnshare/invite/",
+      "disableAlipay": true,
+      "disableOther": false,
+      "pages": ["invite"]
+    },
+    {
+      "root": "pages/newpay/",
+      "disableAlipay": true,
+      "disableOther": false,
+      "pages": ["newpay"]
+    },
+    {
+      "root": "pages/robshareMdPage/",
+      "disableAlipay": true,
+      "disableOther": false,
+      "pages": [
+        "index",
+        "index1",
+        "index2",
+        "index3",
+        "index4",
+        "index5",
+        "index6",
+        "index7",
+        "index8",
+        "index9"
+      ]
+    },
+    {
+      "root": "pages/robshare/",
+      "disableAlipay": true,
+      "disableOther": false,
+      "pages": [
+        "0903/robshare0914",
+        "robshare/0904/robshare0914",
+        "robshare/0906/robshare0914",
+        "robshare/0907/robshare0914",
+        "robshare2/0910/robshare0914",
+        "robshare2/0909/robshare0914"
+      ]
+    },
+    {
+      "root": "pages/market/",
+      "disableAlipay": true,
+      "disableOther": false,
+      "pages": [
+        "unlimitQRCode/index",
+        "mdpage/index",
+        "mdpage/index1",
+        "mdpage/index2",
+        "mdpage/index3",
+        "mdpage/index4",
+        "mdpage/index5",
+        "mdpage/index6",
+        "mdpage/index7",
+        "mdpage/index8",
+        "mdpage/index9"
+      ]
+    },
+    {
+      "root": "pages/taroCRN/",
+      "pages": [
+        "train/pages/trainTimeTable/index",
+        "train/pages/CandidateOrderDetail/index",
+        "train/pages/candidateDiagnosis/index",
+        "train/pages/candidateOrderInput/index",
+        "train/pages/candidateOrderPay/index",
+        "train/pages/candidateOrderUpdate/index",
+        "train/pages/ticketUpgradeDetail/index",
+        "train/pages/UpgradeTicket/index",
+        "train/pages/pointsDetail/index",
+        "train/pages/member/home/index",
+        "train/pages/selfTicketOrderList/index",
+        "train/pages/remainingTicketMonitor/index",
+        "flight/pages/testPage/index",
+        "flight/pages/surpriseGrabInput/index",
+        "flight/pages/surpriseGrabDetail/index",
+        "flight/pages/surpriseGrabFlightSelect/index",
+        "flight/pages/refundDetail/index",
+        "flight/pagesRefund/choosePassenger/index",
+        "flight/pagesRefund/chooseReason/index",
+        "flight/pagesRefund/refundApply/index",
+        "flight/pagesRefund/refundConfirm/index",
+        "flight/pages/rebookOperate/index",
+        "flight/pages/rebookApply/index",
+        "flight/pages/rebookReason/index",
+        "flight/pages/rebookList/index",
+        "flight/pages/rebookConfirm/index",
+        "flight/pages/rebookDetail/index",
+        "ticket/pages/index/index",
+        "ticket/pages/index/searchResult",
+        "ticket/pages/search/index",
+        "ticket/pages/searchList/searchList",
+        "ticket/pages/orderDetail/index",
+        "ticket/pages/detail/index",
+        "ship/pages/x/index",
+        "ship/pages/book/book",
+        "ship/pages/passengerList/index",
+        "ship/pages/editPassenger/index",
+        "ship/pages/orderdetail/orderdetail",
+        "ship/pages/couponList/index",
+        "ship/pages/shipLineList/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0066E6",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#cccccc"
+  },
+  "pages": [
+    "pages/home/index",
+    "pages/trnshare/grablist/grablist",
+    "pages/myctrip/list/list",
+    "pages/my/index",
+    "pages/miniPolicy/miniPolicy"
+  ]
+}

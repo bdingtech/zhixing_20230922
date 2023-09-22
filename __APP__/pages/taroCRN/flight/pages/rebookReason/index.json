@@ -1,0 +1,15 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#efefef",
+  "backgroundColorTop": "#efefef",
+  "backgroundColorBottom": "#efefef",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "navigationBarTitleText": "选择改签原因",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

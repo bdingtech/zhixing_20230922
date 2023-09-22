@@ -1,0 +1,169 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+.container {
+  -ms-flex-pack: start;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.checi-tab {
+  height: 60rpx;
+  line-height: 50rpx;
+}
+.checi-tab,
+.tab-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+.tab-item {
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28rpx;
+  height: 100%;
+  justify-content: flex-start;
+}
+.left-round {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  width: 12%;
+}
+.left-round,
+.station {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.station {
+  flex: 4;
+  flex-direction: row;
+}
+.from,
+.time,
+.to {
+  flex: 3;
+}
+.eft-b {
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+.main-box {
+  -ms-flex-pack: start;
+  background-color: #fff;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  left: 0;
+  margin-bottom: 16rpx;
+  position: absolute;
+  right: 0;
+  top: 60rpx;
+}
+.item {
+  height: 100rpx;
+}
+.item,
+.item-b {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+.item-b {
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  font-size: 30rpx;
+  justify-content: flex-start;
+}
+.selected-item-b {
+  color: #0086f6;
+}
+.roud-c {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 37%;
+}
+.line {
+  background-color: #ccc;
+  height: 40rpx;
+  width: 2rpx;
+}
+.line-transparent {
+  background-color: initial;
+  height: 40rpx;
+  width: 2rpx;
+}
+.line-primary {
+  background-color: #0080ff;
+  height: 40rpx;
+  width: 2rpx;
+}
+.round {
+  border: 2rpx solid #e5e5e5;
+  border-radius: 12rpx;
+  height: 24rpx;
+  width: 24rpx;
+}
+.between-round {
+  border-color: #0080ff;
+}
+.selected-round {
+  background-color: #0080ff;
+  border-radius: 15rpx;
+  border-style: solid;
+  border-width: 2rpx;
+  height: 26rpx;
+  width: 26rpx;
+}
+.station-txt {
+  -ms-flex-pack: center;
+  color: #333;
+  font-size: 30rpx;
+  height: 100%;
+  justify-content: center;
+}
+.right-checi,
+.station-txt {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+}
+.right-checi {
+  flex-direction: column;
+}
+.checi-content {
+  background-color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.border-line {
+  background-color: #dde4ed;
+  height: 2rpx;
+}

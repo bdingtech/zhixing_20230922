@@ -1,0 +1,174 @@
+page {
+  background: #fff;
+}
+.zwd-list {
+  padding: 50rpx 30rpx;
+}
+.zwd-list .tit {
+  font-size: 48rpx;
+  font-weight: 600;
+}
+.zwd-list .tit::before {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-0827.png) no-repeat;
+  background-size: 100rpx 40rpx;
+  content: "";
+  display: inline-block;
+  height: 36rpx;
+  margin: -6rpx 24rpx 0 0;
+  vertical-align: middle;
+  width: 18rpx;
+}
+.zwd-list .tit.zx::before {
+  background-position: -80rpx 0;
+}
+.zwd-list .tit.ty::before {
+  background-position: -60rpx 0;
+}
+.zwd-list-bd {
+  margin-top: 50rpx;
+}
+.zwd-list-bd .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  padding: 0 0 60rpx 48rpx;
+  position: relative;
+}
+.zwd-list-bd .item::before {
+  bottom: 82rpx;
+  content: "";
+  height: 104rpx;
+  left: 10rpx;
+  position: absolute;
+  width: 2rpx;
+}
+.zwd-list-bd .item::after {
+  border-radius: 14rpx;
+  content: "";
+  height: 14rpx;
+  left: 4rpx;
+  position: absolute;
+  top: 15rpx;
+  width: 14rpx;
+  z-index: 1;
+}
+.zwd-list-bd .item.strong::after {
+  height: 22rpx;
+  left: 0;
+  top: 11rpx;
+  width: 22rpx;
+}
+.zwd-list-bd.ty .item::before {
+  background: #ffb7a9;
+}
+.zwd-list-bd.zx .item::before {
+  background: #90bcf3;
+}
+.zwd-list-bd.ty .item::after {
+  background: #fd6e52;
+}
+.zwd-list-bd.zx .item::after {
+  background: #5495e6;
+}
+.zwd-list-bd .item.disabled {
+  color: #999;
+}
+.zwd-list-bd .item.disabled::after,
+.zwd-list-bd .item.disabled::before {
+  background: #d9d9d9;
+}
+.zwd-list-bd .item:last-child {
+  padding-bottom: 0;
+}
+.zwd-list-bd .item:last-child::before {
+  bottom: 22rpx;
+}
+.zwd-list-bd .item:first-child::before {
+  display: none;
+}
+.zwd-list-bd .item.disabled + .item::before {
+  background: #d9d9d9;
+}
+.zwd-list-bd .item .count {
+  color: #333;
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.zwd-list-bd .item .status {
+  text-align: right;
+  width: 120rpx;
+}
+.zwd-list-bd .item .station {
+  width: 200rpx;
+}
+.zwd-list-bd .item .time {
+  flex: 1;
+}
+.zwd-list-bd .item .icon-time {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-0827.png) no-repeat;
+  background-position: -30rpx 0;
+  background-size: 100rpx 40rpx;
+  height: 28rpx;
+  margin-top: -4rpx;
+  width: 28rpx;
+}
+.zwd-list-bd .item .time text {
+  color: #999;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.zwd-list-bd .item.strong .station,
+.zwd-list-bd .item.strong .time {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.tred {
+  color: #ff5648;
+}
+.tblue {
+  color: #5495e6;
+}
+.order-none {
+  margin-top: 140rpx;
+  text-align: center;
+}
+.order-none .img-none {
+  height: 200rpx;
+  width: 200rpx;
+}
+.order-none .txt {
+  color: #666;
+  font-size: 28rpx;
+  margin: 70rpx 0 50rpx;
+}
+.fixed-share {
+  background: #fff;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 92rpx;
+  bottom: 160rpx;
+  box-shadow: 0 2rpx 12rpx 4rpx rgba(0, 0, 0, 0.06);
+  height: 92rpx;
+  position: fixed;
+  right: 50rpx;
+  width: 92rpx;
+}
+.fixed-share::after {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-0927.png) no-repeat;
+  background-size: 80rpx 80rpx;
+  content: "";
+  height: 40rpx;
+  left: 50%;
+  margin: -24rpx 0 0-20rpx;
+  position: absolute;
+  top: 50%;
+  width: 40rpx;
+}
+.fixed-share.zx::after {
+  background-position: -40rpx 0;
+}
+.fixed-share.ty::after {
+  background-position: -40rpx -40rpx;
+}

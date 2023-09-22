@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "景点详情",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

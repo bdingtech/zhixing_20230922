@@ -1,0 +1,114 @@
+.train-welfare-group-modal .pop-botm {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 35% !important;
+  left: 0;
+  max-height: 80%;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.train-welfare-group-modal .pop-botm .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20210413-ztrip-train-welfare-group/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx !important;
+  width: 48rpx;
+  z-index: 9;
+}
+.train-welfare-group-modal .pop-qrcode {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220223-ztrip-train-welfare-group/pop-qrcode-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 108rpx 0 calc(64rpx + env(safe-area-inset-bottom));
+  text-align: center;
+}
+.train-welfare-group-modal .pop-qrcode::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220223-ztrip-train-welfare-group/pop-qrcode-top.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 146rpx;
+  left: 50%;
+  position: absolute;
+  top: -72rpx;
+  transform: translateX(-50%);
+  width: 466rpx;
+}
+.train-welfare-group-modal .pop-qrcode-hd .tit {
+  height: 44rpx;
+  margin: 0 auto;
+  width: 252rpx;
+}
+.train-welfare-group-modal .pop-qrcode-hd .txt {
+  color: #676767;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.train-welfare-group-modal .pop-qrcode-hd .torage {
+  color: #ff7f07;
+}
+.train-welfare-group-modal .pop-qrcode-bd {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 364rpx;
+  margin: 30rpx auto 0;
+  padding: 18rpx;
+  width: 364rpx;
+}
+.train-welfare-group-modal .pop-qrcode-bd .qrcode {
+  border-radius: 24rpx;
+  box-shadow: 0 0 14rpx 16rpx rgba(232, 239, 241, 0.5);
+  height: 328rpx;
+  width: 328rpx;
+}
+.train-welfare-group-modal .pop-qrcode-tips {
+  background: url(https://images3.c-ctrip.com/zt/activity/20220223-ztrip-train-welfare-group/pop-qrcode-tips.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #6f6f6f;
+  font-size: 24rpx;
+  height: 60rpx;
+  margin: 18rpx auto 0;
+  padding-top: 18rpx;
+  width: 350rpx;
+}
+.train-welfare-group-modal .joinGroup {
+  margin-top: 56rpx;
+  position: relative;
+  top: -2rpx;
+}
+.train-welfare-group-modal .button {
+  height: 120rpx;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 600rpx;
+}
+.train-welfare-group-modal .finger {
+  bottom: 36rpx;
+  height: 100rpx;
+  position: relative;
+  right: -200rpx;
+  width: 100rpx;
+}
+.train-welfare-group-modal .chat-group-plugin {
+  bottom: 0;
+  height: 120rpx;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: 16rpx;
+  transform: translateX(-50%);
+  width: 600rpx;
+  z-index: 3;
+}

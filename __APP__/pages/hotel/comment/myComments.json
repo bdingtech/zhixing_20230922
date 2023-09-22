@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的点评",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#efefef",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,181 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+._bd {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+._Ev {
+  padding: 30rpx 24rpx;
+}
+._er {
+  margin: 16rpx 16rpx 0;
+}
+._wf {
+  border-radius: 24rpx 24rpx 0 0;
+}
+._Fv {
+  border-radius: 0 0 24rpx 24rpx;
+}
+._Fr {
+  padding-bottom: 32rpx;
+}
+._Gv {
+  margin: 40rpx 24rpx 0;
+}
+._Hv {
+  margin: 30rpx 24rpx 0;
+}
+._rp {
+  width: 220rpx;
+}
+._pf {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+._Qf {
+  margin-right: 16rpx;
+}
+._kk {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+._Iv {
+  height: 220rpx;
+}
+._Jv {
+  font-size: 34rpx;
+  font-weight: 500;
+}
+._Bj {
+  margin-top: 10rpx;
+}
+._Zl {
+  width: 72rpx;
+}
+._og {
+  height: 24rpx;
+}
+._vd {
+  background: #edf6ff;
+}
+._Kv {
+  height: 38rpx;
+}
+._ji {
+  border-radius: 6rpx;
+}
+._Lv {
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+}
+._xh {
+  color: #3c5a86;
+}
+._Mv {
+  margin-top: 7rpx;
+}
+._Nv {
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+}
+._uh {
+  margin-left: 10rpx;
+}
+._sf {
+  height: 16rpx;
+}
+._Ov {
+  width: 0.5rpx;
+}
+._Yk {
+  background: #ccc;
+}
+._Kc {
+  color: #999;
+}
+._Xm {
+  text-overflow: ellipsis;
+}
+._Ym {
+  white-space: nowrap;
+}
+._Pv {
+  max-width: 400rpx;
+}
+._oo {
+  flex: 1;
+  flex-direction: row;
+}
+._Gi {
+  margin-bottom: 8rpx;
+}
+._Qv {
+  border: 0.5rpx solid rgba(255, 89, 89, 0.3);
+  border-radius: 6rpx;
+}
+._Al {
+  padding: 0 6rpx;
+}
+._Ze {
+  color: #ff5959;
+}
+._Rv {
+  border: 0.5rpx solid rgba(25, 140, 255, 0.5);
+  border-radius: 6rpx;
+}
+._bf {
+  color: #ff5959;
+}
+._Sv {
+  font-size: 22rpx;
+}
+._Sv,
+._Tv {
+  font-family: ZX-Regular;
+}
+._Tv {
+  font-size: 44rpx;
+}
+._Xk {
+  margin-top: 16rpx;
+}
+._Uv {
+  height: 0.5rpx;
+}
+._xl {
+  width: 30rpx;
+}
+._yl {
+  background: #fff2f2;
+}
+._Ne {
+  margin-right: 6rpx;
+}
+._zl {
+  text-decoration: line-through;
+}
+._Bl {
+  color: #fa5a57;
+}
+._Cl {
+  font-size: 20rpx;
+  font-weight: 500;
+}
+._Og {
+  margin-left: 4rpx;
+}
+._Vv {
+  margin-top: 14rpx;
+}
+._Hi {
+  background: #ff5959;
+}
+._Wv {
+  padding-left: 4rpx;
+}
+._tf {
+  width: 16rpx;
+}

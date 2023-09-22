@@ -1,0 +1,153 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+._Fi {
+  margin: 16rpx;
+}
+._jj {
+  background-color: #fff;
+}
+._sq {
+  padding: 26rpx 32rpx 32rpx;
+}
+._Yn {
+  margin-bottom: 24rpx;
+}
+._vi {
+  border-radius: 12rpx;
+}
+._tq {
+  padding: 4rpx 12rpx;
+}
+._yn {
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+._lj {
+  margin-right: 12rpx;
+}
+._ff {
+  line-height: 24rpx;
+}
+._oo {
+  flex: 1;
+  flex-direction: row;
+}
+._Qf {
+  margin-right: 16rpx;
+}
+._uq {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+._vq {
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+._Xm {
+  text-overflow: ellipsis;
+}
+._Ym {
+  white-space: nowrap;
+}
+._wq {
+  border: 1rpx solid #fecf99;
+  border-radius: 8rpx;
+}
+._gf {
+  padding: 4rpx 6rpx;
+}
+._yj {
+  color: #fd8700;
+}
+._af {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+}
+._Dn {
+  line-height: 22rpx;
+}
+._xq {
+  margin-left: 14rpx;
+}
+._Kc {
+  color: #999;
+}
+._Ti {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+}
+._ol {
+  background: #f7f7f7;
+}
+._uk {
+  padding: 24rpx;
+}
+._Zg {
+  margin-left: 8rpx;
+}
+._De {
+  height: 32rpx;
+}
+._bh {
+  padding: 0 8rpx;
+}
+._aj {
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+}
+._nl {
+  flex: 1;
+  flex-direction: row;
+}
+._yq {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 700;
+}
+._qd {
+  margin-top: 24rpx;
+}
+._zq {
+  padding: 16rpx 34rpx;
+}
+._ig {
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+._Aq {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+._Sj {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+._Sc {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+._xj {
+  background: #fffaf5;
+}
+._zj {
+  padding: 20rpx 32rpx;
+}
+._nj {
+  flex: 1;
+  flex-direction: column;
+}
+._sj {
+  overflow-y: auto;
+}
+._kl {
+  margin: 0 16rpx 16rpx;
+}
+._Ei {
+  padding: 24rpx 32rpx;
+}
+page {
+  height: 100vh;
+}

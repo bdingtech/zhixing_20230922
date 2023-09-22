@@ -1,0 +1,224 @@
+@charset "UTF-8";
+@import "/pages/hotel/sub-vendors.wxss";
+.coupon-wrapper {
+  padding-bottom: 112rpx;
+}
+.coupon-wrapper .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 12rpx 12rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 180rpx;
+  margin: 20rpx 20rpx -10rpx;
+  position: relative;
+}
+.coupon-wrapper .item.filter .tag {
+  background-color: #cdcdcd;
+}
+.coupon-wrapper .item.filter .price .current-desc,
+.coupon-wrapper .item.filter .price.color-red {
+  color: #999;
+}
+.coupon-wrapper .item.filter .btn-red {
+  background-color: #cdcdcd;
+}
+.coupon-wrapper .item .selected-icon {
+  height: 32rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32rpx;
+}
+.coupon-wrapper .item .tag {
+  background: #ff5959;
+  border-radius: 12rpx 0 12rpx 0;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 32rpx;
+  left: 0;
+  padding: 2rpx 12rpx;
+  position: absolute;
+  top: 0;
+}
+.coupon-wrapper .item::before {
+  left: -16rpx;
+}
+.coupon-wrapper .item::after {
+  right: -16rpx;
+}
+.coupon-wrapper .item .price {
+  font-size: 68rpx;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  width: 188rpx;
+}
+.coupon-wrapper .item .price .price-text::before {
+  content: "￥";
+  font-size: 26rpx;
+}
+.coupon-wrapper .item .price.discount .price-text::before {
+  content: "";
+}
+.coupon-wrapper .item .price.discount .price-text::after {
+  content: "折";
+  font-size: 26rpx;
+  margin-left: 4rpx;
+}
+.coupon-wrapper .item .price .current-desc {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+  font-weight: 400;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.coupon-wrapper .item .cont {
+  flex: 1;
+}
+.coupon-wrapper .item .tit {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 42rpx;
+  margin-bottom: 14rpx;
+}
+.coupon-wrapper .item .ifont-detail {
+  color: #999;
+  font-size: 30rpx;
+  font-weight: 400;
+  margin: -4rpx 0 0 12rpx;
+}
+.coupon-wrapper .item .txt {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.coupon-wrapper .item .btn-used {
+  border-radius: 56rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-right: 40rpx;
+  padding: 0;
+  width: 136rpx;
+}
+.coupon-wrapper .item.none {
+  background: #efefef;
+  display: block;
+  margin-top: 25%;
+  text-align: center;
+}
+.coupon-wrapper .item.none .icon {
+  height: 208rpx;
+  width: 264rpx;
+}
+.coupon-wrapper .item.none .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.coupon-wrapper .item.none .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+}
+.coupon-wrapper .line-wrapper {
+  height: 18rpx;
+  line-height: 18rpx;
+  margin: 0 20rpx;
+  position: relative;
+  z-index: 100;
+}
+.coupon-wrapper .line-wrapper .line {
+  height: 18rpx;
+  width: 100%;
+}
+.coupon-wrapper .detail-wrapper {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fbfbfb;
+  border-radius: 0 0 12rpx 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin: -8rpx 20rpx 20rpx;
+  padding: 20rpx 40rpx;
+  position: relative;
+}
+.coupon-wrapper .detail-wrapper::before {
+  left: -16rpx;
+}
+.coupon-wrapper .detail-wrapper::after {
+  right: -16rpx;
+}
+.coupon-wrapper .detail-wrapper .deduction {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 28rpx;
+  width: 100%;
+}
+.coupon-wrapper .detail-wrapper .deduction .iconfont {
+  font-size: 22rpx;
+}
+.coupon-wrapper .detail-wrapper .deduction .deduction-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+.coupon-wrapper .detail-wrapper .deduction .deduction-all {
+  padding: 20rpx 0;
+  width: 100%;
+}
+.coupon-wrapper .detail-wrapper .detail {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 28rpx;
+  margin-bottom: 10rpx;
+}
+.coupon-wrapper .container {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.coupon-wrapper .container .chosen-null {
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 500rpx;
+}
+.coupon-wrapper .container .chosen-null.ty {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.coupon-wrapper .container .chosen-null.zx {
+  border: 2rpx solid #0080ff;
+  color: #0080ff;
+}

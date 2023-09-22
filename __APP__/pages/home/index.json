@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#0066E6",
+  "navigationBarTitleText": "智行火车票",
+  "backgroundColorTop": "#0075F4",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

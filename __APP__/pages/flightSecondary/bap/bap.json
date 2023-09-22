@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "退改详情",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

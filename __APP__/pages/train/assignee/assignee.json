@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "受让人",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "backgroundColorBottom": "#efefef",
+  "backgroundColorTop": "#efefef",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

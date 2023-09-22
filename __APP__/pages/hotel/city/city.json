@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#efefef",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

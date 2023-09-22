@@ -1,0 +1,68 @@
+.card-container {
+  height: 102px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.card-container .title {
+  margin-bottom: 12px;
+  font-family: PingFangSC-Medium;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333;
+  letter-spacing: 0;
+}
+.card-container .desc {
+  margin-bottom: 4px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 0;
+}
+.bottom-button {
+  border-top: 1px solid #e5e5e5;
+  height: 34px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.weui-btn {
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 100px;
+  overflow: hidden;
+  background: #427cff;
+  height: 34px;
+  width: 108px;
+  line-height: 34px;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+}
+.button-left {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+.button-item,
+.button-left {
+  display: -webkit-flex;
+  display: flex;
+}
+.button-item {
+  height: 100%;
+  align-items: center;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}

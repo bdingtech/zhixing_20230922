@@ -1,0 +1,1436 @@
+@charset "UTF-8";
+@import "/pages/flightIntl/sub-vendors.wxss";
+@import "/pages/flightIntl/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+@import "/pages/flightIntl/sub-common/53948defd8dcbffac38ad89b13b92b00.wxss";
+@charset "UTF-8";
+.season-member-ship-drawer .zt-drawer-content {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#feebd0),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #feebd0, #f5f5f5);
+  background: -o-linear-gradient(top, #feebd0 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #feebd0, #f5f5f5);
+  border-radius: 40rpx 40rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+}
+.season-member-ship-drawer .header {
+  border-radius: 40rpx 40rpx 0 0;
+  box-sizing: border-box;
+  flex: 0 0 136rpx;
+  height: 136rpx;
+  overflow: hidden;
+  padding: 44rpx 0 32rpx 50rpx;
+  position: relative;
+}
+.season-member-ship-drawer .header .tit {
+  color: #803906;
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  position: relative;
+}
+.season-member-ship-drawer .header .bg {
+  height: 264rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 264rpx;
+}
+.season-member-ship-drawer .header .header-icon-closed {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 50rpx;
+  width: 48rpx;
+}
+.season-member-ship-drawer .container {
+  flex: 1;
+  overflow: auto;
+}
+.season-member-ship-drawer .container .chosen-union-vip-rights-box,
+.season-member-ship-drawer .container .core-rights-box,
+.season-member-ship-drawer .container .union-vip-rights-box,
+.season-member-ship-drawer .container .vip-grade-rights-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx 16rpx 0;
+  padding: 30rpx 0 40rpx;
+}
+.season-member-ship-drawer .container .chosen-union-vip-rights-box .tit-box,
+.season-member-ship-drawer .container .core-rights-box .tit-box,
+.season-member-ship-drawer .container .union-vip-rights-box .tit-box,
+.season-member-ship-drawer .container .vip-grade-rights-box .tit-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .tit-box
+  .line,
+.season-member-ship-drawer .container .core-rights-box .tit-box .line,
+.season-member-ship-drawer .container .union-vip-rights-box .tit-box .line,
+.season-member-ship-drawer .container .vip-grade-rights-box .tit-box .line {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ffeacc),
+    to(#ffca80)
+  );
+  background: -webkit-linear-gradient(bottom, #ffeacc, #ffca80);
+  background: -o-linear-gradient(bottom, #ffeacc 0, #ffca80 100%);
+  background: linear-gradient(0deg, #ffeacc, #ffca80);
+  border-radius: 4rpx;
+  height: 34rpx;
+  width: 10rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .tit-box
+  .tit,
+.season-member-ship-drawer .container .core-rights-box .tit-box .tit,
+.season-member-ship-drawer .container .union-vip-rights-box .tit-box .tit,
+.season-member-ship-drawer .container .vip-grade-rights-box .tit-box .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 10rpx;
+}
+.season-member-ship-drawer .container .core-rights-box {
+  margin-top: 0;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box {
+  height: 336rpx;
+  margin-top: 20rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 336rpx;
+  justify-content: center;
+  width: 320rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff5e8;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 308rpx;
+  width: 280rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .img-tit {
+  border-radius: 24rpx;
+  height: 172rpx;
+  margin-top: 8rpx;
+  width: 264rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 20rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content
+  .sub-tit {
+  color: #803906;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 6rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur {
+  height: 336rpx;
+  margin: 0 auto;
+  width: 320rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur
+  .img-tit {
+  height: 198rpx;
+  width: 304rpx;
+}
+.season-member-ship-drawer
+  .container
+  .core-rights-box
+  .detail-box
+  .vip-core-rights-box
+  .vip-core-right
+  .content.cur
+  .tit {
+  font-size: 32rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 22rpx;
+}
+.season-member-ship-drawer .container .chosen-union-vip-rights-box .detail-box {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 30rpx 0;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 280rpx;
+  justify-content: center;
+  white-space: nowrap;
+  width: 206rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box.selected {
+  background: #fff9f1;
+  border: 2rpx solid #ffddb3;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box
+  .icon {
+  height: 80rpx;
+  width: 80rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box
+  .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 12rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box
+  .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box
+  .vip-checkbox {
+  color: #ccc;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+.season-member-ship-drawer
+  .container
+  .chosen-union-vip-rights-box
+  .detail-box
+  .platform-vip-checked-box
+  .ifont2-checkboxed {
+  color: #803906;
+}
+.season-member-ship-drawer .container .union-vip-rights-box .detail-box,
+.season-member-ship-drawer .container .vip-grade-rights-box .detail-box {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 60rpx 0;
+}
+.season-member-ship-drawer
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box,
+.season-member-ship-drawer
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  width: 80rpx;
+}
+.season-member-ship-drawer
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .icon,
+.season-member-ship-drawer
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .icon {
+  height: 80rpx;
+  width: 80rpx;
+}
+.season-member-ship-drawer
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .tit,
+.season-member-ship-drawer
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 22rpx;
+  font-weight: 600;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 12rpx;
+}
+.season-member-ship-drawer
+  .container
+  .union-vip-rights-box
+  .detail-box
+  .platform-vip-box
+  .desc,
+.season-member-ship-drawer
+  .container
+  .vip-grade-rights-box
+  .detail-box
+  .platform-vip-box
+  .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-left: 10rpx;
+}
+.season-member-ship-drawer .container .blank {
+  background: transparent;
+  height: calc(266rpx + env(safe-area-inset-bottom));
+  width: 100%;
+}
+.season-member-ship-drawer .footer {
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0 0 8rpx 0 rgba(0, 0, 0, 0.04);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: absolute;
+  right: 0;
+}
+.season-member-ship-drawer .footer.v2 {
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.season-member-ship-drawer .footer .button-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1a1a1a),
+    to(#404040)
+  );
+  background: -webkit-linear-gradient(left, #1a1a1a, #404040);
+  background: -o-linear-gradient(left, #1a1a1a 0, #404040 100%);
+  background: linear-gradient(90deg, #1a1a1a, #404040);
+  border-radius: 28rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96rpx;
+  padding: 8rpx 8rpx 8rpx 40rpx;
+}
+.season-member-ship-drawer .footer .button-box .price {
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ZX-Regular;
+  font-size: 52rpx;
+  font-weight: 400;
+  height: 62rpx;
+  line-height: 62rpx;
+}
+.season-member-ship-drawer .footer .button-box .price::before {
+  content: "¥";
+  display: block;
+  font-family: ZX-Regular;
+  font-size: 32rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 14rpx;
+}
+.season-member-ship-drawer .footer .button-box .unit {
+  margin-left: 2rpx;
+}
+.season-member-ship-drawer .footer .button-box .tag,
+.season-member-ship-drawer .footer .button-box .unit {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 14rpx;
+}
+.season-member-ship-drawer .footer .button-box .tag {
+  flex: 1;
+  margin-left: 10rpx;
+  opacity: 0.5;
+}
+.season-member-ship-drawer .footer .button-box .btn-confirm {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffecd1),
+    to(#ffd199)
+  );
+  background: -webkit-linear-gradient(left, #ffecd1, #ffd199);
+  background: -o-linear-gradient(left, #ffecd1 0, #ffd199 100%);
+  background: linear-gradient(-270deg, #ffecd1, #ffd199);
+  border-radius: 20rpx;
+  color: #803906;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 224rpx;
+}
+.season-member-ship-drawer .footer .button-box-v2 {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.season-member-ship-drawer .footer .button-box-v2 .btn-double {
+  border-radius: 24rpx;
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0;
+  padding: 0;
+  width: 352rpx;
+}
+.season-member-ship-drawer .footer .button-box-v2 .btn-double.left {
+  background: #f7f7f7;
+  color: #666;
+}
+.season-member-ship-drawer .footer .button-box-v2 .btn-double.right {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffecd1),
+    to(#ffd199)
+  );
+  background: -webkit-linear-gradient(left, #ffecd1, #ffd199);
+  background: -o-linear-gradient(left, #ffecd1 0, #ffd199 100%);
+  background: linear-gradient(-270deg, #ffecd1, #ffd199);
+  color: #803906;
+}
+page {
+  padding-bottom: 60rpx;
+}
+::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.flight-more {
+  font-size: 26rpx;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.flight-more .ifont-arr {
+  font-size: 16rpx;
+  margin: -4rpx 0 0 12rpx;
+  transform: rotate(90deg);
+}
+.skeleton-item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 12rpx 20rpx;
+  overflow: hidden;
+  padding: 30rpx 40rpx;
+  position: relative;
+}
+.skeleton-item .bd {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.skeleton-item .bd,
+.skeleton-item .bd .left {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skeleton-item .bd .left {
+  flex-direction: column;
+}
+.skeleton-item .bd .left .tit {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 40rpx;
+  width: 120rpx;
+}
+.skeleton-item .bd .left .sub {
+  margin-top: 14rpx;
+}
+.skeleton-item .bd .desc,
+.skeleton-item .bd .left .sub {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 28rpx;
+  width: 94rpx;
+}
+.skeleton-item .bd .desc {
+  margin-left: auto;
+}
+.skeleton-item .bd .btn {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 8rpx;
+  height: 82rpx;
+  margin-left: 20rpx;
+  width: 88rpx;
+}
+.skeleton-item .hd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 34rpx;
+}
+.skeleton-item .hd .txt {
+  width: 328rpx;
+}
+.skeleton-item .hd .btn,
+.skeleton-item .hd .txt {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 28rpx;
+}
+.skeleton-item .hd .btn {
+  margin-left: auto;
+  width: 120rpx;
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 960;
+}
+.pop-mask.active {
+  opacity: 1;
+}
+.pop-mid {
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3002;
+}
+.pop-mid.active {
+  display: table;
+}
+.pop-mid-bd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pop-white {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 75rpx;
+  position: relative;
+}
+.pop-mid .icon-closed {
+  border: 0;
+  bottom: 88rpx;
+}
+.pop-content {
+  padding: 50rpx;
+}
+.pop-content .tit {
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+.pop-content-txt {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.pop-content-txt .price {
+  font-size: 44rpx;
+  font-weight: 600;
+}
+.pop-content-txt .price::before {
+  content: "¥";
+  font-size: 28rpx;
+}
+.pop-content-txt .s {
+  color: #999;
+  margin-left: 20rpx;
+  text-decoration: line-through;
+}
+.pop-white .pop-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30rpx;
+  overflow: hidden;
+  padding: 0 30rpx 50rpx;
+}
+.pop-white .pop-btn .h5-button {
+  border-radius: 176rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 20rpx;
+}
+.pop-white .pop-btn .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-white .pop-btn .btn-primary {
+  font-weight: 600;
+}
+.pop-white .pop-btn .btn-grey {
+  background: #fff;
+  border: 1rpx solid #ccc;
+  color: #666;
+  font-size: 32rpx;
+}
+.pop-white .pop-btn .btn-txt {
+  flex: 1;
+  text-align: center;
+}
+.flight-brand-publicity {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/pingxuan/zhixingjipiaopingxuan.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 116rpx;
+  margin: 42rpx auto 0;
+  padding-bottom: 60rpx;
+  width: 542rpx;
+}
+.flt-intl-boox-banner {
+  margin: 16rpx;
+  position: relative;
+}
+.flt-intl-boox-banner .close-btn {
+  right: 0;
+  top: 0;
+}
+.flt-notice {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx;
+  padding: 20rpx;
+}
+.flt-notice .notice-list {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flt-notice .ifont2-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-right: 12rpx;
+}
+.flt-notice-detail .title {
+  max-height: 108rpx;
+}
+.flt-notice-detail .notice-cont {
+  margin: 0 32rpx;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.flt-notice-detail .notice-cont .note-item {
+  color: #666;
+  font-size: 24rpx;
+  white-space: pre-wrap;
+}
+.flt-notice-detail .notice-cont .note-item:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+.flt-notice-detail .notice-cont .note-item .tit {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.flt-price-card {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  position: relative;
+}
+.flt-price-card .product-wrap {
+  padding-bottom: 32rpx;
+}
+.flt-price-card .product-wrap:not(:last-child) {
+  padding-bottom: 24rpx;
+}
+.flt-price-card .top-tag {
+  left: 32rpx;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.flt-price-card .top-tag .tag {
+  display: block;
+}
+.flt-price-card .top-tag .tag.img {
+  height: 36rpx;
+  width: 136rpx;
+}
+.flt-price-card .top-tag .tag.text {
+  background: rgba(253, 113, 0, 0.08);
+  border-radius: 0 0 8rpx 8rpx;
+  box-sizing: border-box;
+  color: #fd7100;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 36rpx;
+  margin-top: 4rpx;
+  padding: 2rpx 12rpx;
+  text-align: center;
+}
+.flt-price-card .pt-22 {
+  padding-top: 22rpx;
+}
+.flt-price-card .pt-46 {
+  padding-top: 46rpx;
+}
+.flt-price-card .cont .lbox {
+  padding-left: 32rpx;
+}
+.flt-price-card .cont .rbox {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 32rpx 32rpx 0 0;
+}
+.flt-price-card .cont .rbox .remain-count {
+  font-size: 22rpx;
+}
+.flt-price-card .price-info {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 58rpx;
+  line-height: 58rpx;
+}
+.flt-price-card .price-info .price::before {
+  color: #ff5959;
+  content: "￥";
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+  line-height: 36rpx;
+  margin-right: 2rpx;
+}
+.flt-price-card .price-tags {
+  margin-left: 10rpx;
+}
+.flt-price-card .price-tags .tag {
+  color: #ff5959;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-right: 6rpx;
+  padding: 0 6rpx;
+  position: relative;
+  z-index: 1;
+}
+.flt-price-card .price-tags .tag::after {
+  border: 2rpx solid #ff5959;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.flt-price-card .top-remarks {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 20rpx;
+}
+.flt-price-card .top-remarks .remark-item:not(:last-child) {
+  margin-bottom: 8rpx;
+}
+.flt-price-card .top-remarks .ifont2-arr {
+  color: #ccc;
+  font-size: 20rpx;
+}
+.flt-price-card .book-btn {
+  background: #1a8cff;
+  border-radius: 20rpx;
+  color: #fff;
+  height: 88rpx;
+  margin: 0;
+  padding: 0;
+  width: 88rpx;
+}
+.flt-price-card .advantage-list {
+  margin: 8rpx 32rpx;
+  overflow-x: auto;
+}
+.flt-price-card .advantage {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  white-space: nowrap;
+}
+.flt-price-card .advantage:not(:last-child)::after {
+  background: #000;
+  content: "";
+  display: inline-block;
+  height: 20rpx;
+  margin: 0 8rpx;
+  opacity: 0.1;
+  width: 1rpx;
+}
+.flt-price-card .advantage-icon {
+  height: 20rpx;
+  margin-right: 6rpx;
+  overflow: hidden;
+  width: 20rpx;
+}
+.flt-price-card .btm-remark {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin: 0 32rpx;
+}
+.flt-price-card .btm-remark .remark-icon {
+  height: 24rpx;
+  margin-right: 4rpx;
+  width: 24rpx;
+}
+.flt-price-card .btm-remark .remark-txt {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3c5a86;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flt-price-card .btm-remark .remark-txt:not(:last-child)::after {
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+  display: inline-block;
+  height: 20rpx;
+  margin: 0 10rpx;
+  width: 1rpx;
+}
+.flt-price-card .insurance {
+  color: #999;
+  display: table-cell;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+  text-align: right;
+  vertical-align: middle;
+}
+.flt-price-card .e-product {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fef9f6),
+    to(#fdf2ed)
+  );
+  background: -webkit-linear-gradient(bottom, #fef9f6, #fdf2ed);
+  background: -o-linear-gradient(bottom, #fef9f6 0, #fdf2ed 100%);
+  background: linear-gradient(0deg, #fef9f6, #fdf2ed);
+  border-radius: 16rpx;
+  margin: 0 4rpx 4rpx;
+  padding: 20rpx 30rpx;
+  position: relative;
+  z-index: 0;
+}
+.flt-price-card .e-product .bottom-img {
+  bottom: 0;
+  height: 116rpx;
+  position: absolute;
+  right: 0;
+  width: 116rpx;
+  z-index: -1;
+}
+.flt-price-card .e-product .product-title {
+  font-family: PingFangSC-Regular;
+}
+.flt-price-card .e-product .product-icon {
+  height: 36rpx;
+}
+.flt-price-card .e-product .price-text {
+  box-sizing: border-box;
+  color: #662907;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-left: -4rpx;
+  padding: 0 8rpx 0 12rpx;
+}
+.flt-price-card .e-product .price-text::after {
+  border: 2rpx solid #eecfc0;
+  border-left: none;
+  border-radius: 12rpx;
+}
+.flt-price-card .e-product .change-txt {
+  color: #803506;
+  font-size: 22rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-left: 10rpx;
+}
+.flt-price-card .e-product .detail-btn {
+  color: #ae785e;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flt-price-card .e-product .detail-btn .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.flt-price-card .e-product .feature-list {
+  height: 32rpx;
+  padding-top: 16rpx;
+  white-space: nowrap;
+}
+.flt-price-card .e-product .feature-list ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flt-price-card .e-product .feature-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 24rpx;
+  white-space: nowrap;
+}
+.flt-price-card .e-product .feature-icon {
+  height: 30rpx;
+  margin-right: 2rpx;
+  width: 30rpx;
+}
+.flt-price-card .e-product .feature-title {
+  color: #ac3800;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flt-price-card .e-product .ext-product {
+  margin-top: 8rpx;
+}
+.flt-price-card .e-product .ep-icon {
+  height: 32rpx;
+  margin: 0 4rpx 2rpx 0;
+}
+.flt-price-card .e-product .ep-txt {
+  color: #803506;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flt-price-card .ins-product {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffecd1),
+    to(#fad096)
+  );
+  background: -webkit-linear-gradient(left, #ffecd1, #fad096);
+  background: -o-linear-gradient(left, #ffecd1 0, #fad096 100%);
+  background: linear-gradient(90deg, #ffecd1, #fad096);
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36rpx;
+  margin-right: -4rpx;
+  padding: 4rpx 6rpx;
+}
+.flt-price-card .ins-icon {
+  height: 24rpx;
+  margin-right: 4rpx;
+  width: 22rpx;
+}
+.flt-price-card .ins-name {
+  color: #803506;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+}
+.flt-intl-seg-info {
+  margin: 32rpx;
+  overflow: hidden;
+}
+.flt-intl-seg-info .seg-item:not(:last-child) {
+  margin-bottom: 40rpx;
+}
+.flt-intl-seg-info .seg-hd {
+  font-family: PingFangSC-Regular;
+  margin-bottom: 28rpx;
+}
+.flt-intl-seg-info .seg-tag {
+  background: #198cff;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  line-height: 24rpx;
+  margin-right: 8rpx;
+  padding: 4rpx 8rpx;
+}
+.flt-intl-seg-info .seg-time {
+  color: #222;
+  font-size: 26rpx;
+}
+.flt-intl-seg-info .expand {
+  color: #3c5a86;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.flt-intl-seg-info .expand .iconfont2 {
+  font-size: 24rpx;
+  margin-left: 6rpx;
+}
+.flt-intl-seg-info .info-row.expanded.depart {
+  margin-bottom: 24rpx;
+}
+.flt-intl-seg-info .info-row.expanded.depart .line {
+  transform: translateY(50%);
+}
+.flt-intl-seg-info .info-row.expanded.arrive .line {
+  transform: translateY(-50%);
+}
+.flt-intl-seg-info .line {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: #c8d8f0;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  margin: 0 24rpx;
+  transform: translateY(20rpx);
+  width: 6rpx;
+}
+.flt-intl-seg-info .arrive .line {
+  transform: translateY(-50%);
+}
+.flt-intl-seg-info .flight-time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 38rpx;
+  line-height: 38rpx;
+  position: relative;
+  text-align: right;
+  width: 100rpx;
+}
+.flt-intl-seg-info .airport-info {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.flt-intl-seg-info .transfer-node {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16rpx 0;
+}
+.flt-intl-seg-info .transfer-node.expanded {
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 100rpx;
+}
+.flt-intl-seg-info .transfer-node.expanded .node-brief {
+  margin: 32rpx 0;
+}
+.flt-intl-seg-info .transfer-node.expanded .node-line {
+  background: -webkit-linear-gradient(
+    top,
+    #c8d8f0,
+    #c8d8f0 8rpx,
+    transparent 0,
+    transparent
+  );
+  background: -o-linear-gradient(
+    top,
+    #c8d8f0,
+    #c8d8f0 8rpx,
+    transparent 8rpx,
+    transparent
+  );
+  background: linear-gradient(
+    180deg,
+    #c8d8f0,
+    #c8d8f0 8rpx,
+    transparent 0,
+    transparent
+  );
+  background-size: 100% 16rpx;
+  width: 6rpx;
+}
+.flt-intl-seg-info .node-note {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.flt-intl-seg-info .node-note:first-child {
+  margin-left: 16rpx;
+}
+.flt-intl-seg-info .node-note:not(:last-child)::after {
+  background: #ddd;
+  content: "";
+  display: inline-block;
+  height: 16rpx;
+  margin: 0 6rpx;
+  opacity: 0.5;
+  width: 1rpx;
+}
+.flt-intl-seg-info .transfer-time .time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  position: relative;
+  text-align: right;
+  width: 100rpx;
+}
+.flt-intl-seg-info .transfer-time .time:first-child {
+  margin-bottom: 20rpx;
+}
+.flt-intl-seg-info .diff-day {
+  color: #fd7100;
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+  line-height: 22rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-80%);
+}
+.flt-intl-seg-info .node-line {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: #c8d8f0;
+  border-radius: 10rpx;
+  margin: -18rpx 24rpx;
+  width: 6rpx;
+}
+.flt-intl-seg-info .flight-detail {
+  color: #999;
+  flex-wrap: wrap;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 28rpx;
+  margin-top: 12rpx;
+}
+.flt-intl-seg-info .flight-detail .ifont2-arr {
+  color: #ccc;
+  font-size: 20rpx;
+}
+.flt-intl-seg-info .detail-item {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 28rpx;
+  white-space: nowrap;
+}
+.flt-intl-seg-info .detail-item:not(:first-child)::before {
+  border-left: 1rpx solid #000;
+  content: "";
+  display: inline-block;
+  height: 20rpx;
+  margin: 0 6rpx;
+  opacity: 0.08;
+}
+.flt-intl-seg-info .info-icon {
+  height: 28rpx;
+  width: 28rpx;
+}
+.flt-intl-seg-info .node-brief {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  color: #222;
+  flex-wrap: wrap;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  padding: 10rpx 30rpx;
+  position: relative;
+}
+.flt-intl-seg-info .node-brief::before {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10rpx #c8d8f0;
+  content: "";
+  display: inline-block;
+  height: 16rpx;
+  left: -34rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) scale(0.5);
+  width: 16rpx;
+}
+.flt-intl-seg-info .stop-node {
+  box-sizing: border-box;
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.flt-intl-seg-info .stop-node .content {
+  padding: 0 30rpx;
+  position: relative;
+}
+.flt-intl-seg-info .stop-node .content::before {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10rpx #c8d8f0;
+  content: "";
+  display: inline-block;
+  height: 16rpx;
+  left: -34rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) scale(0.5);
+  width: 16rpx;
+  z-index: 1;
+}
+.flt-intl-seg-info .stop-node .line {
+  margin: -8rpx 24rpx;
+  transform: translateY(0);
+}
+.flt-intl-seg-info .carrier-airline {
+  margin-top: 4rpx;
+}
+.flt-intl-seg-info .carrier-icon {
+  height: 24rpx;
+  margin-right: 8rpx;
+  width: 24rpx;
+}
+.flt-intl-seg-info .mt-16 {
+  margin-top: 16rpx;
+}
+.flt-intl-seg-info .mv-24 {
+  margin: 24rpx 0;
+}
+.flt-intl-seg-info .mb-24 {
+  margin-bottom: 24rpx;
+}
+.flt-intl-seg-info .pl-100 {
+  padding-left: 100rpx;
+}
+.flt-intl-seg-info .ml-148 {
+  margin-left: 148rpx;
+}

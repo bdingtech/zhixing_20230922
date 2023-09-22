@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "任务详情",
+  "navigationBarFrontColor": "#ffffff",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0066E6",
+  "backgroundColorBottom": "#F5F5F5",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.page {
+  background: #f5f5f5;
+}
+.detail {
+  background: #fff;
+  padding: 0 30rpx;
+}
+.detail .price {
+  border-bottom: solid #e5e5e5;
+  font-size: 64rpx;
+  padding: 30rpx 0;
+  text-align: center;
+}
+.detail .price::before {
+  content: "￥";
+  font-size: 36rpx;
+}
+.detail .order {
+  padding: 44rpx 0;
+}
+.detail .order .title {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.detail .order .subtitle {
+  color: #999;
+  font-size: 26rpx;
+}
+.pay {
+  background: #fff;
+  margin-top: 16rpx;
+  padding: 0 30rpx;
+}
+.pay .raw {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: solid #e5e5e5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 134rpx;
+}
+.pay .raw:last-child {
+  border: 0;
+}
+.pay .raw .img {
+  height: 60rpx;
+  margin-right: 30rpx;
+  width: 60rpx;
+}
+.pay .raw .txt {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pay .raw .txt .name {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.pay .raw .txt .tip {
+  color: #999;
+  font-size: 24rpx;
+}
+.pay .raw .pay-btn {
+  color: #5495e6;
+  font-size: 26rpx;
+  font-weight: 500;
+  margin-left: auto;
+}
+.pay .raw .pay-btn .ifont-arr {
+  font-size: 24rpx;
+  margin: -2rpx 0 0 4rpx;
+}

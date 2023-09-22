@@ -1,0 +1,140 @@
+.train-12306-retrevepwd-failed-unregister-pop {
+  background: url(https://pic.c-ctrip.com/train/wechat/pop-top-bg.png) no-repeat
+    #fff;
+  background-size: 100% 184rpx;
+  padding: 40rpx 20rpx 0;
+  text-align: center;
+}
+.train-12306-retrevepwd-failed-unregister-pop .icon-face-scan {
+  background: url(https://images3.c-ctrip.com/train/wxapp/12306/icon-face-scan.png)
+    no-repeat;
+  background-size: cover;
+  display: block;
+  height: 216rpx;
+  margin: 8rpx auto 64rpx;
+  width: 220rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .icon-back-suc {
+  background: url(https://images3.c-ctrip.com/train/wxapp/12306/icon-suc.png)
+    no-repeat;
+  background-size: cover;
+  display: block;
+  height: 88rpx;
+  margin: 0 auto 48rpx;
+  width: 106rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .btn-box {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  line-height: 88rpx;
+  padding: 0;
+}
+.train-12306-retrevepwd-failed-unregister-pop .btn-cancel {
+  background: #fff;
+  border: 1rpx solid #ccc;
+  border-radius: 12rpx;
+  color: #19a0f0;
+  flex: 1;
+  font-size: 34rpx;
+  height: 88rpx;
+  margin: 0 20rpx 0 0;
+  position: relative;
+}
+.train-12306-retrevepwd-failed-unregister-pop .btn-submit {
+  background: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  flex: 1;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  position: relative;
+}
+.train-12306-retrevepwd-failed-unregister-pop .info {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .h5 {
+  font-size: 40rpx;
+  margin: 0 16rpx 24rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .p {
+  color: #666;
+  margin: 0 16rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .grey-tips {
+  background: #eef1f6;
+  border-radius: 8rpx;
+  font-size: 34rpx;
+  font-weight: 700;
+  line-height: 100rpx;
+  margin-top: 24rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .i12306-closed {
+  border: 4rpx solid #fff;
+  border-radius: 56rpx;
+  bottom: -112rpx;
+  color: #fff;
+  font-size: 24rpx;
+  height: 56rpx;
+  left: 50%;
+  line-height: 60rpx;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 56rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .account-list {
+  border-radius: 8rpx;
+  padding: 32rpx 40rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .account-list .li {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  text-align: left;
+}
+.train-12306-retrevepwd-failed-unregister-pop .account-list .li:last-child {
+  margin-bottom: 0;
+}
+.train-12306-retrevepwd-failed-unregister-pop .account-list .label {
+  color: #999;
+  width: 142rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .account-list .cont {
+  font-weight: 700;
+}
+.train-12306-retrevepwd-failed-unregister-pop .info-jietu {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  bottom: -80rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  left: 40rpx;
+  position: absolute;
+  right: 40rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .info-jietu .icon-jietu {
+  background: url(https://images3.c-ctrip.com/train/wxapp/12306/icon-jietu.png)
+    no-repeat;
+  background-size: cover;
+  height: 26rpx;
+  margin-right: 8rpx;
+  margin-top: 4rpx;
+  width: 26rpx;
+}
+.train-12306-retrevepwd-failed-unregister-pop .btn-blue {
+  padding: 0 32rpx;
+}

@@ -1,0 +1,1279 @@
+@charset "UTF-8";
+.price {
+  color: #fe4839;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.price::before {
+  content: "¥";
+  font-size: 22rpx;
+  margin-right: 4rpx;
+}
+.price.noIcon::before {
+  content: "";
+  font-size: 22rpx;
+  margin-right: 4rpx;
+}
+.price .em {
+  content: "起";
+}
+.price .em,
+.price.noIcon .em {
+  color: #666;
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: 5rpx;
+}
+.price.noIcon .em {
+  content: "";
+}
+.cont {
+  flex: 1;
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 990;
+}
+.pop-mask.active {
+  display: block;
+}
+.pop-mid {
+  background: #fff;
+  border-radius: 20rpx;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  z-index: 1000;
+}
+.pop-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-btn .h5-button {
+  border-radius: 176rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 20rpx;
+}
+.pop-btn .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-btn .btn-submit {
+  font-weight: 600;
+}
+.pop-btn .btn-cancel {
+  background: #eee;
+  color: #666;
+  font-size: 32rpx;
+}
+.modal-box {
+  box-sizing: border-box;
+  padding-top: 50rpx;
+}
+.modal-box .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.modal-box .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin: 40rpx 50rpx 0;
+}
+.modal-box .ifont-closed {
+  color: #666;
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  position: absolute;
+  right: 20rpx;
+  text-align: center;
+  top: 20rpx;
+  width: 60rpx;
+}
+.modal-box .pop-btn {
+  margin-top: 60rpx;
+  padding: 0 30rpx 40rpx;
+}
+.pop-botm {
+  background: #fff;
+  border-radius: 20rpx 20rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  top: auto;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.pop-mask.active .pop-botm {
+  transform: translateZ(0);
+}
+.pop-botm-hd {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+}
+.pop-botm-hd .btn-cancel,
+.pop-botm-hd .btn-submit {
+  background: transparent;
+  border-radius: 20rpx 20rpx 0 0;
+  font-size: 32rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+  width: 150rpx;
+}
+.pop-botm-hd .btn-submit {
+  font-weight: 600;
+}
+.pop-botm-hd .btn-cancel {
+  color: #666;
+}
+.pop-botm-hd .tit {
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.pop-botm-hd .ifont-closed {
+  color: #666;
+  font-size: 30rpx;
+  height: 110rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 110rpx;
+}
+.pop-botm-hd .ifont-closed.l {
+  left: 0;
+}
+.pop-botm-hd .ifont-closed.r {
+  right: 0;
+}
+.pop-botm .pop-btn {
+  padding: 20rpx 30rpx;
+}
+.pop-botm .book-botm {
+  padding-bottom: 0 !important;
+}
+.pop-scroll {
+  max-height: 820rpx;
+}
+.book-botm,
+.fixed-botm {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-top: 2rpx solid #f2f2f2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  padding: 0 30rpx env(safe-area-inset-bottom);
+  position: relative;
+  z-index: 100;
+}
+.book-botm .price {
+  font-size: 48rpx;
+}
+.book-botm .price::before {
+  font-size: 28rpx;
+}
+.book-botm .book-detail {
+  color: #999;
+  font-size: 28rpx;
+  height: 128rpx;
+  line-height: 128rpx;
+  padding: 0 32rpx 0 30rpx;
+}
+.book-botm .book-detail .iconfont {
+  font-size: 22rpx;
+  margin: -4rpx 0 0 10rpx;
+}
+.book-botm .btn-book {
+  font-weight: 600;
+  width: 280rpx;
+}
+.book-botm .btn-book,
+.fixed-botm .h5-button {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.fixed-botm .btn-cancel {
+  flex: 0.5;
+  margin-right: 30rpx;
+}
+.fixed-botm .btn-submit {
+  flex: 1;
+  font-weight: 600;
+}
+.book-price-detail,
+.pop-detail {
+  bottom: 128rpx;
+  bottom: calc(env(safe-area-inset-bottom) + 128rpx);
+}
+.pop-detail {
+  padding: 30rpx 30rpx 10rpx;
+}
+.pop-detail .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.pop-detail .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  height: 96rpx;
+}
+.pop-detail .item:last-child {
+  border-bottom: 0;
+}
+.book-tips-grey {
+  background: #f5f5f5;
+  color: #999;
+}
+.book-tips-grey,
+.book-tips-yellow {
+  border-radius: 4rpx;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  padding: 12rpx 16rpx;
+}
+.book-tips-yellow {
+  background: #fef8e9;
+  color: #f76e21;
+}
+.blank-botm {
+  height: 60rpx;
+}
+.ticket-red {
+  color: #fe4839;
+}
+.ticket-btn-red {
+  background-color: #fe4839;
+  color: #fff;
+}
+.pop-coupon {
+  background-color: initial;
+  width: 600rpx;
+}
+.pop-coupon-hd {
+  height: 242rpx;
+}
+.pop-coupon-bd {
+  border-bottom-left-radius: 24rpx;
+  border-bottom-right-radius: 24rpx;
+  box-sizing: border-box;
+  margin-top: -10rpx;
+  padding: 50rpx 0 0;
+}
+.receive-btn-wrap {
+  height: 98rpx;
+  margin: 0 40rpx 40rpx;
+  width: 520rpx;
+}
+.btn-get {
+  background-color: initial;
+  color: transparent;
+  height: 98rpx;
+  left: 40rpx;
+  position: absolute;
+  top: 0;
+  width: 520rpx;
+}
+.pop-coupon .ifont-closed {
+  bottom: -108rpx;
+  color: #fff;
+  font-size: 40rpx;
+  height: 48rpx;
+  left: 50%;
+  line-height: 48rpx;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 48rpx;
+}
+.pop-coupon-list {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  max-height: 456rpx;
+  overflow-y: auto;
+  padding: 0 40rpx 24rpx;
+}
+.pop-coupon-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/coupon-item.png)
+    no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 132rpx;
+  margin-bottom: 20rpx;
+  width: 520rpx;
+}
+.pop-coupon-list .item .price {
+  color: #d85800;
+  font-size: 60rpx;
+  font-weight: 600;
+  margin-right: 28rpx;
+  text-align: center;
+  width: 146rpx;
+}
+.pop-coupon-list .item .price::before {
+  font-size: 28rpx;
+}
+.pop-coupon-list .item .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+}
+.pop-coupon-list .item .txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 6rpx;
+}
+.tick-pic {
+  height: 320rpx;
+  position: relative;
+}
+.tick-pic::after {
+  background-size: cover;
+  content: "";
+  height: 66rpx;
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 180rpx;
+}
+.tick-pic.zx::after {
+  background-image: url(https://pic.c-ctrip.com/train/zt/ticket/swiper-default-zx.png);
+}
+.tick-pic.ty::after {
+  background-image: url(https://pic.c-ctrip.com/train/zt/ticket/swiper-default-ty.png);
+}
+.tick-pic .swiper {
+  height: 320rpx;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+.tick-pic .swiper .slide-image {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+.tick-pic .pic-num {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 48rpx;
+  bottom: 50rpx;
+  color: #fff;
+  font-size: 22rpx;
+  line-height: 48rpx;
+  padding: 0 24rpx;
+  position: absolute;
+  right: 30rpx;
+  z-index: 10;
+}
+.tick-pic .wx-swiper-dots {
+  margin-bottom: 30rpx;
+}
+.shareIcon {
+  height: 60rpx;
+  position: absolute;
+  right: 22rpx;
+  top: 22rpx;
+  width: 60rpx;
+  z-index: 10;
+}
+.share-btn {
+  opacity: 0;
+  z-index: 10;
+}
+.tick-top {
+  background: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  margin-top: -30rpx;
+  padding-top: 30rpx;
+  position: relative;
+  z-index: 10;
+}
+.tick-top-bottom-pad {
+  padding-bottom: 20rpx;
+}
+.tick-top-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.static-header {
+  padding-bottom: 30rpx;
+}
+.tick-top-hd .cont {
+  margin: 0 30rpx;
+  overflow: hidden;
+}
+.tick-top-hd .cont .tit {
+  display: block;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 56rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tick-top-hd .cont .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.tick-top-hd .cont .info {
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+.tick-top-hd .cont .info .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 10rpx;
+}
+.tick-top-hd .rbox {
+  position: relative;
+  text-align: center;
+  width: 210rpx;
+}
+.tick-top-hd .rbox::before {
+  background: #e5e5e5;
+  content: "";
+  height: 128rpx;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rpx;
+}
+.tick-top-hd .rbox .grade.ty {
+  color: #ff7d00;
+  font-size: 28rpx;
+}
+.tick-top-hd .rbox .grade.zx {
+  color: #0080ff;
+  font-size: 28rpx;
+}
+.tick-top-hd .rbox .strong {
+  font-size: 56rpx;
+  font-weight: 600;
+}
+.tick-top-hd .rbox .txt.ty {
+  color: #666;
+  font-size: 22rpx;
+  margin-top: -2rpx;
+}
+.tick-top-hd .rbox .txt.zx {
+  color: #0080ff;
+  font-size: 22rpx;
+  margin-top: -2rpx;
+}
+.tick-top-hd .rbox .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.tick-top-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30rpx;
+  padding: 24rpx 0;
+}
+.tick-top-bd .rank-desc {
+  flex: 1;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  position: relative;
+}
+.tick-top-bd .rank-desc-image {
+  height: 32rpx;
+  width: 32rpx;
+}
+.tick-top-bd .address {
+  flex: 1;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  padding-left: 28rpx;
+  position: relative;
+}
+.tick-top-bd .address .ifont-location {
+  color: #666;
+  font-size: 24rpx;
+  left: 0;
+  line-height: 32rpx;
+  position: absolute;
+  top: 0;
+}
+.tick-top-bd .btn-gps {
+  border-radius: 48rpx;
+  font-size: 22rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin-left: 30rpx;
+  padding: 0;
+  width: 104rpx;
+}
+.tick-top-bd .btn-gps .ifont-gps {
+  font-size: 20rpx;
+  margin: -4rpx 6rpx 0 0;
+}
+.color-primary .detail-coupon-tag {
+  background: #fc6e51;
+  border-radius: 4rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+  padding: 0 4rpx;
+}
+.rbox .detail-coupon-price {
+  background: rgba(254, 72, 57, 0.15);
+  border-radius: 4rpx;
+  color: #fe4839;
+  display: inline-block;
+  font-size: 20rpx;
+  padding: 0 6rpx;
+}
+.shelf-v1-wrap {
+  margin-top: 16rpx;
+}
+.tick-list {
+  background: #fff;
+  margin: 16rpx 0;
+}
+.tick-lst-hd {
+  border-bottom: 1rpx solid #eee;
+  line-height: 50rpx;
+  padding: 30rpx;
+}
+.tick-lst-hd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-right: 10rpx;
+}
+.tick-lst-hd .tag {
+  border: 1rpx solid #e5e5e5;
+  border-radius: 4rpx;
+  color: #666;
+  display: inline-block;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  margin-top: -4rpx;
+  padding: 0 10rpx;
+  vertical-align: middle;
+}
+.tick-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30rpx;
+  padding: 24rpx 0;
+}
+.tick-list .item:last-child {
+  border-bottom: 0;
+}
+.tick-list .item .tit {
+  flex: 1;
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.tick-list .item .price {
+  margin-left: 8rpx;
+}
+.tick-list .item .ifont-open {
+  font-size: 30rpx;
+  transform: rotate(180deg);
+}
+.tick-list .item .ifont-open.zx {
+  color: #0080ff;
+}
+.tick-list .item .ifont-open.ty {
+  color: #666;
+}
+.tick-list .item.open .ifont-open {
+  transform: translate(0);
+}
+.tick-list .tick-detail {
+  background: #fff;
+}
+.tick-list .item + .tick-detail {
+  background: #f5f5f5;
+  margin-top: -1rpx;
+}
+.tick-list .tick-detail .item {
+  border-color: #e5e5e5;
+  padding: 20rpx 0;
+}
+.tick-list .tick-detail .item .cont {
+  margin: 10rpx 0;
+}
+.tick-list .tick-detail .item .tit {
+  font-size: 30rpx;
+  font-weight: 400;
+  line-height: 42rpx;
+  margin-bottom: 12rpx;
+}
+.tick-list .item + .tick-detail .item .tit {
+  color: #666;
+}
+.tick-list .tick-detail .item .color-primary {
+  font-size: 24rpx;
+  margin-bottom: 6rpx;
+}
+.tick-list .tick-detail .item .info {
+  color: #d8d8d8;
+  font-size: 22rpx;
+  line-height: 34rpx;
+  margin-top: 4rpx;
+}
+.tick-list .tick-detail .item .info .tgrey {
+  color: #666;
+}
+.tick-list .tick-detail .item .info .ifont-arr {
+  color: #666;
+  font-size: 16rpx;
+  margin-left: 6rpx;
+}
+.tick-list .tick-detail .item .info .quan {
+  border-radius: 4rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin: -6rpx 8rpx 0 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.tick-list .tick-detail .item .rbox {
+  margin-left: 30rpx;
+  text-align: right;
+}
+.tick-list .tick-detail .item .rbox .mtxt {
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+}
+.tick-list .tick-detail .item .rbox .tgrey {
+  font-size: 22rpx;
+}
+.tick-list .tick-detail .item .rbox .s {
+  text-decoration: line-through;
+}
+.tick-list .tick-detail .item .rbox .tag {
+  background: rgba(254, 72, 57, 0.15);
+  border-radius: 4rpx;
+  color: #fe4839;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.tick-list .tick-detail .item .btn-book {
+  border-radius: 60rpx;
+  float: right;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 150rpx;
+}
+.tick-list .tick-detail .more {
+  color: #666;
+  font-size: 24rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+.tick-list .tick-detail .more .ifont-arrdown2 {
+  font-size: 20rpx;
+  margin-left: 8rpx;
+}
+.tick-list .tick-detail .more.closed .ifont-arrdown2 {
+  transform: rotate(180deg);
+}
+.tick-list .show-more {
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 96rpx;
+  text-align: center;
+}
+.tick-list .show-more .ifont-arrdown2 {
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: 8rpx;
+}
+.recommend-lyj {
+  background: #fae4e3;
+  padding-bottom: 20rpx;
+}
+.recommend-hd {
+  color: #ff414b;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 56rpx;
+  padding: 30rpx 20rpx 20rpx;
+  position: relative;
+}
+.recommend-hd::after {
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/detail-lyj-bg.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 106rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 272rpx;
+}
+.recommend-hd .tag {
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/detail-lyj-tag.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-size: 26rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  margin: -4rpx 0 0 10rpx;
+  padding-left: 16rpx;
+  vertical-align: middle;
+  width: 118rpx;
+}
+.recommend-lyj .tick-detail {
+  border-radius: 8rpx;
+  margin: 0 20rpx;
+}
+.recommend-lyj .tick-detail .item .item {
+  padding: 10rpx 0;
+}
+.pop-tick-detail-hd {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40rpx;
+}
+.pop-tick-detail-hd .cont {
+  margin-right: 60rpx;
+  overflow: hidden;
+}
+.pop-tick-detail-hd .ifont-closed {
+  font-size: 26rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 20rpx;
+  position: absolute;
+  right: 20rpx;
+  text-align: center;
+  top: 30rpx;
+  width: 28rpx;
+}
+.pop-tick-detail-hd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-tick-detail-hd .txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.pop-tick-detail-hd .txt text {
+  color: #666;
+}
+.pop-tick-detail-bd {
+  border-bottom: 1rpx solid #eee;
+  margin: 0 40rpx;
+  padding: 40rpx 0;
+}
+.pop-tick-detail-bd:last-child {
+  border-bottom: 0;
+}
+.pop-tick-detail-bd .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+}
+.pop-tick-detail-bd .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24rpx;
+}
+.pop-tick-detail-bd .label {
+  color: #999;
+  font-size: 26rpx;
+  width: 130rpx;
+}
+.pop-tick-detail-bd .txt {
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-right: 30rpx;
+}
+.pop-tick-detail-bd .torage {
+  color: #f29b36;
+}
+.pop-tick-detail-bd .tag {
+  border-radius: 4rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  display: inline-block;
+  font-size: 22rpx;
+  line-height: 24rpx;
+  margin: -4rpx 10rpx 0 0;
+  padding: 4rpx 6rpx;
+  vertical-align: middle;
+}
+.pop-tick-detail-bd .tag.zx {
+  background: rgba(0, 128, 255, 0.1);
+  border-color: #0080ff;
+  color: #0080ff;
+}
+.pop-tick-detail-bd .tag.ty {
+  background: rgba(252, 110, 81, 0.1);
+  border-color: #fc6e51;
+  color: #fc6e51;
+}
+.pop-tick-detail-bd .tag.yellow {
+  background: rgba(242, 155, 54, 0.1);
+  border-color: #f29b36;
+  color: #f29b36;
+}
+.pop-tick-detail-bd .tag + .txt {
+  margin-top: 10rpx;
+}
+.pop-tick-info-bd {
+  min-height: 600rpx;
+  padding: 40rpx 30rpx;
+}
+.pop-tick-info-bd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin: 40rpx 0 20rpx;
+}
+.pop-tick-info-bd .tit:first-child {
+  margin-top: 0;
+}
+.pop-tick-info-bd .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-bottom: 12rpx;
+}
+.pop-tick-info-bd image {
+  margin: 20rpx 0;
+  width: 100%;
+}
+.list-hongbao {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fef9ed;
+  border-radius: 80rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80rpx;
+  margin: 0 20rpx;
+  padding: 0 30rpx 0 20rpx;
+}
+.list-hongbao .icon-hongbao {
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/hongbao-s.png)
+    no-repeat;
+  background-size: cover;
+  height: 52rpx;
+  margin: -10rpx 20rpx 0 0;
+  width: 60rpx;
+}
+.list-hongbao .cont {
+  color: #fb833c;
+  font-size: 26rpx;
+}
+.list-hongbao .btn-go {
+  background-color: #fc6e51;
+  border-radius: 40rpx;
+  color: #fff;
+  font-size: 22rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 0;
+  width: 80rpx;
+}
+.rich-img {
+  height: auto !important;
+  margin: 10rpx 0;
+  width: 100% !important;
+}
+.product-info-wrap {
+  margin-top: 16rpx;
+}
+.product-info-content {
+  background-color: #fff;
+  padding: 40rpx 30rpx;
+}
+.skeleton-item {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  margin: 10rpx;
+  overflow: hidden;
+  padding: 24rpx 30rpx 30rpx;
+  position: relative;
+}
+.skeleton-item .bd {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.skeleton-item .bd,
+.skeleton-item .bd .place {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skeleton-item .bd .place {
+  flex-direction: column;
+}
+.skeleton-item .bd .place .name {
+  height: 28rpx;
+  width: 444rpx;
+}
+.skeleton-item .bd .place .desc,
+.skeleton-item .bd .place .name {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+}
+.skeleton-item .bd .place .desc {
+  height: 24rpx;
+  margin-top: 24rpx;
+  width: 140rpx;
+}
+.skeleton-item .bd .place .tit {
+  width: 190rpx;
+}
+.skeleton-item .bd .pay {
+  -ms-flex-align: end;
+  -ms-flex-pack: center;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+}
+.skeleton-item .bd .pay .money {
+  border-radius: 4rpx;
+  height: 24rpx;
+  width: 80rpx;
+}
+.skeleton-item .bd .pay .btn,
+.skeleton-item .bd .pay .money {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+}
+.skeleton-item .bd .pay .btn {
+  border-radius: 22rpx;
+  height: 44rpx;
+  margin-top: 34rpx;
+  width: 144rpx;
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.add-skeleton-item {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+}
+.skeleton-head-box {
+  background-color: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  margin-bottom: 20rpx;
+  margin-top: -30rpx;
+  padding-bottom: 30rpx;
+  position: relative;
+  z-index: 10;
+}
+.skeleton-head-title {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  border-bottom: 1rpx solid #e5e5e5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0;
+  padding: 30rpx 0;
+}
+.skeleton-left-box {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 0 30rpx;
+}
+.skeleton-left-box,
+.skeleton-right-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.skeleton-right-box {
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1rpx solid #e5e5e5;
+  width: 210rpx;
+}
+.evaluate-box {
+  background: #fff;
+  margin: 16rpx 0;
+}
+.evaluate-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 30rpx 24rpx;
+}
+.evaluate-hd .cont {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.evaluate-hd .cont .tgrey {
+  color: #666;
+  font-size: 26rpx;
+  font-weight: 400;
+}
+.evaluate-hd .ifont-arr {
+  color: #ccc;
+  font-size: 22rpx;
+}
+.evaluate-tag {
+  margin: 0 20rpx 4rpx 30rpx;
+}
+.evaluate-tag .item {
+  border-radius: 56rpx;
+  display: inline-block;
+  font-size: 24rpx;
+  line-height: 56rpx;
+  margin: 0 16rpx 16rpx 0;
+  padding: 0 20rpx;
+}
+.evaluate-tag.zx .item {
+  border: 1rpx solid rgba(0, 128, 255, 0.4);
+  color: #0080ff;
+}
+.evaluate-tag.ty .item {
+  border: 1rpx solid rgba(252, 110, 81, 0.4);
+  color: #fc6e51;
+}
+.evaluate-list {
+  margin-left: 30rpx;
+}
+.evaluate-list .item {
+  border-bottom: 1rpx solid #eee;
+  padding: 30rpx 30rpx 40rpx 0;
+}
+.evaluate-list .item .open {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 6rpx;
+}
+.evaluate-info {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.evaluate-info .avatar {
+  border-radius: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  width: 80rpx;
+}
+.evaluate-info .name {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-bottom: 8rpx;
+}
+.evaluate-info .score {
+  background: #fdf2e6;
+  border-radius: 36rpx;
+  color: #ff7d00;
+  display: inline-block;
+  font-size: 22rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+  padding: 0 16rpx 0 44rpx;
+  position: relative;
+}
+.evaluate-info icon {
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/evaluate-face.png)
+    no-repeat;
+  background-size: 40rpx 200rpx;
+  height: 40rpx;
+  left: -2rpx;
+  position: absolute;
+  top: -2rpx;
+  width: 40rpx;
+}
+.evaluate-info .icon-score-5 {
+  background-position: 0 0;
+}
+.evaluate-info .icon-score-4 {
+  background-position: 0-40rpx;
+}
+.evaluate-info .icon-score-3 {
+  background-position: 0-80rpx;
+}
+.evaluate-info .icon-score-2 {
+  background-position: 0-120rpx;
+}
+.evaluate-info .icon-score-1 {
+  background-position: 0-160rpx;
+}
+.evaluate-info .rbox {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 38rpx;
+  padding-left: 40rpx;
+  position: relative;
+  text-align: right;
+  white-space: pre-wrap;
+  z-index: 2;
+}
+.evaluate-info .rbox::before {
+  background: url(https://pic.c-ctrip.com/train/zt/ticket/evaluate-elite.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 102rpx;
+  z-index: -1;
+}
+.evaluate-txt {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+}
+.evaluate-txt.ellipsis {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.evaluate-img {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 12rpx;
+  position: relative;
+}
+.evaluate-img .pic {
+  border-radius: 6rpx;
+  height: 162rpx;
+  margin: 12rpx 12rpx 0 0;
+  width: 162rpx;
+}
+.evaluate-img .pic:nth-child(4n) {
+  margin-right: 0;
+}
+.evaluate-img .num {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 36rpx;
+  bottom: 12rpx;
+  color: #fff;
+  font-size: 22rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  right: 20rpx;
+}
+.evaluate-list .show-more {
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 108rpx;
+  text-align: center;
+}
+.evaluate-list .show-more .ifont-arr {
+  font-size: 20rpx;
+  font-weight: 400;
+  margin: -4rpx 0 0 6rpx;
+}

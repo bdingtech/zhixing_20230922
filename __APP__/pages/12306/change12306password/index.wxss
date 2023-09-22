@@ -1,0 +1,65 @@
+@import "/pages/12306/sub-vendors.wxss";
+.change-password .container {
+  background-color: #fff;
+  margin-bottom: 18rpx;
+  margin-top: 20rpx;
+}
+.change-password .container .input-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  padding: 32rpx 40rpx;
+}
+.change-password .container .input-item .label {
+  color: #222;
+  width: 168rpx;
+}
+.change-password .container .input-item .input-txt {
+  color: #222;
+  flex: 1;
+}
+.change-password .container .input-item .input-txt-hold {
+  color: #bbb;
+  flex: 1;
+}
+.change-password .container .input-item .btn-message {
+  border: 1rpx solid #198cff;
+  border-radius: 8rpx;
+  color: #198cff;
+  font-size: 24rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 2rpx 8rpx;
+  text-align: center;
+}
+.change-password .container .input-item .btn-disabled {
+  border-color: grey;
+  color: grey;
+}
+.change-password .container .line {
+  background-color: #f2f2f2;
+  border-radius: 0;
+  height: 1rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.change-password .tips {
+  color: #999;
+  font-size: 26rpx;
+  margin-left: 40rpx;
+}
+.change-password .btn-submit {
+  background: #0080ff;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 32rpx;
+}

@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "检票二维码",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#222",
+  "backgroundColorTop": "#222222",
+  "backgroundColorBottom": "#fff",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

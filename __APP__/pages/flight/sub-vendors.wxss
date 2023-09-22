@@ -1,0 +1,2002 @@
+@charset "UTF-8";
+.single-flight-skeleton-container .skeleton-item {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  margin: 10rpx;
+  overflow: hidden;
+  padding: 24rpx 30rpx 30rpx;
+  position: relative;
+}
+.single-flight-skeleton-container .skeleton-item .bd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.single-flight-skeleton-container .skeleton-item .bd .place {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.single-flight-skeleton-container .skeleton-item .bd .title {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+  height: 44rpx;
+  width: 124rpx;
+}
+.single-flight-skeleton-container .skeleton-item .bd .desc {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+  height: 24rpx;
+  margin-top: 14rpx;
+  width: 80rpx;
+}
+.single-flight-skeleton-container .skeleton-item .bd .division {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+  height: 8rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  width: 128rpx;
+}
+.single-flight-skeleton-container .skeleton-item .bd .price {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+.single-flight-skeleton-container .skeleton-item .hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 34rpx;
+}
+.single-flight-skeleton-container .skeleton-item .hd .desc {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+  height: 24rpx;
+  width: 444rpx;
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.business-drawer-cont {
+  background-color: #f5f5f5;
+  background-image: url(https://images3.c-ctrip.com/ztrip/zhixingios/list/10.0/slv_bg_chang.png);
+  background-repeat: no-repeat;
+  background-size: 100%auto;
+  min-height: 2rpx;
+  padding-bottom: 122rpx;
+}
+.business-drawer-cont .business-drawer-hd {
+  margin-bottom: 30rpx;
+  padding-top: 26rpx;
+}
+.business-drawer-cont .hd-title {
+  height: 48rpx;
+  margin-bottom: 12rpx;
+  width: 304rpx;
+}
+.business-drawer-cont .hd-sub-title {
+  color: #214881;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+}
+.business-drawer-cont .hd-sub-title::after,
+.business-drawer-cont .hd-sub-title::before {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#214881),
+    to(transparent)
+  );
+  background: -webkit-linear-gradient(right, #214881, transparent);
+  background: -o-linear-gradient(right, #214881 0, transparent 100%);
+  background: linear-gradient(270deg, #214881, transparent);
+  content: "";
+  display: block;
+  height: 2rpx;
+  width: 20rpx;
+}
+.business-drawer-cont .hd-sub-title::before {
+  margin-right: 12rpx;
+}
+.business-drawer-cont .hd-sub-title::after {
+  margin-left: 12rpx;
+  transform: rotate(180deg);
+}
+.business-drawer-cont .business-drawer-bd {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 40rpx;
+  min-height: 2rpx;
+}
+.business-drawer-cont .steps-wrap {
+  margin: 36rpx 38rpx 0;
+  overflow-y: auto;
+}
+.business-drawer-cont .steps-wrap::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.business-drawer-cont .business-step {
+  padding: 0 0 60rpx 38rpx;
+  position: relative;
+}
+.business-drawer-cont .business-step:not(:last-child)::before {
+  background-color: #1a8cff;
+  bottom: 0;
+  content: "";
+  left: 8rpx;
+  position: absolute;
+  top: 40rpx;
+  width: 2rpx;
+}
+.business-drawer-cont .business-step .step-node {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 18rpx;
+  left: 0;
+  position: absolute;
+  top: 12rpx;
+  width: 18rpx;
+}
+.business-drawer-cont .business-step:first-child .step-node {
+  background-color: #198cff;
+}
+.business-drawer-cont .business-step:not(:first-child) .step-node {
+  border: 2rpx solid #198cff;
+}
+.business-drawer-cont .business-step .step-title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+}
+.business-drawer-cont .business-step .step-desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.business-drawer-cont .business-step .step-img {
+  margin-top: 24rpx;
+  width: 532rpx;
+}
+.announcement-banner {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  border-radius: 20rpx;
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  height: 52rpx;
+  margin: 10rpx 12rpx;
+  padding: 0 30rpx;
+}
+.announcement-banner .cont {
+  overflow: hidden;
+}
+.announcement-banner .cont .txt {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: 22rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.announcement-banner .ifont2-arr {
+  font-size: 20rpx;
+}
+.flight-round-multi-list-item .item {
+  padding: 24rpx 22rpx;
+  position: relative;
+}
+.flight-round-multi-list-item .item::after {
+  border-bottom: 1rpx solid #e5e5e5;
+  bottom: 0;
+  content: "";
+  height: 1rpx;
+  left: 30rpx;
+  position: absolute;
+  right: 30rpx;
+  transform: scaleY(0.5);
+}
+.flight-round-multi-list-item .item.cur {
+  background: #fff9f1;
+}
+.flight-round-multi-list-item .item.cur .fromto .mid .em {
+  background: #fff9f1 !important;
+}
+.flight-round-multi-list-item .item .fromto {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flight-round-multi-list-item .item .fromto .from,
+.flight-round-multi-list-item .item .fromto .to {
+  width: 100rpx;
+}
+.flight-round-multi-list-item .item .fromto .to {
+  position: relative;
+  text-align: right;
+}
+.flight-round-multi-list-item .item .fromto .time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.flight-round-multi-list-item .item .fromto .station {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 30rpx;
+}
+.flight-round-multi-list-item .item .fromto .add {
+  font-size: 20rpx;
+  position: absolute;
+  right: -48rpx;
+  top: 0;
+}
+.flight-round-multi-list-item .item .fromto .mid {
+  position: relative;
+  text-align: center;
+  width: 56rpx;
+}
+.flight-round-multi-list-item .item .fromto .mid .icon-fromto {
+  background-image: url(https://images3.c-ctrip.com/ztrip/zhixingios/shuangliebiao/jiantou_icon.png);
+  background-size: cover;
+  height: 30rpx;
+  width: 50rpx;
+}
+.flight-round-multi-list-item .item .fromto .mid .icon-fromto.stop {
+  background-image: url(https://images3.c-ctrip.com/ztrip/zhixingios/shuangliebiao/jiantou_t_icon.png);
+}
+.flight-round-multi-list-item .item .fromto .mid .icon-fromto.trans {
+  background-image: url(https://images3.c-ctrip.com/ztrip/zhixingios/shuangliebiao/jiantou_z_icon.png);
+}
+.flight-round-multi-list-item .item .fromto .mid .em {
+  background: #fff;
+  color: #222;
+  font-size: 22rpx;
+  margin: 12rpx auto 0;
+  position: relative;
+  width: 28rpx;
+  z-index: 2;
+}
+.flight-round-multi-list-item .item .fromto .mid .txt {
+  color: #999;
+  font-size: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flight-round-multi-list-item .item .flight-info {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8rpx;
+}
+.flight-round-multi-list-item .item .flight-info .cont {
+  color: #999;
+  font-size: 22rpx;
+}
+.flight-round-multi-list-item .item .flight-info .txt {
+  color: #999;
+  font-size: 20rpx;
+  text-align: right;
+}
+.flight-round-multi-list-item .item .flight-info .total {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+}
+.flight-round-multi-list-item .item .flight-info .add {
+  font-size: 24rpx;
+  font-weight: 700;
+  margin-right: 2rpx;
+}
+.flight-round-multi-list-item .item .flight-info .price {
+  font-family: ZX-Regular;
+  font-size: 34rpx;
+}
+.flight-round-multi-list-item .item .flight-info .price::before {
+  content: "¥";
+  font-size: 24rpx;
+  margin-right: 2rpx;
+}
+.flight-round-multi-list-item .item .flight-info .em {
+  font-size: 24rpx;
+  margin: 8rpx 0 0 4rpx;
+}
+.flight-fast-filter-container {
+  border-bottom: 6rpx solid #f8f8f8;
+  border-top: 6rpx solid #f8f8f8;
+  margin-top: -2rpx;
+  padding-bottom: 24rpx;
+  position: relative;
+  z-index: 2;
+}
+.flight-fast-filter-container.first-filter-child {
+  border-top: 0;
+  margin-top: 0;
+}
+.flight-fast-filter-container .htit {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  font-weight: 700;
+  margin: 20rpx 22rpx;
+}
+.flight-fast-filter-container .htit::before {
+  background: #0080ff;
+  border-radius: 2rpx;
+  content: "";
+  display: inline-block;
+  height: 22rpx;
+  margin-right: 8rpx;
+  vertical-align: middle;
+  width: 6rpx;
+}
+.flight-fast-filter-container .htit .rbox {
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: auto;
+  padding: 15rpx;
+}
+.flight-fast-filter-container .lst {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 24rpx 16rpx;
+}
+.flight-fast-filter-container .lst:last-child {
+  margin-bottom: 0;
+}
+.flight-fast-filter-container .label {
+  border-radius: 4rpx;
+  color: #999;
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 4rpx;
+  position: relative;
+  text-align: center;
+  width: 28rpx;
+  z-index: 1;
+}
+.flight-fast-filter-container .label::after {
+  border: 2rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.flight-fast-filter-container .cont {
+  background: #f7f7f7;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 22rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-left: 16rpx;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 136rpx;
+}
+.flight-fast-filter-container .cont.cur {
+  border: 2rpx solid #198cff;
+  color: #198cff;
+}
+.date-selector {
+  background-color: #fff;
+  height: 94rpx;
+  overflow: hidden;
+  width: 100%;
+}
+.date-selector .date-selector-wrap {
+  min-width: 2rpx;
+}
+.date-selector .date-list {
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.date-selector .date-list ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.date-selector .date-list .date-item {
+  -ms-flex-pack: center;
+  box-sizing: border-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  flex-direction: column;
+  height: 78rpx;
+  justify-content: center;
+  margin: 8rpx 4rpx;
+  width: 88rpx;
+}
+.date-selector .date-list .date-item .date,
+.date-selector .date-list .date-item .day-type {
+  color: #666;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.date-selector .date-list .date-item .date {
+  font-family: PingFangSC-Regular;
+}
+.date-selector .date-list .date-item .day-type {
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.date-selector .date-list .date-item.selected {
+  background-color: #edf6ff;
+  border: 2rpx solid #d6eaff;
+  border-radius: 20rpx;
+}
+.date-selector .date-list .date-item.selected .date,
+.date-selector .date-list .date-item.selected .day-type {
+  color: #1a8cff;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.date-selector .calendar-btn {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  width: 64rpx;
+}
+.date-selector .calendar-btn .ifont2-calendar {
+  font-size: 40rpx;
+}
+.date-selector .calendar-btn::after {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/shuangliebiao/zhezhao@3x.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  display: block;
+  height: 86rpx;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  width: 16rpx;
+}
+.flt-roundtrip-sort-nav {
+  background-color: #fff;
+  padding: 12rpx 0 14rpx;
+  position: relative;
+  width: 100%;
+}
+.flt-roundtrip-sort-nav .nav-list .nav-item {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  transition: all 0.3s;
+}
+.flt-roundtrip-sort-nav .nav-list .nav-item.cur {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.flt-roundtrip-sort-nav .scroll-bar {
+  -ms-flex-pack: center;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rpx;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  width: 50%;
+}
+.flt-roundtrip-sort-nav .scroll-bar .scroller {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff 0, #07f 100%);
+  background: linear-gradient(90deg, #0daeff, #07f);
+  border-radius: 6rpx 6rpx 0 0;
+  height: 8rpx;
+  width: 42rpx;
+}
+.flt-roundtrip-sort-nav .scroll-bar .scroller.ty {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff8f3f),
+    to(#fc6e51)
+  );
+  background: -webkit-linear-gradient(left, #ff8f3f, #fc6e51);
+  background: -o-linear-gradient(left, #ff8f3f 0, #fc6e51 100%);
+  background: linear-gradient(90deg, #ff8f3f, #fc6e51);
+}
+.flight-round-multi-list {
+  height: 100%;
+  overflow: hidden;
+}
+.flight-round-multi-list .flt-round-list-wrap {
+  height: 100%;
+}
+.flight-round-multi-list #head-wrap {
+  position: relative;
+  width: 100%;
+}
+.flight-round-multi-list #head-wrap .hide-wrap {
+  max-height: 148rpx;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.flight-round-multi-list #head-wrap .hide-wrap.hide {
+  max-height: 0;
+  overflow: hidden;
+}
+.flight-round-multi-list .roundtrip-top {
+  border-radius: 20rpx 20rpx 0 0;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 20rpx 24rpx;
+}
+.flight-round-multi-list .roundtrip-top .tit {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.flight-round-multi-list .roundtrip-top .date {
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  text-align: right;
+}
+.flight-round-multi-list .roundtrip-top .city {
+  font-size: 22rpx;
+}
+.flight-round-multi-list .roundtrip-selected {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff8ed;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48rpx;
+  opacity: 0;
+  padding: 0 24rpx;
+  position: absolute;
+  transition: opacity 0.25s ease-in-out;
+  width: 100%;
+  z-index: 10;
+}
+.flight-round-multi-list .roundtrip-selected.show {
+  opacity: 1;
+}
+.flight-round-multi-list .roundtrip-selected .label {
+  color: #999;
+  font-size: 20rpx;
+  margin-right: 16rpx;
+}
+.flight-round-multi-list .roundtrip-selected .cont {
+  font-size: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flight-round-multi-list .roundtrip-selected .price {
+  font-family: ZX-Regular;
+  font-size: 22rpx;
+}
+.flight-round-multi-list .roundtrip-selected .price::before {
+  content: "¥";
+  font-size: 18rpx;
+  margin-right: 2rpx;
+  z-index: 5;
+}
+.flight-round-multi-list .roundtrip-list {
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.flight-round-multi-list .roundtrip-list.loading {
+  overflow: hidden;
+}
+.flight-round-multi-list .roundtrip-list .htit {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  font-weight: 700;
+  margin: 20rpx 22rpx;
+}
+.flight-round-multi-list .roundtrip-list .htit::before {
+  background: #198cff;
+  border-radius: 2rpx;
+  content: "";
+  display: inline-block;
+  height: 22rpx;
+  margin-right: 8rpx;
+  vertical-align: middle;
+  width: 6rpx;
+}
+.flight-round-multi-list .roundtrip-list .htit .rbox {
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: auto;
+}
+.flight-round-multi-list .roundtrip-list .loading {
+  padding: 28rpx 22rpx;
+  position: relative;
+}
+.flight-round-multi-list .roundtrip-list .loading::after {
+  border-bottom: 1rpx solid #e5e5e5;
+  bottom: 0;
+  content: "";
+  height: 2rpx;
+  left: 30rpx;
+  position: absolute;
+  right: 30rpx;
+  transform: scaleY(0.5);
+}
+.flight-round-multi-list .roundtrip-list .loading:last-child::after {
+  display: none;
+}
+.flight-round-multi-list .roundtrip-list .loading .img-loading {
+  animation: light 1.2s linear infinite;
+  background: url(https://pic.c-ctrip.com/train/zt/flight/list/img-loading.png)
+    no-repeat;
+  background-size: 100% 136rpx;
+  height: 136rpx;
+  width: 100%;
+}
+@-webkit-keyframes light {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes light {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.flight-round-multi-list .list-direct::-webkit-scrollbar,
+.flight-round-multi-list .roundtrip-list::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flight-round-multi-list .list-direct .zt-main-list:not(:empty),
+.flight-round-multi-list .list-trans,
+.flight-round-multi-list .skeleton-wrap {
+  border-top: 6rpx solid #f8f8f8;
+  box-sizing: border-box;
+}
+.flight-round-multi-list .list-more {
+  color: #999;
+  font-size: 22rpx;
+  margin: 0 22rpx;
+  padding: 24rpx 0 calc(env(safe-area-inset-bottom) + 120rpx + 80rpx);
+  text-align: center;
+}
+.flight-round-multi-list
+  .list-direct
+  .zt-main-list
+  [class*="wrap_"]:last-child
+  .flight-round-multi-list-item:last-child
+  .item::after {
+  display: none;
+}
+.flight-round-multi-list .list-none {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flight-round-multi-list .list-none .icon-none {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  height: 140rpx;
+  margin: 0 auto;
+  width: 300rpx;
+}
+.zx .flight-round-multi-list .list-none .icon-none {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-zx.png);
+}
+.ty .flight-round-multi-list .list-none .icon-none {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-ty.png);
+}
+.flight-round-multi-list .list-none .tit {
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}
+.flight-round-multi-list .list-none .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.pay-box .lbox {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24rpx 0 16rpx;
+}
+.pay-box .lbox .price-info .info {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  line-height: 40rpx;
+}
+.pay-box .lbox .price-info .info .rmb-sign {
+  font-size: 36rpx;
+  margin-right: 4rpx;
+}
+.pay-box .lbox .price-info .info .tag {
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-left: 6rpx;
+  padding: 0 6rpx;
+  position: relative;
+  z-index: 1;
+}
+.pay-box .lbox .price-info .info .tag::after {
+  border: 2rpx solid #ffbcbc;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.pay-box .lbox .price-info .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+}
+.pay-box .lbox .detail-btn {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: -20rpx;
+  padding: 20rpx;
+}
+.pay-box .lbox .detail-btn .iconfont2 {
+  font-size: 24rpx;
+  margin-left: 4rpx;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.pay-box .lbox .detail-btn .iconfont2.down {
+  transform: rotate(180deg);
+}
+.pay-box .next-btn {
+  background: #ff5959;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  width: 330rpx;
+}
+.flight-modify-vertical {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 24rpx 30rpx 0;
+  position: relative;
+}
+.flight-modify-vertical .stop-cont,
+.flight-modify-vertical .stop-lbox {
+  height: 188rpx;
+}
+.flight-modify-vertical .cont,
+.flight-modify-vertical .lbox,
+.flight-modify-vertical .stop-cont,
+.flight-modify-vertical .stop-lbox {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flight-modify-vertical .cont,
+.flight-modify-vertical .lbox {
+  height: 144rpx;
+}
+.flight-modify-vertical .lbox,
+.flight-modify-vertical .stop-lbox {
+  margin-right: 50rpx;
+  position: relative;
+  text-align: right;
+  width: 108rpx;
+}
+.flight-modify-vertical .lbox::after,
+.flight-modify-vertical .stop-lbox::after {
+  background: #ddd;
+  border-radius: 6rpx;
+  content: "";
+  height: 100rpx;
+  position: absolute;
+  right: -28rpx;
+  top: 22rpx;
+  width: 6rpx;
+}
+.flight-modify-vertical .stop-lbox::after {
+  height: 140rpx;
+}
+.flight-modify-vertical .mid {
+  color: #333;
+  font-size: 22rpx;
+  position: relative;
+}
+.flight-modify-vertical .jinting {
+  background: #f7f7f7;
+  border-radius: 8rpx;
+  display: inline-block;
+  padding: 5rpx 15rpx;
+}
+.flight-modify-vertical .jinting::before {
+  background: #fff;
+  border: 5rpx solid #ddd;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 18rpx;
+  left: -34rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18rpx;
+  z-index: 4;
+}
+.flight-modify-vertical .time {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 48rpx;
+}
+.flight-modify-vertical .start-date {
+  font-size: 20rpx;
+  position: absolute;
+  right: 0;
+  top: -29rpx;
+}
+.flight-modify-vertical .date {
+  bottom: 48rpx;
+  font-size: 20rpx;
+  position: absolute;
+  right: 0;
+}
+.flight-modify-vertical .station {
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 48rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300rpx;
+}
+.flight-modify-vertical .rbox {
+  margin: 4rpx 0 0 10rpx;
+  max-width: 260rpx;
+  position: absolute;
+  right: 0;
+}
+.flight-modify-vertical .txt {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 22rpx;
+  justify-content: flex-end;
+  line-height: 32rpx;
+  padding-right: 28rpx;
+  position: relative;
+  text-align: right;
+  white-space: pre-wrap;
+}
+.flight-modify-vertical .logo {
+  height: 24rpx;
+  margin-right: 8rpx;
+  width: 24rpx;
+}
+.flight-modify-vertical .ifont-arr {
+  color: #ccc;
+  font-size: 18rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.flight-modify-vertical .ifont-arr.hidden {
+  display: none;
+}
+.flight-modify-direct {
+  -ms-flex-align: start;
+  -ms-flex-pack: justify;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 24rpx 30rpx 30rpx;
+}
+.flight-modify-direct .from,
+.flight-modify-direct .to {
+  width: 180rpx;
+}
+.flight-modify-direct .to {
+  position: relative;
+  text-align: right;
+}
+.flight-modify-direct .mid {
+  flex: 1;
+  text-align: center;
+}
+.flight-modify-direct .time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 56rpx;
+  font-weight: 700;
+  line-height: 68rpx;
+}
+.flight-modify-direct .date {
+  font-size: 20rpx;
+  position: absolute;
+  right: 0;
+  top: -20rpx;
+}
+.flight-modify-direct .station {
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flight-modify-direct .icon-fromto {
+  background: url(https://pic.c-ctrip.com/train/zt/flight/bookx/icon-fromto.png)
+    no-repeat;
+  background-size: cover;
+  display: block;
+  height: 38rpx;
+  margin: 20rpx auto 0;
+  width: 214rpx;
+}
+.flight-modify-direct .jingting {
+  color: #666;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+.flight-modify-direct .info {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 24rpx;
+  width: 100%;
+}
+.flight-modify-direct .info .item {
+  color: #666;
+  font-size: 24rpx;
+  padding: 0 10rpx 0 12rpx;
+  position: relative;
+}
+.flight-modify-direct .info .item::after {
+  background: #d8d8d8;
+  content: "";
+  height: 32rpx;
+  left: 0;
+  margin-top: -8rpx;
+  position: absolute;
+  top: 50%;
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 1rpx;
+}
+.flight-modify-direct .info .item:first-child {
+  padding-left: 0;
+}
+.flight-modify-direct .info .item:first-child::after {
+  display: none;
+}
+.flight-modify-direct .info .ifont-arr {
+  color: #999;
+  font-size: 18rpx;
+  margin-left: -6rpx;
+}
+.flight-flight-segment {
+  min-height: 2rpx;
+}
+.flight-flight-segment .white-box {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.flight-flight-segment .modify-hd {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-top: 2rpx dashed hsla(0, 0%, 90%, 0.6);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30rpx 30rpx 0;
+  padding-top: 30rpx;
+  position: relative;
+}
+.flight-flight-segment .modify-hd:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+.flight-flight-segment .modify-hd .tag {
+  border-radius: 40rpx;
+  color: #fff;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  margin-right: 12rpx;
+  padding: 0 16rpx;
+}
+.flight-flight-segment .modify-hd .logo {
+  height: 30rpx;
+  margin-right: 8rpx;
+  width: 30rpx;
+}
+.flight-flight-segment .modify-hd .txt {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 40rpx;
+}
+.flight-flight-segment .modify-hd .ifont-carrier {
+  color: #afc2de;
+  font-size: 0.6rem;
+  margin-right: 8rpx;
+  text-align: center;
+  width: 30rpx;
+}
+.flight-flight-segment .modify-tips {
+  background: #fff8f4;
+  border-radius: 20rpx;
+  color: #666;
+  font-size: 24rpx;
+  margin: 28rpx 20rpx 0;
+  padding: 16rpx 20rpx;
+}
+.flight-flight-segment .modify-transit {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 52rpx;
+  margin: 32rpx 30rpx 32rpx 188rpx;
+  padding: 0 20rpx;
+  position: relative;
+}
+.flight-flight-segment .modify-transit::before {
+  background: url(https://pic.c-ctrip.com/train/zt/flight/bookx/icon-trans.png)
+    no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 174rpx;
+  left: -36.2rpx;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 18rpx;
+}
+.flight-flight-segment .modify-transit .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24rpx;
+  margin: 2rpx 8rpx 0 0;
+  width: 48rpx;
+}
+.zx .flight-flight-segment .modify-transit .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/bookx/txt-zz-zx.png);
+}
+.ty .flight-flight-segment .modify-transit .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/bookx/txt-zz-ty.png);
+}
+.flight-flight-segment .modify-transit .cont {
+  font-size: 24rpx;
+}
+.flight-flight-segment .modify-transit .rbox {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+}
+.flight-flight-segment .modify-transit .ifont-arr {
+  font-size: 18rpx;
+  margin: 2rpx 0 0 2rpx;
+}
+.trip-detail-cont {
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding-bottom: calc(120rpx + env(safe-area-inset-bottom));
+}
+.trip-detail-cont ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.trip-detail-drawer {
+  position: relative;
+  z-index: 2000;
+}
+.trip-detail-drawer .action-sheet-bg {
+  z-index: 2100;
+}
+.trip-detail-drawer .action-sheet-content {
+  z-index: 2200;
+}
+.filter-list-cont {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.filter-list-cont .filter-list-hd {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  justify-content: space-between;
+  line-height: 110rpx;
+}
+.filter-list-cont .filter-list-hd .tit {
+  font-size: 36rpx;
+  font-weight: 500;
+  padding: 0 20rpx;
+  position: relative;
+  transition: color 0.25s ease-in-out;
+}
+.filter-list-cont .filter-list-hd .tit.active {
+  color: #0080ff;
+}
+.filter-list-cont .filter-list-hd .tit.active::after {
+  background: #0080ff;
+  border-radius: 6rpx;
+  bottom: 10rpx;
+  content: "";
+  height: 6rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 60rpx;
+}
+.filter-list-cont .filter-list-hd .btn-cancel,
+.filter-list-cont .filter-list-hd .btn-submit {
+  background: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 108rpx;
+  line-height: 108rpx;
+  margin: 0;
+  padding: 0;
+  width: 140rpx;
+}
+.filter-list-cont .filter-list-hd .btn-cancel {
+  color: #999;
+  font-weight: 400;
+}
+.filter-list-cont .filter-cont {
+  height: 600rpx;
+  overflow: hidden;
+  position: relative;
+}
+.filter-list-cont .pop-filter-bd {
+  height: 600rpx;
+  left: -100vw;
+  position: absolute;
+  top: 0;
+  transition: all 0.25s ease-in-out;
+  width: 100vw;
+}
+.filter-list-cont .pop-filter-bd.active {
+  left: 0;
+}
+.filter-list-cont .pop-filter-bd + .pop-filter-bd {
+  left: 100vw;
+}
+.filter-list-cont .pop-filter-bd + .pop-filter-bd.active {
+  left: 0;
+}
+.filter-list-cont .pop-filter-bd .lbox {
+  -webkit-overflow-scrolling: touch;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  float: left;
+  height: 600rpx;
+  overflow-y: auto;
+  width: 210rpx;
+}
+.filter-list-cont .pop-filter-bd .lbox .item {
+  color: #666;
+  font-size: 30rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  padding-left: 40rpx;
+  position: relative;
+}
+.filter-list-cont .pop-filter-bd .lbox .item.cur {
+  background: #fff;
+  color: #0080ff;
+  font-weight: 600;
+}
+.filter-list-cont .pop-filter-bd .lbox .item .i-dot {
+  border-radius: 10rpx;
+  height: 10rpx;
+  position: absolute;
+  right: 16rpx;
+  top: 43rpx;
+  width: 10rpx;
+}
+.filter-list-cont .pop-filter-bd .rbox {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  height: 600rpx;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 40rpx;
+}
+.filter-list-cont .pop-filter-bd .rbox .item-title {
+  border-left: 6rpx solid #0080ff;
+  color: #666;
+  font-size: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin: 20rpx 0;
+  padding-left: 10rpx;
+}
+.filter-list-cont .pop-filter-bd .rbox .item {
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  overflow: hidden;
+  padding-right: 60rpx;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.filter-list-cont .pop-filter-bd .rbox .item:last-child {
+  border-bottom: none;
+}
+.filter-list-cont .pop-filter-bd .rbox .item.disabled {
+  color: #999;
+}
+.filter-list-cont .pop-filter-bd .rbox .item .iconfont {
+  font-size: 36rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.filter-list-cont .pop-filter-bd .rbox .item .ifont-checkbox {
+  color: #ccc;
+}
+.filter-list-cont .pop-filter-bd .rbox .item .airline-logo {
+  height: 28rpx;
+  margin-right: 8rpx;
+  margin-top: -4rpx;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.ty .filter-list-hd .tit.active {
+  color: #fc6e51;
+}
+.ty .filter-list-hd .tit.active::after {
+  background: #fc6e51;
+}
+.ty .pop-filter-bd .lbox .item.cur {
+  color: #fc6e51;
+}
+.ty .pop-filter-bd .rbox .item-title {
+  border-left-color: #fc6e51;
+}
+.flt-price-change {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/list/baby/icon_qinzi_bg@3x.png)
+    no-repeat;
+  background-size: 100% 232rpx;
+}
+.flt-price-change .hd-img-wrap {
+  height: 296rpx;
+  width: 100%;
+}
+.flt-price-change .hd-img-wrap .hd-img {
+  height: 100%;
+  width: 560rpx;
+}
+.flt-price-change .change-tit {
+  margin-top: 6rpx;
+}
+.flt-price-change .change-tit .txt {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+}
+.flt-price-change .cont {
+  margin-top: 24rpx;
+}
+.flt-price-change .cont .txt {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.flt-price-change .service-change-module {
+  height: 224rpx;
+  margin-top: 30rpx;
+  padding: 0 40rpx;
+}
+.flt-price-change .service-change-module .policy-offer {
+  border-radius: 20rpx;
+  height: 100%;
+  padding: 0 30rpx;
+  position: relative;
+}
+.flt-price-change .service-change-module .policy-offer .price {
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  line-height: 52rpx;
+}
+.flt-price-change .service-change-module .policy-offer .price::before {
+  content: "￥";
+  display: inline-block;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  margin-left: 2rpx;
+}
+.flt-price-change .service-change-module .policy-offer .price-status {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  line-height: 34rpx;
+  margin-top: 4rpx;
+}
+.flt-price-change .service-change-module .policy-offer .price-status .tag {
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 18rpx;
+  font-weight: 600;
+  line-height: 26rpx;
+  margin-left: 4rpx;
+  padding: 2rpx 6rpx;
+}
+.flt-price-change .service-change-module .policy-offer .service-desc {
+  color: #999;
+  flex-wrap: wrap;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 16rpx;
+}
+.flt-price-change .service-change-module .policy-offer .service-desc .desc {
+  text-align: center;
+}
+.flt-price-change .service-change-module .policy-offer.origin {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f0f0),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(#f0f0f0, #fff);
+  background: -o-linear-gradient(#f0f0f0 0, #fff 100%);
+  background: linear-gradient(#f0f0f0, #fff);
+  margin-right: 16rpx;
+}
+.flt-price-change .service-change-module .policy-offer.origin .price,
+.flt-price-change .service-change-module .policy-offer.origin .price-status {
+  color: #666;
+}
+.flt-price-change
+  .service-change-module
+  .policy-offer.origin
+  .price-status
+  .tag {
+  background: #999;
+}
+.flt-price-change .service-change-module .policy-offer.new {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e3f1ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(#e3f1ff, #fff);
+  background: -o-linear-gradient(#e3f1ff 0, #fff 100%);
+  background: linear-gradient(#e3f1ff, #fff);
+}
+.flt-price-change .service-change-module .policy-offer.new .price,
+.flt-price-change .service-change-module .policy-offer.new .price-status {
+  color: #0080ff;
+}
+.flt-price-change .service-change-module .policy-offer.new .price-status .tag {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff9166),
+    to(#ff5959)
+  );
+  background: -webkit-linear-gradient(left, #ff9166, #ff5959);
+  background: -o-linear-gradient(left, #ff9166 0, #ff5959 100%);
+  background: linear-gradient(90deg, #ff9166, #ff5959);
+}
+.flt-price-change .service-change-module .policy-offer .offer-icon {
+  height: 84rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 84rpx;
+}
+.flt-price-change .opt-wrap {
+  margin: 56rpx 0 20rpx;
+  padding: 0 32rpx;
+}
+.flt-price-change .opt-wrap .h5-button {
+  border-radius: 20rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+}
+.flt-price-change .opt-wrap .h5-button:last-child:not(:first-child) {
+  margin-left: 16rpx;
+}
+.flt-price-change .opt-wrap .confirm-btn {
+  background: #0080ff;
+  color: #fff;
+}
+.flt-price-change .opt-wrap .cancle-btn {
+  background: #edf6ff;
+  color: #0080ff;
+}
+.flt-train-coupon::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flt-train-coupon .coupons-warp {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 40rpx;
+  padding: 32rpx;
+}
+.flt-train-coupon .coupons-warp.multi {
+  margin: 0 16rpx;
+}
+.flt-train-coupon.show-btn {
+  margin: 0 16rpx 160rpx;
+}
+.flt-train-coupon .coupon-view {
+  height: 164rpx;
+  width: 100%;
+}
+.flt-train-coupon .coupon-view:not(:last-child) {
+  margin-bottom: 20rpx;
+}
+.flt-train-coupon .coupon-price {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/x_ye/img_1_1@3x.webp)
+    no-repeat;
+  background-size: 100% 100%;
+  color: #ff2e2e;
+  font-family: ZX-Regular;
+  font-size: 64rpx;
+  height: 100%;
+  line-height: 52rpx;
+  width: 192rpx;
+}
+.flt-train-coupon .coupon-price .price {
+  margin-left: -20rpx;
+}
+.flt-train-coupon .coupon-price .price::after {
+  color: #ff2e2e;
+  content: "元";
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin-left: 2rpx;
+}
+.flt-train-coupon .coupon-desc {
+  -ms-flex-pack: center;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background: #000;
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/x_ye/img_2@3x.webp)
+    no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding-left: 20rpx;
+}
+.flt-train-coupon .coupon-desc .desc {
+  color: #871919;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 44rpx;
+}
+.flt-train-coupon .coupon-desc .sub-desc {
+  color: #8c240f;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.flt-train-coupon .coupon-bg {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/x_ye/img_3@3x.webp)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 104rpx;
+}
+.flt-train-coupon .rule-wrap {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  line-height: 38rpx;
+  margin-top: 32rpx;
+}
+.flt-train-coupon .rule-list-wrap {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin: 16rpx;
+  padding: 32rpx;
+}
+.flt-train-coupon .rule-item:not(:last-child) {
+  margin-bottom: 40rpx;
+}
+.flt-train-coupon .rule-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  line-height: 38rpx;
+  margin-bottom: 18rpx;
+}
+.flt-train-coupon .rule-txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 38rpx;
+}
+.flt-train-coupon-drawer .mh-50vh {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.flt-train-coupon-drawer .action-sheet-content {
+  background-color: #f5f5f5;
+}
+.flt-train-coupon-drawer .title {
+  max-height: 108rpx;
+}
+.flight-segment-comp.flight-segment {
+  margin: 0 32rpx;
+}
+.flight-segment-comp .main-info {
+  color: #222;
+}
+.flight-segment-comp .from {
+  text-align: left;
+}
+.flight-segment-comp .from .diff-time {
+  left: 0;
+}
+.flight-segment-comp .to {
+  text-align: right;
+}
+.flight-segment-comp .to .diff-time {
+  right: 0;
+}
+.flight-segment-comp .mid::before {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/xchengxu/img_x_plane@3x.png)
+    no-repeat 50% / cover;
+  content: "";
+  display: block;
+  height: 52rpx;
+  margin-top: 6rpx;
+  width: 190rpx;
+}
+.flight-segment-comp .mid .stop-by {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 30rpx;
+  margin-top: 14rpx;
+}
+.flight-segment-comp .time {
+  font-family: ZX-Regular;
+  font-size: 62rpx;
+  font-weight: 400;
+  line-height: 62rpx;
+  position: relative;
+}
+.flight-segment-comp .diff-time {
+  color: #fd7100;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 24rpx;
+  position: absolute;
+  top: -24rpx;
+}
+.flight-segment-comp .station {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.flight-segment-comp .basic-info {
+  margin-top: 36rpx;
+}
+.flight-segment-comp .basic-item {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  white-space: nowrap;
+}
+.flight-segment-comp .basic-item::after {
+  background: rgba(0, 0, 0, 0.08);
+  content: "";
+  display: inline-block;
+  height: 18rpx;
+  margin: 0 10rpx;
+  transform: scaleX(0.5);
+  width: 2rpx;
+}
+.flight-segment-comp .basic-item:last-child::after {
+  display: none;
+}
+.flight-segment-comp .air-icon {
+  border-radius: 50%;
+  height: 28rpx;
+  margin-right: 10rpx;
+  width: 28rpx;
+}
+.flight-segment-comp .ifont-carrier {
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}
+.flight-segment-comp .ifont-arr {
+  color: hsla(0, 0%, 60%, 0.4);
+  font-size: 20rpx;
+  margin-left: 4rpx;
+}
+.air-train-rights {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/kongtietongding/diban.png)
+      0 0 no-repeat,
+    -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(28.57%, #f5f5f5));
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/kongtietongding/diban.png)
+      0 0 no-repeat,
+    -webkit-linear-gradient(top, #fff, #f5f5f5 28.57%);
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/kongtietongding/diban.png)
+      0 0 no-repeat,
+    -o-linear-gradient(top, #fff 0, #f5f5f5 28.57%);
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/kongtietongding/diban.png)
+      0 0 no-repeat,
+    linear-gradient(-180deg, #fff, #f5f5f5 28.57%);
+  background-size: 100%auto;
+}
+.air-train-rights .head-tit {
+  box-sizing: border-box;
+  color: #3c5a86;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  padding: 40rpx 48rpx 20rpx;
+}
+.air-train-rights .rights-cont {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin: 16rpx;
+  padding: 24rpx;
+}
+.air-train-rights .right-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 24rpx;
+}
+.air-train-rights .right-tit::before {
+  background: #198cff;
+  border-radius: 4rpx;
+  content: "";
+  display: inline-block;
+  height: 30rpx;
+  margin-right: 10rpx;
+  width: 10rpx;
+}
+.air-train-rights .main-right {
+  background-image: url(https://images3.c-ctrip.com/ztrip/zhixingios/liuxiaomin/kongtietongding/quandi.png);
+  background-size: cover;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  margin-bottom: 16rpx;
+  padding: 32rpx 30rpx;
+}
+.air-train-rights .main-right .cont {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin-bottom: 6rpx;
+}
+.air-train-rights .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 30rpx;
+}
+.air-train-rights .right-item {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff9f6),
+    to(#fff5f0)
+  );
+  background: -webkit-linear-gradient(left, #fff9f6, #fff5f0);
+  background: -o-linear-gradient(left, #fff9f6 0, #fff5f0 100%);
+  background: linear-gradient(90deg, #fff9f6, #fff5f0);
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  padding: 20rpx 0;
+}
+.air-train-rights .right-item .cont-txt {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  margin-bottom: 4rpx;
+}
+.air-train-rights .right-item:not(:last-child) {
+  margin-right: 16rpx;
+}
+.air-train-rights .amount {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 44rpx;
+  line-height: 48rpx;
+  text-align: center;
+  width: 112rpx;
+}
+.air-train-rights .amount-txt::before {
+  content: "¥";
+  display: inline-block;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  line-height: 32rpx;
+}
+.air-train-rights .show-detail {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  text-align: center;
+}
+.air-train-rights .show-detail .iconfont2 {
+  color: #999;
+  font-size: 20rpx;
+  margin-left: 6rpx;
+}
+.air-train-rights .rules {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin: 0 40rpx;
+}
+.air-train-rights .right-list {
+  background: #fff;
+  border-radius: 32rpx;
+  box-sizing: border-box;
+  margin: 12px;
+  padding: 40rpx 0;
+}
+.air-train-rights .right-list .cont-txt {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin-bottom: 6rpx;
+}
+.air-train-rights .right-list .desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.air-train-rights .right-list .amount {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 52rpx;
+  width: 168rpx;
+}
+.air-train-rights .right-list .amount::before {
+  font-size: 36rpx;
+}
+.air-train-rights .right-list .rbox {
+  padding-right: 44rpx;
+}
+.air-train-rights .right-list .right-btn {
+  background: #ededed;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  color: #999;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 1;
+  line-height: 36rpx;
+  padding: 16rpx 20rpx;
+}

@@ -1,0 +1,81 @@
+.train-12306-common-form-view .form-li {
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 40rpx;
+}
+.train-12306-common-form-view .form-li:last-child {
+  border-bottom: 0;
+}
+.train-12306-common-form-view .form-label {
+  color: #666;
+  font-size: 30rpx;
+  line-height: 108rpx;
+  width: 160rpx;
+}
+.train-12306-common-form-view .w95 {
+  width: 190rpx;
+}
+.train-12306-common-form-view .input-txt {
+  height: 108rpx;
+}
+.train-12306-common-form-view .input-txt,
+.train-12306-common-form-view .txt {
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 108rpx;
+}
+.train-12306-common-form-view .i12306-arr {
+  color: #ccc;
+  font-size: 22rpx;
+  line-height: 108rpx;
+}
+.train-12306-common-form-view .rbox {
+  font-size: 30rpx;
+  line-height: 108rpx;
+}
+.train-12306-common-form-view .btn-light {
+  margin-top: 26rpx;
+}
+.train-12306-common-form-view .code {
+  display: block;
+  height: 56rpx;
+  margin-top: 26rpx;
+  width: 180rpx;
+}
+.train-12306-common-form-view .warn-red {
+  font-size: 22rpx;
+  line-height: 40rpx;
+  margin: -36rpx 0 20rpx;
+}
+.train-12306-common-form-view .i12306-detail {
+  color: #ccc;
+  display: inline-block;
+  margin: -4rpx 0 0 6rpx;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.train-12306-common-form-view .book-tips {
+  background: #fff8f2;
+  border-radius: 8rpx;
+  color: #d96500;
+  font-size: 26rpx;
+  margin: 0 12rpx;
+  padding: 20rpx 24rpx;
+}
+.train-12306-common-form-view.in-dialog .book-tips,
+.train-12306-common-form-view.in-dialog .form-li {
+  margin: 0;
+}
+.train-12306-common-form-view.in-dialog .btn-box {
+  margin: 30rpx 0 0;
+}
+.train-12306-common-form-view .check-item {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-right: 20rpx;
+}

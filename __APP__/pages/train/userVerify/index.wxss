@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import "/pages/train/sub-vendors.wxss";
+page {
+  background: #f5f5f5;
+}
+.user-verify-card {
+  background: #fff;
+  padding: 0 30rpx;
+}
+.user-verify .input-content {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+}
+.user-verify .label {
+  color: #666;
+  font-size: 30rpx;
+  height: 108rpx;
+  line-height: 108rpx;
+  width: 90rpx;
+}
+.user-verify .input {
+  color: #333;
+  flex: 1;
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-left: 40rpx;
+}
+.user-verify .btn-content {
+  padding: 44rpx 30rpx;
+}
+.user-verify .btn-content .btn {
+  border-radius: 50rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+.user-verify .verify-code,
+.user-verify .verify-text {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.user-verify .verify-code {
+  color: #999;
+}
+.user-verify.zx .btn-content .btn {
+  background-image: -webkit-linear-gradient(3deg, #0daeff, #07f);
+  background-image: -o-linear-gradient(3deg, #0daeff 0, #07f 100%);
+  background-image: linear-gradient(87deg, #0daeff, #07f);
+}
+.user-verify.ty .btn-content .btn {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff9166),
+    to(#ff5959)
+  );
+  background-image: -webkit-linear-gradient(left, #ff9166, #ff5959);
+  background-image: -o-linear-gradient(left, #ff9166 0, #ff5959 100%);
+  background-image: linear-gradient(90deg, #ff9166, #ff5959);
+}
+.user-verify .desc {
+  color: #999;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.weixin-verify .verify-card {
+  background: #fff;
+  padding: 0 30rpx;
+}
+.weixin-verify .price-content {
+  margin: auto;
+  padding-bottom: 10rpx;
+  padding-top: 42rpx;
+  position: relative;
+}
+.weixin-verify .price {
+  color: #333;
+  font-size: 60rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.weixin-verify .price:before {
+  color: #333;
+  content: "￥";
+  font-size: 28rpx;
+  font-weight: 400;
+  margin-right: 8rpx;
+}
+.weixin-verify .tag {
+  border-radius: 24rpx 24rpx 24rpx 4rpx;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  position: absolute;
+  right: 80rpx;
+  top: 40rpx;
+}
+.weixin-verify.ty .tag {
+  border: 1rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.weixin-verify.zx .tag {
+  border: 1rpx solid #198cff;
+  color: #198cff;
+}
+.weixin-verify .input-content {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+}
+.weixin-verify .input-placeholder {
+  color: #ccc;
+  font-size: 30rpx;
+}
+.weixin-verify .label {
+  color: #666;
+  font-size: 30rpx;
+  height: 108rpx;
+  line-height: 108rpx;
+  width: 120rpx;
+}
+.weixin-verify .input {
+  color: #333;
+  flex: 1;
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-left: 40rpx;
+}
+.user-verify .input-content:first-child {
+  border-bottom: 1rpx solid #eee;
+}
+.weixin-verify .btn-content {
+  padding: 44rpx 30rpx;
+}
+.weixin-verify .btn {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#0bc163),
+    to(#01e16d)
+  );
+  background-image: -webkit-linear-gradient(right, #0bc163, #01e16d);
+  background-image: -o-linear-gradient(right, #0bc163 0, #01e16d 100%);
+  background-image: linear-gradient(270deg, #0bc163, #01e16d);
+  border-radius: 50rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 96rpx;
+  text-align: center;
+}
+.weixin-verify .icon {
+  background-image: url(https://images3.c-ctrip.com/zt/train/common/train_user_verify_weixin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rpx;
+  margin-right: 14rpx;
+  width: 40rpx;
+}
+.weixin-verify .desc {
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 400;
+  padding-left: 50rpx;
+}
+.weixin-verify .desc:before {
+  color: #999;
+  content: "·";
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-right: 10rpx;
+}

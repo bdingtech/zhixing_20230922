@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "酒店低价提醒设置",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColorBottom": "#F5F5F5",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

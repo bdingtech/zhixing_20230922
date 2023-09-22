@@ -1,0 +1,483 @@
+page {
+  background: #fff;
+}
+.invite-top {
+  height: 232rpx;
+  overflow: hidden;
+  position: relative;
+}
+.invite-top::after {
+  bottom: 5rpx;
+  content: "";
+  height: 218rpx;
+  position: absolute;
+  right: 0;
+  width: 272rpx;
+}
+.invite-top.zx {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.invite-top.zx::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/invite-top-zx.png)
+    no-repeat;
+  background-size: cover;
+}
+.invite-top.ty {
+  background: -webkit-linear-gradient(top, #373f68, #484f7b);
+}
+.invite-top.ty::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/invite-top-ty.png)
+    no-repeat;
+  background-size: cover;
+}
+.invite-top .tit {
+  color: #fff;
+  font-size: 48rpx;
+  font-weight: 600;
+  margin: 16rpx 0 0 42rpx;
+  position: relative;
+  z-index: 5;
+}
+.invite-top .txt {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 26rpx;
+  margin-left: 42rpx;
+}
+.invite-box {
+  background: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  margin-top: -24rpx;
+  padding: 40rpx 30rpx;
+  position: relative;
+  z-index: 4;
+}
+.invite-sponsor {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10rpx;
+  position: relative;
+}
+.invite-sponsor .avatar {
+  border-radius: 104rpx;
+  height: 104rpx;
+  margin-right: 30rpx;
+  width: 104rpx;
+}
+.invite-sponsor .tag {
+  border-radius: 32rpx;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 600;
+  height: 32rpx;
+  left: 8rpx;
+  line-height: 32rpx;
+  position: absolute;
+  text-align: center;
+  top: 74rpx;
+  width: 88rpx;
+}
+.invite-sponsor .tag.zx {
+  background: -webkit-linear-gradient(left, #1f8fff, #0080ff);
+}
+.invite-sponsor .tag.ty {
+  background: -webkit-linear-gradient(left, #fc7a51, #ff6546);
+}
+.invite-sponsor .time {
+  display: inline-block;
+  text-align: center;
+  width: 72rpx;
+}
+.invite-sponsor .txt {
+  background: #f7f7f8;
+  border-radius: 104rpx;
+  box-sizing: border-box;
+  color: #666;
+  flex: 1;
+  font-size: 26rpx;
+  height: 104rpx;
+  line-height: 36rpx;
+  padding: 16rpx 30rpx;
+  position: relative;
+}
+.invite-sponsor .txt::before {
+  background: #f7f7f8;
+  border-radius: 4rpx;
+  content: "";
+  height: 24rpx;
+  left: -10rpx;
+  margin-top: -12rpx;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 24rpx;
+}
+.invite-suc {
+  margin-top: -12rpx;
+  text-align: center;
+}
+.invite-suc .icon-suc {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-ok.png) no-repeat;
+  background-size: cover;
+  height: 88rpx;
+  width: 88rpx;
+}
+.invite-suc .txt {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.invite-tick {
+  background: #fff;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40rpx;
+  padding: 40rpx;
+}
+.invite-tick.ty,
+.invite-tick.zx {
+  box-shadow: 0 8rpx 20rpx rgba(123, 170, 241, 0.15);
+}
+.invite-tick .from,
+.invite-tick .to {
+  flex: 1;
+}
+.invite-tick .mid {
+  color: #666;
+  font-size: 26rpx;
+  position: relative;
+  text-align: center;
+  width: 160rpx;
+}
+.invite-tick .to {
+  text-align: right;
+}
+.invite-tick .date {
+  color: #666;
+  font-size: 24rpx;
+}
+.invite-tick .time {
+  font-size: 48rpx;
+  font-weight: 600;
+  margin: 4rpx 0;
+}
+.invite-tick .station {
+  color: #666;
+  font-size: 28rpx;
+}
+.invite-tick .ifont-station {
+  color: #dadada;
+  font-size: 140rpx;
+  font-weight: lighter;
+  left: 50%;
+  line-height: 140rpx;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.invite-tick .seat {
+  margin: 20rpx 0 30rpx;
+}
+.invite-bd {
+  margin-top: 50rpx;
+}
+.invite-bd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  margin-left: 10rpx;
+}
+.invite-fillout {
+  background: #f7f7f8;
+  border-radius: 16rpx;
+}
+.invite-fillout .item {
+  border-bottom: 1rpx solid #e5e5e5;
+  font-size: 30rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin: 0 30rpx;
+  overflow: hidden;
+  padding-left: 170rpx;
+  position: relative;
+}
+.invite-fillout .item:last-child {
+  border-bottom: 0;
+}
+.invite-fillout .item .label {
+  float: left;
+  margin-left: -170rpx;
+}
+.invite-fillout .item .input-txt {
+  font-size: 30rpx;
+  height: 120rpx;
+  width: 100%;
+}
+.invite-fillout .item .input-place {
+  color: #999;
+}
+.invite-fillout .item .ifont-more {
+  color: #ccc;
+  font-size: 22rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.invite-fillout .item .ifont-detail {
+  color: #ccc;
+  font-size: 30rpx;
+  margin: -6rpx 0 0 10rpx;
+}
+.invite-btn-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40rpx;
+}
+.invite-btn-box .h5-button,
+.invite-btn-box .h5-form {
+  flex: 1;
+}
+.invite-btn-box .h5-button {
+  border-radius: 100rpx;
+  font-size: 38rpx;
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+}
+.invite-btn-box .h5-button:last-child {
+  margin-right: 0;
+}
+.invite-btn-box .h5-button::after {
+  border: 0;
+}
+.invite-btn-box .btn-invite {
+  color: #fff;
+}
+.invite-btn-box .btn-edit {
+  background: #fff;
+  padding: 0;
+}
+.invite-btn-box.zx .btn-invite {
+  background: -webkit-linear-gradient(left, #1f8fff, #0080ff);
+  box-shadow: 0 4rpx 16rpx rgba(54, 120, 255, 0.5);
+}
+.invite-btn-box.ty .btn-invite {
+  background: -webkit-linear-gradient(left, #fc7a51, #ff6546);
+  box-shadow: 0 4rpx 16rpx #ffa28f;
+}
+.invite-btn-box.zx .btn-edit {
+  border: 2rpx solid #217cf7;
+  color: #1c78f5;
+}
+.invite-btn-box.ty .btn-edit {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.mt70 {
+  margin-top: 70rpx;
+}
+.invite-list {
+  margin: 0 10rpx;
+  min-height: 240rpx;
+}
+.invite-list .item {
+  border-bottom: 1rpx solid #e5e5e5;
+  display: table;
+  height: 120rpx;
+  width: 100%;
+}
+.invite-list .item .cont,
+.invite-list .item .lbox,
+.invite-list .item .rbox {
+  display: table-cell;
+  vertical-align: middle;
+}
+.invite-list .item .lbox {
+  padding-right: 30rpx;
+  width: 70rpx;
+}
+.invite-list .item .avatar {
+  border-radius: 70rpx;
+  height: 70rpx;
+  width: 70rpx;
+}
+.invite-list .item .name {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.invite-list .item .tag {
+  background: #f0f0f0;
+  border-radius: 4rpx;
+  color: #666;
+  display: inline-block;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin: -6rpx 10rpx 0;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.invite-list .item .rbox {
+  font-size: 32rpx;
+  text-align: right;
+  width: 120rpx;
+}
+.invite-list .item .tgrey {
+  font-size: 24rpx;
+}
+.invite-none {
+  margin-bottom: 64rpx;
+  text-align: center;
+}
+.invite-none .icon-none {
+  height: 186rpx;
+  width: 194rpx;
+}
+.invite-none .icon-none.zx {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/none-zx.png) no-repeat;
+  background-size: cover;
+}
+.invite-none .icon-none.ty {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/none-ty.png) no-repeat;
+  background-size: cover;
+}
+.invite-none .tgrey {
+  font-size: 26rpx;
+}
+.inview-pop-botm {
+  background: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: auto;
+  transform: translate3d(0, 100%, 0);
+  transition: all 0.25s ease-in-out;
+  z-index: 1000;
+}
+.inview-pop-botm.active {
+  transform: translateZ(0);
+}
+.inview-pop-hd {
+  border-bottom: 1rpx solid #e5e5e5;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding: 0 30rpx;
+}
+.inview-pop-hd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.inview-pop-hd .ifont-closed {
+  color: #666;
+  float: right;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+.inview-pop-bd {
+  padding: 20rpx 30rpx 60rpx;
+}
+.inview-pasg-info {
+  margin-bottom: 20rpx;
+}
+.inview-pasg-info .item {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.inview-pasg-info .item .label {
+  color: #999;
+  float: left;
+  width: 170rpx;
+}
+.inview-pop-bd .warn-tips {
+  background: #fff4ef;
+  border-radius: 8rpx;
+  color: #fc6e51;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  padding: 0 30rpx;
+  text-align: center;
+}
+.inview-pop-bd .warn-tips .ifont-tips {
+  margin: -6rpx 8rpx 0 0;
+}
+.invite-toast {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 4rpx;
+  color: #fff;
+  font-size: 30rpx;
+  left: 50%;
+  line-height: 40rpx;
+  max-width: 600rpx;
+  opacity: 0;
+  padding: 20rpx 30rpx;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.35s ease-in-out;
+  z-index: 100;
+}
+.invite-toast.active {
+  opacity: 1;
+}
+.blank {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+.blank-fail {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 32%;
+}
+.blank-fail .img-fail {
+  display: block;
+  height: 186rpx;
+  margin: 0 auto 25rpx;
+  width: 194rpx;
+}
+.blank-fail .img-fail.zx {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/none-zx.png) no-repeat;
+  background-size: cover;
+}
+.blank-fail .img-fail.ty {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/none-ty.png) no-repeat;
+  background-size: cover;
+}
+.blank-fail .txt {
+  color: #666;
+  font-size: 32rpx;
+}
+.fixed-home {
+  border-radius: 330rpx;
+  bottom: 70rpx;
+  height: 330rpx;
+  padding: 0;
+  position: absolute;
+  right: -70rpx;
+  transform: scale(0.3);
+  width: 330rpx;
+  z-index: 10;
+}
+.fixed-home::after {
+  border: 0;
+}
+.fixed-home.ty {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_index_page_ty.png)
+    no-repeat;
+}
+.fixed-home.zx {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon_index_page_zx.png)
+    no-repeat;
+}

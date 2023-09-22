@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发票信息",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColor": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

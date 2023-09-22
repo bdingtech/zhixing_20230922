@@ -1,0 +1,204 @@
+@import "/pages/usercenter/sub-vendors.wxss";
+.memberRights-page-header .grade {
+  color: #fff;
+  font-size: 26rpx;
+  opacity: 0.5;
+}
+.memberRights-page-header .total-rights {
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.memberRights-page-linear-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#222229),
+    to(#1a1a1a)
+  );
+  background: -webkit-linear-gradient(#222229, #1a1a1a);
+  background: -o-linear-gradient(#222229 0, #1a1a1a 100%);
+  background: linear-gradient(#222229, #1a1a1a);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1000;
+}
+.memberRights-page-linear-bg.platinum {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#21123e),
+    to(#0f0f13)
+  );
+  background: -webkit-linear-gradient(#21123e, #0f0f13);
+  background: -o-linear-gradient(#21123e 0, #0f0f13 100%);
+  background: linear-gradient(#21123e, #0f0f13);
+}
+.memberRights-page-linear-bg.diamond {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#181410),
+    to(#121111)
+  );
+  background: -webkit-linear-gradient(#181410, #121111);
+  background: -o-linear-gradient(#181410 0, #121111 100%);
+  background: linear-gradient(#181410, #121111);
+}
+.memberRights-page-linear-bg-tag {
+  height: 500;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -999;
+}
+.memberRights-page-tabs {
+  padding-top: 26rpx;
+}
+.memberRights-page-tabs .tab {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 70rpx;
+  justify-content: space-between;
+}
+.memberRights-page-tabs .tab.active {
+  color: #c28557;
+}
+.memberRights-page-tabs .active-line {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffddb3),
+    to(#ff9a33)
+  );
+  background: -webkit-linear-gradient(left, #ffddb3, #ff9a33);
+  background: -o-linear-gradient(left, #ffddb3 0, #ff9a33 100%);
+  background: linear-gradient(-270deg, #ffddb3, #ff9a33);
+  border-radius: 8rpx 8rpx 0 0;
+  height: 10rpx;
+  width: 52rpx;
+}
+.member-rights-detail {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 20rpx 24rpx 0;
+  overflow: hidden;
+  padding-bottom: 16rpx;
+}
+.member-rights-detail.last {
+  margin-bottom: 40rpx;
+}
+.member-rights-detail .title-wrap {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  font-weight: 500;
+  justify-content: space-between;
+  margin: 26rpx 32rpx 24rpx;
+}
+.member-rights-detail .desc {
+  color: #999;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.member-rights-detail .list {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fff),
+    to(#fff9f2)
+  );
+  background: -webkit-linear-gradient(bottom, #fff, #fff9f2);
+  background: -o-linear-gradient(bottom, #fff 0, #fff9f2 100%);
+  background: linear-gradient(0deg, #fff, #fff9f2);
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 16rpx;
+}
+.member-rights-detail .item {
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 122rpx;
+  padding-left: 32rpx;
+  width: 335rpx;
+}
+.member-rights-detail .icon {
+  border-radius: 24rpx;
+  height: 60rpx;
+  margin-right: 16rpx;
+  width: 60rpx;
+}
+.member-rights-detail .name {
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.member-rights-detail .sub-desc {
+  font-size: 24rpx;
+}
+.member-rights-detail .empty {
+  height: 40rpx;
+  width: 100%;
+}
+.memberRights-page-root-root .back {
+  color: #fff;
+}
+.memberRights-page-root-root .page-wrapper-header {
+  background: transparent;
+}
+.memberRights-page {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+.memberRights-page .grade-progress {
+  margin-top: 36rpx;
+}
+.memberRights-page .main {
+  background-color: #f7f7f7;
+  border-top-left-radius: 40rpx;
+  border-top-right-radius: 40rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+}
+.memberRights-page .empty {
+  height: 200rpx;
+  width: 100%;
+}

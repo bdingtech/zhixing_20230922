@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "出发站",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTextStyle": "black",
+  "backgroundColorBottom": "#F5F5F5",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

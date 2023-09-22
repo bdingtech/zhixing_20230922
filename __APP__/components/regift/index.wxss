@@ -1,0 +1,2 @@
+@import "/components/regift/pvp.wxss";
+@import "/components/regift/gp.wxss";

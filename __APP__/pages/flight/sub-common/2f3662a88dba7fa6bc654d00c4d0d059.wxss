@@ -1,0 +1,178 @@
+.flt-passenger-list {
+  min-height: 2rpx;
+}
+.flt-passenger-list .pas-list-hd {
+  display: grid;
+  font-size: 34rpx;
+  grid-template-columns: auto 1fr auto;
+  height: 112rpx;
+  line-height: 112rpx;
+  text-align: center;
+}
+.flt-passenger-list .pas-list-bd {
+  border-top: 2rpx solid #eee;
+  min-height: 2rpx;
+}
+.flt-passenger-list .btn-cancel,
+.flt-passenger-list .btn-submit {
+  font-size: 32rpx;
+  width: 144rpx;
+}
+.flt-passenger-list .btn-cancel {
+  color: #666;
+}
+.flt-passenger-list .btn-submit {
+  font-weight: 600;
+}
+.flt-passenger-list .pop-add-pasg {
+  margin: 32rpx 40rpx;
+}
+.flt-passenger-list .pop-add-pasg .h5-button {
+  flex: 1;
+  margin: 0 30rpx 0 0;
+}
+.flt-passenger-list .pop-add-pasg .h5-button:last-child {
+  margin-right: 0;
+}
+.flt-passenger-list .pop-add-pasg .btn-add {
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: visible;
+  position: relative;
+}
+.flt-passenger-list .pop-add-pasg .ifont-fail {
+  font-size: 34rpx;
+  font-weight: 400;
+  margin: -6rpx 8rpx 0 0;
+  transform: rotate(45deg);
+}
+.flt-passenger-list .pop-add-pasg .ifont-pasgadd {
+  font-size: 32rpx;
+  font-weight: 400;
+  margin: -6rpx 8rpx 0 0;
+}
+.flt-passenger-list .pop-add-pasg.zx .btn-add {
+  background: #f3f7ff;
+  color: #0080ff;
+}
+.flt-passenger-list .pop-add-pasg.ty .btn-add {
+  background: #ffeae5;
+  color: #fc6e51;
+}
+.flt-passenger-list .pop-add-pasg .btn-add .btn-tag {
+  background: #fc6e51;
+  border-radius: 16rpx 16rpx 16rpx 0;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  padding: 0 10rpx;
+  position: absolute;
+  right: -18rpx;
+  top: -18rpx;
+}
+.flt-passenger-list .tip-pass-list .item {
+  height: 150rpx;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+}
+.flt-passenger-list .tip-pass-list .item-container {
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150rpx;
+  position: relative;
+  width: 100vw;
+}
+.flt-passenger-list .tip-pass-list .item-container::after {
+  background: #eee;
+  bottom: 0;
+  content: "";
+  height: 2rpx;
+  left: 106rpx;
+  position: absolute;
+  right: 0;
+  translate: scaleY(0.5);
+}
+.flt-passenger-list .tip-pass-list .item:last-child .item-container::after {
+  display: none;
+}
+.flt-passenger-list .pas-item-wrapper {
+  transform: translate(-550rpx) translateZ(0) !important;
+}
+.flt-passenger-list .tip-pass-list {
+  min-height: 2rpx;
+}
+.flt-passenger-list .tip-pass-list .ifont-edit {
+  color: #ccc;
+  font-size: 34rpx;
+  text-align: center;
+  width: 106rpx;
+}
+.flt-passenger-list .tip-pass-list .info {
+  -ms-flex-pack: center;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+.flt-passenger-list .tip-pass-list .name {
+  color: #333;
+}
+.flt-passenger-list .tip-pass-list .type {
+  color: #666;
+  font-size: 20rpx;
+}
+.flt-passenger-list .tip-pass-list .identity {
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.flt-passenger-list .tip-pass-list .iconfont {
+  font-size: 38rpx;
+  text-align: center;
+  width: 116rpx;
+}
+.flt-passenger-list .tip-pass-list .ifont-checkbox {
+  color: #ccc;
+}
+.flt-passenger-list .tip-pass-list .tag {
+  color: #666;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin-left: 8rpx;
+  padding: 0 6rpx;
+  position: relative;
+}
+.flt-passenger-list .tip-pass-list .tag::after {
+  border: 2rpx solid #ddd;
+  border-radius: 16rpx;
+  content: "";
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 200%;
+}
+.flt-passenger-list .tip-pass-list .note {
+  color: #f76e21;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: 16rpx 0 0;
+}
+.flt-passenger-list .tip-pass-list .note .ifont-line-tips {
+  font-size: 20rpx;
+  margin-right: 6rpx;
+  width: unset;
+}

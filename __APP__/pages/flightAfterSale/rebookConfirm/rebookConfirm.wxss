@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import "/pages/flightAfterSale/sub-vendors.wxss";
+@import "/pages/flightAfterSale/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+@import "/pages/flightAfterSale/sub-common/cd43123aec674914a46dd9aada034b02.wxss";
+.rebook-product {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding: 26rpx 32rpx 32rpx;
+  position: relative;
+}
+.rebook-product .cont {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin-top: 24rpx;
+  padding: 24rpx;
+}
+.reason-pop-content {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 62rpx;
+  padding: 0 32rpx;
+}
+.reason-pop-content .cont-item {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+  margin-bottom: 30rpx;
+}
+.reason-pop-content .cont-item:last-child {
+  margin-bottom: 0;
+}
+.reason-pop-content .cont-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+.reason-pop-content .cont-tit::before {
+  background: -webkit-linear-gradient(135deg, #0daeff, #07f);
+  background: -o-linear-gradient(135deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(-45deg, #0daeff, #07f);
+  border-radius: 4rpx;
+  content: "";
+  height: 26rpx;
+  margin-right: 12rpx;
+  width: 10rpx;
+}
+.rebook-botm .lbox {
+  margin-left: 14rpx;
+}
+.rebook-botm .rebook-price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  font-weight: 400;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin-bottom: 6rpx;
+}
+.rebook-botm .rebook-price::before {
+  content: "¥";
+  font-size: 36rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+.rebook-botm .font-12 {
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.rebook-botm .rbox .ifont-arr {
+  margin-left: 6rpx;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.rebook-botm .rbox .ifont-arr.open {
+  transform: rotate(90deg);
+}
+.rebook-botm .submit-btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-left: 24rpx;
+  width: 330rpx;
+}
+.rebook-price-detail-pop.train-common-drawer.common-action-sheet
+  .action-sheet-bg {
+  z-index: 998;
+}
+.rebook-price-detail-pop.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  background: #f5f5f5;
+  z-index: 999;
+}
+.price-detail-box {
+  background: #fff;
+  border-radius: 28rpx;
+  margin: 0 16rpx 160rpx;
+  padding: 30rpx 32rpx 32rpx;
+}
+.price-detail-box .price-total {
+  margin-bottom: 16rpx;
+}
+.price-detail-box .price-total.item-name {
+  line-height: 44rpx;
+}
+.price-detail-box .price-item {
+  margin-bottom: 12rpx;
+}
+.price-detail-box .price-item.item-name {
+  line-height: 40rpx;
+}
+.price-detail-box .item-fee {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.price-detail-box .rebook-explanation {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  margin: 30rpx -16rpx -16rpx;
+  padding: 24rpx;
+}
+.price-detail-box .rebook-explanation .font-12 {
+  margin-bottom: 16rpx;
+}
+.price-detail-box .rebook-explanation .font-12:last-child {
+  margin-bottom: 0;
+}
+page {
+  background: #f5f5f5;
+}
+.flight-rebook-confirm .ifont-arr,
+.flight-rebook-confirm .ifont2-arr {
+  font-size: 18rpx;
+  margin-left: 4rpx;
+}
+.flight-rebook-confirm .rt-tip {
+  position: absolute;
+  right: 32rpx;
+  top: 28rpx;
+  z-index: 1;
+}

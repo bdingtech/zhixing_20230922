@@ -1,0 +1,152 @@
+@import "/pages/hotel/sub-vendors.wxss";
+.swan-test-page {
+  background: #fff;
+  padding: 30rpx;
+}
+.swan-test-page .title-wrapper {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.swan-test-page .title-wrapper .logo {
+  height: 76rpx;
+  margin-right: 10rpx;
+  width: 76rpx;
+}
+.swan-test-page .title-wrapper .title {
+  color: #212121;
+  font-family: PingFangSC-Semibold;
+  font-size: 50rpx;
+  font-weight: 600;
+}
+.swan-test-page .group {
+  margin-top: 10rpx;
+  width: 100%;
+}
+.swan-test-page .group .label {
+  color: #198cff;
+  font-size: 22rpx;
+}
+.swan-test-page .group .switch {
+  margin-left: 20rpx;
+}
+.swan-test-page .group.canary {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20rpx;
+}
+.swan-test-page .group.canary .label {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.swan-test-page .content {
+  padding-bottom: 30rpx;
+}
+.swan-test-page .content .input-wrapper {
+  margin: 20rpx 0 50rpx;
+}
+.swan-test-page .content .input-wrapper .inline {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.swan-test-page .content .input-wrapper .inline .group {
+  width: 50%;
+}
+.swan-test-page .content .input-wrapper .inline .input-txt {
+  width: 96%;
+}
+.swan-test-page .content .input-wrapper .input-txt {
+  border-bottom: 1rpx solid #eee;
+  padding: 10rpx 0;
+}
+.swan-test-page .content .input-wrapper .search-btn {
+  -ms-flex-pack: center;
+  background: #198cff;
+  border-radius: 52rpx;
+  color: #fff;
+  height: 90rpx;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+.swan-test-page .content .input-wrapper .search-btn,
+.swan-test-page .content .room-infos {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.swan-test-page .content .room-infos {
+  background: -webkit-linear-gradient(0.982turn, #fff, #f2f9ff 85.03%, #f1f6fc);
+  background: -o-linear-gradient(
+    0.982turn,
+    #fff 0,
+    #f2f9ff 85.03%,
+    #f1f6fc 100%
+  );
+  background: linear-gradient(-0.732turn, #fff, #f2f9ff 85.03%, #f1f6fc);
+  border: 1rpx solid rgba(45, 72, 104, 0.12);
+  border-radius: 20rpx;
+  box-shadow: 0 10rpx 12rpx -6rpx rgba(83, 106, 129, 0.15),
+    inset 0 0 0 2rpx #fff;
+  flex-flow: row wrap;
+  margin: 20rpx 0;
+  padding: 0 20rpx;
+}
+.swan-test-page .content .room-infos:first-child {
+  margin-top: 40rpx;
+}
+.swan-test-page .content .room-infos .info {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 0;
+  width: 100%;
+}
+.swan-test-page .content .room-infos .info .roomid {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.swan-test-page .content .room-infos .info .name {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.swan-test-page .content .room-infos .info .price {
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.swan-test-page .content .room-infos .info .book {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #fa5a57;
+  border-radius: 48rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  height: 50rpx;
+  justify-content: center;
+  width: 130rpx;
+}

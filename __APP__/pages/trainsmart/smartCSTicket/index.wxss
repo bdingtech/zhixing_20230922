@@ -1,0 +1,3335 @@
+@charset "UTF-8";
+@import "/pages/trainsmart/sub-vendors.wxss";
+@import "/pages/trainsmart/sub-common/8eb6adebf46f3f880fd68265fe6db89c.wxss";
+._md {
+  padding-bottom: 20rpx;
+  padding-top: 56rpx;
+}
+._nd {
+  width: 750rpx;
+}
+._od {
+  height: 240rpx;
+}
+._pd {
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+._Oc {
+  line-height: 48rpx;
+}
+._qd {
+  margin-top: 24rpx;
+}
+._rd {
+  width: 670rpx;
+}
+._sd {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+._td {
+  margin-top: 56rpx;
+}
+._ud {
+  width: 686rpx;
+}
+._vd {
+  background: #edf6ff;
+}
+.stride-train-drawer.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  border-radius: 40rpx 40rpx 0 0;
+}
+.brandPromotionImageBox {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 80rpx;
+  width: 100%;
+}
+.brandPromotionImage {
+  height: 160rpx;
+  width: 546rpx;
+}
+.stride-train-drawer.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  border-radius: 40rpx 40rpx 0 0;
+}
+@import "/pages/trainsmart/sub-common/a90ce91b4694744ccce05a772960de11.wxss";
+._be {
+  border-radius: 32rpx;
+}
+._vE {
+  padding-bottom: 60rpx;
+}
+._Pi {
+  width: 600rpx;
+}
+._vr {
+  border-radius: 32rpx 32rpx 0 0;
+}
+._fe {
+  height: 200rpx;
+}
+._jK {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/grab/xqy/img_tcbj@2x.png)
+    no-repeat;
+  background-size: 600rpx 200rpx;
+}
+._Hg {
+  width: 200rpx;
+}
+._kK {
+  top: 50rpx;
+}
+._yi {
+  left: 50%;
+}
+._xi {
+  transform: translateX(-50%);
+}
+._Vv {
+  margin-top: 14rpx;
+}
+._Dv {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+._Te {
+  height: 50rpx;
+}
+._Qj {
+  line-height: 50rpx;
+}
+._lK {
+  margin: 22rpx 40rpx 0;
+}
+._YE {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+}
+._mK {
+  margin: 42rpx 40rpx 0;
+}
+._vi {
+  border-radius: 12rpx;
+}
+._uD {
+  width: 250rpx;
+}
+._nK {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+}
+.train-smart-cs-ticket-banner-n .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-cs-ticket-banner-n .tag {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: relative;
+  z-index: 1;
+}
+.train-smart-cs-ticket-banner-n .tag::after {
+  border: 2rpx solid #979797;
+  border-radius: 44rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.train-smart-cs-ticket-banner-n .first-trip {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 26rpx 30rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .left-chain,
+.train-smart-cs-ticket-banner-n .first-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .right-chain {
+  right: 26rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .left {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  margin-right: 10rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .left .left-title {
+  line-height: 48rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .right {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 290rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .right .ifont-arr {
+  color: #666;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin-left: 8rpx;
+}
+.train-smart-cs-ticket-banner-n .first-trip .right .s-info {
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  max-width: 420rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-cs-ticket-banner-s .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-cs-ticket-banner-s .new-ticket-tag {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 46rpx;
+  left: calc(50% - 106rpx);
+  padding-top: 6rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 208rpx;
+}
+.train-smart-cs-ticket-banner-s .new-ticket-tag .txt {
+  position: relative;
+}
+.train-smart-cs-ticket-banner-s .new-ticket-img {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.train-smart-cs-ticket-banner-s .second-trip {
+  border: 4rpx solid #fff;
+  padding: 20rpx 12rpx 32rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip .left-chain,
+.train-smart-cs-ticket-banner-s .second-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip .right-chain {
+  right: 26rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip .up-bg {
+  height: 160rpx;
+  position: absolute;
+  right: 8rpx;
+  top: 8rpx;
+  width: 228rpx;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.train-smart-cs-ticket-banner-s .second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.train-smart-cs-ticket-banner-s .second-trip .bubble-tips {
+  padding-left: 12rpx;
+  padding-top: 10rpx;
+  position: relative;
+}
+.train-smart-cs-ticket-banner-s .second-trip .bubble-tips .top-arrow {
+  border: 10rpx solid transparent;
+  height: 0;
+  left: 40rpx;
+  position: absolute;
+  top: -8rpx;
+  width: 0;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip .bubble-tips .top-arrow {
+  border-bottom: 10rpx solid #198cff;
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip .bubble-tips .top-arrow {
+  border-bottom: 10rpx solid #03b86f;
+}
+.train-smart-cs-ticket-banner-s .second-trip .bubble-tips .bubble-tips-txt {
+  border-radius: 12rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 16rpx;
+  position: relative;
+  width: auto;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip .bubble-tips .bubble-tips-txt {
+  background: #198cff;
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip .bubble-tips .bubble-tips-txt {
+  background: #03b86f;
+}
+.train-smart-cs-ticket-banner-s .second-trip-hd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  margin: 0 14rpx;
+  position: relative;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip-hd {
+  color: #073e7b;
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip-hd {
+  color: #333;
+}
+.train-smart-cs-ticket-banner-s .second-trip-hd .color-red {
+  font-weight: 700;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+  position: relative;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip-bd {
+  color: #073e7b;
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip-bd {
+  color: #333;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .from,
+.train-smart-cs-ticket-banner-s .second-trip-bd .to {
+  font-weight: 700;
+  width: 150rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .to {
+  text-align: right;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .schedule::after,
+.train-smart-cs-ticket-banner-s .second-trip-bd .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .schedule::before {
+  left: -24rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx .train-smart-cs-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty .train-smart-cs-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .time {
+  font-size: 52rpx;
+  line-height: 60rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-bd .station {
+  font-size: 28rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 5rpx;
+  padding: 16rpx 24rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .lbox,
+.train-smart-cs-ticket-banner-s .second-trip-tick .mid,
+.train-smart-cs-ticket-banner-s .second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .lbox {
+  text-align: left;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .mid {
+  text-align: center;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .rbox {
+  text-align: right;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .label {
+  color: #999;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  margin-top: -6rpx;
+  padding: 12rpx 24rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg .name,
+.train-smart-cs-ticket-banner-s .second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg .seat {
+  flex: unset;
+  font-size: 28rpx;
+  max-width: 340rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.train-smart-cs-ticket-banner-s .second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-detail {
+  padding: 2rpx 0 20rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-detail .white-box {
+  margin: 0 16rpx 16rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-detail .btn-pay {
+  border-radius: 96rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 40rpx 20rpx 0;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-tick {
+  padding: 4rpx 4rpx 24rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd {
+  -ms-flex-pack: justify;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 18rpx 26rpx 24rpx;
+}
+.zx .train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f0ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #e0f0ff, #fff);
+  background: -o-linear-gradient(top, #e0f0ff, #fff);
+  background: linear-gradient(180deg, #e0f0ff, #fff);
+}
+.ty .train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fff);
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .from,
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .to {
+  width: 150rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .to {
+  text-align: right;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .mid {
+  text-align: center;
+  width: 140rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .date {
+  color: #999;
+  font-size: 24rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .time {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .station {
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .schedule {
+  border: 2rpx solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin: 40rpx auto 0;
+  position: relative;
+  width: 100rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::after,
+.train-smart-cs-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::before {
+  background: hsla(0, 0%, 80%, 0.5);
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 18rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::before {
+  left: -18rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer
+  .pop-payment-hd
+  .schedule::after {
+  right: -18rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-hd .ifont-sfz {
+  font-size: 32rpx;
+  margin-left: 4rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-list {
+  margin: 0 20rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-tips {
+  padding: 20rpx 30rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-tips .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .pop-payment-tips .txt::before {
+  background: #d8d8d8;
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 13rpx;
+  width: 6rpx;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer
+  .pop-payment-tips
+  .txt:last-child {
+  margin-bottom: 0;
+}
+.train-smart-cs-ticket-confirm-second-pay-layer .bubble-tips {
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 32rpx;
+  margin-bottom: 10rpx;
+  padding-left: 26rpx;
+  position: relative;
+  top: -10rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .action-sheet-bg {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s;
+  width: 100vw;
+  z-index: 1000;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20rpx 30rpx;
+  position: relative;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head .lbox {
+  margin-right: 20rpx;
+  width: 80rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head .avatar {
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head .tag {
+  background: #fff;
+  border-radius: 40rpx;
+  font-size: 16rpx;
+  line-height: 40rpx;
+  margin-top: -22rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head .cont {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 0 16rpx 16rpx 16rpx;
+  padding: 16rpx 24rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-cs-ticket-cancel-stay-layer
+  .confirm-second-pop
+  .head
+  .cont::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/top-txt-arr.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 18rpx;
+  left: -12rpx;
+  position: absolute;
+  top: 0;
+  width: 12rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .head .txt {
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 44rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .tips-box {
+  color: #f50;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  padding: 16rpx 30rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop.active {
+  transform: translateY(0);
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 16rpx 16rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop::before {
+  border-radius: 16rpx 16rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #fc6e51);
+}
+.train-smart-cs-ticket-cancel-stay-layer .confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box {
+  background: #fff;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .h5-button {
+  border-radius: 88rpx;
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 18rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .h5-button:last-child {
+  margin-right: 0;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .btn-2line {
+  line-height: 44rpx;
+  padding: 10rpx 0;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .btn-2line .time-text {
+  -ms-flex-pack: center;
+  font-size: 20rpx;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 28rpx;
+  margin-top: -4rpx;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .btn-submit-zx {
+  background: #e5f2ff;
+  color: #0080ff;
+}
+.train-smart-cs-ticket-cancel-stay-layer .cs-botm-box .btn-submit-ty {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.combination-ticket-info {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 30rpx 0 24rpx;
+}
+.time-info {
+  margin: 0 30rpx;
+}
+.time-info .hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.time-info .hd .tag {
+  background: #03b86f;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 12rpx;
+  padding: 0 12rpx;
+}
+.ty .time-info .hd .tag {
+  background: #fc6e51;
+}
+.time-info .hd .date {
+  flex: 1;
+}
+.time-info .hd .date,
+.time-info .hd .status {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.time-info .hd .status.doing {
+  color: #03b86f;
+}
+.time-info .bd {
+  margin-top: 16rpx;
+  position: relative;
+}
+.time-info .bd .schedule {
+  border: 1rpx solid #ccc;
+  border-radius: 24rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 44rpx;
+  left: calc(50% - 48rpx);
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: absolute;
+  top: 32rpx;
+}
+.time-info .bd .schedule::before {
+  left: -24rpx;
+}
+.time-info .bd .schedule::after,
+.time-info .bd .schedule::before {
+  background: #ccc;
+  content: "";
+  display: block;
+  height: 2rpx;
+  position: absolute;
+  top: 22rpx;
+  width: 24rpx;
+}
+.time-info .bd .schedule::after {
+  right: -24rpx;
+}
+.time-info .bd .time {
+  font-family: ZX-Regular;
+  font-size: 56rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.time-info .bd .station,
+.time-info .bd .time {
+  -ms-flex-pack: justify;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.time-info .bd .station {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.seat-change-info {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#deeeff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #deeeff, #fff);
+  background: -o-linear-gradient(top, #deeeff 0, #fff 100%);
+  background: linear-gradient(-180deg, #deeeff, #fff);
+  border-radius: 16rpx;
+  margin: 32rpx 24rpx 0;
+  padding: 32rpx 24rpx 24rpx;
+}
+.ty .seat-change-info {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#eaf8ec),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #eaf8ec, #fff);
+  background: -o-linear-gradient(top, #eaf8ec 0, #fff 100%);
+  background: linear-gradient(-180deg, #eaf8ec, #fff);
+}
+.seat-change-info .action-line {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.seat-change-info .action-line .line {
+  background: #8cc5ff;
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.ty .seat-change-info .action-line .line {
+  background: #99dfa2;
+}
+.seat-change-info .action-line .action {
+  background: #fff;
+  border: 3rpx solid #8cc5ff;
+  border-radius: 12rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 8rpx;
+  position: relative;
+}
+.ty .seat-change-info .action-line .action {
+  color: #34bf46;
+}
+.seat-change-info .action-line .seat {
+  background: #198cff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 12rpx;
+  position: relative;
+}
+.ty .seat-change-info .action-line .seat {
+  background: #34bf46;
+}
+.seat-change-info .station-line {
+  -ms-flex-pack: justify;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 34rpx;
+  justify-content: space-between;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.passenger-info {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  margin: 24rpx 24rpx 0;
+  padding: 24rpx 20rpx;
+}
+.passenger-info .passenger {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.passenger-info .passenger .tit {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.passenger-info .passenger .line {
+  background: #ccc;
+  border-radius: 2rpx;
+  height: 20rpx;
+  margin-left: 18rpx;
+  width: 2rpx;
+}
+.passenger-info .passenger .name {
+  color: #666;
+  flex: 1;
+  margin-left: 12rpx;
+}
+.passenger-info .passenger .name,
+.passenger-info .passenger .seat {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.passenger-info .passenger .seat {
+  color: #333;
+}
+.passenger-info .horizontal-line {
+  background: #666;
+  height: 2rpx;
+  margin: 20rpx 0;
+  opacity: 0.1;
+  width: 100%;
+}
+.combination-refuse-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 32rpx 32rpx 0 0;
+  padding-bottom: calc(160rpx + env(safe-area-inset-bottom));
+}
+.combination-refuse-drawer .bg {
+  border-radius: 32rpx 32rpx 0 0;
+  height: 480rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.combination-refuse-drawer .header {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 32rpx 32rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.combination-refuse-drawer .header .img-head {
+  height: 200rpx;
+  margin-top: -120rpx;
+  width: 200rpx;
+}
+.combination-refuse-drawer .header .icon-closed {
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+}
+.combination-refuse-drawer .header .tit {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-top: 4rpx;
+}
+.combination-refuse-drawer .content {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 32rpx 16rpx 0;
+  padding: 32rpx 0 48rpx 32rpx;
+  position: relative;
+}
+.combination-refuse-drawer .content .tit {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.combination-refuse-drawer .content .info {
+  margin-top: 32rpx;
+}
+.combination-refuse-drawer .content .info .item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16rpx;
+}
+.combination-refuse-drawer .content .info .item .icon {
+  height: 64rpx;
+  width: 64rpx;
+}
+.combination-refuse-drawer .content .info .item .txt {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-left: 16rpx;
+}
+.combination-refuse-drawer .button-box {
+  -ms-flex-pack: justify;
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0 0 8rpx 0 rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  width: 100%;
+  z-index: 101;
+}
+.combination-refuse-drawer .button-box Button {
+  border-radius: 48rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 0;
+  width: 346rpx;
+}
+.combination-refuse-drawer .button-box .btn-cancel {
+  background: rgba(0, 128, 255, 0.1);
+  color: #0080ff;
+}
+.ty .combination-refuse-drawer .button-box .btn-cancel {
+  background: rgba(252, 110, 81, 0.1);
+  color: #fc6e51;
+}
+.combination-refuse-drawer .button-box .btn-confirm {
+  background: -webkit-linear-gradient(5.62deg, #0daeff, #07f);
+  background: -o-linear-gradient(5.62deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(84.38deg, #0daeff, #07f);
+  color: #fff;
+}
+.ty .combination-refuse-drawer .button-box .btn-confirm {
+  background: #fc6e51;
+}
+.combination-confirm-drawer .zt-drawer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    color-stop(20%, #f5f5f5),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5 20%, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 20%, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5 20%, #f5f5f5);
+  border-radius: 40rpx 40rpx 0 0;
+}
+.combination-confirm-drawer .zt-drawer .zt-drawer-header {
+  padding: 32rpx 30rpx;
+}
+.combination-confirm-drawer .zt-drawer .zt-drawer-header .zt-drawer-title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+}
+.combination-confirm-drawer .zt-drawer .zt-drawer-header .zt-icon-closed {
+  height: 48rpx;
+  top: 32rpx;
+  width: 48rpx;
+}
+.combination-confirm-drawer .zt-drawer .content {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx;
+  padding: 32rpx 24rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 44rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .price {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .new-ticket,
+.combination-confirm-drawer .zt-drawer .content .old-ticket {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 8rpx 16rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .route-box {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  padding: 24rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .route-box .item::before {
+  background: #ccc;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8rpx;
+  margin-right: 16rpx;
+  width: 8rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .route-box .item {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.combination-confirm-drawer .zt-drawer .content .route-box .item .txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.combination-confirm-drawer
+  .zt-drawer
+  .content
+  .route-box
+  .item:not(:last-child) {
+  margin-bottom: 16rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .diff-price {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .diff-price .high-mark {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+}
+.combination-confirm-drawer .zt-drawer .content .diff-price .unit {
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+  text-align: right;
+}
+.combination-confirm-drawer .zt-drawer .content .refund-fee-tips {
+  color: #f76e21;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.combination-confirm-drawer .zt-drawer .tips {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  margin-top: 32rpx;
+  text-align: center;
+}
+.combination-confirm-drawer .zt-drawer .footer {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  margin-top: 16rpx;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.combination-confirm-drawer .zt-drawer .footer .btn-confirm {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.ty .combination-confirm-drawer .zt-drawer .footer .btn-confirm {
+  background: #fc6e51;
+}
+.tsmart-cs-ori-drawer .zt-drawer {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  padding-bottom: calc(env(safe-area-inset-bottom));
+}
+.tsmart-cs-ori-drawer .content {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  position: relative;
+}
+.tsmart-cs-ori-drawer .content .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  margin-top: 32rpx;
+  text-align: center;
+}
+.tsmart-cs-ori-drawer .content .close-icon {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 0;
+  width: 48rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 32rpx 16rpx;
+  padding: 30rpx 30rpx 18rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .head-line {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .head-line .tag {
+  background: #bbb;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 40rpx;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-right: 12rpx;
+  padding: 0 12rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .head-line .train-no {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .head-line .status {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 44rpx;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: relative;
+  z-index: 1;
+}
+.tsmart-cs-ori-drawer .content .detail-box .head-line .status::after {
+  border: 2rpx solid #979797;
+  border-radius: 44rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .time {
+  color: #666;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 48rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .station {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .m-box {
+  text-align: center;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .m-box .duration {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .m-box .split-line {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 65%, 0)),
+    color-stop(#a6a6a6),
+    to(hsla(0, 0%, 65%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: -o-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: linear-gradient(
+    270deg,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  height: 2rpx;
+  margin-top: 4rpx;
+  width: 152rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .t-box {
+  position: relative;
+  text-align: right;
+}
+.tsmart-cs-ori-drawer .content .detail-box .station-info .t-box .days {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  left: -48rpx;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  position: absolute;
+  top: 8rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .h-line {
+  background: #ededed;
+  height: 2rpx;
+  margin: 28rpx 0 16rpx;
+  width: 100%;
+}
+.tsmart-cs-ori-drawer .content .detail-box .other-box .item {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .other-box .item .i-name {
+  -ms-flex-negative: 0;
+  color: #999;
+  flex-shrink: 0;
+  margin-right: 28rpx;
+}
+.tsmart-cs-ori-drawer .content .detail-box .other-box .item .i-desc {
+  color: #222;
+}
+.tsmart-cs-ori-drawer .content .detail-box .other-box .item:not(:last-child) {
+  margin-bottom: 6rpx;
+}
+.smart-cs-head .top-bar-v2 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0030ce),
+    to(#0048db)
+  );
+  background: -webkit-linear-gradient(top, #0030ce, #0048db);
+  background: -o-linear-gradient(top, #0030ce, #0048db);
+  background: linear-gradient(-180deg, #0030ce, #0048db);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.smart-cs-head .top-bar-v2 .ifont-back {
+  bottom: -88rpx;
+  color: #fff;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.ty .smart-cs-head .top-bar-v2 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#1b2243),
+    to(#252d4f)
+  );
+  background: -webkit-linear-gradient(top, #1b2243, #252d4f);
+  background: -o-linear-gradient(top, #1b2243, #252d4f);
+  background: linear-gradient(-180deg, #1b2243, #252d4f);
+}
+.smart-cs-head .top-box-v2 {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZNCP_bg_zx.png)
+    no-repeat;
+  background-size: 100% 640rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 640rpx;
+  padding-bottom: 0;
+  position: relative;
+  width: 100%;
+}
+.ty .smart-cs-head .top-box-v2 {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZNCP_bg_ty.png)
+    no-repeat;
+  background-size: 100% 640rpx;
+}
+.smart-cs-head .top-box-v2 .img-top-hd {
+  height: 200rpx;
+  width: 200rpx;
+}
+.smart-cs-head .top-box-v2 .tit-bd {
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  margin: 4rpx 0 0;
+}
+.smart-cs-head .top-box-v2 .txt-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  background: hsla(0, 0%, 100%, 0.15);
+  border-radius: 10rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 52rpx;
+  line-height: 52rpx;
+  margin-top: 8rpx;
+  padding: 0 20rpx;
+}
+.smart-cs-head .top-box-v2 .txt-bd .icon {
+  height: 20rpx;
+  width: 20rpx;
+}
+.smart-cs-head .top-box-v2 .txt-bd .txt {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin-left: 12rpx;
+}
+.tsmart-cs-trti {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 30rpx 30rpx 24rpx;
+}
+.tsmart-cs-trti .transit-trip-info {
+  margin-top: 30rpx;
+}
+.tsmart-cs-trti .pas-box {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  margin-top: 30rpx;
+  padding: 24rpx 20rpx;
+}
+.tsmart-cs-trti .pas-box .head {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  position: relative;
+}
+.tsmart-cs-trti .pas-box .head .scroll-pas-name {
+  min-width: 0;
+  white-space: nowrap;
+  width: 552rpx;
+}
+.tsmart-cs-trti .pas-box .head .scroll-pas-name .pas-name {
+  display: inline-block;
+}
+.tsmart-cs-trti .pas-box .head .price-desc {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.tsmart-cs-trti .pas-box .head .pas-price {
+  margin-left: 40rpx;
+}
+.tsmart-cs-trti .pas-box .head .open-tag {
+  height: 24rpx;
+  margin-left: 4rpx;
+  width: 24rpx;
+}
+.tsmart-cs-trti .pas-box .head .open-tag.opened {
+  transform: rotate(180deg);
+}
+.tsmart-cs-trti .pas-box .head .scroll-split-img {
+  height: 60rpx;
+  left: 396rpx;
+  position: absolute;
+  width: 60rpx;
+}
+.tsmart-cs-trti .pas-box .detail {
+  border-top: 2rpx solid rgba(0, 0, 0, 0.06);
+  margin-top: 20rpx;
+  padding-top: 24rpx;
+}
+.tsmart-cs-trti .pas-box .detail .l-line {
+  height: 80rpx;
+  margin-right: 12rpx;
+  width: 20rpx;
+}
+.tsmart-cs-trti .pas-box .detail .trip-info {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.tsmart-cs-trti .pas-box .detail .trip-info .item:not(:last-child) {
+  margin-bottom: 16rpx;
+}
+.tsmart-osi {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 16rpx;
+  padding: 30rpx;
+}
+.tsmart-osi .head-line.mb20 {
+  margin-bottom: 20rpx;
+}
+.tsmart-osi .head-line .tag {
+  background: #bbb;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 40rpx;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-right: 8rpx;
+  padding: 0 12rpx;
+}
+.tsmart-osi .head-line .tag.mr12 {
+  margin-right: 12rpx;
+}
+.tsmart-osi .head-line .status {
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+  padding: 0 12rpx;
+}
+.tsmart-osi .head-line .desc-txt,
+.tsmart-osi .head-line .status {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.tsmart-osi .head-line .desc-txt {
+  font-size: 28rpx;
+}
+.tsmart-osi .head-line .open-tag {
+  height: 32rpx;
+  margin-left: 4rpx;
+  width: 32rpx;
+}
+.tsmart-osi .head-line .open-tag.opened {
+  transform: rotate(180deg);
+}
+.tsmart-osi .head-line .direct-status {
+  box-sizing: border-box;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 44rpx;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.tsmart-osi .head-line .direct-status::after {
+  border: 2rpx solid #979797;
+  border-radius: 44rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.tsmart-osi .station-info {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.tsmart-osi .station-info .time {
+  color: #666;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 48rpx;
+}
+.tsmart-osi .station-info .station {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.tsmart-osi .station-info .m-box {
+  text-align: center;
+}
+.tsmart-osi .station-info .m-box .duration {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.tsmart-osi .station-info .m-box .split-line {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 65%, 0)),
+    color-stop(#a6a6a6),
+    to(hsla(0, 0%, 65%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: -o-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: linear-gradient(
+    270deg,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  height: 2rpx;
+  margin-top: 4rpx;
+  width: 152rpx;
+}
+.tsmart-osi .station-info .t-box {
+  position: relative;
+  text-align: right;
+}
+.tsmart-osi .station-info .t-box .days {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  left: -48rpx;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  position: absolute;
+  top: 8rpx;
+}
+.tsmart-osi .h-line {
+  background: #ededed;
+  height: 2rpx;
+  margin: 28rpx 0 16rpx;
+  width: 100%;
+}
+.tsmart-osi .other-box .item {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.tsmart-osi .other-box .item .i-name {
+  -ms-flex-negative: 0;
+  color: #999;
+  flex-shrink: 0;
+  margin-right: 28rpx;
+}
+.tsmart-osi .other-box .item .i-desc {
+  color: #222;
+}
+.tsmart-osi .other-box .item:not(:last-child) {
+  margin-bottom: 6rpx;
+}
+.tsmart-cs-ticketinfo {
+  background: #fff;
+  border: 4rpx solid #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx;
+  padding: 30rpx 24rpx 24rpx;
+}
+.tsmart-cs-ticketinfo .pas-box {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  margin-top: 30rpx;
+  padding: 24rpx 20rpx;
+}
+.tsmart-cs-ticketinfo .pas-box .split-line {
+  margin: 24rpx 0;
+}
+.tsmart-cs-ticketinfo .pas-box .h-line {
+  background: rgba(0, 0, 0, 0.05);
+  height: 2rpx;
+  transform: scaleY(0.5);
+}
+.-Og.-Pg {
+  background: #f5f5f5;
+  color: #666;
+}
+.-Og.-Qg {
+  background: #198cff;
+  color: #fff;
+}
+.train-smart-cs {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100vw;
+}
+.train-smart-cs::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.train-smart-cs .tagBox {
+  background: #fd9227;
+  border-radius: 20rpx 20rpx 0 20rpx;
+  line-height: 28rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  right: 0;
+  top: -12rpx;
+}
+.train-smart-cs .tagTxt {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  font-weight: 500;
+}
+.train-smart-cs .tagAngle {
+  bottom: -20rpx;
+  height: 20rpx;
+  position: absolute;
+  right: 0;
+  width: 20rpx;
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.top-bar .ifont-back {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.top-bar .tit {
+  display: none;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+  text-align: center;
+}
+.top-bar.fixed .tit {
+  display: block;
+}
+.zx .top-bar.fixed {
+  background: #0066e6;
+}
+.ty .top-bar.fixed {
+  background: #3c4365;
+}
+.top-box {
+  padding-bottom: 164rpx;
+  position: relative;
+  text-align: center;
+}
+.top-box::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.top-box .tit-bd {
+  font-weight: 700;
+  margin: -8rpx 40rpx 0;
+}
+.top-box .tit-bd .tit {
+  color: #fff;
+  font-size: 44rpx;
+}
+.top-box .txt-bd {
+  margin: 6rpx 40rpx 0;
+}
+.top-box .txt {
+  color: #ccd5ff;
+  font-size: 26rpx;
+}
+.top-box .strong {
+  color: #fff;
+  font-weight: 700;
+}
+.zx .top-box {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.ty .top-box {
+  background: #3c4365;
+}
+.top-box .tag {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.top-box .tag .yuyin-icon {
+  height: 28rpx;
+  margin-right: 2rpx;
+  width: 28rpx;
+}
+.top-hd {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-avatar-bg.png)
+    no-repeat top;
+  background-size: 172rpx 172rpx;
+  padding: 38rpx;
+}
+.top-hd .avatar {
+  border-radius: 96rpx;
+  height: 96rpx;
+  width: 96rpx;
+}
+.top-hd .tag {
+  background: #fff;
+  border-radius: 48rpx;
+  font-size: 22rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin: -30rpx auto 0;
+  position: relative;
+  width: 140rpx;
+  z-index: 2;
+}
+.wrap {
+  margin-top: -140rpx;
+  padding-bottom: calc(140rpx + env(safe-area-inset-bottom));
+}
+.wrap .important-tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    color-stop(68.96%, #fff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #fff, #fff 68.96%, #fff);
+  background: -o-linear-gradient(top, #fff 0, #fff 68.96%, #fff 100%);
+  background: linear-gradient(-180deg, #fff, #fff 68.96%, #fff);
+  border-radius: 20rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 30rpx;
+}
+.wrap .important-tips .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.wrap .important-tips .tip-bpx {
+  margin-top: 16rpx;
+}
+.wrap .important-tips .tip-bpx .tip {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.wrap .important-tips .tip-bpx .tip::before {
+  background: #999;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 8rpx;
+  margin-right: 12rpx;
+  width: 8rpx;
+}
+.white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.first-trip {
+  padding: 26rpx 30rpx 24rpx;
+}
+.first-trip.detail {
+  border-radius: 20rpx 20rpx 0 0;
+  padding-bottom: 12rpx;
+  z-index: 1000;
+}
+.first-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.first-trip.detail .btn-detail .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.first-trip.detail .first-trip-detail {
+  display: block;
+}
+.first-trip .tit {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-grey.png)
+    no-repeat;
+  background-size: cover;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 202rpx;
+}
+.first-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.first-trip-hd .cont {
+  color: #999;
+}
+.first-trip-hd .status {
+  color: #666;
+}
+.first-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.first-trip-hd .btn-detail .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .first-trip-hd .btn-detail {
+  background: #e8f3ff;
+  color: #0080ff;
+}
+.ty .first-trip-hd .btn-detail {
+  background: #e5f7f0;
+  color: #03b86f;
+}
+.first-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 2rpx;
+}
+.first-trip-bd .from,
+.first-trip-bd .to {
+  font-weight: 700;
+  width: 120rpx;
+}
+.first-trip-bd .to {
+  text-align: right;
+}
+.first-trip-bd .mid {
+  position: relative;
+  text-align: center;
+  width: 152rpx;
+}
+.first-trip-bd .mid::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.first-trip-bd .time {
+  font-size: 44rpx;
+  line-height: 60rpx;
+}
+.first-trip-bd .station {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  margin-top: -10rpx;
+}
+.first-trip-bd .seat {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.first-trip-bd .color-green {
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
+.first-trip-detail {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 0 20rpx 20rpx;
+  position: absolute;
+  right: 0;
+  top: 180rpx;
+}
+.first-trip-list,
+.pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.first-trip-list .item,
+.pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.first-trip-list .item:last-child,
+.pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.first-trip-list .name,
+.pop-pasg-list .name,
+.pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.first-trip-list .tag-grey,
+.first-trip-list .tag-window,
+.pop-pasg-list .tag-grey,
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-grey,
+.pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.first-trip-list .tag-grey,
+.pop-pasg-list .tag-grey,
+.pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.first-trip-list .tag-window,
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.first-trip-list .seat,
+.pop-pasg-list .seat,
+.pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.second-trip {
+  border: 4rpx solid #fff;
+  padding: 32rpx 12rpx;
+}
+.zx .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.second-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin: 0 14rpx;
+}
+.zx .second-trip-hd {
+  color: #073e7b;
+}
+.ty .second-trip-hd {
+  color: #333;
+}
+.second-trip-hd .color-red {
+  font-weight: 700;
+}
+.second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+}
+.zx .second-trip-bd {
+  color: #073e7b;
+}
+.ty .second-trip-bd {
+  color: #333;
+}
+.second-trip-bd .from,
+.second-trip-bd .to {
+  font-weight: 700;
+  width: 150rpx;
+}
+.second-trip-bd .to {
+  text-align: right;
+}
+.second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.second-trip-bd .schedule::after,
+.second-trip-bd .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.second-trip-bd .schedule::before {
+  left: -24rpx;
+}
+.second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.second-trip-bd .time {
+  font-size: 52rpx;
+  line-height: 60rpx;
+}
+.second-trip-bd .station {
+  font-size: 28rpx;
+}
+.second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24rpx;
+  padding: 16rpx 24rpx;
+}
+.second-trip-tick .lbox,
+.second-trip-tick .mid,
+.second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.second-trip-tick .lbox {
+  text-align: left;
+}
+.second-trip-tick .mid {
+  text-align: center;
+}
+.second-trip-tick .rbox {
+  text-align: right;
+}
+.second-trip-tick .label {
+  color: #999;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+.second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.second-trip-tick .tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 60rpx;
+  margin: 16rpx -24rpx -16rpx;
+  padding: 0 24rpx;
+}
+.second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.second-trip-pasg .name,
+.second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.second-trip-pasg .seat {
+  flex: 1.3;
+  font-size: 28rpx;
+}
+.second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.qa-box {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-qa.png);
+  background-position: 100%0;
+  background-repeat: no-repeat;
+  background-size: 140rpx 130rpx;
+  padding: 24rpx 30rpx 30rpx;
+}
+.qa-box .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.qa-box .mb16 {
+  margin-bottom: 16rpx;
+}
+.qa-box .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 10rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.qa-box .txt::before {
+  background: #d8d8d8;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 14rpx;
+  width: 8rpx;
+}
+.fixed-botm {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  left: 0;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.fixed-botm,
+.fixed-botm .h5-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fixed-botm .h5-button {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 96rpx;
+  flex: 1;
+  flex-direction: column;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 44rpx;
+  margin-right: 18rpx;
+}
+.fixed-botm .btn-cancel {
+  background: #feeceb;
+}
+.fixed-botm .btn-red {
+  overflow: visible;
+}
+.fixed-botm .btn-red .tagBox {
+  right: 4rpx;
+}
+.fixed-botm .btn-red .timeout {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  opacity: 0.6;
+}
+.pop-botm {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.pop-botm .icon-closed {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/pop-botm-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  width: 48rpx;
+}
+.pop-botm-hd {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+  justify-content: center;
+}
+.pop-botm-hd .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.pop-pasg-list {
+  padding: 0 16rpx 24rpx;
+}
+.pop-pasg-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  height: 108rpx;
+  margin-bottom: 16rpx;
+  padding: 0 30rpx;
+}
+.pop-pasg-list .item:last-child {
+  margin-bottom: 0;
+}
+.pop-payment-detail {
+  padding: 2rpx 0 20rpx;
+}
+.pop-payment-detail .white-box {
+  margin: 0 16rpx 16rpx;
+}
+.pop-payment-detail .btn-pay {
+  border-radius: 96rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 40rpx 20rpx 0;
+}
+.pop-payment-tick {
+  padding: 4rpx 4rpx 24rpx;
+}
+.pop-payment-hd {
+  -ms-flex-pack: justify;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 18rpx 26rpx 24rpx;
+}
+.zx .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f0ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #e0f0ff, #fff);
+  background: -o-linear-gradient(top, #e0f0ff, #fff);
+  background: linear-gradient(180deg, #e0f0ff, #fff);
+}
+.ty .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fff);
+}
+.pop-payment-hd .from,
+.pop-payment-hd .to {
+  width: 150rpx;
+}
+.pop-payment-hd .to {
+  text-align: right;
+}
+.pop-payment-hd .mid {
+  text-align: center;
+  width: 140rpx;
+}
+.pop-payment-hd .date {
+  color: #999;
+  font-size: 24rpx;
+}
+.pop-payment-hd .time {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.pop-payment-hd .station {
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.pop-payment-hd .schedule {
+  border: 2rpx solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin: 40rpx auto 0;
+  position: relative;
+  width: 100rpx;
+}
+.pop-payment-hd .schedule::after,
+.pop-payment-hd .schedule::before {
+  background: hsla(0, 0%, 80%, 0.5);
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 18rpx;
+}
+.pop-payment-hd .schedule::before {
+  left: -18rpx;
+}
+.pop-payment-hd .schedule::after {
+  right: -18rpx;
+}
+.pop-payment-hd .txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.pop-payment-hd .ifont-sfz {
+  font-size: 32rpx;
+  margin-left: 4rpx;
+}
+.pop-payment-list {
+  margin: 0 20rpx;
+}
+.pop-payment-tips {
+  padding: 20rpx 30rpx;
+}
+.pop-payment-tips .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+}
+.pop-payment-tips .txt::before {
+  background: #d8d8d8;
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 13rpx;
+  width: 6rpx;
+}
+.pop-payment-tips .txt:last-child {
+  margin-bottom: 0;
+}
+.confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 16rpx 16rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.confirm-second-pop::before {
+  border-radius: 16rpx 16rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #fc6e51);
+}
+.confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.suggest-box {
+  padding: 30rpx;
+}
+.suggest-hd {
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.suggest-hd .tag {
+  background: #00b965;
+  border-radius: 6rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin: -6rpx 12rpx 0 0;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.suggest-bd-con {
+  background: #f2fbf8;
+  padding: 16rpx 20rpx;
+}
+.suggest-bd {
+  border-radius: 12rpx;
+  margin-top: 8rpx;
+}
+.suggest-bd .txt {
+  color: #00b965;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-bottom: 8rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.suggest-bd .txt:last-child {
+  margin-bottom: 0;
+}
+.suggest-bd .txt::before {
+  background: #9ae3c5;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 12rpx;
+  width: 8rpx;
+}
+.wrap-tips {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fee;
+  border-radius: 20rpx 20rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  margin: -20rpx 20rpx 0;
+  padding: 20rpx 30rpx 48rpx;
+  position: relative;
+  top: 20rpx;
+}
+.wrap-tips .wrap-tips-img {
+  height: 36rpx;
+  margin-right: 20rpx;
+  width: 36rpx;
+}
+.wrap-tips .wrap-tips-txt {
+  color: #fc6e51;
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  white-space: normal;
+}
+.reschedule-card {
+  padding: 24rpx 20rpx 20rpx;
+}
+.reschedule-card .top-title {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48rpx;
+  margin-bottom: 20rpx;
+}
+.reschedule-card .top-title .img {
+  height: 40rpx;
+  margin-right: 8rpx;
+  width: 40rpx;
+}
+.reschedule-card.zx .top-title .img {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-07/icon_endorse.png)
+    no-repeat;
+  background-size: cover;
+}
+.reschedule-card.ty .top-title .img {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-07/icon_endorse_t.png)
+    no-repeat;
+  background-size: cover;
+}
+.reschedule-card .top-title .txt {
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+.reschedule-card .box-card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reschedule-card .box-card .left {
+  background: #fff8f0;
+}
+.reschedule-card .box-card .left,
+.reschedule-card .box-card .right {
+  border-radius: 12rpx;
+  flex: 1;
+  padding: 20rpx 20rpx 24rpx;
+  width: 303rpx;
+}
+.reschedule-card .box-card .right {
+  background: #f1f8ff;
+}
+.reschedule-card .box-card .bar-txt {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin-bottom: 10rpx;
+}
+.reschedule-card .box-card .bar-txt .tag {
+  background: #ff5959;
+  border-radius: 6rpx;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-left: 6rpx;
+  padding: 0 6rpx;
+}
+.reschedule-card .box-card .bar-txt .title {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.reschedule-card .box-card .list {
+  height: 34rpx;
+  line-height: 34rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.reschedule-card .box-card .txt {
+  color: #666;
+  font-size: 24rpx;
+}
+.reschedule-card .box-card .origin-color {
+  color: #ff5959;
+}
+.reschedule-card .box-card .new-color {
+  color: #0080ff;
+}
+.reschedule-card .box-card .middal {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f5f7fa),
+    to(rgba(239, 247, 255, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    #f5f7fa,
+    rgba(239, 247, 255, 0)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #f5f7fa 0,
+    rgba(239, 247, 255, 0) 100%
+  );
+  background-image: linear-gradient(180deg, #f5f7fa, rgba(239, 247, 255, 0));
+  border-radius: 12rpx;
+  margin: 0 4rpx;
+  width: 56rpx;
+}
+.reschedule-card .box-card .middal .midal-arrow {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8rpx;
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+.reschedule-card .box-card .middal .midal-arrow-item-left {
+  opacity: 0.4;
+}
+.reschedule-card .box-card .middal .midal-arrow-item-left,
+.reschedule-card .box-card .middal .midal-arrow-item-right {
+  border: 8rpx solid transparent;
+  border-bottom-color: #999;
+  height: 0;
+  transform: rotate(90deg);
+  width: 0;
+}
+.reschedule-card .box-card .middal .midal-text {
+  color: #999;
+  font-size: 20rpx;
+  text-align: center;
+}
+.new-series {
+  padding-bottom: calc(176rpx + env(safe-area-inset-bottom));
+}
+.wrap-v2 {
+  margin-top: -134rpx;
+  position: relative;
+}
+.wrap-v2.mt-v1 {
+  margin-top: -290rpx;
+}
+.wrap-v2 .logo-box {
+  text-align: center;
+}
+.wrap-v2 .logo-box .img-logo {
+  height: 74rpx;
+  margin-top: 40rpx;
+  width: 458rpx;
+}
+.fixed-botm-v2 {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.fixed-botm-v2,
+.fixed-botm-v2 .h5-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fixed-botm-v2 .h5-button {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 24rpx;
+  flex: 1;
+  flex-direction: column;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  justify-content: center;
+}
+.fixed-botm-v2 .btn-cancel {
+  background: #edf6ff;
+  color: #0080ff;
+  margin-right: 16rpx;
+}
+.fixed-botm-v2 .btn-confirm {
+  background: #198cff;
+  color: #fff;
+  overflow: visible;
+  position: relative;
+}
+.fixed-botm-v2 .btn-confirm .txt {
+  line-height: 34rpx;
+}
+.fixed-botm-v2 .btn-confirm .timeout {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 22rpx;
+  margin-top: 6rpx;
+  opacity: 0.8;
+}
+.train-smart-cs .common-popup .train-common-dialog-bd .desc {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}

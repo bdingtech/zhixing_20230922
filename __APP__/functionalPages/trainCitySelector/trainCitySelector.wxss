@@ -1,0 +1,232 @@
+@import "/functionalPages/sub-vendors.wxss";
+.trn-city-input-content {
+  bottom: -105rpx;
+  left: 0;
+  padding: 0 16rpx;
+  position: absolute;
+  right: 0;
+}
+.trn-city-input-content .blur-input {
+  width: 206rpx;
+}
+.trn-city-input-content .city-input {
+  background-color: #fff;
+  border: 4rpx solid #e6e6e6;
+  border-radius: 24rpx;
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  font-weight: 700;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  padding: 0 30rpx;
+  position: relative;
+  z-index: 1;
+}
+.trn-city-input-content .city-input .place-holder {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 38rpx;
+}
+.trn-city-input-content .focus-one.city-input {
+  border: 4rpx solid #198cff;
+}
+.trn-city-input-content .input-with-x {
+  position: relative;
+}
+.trn-city-input-content .input-with-x:first-child {
+  margin-right: 16rpx;
+}
+.trn-city-input-content .input-with-x .icon-del {
+  bottom: 0;
+  color: #999;
+  font-size: 33rpx;
+  line-height: 26rpx;
+  opacity: 0.6;
+  padding: 0 26rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.trn-city-box {
+  grid-row-gap: 16rpx;
+  grid-column-gap: 16rpx;
+  display: grid;
+  grid-template-columns: repeat(4, calc(25% - 12rpx));
+}
+.trn-city-box .city-item {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  display: block;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 68rpx;
+  line-height: 68rpx;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trn-city-box .city-item text {
+  vertical-align: middle;
+}
+.trn-city-box .city-item .iconfont2 {
+  font-size: 22rpx;
+  margin-right: 6rpx;
+}
+.trn-city-box .city-item.active {
+  background: rgba(25, 140, 255, 0.063);
+  color: #198cff;
+}
+.trn-city-box .city-item.active .iconfont2 {
+  color: #0080ff;
+}
+.trn-city-box .city-item.bold-font {
+  font-weight: 500;
+}
+.train_smart-search-result {
+  font-size: 30rpx;
+  min-height: 50vh;
+}
+.train_smart-search-result .row {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid rgba(0, 0, 0, 0.02);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train_smart-search-result .row.cityName {
+  padding: 32rpx 0;
+}
+.train_smart-search-result .row.station-item {
+  padding: 20rpx 0;
+}
+.train_smart-search-result .city-item:first-child .row:first-child {
+  padding-top: 0;
+}
+.train_smart-search-result .city-item:last-child .row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.train_smart-search-result .city-tag {
+  background: #fff2f2;
+  border-radius: 12rpx;
+  color: #ff5959;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 37rpx;
+  text-align: center;
+  white-space: nowrap;
+  width: 64rpx;
+}
+.train_smart-search-result .city-txt {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.train_smart-search-result .station-type {
+  background: #edf6ff;
+  border-radius: 12rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 37rpx;
+  text-align: center;
+  width: 64rpx;
+}
+.train_smart-search-result .station-name {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.train_smart-search-result .air-tag {
+  background-color: rgba(3, 184, 111, 0.1);
+  color: #03b86f;
+}
+.train_smart-search-result .train-tag {
+  background-color: rgba(25, 140, 255, 0.1);
+  color: #0080ff;
+}
+.train_smart-search-result .bus-tag {
+  background-color: rgba(255, 157, 0, 0.1);
+  color: #ff9d00;
+}
+.train_smart-search-result .ship-tag {
+  background-color: rgba(111, 89, 255, 0.1);
+  color: #6f59ff;
+}
+.train_smart-search-result .scene-tag {
+  background-color: rgba(255, 89, 100, 0.1);
+  color: #ff5959;
+}
+.train_smart-search-result .tag-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.ty .train_smart-search-result .train-tag {
+  background-color: rgba(255, 89, 89, 0.063);
+}
+.train_smart-search-result .province {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-left: 12rpx;
+  white-space: nowrap;
+}
+.train_smart-search-result .empty-box {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  margin: 22rpx auto;
+  text-align: center;
+}
+.trn-city-root .header-bg-view-content,
+.trn-city-root .page-wrapper-header {
+  background-color: #efefef;
+}
+.trn-city-root .trn-city {
+  overflow: hidden;
+  position: relative;
+}
+.trn-city-root .result-view {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx;
+  max-height: calc(100% - 64rpx);
+  overflow: auto;
+  padding: 32rpx 30rpx;
+}
+.trn-city-root .box {
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 122rpx;
+}
+.trn-city-root .tit-view {
+  margin-bottom: 20rpx;
+}
+.trn-city-root .tit-view .tit-desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.trn-city-root .tit-view .tit-btn {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+}

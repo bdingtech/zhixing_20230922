@@ -1,0 +1,296 @@
+@import "/functionalPages/sub-vendors.wxss";
+@font-face {
+  font-family: wx_font_ctrip_ocr;
+  src: url(https://pic.c-ctrip.com/platform/h5/miniapp/ocr/wx_font_ctrip_ocr.ttf)
+    format("truetype");
+}
+.functional-pages-ocr-v2 .iconfont {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: wx_font_ctrip_ocr !important;
+  vertical-align: middle;
+}
+.functional-pages-ocr-v2 .content-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+}
+.functional-pages-ocr-v2 .content-box .title {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 56rpx;
+  margin-bottom: 50rpx;
+  margin-top: 240rpx;
+}
+.functional-pages-ocr-v2 .content-box .camera-box {
+  position: relative;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .box-border {
+  height: 34rpx;
+  position: absolute;
+  width: 34rpx;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .lt {
+  border-left: 4rpx solid #fff;
+  border-top: 4rpx solid #fff;
+  left: -2rpx;
+  top: -2rpx;
+  z-index: 88;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .rt {
+  border-right: 4rpx solid #fff;
+  border-top: 4rpx solid #fff;
+  right: -2rpx;
+  top: -2rpx;
+  z-index: 88;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .rb {
+  border-bottom: 4rpx solid #fff;
+  border-right: 4rpx solid #fff;
+  bottom: -2rpx;
+  right: -2rpx;
+  z-index: 88;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .lb {
+  border-bottom: 4rpx solid #fff;
+  border-left: 4rpx solid #fff;
+  bottom: -2rpx;
+  left: -2rpx;
+  z-index: 88;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .scan-cont {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.functional-pages-ocr-v2 .content-box .camera-box .scan-cont .scan {
+  animation: auto-scan 2.5s ease-out infinite;
+  background: url(https://pages.c-ctrip.com/bus-images/zhixing/Popup/gang@3x.png)
+    no-repeat;
+  background-size: 100% 52rpx;
+  position: absolute;
+}
+@-webkit-keyframes auto-scan {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+@keyframes auto-scan {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+.functional-pages-ocr-v2 .content-box .content-tip {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-top: 50rpx;
+}
+.functional-pages-ocr-v2 .content-box .phone-album {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 32rpx;
+  bottom: calc(156rpx + env(safe-area-inset-bottom));
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 96rpx;
+  justify-content: center;
+  position: fixed;
+  right: 40rpx;
+  width: 96rpx;
+}
+.functional-pages-ocr-v2 .content-box .phone-album .icon-image:before {
+  color: #fff;
+  content: "";
+  font-size: 36rpx;
+}
+.functional-pages-ocr-v2 .content-box .phone-album .album-btn-text {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+}
+.functional-pages-ocr-v2 .content-box .bottom-cont {
+  background: #000;
+  bottom: 0;
+  left: 0;
+  padding-bottom: calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+}
+.functional-pages-ocr-v2 .content-box .bottom-cont .handle-btn {
+  border: 2rpx solid #fff;
+  border-radius: 48rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  margin: 20rpx 20rpx 0;
+  text-align: center;
+}
+.functional-pages-ocr-v2 .content-common {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.7);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.functional-pages-ocr-v2 .content-common .fail-model {
+  background-color: #fff;
+  border-radius: 3%;
+  height: 240rpx;
+  margin-left: 90rpx;
+  margin-right: 90rpx;
+  padding: 30rpx;
+  width: 100%;
+}
+.functional-pages-ocr-v2 .content-common .fail-model,
+.functional-pages-ocr-v2 .content-common .fail-model .model-content {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.functional-pages-ocr-v2 .content-common .fail-model .model-content {
+  color: #333;
+  height: 140rpx;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .model-content
+  .model-title {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 100rpx;
+  line-height: 100rpx;
+  vertical-align: bottom;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .model-content
+  .model-text {
+  color: #333;
+  font-size: 28rpx;
+}
+.functional-pages-ocr-v2 .content-common .fail-model .image-model-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  width: 100%;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .image-model-button
+  .image-button {
+  -ms-flex-pack: end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .image-model-button
+  .image-left {
+  padding-right: 10rpx;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .image-model-button
+  .image-left
+  .image-cancel-button {
+  background-color: #fff;
+  border: 2rpx solid #0086f6;
+  color: #0086f6;
+  font-size: 28rpx;
+  width: 100%;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .image-model-button
+  .image-right {
+  padding-left: 10rpx;
+}
+.functional-pages-ocr-v2
+  .content-common
+  .fail-model
+  .image-model-button
+  .image-right
+  .image-ok-button {
+  background-color: #0086f6;
+  border: 2rpx solid #0086f6;
+  color: #fff;
+  font-size: 28rpx;
+  width: 100%;
+}
+.functional-pages-ocr-v2 .content-common .fail-model .model-ok-hover {
+  background-color: #0092f8;
+  color: #e8edf0;
+}
+.functional-pages-ocr-v2 .content-common .fail-model .model-cancel-hover {
+  background-color: #e8edf0;
+  color: #0092f8;
+}

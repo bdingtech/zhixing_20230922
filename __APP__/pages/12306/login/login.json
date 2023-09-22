@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "登录12306",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "backgroundColorTop": "#efefef",
+  "backgroundColorBottom": "#efefef",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

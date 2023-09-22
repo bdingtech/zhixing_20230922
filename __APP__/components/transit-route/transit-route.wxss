@@ -1,0 +1,276 @@
+@import "/libs/style/iconfont.wxss";
+.primary-color {
+  color: #0079ff;
+}
+.color-orange {
+  color: #fe5f5f;
+}
+.expired-info {
+  font-size: 12px;
+}
+.h4-title {
+  font-size: 16px;
+}
+.h5-title {
+  font-size: 14px;
+}
+.transit-route-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #efefef;
+}
+.route-tabs {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  height: 40px;
+  font-size: 0;
+  white-space: nowrap;
+  background: #fff;
+}
+.route-tabs .tab {
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 38px;
+  color: #666;
+}
+.flex-1 {
+  flex: 1;
+  overflow: hidden;
+}
+.result-container {
+  background-color: #efefef;
+}
+.status {
+  height: 100%;
+  flex-direction: column;
+}
+.status,
+.status-icon-box {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+.status-icon-box {
+  margin-top: 60px;
+  height: 108px;
+  width: 188px;
+  justify-content: center;
+}
+.status-icon-box .status-img {
+  width: 100%;
+  height: 100%;
+}
+.loading-icon {
+  width: 50px;
+  height: 50px;
+  animation: rotation 1s linear infinite;
+}
+.retry-btn {
+  width: 90px;
+  height: 34px;
+  margin-top: 8px;
+  border-radius: 100px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  background: #fff;
+  letter-spacing: 0;
+}
+.des-text {
+  margin-top: 2px;
+  color: #686868;
+  font-size: 13px;
+  line-height: 18px;
+}
+@-webkit-keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col,
+.transit-wrapper {
+  flex-direction: column;
+}
+.transit-wrapper {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+}
+.base-icon {
+  margin-right: 1px;
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+.result-item {
+  margin: 10px;
+  padding: 7px 0;
+  border-radius: 7px;
+  background: #fff;
+}
+.bus-meta {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 198rpx;
+  padding-right: 24rpx;
+  margin-right: 24rpx;
+  text-align: right;
+  border-right: 1px solid #d8d8d8;
+}
+.meta-time {
+  margin-bottom: 5px;
+  line-height: 22px;
+  font-size: 16px;
+  color: #333;
+}
+.meta-distance {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+.meta-tag {
+  padding: 0 4px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #fff;
+  background-color: #2dcc63;
+  border-radius: 4px;
+}
+.meta-distance-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 11px;
+  height: 15px;
+}
+.bus-detail {
+  flex: 1;
+  padding: 15px 0;
+}
+.bus-title {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  color: #333;
+}
+.vehicle-bus {
+  padding: 1px 7px;
+  line-height: 17px;
+}
+.vehicle-bus,
+.vehicle-subway {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  font-size: 14px;
+  height: 24px;
+  border-radius: 12px;
+}
+.vehicle-subway {
+  padding: 0 10px;
+  line-height: 24px;
+  color: #fff;
+}
+.vehicle-bus,
+.vehicle-subway {
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.vehicle-icon-container {
+  height: 22px;
+  line-height: 21px;
+  width: 20px;
+  display: inline-block;
+}
+.vehicle-icon {
+  transform: translateY(-2px);
+  vertical-align: middle;
+  margin-right: 1px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.rtbus-container {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 40px;
+  background: #f0fbf7;
+  border-radius: 4px;
+}
+.rtbus-container .rt-label {
+  margin-right: 10px;
+  color: #777;
+}
+.rtbus-container .rt-detail {
+  padding-left: 15px;
+  background: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal1@2x.png)
+    no-repeat 0/12px 12px;
+  color: #00bc7a;
+  animation: rtanimation 3s step-start infinite;
+}
+@-webkit-keyframes rtanimation {
+  0% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal3@2x.png);
+  }
+  33.3% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal1@2x.png);
+  }
+  66.7% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal2@2x.png);
+  }
+  100% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal3@2x.png);
+  }
+}
+@keyframes rtanimation {
+  0% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal3@2x.png);
+  }
+  33.3% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal1@2x.png);
+  }
+  66.7% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal2@2x.png);
+  }
+  100% {
+    background-image: url(https://mapapi.qq.com/web/miniprogram/routeplan/iconSignal3@2x.png);
+  }
+}

@@ -1,0 +1,675 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.banner-wrap {
+  margin: 0 auto;
+  position: relative;
+}
+.banner-bg {
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.banner-scroller {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 82rpx;
+  position: relative;
+  width: 686rpx;
+}
+.banner-list {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+}
+.banner-item {
+  box-shadow: 0 0 4rpx 0 rgba(18, 28, 54, 0.3);
+  flex-shrink: 0;
+  height: 180rpx;
+  margin-right: 10rpx;
+  width: 164rpx;
+}
+.banner-btn {
+  animation: heartBeat 3s ease-in-out infinite both;
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/common/banner-btn.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 116rpx;
+  margin: 0 auto;
+  width: 436rpx;
+}
+.banner-btn,
+.banner-list-none .banner-bg {
+  position: relative;
+}
+.banner-list-none .banner-scroller {
+  display: none;
+}
+.banner-list-none .banner-btn {
+  bottom: -50rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+.plugin-wrap {
+  height: 408rpx;
+}
+.lottery-wrap {
+  background-color: #f1f8ff;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%auto;
+  border-radius: 16rpx;
+  min-height: 336rpx;
+  padding-top: 56rpx;
+  position: relative;
+}
+@-webkit-keyframes pluginRightAnima {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(48rpx, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@keyframes pluginRightAnima {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(48rpx, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+.plugin-platform {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/more-dizuo.png)
+    no-repeat top;
+  background-size: contain;
+  height: 262rpx;
+  margin: 0 auto;
+  max-width: 708rpx;
+  padding: 20rpx 40rpx 0;
+  position: relative;
+  width: auto;
+}
+.reward-overflow {
+  overflow: hidden;
+  width: 100%;
+}
+.reward-wrap {
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+.reward-animate {
+  transition: all 1.5s cubic-bezier(0.75, 0.01, 0.25, 1);
+}
+.reward-list {
+  backface-visibility: hidden;
+  display: -webkit-flex;
+  display: flex;
+}
+.reward-item-animate {
+  animation: rewardItemScroll 16s linear infinite both;
+}
+@-webkit-keyframes rewardItemScroll {
+  form {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes rewardItemScroll {
+  form {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.reward-item {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+  flex-shrink: 0;
+  height: 170rpx;
+  line-height: normal;
+  padding: 0;
+  width: 154rpx;
+}
+.reward-pic {
+  display: block;
+  height: 112rpx;
+  margin: 14rpx auto 0;
+  width: 112rpx;
+}
+.reward-item:last-child .reward-pic {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/nothing.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.reward-desc {
+  color: #fff;
+  display: block;
+  font-size: 20rpx;
+  line-height: normal;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 9rpx 12rpx 0;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 136rpx;
+}
+.reward-item.reward-item-active {
+  animation: imgAnima 0.35s ease-in-out 0.5s 2 both;
+}
+@-webkit-keyframes imgAnima {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+@keyframes imgAnima {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+.bottom-wrap {
+  bottom: -8rpx;
+  left: 20rpx;
+  position: absolute;
+  right: 20rpx;
+}
+.bottom-wrap,
+.btn-wrap {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  height: 112rpx;
+  justify-content: center;
+}
+.btn-wrap {
+  animation: heartBeat 5s ease-in-out infinite both;
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/btn-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+  flex-direction: column;
+  width: 370rpx;
+}
+.btn-anima-paused {
+  animation-play-state: paused;
+}
+@-webkit-keyframes heartBeat {
+  0%,
+  14%,
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+@keyframes heartBeat {
+  0%,
+  14%,
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+.disabled-btn {
+  animation-play-state: paused;
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/pvp/btn-gray-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+  pointer-events: none;
+}
+.disabled-btn .tip-text {
+  display: none;
+}
+.disabled-btn .btn-text {
+  color: #454545;
+}
+.prize-btn,
+.rule-btn {
+  color: #d49b38;
+  display: block;
+  font-size: 24rpx;
+  height: 36rpx;
+  position: relative;
+  text-decoration: underline;
+  top: -6rpx;
+  white-space: nowrap;
+}
+.btn-text {
+  background: linear-gradient(#753434, #b43c3c);
+  background-clip: text;
+  color: transparent;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 300rpx;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tip-text {
+  color: #7f3838;
+  font-size: 18rpx;
+  position: relative;
+  text-align: center;
+  top: -4rpx;
+}
+.login-tip {
+  align-items: center;
+  background: #ff650a;
+  border-radius: 18rpx 0 18rpx 0;
+  display: -webkit-flex;
+  display: flex;
+  height: 24rpx;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 12rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 14rpx;
+}
+.login-tip text {
+  color: #fff;
+  display: block;
+  font-size: 16rpx;
+  max-width: 196rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.plugin-login-wrap {
+  align-items: center;
+  color: #4a4a4a;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 22rpx;
+  justify-content: center;
+  padding-top: 12rpx;
+}
+.plugin-login-game {
+  color: #d49b38;
+  text-decoration: underline;
+}
+.narrow-wrap .banner-scroller {
+  width: 536rpx;
+}
+.narrow-wrap .banner-item {
+  height: 142rpx;
+  margin-right: 8rpx;
+  width: 128rpx;
+}
+.narrow-wrap .banner-btn {
+  width: 342rpx;
+}
+@import "/wxss/common.wxss";
+.lottery-wrap.gp-lottery {
+  background-color: #f0f7ff;
+}
+.gp-lottery .plugin-platform {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/more-dizuo.png)
+    no-repeat top;
+  background-size: contain;
+}
+.gp-lottery .reward-item {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.gp-lottery .reward-item.reward-item-active {
+  animation: imgAnimaGp 0.35s ease-in-out 0.5s 2 both;
+}
+@-webkit-keyframes imgAnimaGp {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+@keyframes imgAnimaGp {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+.gp-lottery .reward-pic {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/nothing.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 112rpx;
+  margin: 14rpx auto 0;
+  width: 112rpx;
+}
+.gp-lottery .btn-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/lottery-btn-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.gp-lottery .btn-text {
+  background: 0;
+  background-clip: unset;
+  color: #8f3406;
+}
+.gp-lottery .tip-text {
+  color: #633d2d;
+}
+.gp-lottery .plugin-login-game,
+.gp-lottery .prize-btn,
+.gp-lottery .rule-btn {
+  color: #d2792a;
+}
+.gp-lottery .disabled-btn {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/gp/lottery-gray-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.lottery-wrap.hlddz-lottery {
+  background-color: #e1f0fe;
+}
+.hlddz-lottery .plugin-platform {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/more-dizuo.png)
+    no-repeat top;
+  background-size: contain;
+}
+.hlddz-lottery .reward-item {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.hlddz-lottery .reward-item.reward-item-active {
+  animation: imgAnimahlddz 0.35s ease-in-out 0.5s 2 both;
+}
+@-webkit-keyframes imgAnimahlddz {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+@keyframes imgAnimahlddz {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+.hlddz-lottery .reward-item:last-child .reward-pic {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/nothing.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.hlddz-lottery .btn-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/lottery-btn-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.hlddz-lottery .btn-text {
+  background: 0;
+  background-clip: unset;
+  color: #fff;
+  text-shadow: 0 2rpx rgba(0, 0, 0, 0.5);
+}
+.hlddz-lottery .tip-text {
+  color: #ab6d21;
+}
+.hlddz-lottery .plugin-login-game,
+.hlddz-lottery .prize-btn,
+.hlddz-lottery .rule-btn {
+  color: #fc9639;
+}
+.hlddz-lottery .disabled-btn {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/hlddz/lottery-gray-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.lottery-wrap.majiang-lottery {
+  background-color: #e1f0fe;
+}
+.majiang-lottery .plugin-platform {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/more-dizuo.png)
+    no-repeat top;
+  background-size: contain;
+}
+.majiang-lottery .reward-item {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.majiang-lottery .reward-desc {
+  color: #555ed7;
+}
+.majiang-lottery .reward-item.reward-item-active {
+  animation: imgAnimamajiang 0.35s ease-in-out 0.5s 2 both;
+}
+@-webkit-keyframes imgAnimamajiang {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+@keyframes imgAnimamajiang {
+  from {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  25% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  50% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  75% {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+  to {
+    background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/item-bg-active.png)
+      no-repeat 50%;
+    background-size: contain;
+  }
+}
+.majiang-lottery .reward-item:last-child .reward-pic {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/nothing.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.majiang-lottery .btn-wrap {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/lottery-btn-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.majiang-lottery .btn-text {
+  background: 0;
+  background-clip: unset;
+  color: #985211;
+}
+.majiang-lottery .tip-text {
+  color: #ab6d21;
+}
+.majiang-lottery .plugin-login-game,
+.majiang-lottery .prize-btn,
+.majiang-lottery .reward-item-active .reward-desc,
+.majiang-lottery .rule-btn {
+  color: #e75e1e;
+}
+.majiang-lottery .disabled-btn {
+  background: url(https://image-1251917893.file.myqcloud.com/tip-project/tip-expand/majiang/lottery-gray-bg.png)
+    no-repeat 50%;
+  background-size: contain;
+}

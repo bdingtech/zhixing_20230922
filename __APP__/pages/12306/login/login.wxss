@@ -1,0 +1,279 @@
+@import "/pages/12306/sub-vendors.wxss";
+@import "/pages/12306/sub-common/9bacf5c14124b291e7b6d11c375ce71f.wxss";
+@import "/pages/12306/sub-common/84d7f4468c848a8423c8747b610a25e9.wxss";
+@import "/pages/12306/sub-common/cce311a3b726cfc478c0247aa8df97dd.wxss";
+@import "/pages/12306/sub-common/92c8e353391b724d807021275ad576ed.wxss";
+@import "/pages/12306/sub-common/6271ef0db42b88ad4bd2cf85cb2e7d7f.wxss";
+.slogan-box {
+  padding-top: 60rpx;
+  text-align: center;
+}
+.slogan-box .app-slogan {
+  height: 114rpx;
+  width: 620rpx;
+}
+.slogan-box .new-slogan {
+  height: 132rpx;
+  width: 530rpx;
+}
+@import "/pages/12306/sub-common/fa672c19e8ec78abe21d2e00e49b5cd6.wxss";
+@import "/pages/12306/sub-common/5835084b51af34cc6d2864d34793d86d.wxss";
+@import "/pages/12306/sub-common/be9ee6eb10f44aa72f6a7ecc6bc5cf33.wxss";
+.t6-sync-switch {
+  background: #f5faff;
+  border-radius: 24rpx;
+  padding: 20rpx 24rpx;
+}
+.t6-sync-switch .title {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 40rpx;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.t6-sync-switch .switch-ui {
+  background: #f5f5f5;
+  border-radius: 14rpx;
+  height: 40rpx;
+  position: relative;
+  width: 68rpx;
+}
+.t6-sync-switch .switch-ui::before {
+  background: #fff;
+  border-radius: 10rpx;
+  content: "";
+  height: 28rpx;
+  left: 6rpx;
+  margin-top: -14rpx;
+  position: absolute;
+  top: 50%;
+  width: 28rpx;
+}
+.t6-sync-switch .switch-ui.checked {
+  background: #198cff;
+}
+.t6-sync-switch .switch-ui.checked::before {
+  left: calc(100% - 34rpx);
+}
+.train-12306-login-page .input-txt {
+  background: transparent;
+  box-sizing: border-box;
+  font-weight: 700;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 24rpx 0;
+  width: 100%;
+}
+.train-12306-login-page .input-txt::-webkit-input-placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+.train-12306-login-page .input-txt::-moz-placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+.train-12306-login-page .input-txt:-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+.train-12306-login-page .input-txt::-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+.train-12306-login-page .input-txt::placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+.train-12306-login-page .login-notice {
+  background: #fffaf5;
+  color: #fd8700;
+  font-size: 24rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: -20rpx -44rpx 16rpx;
+  padding-left: 44rpx;
+}
+.train-12306-login-page .login-notice .ifont-notices {
+  color: #f76e21;
+  font-size: 24rpx;
+  margin-right: 8rpx;
+}
+.train-12306-login-page .login-box {
+  border-radius: 40rpx;
+  padding: 0 24rpx;
+}
+.train-12306-login-page .btn-no-login {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.train-12306-login-page .btn-no-login.tit {
+  color: #666;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.train-12306-login-page .login-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-12306-login-page .login-hd .i12306-12306-icon {
+  color: #fff;
+  font-size: 36rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  margin-right: 16rpx;
+  text-align: center;
+  width: 72rpx;
+}
+.train-12306-login-page .login-hd .tit {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.train-12306-login-page .login-hd .txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.train-12306-login-page .login-hd .detail-icon {
+  margin-left: 4rpx;
+}
+.train-12306-login-page .login-bd {
+  margin-top: 20rpx;
+}
+.train-12306-login-page .login-bd .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-bottom: 18rpx;
+}
+.train-12306-login-page .login-bd .input-txt {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 0 32rpx;
+}
+.train-12306-login-page .login-bd .i12306-eyeclosed,
+.train-12306-login-page .login-bd .i12306-eyeopen {
+  color: #666;
+  font-size: 32rpx;
+  margin-right: 32rpx;
+}
+.train-12306-login-page .login-bd .info {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 26rpx;
+}
+.train-12306-login-page .login-bd .info .cont {
+  color: #999;
+  font-size: 24rpx;
+}
+.train-12306-login-page .login-bd .info .rbox {
+  color: #198cff;
+  font-size: 24rpx;
+}
+.train-12306-login-page .login-bd .btn {
+  border-radius: 24rpx;
+  margin-top: 48rpx;
+  text-align: center;
+}
+.train-12306-login-page .login-bd .btn .btn-big {
+  font-size: 36rpx;
+}
+.train-12306-login-page .login-bd .btn .btn-line {
+  margin-top: 20rpx;
+}
+.train-12306-login-page .promote-word {
+  margin-top: 40rpx;
+  text-align: center;
+}
+.train-12306-login-page .promote-word view {
+  color: #666;
+  display: inline-block;
+  font-size: 24rpx;
+  margin-right: 40rpx;
+}
+.train-12306-login-page .promote-word view:last-child {
+  margin-right: 0;
+}
+.train-12306-login-page .promote-word view:before {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACQ1BMVEUAAAD///+qqqr///9mZmaAgIDV1dXb29vf39/j4+NqamrV1dXY2NhtbW3b29vS0tJxcXHX19fOzs5oaGjR0dFvb2/T09PMzMxsbGzOzs5oaGhtbW3MzMxra2vR0dHS0tJqamrPz8/Q0NDR0dHMzMzNzc1nZ2fOzs5nZ2fOzs5oaGhpaWnPz89oaGhpaWnNzc2qqqpmZmZpaWnPz89nZ2fOzs7Nzc3Ozs5mZmbMzMyhoaHNzc3Nzc3Ozs7Pz8/Nzc1nZ2fNzc3IyMjMzMzNzc3Ozs5mZmbMzMzNzc1oaGjOzs5mZmbNzc3Nzc1nZ2dpaWnNzc3Ozs7MzMzMzMzNzc3Nzc3Ozs7Nzc3MzMzOzs7MzMzNzc3Nzc3MzMzMzMzNzc3Nzc3MzMxnZ2dmZmZnZ2dmZmZnZ2eDg4PNzc3MzMxnZ2fNzc1mZmbMzMzMzMzMzMzMzMxnZ2fNzc3Nzc3MzMxnZ2fMzMzNzc3Nzc1nZ2fNzc3Nzc3MzMzMzMzNzc1mZmbMzMzMzMzNzc1mZmbNzc3MzMzMzMxnZ2fNzc3Nzc1mZmbMzMzMzMzNzc3Nzc1mZmbMzMzMzMzNzc3Nzc1nZ2fMzMzNzc3Nzc1mZmZnZ2fMzMzMzMxmZmZmZmbMzMxmZmbMzMxmZmbNzc3MzMxnZ2fMzMzMzMxmZmbMzMxnZ2fNzc1mZmZmZmZmZmbMzMzNzc1mZmbNzc1mZmZ+fn7MzMzMzMxmZmZnZ2fNzc1mZmbNzc1mZmZvb2+SkpKUlJTLy8vMzMx3mwDzAAAAu3RSTlMAAgMDBQYGBwgJDAwNDg4REhMVFhYXFxkaGhscHh8hIiQlJicoKSoqLy8xMzU2ODg5PD1AQ0RISUtLTExNTk9RUlJTVVdYWlpcXV5fYGVmZmZoaWpwcXJ2eIGChIWHiIqLjJCRkpOUlJWXmp6goaWmr7Kys7S1tbe4vLy9vr/Cw8PExsjLzs/Q0NHS0tPV1tfX2drb3d3f4OHi4uPl5ubo6Orq7e7w8fLy8/P09ff3+Pn5+vr6+/z9/f7+50CA5gAAAgRJREFUOMtjYEACfC7Z1X1LNy7qyQ9TYsAOzCo2HkCAngBOTCU6NQfQwHRTNCWMcQcwwa5MbhTHFEOEdzRG+lqaBcQUrIfwp8kjqekECy0KFYKJ8Ad2gIWmisPtKgObEsuDbDhzBNi0bn4oPxHEW2GD7hX1iSDxOmYwRx+sRhPTwzKz9+/bs9cJzK4D2WWNLeQMNu/evdsKxLIDGRSLTY32jN27d6aDmVUgf/FgUeO9dvfu7f4Qz24FKgrBVMKSCrRqmxuE4wFykQiGGtF6oJpNDlBeLlBRI4YavTlANWstYNxaoKJoMMsoxw8m6LcBqGaNCVwPKMSCQAze1bt3J4GFWLOASnYvN0QYvAqoyA7EkNgJlEkBMqSaQWqW6DJgUcSQDJJLYzCaD6IXakDlXWYtcERYx8BUCpKt3AQi56pB1UhuOXBgHpLDGbjad0PBTAWYRe5A6cUoQSA9B6JmiizcNfFA6SbUwNRaCVLTL4Fwci9QOgMtWiy27d7dJYxQYwyKfXv0CPacWyiA5PdyoOQCNgYGW5xJhYHBGSQXhT/RyS0CSi0Tw5t8BSeAZIIhnATsGUF5Mki8kRGapUqwZCnGoKXg7CmGO3Oye7WChRarYsnmDcBsbuoaXrQUwp+kSLDAOFDCT7DomeWIJVTMUQqxFh8O7AEMKg4nLF03uy0vUAVZHAA122Z0SnDOCAAAAABJRU5ErkJggg==)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 24rpx;
+  margin: -4rpx 6rpx 0 0;
+  vertical-align: middle;
+  width: 24rpx;
+}
+.train-12306-login-page .pop-modal-bd-login {
+  color: #666;
+  margin: 30rpx 10rpx 40rpx;
+}
+.train-12306-login-page .pop-modal-bd-login .tc {
+  position: relative;
+  text-align: center;
+}
+.train-12306-login-page .pop-modal-bd-login .tc::before {
+  background-color: #666;
+  border-radius: 4rpx;
+  content: "";
+  height: 4rpx;
+  left: -4rpx;
+  position: absolute;
+  top: 16rpx;
+  width: 4rpx;
+}
+.train-12306-login-page .radio {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 30rpx;
+  margin-right: 14rpx;
+  position: relative;
+  width: 30rpx;
+}
+.zx .train-12306-login-page .radio.selected {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_bin/22-05/icon_yixuanze@3x.png);
+}
+.ty .train-12306-login-page .radio.selected {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_bin/22-05/icon_tieyou_yixuan@3x.png);
+}
+.train-12306-login-page .radio.unselected {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_bin/22-05/icon_weixuanze@3x.png);
+}
+.train-12306-login-page-root .background-root {
+  background: #fff;
+}
+.train-12306-login-page-root .login-rule-pop {
+  color: #333;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  padding: 30rpx 0 40rpx;
+}

@@ -1,0 +1,161 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+page {
+  background-color: #198cff;
+  padding-top: env(safe-area-inset-top);
+}
+.body {
+  padding: 24rpx;
+}
+.scan-container {
+  background-color: #fff;
+  border-radius: 24rpx;
+  height: 750rpx;
+}
+.scan-container-header {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f6faff),
+    color-stop(51.25%, #edf6ff),
+    to(#f6faff)
+  );
+  background: -webkit-linear-gradient(left, #f6faff, #edf6ff 51.25%, #f6faff);
+  background: -o-linear-gradient(left, #f6faff 0, #edf6ff 51.25%, #f6faff 100%);
+  background: linear-gradient(90deg, #f6faff, #edf6ff 51.25%, #f6faff);
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120rpx;
+  justify-content: center;
+}
+.scan-container-header .title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  max-width: 90%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scan-container .scan-container-body .scan-amount {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  height: 170rpx;
+  justify-content: flex-end;
+}
+.scan-container .scan-container-body,
+.scan-container .scan-container-body .scan-amount {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.scan-container .scan-container-body {
+  -ms-flex-pack: justify;
+  box-sizing: border-box;
+  height: calc(100% - 120rpx);
+  justify-content: space-between;
+  padding: 120rpx 40rpx;
+}
+.scan-container .scan-container-body .scan-amount-top {
+  color: #666;
+  font-size: 32rpx;
+}
+.scan-container .scan-container-body .scan-amount-bottom {
+  color: #ff5959;
+}
+.scan-container .scan-container-body .scan-amount-bottom-number {
+  font-family: ZX_2\.0-Regular;
+  font-size: 80rpx;
+}
+.scan-container .scan-container-body .scan-amount-bottom-unit {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+}
+.scan-container .scan-container-body .scan-button {
+  background: #198cff;
+  border-radius: 16rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+}
+.record-container {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  background: #fff;
+  border-radius: 24rpx;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  justify-content: space-between;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+}
+.ifont-back:before {
+  color: #999;
+  content: "";
+  display: block;
+  font-size: 20rpx;
+  transform: rotate(180deg);
+}
+.ifont-large {
+  margin: 30rpx 0;
+}
+.ifont-large:before {
+  color: #fff;
+  display: block;
+  font-size: 48rpx;
+  transform: none;
+}
+.common-modal2 .modal-content {
+  padding: 0;
+}
+.common-modal2 .modal-content .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  margin-bottom: 40rpx;
+}
+.common-modal2 .modal-white {
+  border-radius: 32rpx;
+  box-sizing: border-box;
+  height: 256rpx;
+  padding: 40rpx;
+  width: 600rpx;
+}
+.common-modal2 .modal-white .modal-btn {
+  padding: 0;
+}
+.btn {
+  background: #198cff;
+  background: none;
+  border: none !important;
+  border-radius: 12rpx !important;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  height: 88rpx;
+  width: 250rpx;
+}
+.common-modal2 .modal-white .modal-btn .btn-grey {
+  background: #f5f5f5;
+  color: #666;
+}
+.common-modal2 .modal-panel.zx .modal-white .modal-btn .btn-primary {
+  background: #198cff;
+  color: #fff;
+}

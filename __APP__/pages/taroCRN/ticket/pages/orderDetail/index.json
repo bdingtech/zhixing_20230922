@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "门票订单详情",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#B3D2FF",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

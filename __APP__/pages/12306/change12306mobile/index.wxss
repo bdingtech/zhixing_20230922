@@ -1,0 +1,61 @@
+@import "/pages/12306/sub-vendors.wxss";
+.change-mobile .info {
+  padding: 40rpx;
+}
+.change-mobile .info .text {
+  color: #666;
+  font-size: 28rpx;
+}
+.change-mobile .btn-send {
+  background-color: #fff;
+  margin-bottom: 40rpx;
+  padding: 32rpx 0;
+  text-align: center;
+}
+.change-mobile .container {
+  background-color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.change-mobile .container .input-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  padding: 32rpx 40rpx;
+}
+.change-mobile .container .input-item .label {
+  color: #222;
+  width: 168rpx;
+}
+.change-mobile .container .input-item .input-txt-hold {
+  color: #bbb;
+  flex: 1;
+}
+.change-mobile .container .input-item .input-txt {
+  color: #222;
+  flex: 1;
+}
+.change-mobile .container .line {
+  background-color: #f2f2f2;
+  border-radius: 0;
+  height: 1rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.change-mobile .btn-submit {
+  background: #0080ff;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 40rpx;
+}

@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "backgroundColorBottom": "#efefef",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

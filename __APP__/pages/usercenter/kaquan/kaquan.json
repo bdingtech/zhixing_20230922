@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的卡券包",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0075F4",
+  "backgroundColor": "#0066E6",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

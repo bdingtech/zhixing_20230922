@@ -1,0 +1,36 @@
+.guide-component {
+  position: relative;
+  z-index: 100;
+}
+.guide-component .mask {
+  background-color: #000;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.guide-component .guide-root {
+  position: relative;
+  z-index: 2;
+}
+.guide-component .guide-root .root-display-box {
+  background: #fff;
+  border-radius: 20rpx;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.guide-component .guide-tip {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+}

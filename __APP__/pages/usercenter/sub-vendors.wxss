@@ -1,0 +1,73 @@
+.member-page-grade-progress {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.member-page-grade-progress .grade-progress-line {
+  position: relative;
+}
+.member-page-grade-progress .progress-name {
+  color: #fff;
+  font-size: 20rpx;
+  margin: 16rpx 84rpx 0 0;
+  opacity: 0.5;
+}
+.member-page-grade-progress .progress-name:last-child {
+  margin-right: 0;
+}
+.member-page-grade-progress .progress-name.active {
+  opacity: 1;
+}
+.member-page-grade-progress .round {
+  background-color: #fff;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+  height: 12rpx;
+  opacity: 0.5;
+  width: 12rpx;
+}
+.member-page-grade-progress .round.active {
+  opacity: 1;
+}
+.member-page-grade-progress .round-line {
+  background: #fff;
+  height: 4rpx;
+  opacity: 0.1;
+  width: 112rpx;
+}
+.member-page-grade-progress .active-progress {
+  left: 0;
+  position: absolute;
+}
+.member-page-grade-progress .active-line {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 100%, 0.1)),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0.1), #fff);
+  background: -o-linear-gradient(left, hsla(0, 0%, 100%, 0.1) 0, #fff 100%);
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.1), #fff);
+  border-radius: 4rpx 0 0 4rpx;
+  height: 4rpx;
+  width: 100%;
+}
+.member-page-grade-progress .active-round {
+  background: hsla(0, 0%, 100%, 0.3);
+  border-radius: 24rpx;
+  height: 24rpx;
+  position: absolute;
+  width: 24rpx;
+}
+.member-page-grade-progress .progress-arrow {
+  height: 16rpx;
+  position: absolute;
+  top: 58rpx;
+  width: 60rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "备选车次",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#EFEFEF",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

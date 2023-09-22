@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "监控详情",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#3C4365",
+  "backgroundColorTop": "#3C4365",
+  "backgroundColorBottom": "#EFEFEF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

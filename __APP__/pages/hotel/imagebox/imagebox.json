@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "图片浏览",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#1B1B1B",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

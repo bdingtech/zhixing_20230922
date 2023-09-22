@@ -1,0 +1,315 @@
+.ins-detail-cont {
+  background: var(--background-img) no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  max-height: 80vh;
+  position: relative;
+}
+.ins-detail-cont.inland-ins {
+  --bg-color: #e5f7f2;
+  --title-color: #00513c;
+  --desc-color: #4c8576;
+  --container-color: #f1fdf9;
+  --border-color: #d2f1e5;
+  --circle-color-1: #e5ffef;
+  --circle-color-2: #0bcb92;
+  --title-marker: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/ywx_biaozi.png);
+  --background-img: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/ywx_dbg.png);
+}
+.ins-detail-cont.combine-ins {
+  --bg-color: #e5f7f7;
+  --title-color: #023864;
+  --desc-color: #4c8085;
+  --container-color: #f1fcfe;
+  --border-color: #cbf7ff;
+  --circle-color-1: #d3eeff;
+  --circle-color-2: #199fff;
+  --title-marker: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/zhx_biaozi.png);
+  --background-img: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/zhuhexian_bg.png);
+}
+.ins-detail-cont.delay-ins {
+  --bg-color: #f7f4e5;
+  --title-color: #662203;
+  --desc-color: #844f28;
+  --container-color: #fffbee;
+  --border-color: #ffedcb;
+  --circle-color-1: #ffe8d3;
+  --circle-color-2: #ff9406;
+  --title-marker: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/yanwu_biaozi.png);
+  --background-img: url(https://images3.c-ctrip.com/ztrip/zhixingios/baoxianshoumai/xianqin/yanwuxian_bg.png);
+}
+.ins-detail-cont .ins-icon {
+  height: 240rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 360rpx;
+}
+.ins-detail-cont .cont-list {
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: 16rpx;
+}
+.ins-detail-cont .ins-hd {
+  padding: 52rpx 48rpx 26rpx;
+}
+.ins-detail-cont .ins-hd .tit-img {
+  height: 48rpx;
+  width: 332rpx;
+}
+.ins-detail-cont .ins-hd .ins-desc {
+  margin-top: 14rpx;
+}
+.ins-detail-cont .ins-hd .ins-desc .desc-logo {
+  height: 32rpx;
+  margin-right: 10rpx;
+}
+.ins-detail-cont .ins-hd .ins-desc .desc-txt {
+  color: var(--desc-color);
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+}
+.ins-detail-cont .white-card {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx;
+}
+.ins-detail-cont .white-card:not(:last-child) {
+  margin-bottom: 16rpx;
+}
+.ins-detail-cont .white-card:last-child {
+  margin-bottom: 240rpx;
+}
+.ins-detail-cont .content-tit {
+  margin: 16rpx auto 24rpx;
+  width: 100%;
+}
+.ins-detail-cont .content-tit .title-img {
+  height: 48rpx;
+}
+.ins-detail-cont .content-tit .title-mark {
+  background: var(--title-marker) no-repeat;
+  background-size: cover;
+  height: 18rpx;
+  width: 84rpx;
+}
+.ins-detail-cont .content-tit .title-mark.left {
+  margin-right: 20rpx;
+}
+.ins-detail-cont .content-tit .title-mark.right {
+  margin-left: 20rpx;
+  transform: rotate(180deg);
+}
+.ins-detail-cont .ins-center,
+.ins-detail-cont .ins-feature {
+  width: 100%;
+}
+.ins-detail-cont .ins-center {
+  padding-top: 14rpx;
+}
+.ins-detail-cont .tip-cont {
+  background: var(--container-color);
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  color: var(--title-color);
+  display: block;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  padding: 18rpx 20rpx;
+}
+.ins-detail-cont .ins-detail-table {
+  margin: 32rpx 12rpx 12rpx;
+}
+.ins-detail-cont .ins-detail-table .zt-table {
+  border: 1rpx solid var(--border-color);
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.ins-detail-cont .ins-detail-table .zt-tr {
+  height: 90rpx;
+}
+.ins-detail-cont .ins-detail-table .zt-th {
+  background: var(--container-color);
+  border-bottom: none;
+  border-right: none;
+  color: var(--desc-color);
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  padding-left: 32rpx;
+  vertical-align: middle;
+}
+.ins-detail-cont .ins-detail-table .zt-th:last-child {
+  padding-left: 52rpx;
+}
+.ins-detail-cont .ins-detail-table .zt-td {
+  border-color: var(--border-color);
+  color: var(--title-color);
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 36rpx;
+  padding-left: 32rpx;
+  text-align: left;
+}
+.ins-detail-cont .ins-detail-table .zt-td:last-child {
+  min-width: 204rpx;
+  padding-left: 52rpx;
+}
+.ins-detail-cont .claims-process {
+  margin-top: 32rpx;
+  padding: 6rpx 0 14rpx 14rpx;
+}
+.ins-detail-cont .claims-process .process:not(:last-child) {
+  margin-bottom: 14rpx;
+}
+.ins-detail-cont .claims-process .process:not(:last-child) .proc-bd::before {
+  border-left: 1rpx dashed var(--circle-color-2);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 16rpx;
+  position: absolute;
+  top: 0;
+  width: 1rpx;
+}
+.ins-detail-cont .claims-process .proc-hd {
+  margin-bottom: 12rpx;
+}
+.ins-detail-cont .claims-process .proc-num {
+  background: var(--circle-color-2);
+  border-radius: 50%;
+  box-shadow: var(--circle-color-1) 0 0 0 6rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 32rpx;
+  margin-right: 22rpx;
+  text-align: center;
+  width: 32rpx;
+}
+.ins-detail-cont .claims-process .proc-tit {
+  color: var(--title-color);
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 36rpx;
+}
+.ins-detail-cont .claims-process .proc-bd {
+  color: var(--desc-color);
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  padding: 0 0 28rpx 54rpx;
+  position: relative;
+}
+.ins-detail-cont .ins-detail-desc,
+.ins-detail-cont .ins-detail-tip {
+  color: var(--title-color);
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  white-space: pre-line;
+}
+.ins-detail-cont .ins-detail-tip .navigator {
+  display: inline-block;
+}
+.ins-detail-cont .divider {
+  border-bottom: 1rpx solid #eee;
+  height: 1rpx;
+  margin: 24rpx 0;
+  width: 100%;
+}
+.ins-detail-cont .ins-type-list {
+  box-sizing: border-box;
+  padding: 8rpx 12rpx 28rpx;
+  width: 100%;
+}
+.ins-detail-cont .ins-type-list .ins-type {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  line-height: 1;
+  padding: 20rpx;
+  position: relative;
+}
+.ins-detail-cont .ins-type-list .ins-type:not(:last-child) {
+  margin-right: 12rpx;
+}
+.ins-detail-cont .ins-type-list .ins-type.select {
+  background: #f9fbff;
+  border: 1rpx solid #198cff;
+  border-radius: 16rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.ins-detail-cont .btn-box {
+  flex-direction: column;
+}
+.ins-detail-cont .btn-box .add-ins {
+  border-radius: 20rpx;
+  height: 88rpx;
+  width: 100%;
+}
+.ins-detail-drawer {
+  position: relative;
+  z-index: 20003;
+}
+.ins-detail-drawer .close {
+  z-index: 2;
+}
+.flt-intl-banners {
+  background: #fff;
+  border-radius: 20rpx;
+  height: 80rpx;
+  margin: 12rpx;
+  padding: 4rpx;
+}
+.flt-intl-banners .banner-wrap {
+  height: 100%;
+  position: relative;
+}
+.flt-intl-banners .banner-item {
+  background-size: cover;
+  border-radius: 16rpx;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 24rpx;
+}
+.flt-intl-banners .banner-icon {
+  height: 40rpx;
+  margin-right: 16rpx;
+  width: 40rpx;
+}
+.flt-intl-banners .banner-cont {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+.flt-intl-banners .banner-right .ifont2-arr {
+  color: #ccc;
+  font-size: 20rpx;
+}
+.flt-intl-banners .right-btn {
+  border: 2rpx solid #ff5959;
+  border-radius: 14rpx;
+  box-sizing: border-box;
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 32rpx;
+  padding: 8rpx 20rpx;
+}
+.flt-intl-banners .pr-48 {
+  padding-right: 48rpx;
+}
+.flt-intl-banners .close-btn {
+  height: 36rpx;
+  position: absolute;
+  right: 12rpx;
+  top: 12rpx;
+  width: 36rpx;
+}

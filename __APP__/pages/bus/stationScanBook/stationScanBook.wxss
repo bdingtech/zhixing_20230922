@@ -1,0 +1,641 @@
+@charset "UTF-8";
+@import "/pages/bus/sub-vendors.wxss";
+.bus-station-scan-price-modal {
+  opacity: 0.5;
+  position: relative;
+  transition: all 0.2s ease-out;
+  visibility: hidden;
+  z-index: 3;
+}
+.bus-station-scan-price-modal.v {
+  opacity: 1;
+  visibility: visible;
+}
+.bus-station-scan-price-modal .shadow {
+  background: #333;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.bus-station-scan-price-modal .price-modal-body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5);
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: calc(128rpx + env(safe-area-inset-bottom) - 314rpx);
+  left: 0;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  z-index: 1;
+}
+.bus-station-scan-price-modal .price-modal-body .main-content {
+  background: #fff;
+  border-radius: 28rpx;
+  margin: 20rpx 16rpx 26rpx;
+  padding: 30rpx 24rpx;
+}
+.bus-station-scan-price-modal .price-modal-body .main-content .price-li {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .sum-con.price-li {
+  border-bottom: 2rpx dashed #e5e5e5;
+  margin-bottom: 26rpx;
+  padding-bottom: 28rpx;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .sum-con.price-li
+  .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .sum-con.price-li
+  .price {
+  color: #fa5a57;
+  font-family: ZX-Regular;
+  font-size: 44rpx;
+  font-weight: 400;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .sum-con.price-li
+  .price::before {
+  content: "￥";
+  font-size: 28rpx;
+  font-weight: 700;
+  position: relative;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .normal-li.price-li
+  .tit {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .normal-li.price-li
+  .price {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .normal-li.price-li
+  .price::before {
+  content: "￥";
+  font-weight: 700;
+  position: relative;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .price-type-title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+.bus-station-scan-price-modal .price-modal-body .main-content .price-type-li {
+  margin-bottom: 26rpx;
+}
+.bus-station-scan-price-modal
+  .price-modal-body
+  .main-content
+  .price-type-li:last-child {
+  margin-bottom: 0;
+}
+.bus-station-scan-price-modal.v .price-modal-body {
+  bottom: calc(128rpx + env(safe-area-inset-bottom));
+}
+.bus-station-book-coupon-layer {
+  background: #fff;
+  background-image: url(https://pages.c-ctrip.com/bus-images/zhixing/icon/dbbg@3x.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 28rpx 28rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 27.5rpx 24rpx;
+}
+.bus-station-book-coupon-layer .lf {
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+.bus-station-book-coupon-layer .lf .coupon-icon {
+  height: 70rpx;
+  margin-right: 10rpx;
+  width: 84rpx;
+}
+.bus-station-book-coupon-layer .lf .coupon-info {
+  -ms-flex-pack: center;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-title {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-title .red {
+  color: #fa5a57;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-title .tag {
+  background: -webkit-linear-gradient(14.28deg, #ff6d2d, #ff2525);
+  background: -o-linear-gradient(14.28deg, #ff6d2d 0, #ff2525 100%);
+  background: linear-gradient(75.72deg, #ff6d2d, #ff2525);
+  border-radius: 34rpx 34rpx 34rpx 2rpx;
+  bottom: 6rpx;
+  color: #fff;
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-left: 10rpx;
+  position: relative;
+  text-align: center;
+  width: 120rpx;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-desc {
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #b60000;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  justify-content: flex-start;
+  line-height: 30rpx;
+  margin-top: 2rpx;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-desc .desc-text {
+  opacity: 0.6;
+}
+.bus-station-book-coupon-layer .lf .coupon-info .coupon-desc .coupon-tip-icon {
+  height: 22rpx;
+  margin-left: 8rpx;
+  opacity: 1;
+  width: 22rpx;
+}
+.bus-station-book-coupon-layer .rt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.bus-station-book-coupon-layer .rt .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 44rpx;
+  font-weight: 400;
+  line-height: 44rpx;
+}
+.bus-station-book-coupon-layer .rt .price::before {
+  content: "￥";
+  font-size: 28rpx;
+}
+.bus-station-book-coupon-layer .rt .switch-comp {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ff5959;
+  border-radius: 200rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44rpx;
+  justify-content: center;
+  margin-left: 8rpx;
+  opacity: 0.4;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 72rpx;
+}
+.bus-station-book-coupon-layer .rt .switch-comp::before {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 36rpx;
+  left: -14rpx;
+  position: relative;
+  width: 36rpx;
+}
+.bus-station-book-coupon-layer .rt .switch-comp.switched {
+  background: #ff5959;
+  opacity: 1;
+}
+.bus-station-book-coupon-layer .rt .switch-comp.switched::before {
+  left: 14rpx;
+}
+.bus-station-book-coupon-layer .rt:active {
+  opacity: 0.5;
+}
+.bus-StationScanBook-page {
+  background: #efefef;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.bus-StationScanBook-page .top-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2693ff),
+    to(#06f)
+  );
+  background: -webkit-linear-gradient(left, #2693ff, #06f);
+  background: -o-linear-gradient(left, #2693ff 0, #06f 100%);
+  background: linear-gradient(90deg, #2693ff, #06f);
+  height: 540rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.bus-StationScanBook-page .top-bg::before {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.bus-StationScanBook-page .book-content {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.bus-StationScanBook-page .bus-station-header {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.bus-StationScanBook-page .bus-station-header.showbg {
+  background: #fff;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+.bus-StationScanBook-page .title-content {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin: 0 20rpx 30rpx;
+  padding: 10rpx 10rpx 0;
+}
+.bus-StationScanBook-page .title-content .title-icon {
+  height: 72rpx;
+  width: 72rpx;
+}
+.bus-StationScanBook-page .title-content .title-info {
+  color: #fff;
+  flex: auto;
+  margin-left: 24rpx;
+}
+.bus-StationScanBook-page .title-content .title-info .title {
+  font-family: PingFangSC-Medium;
+  font-size: 44rpx;
+  font-weight: 500;
+  height: 60rpx;
+  letter-spacing: 0;
+}
+.bus-StationScanBook-page .title-content .title-info .info {
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 8rpx;
+  opacity: 0.8;
+}
+.bus-StationScanBook-page .trip-card {
+  background: #fff;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20rpx 20rpx;
+  padding: 36rpx 30rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info,
+.bus-StationScanBook-page .trip-card .trip-time-info .left {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info .left {
+  -ms-flex-pack: start;
+  flex: auto;
+  justify-content: flex-start;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info .left .tag {
+  background: #198cff;
+  border-radius: 20rpx;
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 12rpx;
+  padding: 0 12rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info .left .from-time-info {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 44rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info .right.times-use {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-time-info .right.times-use::before {
+  background: url(https://pages.c-ctrip.com/bus-images/zhixing/icon/time@3x.png)
+    no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 24rpx;
+  margin-right: 6rpx;
+  width: 24rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-station-info {
+  padding-left: 28rpx;
+  position: relative;
+}
+.bus-StationScanBook-page .trip-card .trip-station-info .from,
+.bus-StationScanBook-page .trip-card .trip-station-info .to {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  height: 59rpx;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bus-StationScanBook-page .trip-card .trip-station-info .from {
+  margin-bottom: 24rpx;
+}
+.bus-StationScanBook-page .trip-card .trip-station-info::before {
+  background: #ededed;
+  border-radius: 4rpx;
+  content: "";
+  height: calc(100% - 59rpx);
+  left: 0;
+  position: absolute;
+  top: 28rpx;
+  width: 8rpx;
+}
+.bus-StationScanBook-page .payment-desk {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 20rpx env(safe-area-inset-bottom);
+  position: fixed;
+  width: calc(100% - 40rpx);
+  z-index: 4;
+}
+.bus-StationScanBook-page .payment-desk .left .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 56rpx;
+  font-weight: 400;
+  height: 68rpx;
+  letter-spacing: 0;
+  margin-right: 10rpx;
+}
+.bus-StationScanBook-page .payment-desk .left .price::before {
+  content: "￥";
+  font-size: 36rpx;
+  font-weight: 700;
+  position: relative;
+}
+.bus-StationScanBook-page .payment-desk .left .pass-count {
+  bottom: 4rpx;
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+  position: relative;
+}
+.bus-StationScanBook-page .payment-desk .right,
+.bus-StationScanBook-page .payment-desk .right .detail {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.bus-StationScanBook-page .payment-desk .right .detail {
+  color: #999;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 40rpx;
+  letter-spacing: 0;
+  margin-right: 30rpx;
+}
+.bus-StationScanBook-page .payment-desk .right .detail:active {
+  opacity: 0.5;
+}
+.bus-StationScanBook-page .payment-desk .right .detail::after {
+  background: url(https://pages.c-ctrip.com/bus-images/zhixing/icon/icon_x@3x.png)
+    no-repeat 50%;
+  background-size: 100%auto;
+  content: "";
+  display: inline-block;
+  height: 24rpx;
+  margin-left: 12rpx;
+  transform-origin: center;
+  width: 24rpx;
+}
+.bus-StationScanBook-page .payment-desk .right .detail.v {
+  color: #198cff;
+}
+.bus-StationScanBook-page .payment-desk .right .detail.v::after {
+  transform: rotate(-180deg);
+}
+.bus-StationScanBook-page .payment-desk .right .pay-btn {
+  background: #ff5959;
+  border-radius: 44rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  width: 320rpx;
+}
+.bus-StationScanBook-page .payment-desk .right .pay-btn.disabled,
+.bus-StationScanBook-page .payment-desk .right .pay-btn:active {
+  opacity: 0.5;
+}
+.bus-StationScanBook-page .tel-comp {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding: 30rpx 40rpx;
+}
+.bus-StationScanBook-page .tel-comp,
+.bus-StationScanBook-page .tel-comp .title {
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+}
+.bus-StationScanBook-page .tel-comp .title {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  font-weight: 400;
+  height: 40rpx;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-right: 48rpx;
+}
+.bus-StationScanBook-page .tel-comp .title .tel-icon-img {
+  height: 36rpx;
+  margin-right: 28rpx;
+  width: 24rpx;
+}
+.bus-StationScanBook-page .tel-comp .input-dom {
+  flex: 1;
+}
+.bus-StationScanBook-page .tel-comp .input-dom .input-dom-placeholder {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.bus-StationScanBook-page
+  .tel-comp
+  .input-dom.warning-input
+  .input-dom-placeholder {
+  color: #ff5959;
+}
+.bus-StationScanBook-page .bus-station-book-coupon-layer {
+  bottom: calc(128rpx + env(safe-area-inset-bottom));
+  left: 0;
+  position: fixed;
+  right: 0;
+}

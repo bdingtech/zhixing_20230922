@@ -1,0 +1,446 @@
+.combine-seat-intro-dialog .combine-seat-img {
+  height: 908rpx;
+  width: 600rpx;
+}
+.combine-seat-intro-dialog .combine-seat-img.stride {
+  height: 770rpx;
+}
+.train-combine-seat-intro-pop {
+  overflow: hidden;
+  position: relative;
+}
+.train-combine-seat-intro-pop .bg-img {
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  top: -140rpx;
+  width: 100%;
+}
+.train-combine-seat-intro-pop .title-content {
+  left: 0;
+  padding-left: 48rpx;
+  position: absolute;
+  top: -110rpx;
+}
+.train-combine-seat-intro-pop .title-content .title .img {
+  height: 56rpx;
+  margin-right: 12rpx;
+  width: 314rpx;
+}
+.train-combine-seat-intro-pop .title-content .title .name {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#198cff),
+    to(#0dc2ff)
+  );
+  background: -webkit-linear-gradient(left, #198cff, #0dc2ff);
+  background: -o-linear-gradient(left, #198cff 0, #0dc2ff 100%);
+  background: linear-gradient(90deg, #198cff, #0dc2ff);
+  border-radius: 12rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 36rpx;
+  padding: 4rpx 12rpx;
+}
+.train-combine-seat-intro-pop .title-content .desc {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-top: 10rpx;
+  opacity: 0.8;
+}
+.train-combine-seat-intro-pop .scheme-icon {
+  height: 170rpx;
+  position: absolute;
+  right: 0;
+  top: -156rpx;
+  width: 242rpx;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 16rpx 16rpx env(safe-area-inset-bottom);
+  padding: 16rpx;
+  position: relative;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .head-info {
+  -ms-flex-pack: justify;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  justify-content: space-between;
+  padding: 14rpx;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .head-info
+  .seat {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .route-map {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30rpx;
+  padding: 0 14rpx;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times
+  .times-item {
+  color: #333;
+  font-size: 40rpx;
+  font-weight: 400;
+  height: 44rpx;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times
+  .times-item
+  .time-content {
+  position: relative;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times
+  .times-item
+  .time-content
+  .diff-day {
+  bottom: 32rpx;
+  font-size: 18rpx;
+  font-weight: 500;
+  height: 30rpx;
+  position: absolute;
+  right: 0;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times
+  .times-item
+  .time-content
+  .diff-day.zx {
+  color: #198cff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .times
+  .times-item
+  .time-content
+  .diff-day.ty {
+  color: #fc6e51;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .route-map
+  .font-gray {
+  color: #999;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .trains-label {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 8rpx;
+  width: 100%;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .line-style {
+  position: absolute;
+  width: 100%;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .line-style.zx {
+  border-bottom: 2rpx solid #9ec6ff;
+  border-top: 2rpx solid #9ec6ff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .line-style.ty {
+  border-bottom: 2rpx solid #fec5b9;
+  border-top: 2rpx solid #fec5b9;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .dash-line-style {
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .dash-line-style.zx {
+  border-bottom: 2rpx dashed #9ec6ff;
+  border-top: 2rpx dashed #9ec6ff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .dash-line-style.ty {
+  border-bottom: 2rpx dashed #fec5b9;
+  border-top: 2rpx dashed #fec5b9;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .tag-style {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .border {
+  background: #fff;
+  border-radius: 12rpx;
+  font-size: 22rpx;
+  margin: 8rpx 0 4rpx;
+  padding: 3rpx;
+  width: 100%;
+  z-index: 5;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .border.zx {
+  border: 3rpx solid #9ec6ff;
+  color: #198cff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .border.ty {
+  border: 3rpx solid #fec5b9;
+  color: #fc6e51;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .circle {
+  background: #fff;
+  border-radius: 50%;
+  height: 10rpx;
+  opacity: 0.7;
+  width: 10rpx;
+  z-index: 5;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .circle.zx {
+  border: 5rpx solid #9ec6ff;
+  color: #198cff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .circle.ty {
+  border: 5rpx solid #fec5b9;
+  color: #fc6e51;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .solid {
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 22rpx;
+  margin: 8rpx 0 4rpx;
+  padding: 3rpx;
+  z-index: 5;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .solid.zx {
+  background: #198cff;
+  border: 3rpx solid #198cff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .solid.ty {
+  background: #fc6e51;
+  border: 3rpx solid #fc6e51;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .light-solid {
+  border-radius: 12rpx;
+  font-size: 22rpx;
+  margin: 8rpx 0 4rpx;
+  padding: 6rpx;
+  z-index: 5;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .light-solid.zx {
+  background: #e6f0ff;
+  color: #198cff;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .trains-label
+  .label-item
+  .light-solid.ty {
+  background: #fec5b9;
+  color: #fc6e51;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .stations {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-combine-seat-intro-pop
+  .combine-seat-intro-pop
+  .content
+  .stations
+  .font-gray {
+  color: #999;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .start {
+  -ms-flex-pack: start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .center {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.train-combine-seat-intro-pop .combine-seat-intro-pop .content .end {
+  -ms-flex-pack: end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+}
+.train-combine-seat-intro-pop .tips {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  padding: 6rpx 24rpx 20rpx;
+}
+.train-combine-seat-intro-pop .tips .tips-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 14rpx;
+}
+.train-combine-seat-intro-pop .tips .tips-item .tips-item {
+  flex: 1;
+}
+.train-combine-seat-intro-pop .tips .tips-item .tips-icon {
+  background: #d8d8d8;
+  border-radius: 50%;
+  height: 10rpx;
+  margin: 26rpx 12rpx 0 0;
+  width: 10rpx;
+}

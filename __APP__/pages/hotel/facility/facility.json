@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "卖点·详情",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#efefef",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

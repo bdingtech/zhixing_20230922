@@ -1,0 +1,165 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+.self-ticket-card {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 32rpx;
+}
+.stc-train-icon {
+  height: 40rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+}
+.stc-title {
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.stc-status,
+.stc-title {
+  font-size: 28rpx;
+  height: 36rpx;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.stc-status {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+}
+.stc-content {
+  padding: 22rpx 0 36rpx;
+}
+.stc-train-info {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+}
+.stc-price {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.stc-rmb {
+  font-size: 28rpx;
+}
+.stc-price-num,
+.stc-rmb {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.stc-price-num {
+  font-size: 36rpx;
+  margin-left: 2rpx;
+}
+.stc-cont-subtitle {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-top: 14rpx;
+}
+.stc-bottom {
+  height: 68rpx;
+  position: relative;
+}
+.stc-btn-txt,
+.stc-tip {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+page {
+  height: 100vh;
+}
+.self-ticket-order-list {
+  background: #f5f5f5;
+  height: 100%;
+  position: relative;
+}
+.self-ticket-order-list-content {
+  flex: 1;
+  min-height: 2rpx;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.sto-tip {
+  background: #fffaf5;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding: 20rpx 32rpx;
+}
+.sto-tip-icon {
+  height: 28rpx;
+  margin-right: 10rpx;
+  width: 28rpx;
+}
+.sto-tip-txt {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.sto-fade-animation {
+  animation: breathing 1.2s infinite;
+  background: #f7f7f7;
+  border-radius: 8rpx;
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.skt-tip {
+  background: #fff;
+  border-radius: 24rpx;
+  height: 72rpx;
+  margin: 16rpx;
+}
+.self-ticket-card-skeleton {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 32rpx;
+}
+.skt-content {
+  margin: 18rpx 0 38rpx;
+}
+.skt-cont-title {
+  margin-bottom: 12rpx;
+}

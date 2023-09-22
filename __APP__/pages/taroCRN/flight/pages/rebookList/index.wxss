@@ -1,0 +1,420 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+.flt-calendar {
+  width: 100vw;
+}
+.flt-calendar .calendar-list-wrapper {
+  margin-left: 16rpx;
+  min-width: 2rpx;
+}
+.flt-calendar .calendar-list {
+  height: 88rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.flt-calendar .calendar-list .item {
+  box-sizing: border-box;
+  color: #222;
+  display: inline-block;
+  margin-right: 10rpx;
+  padding: 16rpx 0 12rpx;
+  text-align: center;
+  width: 136rpx;
+}
+.flt-calendar .calendar-list .item.cur {
+  background: #198cff;
+  border-radius: 20rpx;
+  color: #fff;
+}
+.flt-calendar .calendar-list .title {
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 24rpx;
+  line-height: 24rpx;
+}
+.flt-calendar .calendar-list .sub-title {
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-top: 4rpx;
+}
+.flt-calendar .calendar-list .sub-title.show-price {
+  margin-top: 6rpx;
+}
+.flt-calendar .calendar-all {
+  height: 88rpx;
+  position: relative;
+  width: 104rpx;
+}
+.flt-calendar .calendar-all::before {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/order_details/V10.0/lby/img_mc@3x.webp)
+    no-repeat 50% / cover;
+  content: "";
+  height: 88rpx;
+  left: -30rpx;
+  position: absolute;
+  width: 30rpx;
+}
+.flt-calendar .ifont2-calendar {
+  color: #222;
+  font-size: 48rpx;
+}
+.flt-calendar .rest-icon {
+  border: 2rpx solid #222;
+  border-radius: 16rpx;
+  color: #222;
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+  margin: 0-6rpx 0-4rpx;
+  transform: scale(0.5);
+  transform-origin: center;
+  width: 44rpx;
+}
+.flt-calendar .rest-icon.cur {
+  border: 2rpx solid #fff;
+  color: #fff;
+}
+._Bq {
+  margin: 0 12rpx 12rpx;
+}
+._Cq {
+  padding: 22rpx 30rpx 20rpx;
+}
+._Dq {
+  margin-bottom: 22rpx;
+}
+._Eq {
+  font-size: 46rpx;
+}
+._Oc {
+  line-height: 48rpx;
+}
+._Fq {
+  width: 120rpx;
+}
+._Gq {
+  width: 108rpx;
+}
+._Hq {
+  margin: 0 36rpx;
+}
+._jj {
+  background-color: #fff;
+}
+._Kc {
+  color: #999;
+}
+._Ag {
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+}
+._Ol {
+  height: 26rpx;
+}
+._Iq {
+  margin-right: 2rpx;
+}
+._wl {
+  width: 1rpx;
+}
+._Jq {
+  height: 14rpx;
+}
+._Kq {
+  background: #d8d8d8;
+}
+._fl {
+  margin: 0 8rpx;
+}
+._pf {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+._Ze {
+  color: #ff5959;
+}
+._rk {
+  font-size: 48rpx;
+}
+._Qj {
+  line-height: 50rpx;
+}
+._eq {
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+._xn {
+  margin-bottom: 28rpx;
+}
+._Di {
+  text-align: right;
+}
+._Lq {
+  height: 228rpx;
+}
+._Mq {
+  margin-top: 400rpx;
+}
+._Nq {
+  width: 424rpx;
+}
+._fe {
+  height: 200rpx;
+}
+._Ej {
+  font-size: 32rpx;
+}
+._Ej,
+._mk {
+  font-family: PingFangSC-Regular;
+}
+._mk {
+  font-size: 26rpx;
+}
+._gl {
+  z-index: 1000;
+}
+._nj {
+  flex: 1;
+  flex-direction: column;
+}
+._Hp {
+  margin-bottom: 4rpx;
+}
+._af {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+}
+._Rp {
+  color: #fd8700;
+}
+._Sp {
+  background: #fffaf5;
+}
+._Tp {
+  padding: 18rpx 32rpx;
+}
+._Up {
+  margin: 8rpx 12rpx 12rpx;
+}
+._Vp {
+  color: #3c5a86;
+}
+._Wp {
+  font-size: 22rpx;
+  font-weight: 500;
+}
+._xh {
+  color: #3c5a86;
+}
+._go {
+  background-color: #f5f5f5;
+}
+._lm {
+  height: 320rpx;
+}
+._Xp {
+  margin: 34rpx 0;
+}
+._in {
+  z-index: 2;
+}
+._ok {
+  color: #333;
+}
+._qk {
+  right: 32rpx;
+}
+._Bd {
+  color: #ccc;
+}
+._Yp {
+  margin: 0 16rpx;
+}
+._Uf {
+  padding: 32rpx;
+}
+._Zp {
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+}
+._Lp {
+  height: 296rpx;
+}
+._Gi {
+  margin-bottom: 8rpx;
+}
+._Pp {
+  width: 560rpx;
+}
+._pd {
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+._Yn {
+  margin-bottom: 24rpx;
+}
+._Ti {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+}
+._Qp {
+  margin: 0 40rpx 56rpx;
+}
+._Cc {
+  padding: 0 32rpx;
+}
+._Rh {
+  margin-bottom: 16rpx;
+}
+._vd {
+  background: #edf6ff;
+}
+._Qf {
+  margin-right: 16rpx;
+}
+._vj {
+  background: #f5f5f5;
+}
+._Aj {
+  min-height: 2rpx;
+}
+._sj {
+  overflow-y: auto;
+}
+._Bj {
+  margin-top: 10rpx;
+}
+._wj {
+  height: 560rpx;
+}
+._Oq {
+  padding: 0 40rpx 40rpx;
+}
+._qq {
+  top: -8rpx;
+}
+._rq {
+  right: 0;
+}
+._Pq {
+  background: #fff8ed;
+}
+._vi {
+  border-radius: 12rpx;
+}
+._Qq {
+  margin-bottom: 32rpx;
+}
+._Rq {
+  color: #f76e21;
+}
+._Sq {
+  margin-bottom: -2rpx;
+  margin-right: 4rpx;
+}
+._cj {
+  width: 2rpx;
+}
+._Tq {
+  background: #f76e21;
+}
+._Uq {
+  margin-bottom: -2rpx;
+  margin-left: 10rpx;
+  margin-right: 16rpx;
+}
+._eg {
+  height: 34rpx;
+}
+._Vq {
+  width: 360rpx;
+}
+._Wq {
+  margin-bottom: -2rpx;
+}
+._Ym {
+  white-space: nowrap;
+}
+._Xm {
+  text-overflow: ellipsis;
+}
+._Xq {
+  background-color: #f7f9fd;
+}
+._Zm {
+  margin-top: 22rpx;
+}
+._Yq {
+  height: 2rpx;
+}
+._Zq {
+  background-color: #0080ff;
+}
+._ar {
+  margin: 2rpx 2rpx 2rpx 12rpx;
+}
+._Rj {
+  height: 28rpx;
+}
+._Tj {
+  width: 28rpx;
+}
+._br {
+  background-color: #e0edfe;
+}
+._On {
+  margin-right: 10rpx;
+}
+._Fc {
+  color: #0080ff;
+}
+._Lo {
+  padding: 20rpx 0;
+}
+._cr {
+  border: 2rpx solid #0080ff;
+}
+._cr,
+._dr {
+  border-radius: 48rpx;
+}
+._Xf {
+  margin-left: 20rpx;
+}
+._qf {
+  margin-top: 60rpx;
+}
+.refund-detail-head-view.common-head-view .top-bar {
+  color: #222;
+}
+.refund-detail-head-view.common-head-view .top-bar.fixed {
+  background: transparent;
+}
+.refund-detail-head-view.common-head-view .top-bar .tit .title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+}
+.head-view-place-holder {
+  height: 88rpx;
+  position: relative;
+  width: 100vw;
+  z-index: -1000;
+}
+page {
+  height: 100vh;
+}

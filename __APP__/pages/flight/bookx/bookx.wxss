@@ -1,0 +1,2895 @@
+@charset "UTF-8";
+@import "/pages/flight/sub-vendors.wxss";
+@import "/pages/flight/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+@import "/pages/flight/sub-common/cb60df26715b55121e7e8e93131d105d.wxss";
+@import "/pages/flight/sub-common/fa100b4d0df918bb326f38abed01ce42.wxss";
+@import "/pages/flight/sub-common/8dc8004593f7bd9cd1d8d395733401d6.wxss";
+@import "/pages/flight/sub-common/53948defd8dcbffac38ad89b13b92b00.wxss";
+@import "/pages/flight/sub-common/6bc784c5fa07ff338d099f8b9a233dbf.wxss";
+@import "/pages/flight/sub-common/5e1fd1858439c7431a3d4add0d231fa0.wxss";
+@import "/pages/flight/sub-common/0e10418e4827a63c37420d1e1d9c2589.wxss";
+.notice-drawer {
+  background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#fff),
+        to(#f5f5f5)
+      )
+      no-repeat,
+    #f5f5f5;
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5) no-repeat, #f5f5f5;
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%) no-repeat, #f5f5f5;
+  background: linear-gradient(-180deg, #fff, #f5f5f5) no-repeat, #f5f5f5;
+  background-size: 100% 280rpx, contain;
+  padding-bottom: 122rpx;
+}
+.notice-drawer .notice-drawer-hd {
+  padding: 32rpx 0;
+  position: relative;
+}
+.notice-drawer .notice-drawer-hd.single {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.notice-drawer .notice-drawer-hd.multi {
+  font-family: PingFangSC-Regular;
+}
+.notice-drawer .notice-drawer-hd.multi .cur {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.notice-drawer .notice-cate {
+  font-size: 34rpx;
+  line-height: 42rpx;
+}
+.notice-drawer .notice-hd-scroll {
+  bottom: 1rpx;
+  left: 0;
+  position: absolute;
+  width: 50%;
+}
+.notice-drawer .notice-hd-scroll .notice-scrollbar {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff 0, #07f 100%);
+  background: linear-gradient(90deg, #0daeff, #07f);
+  border-radius: 8rpx 8rpx 0 0;
+  height: 10rpx;
+  width: 52rpx;
+}
+.notice-drawer .notice-drawer-bd {
+  height: calc(65vh - 228rpx);
+}
+.notice-drawer .notice-wrap:last-child {
+  padding-bottom: 40rpx;
+}
+.notice-drawer .notice-item {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin: 0 16rpx 16rpx;
+  padding: 26rpx 32rpx 32rpx;
+}
+.notice-drawer .notice-item .notice-hd {
+  margin-bottom: 26rpx;
+}
+.notice-drawer .notice-item .notice-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+}
+.notice-drawer .notice-item .notice-cont {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+}
+.flt-booking-botm .flight-price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.flt-booking-botm .flight-price::before {
+  content: "¥";
+  font-size: 36rpx;
+  height: 44rpx;
+  margin-top: 2rpx;
+}
+.flt-booking-botm .sale-price {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-left: 4rpx;
+}
+.flt-booking-botm .btm-sub-title {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin: 8rpx 0 0 8rpx;
+}
+.flt-booking-botm .book-btn {
+  background: #ff5959;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  width: 280rpx;
+}
+.refund-x-product-banner {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f8fbf9),
+    to(#f2f9f6)
+  );
+  background: -webkit-linear-gradient(right, #f8fbf9, #f2f9f6);
+  background: -o-linear-gradient(right, #f8fbf9 0, #f2f9f6 100%);
+  background: linear-gradient(-90deg, #f8fbf9, #f2f9f6);
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  overflow: hidden;
+  padding: 30rpx 32rpx;
+  position: relative;
+}
+.refund-x-product-banner.refund {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f7faff),
+    to(#f4f8ff)
+  );
+  background: -webkit-linear-gradient(right, #f7faff, #f4f8ff);
+  background: -o-linear-gradient(right, #f7faff 0, #f4f8ff 100%);
+  background: linear-gradient(-90deg, #f7faff, #f4f8ff);
+}
+.refund-x-product-banner .corner-icon {
+  height: 96rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 108rpx;
+}
+.refund-x-product-banner .x-product-hd {
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-bottom: 12rpx;
+}
+.refund-x-product-banner .x-product-hd .flt-title {
+  margin-bottom: 0;
+}
+.refund-x-product-banner .price {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.refund-x-product-banner .price::before {
+  content: "¥";
+  margin-left: 10rpx;
+}
+.refund-x-product-banner .feature-item,
+.refund-x-product-banner .features {
+  margin-top: 6rpx;
+}
+.refund-x-product-banner .feature-item .icon {
+  height: 24rpx;
+  width: 24rpx;
+}
+.refund-x-product-banner .feature-item .cont {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-left: 10rpx;
+}
+.refund-x-product-banner .x-bnr-btn {
+  background: #198cff;
+  border-radius: 18rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 68rpx;
+  line-height: 68rpx;
+  position: absolute;
+  right: 32rpx;
+  text-align: center;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  width: 148rpx;
+}
+.refund-x-product-banner .x-bnr-btn.selected {
+  background: unset;
+  color: #666;
+}
+.refund-x-product-banner .x-bnr-btn.selected::after {
+  border: 2rpx solid #ccc;
+  border-radius: 36rpx;
+  height: 168%;
+  left: -33%;
+  top: -33%;
+  transform: scale(0.6);
+  width: 168%;
+}
+.new-guest-gift {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/chunyun/2022/chunyun_tc_bg.png)
+      no-repeat,
+    #fff5f0;
+  background-size: 100% 240rpx;
+  padding-bottom: 120rpx;
+}
+.new-guest-gift .activity-tit {
+  color: #9a1500;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin: 40rpx 0;
+  text-align: center;
+}
+.new-guest-gift .coupon-info-card {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 20rpx 16rpx;
+  padding: 32rpx;
+}
+.new-guest-gift .spring-travel .main-coupon {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/chunyun/2022/chuanyun_tc_dy.png)
+    no-repeat;
+  background-size: 100%;
+  height: 192rpx;
+  width: 654rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-price {
+  box-sizing: border-box;
+  margin-right: 1rpx;
+  padding: 46rpx 0 0 50rpx;
+  width: 214rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-price .amount {
+  color: #fff;
+  font-family: ZX-Regular;
+  font-size: 76rpx;
+  line-height: 60rpx;
+  margin-right: 4rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-price .unit {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-desc {
+  box-sizing: border-box;
+  padding: 44rpx 0 0 44rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-desc .tit {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin-bottom: 8rpx;
+}
+.new-guest-gift .spring-travel .main-coupon .coupon-desc .sub-tit {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  opacity: 0.8;
+}
+.new-guest-gift .spring-travel .coupon-list {
+  margin-top: -8rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/chunyun/2022/chunyun_tc_xy.png)
+    no-repeat;
+  background-size: 100%;
+  color: #9a1500;
+  height: 130rpx;
+  width: 208rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item:not(:last-child) {
+  margin-right: 16rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item .coupon-price {
+  margin-bottom: 6rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item .coupon-price .amout {
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  line-height: 48rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item .coupon-price .unit {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.new-guest-gift .spring-travel .coupon-list .coupon-item .coupon-desc {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.new-guest-gift .may-day .main-coupon {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/51/wuyi_xye_tc_hongbao.png)
+    no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  height: 186rpx;
+  padding-bottom: 64rpx;
+  width: 100%;
+}
+.new-guest-gift .may-day .main-coupon .coupon-price {
+  box-sizing: border-box;
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 64rpx;
+  margin: auto 0;
+  padding-right: 36rpx;
+  text-align: right;
+  width: 212rpx;
+}
+.new-guest-gift .may-day .main-coupon .coupon-price::before {
+  content: "¥";
+  display: inline-block;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 4rpx;
+}
+.new-guest-gift .may-day .main-coupon .coupon-desc {
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+  margin-left: 36rpx;
+}
+.new-guest-gift .may-day .sub-coupons {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/51/wuyi_xye_tc_quan1.png)
+    no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  height: 130rpx;
+  margin-top: 20rpx;
+  padding: 30rpx 32rpx;
+  width: 100%;
+}
+.new-guest-gift .may-day .sub-coupons.single {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/51/wuyi_xye_tc_quan2.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.new-guest-gift .may-day .sub-coupons.single .coupon-price {
+  margin: 0 80rpx 4rpx 10rpx;
+}
+.new-guest-gift .may-day .sub-coupon {
+  overflow: hidden;
+}
+.new-guest-gift .may-day .sub-coupon:not(:last-child) {
+  margin-right: 60rpx;
+}
+.new-guest-gift .may-day .sub-coupon .coupon-price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 50rpx;
+  line-height: 60rpx;
+  margin-right: 24rpx;
+}
+.new-guest-gift .may-day .sub-coupon .coupon-price::before {
+  color: #ff5959;
+  content: "¥";
+  display: inline-block;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+}
+.new-guest-gift .may-day .sub-coupon .coupon-desc {
+  overflow: hidden;
+}
+.new-guest-gift .may-day .sub-coupon .desc-cont {
+  color: #662907;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.new-guest-gift .may-day .sub-coupon .sub-desc {
+  color: rgba(102, 41, 7, 0.6);
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.new-guest-gift .activity-banner-wrap {
+  background-color: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  height: 88rpx;
+  margin: 16rpx 16rpx 20rpx;
+  padding: 4rpx;
+}
+.new-guest-gift .activity-banner-wrap .activity-banner {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/chunyun/2022/chunyun_bg_xy.png)
+    no-repeat;
+  background-size: 100%auto;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 28rpx;
+}
+.new-guest-gift .activity-banner-wrap .activity-banner .banner-icon {
+  height: 40rpx;
+  margin-right: 16rpx;
+  width: 40rpx;
+}
+.new-guest-gift .activity-banner-wrap .activity-banner .banner-txt {
+  color: #9a1500;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.new-guest-gift .activity-banner-wrap .activity-banner .banner-btn {
+  border: 2rpx solid #ff5959;
+  border-radius: 14rpx;
+  box-sizing: border-box;
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 32rpx;
+  padding: 8rpx 20rpx;
+}
+.new-guest-gift .show-more {
+  color: #b85441;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: 20rpx auto 32rpx;
+  text-align: center;
+}
+.new-guest-gift .show-more .iconfont2 {
+  font-size: 20rpx;
+  margin-left: 4rpx;
+}
+.new-guest-gift .rule-detail {
+  color: #b85441;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: 20rpx 32rpx 40rpx;
+}
+.new-guest-gift .book-btn {
+  background: #ff5959;
+  border-radius: 24rpx;
+  height: 88rpx;
+}
+.new-guest-gift .book-btn .rmb-sign {
+  font-family: ZX-Regular;
+  font-size: 26rpx;
+}
+.new-guest-gift .book-btn .price-info {
+  color: #fff;
+}
+.new-guest-gift .book-btn .price-info .price {
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  line-height: 42rpx;
+}
+.new-guest-gift .book-btn .price-desc {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  margin-left: 4rpx;
+}
+.new-guest-gift .activity-cont {
+  max-height: 50vh;
+}
+.bookx-top-area {
+  flex-wrap: nowrap;
+  margin: 12rpx 16rpx;
+}
+.bookx-top-area .bookx-announcement {
+  min-width: 2rpx;
+}
+.bookx-top-area .bookx-announcement.top-banner {
+  padding-left: 32rpx;
+}
+.bookx-top-area .top-banner {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  border-radius: 20rpx;
+  color: #3c5a86;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  line-height: 30rpx;
+  padding: 16rpx;
+}
+.bookx-top-area .tip-list {
+  overflow: hidden;
+}
+.bookx-top-area .tip {
+  height: 30rpx;
+  white-space: nowrap;
+}
+.bookx-top-area .monitor-reminder {
+  margin-left: 16rpx;
+}
+.bookx-top-area .remind-icon {
+  font-size: 32rpx;
+}
+.bookx-top-area .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 10rpx;
+}
+.flt-monitor-dialog .pop-btn3 {
+  margin-top: 40rpx;
+}
+.flt-monitor-dialog .pop-btn3 .h5-button {
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 20rpx;
+  padding: 0;
+}
+.flt-monitor-dialog .pop-btn3 .h5-button:last-child {
+  margin-right: 0;
+}
+.flt-monitor-dialog .pop-btn3 .btn-cancel.zx {
+  background: #eef6ff;
+  color: #0080ff;
+}
+.flt-monitor-dialog .pop-btn3 .btn-cancel.ty {
+  background: #fff0ec;
+  color: #fc6e51;
+}
+.flt-monitor-dialog .pop-saving-tips .ifont-selected.zx {
+  background: -webkit-linear-gradient(top left, #2693ff, #06f);
+}
+.flt-monitor-dialog .pop-saving-tips .ifont-selected.ty {
+  background: #fc6e51;
+}
+.flt-monitor-dialog .pop-saving-tips .tit {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.flt-monitor-dialog .pop-saving-tips .img {
+  height: 276rpx;
+  margin-top: 24rpx;
+  width: 520rpx;
+}
+.flt-monitor-dialog .pop-saving-tips {
+  background: #fff;
+  padding-top: 66rpx;
+  text-align: center;
+}
+.flt-monitor-dialog .pop-saving-tips .ifont-selected {
+  border: 12rpx solid #fff;
+  border-radius: 128rpx;
+  color: #fff;
+  font-size: 64rpx;
+  height: 128rpx;
+  left: 50%;
+  line-height: 128rpx;
+  position: absolute;
+  top: -76rpx;
+  transform: translateX(-50%);
+  width: 128rpx;
+}
+.node-isolate-flight-detail {
+  margin: 32rpx 16rpx 40rpx;
+}
+.node-isolate-flight-detail .transfer-banner {
+  padding: 24rpx 8rpx;
+}
+.node-isolate-flight-detail .transfer-banner::after,
+.node-isolate-flight-detail .transfer-banner::before {
+  border-top: 2rpx dashed rgba(0, 0, 0, 0.15);
+  content: "";
+  flex: 1;
+  height: 0;
+}
+.node-isolate-flight-detail .banner-content {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 0 16rpx;
+  padding: 10rpx 20rpx;
+}
+.node-isolate-flight-detail .mult-seg-title {
+  box-sizing: border-box;
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-bottom: 32rpx;
+}
+.node-isolate-flight-detail .mult-seg-title .seg-tag {
+  background: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 22rpx;
+  margin-right: 10rpx;
+  padding: 0 8rpx;
+}
+.node-isolate-flight-detail .mult-seg-title .date,
+.node-isolate-flight-detail .mult-seg-title .dpt-arr {
+  margin-right: 1em;
+}
+.node-isolate-flight-detail .segment-divider {
+  border-top: 2rpx dashed rgba(0, 0, 0, 0.15);
+  height: 0;
+  margin: 32rpx 0;
+  width: 100%;
+}
+.flt-note-banner {
+  background: #fff;
+  border-radius: 24rpx;
+  font-size: 26rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin: 16rpx 0;
+  padding: 28rpx 32rpx 26rpx;
+  white-space: nowrap;
+}
+.flt-note-banner .f-title {
+  color: #00c777;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.flt-note-banner .notes {
+  min-width: 2rpx;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.flt-note-banner .note-item {
+  margin-left: 24rpx;
+}
+.flt-note-banner .note-icon {
+  height: 20rpx;
+  margin-right: 6rpx;
+  width: 20rpx;
+}
+.flt-note-banner .note-txt {
+  color: #222;
+}
+.flt-note-banner .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 8rpx;
+}
+.flt-notes-pop.common-action-sheet .action-sheet-content {
+  background: #f5f5f5;
+}
+.flt-notes-pop-content {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 0 16rpx 62rpx;
+  padding: 32rpx;
+}
+.flt-notes-pop-content .cont-item {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin-bottom: 30rpx;
+}
+.flt-notes-pop-content .cont-item:last-child {
+  margin-bottom: 0;
+}
+.flt-notes-pop-content .prd-note {
+  line-height: 40rpx;
+}
+.flt-notes-pop-content .prd-note-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+.flt-notes-pop-content .prd-note-tit::before {
+  background: -webkit-linear-gradient(135deg, #0daeff, #07f);
+  background: -o-linear-gradient(135deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(-45deg, #0daeff, #07f);
+  border-radius: 4rpx;
+  content: "";
+  height: 26rpx;
+  margin-right: 12rpx;
+  width: 10rpx;
+}
+.common-membership-pop {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+}
+.common-membership-pop .pop-vipbuy-hd {
+  box-sizing: border-box;
+  height: 150rpx;
+  padding-top: 13rpx;
+  text-align: center;
+}
+.common-membership-pop .pop-vipbuy-hd .tit {
+  color: #d98c21;
+  font-family: PingFangSC-Medium;
+  font-size: 42rpx;
+  font-weight: 500;
+  height: 54rpx;
+  line-height: 54rpx;
+}
+.common-membership-pop .pop-vipbuy-hd .tit::after,
+.common-membership-pop .pop-vipbuy-hd .tit::before {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/vip-buy.png) no-repeat;
+  background-size: 160rpx 300rpx;
+  content: "";
+  height: 13rpx;
+  width: 86rpx;
+}
+.common-membership-pop .pop-vipbuy-hd .tit::before {
+  background-position: -60rpx -80rpx;
+  margin-right: 22rpx;
+}
+.common-membership-pop .pop-vipbuy-hd .tit::after {
+  background-position: -60rpx -100rpx;
+  margin-left: 22rpx;
+}
+.common-membership-pop .pop-vipbuy-hd .txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-top: 2rpx;
+}
+.common-membership-pop .pop-vipbuy-bd {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  max-height: 910rpx;
+  overflow-y: auto;
+  padding: 30rpx 30rpx 54rpx;
+}
+.common-membership-pop .pop-vipbuy-bd .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+.common-membership-pop .pop-vipbuy-bd .tit::before {
+  background: #da9028;
+  border-radius: 4rpx;
+  content: "";
+  height: 28rpx;
+  margin-right: 16rpx;
+  width: 8rpx;
+}
+.common-membership-pop .pop-vipbuy-bd .tit text {
+  color: #999;
+  float: right;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.common-membership-pop .pop-equity-train {
+  -ms-flex-pack: justify;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20rpx 0 60rpx;
+}
+.common-membership-pop .pop-equity-train .item {
+  box-sizing: border-box;
+  color: #b36800;
+  font-family: PingFangSC-Regular;
+  height: 200rpx;
+  margin-top: 10rpx;
+  padding: 24rpx 32rpx;
+  position: relative;
+  width: 336rpx;
+}
+.common-membership-pop .pop-equity-train .item .hd {
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.common-membership-pop .pop-equity-train .item .strong {
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  font-weight: 600;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-top: 6rpx;
+}
+.common-membership-pop .pop-equity-train .item .txt {
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-top: 14rpx;
+  opacity: 0.6;
+}
+.common-membership-pop .pop-equity-more {
+  -ms-flex-pack: justify;
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 8rpx 24rpx 0 rgba(0, 0, 0, 0.05);
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  overflow: hidden;
+  padding: 36rpx 0 38rpx;
+}
+.common-membership-pop .pop-equity-more .helper-container {
+  width: 100%;
+}
+.common-membership-pop .pop-equity-more .item {
+  box-sizing: border-box;
+  position: relative;
+}
+.common-membership-pop .pop-equity-more .item::before {
+  background: #ebebeb;
+  content: "";
+  height: 50rpx;
+  left: -2rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rpx;
+}
+.common-membership-pop .pop-equity-more .item .icon {
+  height: 60rpx;
+  margin: 0 12rpx 0 30rpx;
+  width: 60rpx;
+}
+.common-membership-pop .pop-equity-more .item .strong {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  height: 42rpx;
+}
+.common-membership-pop .pop-equity-more .item .txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.common-membership-pop .pop-vipbuy-botm {
+  background: #fff;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 20rpx);
+  position: relative;
+  z-index: 2;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd {
+  background: url(https://images3.c-ctrip.com/ztrip/train_bin/22-02/img_but_xcx@3x.png)
+    no-repeat;
+  background-size: 100% 96rpx;
+  height: 96rpx;
+  margin: 0 20rpx;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd .cont {
+  color: #eebb75;
+  padding-left: 48rpx;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd .cont .strong {
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.common-membership-pop
+  .pop-vipbuy-botm
+  .pop-vipbuy-botm-bd
+  .cont
+  .strong::before {
+  content: "¥";
+  margin-right: 4rpx;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd .cont .b {
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd .cont .s {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-left: 10rpx;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+.common-membership-pop .pop-vipbuy-botm .pop-vipbuy-botm-bd .btn-submit {
+  background: transparent;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 600;
+  font-weight: 500;
+  height: 44rpx;
+  line-height: 44rpx;
+  width: 308rpx;
+}
+.common-membership-pop .pop-vipbuy-copywriting {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.common-membership-pop .pop-vipbuy-copywriting .iconfont {
+  font-size: 14rpx;
+  font-weight: 600;
+  margin-left: 6rpx;
+}
+.flight-price-card .tabwidget-box {
+  overflow: hidden;
+  position: relative;
+}
+.flight-price-card .tabwidget-box .top-tag {
+  left: 30rpx;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.flight-price-card .tabwidget-box .top-tag .tag {
+  height: 40rpx;
+  width: 136rpx;
+}
+.flight-price-card .tabwidget-item {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 26rpx 32rpx 32rpx;
+  position: relative;
+}
+.flight-price-card .tabwidget-item.with-top-tag {
+  padding-top: 46rpx;
+}
+.flight-price-card .tabwidget-item.open {
+  box-shadow: 0 4rpx 20rpx hsla(0, 0%, 40%, 0.1);
+}
+.flight-price-card .tabwidget-item .rbox {
+  padding-top: 6rpx;
+}
+.flight-price-card .tabwidget-item .closed {
+  flex-flow: row wrap;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 6rpx;
+}
+.flight-price-card .tabwidget-item .closed .ifont-arrup {
+  font-size: 20rpx;
+  font-weight: 700;
+  margin-left: 6rpx;
+}
+.flight-price-card .btn-book,
+.flight-price-card .btn-choose {
+  border-radius: 12rpx;
+  font-weight: 700;
+  height: 92rpx;
+  line-height: 92rpx;
+  width: 92rpx;
+}
+.flight-price-card .btn-book {
+  font-size: 36rpx;
+}
+.flight-price-card .btn-choose {
+  font-size: 32rpx;
+}
+.flight-price-card .tabwidget-hd {
+  flex-flow: row wrap;
+}
+.flight-price-card .tabwidget-hd .txt {
+  font-size: 24rpx;
+  margin-right: 8rpx;
+}
+.flight-price-card .tabwidget-hd .tag-cell {
+  margin-right: 10rpx;
+}
+.flight-price-card .tabwidget-hd .tag-cell:last-child {
+  margin-right: 0;
+}
+.flight-price-card .tabwidget-hd .tag-with-icon {
+  height: 32rpx;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.flight-price-card .tabwidget-hd .tag-with-icon::after {
+  border: 2rpx solid #ff5959;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.flight-price-card .tabwidget-hd .tag-with-icon .tag-icon {
+  border-bottom-left-radius: 8rpx;
+  border-top-left-radius: 8rpx;
+  height: 100%;
+  width: 108rpx;
+}
+.flight-price-card .tabwidget-hd .tag-with-icon .tag-txt {
+  color: #ff5959;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  padding: 0 8rpx 0 2rpx;
+}
+.flight-price-card .tabwidget-hd .marked-tag {
+  background: #fff3f1;
+  border-radius: 8rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  line-height: 24rpx;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.flight-price-card .tabwidget-hd .marked-tag .mark {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff6b88),
+    to(#ff7357)
+  );
+  background: -webkit-linear-gradient(left, #ff6b88, #ff7357);
+  background: -o-linear-gradient(left, #ff6b88 0, #ff7357 100%);
+  background: linear-gradient(90deg, #ff6b88, #ff7357);
+  border-radius: 8rpx 0 0 8rpx;
+  color: #fff;
+  padding: 4rpx 6rpx;
+}
+.flight-price-card .tabwidget-hd .marked-tag .tag-txt {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  padding: 4rpx 6rpx;
+}
+.flight-price-card .tabwidget-hd .marked-tag::after {
+  border: 2rpx solid #ffbcbc;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.flight-price-card .tabwidget-hd .tag-wrapper {
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-right: 10rpx;
+  padding: 0 6rpx;
+  position: relative;
+  z-index: 0;
+}
+.flight-price-card .tabwidget-hd .tag-wrapper.iphone {
+  margin-right: 8rpx;
+}
+.flight-price-card .tabwidget-hd .tag-wrapper:last-child {
+  margin-right: 0;
+}
+.flight-price-card .tabwidget-hd .tag-wrapper .tag {
+  border: 2rpx solid #ff5959;
+  border-radius: 16rpx;
+  color: #ff5959;
+  display: block;
+  font-family: PingFangSC-Regular;
+  font-size: 44rpx;
+  font-weight: 400;
+  left: -50%;
+  margin-right: 12rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.5);
+  transform-origin: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.flight-price-card .tabwidget-hd .tag-wrapper .tag:last-child {
+  margin-right: 0;
+}
+.flight-price-card .tabwidget-list {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  white-space: nowrap;
+}
+.flight-price-card .tabwidget-list.limit {
+  margin: 4rpx -92rpx 0 0;
+}
+.flight-price-card .tabwidget-list.child {
+  color: #999;
+  margin-top: 6rpx;
+}
+.flight-price-card .tabwidget-list .tag {
+  box-sizing: border-box;
+  color: rgba(60, 90, 134, 0.8);
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-right: 12rpx;
+  position: relative;
+  text-align: center;
+  width: 28rpx;
+  z-index: 1;
+}
+.flight-price-card .tabwidget-list .tag::after {
+  border: 2rpx solid rgba(60, 90, 134, 0.2);
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.flight-price-card .tabwidget-list .ifont-detail {
+  font-size: 22rpx;
+  margin-right: 6rpx;
+  text-align: center;
+  width: 28rpx;
+}
+.flight-price-card .tabwidget-list .ifont-arr {
+  color: #999;
+  font-size: 18rpx;
+  margin-left: 5rpx;
+  margin-top: 2rpx;
+}
+.flight-price-card .product-feature {
+  margin-top: 12rpx;
+}
+.flight-price-card .product-feature .icon {
+  height: 20rpx;
+  margin-right: 6rpx;
+  width: 20rpx;
+}
+.flight-price-card .product-feature-item {
+  margin-right: 16rpx;
+}
+.flight-price-card .tabwidget-wangfan {
+  margin-top: 26rpx;
+}
+.flight-price-card .tabwidget-wangfan .note-list {
+  flex-wrap: wrap;
+}
+.flight-price-card .tabwidget-wangfan .note-item:not(:first-child)::before {
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+  display: inline-block;
+  height: 20rpx;
+  margin: 0 8rpx;
+  transform: scaleX(0.5);
+  width: 2rpx;
+}
+.flight-price-card .remain-num {
+  font-size: 22rpx;
+}
+.flight-price-card .tabwidget-open {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #fff),
+    to(#f8f8f8)
+  );
+  background: -webkit-linear-gradient(top, #fff 20%, #f8f8f8);
+  background: -o-linear-gradient(top, #fff 20%, #f8f8f8);
+  background: linear-gradient(180deg, #fff 20%, #f8f8f8);
+  border-radius: 0 0 20rpx 20rpx;
+  border-radius: 0 0 12rpx 12rpx;
+  height: 0;
+  opacity: 0;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+.flight-price-card .tabwidget-open.open-chooose {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f3f7fb),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #f3f7fb, #fff);
+  background: -o-linear-gradient(top, #f3f7fb 0, #fff 100%);
+  background: linear-gradient(-180deg, #f3f7fb, #fff);
+  height: auto;
+  opacity: 1;
+  padding: 32rpx 6rpx 40rpx;
+}
+.flight-price-card .tabwidget-open .item-recomd {
+  border-radius: 12rpx;
+  padding: 0 30rpx;
+  position: relative;
+}
+.flight-price-card .tabwidget-open .tag-img {
+  height: 72rpx;
+  width: 72rpx;
+}
+.flight-price-card .tabwidget-open .cont {
+  margin-left: 32rpx;
+}
+.flight-price-card .tabwidget-open .price-tag {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.flight-price-card .tabwidget-open .change-txt {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 24rpx;
+  line-height: 24rpx;
+  margin-top: -20rpx;
+  padding-top: 24rpx;
+}
+.flight-price-card .tabwidget-open .name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-bottom: 14rpx;
+}
+.flight-price-card .tabwidget-open .feat-icon {
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.flight-price-card .tabwidget-open .feat-txt {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-bottom: 8rpx;
+}
+.flight-price-card .tabwidget-open .feat-txt:last-child {
+  margin-bottom: 0;
+}
+.flight-price-card .tabwidget-open .fill-tag {
+  border-radius: 8rpx;
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-left: 12rpx;
+  padding: 0 8rpx;
+}
+.zx .flight-price-card .tabwidget-open .fill-tag {
+  background: #00c777;
+}
+.ty .flight-price-card .tabwidget-open .fill-tag {
+  background: #fd7100;
+}
+.flight-price-card .tabwidget-open .line-tag {
+  color: #00c777;
+  font-size: 22rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-left: 8rpx;
+  padding: 0 6rpx;
+}
+.flight-price-card .tabwidget-open .line-tag::after {
+  border: 2rpx solid #99dbc1;
+  border-radius: 16rpx;
+}
+.flight-price-card .tabwidget-open .divider-line {
+  background: rgba(0, 0, 0, 0.05);
+  display: block;
+  height: 2rpx;
+  margin: 28rpx 0 28rpx 134rpx;
+  width: 524rpx;
+}
+.flight-price-card .tabwidget-eproduct {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fef9f6),
+    to(#fdf2ed)
+  );
+  background: -webkit-linear-gradient(bottom, #fef9f6, #fdf2ed);
+  background: -o-linear-gradient(bottom, #fef9f6 0, #fdf2ed 100%);
+  background: linear-gradient(0deg, #fef9f6, #fdf2ed);
+  border-radius: 16rpx;
+  margin: -12rpx 4rpx 4rpx;
+  padding: 20rpx 30rpx;
+  position: relative;
+  z-index: 0;
+}
+.flight-price-card .tabwidget-eproduct .bottom-img {
+  bottom: 0;
+  height: 116rpx;
+  position: absolute;
+  right: 0;
+  width: 116rpx;
+  z-index: -1;
+}
+.flight-price-card .tabwidget-eproduct .product-title {
+  font-family: PingFangSC-Regular;
+}
+.flight-price-card .tabwidget-eproduct .product-icon {
+  height: 36rpx;
+}
+.flight-price-card .tabwidget-eproduct .price-text {
+  box-sizing: border-box;
+  color: #662907;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-left: -4rpx;
+  padding: 0 8rpx 0 12rpx;
+}
+.flight-price-card .tabwidget-eproduct .price-text::after {
+  border: 2rpx solid #eecfc0;
+  border-left: none;
+  border-radius: 12rpx;
+}
+.flight-price-card .tabwidget-eproduct .change-txt {
+  color: #803506;
+  font-size: 22rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-left: 10rpx;
+}
+.flight-price-card .tabwidget-eproduct .detail-btn {
+  color: #ae785e;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flight-price-card .tabwidget-eproduct .detail-btn .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.flight-price-card .tabwidget-eproduct .feature-list {
+  height: 32rpx;
+  padding-top: 16rpx;
+  white-space: nowrap;
+}
+.flight-price-card .tabwidget-eproduct .feature-list ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flight-price-card .tabwidget-eproduct .feature-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 24rpx;
+  white-space: nowrap;
+}
+.flight-price-card .tabwidget-eproduct .feature-icon {
+  height: 30rpx;
+  margin-right: 2rpx;
+  width: 30rpx;
+}
+.flight-price-card .tabwidget-eproduct .feature-title {
+  color: #ac3800;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flight-price-card .tabwidget-eproduct .ext-product {
+  margin-top: 8rpx;
+}
+.flight-price-card .tabwidget-eproduct .ep-icon {
+  height: 32rpx;
+  margin: 0 4rpx 2rpx 0;
+}
+.flight-price-card .tabwidget-eproduct .ep-txt {
+  color: #803506;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.flight-price-card .price-card {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.flight-price-card .price-card .cont {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flight-price-card .price-cell-list {
+  margin-top: 30rpx;
+}
+.flight-price-card .price-cell-item {
+  background: #f7f7f7;
+  border: 2rpx solid #f7f7f7;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  height: 84rpx;
+  line-height: 32rpx;
+  margin-right: 16rpx;
+  padding: 0 20rpx;
+  position: relative;
+  white-space: nowrap;
+}
+.flight-price-card .price-cell-item:last-child {
+  margin-right: 0;
+}
+.flight-price-card .price-cell-item.cur {
+  border-color: #198cff;
+  color: #198cff;
+}
+.flight-price-card .price-cell-item.cur .sub-title,
+.flight-price-card .price-cell-item.cur .txt {
+  color: #198cff !important;
+}
+.ty .flight-price-card .price-cell-item.cur {
+  border-color: #ff5959;
+  color: #ff5959;
+}
+.ty .flight-price-card .price-cell-item.cur .sub-title,
+.ty .flight-price-card .price-cell-item.cur .txt {
+  color: #ff5959 !important;
+}
+.flight-price-card .price-cell-item.cur .tip-icon {
+  display: none;
+}
+.flight-price-card .price-cell-item .tip-icon {
+  height: 32rpx;
+  margin-right: 8rpx;
+  width: 32rpx;
+}
+.flight-price-card .price-cell-item .sub-title {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 24rpx;
+  line-height: 24rpx;
+  text-align: center;
+}
+.flight-price-card .price-cell-item .gou-icon {
+  bottom: -2rpx;
+  height: 22rpx;
+  position: absolute;
+  right: -2rpx;
+  width: 22rpx;
+}
+.flight-price-card .price-cell-item .tag {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/x_ye/10/tag_fanxian@3x.png)
+    no-repeat 50% / cover;
+  color: #ff5959;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  font-weight: 500;
+  height: 46rpx;
+  margin-top: 2rpx;
+  position: absolute;
+  right: -4rpx;
+  text-align: center;
+  top: -24rpx;
+  width: 98rpx;
+  z-index: 1;
+}
+.flight-price-card .price {
+  font-family: ZX-Regular;
+  font-size: 58rpx;
+  height: 58rpx;
+  line-height: 58rpx;
+  margin-right: 10rpx;
+  overflow: hidden;
+}
+.flight-price-card .price::before {
+  content: "¥";
+  font-size: 36rpx;
+  margin-right: 2rpx;
+}
+.flight-price-card .product-inner-banner {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f7fbfe),
+    to(#f2f8ff)
+  );
+  background: -webkit-linear-gradient(right, #f7fbfe, #f2f8ff);
+  background: -o-linear-gradient(right, #f7fbfe 0, #f2f8ff 100%);
+  background: linear-gradient(-90deg, #f7fbfe, #f2f8ff);
+  border-radius: 16rpx;
+  margin-top: 16rpx;
+  padding: 16rpx;
+}
+.flight-price-card .product-inner-banner .banner-txt {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+}
+.flight-price-card .product-inner-banner .txt-title {
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.flight-price-card .product-inner-banner .iconfont2 {
+  color: #ccc;
+  font-size: 22rpx;
+}
+.flight-price-card .limit .remark-icon {
+  height: 24rpx;
+  margin-right: 4rpx;
+  width: 24rpx;
+}
+.flight-price-card .limit .img-container {
+  border-bottom-left-radius: 8rpx;
+  border-top-left-radius: 8rpx;
+  padding-left: 8rpx;
+}
+.flight-price-card .limit .img-container,
+.flight-price-card .limit .txt-container {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edf6ff;
+  height: 32rpx;
+  justify-content: center;
+}
+.flight-price-card .limit .txt-container {
+  border-bottom-right-radius: 8rpx;
+  border-top-right-radius: 8rpx;
+  padding-right: 6rpx;
+}
+.flight-price-card .limit .divider {
+  background-color: rgba(0, 0, 0, 0.08);
+  height: 20rpx;
+  margin: 0 8rpx;
+  width: 1rpx;
+}
+.ztrip-h5 .remain-num {
+  line-height: 1.5;
+}
+.ztrip-h5 .btn-book {
+  padding: 0;
+}
+.flight-bookx-skeleton .bookx-modify-skeleton {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx 40rpx 40rpx;
+  position: relative;
+  z-index: 5;
+}
+.flight-bookx-skeleton .skeleton-hd {
+  height: 40rpx;
+  margin-bottom: 24rpx;
+  width: 300rpx;
+}
+.flight-bookx-skeleton .skeleton-hd,
+.flight-bookx-skeleton .skeleton-info {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+}
+.flight-bookx-skeleton .skeleton-info {
+  height: 34rpx;
+  width: 240rpx;
+}
+.flight-bookx-skeleton .skeleton-time {
+  width: 108rpx;
+}
+.flight-bookx-skeleton .skeleton-station,
+.flight-bookx-skeleton .skeleton-time {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  display: inline-block;
+  height: 50rpx;
+}
+.flight-bookx-skeleton .skeleton-station {
+  width: 180rpx;
+}
+.flight-bookx-skeleton .fromto {
+  flex: 1;
+  position: relative;
+}
+.flight-bookx-skeleton .fromto .from {
+  line-height: 44rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.flight-bookx-skeleton .fromto .to {
+  line-height: 44rpx;
+  padding-top: 20rpx;
+  position: relative;
+}
+.flight-bookx-skeleton .fromto .mid {
+  color: #333;
+  font-size: 22rpx;
+  line-height: 54rpx;
+  margin: -4rpx 0;
+  padding-left: 148rpx;
+  position: relative;
+}
+.flight-bookx-skeleton .fromto .mid .jinting {
+  background: #f7f7f7;
+  border-radius: 54rpx;
+  display: inline-block;
+  padding: 0 16rpx;
+}
+.flight-bookx-skeleton .fromto .time {
+  display: inline-block;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-right: 48rpx;
+  width: 100rpx;
+}
+.flight-bookx-skeleton .fromto .station {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.flight-bookx-skeleton .fromto .em {
+  font-size: 20rpx;
+  left: 0;
+  line-height: 22rpx;
+  position: absolute;
+  text-align: right;
+  top: -2rpx;
+  width: 100rpx;
+}
+.flight-bookx-skeleton .fromto .from .em {
+  top: -22rpx;
+}
+.flight-bookx-skeleton .fromto .from::after,
+.flight-bookx-skeleton .fromto .mid::after,
+.flight-bookx-skeleton .fromto .to::after {
+  background: #ddd;
+  content: "";
+  left: 120rpx;
+  position: absolute;
+  width: 6rpx;
+}
+.flight-bookx-skeleton .fromto .from::after {
+  border-radius: 5rpx 5rpx 0 0;
+  bottom: 0;
+  top: 20rpx;
+}
+.flight-bookx-skeleton .fromto .mid::after {
+  bottom: 0;
+  top: 0;
+}
+.flight-bookx-skeleton .fromto .to::after {
+  border-radius: 0 0 5rpx 5rpx;
+  bottom: 20rpx;
+  top: 0;
+}
+.flight-bookx-skeleton .fromto .date {
+  font-size: 20rpx;
+  left: 0;
+  line-height: 28rpx;
+  position: absolute;
+  text-align: right;
+  width: 90rpx;
+}
+.flight-bookx-skeleton .fromto .from .date {
+  top: -28rpx;
+}
+.flight-bookx-skeleton .fromto .to .date {
+  top: -8rpx;
+}
+.flight-bookx-skeleton .fromto .ifont-splane,
+.flight-bookx-skeleton .fromto .ifont-train {
+  background: #fff;
+  color: #ccc;
+  font-size: 24rpx;
+  height: 44rpx;
+  left: 102rpx;
+  line-height: 44rpx;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44rpx;
+  z-index: 10;
+}
+.flight-air-train-segments .bookx-modify {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+  padding: 30rpx 20rpx 40rpx;
+  position: relative;
+  z-index: 5;
+}
+.flight-air-train-segments .bookx-modify-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  margin-bottom: 24rpx;
+  margin-left: 16rpx;
+}
+.flight-air-train-segments .bookx-modify-hd .round-mark {
+  border-radius: 20rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 22rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin: -4rpx 10rpx 0 0;
+  padding: 0 20rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.flight-air-train-segments .bookx-modify .monitor {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 0;
+  border-bottom-left-radius: 28rpx;
+  border-top-left-radius: 28rpx;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  height: 56rpx;
+  margin: 0-20rpx 0 auto;
+  padding: 0 24rpx;
+}
+.flight-air-train-segments .bookx-modify .monitor.on {
+  color: #999;
+}
+.flight-air-train-segments .bookx-modify .monitor .star {
+  background: url(https://pic.c-ctrip.com/train/zt/flight/monitor_star-new.png)
+    no-repeat;
+  background-size: 32rpx 64rpx;
+  height: 32rpx;
+  margin: -2rpx 4rpx 0 0;
+  width: 32rpx;
+}
+.flight-air-train-segments .bookx-modify .monitor .star.on {
+  background-position: 0-32rpx;
+}
+.flight-air-train-segments .bookx-modify-bd {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16rpx;
+  position: relative;
+}
+.flight-air-train-segments .bookx-modify-bd .info {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 28rpx;
+}
+.flight-air-train-segments .bookx-modify-bd .info .t {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 40rpx;
+}
+.flight-air-train-segments .bookx-modify-bd .flight-num {
+  color: #999;
+  font-size: 24rpx;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 12rpx;
+}
+.flight-air-train-segments .bookx-modify-bd .zhongzhuan {
+  color: #999;
+  font-size: 26rpx;
+  margin: 16rpx 0;
+  padding-left: 170rpx;
+  position: relative;
+}
+.flight-air-train-segments .bookx-modify-bd .zhongzhuan::before {
+  background: #fff;
+  border: 6rpx solid #ddd;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 24rpx;
+  left: 126rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24rpx;
+  z-index: 4;
+}
+.flight-air-train-segments .bookx-modify-bd .zhongzhuan .tip {
+  float: right;
+  font-size: 22rpx;
+}
+.flight-air-train-segments .bookx-modify-bd .rbox {
+  color: #999;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  padding-right: 26rpx;
+  position: relative;
+  text-align: right;
+  width: 220rpx;
+}
+.flight-air-train-segments .bookx-modify-bd .rbox .ifont-arr {
+  font-size: 18rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.flight-air-train-segments .bookx-modify-bd .rbox .time {
+  color: #333;
+}
+.flight-air-train-segments .bookx-modify-bd .rbox .txt {
+  color: #999;
+}
+.flight-air-train-segments .bookx-modify-bd .rbox .airline_logo {
+  display: inline-block;
+  height: 20rpx;
+  margin: -4rpx 12rpx 0 0;
+  vertical-align: middle;
+  width: 20rpx;
+}
+.flight-air-train-segments .bookx-modify-bd + .bookx-modify-hd {
+  border-top: 2rpx dashed #eee;
+  margin-top: 30rpx;
+  padding-top: 30rpx;
+}
+.flight-air-train-segments .bookx-modify-tips {
+  background: #fff8f4;
+  border-radius: 20rpx;
+  color: #666;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 32rpx;
+  padding: 16rpx 20rpx;
+}
+.flight-air-train-segments .fromto {
+  flex: 1;
+  position: relative;
+}
+.flight-air-train-segments .fromto .from {
+  line-height: 44rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.flight-air-train-segments .fromto .to {
+  line-height: 44rpx;
+  padding-top: 20rpx;
+  position: relative;
+}
+.flight-air-train-segments .fromto .mid {
+  color: #333;
+  font-size: 22rpx;
+  line-height: 54rpx;
+  margin: -4rpx 0;
+  padding-left: 148rpx;
+  position: relative;
+}
+.flight-air-train-segments .fromto .mid .jinting {
+  background: #f7f7f7;
+  border-radius: 54rpx;
+  display: inline-block;
+  padding: 0 16rpx;
+}
+.flight-air-train-segments .fromto .time {
+  display: inline-block;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-right: 48rpx;
+  width: 100rpx;
+}
+.flight-air-train-segments .fromto .station {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.flight-air-train-segments .fromto .em {
+  font-size: 20rpx;
+  left: 0;
+  line-height: 22rpx;
+  position: absolute;
+  text-align: right;
+  top: -2rpx;
+  width: 100rpx;
+}
+.flight-air-train-segments .fromto .from .em {
+  top: -22rpx;
+}
+.flight-air-train-segments .fromto .from::after,
+.flight-air-train-segments .fromto .mid::after,
+.flight-air-train-segments .fromto .to::after {
+  background: #ddd;
+  content: "";
+  left: 120rpx;
+  position: absolute;
+  width: 6rpx;
+}
+.flight-air-train-segments .fromto .from::after {
+  border-radius: 5rpx 5rpx 0 0;
+  bottom: 0;
+  top: 20rpx;
+}
+.flight-air-train-segments .fromto .mid::after {
+  bottom: 0;
+  top: 0;
+}
+.flight-air-train-segments .fromto .to::after {
+  border-radius: 0 0 5rpx 5rpx;
+  bottom: 20rpx;
+  top: 0;
+}
+.flight-air-train-segments .fromto .date {
+  font-size: 20rpx;
+  left: 0;
+  line-height: 28rpx;
+  position: absolute;
+  text-align: right;
+  width: 90rpx;
+}
+.flight-air-train-segments .fromto .from .date {
+  top: -28rpx;
+}
+.flight-air-train-segments .fromto .to .date {
+  top: -8rpx;
+}
+.flight-air-train-segments .fromto .ifont-splane,
+.flight-air-train-segments .fromto .ifont-train {
+  background: #fff;
+  color: #ccc;
+  font-size: 24rpx;
+  height: 44rpx;
+  left: 102rpx;
+  line-height: 44rpx;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44rpx;
+  z-index: 10;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 54rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22rpx;
+  height: 54rpx;
+  margin: 24rpx 0 24rpx 164rpx;
+  padding: 0 16rpx 0 20rpx;
+  position: relative;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan::before {
+  border-left: 6rpx dashed #ddd;
+  bottom: -40rpx;
+  content: "";
+  left: -28rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 2rpx;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan::after,
+.flight-air-train-segments .fromto .mid::before {
+  background: #fff;
+  border: 5rpx solid #ddd;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 18rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18rpx;
+  z-index: 4;
+}
+.flight-air-train-segments .fromto .mid::before {
+  left: 114rpx;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan::after {
+  left: -34rpx;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan .cont {
+  flex: 1;
+}
+.flight-air-train-segments .bookx-modify-zhongzhuan .ifont-arr {
+  font-size: 18rpx;
+}
+.bookx-container .flt-train-box.white-box {
+  margin-top: 12rpx;
+  padding: 6rpx 30rpx;
+}
+.flt-train-hd {
+  border-bottom: 1rpx solid #eee;
+  color: #666;
+  padding: 24rpx 0;
+}
+.flt-train-hd .tit {
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.flt-train-hd .price::before {
+  content: "¥";
+  font-size: 22rpx;
+  margin-right: 2rpx;
+}
+.flt-train-hd .txt {
+  font-size: 24rpx;
+}
+.flt-train-bd .discount-info {
+  border: 2rpx solid #ffb6b0;
+  border-radius: 4rpx;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin: 0 0 0 10rpx;
+  padding: 0 8rpx;
+  position: relative;
+  vertical-align: middle;
+}
+.flt-train-bd .discount-info::after,
+.flt-train-bd .discount-info::before {
+  background: #fff;
+  border-radius: 8rpx;
+  border-right: 2rpx solid #ffb6b0;
+  border-top: 2rpx solid #ffb6b0;
+  box-sizing: border-box;
+  content: "";
+  height: 8rpx;
+  margin-top: -4rpx;
+  position: absolute;
+  top: 50%;
+  width: 8rpx;
+}
+.flt-train-bd .discount-info::before {
+  left: -4rpx;
+  transform: rotate(45deg);
+}
+.flt-train-bd .discount-info::after {
+  right: -4rpx;
+  transform: rotate(-135deg);
+}
+.flt-train-bd .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2rpx dashed #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 0;
+}
+.flt-train-bd .item:last-child {
+  border-bottom: 0;
+}
+.flt-train-bd .cont {
+  flex: 1;
+}
+.flt-train-bd .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+}
+.flt-train-bd .ifont-splane,
+.flt-train-bd .ifont-train {
+  border-radius: 36rpx;
+  color: #fff;
+  font-size: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin: -4rpx 14rpx 0 0;
+  text-align: center;
+  width: 36rpx;
+}
+.flt-train-bd .ifont-train {
+  background: #999;
+}
+.flt-train-bd .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.flt-train-bd .txt .span {
+  margin-right: 10rpx;
+  padding-right: 10rpx;
+  position: relative;
+}
+.flt-train-bd .txt .span::after {
+  background: #e5e5e5;
+  content: "";
+  height: 40rpx;
+  margin-top: -10rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 2rpx;
+}
+.flt-train-bd .txt .span:last-child::after {
+  display: none;
+}
+.flt-train-bd .txt .ifont-arr {
+  color: #999;
+  font-size: 18rpx;
+  margin: -2rpx 0 0 4rpx;
+}
+.flt-train-bd .rbox {
+  margin: 0 16rpx;
+  text-align: right;
+}
+.flt-train-bd .price {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.flt-train-bd .price::before {
+  content: "¥";
+  font-size: 26rpx;
+  margin-right: 2rpx;
+}
+.flt-train-bd .btn-book {
+  border-radius: 8rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  height: 72rpx;
+  line-height: 72rpx;
+  width: 140rpx;
+}
+.flt-train-hd-skeleton {
+  border-bottom: 1rpx solid #eee;
+  color: #666;
+  padding: 24rpx 0;
+}
+.flt-train-hd-skeleton .tit {
+  height: 28rpx;
+  width: 40%;
+}
+.flt-train-hd-skeleton .tit,
+.flt-train-hd-skeleton .txt {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+}
+.flt-train-hd-skeleton .txt {
+  height: 24rpx;
+  margin-top: 8rpx;
+  width: 100%;
+}
+.package-product-pop.zt-drawer-container .zt-drawer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffd1a4),
+    to(#fff4cc)
+  );
+  background: -webkit-linear-gradient(top, #ffd1a4, #fff4cc);
+  background: -o-linear-gradient(top, #ffd1a4 0, #fff4cc 100%);
+  background: linear-gradient(-180deg, #ffd1a4, #fff4cc);
+  overflow: hidden;
+}
+.package-product-pop.zt-drawer-container .zt-drawer .zt-drawer-content {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/x_ye/10/fuceng/img_bg@3x.png)
+    no-repeat 100%0 / contain;
+  background-size: 148rpx 148rpx;
+  height: 100%;
+}
+.package-product-pop.change.zt-drawer-container .zt-drawer,
+.package-product-pop.zt-drawer-container .zt-drawer .zt-drawer-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.package-product-pop.change.zt-drawer-container .zt-drawer {
+  background: #f5f5f5;
+}
+.package-product-pop.change.zt-drawer-container .zt-drawer .zt-drawer-content {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/list/baby/icon_qinzi_bg@3x.png)
+    no-repeat 0 0 / contain;
+  flex: 1;
+  min-height: 2rpx;
+}
+.package-product-pop.change .pop-hd .title-icon {
+  height: 36rpx;
+  width: 384rpx;
+}
+.package-product-pop.change .pop-hd .sub-title {
+  margin-bottom: 12rpx;
+}
+.package-product-pop.change .pop-bd {
+  padding: 0 24rpx 80rpx;
+}
+.package-product-pop.change .package-card {
+  background: #fff;
+  border-radius: 24rpx;
+  margin-top: 24rpx;
+  padding: 4rpx;
+}
+.package-product-pop.change .package-card .card-hd {
+  padding: 24rpx 28rpx;
+}
+.package-product-pop.change .package-card .flight-price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 52rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.package-product-pop.change .package-card .flight-price::before {
+  content: "¥";
+  font-size: 36rpx;
+  height: 44rpx;
+}
+.package-product-pop.change .package-card .sale-price {
+  color: #7b4b34;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-left: 10rpx;
+}
+.package-product-pop.change .package-card .rec-tag {
+  height: 32rpx;
+  margin-left: 4rpx;
+  width: 66rpx;
+}
+.package-product-pop.change .package-card .right {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.package-product-pop.change .package-card .book-btn {
+  background: #1a8cff;
+  border-radius: 20rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 88rpx;
+  width: 88rpx;
+}
+.package-product-pop.change .package-card .feature-banner {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fffaf7),
+    to(#ffefe5)
+  );
+  background: -webkit-linear-gradient(right, #fffaf7, #ffefe5);
+  background: -o-linear-gradient(right, #fffaf7 0, #ffefe5 100%);
+  background: linear-gradient(-90deg, #fffaf7, #ffefe5);
+  border-radius: 20rpx;
+  flex-wrap: wrap;
+  padding: 24rpx 28rpx 14rpx;
+  position: relative;
+}
+.package-product-pop.change .package-card .detail {
+  color: #803506;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  position: absolute;
+  right: 28rpx;
+  top: 24rpx;
+}
+.package-product-pop.change .package-card .detail .ifont-arr {
+  font-size: 20rpx;
+  margin-left: 6rpx;
+}
+.package-product-pop.change .package-card .feature-item {
+  margin-bottom: 10rpx;
+  width: 280rpx;
+}
+.package-product-pop.change .package-card .ft-icon {
+  height: 32rpx;
+  margin-right: 4rpx;
+  width: 32rpx;
+}
+.package-product-pop.change .package-card .ft-title {
+  color: #803506;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.package-product-pop .pop-hd {
+  padding-top: 36rpx;
+  position: relative;
+}
+.package-product-pop .pop-hd .title-icon {
+  height: 44rpx;
+  width: 322rpx;
+}
+.package-product-pop .pop-hd .sub-title {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin: 10rpx 0 28rpx;
+}
+.package-product-pop .pop-hd .close-icon {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+  width: 48rpx;
+}
+.package-product-pop .pop-bd {
+  min-height: 2rpx;
+  overflow: auto;
+  padding: 0 20rpx calc(152rpx + env(safe-area-inset-bottom));
+}
+.package-product-pop .pop-bd .right-swiper {
+  height: 516rpx;
+  margin: 0-20rpx;
+  min-height: 516rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-item {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#feb845),
+    to(#ffdbb0)
+  );
+  background: -webkit-linear-gradient(top, #feb845, #ffdbb0);
+  background: -o-linear-gradient(top, #feb845 0, #ffdbb0 100%);
+  background: linear-gradient(-180deg, #feb845, #ffdbb0);
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  height: 516rpx;
+  padding: 4rpx;
+  position: relative;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in 0s;
+  width: 400rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-item .right-wrap {
+  background: #fff;
+  border-radius: 36rpx;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 16rpx;
+  width: 100%;
+}
+.package-product-pop .pop-bd .right-swiper .right-item.cur {
+  transform: scale(1);
+}
+.package-product-pop .pop-bd .right-swiper .right-item.cur .indicator {
+  bottom: 6rpx;
+  height: 28rpx;
+  left: 50%;
+  position: absolute;
+  transform: translate3d(-50%, 100%, 0);
+  width: 60rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-tag {
+  height: 80rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 176rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-img {
+  border-radius: 24rpx;
+  height: 284rpx;
+  width: 360rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-name {
+  box-sizing: border-box;
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 48rpx;
+  margin-top: 24rpx;
+  padding-left: 20rpx;
+}
+.package-product-pop .pop-bd .right-swiper .right-content {
+  box-sizing: border-box;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-top: 16rpx;
+  padding-left: 20rpx;
+}
+.package-product-pop .pop-bd .right-swiper .feat-icon {
+  height: 20rpx;
+  margin-right: 10rpx;
+  width: 20rpx;
+}
+.package-product-pop .pop-bd .right-swiper .feat-item:not(:last-child) {
+  margin-bottom: 10rpx;
+}
+.package-product-pop .pop-bd .detail-wrap {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin: 42rpx 4rpx 0;
+  padding: 32rpx;
+  position: relative;
+}
+.package-product-pop .pop-bd .indicator {
+  height: 18rpx;
+  left: 50%;
+  position: absolute;
+  top: -18rpx;
+  transform: rotate(180deg) translateX(50%);
+  width: 80rpx;
+}
+.package-product-pop .pop-bd .dot {
+  height: 34rpx;
+  margin-right: 16rpx;
+}
+.package-product-pop .pop-bd .dot::after {
+  background: #d8d8d8;
+  border-radius: 50%;
+  content: "";
+  height: 10rpx;
+  width: 10rpx;
+}
+.package-product-pop .pop-bd .resident-tip {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  line-height: 34rpx;
+}
+.package-product-pop .pop-bd .resident-tip .color-green {
+  color: #00c777;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+.package-product-pop .pop-bd .show-detail {
+  box-sizing: border-box;
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-top: 4rpx;
+  padding-left: 24rpx;
+}
+.package-product-pop .pop-bd .show-detail .ifont2-shouqi_linea_12,
+.package-product-pop .pop-bd .show-detail .ifont2-zhankai_linea_12 {
+  color: #ccc;
+  font-size: 24rpx;
+  margin-left: 2rpx;
+}
+.package-product-pop .pop-bd .right-note {
+  margin-top: 16rpx;
+}
+.package-product-pop .pop-bd .right-note .title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.package-product-pop
+  .pop-bd
+  .right-note
+  .package-product-tip-list.train-tip-list
+  .tip-item {
+  margin-bottom: 8rpx;
+}
+.package-product-pop
+  .pop-bd
+  .right-note
+  .package-product-tip-list.train-tip-list
+  .tip-item
+  .dot {
+  margin-right: 16rpx;
+}
+.package-product-pop
+  .pop-bd
+  .right-note
+  .package-product-tip-list.train-tip-list
+  .tip-item
+  .tip {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.package-product-pop .pop-bd .product-notes {
+  margin-top: 40rpx;
+}
+.package-product-pop .pop-bd .product-notes .title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.package-product-pop .pop-bd .product-notes .note-list {
+  margin-top: 16rpx;
+}
+.package-product-pop .pop-bd .product-notes .note-item {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.package-product-pop .pop-bd .product-notes .note-item:not(:last-child) {
+  margin-bottom: 8rpx;
+}
+.flight-bookx ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flight-bookx-container {
+  margin: 0 16rpx;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: calc(62rpx + env(safe-area-inset-bottom));
+  position: relative;
+}
+.flight-bookx-container ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.flight-bookx-container .white-box {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin-bottom: 16rpx;
+  position: relative;
+  z-index: 2;
+}
+.flight-bookx-container .modify-box {
+  padding: 0 0 20rpx;
+}
+.flight-bookx-container .bookx-modify {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  padding: 30rpx 0 0;
+  position: relative;
+  z-index: 1;
+}
+.flight-bookx-container .zt-drawer-container .zt-drawer-right-btn {
+  color: #0080ff;
+}
+.flight-bookx-container .zt-drawer-container .zt-drawer-header {
+  border-bottom: 1rpx solid #eee;
+}
+.flight-bookx-container .zt-drawer-container .zt-drawer-title {
+  font-weight: 500;
+}
+.flight-bookx-container .skeleton-item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 12rpx 0;
+  overflow: hidden;
+  padding: 30rpx 40rpx;
+  position: relative;
+}
+.flight-bookx-container .skeleton-item .bd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flight-bookx-container .skeleton-item .bd .left {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.flight-bookx-container .skeleton-item .bd .left .tit {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 40rpx;
+  width: 120rpx;
+}
+.flight-bookx-container .skeleton-item .bd .left .sub {
+  margin-top: 14rpx;
+}
+.flight-bookx-container .skeleton-item .bd .desc,
+.flight-bookx-container .skeleton-item .bd .left .sub {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 28rpx;
+  width: 94rpx;
+}
+.flight-bookx-container .skeleton-item .bd .desc {
+  margin-left: auto;
+}
+.flight-bookx-container .skeleton-item .bd .btn {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  border-radius: 8rpx;
+  height: 82rpx;
+  margin-left: 20rpx;
+  width: 88rpx;
+}
+.flight-bookx-container .skeleton-item .hd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 34rpx;
+}
+.flight-bookx-container .skeleton-item .hd .txt {
+  width: 328rpx;
+}
+.flight-bookx-container .skeleton-item .hd .btn,
+.flight-bookx-container .skeleton-item .hd .txt {
+  animation: breathing 1.2s infinite;
+  background: #f5f5f5;
+  height: 28rpx;
+}
+.flight-bookx-container .skeleton-item .hd .btn {
+  margin-left: auto;
+  width: 120rpx;
+}
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes breathing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flight-bookx-container .flight-more {
+  background: #fff;
+  border-radius: 20rpx;
+  font-size: 26rpx;
+  line-height: 84rpx;
+  margin: 12rpx 0;
+  text-align: center;
+}
+.flight-bookx-container .flight-more .ifont-arr {
+  font-size: 16rpx;
+  margin: -4rpx 0 0 12rpx;
+  transform: rotate(90deg);
+}
+.flight-bookx-container .entrance-pop .zt-drawer-header {
+  border-bottom: none;
+}
+.ztrip-h5 .bookx-container .flight-price-change-pop .btn-cancel {
+  font-size: 32rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+  margin-right: 5rpx;
+  padding: 0;
+}
+.ztrip-h5 .bookx-container .flight-price-change-pop .btn-submit {
+  font-size: 32rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+}
+.ztrip-h5 .bookx-container .pop-saving-tips .btn-cancel {
+  margin-right: 10rpx;
+}
+.ztrip-h5 .bookx-container .pop-product-info taro-view-core {
+  line-height: 1.5;
+}
+.ztrip-h5 .bookx-container .pop-product-info .title {
+  margin-top: 15rpx;
+}
+.ztrip-h5 .bookx-container .pop-product-info .first-title {
+  margin-top: 0;
+}
+.flt-bookx-banner {
+  background-color: #fff;
+  border-radius: 24rpx;
+  height: 88rpx;
+  margin-bottom: 16rpx;
+  padding: 4rpx;
+}
+.flt-bookx-banner,
+.flt-bookx-banner .banner-cont {
+  box-sizing: border-box;
+}
+.flt-bookx-banner .banner-cont {
+  border-radius: 20rpx;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 30rpx;
+}
+.flt-bookx-banner .banner-icon {
+  height: 40rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+}
+.flt-bookx-banner .banner-txt {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flt-bookx-banner .banner-rbox {
+  margin-left: 20rpx;
+}
+.flt-bookx-banner .banner-rbox .ifont2-arr {
+  color: #ccc;
+  font-size: 24rpx;
+}
+.flt-bookx-banner .ifont2-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 20rpx;
+}
+.flt-bookx-banner .common-container {
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+.flt-bookx-banner .right-btn {
+  background: transparent;
+  border: 1rpx solid #ff5959;
+  border-radius: 14rpx;
+  box-sizing: border-box;
+  color: #ff5959;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 32rpx;
+  padding: 8rpx 20rpx;
+}
+.flt-bookx-banner .new-user-banner {
+  background-size: 100% 100%;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 28rpx 0 20rpx;
+  width: 100%;
+}
+.flt-bookx-banner .new-user-banner .new-user-icon {
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+.flt-bookx-banner .new-user-banner .subsidy-item {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/xinke/tag_biaoqian@3x.png)
+    no-repeat;
+  background-size: 100% 100%;
+  color: #ff5959;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  line-height: 30rpx;
+  padding: 4rpx 12rpx;
+  white-space: nowrap;
+}
+.flt-bookx-banner .new-user-banner .subsidy-item:not(:last-child) {
+  margin-right: 8rpx;
+}

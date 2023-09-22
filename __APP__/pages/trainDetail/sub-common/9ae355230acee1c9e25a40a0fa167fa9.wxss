@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.train-subscribe-mask {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 5000;
+}
+.train-subscribe-mask .content {
+  background: url(https://images3.c-ctrip.com/train/tieyou-mini-img/subscribe_back.png)
+    no-repeat;
+  background-size: cover;
+  height: 410rpx;
+  left: 50%;
+  position: fixed;
+  top: 10%;
+  transform: translateX(-50%);
+  width: 570rpx;
+}
+.train-subscribe-mask .content .button,
+.train-subscribe-mask .content .check,
+.train-subscribe-mask .content .hand,
+.train-subscribe-mask .content .light {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.train-subscribe-mask .content .step {
+  color: #333;
+  font-size: 30rpx;
+  left: 50%;
+  position: absolute;
+  top: 154rpx;
+  transform: translate(-50%);
+}
+.train-subscribe-mask .content .step::before {
+  animation: stpeChange 2.5s linear forwards;
+  content: "第一步";
+}
+.train-subscribe-mask .content .hand {
+  animation: move 2s linear forwards;
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/demo/finger.png);
+  bottom: -68rpx;
+  height: 90rpx;
+  left: 60rpx;
+  width: 88rpx;
+  z-index: 5;
+}
+.train-subscribe-mask .content .check {
+  animation: check 0.5s linear forwards;
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/demo/check.png);
+  bottom: 40rpx;
+  height: 28rpx;
+  left: 80rpx;
+  opacity: 0;
+  width: 28rpx;
+  z-index: 2;
+}
+.train-subscribe-mask .content .light {
+  animation: light 1s linear forwards;
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/demo/opaque.png);
+  bottom: 22rpx;
+  height: 64rpx;
+  left: 62rpx;
+  opacity: 0;
+  width: 64rpx;
+  z-index: 3;
+}
+.train-subscribe-mask .content .button {
+  animation: scale 0.8s linear 1.5s forwards;
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/demo/button.png);
+  bottom: 102rpx;
+  height: 80rpx;
+  opacity: 1;
+  right: 30rpx;
+  width: 238rpx;
+}
+@-webkit-keyframes move {
+  0%,
+  5% {
+    transform: translate(0);
+  }
+  15%,
+  40% {
+    transform: translateY(-26rpx);
+  }
+  60% {
+    transform: translate(414rpx, -82rpx);
+  }
+  100%,
+  80% {
+    transform: translate(414rpx, -108rpx);
+  }
+}
+@keyframes move {
+  0%,
+  5% {
+    transform: translate(0);
+  }
+  15%,
+  40% {
+    transform: translateY(-26rpx);
+  }
+  60% {
+    transform: translate(414rpx, -82rpx);
+  }
+  100%,
+  80% {
+    transform: translate(414rpx, -108rpx);
+  }
+}
+@-webkit-keyframes light {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes light {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes check {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes check {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes scale {
+  0%,
+  100%,
+  50% {
+    transform: scale(1);
+  }
+  25%,
+  75% {
+    transform: scale(0.92);
+  }
+}
+@keyframes scale {
+  0%,
+  100%,
+  50% {
+    transform: scale(1);
+  }
+  25%,
+  75% {
+    transform: scale(0.92);
+  }
+}
+@-webkit-keyframes stpeChange {
+  100% {
+    content: "第二步";
+  }
+}
+@keyframes stpeChange {
+  100% {
+    content: "第二步";
+  }
+}

@@ -1,0 +1,100 @@
+@import "/functionalPages/sub-vendors.wxss";
+page {
+  background: #fff;
+}
+.cont {
+  flex: 1;
+}
+.wrap {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 128rpx;
+  width: 128rpx;
+}
+.logo.zx {
+  background-image: url(http://pic.c-ctrip.com/train/zt/wechat/avatar-logo-zx.png);
+}
+.logo.ty {
+  background-image: url(http://pic.c-ctrip.com/train/zt/wechat/avatar-logo-ty.png);
+}
+.tit {
+  font-size: 38rpx;
+  font-weight: 700;
+  margin-top: 60rpx;
+}
+.txt {
+  color: #666;
+  font-size: 28rpx;
+  margin-top: 12rpx;
+  width: 500rpx;
+}
+.list-bd {
+  border: 1rpx solid #eee;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  padding: 0 32rpx;
+  width: 520rpx;
+}
+.list-bd .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80rpx;
+}
+.list-bd .item:last-child {
+  border-bottom: 0;
+}
+.list-bd .ifont-suc2 {
+  color: #07c160;
+  font-size: 32rpx;
+  margin-right: 16rpx;
+}
+.list-bd .cont {
+  font-size: 24rpx;
+}
+.list-bd .ifont-detail {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.btn-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80rpx;
+  width: 520rpx;
+}
+.btn-box .h5-button {
+  border-radius: 88rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 24rpx;
+}
+.btn-box .h5-button:last-child {
+  margin-right: 0;
+}
+.btn-box .btn-cancel {
+  background: #f5f5f5;
+  color: #999;
+}

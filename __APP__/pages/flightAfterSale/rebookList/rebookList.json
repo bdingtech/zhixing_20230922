@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "改签申请",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#f5f5f5",
+  "backgroundColorBottom": "#f5f5f5",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

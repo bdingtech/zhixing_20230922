@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTitleText": "账号操作",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,17 @@
+._Pa {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+._Qa {
+  line-height: 1;
+}
+._Ra {
+  padding: 26rpx 72rpx;
+}
+._Sa {
+  background: #00bd67;
+}
+._Ta {
+  width: 40rpx;
+}

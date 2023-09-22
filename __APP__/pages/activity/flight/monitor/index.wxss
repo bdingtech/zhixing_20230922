@@ -1,0 +1,381 @@
+@charset "UTF-8";
+.ClearBox:after,
+.ClearBox:before {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+text,
+view {
+  font: 400 28rpx/1 PingFang SC;
+}
+.wrap {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/bg.jpg)
+    no-repeat;
+  background-size: 100% 1496rpx;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.tit {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/top-tit.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 224rpx;
+  margin-left: -327rpx;
+  top: 6%;
+  width: 654rpx;
+}
+.hb-box,
+.tit {
+  left: 50%;
+  position: absolute;
+}
+.hb-box {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/hb-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 828rpx;
+  margin-left: -314rpx;
+  top: 23%;
+  width: 628rpx;
+}
+.hb-box .number {
+  color: #ffedd4;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.86;
+  padding-top: 110rpx;
+  text-align: center;
+}
+.hb-box .tx {
+  height: 94rpx;
+  left: 50%;
+  margin-left: -47rpx;
+  position: absolute;
+  top: 170rpx;
+  width: 94rpx;
+}
+.hb-box .tx:after {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/hb-tx-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 100rpx;
+  left: -5rpx;
+  position: absolute;
+  top: -5rpx;
+  width: 108rpx;
+}
+.hb-box .tx image {
+  border: 4rpx solid #ffa634;
+  border-radius: 94rpx;
+  box-shadow: 0 8rpx 12rpx #e40531;
+  height: 94rpx;
+  width: 94rpx;
+}
+.hb-box .txt {
+  color: #ffedd4;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.86;
+  text-align: center;
+  top: 290rpx;
+  white-space: nowrap;
+}
+.hb-box .pic,
+.hb-box .txt {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.hb-box .pic {
+  top: 370rpx;
+}
+.hb-box .pic text {
+  color: #ffbe4c;
+  font-size: 116rpx;
+  line-height: 162rpx;
+  position: relative;
+}
+.hb-box .pic text:after {
+  color: #ffbe4c;
+  content: "元";
+  font-size: 32rpx;
+  line-height: 44rpx;
+  position: absolute;
+  right: -34rpx;
+  top: 86rpx;
+}
+.hb-box .pic text.on:before {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/hb-icon.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 42rpx;
+  position: absolute;
+  right: -90rpx;
+  top: 30rpx;
+  width: 86rpx;
+}
+.hb-box .btn {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/hb-btn-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: 110rpx;
+  box-sizing: border-box;
+  color: #ed0745;
+  font-size: 40rpx;
+  font-weight: 700;
+  height: 140rpx;
+  left: 50%;
+  line-height: 40rpx;
+  margin-left: -249rpx;
+  padding-top: 26rpx;
+  position: absolute;
+  width: 498rpx;
+}
+.logo {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/logo.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.logo,
+.logoty {
+  height: 86rpx;
+  left: 50%;
+  margin-left: -131rpx;
+  position: absolute;
+  top: 88%;
+  width: 262rpx;
+}
+.logoty {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/logoty.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.animat {
+  animation: mymove 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  position: relative;
+}
+@-webkit-keyframes mymove {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}
+@keyframes mymove {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}
+.pop-bg {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 690rpx;
+  left: 50%;
+  position: fixed;
+  top: 16%;
+  transform: translateX(-50%);
+  width: 682rpx;
+}
+.pop-bg .pop-tit1,
+.pop-bg .pop-tit2,
+.pop-bg .pop-tit3,
+.pop-bg .pop-tit4,
+.pop-bg .pop-tit5 {
+  height: 44rpx;
+  left: 50%;
+  margin-left: -90rpx;
+  position: absolute;
+  top: 40rpx;
+  width: 180rpx;
+}
+.pop-bg .pop-tit1 {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-tit1.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-bg .pop-tit2 {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-tit2.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-bg .pop-tit3 {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-tit3.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-bg .pop-tit4 {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-tit4.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-bg .pop-tit5 {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-tit5.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-bg .pop-top-txt {
+  color: #e6d6ff;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  padding-top: 134rpx;
+  text-align: center;
+}
+.pop-bg .coupon-box {
+  -ms-flex-pack: justify;
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-coupon.png)
+    no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  height: 184rpx;
+  justify-content: space-between;
+  margin: 44rpx auto 0 58rpx;
+  padding: 16rpx 0 0 14rpx;
+  width: 564rpx;
+}
+.pop-bg .coupon-box,
+.pop-bg .coupon-box .pic {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-bg .coupon-box .pic {
+  -ms-flex-pack: center;
+  height: 148rpx;
+  justify-content: center;
+  width: 152rpx;
+}
+.pop-bg .coupon-box .pic text {
+  color: #ff3500;
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 66rpx;
+  padding: 40rpx 0 0 16rpx;
+  position: relative;
+}
+.pop-bg .coupon-box .pic text:after {
+  color: #ff3500;
+  content: "¥";
+  font-size: 24rpx;
+  font-weight: 700;
+  left: 0;
+  line-height: 30rpx;
+  position: absolute;
+  top: 67rpx;
+}
+.pop-bg .coupon-box .txt {
+  box-sizing: border-box;
+  height: 148rpx;
+  padding: 22rpx 0 0 32rpx;
+  width: 400rpx;
+}
+.pop-bg .coupon-box .txt view {
+  font-size: 32rpx;
+  font-weight: 700;
+  line-height: 44rpx;
+}
+.pop-bg .coupon-box .txt text {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 10rpx;
+}
+.pop-bg .txt-hide {
+  height: 450rpx;
+  margin: 134rpx 0 0 80rpx;
+  overflow-y: scroll;
+  position: absolute;
+  width: 540rpx;
+}
+.pop-bg .txt-hide .text {
+  color: #e6d6ff;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-top: 20rpx;
+}
+.pop-bg .txt-hide .text:nth-of-type(1) {
+  margin-top: 0;
+}
+.pop-bg .img-txt {
+  padding-top: 192rpx;
+}
+.pop-bg .img-txt image {
+  display: block;
+  height: 126rpx;
+  margin: 0 0 0 240rpx;
+  width: 160rpx;
+}
+.pop-bg .img-txt .text {
+  color: #e6d6ff;
+  display: block;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-top: 24rpx;
+  text-align: center;
+}
+.pop-bg .pop-btn {
+  background: url(https://images3.c-ctrip.com/train/hd/20200414-flight-monitor/pop/pop-btn.png)
+    no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  color: #ed0745;
+  font-size: 40rpx;
+  font-weight: 700;
+  height: 140rpx;
+  line-height: 56rpx;
+  margin: 56rpx auto 0;
+  padding-top: 20rpx;
+  width: 558rpx;
+}
+.pop-bg .pop-btn-close {
+  background: url(https://images3.c-ctrip.com/train/hd/20200325-ctrip-hubei-jiefeng/close-btn.jpg)
+    no-repeat 50%;
+  background-size: 0.5rem 0.5rem;
+  height: 40rpx;
+  padding: 0;
+  position: absolute;
+  right: 40rpx;
+  top: 24rpx;
+  width: 40rpx;
+}
+.rule {
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 28rpx;
+  position: absolute;
+  right: 28rpx;
+  text-decoration: underline;
+  top: 26rpx;
+  white-space: pre-wrap;
+}

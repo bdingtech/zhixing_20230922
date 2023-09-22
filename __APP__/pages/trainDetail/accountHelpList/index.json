@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "帮好友抢票订单",
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "backgroundColorTop": "#f6f6f6",
+  "backgroundColorBottom": "#f6f6f6",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

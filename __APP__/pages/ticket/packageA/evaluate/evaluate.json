@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "加载中...",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "disableScroll": false,
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

@@ -1,0 +1,46 @@
+.box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding: 0 30rpx;
+}
+.cont {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2rpx solid #e8e8e8;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96rpx;
+  padding: 0 10rpx;
+}
+.cont .label {
+  margin-right: 50rpx;
+}
+.cont .input,
+.cont .label {
+  color: #333;
+  font-size: 30rpx;
+}
+.cont .input-placeholder {
+  color: #999;
+  font-size: 30rpx;
+}
+.btn {
+  background: #0080ff;
+  border-radius: 44rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 40rpx 0 30rpx;
+  text-align: center;
+  transition: background 0.1s ease-in-out;
+}
+.btn.ty {
+  background: #fc6e51;
+}
+.btn.disabled {
+  background: #ccc !important;
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "正晚点查询",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0075F4",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

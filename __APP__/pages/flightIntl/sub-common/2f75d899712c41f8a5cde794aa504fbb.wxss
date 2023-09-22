@@ -1,0 +1,67 @@
+.pop-invite {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/pop-invite.png);
+  background-repeat: no-repeat;
+  background-size: 600rpx 302rpx;
+  border-radius: 32rpx;
+  padding: 334rpx 40rpx 40rpx;
+}
+.pop-invite .tit {
+  font-size: 44rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.pop-invite .txt {
+  color: #666;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.pop-invite .pop-btn {
+  margin-top: 40rpx;
+  position: relative;
+}
+.pop-invite .pop-btn .tag {
+  background: -webkit-linear-gradient(left, #fc6e51, #ff925a);
+  border-radius: 40rpx 40rpx 40rpx 0;
+  color: #fff;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  right: -10rpx;
+  top: -18rpx;
+  z-index: 10;
+}
+.pop-invite .pop-btn .btn-invite {
+  background: #fff;
+  border: 2rpx solid rgba(6, 181, 29, 0.5);
+  border-radius: 16rpx;
+  color: #06b51d;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.pop-invite .pop-btn .ifont-wechat {
+  background: -webkit-linear-gradient(top, rgba(6, 181, 29, 0.4), #06b51d);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 46rpx;
+  font-weight: 400;
+  margin: -4rpx 10rpx 0 0;
+}
+.pop-invite .ifont-closed {
+  border: 4rpx solid #999;
+  border-radius: 54rpx;
+  bottom: -128rpx;
+  color: #ccc;
+  font-size: 24rpx;
+  height: 54rpx;
+  left: 50%;
+  line-height: 54rpx;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 54rpx;
+}

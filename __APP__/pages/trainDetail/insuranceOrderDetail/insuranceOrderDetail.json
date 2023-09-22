@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "保单详情",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "backgroundColorBottom": "#EFEFEF",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

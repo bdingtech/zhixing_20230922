@@ -1,0 +1,4 @@
+.stride-train-drawer.train-common-drawer.common-action-sheet
+  .action-sheet-content {
+  border-radius: 40rpx 40rpx 0 0;
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "小程序测试页",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

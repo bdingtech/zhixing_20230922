@@ -1,0 +1,180 @@
+.layer {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+}
+.layer,
+.tip-default-dialog {
+  box-sizing: border-box;
+  position: fixed;
+}
+.tip-default-dialog {
+  background-color: #fff;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  left: 50%;
+  overflow: hidden;
+  padding-top: 48rpx;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 560rpx;
+  z-index: 1000;
+}
+.tip-default-title {
+  box-sizing: border-box;
+  color: #4a4a4a;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+}
+.tip-rolecont-center {
+  box-sizing: border-box;
+  color: #9b9b9b;
+  font-size: 28rpx;
+  margin: 12rpx auto 20rpx;
+  padding: 0 72rpx;
+}
+.tip-login-dialog-btn {
+  border-top: 1rpx solid #d8d8d8;
+  box-sizing: border-box;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: hidden;
+}
+.tip-login-dialog-btn view {
+  box-flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+}
+.tip-dialogbtn-default {
+  box-sizing: border-box;
+  color: #4a4a4a;
+}
+.tip-default-dialog button.tip-dialogbtn-primary {
+  background: #fff;
+  box-sizing: border-box;
+  color: #ff9e74;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0;
+}
+.tip-default-dialog button.tip-dialogbtn-primary::after {
+  border: 0;
+  content: "";
+}
+.tip-default-dialog button.tip-dialogbtn-disabled {
+  background: #fff;
+  color: #9b9b9b;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0;
+}
+.tip-default-dialog button.tip-dialogbtn-disabled::after {
+  border: 0;
+  content: "";
+}
+.tip-login-dialog-btn view:nth-child(2) {
+  border-left: 2rpx solid #d8d8d8;
+}
+.tip-check-treaty-wrap {
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin: 36rpx auto;
+}
+.tip-check-treaty-wrap .tip-check-wrap {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+.tip-check-on::after {
+  border-color: #333;
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  content: "";
+  display: block;
+  height: 9rpx;
+  left: 3rpx;
+  position: absolute;
+  top: 3rpx;
+  transform: rotate(135deg);
+  width: 14rpx;
+}
+.tip-check-treaty-wrap,
+.tip-check-treaty-wrap label {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+.tip-check-treaty-wrap text {
+  color: #4a4a4a;
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.tip-check-box {
+  border: 2rpx solid #999;
+  height: 24rpx;
+  position: relative;
+  width: 24rpx;
+}
+.tip-check-box.tip-check-on {
+  border: 2rpx solid #4a4a4a;
+}
+.tip-check-treaty-wrap checkbox {
+  height: 24rpx;
+  margin-top: -8rpx;
+  width: 24rpx;
+}
+.tip-check-treaty-wrap .checkbox-group {
+  display: -webkit-flex;
+  display: flex;
+  height: 24rpx;
+  width: 24rpx;
+}
+.tip-check-treaty-wrap checkbox .wx-checkbox-input {
+  background: transparent;
+  border: 1rpx solid #999;
+  border-radius: 0;
+  height: 24rpx;
+  width: 24rpx;
+}
+.tip-check-treaty-wrap
+  checkbox
+  .wx-checkbox-input.wx-checkbox-input-checked::before {
+  background: transparent;
+  color: #333;
+  font-size: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 20rpx;
+}
+.tip-check-treaty-wrap navigator {
+  color: #ff9e74;
+  max-width: 220rpx;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.tip-check-treaty-wrap .tip-protocol-name {
+  color: #ff9e74;
+}
+.tip-dialog-close-bottom {
+  display: none;
+}

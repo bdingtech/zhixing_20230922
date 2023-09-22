@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "惊喜飞",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#198CFF",
+  "usingComponents": {
+    "custom-wrapper": "../../../../../custom-wrapper",
+    "comp": "../../../../../comp"
+  }
+}

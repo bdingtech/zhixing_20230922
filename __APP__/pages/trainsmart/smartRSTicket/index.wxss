@@ -1,0 +1,4705 @@
+@charset "UTF-8";
+@import "/pages/trainsmart/sub-vendors.wxss";
+.zt-table {
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 2rpx solid #ededed;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+}
+.zt-table > .zt-inner-table:last-child {
+  border-bottom: none;
+}
+.zt-inner-table,
+.zt-tr-span {
+  -ms-flex-item-align: center;
+  align-self: center;
+  border-bottom: 2rpx solid #ededed;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+}
+.zt-tr-span:last-child {
+  border-bottom: none;
+}
+.zt-tr {
+  display: table-row;
+}
+.zt-tr:last-child > .zt-inner-table,
+.zt-tr:last-child > .zt-td {
+  border-bottom: none;
+}
+.zt-td,
+.zt-th {
+  border-bottom: 2rpx solid #ededed;
+  border-right: 2rpx solid #ededed;
+}
+.zt-td:last-child,
+.zt-th:last-child {
+  border-right: none;
+}
+.zt-td,
+.zt-th {
+  display: table-cell;
+}
+.zt-td {
+  text-align: center;
+  vertical-align: middle;
+}
+@import "/pages/trainsmart/sub-common/8eb6adebf46f3f880fd68265fe6db89c.wxss";
+@import "/pages/trainsmart/sub-common/a90ce91b4694744ccce05a772960de11.wxss";
+.smart-rs-luck-draw-popup {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 99999;
+}
+.smart-rs-luck-draw-popup .rs-popup {
+  box-sizing: border-box;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.smart-rs-luck-draw-popup .draw-popup {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 32rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 690rpx;
+  padding: 32rpx 30rpx 30rpx;
+  width: 600rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-hd {
+  color: #791700;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 56rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-hd .num {
+  color: #f76e21;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd {
+  -ms-flex-pack: justify;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  height: 540rpx;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .draw-btn {
+  -ms-flex-pack: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffefcb),
+    to(#ffce6a)
+  );
+  background: -webkit-linear-gradient(top, #ffefcb, #ffce6a);
+  background: -o-linear-gradient(top, #ffefcb 0, #ffce6a 100%);
+  background: linear-gradient(-180deg, #ffefcb, #ffce6a);
+  color: #791700;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 50rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .draw-btn,
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 172rpx;
+  width: 172rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .item {
+  background: #fdfaec;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .item .img {
+  border-radius: 2rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .item .txt {
+  color: #791700;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin-top: 2rpx;
+}
+.smart-rs-luck-draw-popup .draw-popup .draw-bd .item.cur {
+  background: rgba(255, 217, 164, 0.5);
+  border: 3rpx solid #ffd08f;
+}
+.smart-rs-luck-draw-popup .result-popup {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZNGQ_alert_cjyhq.png);
+  background-size: cover;
+  border-radius: 32rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 502rpx;
+  position: relative;
+  width: 600rpx;
+}
+.smart-rs-luck-draw-popup .result-popup .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 80rpx;
+  font-weight: 400;
+  left: 90rpx;
+  letter-spacing: 0;
+  line-height: 96rpx;
+  position: absolute;
+  top: 184rpx;
+}
+.smart-rs-luck-draw-popup .result-popup .price .unit {
+  font-size: 48rpx;
+}
+.smart-rs-luck-draw-popup .result-popup .receive-btn {
+  bottom: 40rpx;
+  height: 88rpx;
+  left: 40rpx;
+  position: absolute;
+  width: 520rpx;
+}
+.cross-station-tripinfo {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cross-station-tripinfo .time {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+.cross-station-tripinfo .time.color-gray {
+  color: #999;
+}
+.cross-station-tripinfo .operation {
+  box-sizing: border-box;
+  color: #0d71ff;
+  font-family: PingFangSC-Semibold;
+  font-size: 22rpx;
+  font-weight: 600;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 8rpx;
+  position: relative;
+  z-index: 1;
+}
+.cross-station-tripinfo .operation::after {
+  border: 6rpx solid #9ec6ff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.cross-station-tripinfo .ticket-operation {
+  background: #198cff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 8rpx;
+  z-index: 1;
+}
+.cross-station-tripinfo .station {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.cross-station-tripinfo .station.color-gray {
+  color: #999;
+}
+.cross-station-tripinfo .route-sequence {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 6rpx 0 4rpx;
+  width: 100%;
+}
+.cross-station-tripinfo .line {
+  border-top: 6rpx solid #9ec6ff;
+  flex: 1;
+  height: 0;
+  margin-top: 2rpx;
+  transform: scaleY(0.5);
+  transform-origin: center;
+}
+.cross-station-tripinfo .line.dashed {
+  border-top: 6rpx dashed #9ec6ff;
+}
+.cross-station-tripinfo .circle-point {
+  background: #fff;
+  height: 18rpx;
+  margin: 8rpx 0;
+  position: relative;
+  width: 18rpx;
+  z-index: 1;
+}
+.cross-station-tripinfo .circle-point::after {
+  border: 6rpx solid #9ec6ff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.cross-station-tripinfo .from,
+.cross-station-tripinfo .mid,
+.cross-station-tripinfo .to {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.cross-station-tripinfo .from {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.cross-station-tripinfo .mid {
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0-1rpx;
+}
+.cross-station-tripinfo .to {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.tsmart-rs-bhcd-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 40rpx 40rpx 0 0;
+}
+.tsmart-rs-bhcd-drawer .content {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_Ticket_BG_jianbian_zx.png)
+    no-repeat top/contain;
+  border-radius: 40rpx 40rpx 0 0;
+  position: relative;
+  text-align: center;
+}
+.tsmart-rs-bhcd-drawer .content .tit-img {
+  height: 48rpx;
+  margin-top: 40rpx;
+  width: 320rpx;
+}
+.tsmart-rs-bhcd-drawer .content .ifont2-close {
+  color: #ccc;
+  font-size: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 40rpx 16rpx 0;
+  padding: 40rpx 32rpx;
+  position: relative;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .dash-line {
+  border-left: 4rpx dashed rgba(25, 140, 255, 0.5);
+  left: 40rpx;
+  position: absolute;
+  top: 54rpx;
+  z-index: 1;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step {
+  position: relative;
+  z-index: 10;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step .s-top {
+  margin-bottom: 4rpx;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step .s-top .icon {
+  background: #fff;
+  box-sizing: border-box;
+  height: 20rpx;
+  margin-right: 24rpx;
+  position: relative;
+  width: 20rpx;
+  z-index: 1;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step .s-top .icon::after {
+  border: 6rpx solid #198cff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step .s-top .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step .s-desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  padding-left: 44rpx;
+  text-align: left;
+}
+.tsmart-rs-bhcd-drawer .content .flow-box .step:not(:last-child) {
+  margin-bottom: 64rpx;
+}
+.tsmart-rs-bhcd-drawer .content .receive-method {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 32rpx;
+}
+.tsmart-rs-bhcd-drawer .content .receive-method .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50rpx;
+}
+.tsmart-rs-bhcd-drawer .content .receive-method .title::before {
+  background: #198cff;
+  border-radius: 4rpx;
+  content: "";
+  display: block;
+  height: 28rpx;
+  margin-right: 12rpx;
+  width: 8rpx;
+}
+.tsmart-rs-bhcd-drawer .content .receive-method .desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-top: 24rpx;
+  text-align: left;
+}
+.tsmart-rs-bhcd-drawer .content .tsmart-botm-box {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  margin-top: 40rpx;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.tsmart-rs-bhcd-drawer .content .tsmart-botm-box .confirm-btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  text-align: center;
+}
+.smart-pr-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 40rpx 40rpx 0 0;
+}
+.smart-pr-drawer .content {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_Anxintui_BG.png)
+    no-repeat top/contain;
+  border-radius: 40rpx 40rpx 0 0;
+  position: relative;
+}
+.smart-pr-drawer .content .close-img {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+  width: 48rpx;
+}
+.smart-pr-drawer .content .tit-img {
+  height: 48rpx;
+  margin: 32rpx 0;
+  width: 144rpx;
+}
+.smart-pr-drawer .content .scroll-box {
+  height: 900rpx;
+  padding-bottom: calc(120rpx + env(safe-area-inset-bottom));
+}
+.smart-pr-drawer .content .comm-box {
+  background: #fff;
+  border-radius: 28rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 32rpx;
+}
+.smart-pr-drawer .content .tit-box {
+  margin-bottom: 24rpx;
+}
+.smart-pr-drawer .content .tit-box .v-line {
+  background: -webkit-linear-gradient(310.95deg, #03b86f, #20dd91);
+  background: -o-linear-gradient(310.95deg, #03b86f 0, #20dd91 100%);
+  background: linear-gradient(-220.95deg, #03b86f, #20dd91);
+  border-radius: 4rpx;
+  height: 30rpx;
+  width: 10rpx;
+}
+.smart-pr-drawer .content .tit-box .tit {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-left: 12rpx;
+}
+.smart-pr-drawer .content .cont {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.smart-pr-drawer .content .refund-rule-box .refund-fee-table {
+  border: 2rpx solid #ededed;
+  border-radius: 16rpx;
+}
+.smart-pr-drawer .content .refund-rule-box .refund-fee-table .rft-td {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  padding: 24rpx 0;
+}
+.smart-pr-drawer .content .refund-rule-box .refund-fee-table .rft-th {
+  background: #f5f5f5;
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  padding: 24rpx 0;
+  text-align: center;
+}
+.smart-pr-drawer
+  .content
+  .refund-rule-box
+  .refund-fee-table
+  .rft-th:first-child {
+  border-radius: 16rpx 0 0 0;
+}
+.smart-pr-drawer
+  .content
+  .refund-rule-box
+  .refund-fee-table
+  .rft-th:last-child {
+  border-radius: 0 16rpx 0 0;
+}
+.smart-pr-drawer .content .rft-btn-box {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+}
+.smart-pr-drawer .content .rft-btn-box .btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+}
+.smart-rs-common-drawer .zt-drawer {
+  border-radius: 32rpx 32rpx 0 0;
+}
+.smart-rs-common-drawer .content {
+  -ms-flex-pack: justify;
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_Ticket_tui_BG_zx.png)
+    no-repeat;
+  background-size: contain;
+  border-radius: 32rpx 32rpx 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 0 32rpx 84rpx;
+  position: relative;
+}
+.smart-rs-common-drawer .content .ifont-fail {
+  color: #999;
+  font-size: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 32rpx;
+}
+.smart-rs-common-drawer .content .top-img {
+  height: 296rpx;
+  width: 560rpx;
+}
+.smart-rs-common-drawer .content .title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 56rpx;
+  margin-top: 16rpx;
+  text-align: center;
+}
+.smart-rs-common-drawer .content .desc {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+  margin-top: 24rpx;
+  text-align: center;
+}
+.smart-rs-common-drawer .content .btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 60rpx;
+  text-align: center;
+  width: 686rpx;
+}
+.ty .smart-rs-common-drawer .content .btn {
+  background: #fc6e51;
+}
+.ad-video-pop .zt-main-content {
+  position: relative;
+}
+.ad-video-pop .zt-main-content .video {
+  height: 1360rpx;
+  width: 630rpx;
+}
+.ad-video-pop .zt-main-content .timeout {
+  background: #666;
+  border-radius: 41rpx;
+  color: #f4f7fa;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 64rpx;
+  line-height: 64rpx;
+  position: absolute;
+  right: 40rpx;
+  text-align: center;
+  top: 40rpx;
+  width: 100rpx;
+}
+._jO {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e7f1ff),
+    to(#eef5ff)
+  );
+  background: -webkit-linear-gradient(top, #e7f1ff, #eef5ff);
+  background: -o-linear-gradient(top, #e7f1ff 0, #eef5ff 100%);
+  background: linear-gradient(-180deg, #e7f1ff, #eef5ff);
+}
+._kO {
+  padding: 20rpx 0 60rpx;
+}
+._lO {
+  width: 158rpx;
+}
+._lj {
+  margin-right: 12rpx;
+}
+._bp {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.train-smart-rs-ticket-banner-n .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-rs-ticket-banner-n .first-trip {
+  padding: 26rpx 30rpx 24rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip .left-chain,
+.train-smart-rs-ticket-banner-n .first-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip .right-chain {
+  right: 26rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip.detail {
+  border-radius: 20rpx 20rpx 0 0;
+  padding-bottom: 12rpx;
+  z-index: 1000;
+}
+.train-smart-rs-ticket-banner-n .first-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.train-smart-rs-ticket-banner-n .first-trip.detail .btn-detail .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.train-smart-rs-ticket-banner-n .first-trip.detail .first-trip-detail {
+  display: block;
+}
+.train-smart-rs-ticket-banner-n .first-trip .tit {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-grey.png)
+    no-repeat;
+  background-size: cover;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 202rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-hd .cont {
+  color: #999;
+}
+.train-smart-rs-ticket-banner-n .first-trip-hd .status {
+  color: #666;
+}
+.train-smart-rs-ticket-banner-n .first-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-hd .btn-detail .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .train-smart-rs-ticket-banner-n .first-trip-hd .btn-detail {
+  background: #e8f3ff;
+  color: #0080ff;
+}
+.ty .train-smart-rs-ticket-banner-n .first-trip-hd .btn-detail {
+  background: #e5f7f0;
+  color: #03b86f;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 2rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .from,
+.train-smart-rs-ticket-banner-n .first-trip-bd .to {
+  font-weight: 700;
+  width: 120rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .to {
+  text-align: right;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .mid {
+  position: relative;
+  text-align: center;
+  width: 152rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .mid::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .time {
+  font-size: 44rpx;
+  line-height: 60rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .station {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  margin-top: -10rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd .seat {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  margin: -6rpx -24rpx 0;
+  padding: 12rpx 24rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 22rpx -24rpx 0;
+  padding: 12rpx 24rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .item:nth-of-type(2) {
+  text-align: center;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .item:nth-of-type(3) {
+  text-align: right;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .name {
+  color: #999;
+  font-size: 20rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .value {
+  font-size: #333;
+  font-weight: 600;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .tips {
+  color: #333;
+  font-size: 24rpx;
+  margin-top: 22rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-bd-botm .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-detail {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 0 20rpx 20rpx;
+  position: absolute;
+  right: 0;
+  top: 180rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list,
+.train-smart-rs-ticket-banner-n .pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .item,
+.train-smart-rs-ticket-banner-n .pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .item:last-child,
+.train-smart-rs-ticket-banner-n .pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .name,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .name,
+.train-smart-rs-ticket-banner-n .pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .tag-grey,
+.train-smart-rs-ticket-banner-n .first-trip-list .tag-window,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .tag-grey,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .tag-window,
+.train-smart-rs-ticket-banner-n .pop-payment-list .tag-grey,
+.train-smart-rs-ticket-banner-n .pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .tag-grey,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .tag-grey,
+.train-smart-rs-ticket-banner-n .pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .tag-window,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .tag-window,
+.train-smart-rs-ticket-banner-n .pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.train-smart-rs-ticket-banner-n .first-trip-list .seat,
+.train-smart-rs-ticket-banner-n .pop-pasg-list .seat,
+.train-smart-rs-ticket-banner-n .pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.train-smart-rs-ticket-banner-s {
+  position: relative;
+  z-index: 9;
+}
+.train-smart-rs-ticket-banner-s.peace-refund-show {
+  margin-top: -20rpx;
+  position: relative;
+  z-index: 9;
+}
+.train-smart-rs-ticket-banner-s .white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.train-smart-rs-ticket-banner-s .second-trip {
+  border: 4rpx solid #fff;
+  padding: 32rpx 12rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip .left-chain,
+.train-smart-rs-ticket-banner-s .second-trip .right-chain {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0f3f8),
+    color-stop(34%, #fff),
+    color-stop(66%, #fff),
+    to(#f0f3f8)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f0f3f8,
+    #fff 34%,
+    #fff 66%,
+    #f0f3f8
+  );
+  background: -o-linear-gradient(top, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  background: linear-gradient(180deg, #f0f3f8, #fff 34%, #fff 66%, #f0f3f8);
+  border-radius: 6rpx;
+  content: "";
+  height: 56rpx;
+  position: absolute;
+  top: -40rpx;
+  width: 6rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip .left-chain {
+  left: 26rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip .right-chain {
+  right: 26rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip .up-bg {
+  height: 160rpx;
+  position: absolute;
+  right: 8rpx;
+  top: 8rpx;
+  width: 228rpx;
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.train-smart-rs-ticket-banner-s .second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.train-smart-rs-ticket-banner-s .second-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin: 0 14rpx;
+  position: relative;
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip-hd {
+  color: #073e7b;
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip-hd {
+  color: #333;
+}
+.train-smart-rs-ticket-banner-s .second-trip-hd .color-red {
+  font-weight: 700;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+  position: relative;
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip-bd {
+  color: #073e7b;
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip-bd {
+  color: #333;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .from,
+.train-smart-rs-ticket-banner-s .second-trip-bd .to {
+  font-weight: 700;
+  width: 150rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .to {
+  text-align: right;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .schedule::after,
+.train-smart-rs-ticket-banner-s .second-trip-bd .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .schedule::before {
+  left: -24rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx .train-smart-rs-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip-bd .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty .train-smart-rs-ticket-banner-s .second-trip-bd .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .time {
+  font-size: 52rpx;
+  line-height: 60rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-bd .station {
+  font-size: 28rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24rpx;
+  padding: 16rpx 24rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .lbox,
+.train-smart-rs-ticket-banner-s .second-trip-tick .mid,
+.train-smart-rs-ticket-banner-s .second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .lbox {
+  text-align: left;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .mid {
+  text-align: center;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .rbox {
+  text-align: right;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .label {
+  color: #999;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  margin-top: -6rpx;
+  padding: 12rpx 24rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg .name,
+.train-smart-rs-ticket-banner-s .second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg .seat {
+  font-size: 28rpx;
+  max-width: 340rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.train-smart-rs-ticket-banner-s .second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  margin-left: 4rpx;
+}
+.combine-seat-smart-rs-ticket-banner {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-top: 28rpx;
+  padding: 56rpx 24rpx 20rpx;
+  position: relative;
+}
+.combine-seat-smart-rs-ticket-banner.origin {
+  margin-bottom: -16rpx;
+  margin-top: 16rpx;
+}
+.combine-seat-smart-rs-ticket-banner.origin .bd-1px::after {
+  border: 2rpx solid #a9a9a9;
+}
+.combine-seat-smart-rs-ticket-banner.origin .route-banner .operation,
+.combine-seat-smart-rs-ticket-banner.origin .route-banner .seat-name {
+  color: #aaa;
+}
+.combine-seat-smart-rs-ticket-banner.origin .route-banner .line,
+.combine-seat-smart-rs-ticket-banner.origin
+  .route-banner
+  .seat-name.rescheduled,
+.combine-seat-smart-rs-ticket-banner.origin
+  .route-banner
+  .transfer-point
+  .mid-point {
+  background: #a9a9a9;
+}
+.combine-seat-smart-rs-ticket-banner.origin
+  .route-banner
+  .route-desc
+  .total-price {
+  color: #333;
+}
+.combine-seat-smart-rs-ticket-banner.origin .ticket-desc-tag .tag-1 {
+  background: #aaa;
+  color: #fff;
+}
+.combine-seat-smart-rs-ticket-banner.origin .ticket-desc-tag .skew {
+  background: #aaa;
+}
+.combine-seat-smart-rs-ticket-banner.origin .ticket-desc-tag .tag-2 {
+  background: hsla(0, 0%, 67%, 0.1);
+  color: #aaa;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .bd-1px::after {
+  border: 2rpx solid #34bf46;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .route-banner .operation,
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .route-banner .seat-name {
+  color: #34bf46;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule
+  .route-banner
+  .seat-name.rescheduled {
+  background: #34bf46;
+  color: #fff;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .route-banner .line,
+.combine-seat-smart-rs-ticket-banner.ty.reschedule
+  .route-banner
+  .transfer-point
+  .mid-point {
+  background: #34bf46;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .ticket-desc-tag .tag-1 {
+  background: -webkit-linear-gradient(0.32deg, #31dc97, #03b86f);
+  background: -o-linear-gradient(0.32deg, #31dc97 0, #03b86f 100%);
+  background: linear-gradient(89.68deg, #31dc97, #03b86f);
+  color: #fff;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .ticket-desc-tag .skew {
+  background: #03b86f;
+}
+.combine-seat-smart-rs-ticket-banner.ty.reschedule .ticket-desc-tag .tag-2 {
+  background: -webkit-linear-gradient(
+    0.32deg,
+    rgba(49, 220, 151, 0.1),
+    rgba(3, 184, 111, 0.1)
+  );
+  background: -o-linear-gradient(
+    0.32deg,
+    rgba(49, 220, 151, 0.1) 0,
+    rgba(3, 184, 111, 0.1) 100%
+  );
+  background: linear-gradient(
+    89.68deg,
+    rgba(49, 220, 151, 0.1),
+    rgba(3, 184, 111, 0.1)
+  );
+  color: #aaa;
+}
+.combine-seat-smart-rs-ticket-banner .ticket-desc-tag {
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 4rpx;
+  position: absolute;
+  top: 4rpx;
+}
+.combine-seat-smart-rs-ticket-banner .ticket-desc-tag .tag-1 {
+  background: -webkit-linear-gradient(3.89deg, #0daeff, #07f);
+  background: -o-linear-gradient(3.89deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(86.11deg, #0daeff, #07f);
+  border-radius: 18rpx 0 0 0;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 34rpx;
+  line-height: 34rpx;
+  position: relative;
+  text-align: right;
+  width: 74rpx;
+  z-index: 2;
+}
+.combine-seat-smart-rs-ticket-banner .ticket-desc-tag .skew {
+  background: #07f;
+  height: 34rpx;
+  margin-left: -20rpx;
+  position: relative;
+  transform: skewX(-14deg);
+  width: 34rpx;
+  z-index: 1;
+}
+.combine-seat-smart-rs-ticket-banner .ticket-desc-tag .tag-2 {
+  background: -webkit-linear-gradient(
+    3.89deg,
+    rgba(13, 174, 255, 0.1),
+    rgba(0, 119, 255, 0.1)
+  );
+  background: -o-linear-gradient(
+    3.89deg,
+    rgba(13, 174, 255, 0.1) 0,
+    rgba(0, 119, 255, 0.1) 100%
+  );
+  background: linear-gradient(
+    86.11deg,
+    rgba(13, 174, 255, 0.1),
+    rgba(0, 119, 255, 0.1)
+  );
+  border-radius: 0 0 18rpx 0;
+  color: #1a8cff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-left: -6rpx;
+  position: relative;
+  text-align: center;
+  width: 94rpx;
+}
+.combine-seat-smart-rs-ticket-banner .bd-1px {
+  position: relative;
+}
+.combine-seat-smart-rs-ticket-banner .bd-1px::after {
+  border: 2rpx solid #198cff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.5);
+  transform-origin: center;
+  width: 200%;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .time {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .operation,
+.combine-seat-smart-rs-ticket-banner .route-banner .seat-name {
+  background: #fff;
+  border-radius: 10rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  font-weight: 500;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 0 8rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .seat-name.rescheduled {
+  background: #198cff;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .station {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .route-sequence {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10rpx 0 12rpx;
+  width: 100%;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .line {
+  background: #198cff;
+  flex: 1;
+  height: 2rpx;
+  transform: scaleY(0.5);
+  transform-origin: center;
+  width: 70rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .first-route {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 174rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .first-route,
+.combine-seat-smart-rs-ticket-banner .route-banner .transfer-point {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .transfer-point {
+  -ms-flex-align: center;
+  align-items: center;
+  width: 112rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .transfer-point .station,
+.combine-seat-smart-rs-ticket-banner .route-banner .transfer-point .time {
+  color: #676b73;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .transfer-point .mid-point {
+  background: #198cff;
+  border-radius: 50%;
+  height: 14rpx;
+  margin: 8rpx 0;
+  width: 14rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .second-route {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  width: 174rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .route-desc {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .route-desc .total-price {
+  color: #ff5959;
+  font-family: PingFangSC-Medium;
+  font-size: 42rpx;
+  font-weight: 500;
+  height: 46rpx;
+  line-height: 46rpx;
+  margin-top: 10rpx;
+}
+.combine-seat-smart-rs-ticket-banner
+  .route-banner
+  .route-desc
+  .total-price::before {
+  content: "¥";
+  font-size: 28rpx;
+  margin-right: 2rpx;
+}
+.combine-seat-smart-rs-ticket-banner .route-banner .route-desc .total-time {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-top: 24rpx;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -20rpx;
+  margin-top: 20rpx;
+  padding: 24rpx 0;
+  position: relative;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg::before {
+  background: #ededed;
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0.5);
+  transform-origin: center;
+  width: 100%;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg .pasg-name {
+  color: #333;
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 36rpx;
+  line-height: 36rpx;
+  max-width: 50%;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg .seat-box {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: -10rpx;
+  max-width: 50%;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg .seat-box .seat-tag {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg .seat-box .seat {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 36rpx;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.combine-seat-smart-rs-ticket-banner .trip-pasg .seat-box .iconfont {
+  color: #999;
+  font-size: 20rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .action-sheet-bg {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s;
+  width: 100vw;
+  z-index: 1000;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20rpx 30rpx;
+  position: relative;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head .lbox {
+  margin-right: 20rpx;
+  width: 80rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head .avatar {
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head .tag {
+  background: #fff;
+  border-radius: 40rpx;
+  font-size: 16rpx;
+  line-height: 40rpx;
+  margin-top: -22rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head .cont {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 0 16rpx 16rpx 16rpx;
+  padding: 16rpx 24rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-rs-ticket-cancel-stay-layer
+  .confirm-second-pop
+  .head
+  .cont::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/top-txt-arr.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 18rpx;
+  left: -12rpx;
+  position: absolute;
+  top: 0;
+  width: 12rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .head .txt {
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 44rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop.active {
+  transform: translateY(0);
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop::before {
+  border-radius: 32rpx 32rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #f8f8f8);
+}
+.train-smart-rs-ticket-cancel-stay-layer .confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .tips-box {
+  color: #f50;
+  font-size: 24rpx;
+  padding: 16rpx 30rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box {
+  background: #fff;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn {
+  border-radius: 24rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 96rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-2line {
+  margin-left: 16rpx;
+  overflow: visible;
+  position: relative;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-2line .task-icon {
+  height: 46rpx;
+  position: absolute;
+  right: 0;
+  top: -16rpx;
+  width: 98rpx;
+  z-index: 999;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-2line .tag-desc {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_tag_ZNGQ_zrw.png)
+    no-repeat;
+  background-size: contain;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  font-weight: 500;
+  height: 46rpx;
+  letter-spacing: 0;
+  line-height: 26rpx;
+  position: absolute;
+  right: 0;
+  top: -16rpx;
+  width: 98rpx;
+  z-index: 999;
+}
+.train-smart-rs-ticket-cancel-stay-layer
+  .rs-botm-box
+  .btn-2line
+  .tag-desc
+  .td-txt {
+  display: inline-block;
+  margin-top: 2rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-2line .btn-txt {
+  line-height: 50rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-2line .time-text {
+  -ms-flex-pack: center;
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 28rpx;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-submit-zx {
+  background: #e5f2ff;
+  color: #0080ff;
+}
+.train-smart-rs-ticket-cancel-stay-layer .rs-botm-box .btn-submit-ty {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.train-smart-rs-trans-reschedule-route-banner {
+  position: relative;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip {
+  background-color: #fff;
+  border: 4rpx solid #fff;
+  border-radius: 20rpx;
+  padding: 32rpx 12rpx;
+  position: relative;
+  z-index: 100;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip.peace-refund-show {
+  margin-top: -20rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.train-smart-rs-trans-reschedule-route-banner
+  .second-trip.detail
+  .btn-detail
+  .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d7eaff),
+    color-stop(80%, #f7fbff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: -o-linear-gradient(top, #d7eaff, #f7fbff 80%, #fff);
+  background: linear-gradient(180deg, #d7eaff, #f7fbff 80%, #fff);
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(80%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fafffd 80%, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fafffd 80%, #fff);
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 208rpx;
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-zx.png);
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip .tit {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-tit-ty.png);
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  margin: 0 14rpx;
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip-hd {
+  color: #073e7b;
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip-hd {
+  color: #333;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-hd .color-red {
+  font-weight: 700;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner
+  .second-trip-hd
+  .btn-detail
+  .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip-hd .btn-detail {
+  color: #198cff;
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip-hd .btn-detail {
+  color: #34b86f;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 12rpx 14rpx 0;
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip-bd {
+  color: #073e7b;
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip-bd {
+  color: #333;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .from,
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .to {
+  width: 150rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .to {
+  text-align: right;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .schedule {
+  border-radius: 44rpx;
+  font-size: 24rpx;
+  line-height: 44rpx;
+  position: relative;
+  text-align: center;
+  width: 104rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .schedule::after,
+.train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::before {
+  content: "";
+  height: 2rpx;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 24rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::before {
+  left: -24rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .schedule::after {
+  right: -24rpx;
+}
+.zx .train-smart-rs-trans-reschedule-route-banner .second-trip-bd .schedule {
+  border: 2rpx solid rgba(166, 201, 240, 0.5);
+}
+.zx
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(left, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(left, #deeeff, #a6c9f0);
+  background: linear-gradient(90deg, #deeeff, #a6c9f0);
+}
+.zx
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#deeeff),
+    to(#a6c9f0)
+  );
+  background: -webkit-linear-gradient(right, #deeeff, #a6c9f0);
+  background: -o-linear-gradient(right, #deeeff, #a6c9f0);
+  background: linear-gradient(270deg, #deeeff, #a6c9f0);
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip-bd .schedule {
+  border: 2rpx solid hsla(158, 7%, 77%, 0.5);
+}
+.ty
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(left, #f1fbf7, #c1c9c6);
+  background: linear-gradient(90deg, #f1fbf7, #c1c9c6);
+}
+.ty
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip-bd
+  .schedule::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1fbf7),
+    to(#c1c9c6)
+  );
+  background: -webkit-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: -o-linear-gradient(right, #f1fbf7, #c1c9c6);
+  background: linear-gradient(270deg, #f1fbf7, #c1c9c6);
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .time {
+  font-size: 52rpx;
+  font-weight: 600;
+  line-height: 60rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-bd .station {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-top: 2rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick {
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24rpx;
+  padding: 16rpx 24rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .lbox,
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .mid,
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .rbox {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .lbox {
+  text-align: left;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .mid {
+  text-align: center;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .rbox {
+  text-align: right;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .label {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .txt {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 46rpx;
+  line-height: 46rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .seat {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-smart-rs-trans-reschedule-route-banner
+  .second-trip-tick
+  .seat
+  .seat-tag {
+  border: 2rpx solid rgba(25, 140, 255, 0.6);
+  border-radius: 8rpx;
+  color: #198cff;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-left: 8rpx;
+  padding: 0 8rpx;
+}
+.ty
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip-tick
+  .seat
+  .seat-tag {
+  border: 2rpx solid rgba(3, 184, 111, 0.6);
+  color: #34b86f;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .highlight {
+  color: #198cff;
+}
+.ty .train-smart-rs-trans-reschedule-route-banner .second-trip-tick .highlight {
+  color: #34b86f;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .price::before {
+  content: "¥";
+  font-size: 20rpx;
+  margin-right: 2rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-tick .tips {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff2f2),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(left, #fff2f2, #fff);
+  background: -o-linear-gradient(left, #fff2f2, #fff);
+  background: linear-gradient(90deg, #fff2f2, #fff);
+  border-radius: 0 0 12rpx 12rpx;
+  color: #666;
+  font-size: 22rpx;
+  line-height: 60rpx;
+  margin: 16rpx -24rpx -16rpx;
+  padding: 0 24rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32rpx 12rpx 0;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .name,
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .seat {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .name {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-right: 30rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .seat {
+  font-size: 28rpx;
+  margin-right: 4rpx;
+  text-align: right;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 40%, 0.5);
+  border-radius: 6rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  padding: 0 6rpx;
+}
+.train-smart-rs-trans-reschedule-route-banner .second-trip-pasg .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+  font-weight: 600;
+  margin-left: 2rpx;
+}
+.compare-box {
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.compare-box.detail {
+  opacity: 1;
+  z-index: 1000;
+}
+.compare-box .second-trip {
+  background: #fff;
+  border-radius: 20rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.compare-box .second-trip-hd .btn-detail {
+  background: #f2f2f2;
+  color: #666;
+}
+.compare-box .second-trip-bd .mid {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.compare-box .second-trip-bd .mid .color-green {
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
+.compare-box .second-trip-bd .mid .seat {
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  height: 34rpx;
+}
+.compare-box .second-trip-bd .mid .seat .tag {
+  border: 1rpx solid rgba(25, 140, 255, 0.6);
+  border-radius: 8rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  line-height: 30rpx;
+  margin-left: 8rpx;
+  padding: 0 8rpx;
+}
+.ty .compare-box .second-trip-bd .mid .seat .tag {
+  border: 1rpx solid rgba(3, 184, 111, 0.6);
+  color: #03b86f;
+}
+.compare-box .second-trip-bd .mid .line {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  height: 2rpx;
+  margin-top: 6rpx;
+  width: 152rpx;
+}
+.compare-box .second-trip-bd .mid .train-no {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-top: 4rpx;
+}
+.compare-box .second-trip-bd .mid .seat,
+.compare-box .second-trip-bd .mid .train-no {
+  color: #666;
+}
+.compare-box .second-trip-bd .mid .seat.highlight,
+.compare-box .second-trip-bd .mid .train-no.highlight {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+}
+.ty .compare-box .second-trip-bd .mid .seat.highlight,
+.ty .compare-box .second-trip-bd .mid .train-no.highlight {
+  color: #03b86f;
+}
+.compare-box .origin-ticket-info {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  margin: 0 8rpx 8rpx;
+}
+.compare-box .origin-ticket-info .second-trip {
+  background: #f8f8f8;
+  padding-top: 44rpx;
+}
+.compare-box .origin-ticket-info .second-trip .tit {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZN_mini_ticket_title_yuan.png);
+  color: #999;
+}
+.compare-box .origin-ticket-info .second-trip-bd .seat,
+.compare-box .origin-ticket-info .second-trip-bd .train-no {
+  color: #999;
+}
+.compare-box .origin-ticket-info .second-trip-bd .seat.highlight,
+.compare-box .origin-ticket-info .second-trip-bd .train-no.highlight {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+}
+.ty .compare-box .origin-ticket-info .second-trip-bd .seat.highlight,
+.ty .compare-box .origin-ticket-info .second-trip-bd .train-no.highlight {
+  color: #03b86f;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip {
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 26rpx 30rpx 24rpx;
+  position: relative;
+  z-index: 9;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip.peace-refund-show {
+  margin-top: -20rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip.detail {
+  border-radius: 20rpx 20rpx 0 0;
+  z-index: 1000;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip.detail .btn-detail {
+  background: #f2f2f2 !important;
+  color: #666 !important;
+}
+.train-smart-rs-trans-origin-route-banner
+  .first-trip.detail
+  .btn-detail
+  .ifont-triangle {
+  margin-top: -4rpx;
+  transform: rotate(180deg);
+}
+.train-smart-rs-trans-origin-route-banner
+  .first-trip.detail
+  .first-trip-detail {
+  display: block;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip .tit {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZN_mini_ticket_title_zx.png)
+    no-repeat;
+  background-size: cover;
+  color: #198cff;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 50%;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 202rpx;
+}
+.ty .train-smart-rs-trans-origin-route-banner .first-trip .tit {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_ZN_mini_ticket_title_ty.png)
+    no-repeat;
+  background-size: cover;
+  color: #34b86f;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-hd .cont {
+  color: #999;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-hd .status {
+  color: #666;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-hd .btn-detail {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 44rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 24rpx;
+  height: 44rpx;
+  margin-left: 12rpx;
+  padding: 0 12rpx;
+}
+.train-smart-rs-trans-origin-route-banner
+  .first-trip-hd
+  .btn-detail
+  .ifont-triangle {
+  font-size: 14rpx;
+  margin: 2rpx 0 0 4rpx;
+  transition: all 0.3s ease-in-out;
+}
+.zx .train-smart-rs-trans-origin-route-banner .first-trip-hd .btn-detail {
+  background: #e8f3ff;
+  color: #198cff;
+}
+.ty .train-smart-rs-trans-origin-route-banner .first-trip-hd .btn-detail {
+  background: #e5f7f0;
+  color: #34b86f;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 2rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .from,
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .to {
+  font-weight: 700;
+  width: 120rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .to {
+  text-align: right;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .mid {
+  position: relative;
+  text-align: center;
+  width: 152rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .mid::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 81%, 0)),
+    color-stop(#cecece),
+    to(hsla(0, 0%, 81%, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 81%, 0),
+    #cecece,
+    hsla(0, 0%, 81%, 0)
+  );
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .time {
+  font-size: 44rpx;
+  line-height: 60rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .station {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  margin-top: -10rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .seat {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-bd .train-no {
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-detail {
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+  display: none;
+  left: 0;
+  padding: 0 20rpx 20rpx;
+  position: absolute;
+  right: 0;
+  top: 180rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .item,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .item:last-child,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .name,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .name,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .tag-grey,
+.train-smart-rs-trans-origin-route-banner .first-trip-list .tag-window,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .tag-grey,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .tag-window,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .tag-grey,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .tag-grey,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .tag-grey,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .tag-window,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .tag-window,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.train-smart-rs-trans-origin-route-banner .first-trip-list .seat,
+.train-smart-rs-trans-origin-route-banner .pop-pasg-list .seat,
+.train-smart-rs-trans-origin-route-banner .pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.transfer-banner {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 88rpx;
+  margin: 20rpx 0;
+  padding: 0 30rpx;
+}
+.near .transfer-banner {
+  height: 104rpx;
+}
+.transfer-banner .transfer-icon {
+  height: 32rpx;
+  margin-right: 10rpx;
+  width: 32rpx;
+}
+.transfer-banner .tranfer-title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 12rpx;
+}
+.transfer-banner .tranfer-desc {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+}
+.transfer-banner .tranfer-desc .compare-info,
+.transfer-banner .tranfer-desc .remind-info {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.near .transfer-banner .tranfer-desc {
+  flex-direction: column;
+  text-align: right;
+}
+.near .transfer-banner .tranfer-desc .compare-info {
+  color: #ff5959;
+}
+.grab-smart-transfer {
+  margin: 0 20rpx 20rpx;
+}
+.collapsible-ticket-info-box,
+.grab-smart-transfer {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+.collapsible-ticket-info-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 30rpx 0;
+}
+.collapsible-ticket-info-box.opened {
+  padding: 28rpx 0 24rpx;
+}
+.collapsible-ticket-info-box .hd {
+  margin: 0 30rpx;
+}
+.collapsible-ticket-info-box .hd .tag {
+  background: #bbb;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 0 12rpx;
+}
+.collapsible-ticket-info-box .hd .title {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-left: 12rpx;
+  margin-right: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.collapsible-ticket-info-box .hd .status-box {
+  -ms-flex-pack: end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+}
+.collapsible-ticket-info-box .hd .status-box .status {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: relative;
+  z-index: 1;
+}
+.collapsible-ticket-info-box .hd .status-box .status::after {
+  border: 2rpx solid #979797;
+  border-radius: 44rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.collapsible-ticket-info-box .hd .ifont-arrdown,
+.collapsible-ticket-info-box .hd .ifont-arrup {
+  font-size: 20rpx;
+  margin-left: 12rpx;
+}
+.collapsible-ticket-info-box .old-bd {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 14rpx 30rpx 0;
+  position: relative;
+}
+.collapsible-ticket-info-box .old-bd .time {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 56rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.collapsible-ticket-info-box .old-bd .multi-day {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin-right: 4rpx;
+  margin-top: 12rpx;
+}
+.collapsible-ticket-info-box .old-bd .station {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.collapsible-ticket-info-box .old-bd .m-box {
+  text-align: center;
+}
+.collapsible-ticket-info-box .old-bd .m-box .duration {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-bottom: 6rpx;
+}
+.collapsible-ticket-info-box .old-bd .m-box .schedule {
+  border: 1rpx solid #ccc;
+  border-radius: 24rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+  position: relative;
+}
+.collapsible-ticket-info-box .old-bd .m-box .schedule::before {
+  background: #ccc;
+  content: "";
+  display: block;
+  height: 2rpx;
+  left: -24rpx;
+  position: absolute;
+  top: 22rpx;
+  width: 24rpx;
+}
+.collapsible-ticket-info-box .old-bd .m-box .schedule::after {
+  background: #ccc;
+  content: "";
+  display: block;
+  height: 2rpx;
+  position: absolute;
+  right: -24rpx;
+  top: 22rpx;
+  width: 24rpx;
+}
+.collapsible-ticket-info-box .old-bd .r-box {
+  text-align: right;
+}
+.collapsible-ticket-info-box .new-bd {
+  margin: 16rpx 30rpx 0;
+  position: relative;
+}
+.collapsible-ticket-info-box .new-bd .line {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 65%, 0)),
+    color-stop(#a6a6a6),
+    to(hsla(0, 0%, 65%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: -o-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: linear-gradient(
+    270deg,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  height: 2rpx;
+  left: calc(50% - 76rpx);
+  position: absolute;
+  top: 60rpx;
+  width: 160rpx;
+}
+.collapsible-ticket-info-box .new-bd .duration {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  left: calc(50% - 76rpx);
+  letter-spacing: 0;
+  line-height: 36rpx;
+  position: absolute;
+  text-align: center;
+  top: 20rpx;
+  width: 160rpx;
+}
+.collapsible-ticket-info-box .new-bd .time {
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+.collapsible-ticket-info-box .new-bd .station,
+.collapsible-ticket-info-box .new-bd .time {
+  -ms-flex-pack: justify;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.collapsible-ticket-info-box .new-bd .station {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.collapsible-ticket-info-box .passenger-info {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  margin: 30rpx 24rpx 0;
+}
+.collapsible-ticket-info-box .passenger-info .passenger {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC;
+  height: 88rpx;
+  padding: 0 20rpx;
+}
+.collapsible-ticket-info-box .passenger-info .passenger:not(:first-child) {
+  border-top: 2rpx solid #ededed;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .name {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 88rpx;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .type {
+  border: 2rpx solid #b4b4b4;
+  border-radius: 8rpx;
+  color: #999;
+  font-size: 18rpx;
+  line-height: 26rpx;
+  margin-left: 8rpx;
+  padding: 0 4rpx;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .seat {
+  color: #666;
+  font-size: 28rpx;
+  margin-left: 8rpx;
+  text-align: right;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .seat-no {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+  margin-left: 8rpx;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .seat-tag {
+  border: 2rpx solid #03b86f;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  color: #03b86f;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 32rpx;
+  line-height: 24rpx;
+  padding: 2rpx 8rpx;
+}
+.collapsible-ticket-info-box .passenger-info .passenger .pasg-right {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.collapsible-ticket-info-box .transit-trip-info {
+  margin: 30rpx 30rpx 0;
+}
+.collapsible-ticket-info-box .transit-trip-info .line {
+  background: #ccc;
+}
+.collapsible-ticket-info-box .transit-trip-info .cont-box .transit-desc {
+  background: #999;
+}
+.collapsible-ticket-info-box .transit-trip-info .tips-box .trip-tips {
+  background: #ededed;
+  color: #999;
+}
+.collapsible-ticket-info-box
+  .transit-trip-info
+  .tips-box
+  .trip-tips
+  .ifont2-arr {
+  color: #999;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo {
+  margin: 20rpx 30rpx 0;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo .operation {
+  border-color: #ccc;
+  color: #666;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo .ticket-operation {
+  background: #999;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo .line {
+  border-top-color: #ccc;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo .route-sequence {
+  margin: 8rpx 0 6rpx;
+}
+.collapsible-ticket-info-box .cross-station-tripinfo .circle-point {
+  border-color: #ccc;
+}
+.same-trip-pas-box {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  margin-top: 16rpx;
+  padding: 24rpx 20rpx;
+}
+.same-trip-pas-box .p-item .p-list {
+  flex: 1;
+}
+.same-trip-pas-box .p-item .p-list .item .p-type {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+  font-weight: 400;
+  height: 30rpx;
+  line-height: 28rpx;
+  margin-left: 8rpx;
+  padding: 0 6rpx;
+  position: relative;
+  z-index: 1;
+}
+.same-trip-pas-box .p-item .p-list .item .p-type::after {
+  border: 2rpx solid #b4b4b4;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.same-trip-pas-box .p-item .p-list .item .seat-price {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+  margin-right: 8rpx;
+  text-align: right;
+}
+.same-trip-pas-box .p-item .p-list .item:not(:last-child) {
+  margin-bottom: 20rpx;
+}
+.same-trip-pas-box .p-item .v-line {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 8rpx 16rpx;
+  width: 2rpx;
+}
+.same-trip-pas-box .p-item .carriage {
+  color: #198cff;
+}
+.ty .same-trip-pas-box .p-item .carriage {
+  color: #fc6e51;
+}
+.same-trip-pas-box .h-line {
+  background: rgba(0, 0, 0, 0.05);
+  height: 2rpx;
+  margin: 24rpx 0;
+  transform: scaleY(0.5);
+}
+.smart-rs-passenger {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  margin: 16rpx 16rpx 0;
+  padding: 24rpx;
+  width: 718rpx;
+}
+.smart-rs-passenger .txt {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.smart-rs-passenger .t-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 6rpx;
+}
+.smart-rs-passenger .t-box .tit {
+  flex: 1;
+  margin-right: 12rpx;
+  text-align: right;
+}
+.smart-rs-passenger .t-box .close-tips {
+  color: #999;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  margin-right: 8rpx;
+  text-align: right;
+}
+.smart-rs-passenger .t-box .icon {
+  border-left: 4rpx solid #999;
+  border-top: 4rpx solid #999;
+  box-sizing: border-box;
+  height: 16rpx;
+  margin-top: 8rpx;
+  transform: rotate(225deg);
+  width: 16rpx;
+}
+.smart-rs-passenger .t-box .icon.open {
+  margin-top: 12rpx;
+  transform: rotate(45deg);
+}
+.smart-rs-multi-trip {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  margin: 16rpx 16rpx 0;
+  padding: 30rpx;
+  width: 718rpx;
+}
+.smart-rs-multi-trip .head-box .tit {
+  background: #bbb;
+  border-radius: 10rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 0 12rpx;
+}
+.smart-rs-multi-trip .head-box .tag {
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  color: #666;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 40rpx;
+  line-height: 36rpx;
+  margin-left: 8rpx;
+  padding: 0 10rpx;
+}
+.smart-rs-multi-trip .head-box .sub-tit {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin-left: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-rs-multi-trip .head-box .status {
+  border: 2rpx solid #ccc;
+  border-radius: 22rpx;
+  box-sizing: border-box;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 0 16rpx;
+}
+.smart-rs-multi-trip .head-box .ifont-arrdown2 {
+  color: #999;
+  font-size: 20rpx;
+  margin-left: 12rpx;
+}
+.smart-rs-multi-trip .head-box .ifont-arrdown2.opened {
+  transform: rotate(180deg);
+}
+.smart-rs-multi-trip .total-box {
+  margin-top: 22rpx;
+}
+.smart-rs-multi-trip .total-box.mt14 {
+  margin-bottom: 24rpx;
+  margin-top: 14rpx;
+}
+.smart-rs-multi-trip .total-box .l-info {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.smart-rs-multi-trip .total-box .r-info {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.smart-rs-multi-trip .trip-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.smart-rs-multi-trip .trip-box .time {
+  color: #666;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 48rpx;
+}
+.smart-rs-multi-trip .trip-box .station {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-top: 4rpx;
+}
+.smart-rs-multi-trip .trip-box .middle {
+  text-align: center;
+}
+.smart-rs-multi-trip .trip-box .middle .total-time,
+.smart-rs-multi-trip .trip-box .middle .train-no {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+}
+.smart-rs-multi-trip .trip-box .middle .line {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 65%, 0)),
+    color-stop(#a6a6a6),
+    to(hsla(0, 0%, 65%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: -o-linear-gradient(
+    right,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  background: linear-gradient(
+    270deg,
+    hsla(0, 0%, 65%, 0),
+    #a6a6a6,
+    hsla(0, 0%, 65%, 0)
+  );
+  height: 2rpx;
+  margin-bottom: 4rpx;
+  margin-top: 4rpx;
+  width: 152rpx;
+}
+.smart-rs-multi-trip .trip-box .right {
+  text-align: right;
+}
+.smart-rs-multi-trip .trip-box .right .multi-day {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-right: 4rpx;
+  margin-top: 8rpx;
+}
+.smart-rs-multi-trip .transfer-box {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(right, #fff, #f5f5f5);
+  background: -o-linear-gradient(right, #fff 0, #f5f5f5 100%);
+  background: linear-gradient(-90deg, #fff, #f5f5f5);
+  border-radius: 16rpx;
+  height: 72rpx;
+  margin: 24rpx 0;
+  padding: 0 20rpx;
+}
+.smart-rs-multi-trip .transfer-box .icon {
+  height: 36rpx;
+  margin-right: 16rpx;
+  width: 36rpx;
+}
+.smart-rs-multi-trip .transfer-box .desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.train-srs-retain .zt-drawer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5);
+  border-radius: 40rpx 40rpx 0 0;
+}
+.train-srs-retain .zt-drawer .zt-drawer-content {
+  padding-top: 40rpx;
+  text-align: center;
+}
+.train-srs-retain .zt-drawer-header {
+  padding: 0;
+}
+.train-srs-retain .tit-box {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+}
+.train-srs-retain .sub-tit {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 12rpx;
+}
+.train-srs-retain .guide-img {
+  height: 400rpx;
+  margin-top: 32rpx;
+  width: 600rpx;
+}
+.train-srs-retain .btn-box {
+  -ms-flex-pack: justify;
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  justify-content: space-between;
+  margin-top: 32rpx;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.train-srs-retain .btn-box .btn {
+  border-radius: 24rpx;
+  flex: 1;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.train-srs-retain .btn-box .confirm {
+  background: #edf6ff;
+  color: #198cff;
+  margin-right: 16rpx;
+}
+.ty .train-srs-retain .btn-box .confirm {
+  background: #fef0ed;
+  color: #fc6e51;
+}
+.train-srs-retain .btn-box .cancel {
+  background: #198cff;
+  color: #fff;
+}
+.ty .train-srs-retain .btn-box .cancel {
+  background: #fc6e51;
+}
+.smart-rs-reject .zt-drawer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    color-stop(50%, #f5f5f5),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5 50%, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 50%, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5 50%, #f5f5f5);
+  border-radius: 40rpx 40rpx 0 0;
+  padding-bottom: calc(env(safe-area-inset-bottom));
+}
+.smart-rs-reject .tit-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 32rpx 32rpx 0 48rpx;
+}
+.smart-rs-reject .tit-box .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 42rpx;
+  line-height: 42rpx;
+}
+.smart-rs-reject .tit-box .icon {
+  height: 48rpx;
+  width: 48rpx;
+}
+.smart-rs-reject .reason-box {
+  background: #fff;
+  border-radius: 24rpx;
+  flex-wrap: wrap;
+  margin: 32rpx 16rpx;
+  padding: 8rpx 16rpx 32rpx 32rpx;
+}
+.smart-rs-reject .reason-box .item {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 16rpx;
+  margin-top: 24rpx;
+  text-align: center;
+  width: 320rpx;
+}
+.smart-rs-reject .reason-box .item.active {
+  background: #f9fbff;
+  border: 2rpx solid #198cff;
+  color: #198cff;
+}
+.ty .smart-rs-reject .reason-box .item.active {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.train-smart-notice-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 40rpx 40rpx 0 0;
+}
+.train-smart-notice-drawer .content {
+  border-radius: 40rpx 40rpx 0 0;
+  padding-top: 32rpx;
+  position: relative;
+}
+.train-smart-notice-drawer .content .close-icon {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 30rpx;
+  width: 48rpx;
+}
+.train-smart-notice-drawer .content .drawer-tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 42rpx;
+  text-align: center;
+}
+.train-smart-notice-drawer .content .cont-box {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 34rpx 18rpx 40rpx;
+  padding: 40rpx 32rpx;
+}
+.train-smart-notice-drawer .content .cont-box .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.train-smart-notice-drawer .content .cont-box .sub-tit {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+  margin-top: 8rpx;
+}
+.train-smart-notice-drawer .content .btn-box {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.train-smart-notice-drawer .content .btn-box .btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.train-smart-expired-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 40rpx 40rpx 0 0;
+}
+.train-smart-expired-drawer .content {
+  border-radius: 40rpx 40rpx 0 0;
+  padding-top: 36rpx;
+  position: relative;
+}
+.train-smart-expired-drawer .content .bg-img {
+  border-radius: 40rpx 40rpx 0 0;
+  height: 296rpx;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.train-smart-expired-drawer .content .close-icon {
+  height: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 40rpx;
+  width: 48rpx;
+}
+.train-smart-expired-drawer .content .drawer-tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 56rpx;
+  text-align: center;
+}
+.train-smart-expired-drawer .content .mid-box {
+  background: #fff;
+  border: 4rpx solid #fff;
+  border-radius: 24rpx;
+  margin: 36rpx 16rpx 40rpx;
+  padding: 32rpx 24rpx 24rpx;
+}
+.train-smart-expired-drawer .content .mid-box.pb32 {
+  padding-bottom: 32rpx;
+}
+.train-smart-expired-drawer .content .mid-box .product-box {
+  margin-bottom: 32rpx;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .p-icon {
+  height: 64rpx;
+  margin-left: 8rpx;
+  margin-right: 20rpx;
+  width: 64rpx;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .name-tag .name {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 50rpx;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .name-tag .vip-tag {
+  color: #ce824e;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-left: 8rpx;
+  padding: 2rpx 8rpx;
+  position: relative;
+  z-index: 1;
+}
+.train-smart-expired-drawer
+  .content
+  .mid-box
+  .product-box
+  .name-tag
+  .vip-tag::after {
+  border: 2rpx solid #ce824e;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.49);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .price {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  text-align: right;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .price .real-price {
+  color: #222;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .price .old-price {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  text-decoration: line-through;
+}
+.train-smart-expired-drawer .content .mid-box .product-box .train-info {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin-top: 6rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box {
+  background: #f9f9f9;
+  border-radius: 20rpx;
+  margin-bottom: 28rpx;
+  padding: 20rpx 24rpx 24rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .tips {
+  color: #fd9227;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .h-line {
+  background: #ececec;
+  height: 2rpx;
+  margin: 22rpx 0 26rpx;
+  transform: scaleY(0.5);
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .pay-info {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  margin-bottom: 22rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .pay-info .total-fee {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .comm-txt {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.train-smart-expired-drawer .content .mid-box .extra-box .new-ticket {
+  margin-bottom: 16rpx;
+}
+.train-smart-expired-drawer
+  .content
+  .mid-box
+  .extra-box
+  .service-fee
+  .original-price {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 6rpx;
+  text-decoration: line-through;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  padding: 24rpx;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box.no-bg {
+  background: none;
+  padding: 0;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box .item {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box .item::before {
+  -ms-flex-negative: 0;
+  background: #999;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  height: 8rpx;
+  margin-right: 8rpx;
+  margin-top: 12rpx;
+  width: 8rpx;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box .item:not(:last-child) {
+  margin-bottom: 8rpx;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box .rule-btn {
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.train-smart-expired-drawer .content .mid-box .desc-box .rule-btn::before {
+  background: #000;
+  border-radius: 2rpx;
+  content: "";
+  display: block;
+  height: 100%;
+  margin-left: 10rpx;
+  margin-right: 24rpx;
+  opacity: 0.05;
+  width: 2rpx;
+}
+.train-smart-expired-drawer .content .btn-box {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 16rpx 16rpx calc(16rpx + env(safe-area-inset-bottom));
+}
+.train-smart-expired-drawer .content .btn-box .btn {
+  background: #edf6ff;
+  border-radius: 24rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+}
+.train-smart-expired-drawer .content .btn-box .btn-cancel {
+  background: #edf6ff;
+  color: #198cff;
+  margin-right: 16rpx;
+}
+.train-smart-expired-drawer .content .btn-box .btn-confirm {
+  background: #198cff;
+  color: #fff;
+}
+.combined-seat-info {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+.combined-seat-info .time {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+}
+.combined-seat-info .station {
+  color: #333;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.combined-seat-info .comm-box,
+.combined-seat-info .station {
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.combined-seat-info .comm-box {
+  background: #fff;
+  border: 3rpx solid #8cc5ff;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  color: #198cff;
+  display: inline-block;
+  font-size: 22rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  margin: 8rpx 0;
+  padding: 0 8rpx;
+}
+.combined-seat-info .from,
+.combined-seat-info .mid,
+.combined-seat-info .to {
+  position: relative;
+  z-index: 10;
+}
+.combined-seat-info .mid {
+  text-align: center;
+}
+.combined-seat-info .to {
+  text-align: right;
+}
+.combined-seat-info .trip-tips {
+  position: absolute;
+  width: 100%;
+}
+.combined-seat-info .trip-tips .co-trip-desc {
+  border-radius: 12rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 22rpx;
+  font-weight: 500;
+  height: 42rpx;
+  letter-spacing: 0;
+  line-height: 42rpx;
+}
+.combined-seat-info .trip-tips .first-trip-box {
+  background: #e6f0ff;
+  color: #198cff;
+  padding: 0 10rpx;
+}
+.combined-seat-info .trip-tips .second-trip-box {
+  background: #198cff;
+  color: #fff;
+  padding: 0 12rpx;
+}
+.combined-seat-info .trip-tips .line {
+  background: #8cc5ff;
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 20rpx;
+  z-index: 1;
+}
+.combined-seat-info .trip-tips .first-trip,
+.combined-seat-info .trip-tips .second-trip {
+  position: relative;
+  z-index: 10;
+}
+.tsmart-csi-banner {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 16rpx 16rpx;
+  padding: 16rpx 30rpx;
+}
+.same-trip-pas-drawer .zt-drawer {
+  background: #f5f5f5;
+  border-radius: 40rpx 40rpx 0 0;
+}
+.same-trip-pas-drawer .content {
+  padding-top: 32rpx;
+  position: relative;
+}
+.same-trip-pas-drawer .content .ifont2-close {
+  color: #ccc;
+  font-size: 48rpx;
+  position: absolute;
+  right: 32rpx;
+  top: 26rpx;
+}
+.same-trip-pas-drawer .content .drawer-tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 44rpx;
+  margin-top: 32rpx;
+  text-align: center;
+}
+.same-trip-pas-drawer .content .same-trip-pas-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 32rpx 16rpx calc(40rpx + env(safe-area-inset-bottom));
+  padding: 32rpx;
+}
+.same-trip-pas-drawer .content .same-trip-pas-box .p-item .txt {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.same-trip-pas-drawer .content .same-trip-pas-box .p-item .txt.carriage {
+  color: #198cff;
+}
+.ty .same-trip-pas-drawer .content .same-trip-pas-box .p-item .txt.carriage {
+  color: #fc6e51;
+}
+.tsmart-service-fee-free {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#ebf4ff),
+    color-stop(99.7%, #d1e8ff)
+  );
+  background: -webkit-linear-gradient(right, #ebf4ff, #d1e8ff 99.7%);
+  background: -o-linear-gradient(right, #ebf4ff 0, #d1e8ff 99.7%);
+  background: linear-gradient(-90deg, #ebf4ff, #d1e8ff 99.7%);
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 20rpx 0 64rpx;
+}
+.tsmart-service-fee-free .tag {
+  height: 36rpx;
+  margin-right: 12rpx;
+  width: 108rpx;
+}
+.tsmart-service-fee-free .desc {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.tsmart-rs-bottom-tips {
+  background: #fffaf5;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 22rpx 32rpx 58rpx;
+}
+.tsmart-rs-bottom-tips .desc {
+  color: #f76e21;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.bottom-fixed-area {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.bottom-fixed-area .bfa-top-folder {
+  margin-bottom: -40rpx;
+  position: relative;
+  z-index: 1;
+}
+.bottom-fixed-area .bfa-btn-group {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 2;
+}
+.bottom-fixed-area .bfa-btn-group .h5-button {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 34rpx;
+  font-weight: 700;
+  height: 88rpx;
+  justify-content: center;
+  line-height: 42rpx;
+}
+.bottom-fixed-area .bfa-btn-group .btn-cancel {
+  background: rgba(0, 128, 255, 0.1);
+  color: #0080ff;
+  margin-right: 18rpx;
+}
+.ty .bottom-fixed-area .bfa-btn-group .btn-cancel {
+  background: rgba(252, 110, 81, 0.1);
+  color: #fc6e51;
+}
+.bottom-fixed-area .bfa-btn-group .btn-confirm {
+  background: -webkit-linear-gradient(5.62deg, #0daeff, #07f);
+  background: -o-linear-gradient(5.62deg, #0daeff 0, #07f 100%);
+  background: linear-gradient(84.38deg, #0daeff, #07f);
+  color: #fff;
+}
+.ty .bottom-fixed-area .bfa-btn-group .btn-confirm {
+  background: #fc6e51;
+}
+.bottom-fixed-area .bfa-btn-group .btn-confirm .timeout {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  opacity: 0.8;
+}
+.bottom-fixed-area .bfa-old-btn-group {
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.04);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 2;
+}
+.bottom-fixed-area .bfa-old-btn-group .h5-button {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 96rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 44rpx;
+  margin-right: 18rpx;
+}
+.bottom-fixed-area .bfa-old-btn-group .btn-cancel {
+  background: #feeceb;
+}
+.bottom-fixed-area .bfa-old-btn-group .btn-red .timeout {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  opacity: 0.6;
+}
+.ifont2-arr {
+  color: #999;
+  font-size: 24rpx;
+  height: 24rpx;
+  margin-left: 4rpx;
+  width: 24rpx;
+}
+.cont {
+  flex: 1;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.top-bar .ifont-back {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.top-bar .tit {
+  display: none;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 200rpx;
+  text-align: center;
+}
+.top-bar.fixed .tit {
+  display: block;
+}
+.zx .top-bar.fixed {
+  background: #0066e6;
+}
+.ty .top-bar.fixed {
+  background: #3c4365;
+}
+.top-box {
+  padding-bottom: 164rpx;
+  position: relative;
+  text-align: center;
+}
+.top-box::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.top-box .tit {
+  color: #fff;
+  font-size: 44rpx;
+  font-weight: 700;
+  margin: -8rpx 40rpx 0;
+}
+.top-box .txt-bd {
+  margin: 6rpx 40rpx 0;
+}
+.top-box .txt {
+  color: #ccd5ff;
+  font-size: 26rpx;
+}
+.top-box .strong {
+  color: #fff;
+  font-weight: 700;
+}
+.zx .top-box {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.ty .top-box {
+  background: #3c4365;
+}
+.top-box .tag {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.top-box .tag .yuyin-icon {
+  height: 28rpx;
+  margin-right: 2rpx;
+  width: 28rpx;
+}
+.top-hd {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-avatar-bg.png)
+    no-repeat top;
+  background-size: 172rpx 172rpx;
+  padding: 38rpx;
+}
+.top-hd .avatar {
+  border-radius: 96rpx;
+  height: 96rpx;
+  width: 96rpx;
+}
+.top-hd .tag {
+  background: #fff;
+  border-radius: 48rpx;
+  font-size: 22rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  margin: -30rpx auto 0;
+  position: relative;
+  width: 140rpx;
+  z-index: 2;
+}
+.top-hd .tag.ty {
+  color: #3c4365;
+}
+.top-hd .tag.zx {
+  color: #0080ff;
+}
+.wrap {
+  margin-top: -140rpx;
+  padding-bottom: calc(166rpx + env(safe-area-inset-bottom));
+}
+.wrap.add-free-info {
+  padding-bottom: calc(246rpx + env(safe-area-inset-bottom));
+}
+.white-box {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+}
+.pop-payment-list {
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.pop-payment-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 88rpx;
+}
+.pop-payment-list .item:last-child {
+  border-bottom: 0;
+}
+.pop-pasg-list .name,
+.pop-payment-list .name {
+  font-size: 28rpx;
+  font-weight: 700;
+  max-width: 120rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-pasg-list .tag-grey,
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-grey,
+.pop-payment-list .tag-window {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 6rpx;
+}
+.pop-pasg-list .tag-grey,
+.pop-payment-list .tag-grey {
+  border: 2rpx solid hsla(0, 0%, 53%, 0.3);
+  color: #999;
+  margin: 0 auto 0 8rpx;
+}
+.pop-pasg-list .tag-window,
+.pop-payment-list .tag-window {
+  border: 2rpx solid rgba(3, 184, 111, 0.3);
+  color: #03b86f;
+  margin-right: 8rpx;
+}
+.pop-pasg-list .seat,
+.pop-payment-list .seat {
+  font-size: 28rpx;
+}
+.qa-box {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/smart-tick-qa.png);
+  background-position: 100%0;
+  background-repeat: no-repeat;
+  background-size: 140rpx 130rpx;
+  padding: 24rpx 30rpx 30rpx;
+}
+.qa-box .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-bottom: 16rpx;
+}
+.qa-box .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 10rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.qa-box .txt::before {
+  background: #d8d8d8;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 14rpx;
+  width: 8rpx;
+}
+.pop-botm {
+  background: #f7f7f7;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.pop-botm .icon-closed {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/pop-botm-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 48rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  width: 48rpx;
+}
+.pop-botm-hd {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108rpx;
+  justify-content: center;
+}
+.pop-botm-hd .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.pop-pasg-list {
+  padding: 0 16rpx 24rpx;
+}
+.pop-pasg-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 12rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  height: 108rpx;
+  margin-bottom: 16rpx;
+  padding: 0 30rpx;
+}
+.pop-pasg-list .item:last-child {
+  margin-bottom: 0;
+}
+.confirm-second-pop .htit {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.confirm-second-pop .white-box {
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.confirm-second-pop {
+  background: #f8f8f8;
+  border-radius: 16rpx 16rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+.confirm-second-pop::before {
+  border-radius: 16rpx 16rpx 0 0;
+  content: "";
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.confirm-second-pop::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-smart.png)
+    no-repeat;
+  background-size: 140rpx 380rpx;
+  content: "";
+  height: 130rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 10rpx;
+  width: 140rpx;
+}
+.confirm-second-pop.zx::before {
+  background: -webkit-linear-gradient(top, #006fee 22%, #f8f8f8);
+}
+.confirm-second-pop.zx::after {
+  background-position: 0-110rpx;
+}
+.confirm-second-pop.ty::before {
+  background: -webkit-linear-gradient(top, #fe4839 22%, #fc6e51);
+}
+.confirm-second-pop.ty::after {
+  background-position: 0-250rpx;
+}
+.suggest-box {
+  padding: 30rpx;
+}
+.suggest-hd {
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.suggest-hd .tag {
+  background: #00b965;
+  border-radius: 6rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+  margin: -6rpx 12rpx 0 0;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.suggest-bd-con {
+  background: #f2fbf8;
+  padding: 16rpx 20rpx;
+}
+.suggest-bd {
+  border-radius: 12rpx;
+  margin-top: 8rpx;
+}
+.suggest-bd .txt {
+  color: #00b965;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-bottom: 8rpx;
+  padding-left: 24rpx;
+  position: relative;
+}
+.suggest-bd .txt:last-child {
+  margin-bottom: 0;
+}
+.suggest-bd .txt::before {
+  background: #9ae3c5;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  left: 0;
+  position: absolute;
+  top: 12rpx;
+  width: 8rpx;
+}
+.pop-payment-detail {
+  padding: 2rpx 0 20rpx;
+}
+.pop-payment-detail .white-box {
+  margin: 0 16rpx 16rpx;
+}
+.pop-payment-detail .btn-pay {
+  border-radius: 96rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 40rpx 20rpx 0;
+}
+.pop-payment-tick {
+  padding: 4rpx 4rpx 24rpx;
+}
+.pop-payment-hd {
+  -ms-flex-pack: justify;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 18rpx 26rpx 24rpx;
+}
+.zx .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f0ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #e0f0ff, #fff);
+  background: -o-linear-gradient(top, #e0f0ff, #fff);
+  background: linear-gradient(180deg, #e0f0ff, #fff);
+}
+.ty .pop-payment-hd {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fff);
+  background: -o-linear-gradient(top, #ecf9f4, #fff);
+  background: linear-gradient(180deg, #ecf9f4, #fff);
+}
+.pop-payment-hd .from,
+.pop-payment-hd .to {
+  width: 150rpx;
+}
+.pop-payment-hd .to {
+  text-align: right;
+}
+.pop-payment-hd .mid {
+  text-align: center;
+  width: 140rpx;
+}
+.pop-payment-hd .date {
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+}
+.pop-payment-hd .time {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.pop-payment-hd .station {
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.pop-payment-hd .schedule {
+  border: 2rpx solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin: 40rpx auto 0;
+  position: relative;
+  width: 100rpx;
+}
+.pop-payment-hd .schedule::after,
+.pop-payment-hd .schedule::before {
+  background: hsla(0, 0%, 80%, 0.5);
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 18rpx;
+}
+.pop-payment-hd .schedule::before {
+  left: -18rpx;
+}
+.pop-payment-hd .schedule::after {
+  right: -18rpx;
+}
+.pop-payment-hd .txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.pop-payment-hd .ifont-sfz {
+  font-size: 32rpx;
+  margin-left: 4rpx;
+}
+.pop-payment-list {
+  margin: 0 20rpx;
+}
+.pop-payment-tips {
+  padding: 20rpx 30rpx;
+}
+.pop-payment-tips .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+}
+.pop-payment-tips .txt::before {
+  background: #d8d8d8;
+  border-radius: 6rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 13rpx;
+  width: 6rpx;
+}
+.pop-payment-tips .txt:last-child {
+  margin-bottom: 0;
+}
+.new-series {
+  background: #f5f5f5;
+  padding-bottom: calc(176rpx + env(safe-area-inset-bottom));
+}
+.new-series.add-free-info {
+  padding-bottom: calc(246rpx + env(safe-area-inset-bottom));
+}
+.wrap-v2 {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin-top: -134rpx;
+  position: relative;
+}
+.wrap-v2 .img-logo {
+  height: 74rpx;
+  margin-top: 40rpx;
+  width: 458rpx;
+}
+.new-series .grab-smart-transfer {
+  margin: 0 16rpx;
+}
+.new-series .transfer-banner {
+  margin: 16rpx 0;
+}
+.new-series .train-smart-rs-trans-reschedule-route-banner .compare-box {
+  margin: 0;
+}
+.new-series.series-34
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip {
+  background: #fff;
+}
+.new-series.series-34
+  .train-smart-rs-trans-reschedule-route-banner
+  .second-trip
+  .btn-detail {
+  background: #e8f3ff;
+}
+.new-series.series-34
+  .train-smart-rs-trans-reschedule-route-banner
+  .zx
+  .second-trip
+  .second-trip-tick {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(25, 140, 255, 0.1)),
+    to(rgba(25, 140, 255, 0.04))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(25, 140, 255, 0.1),
+    rgba(25, 140, 255, 0.04)
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(25, 140, 255, 0.1) 0,
+    rgba(25, 140, 255, 0.04) 100%
+  );
+  background: linear-gradient(
+    -180deg,
+    rgba(25, 140, 255, 0.1),
+    rgba(25, 140, 255, 0.04)
+  );
+}
+.new-series.series-34
+  .train-smart-rs-trans-reschedule-route-banner
+  .ty
+  .second-trip
+  .second-trip-tick {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf9f4),
+    color-stop(81.49%, #fafffd),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #ecf9f4, #fafffd 81.49%, #fff);
+  background: -o-linear-gradient(top, #ecf9f4 0, #fafffd 81.49%, #fff 100%);
+  background: linear-gradient(-180deg, #ecf9f4, #fafffd 81.49%, #fff);
+}
+.train-smart-rs .common-popup .train-common-dialog-bd .multi-box .right {
+  background: #198cff;
+}
+.ty .train-smart-rs .common-popup .train-common-dialog-bd .multi-box .right {
+  background: #fc6e51;
+}
+.train-smart-rs .common-popup .train-common-dialog-bd .desc {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.smart-rs-old .train-smart-notice {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.train-smart-rs .smart-rs-common-drawer .title {
+  color: #222;
+  line-height: 48rpx;
+}

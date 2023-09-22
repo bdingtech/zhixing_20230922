@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "选择优惠券",
+  "navigationBarBackgroundColor": "#0075F4",
+  "backgroundColorTop": "#0075F4",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

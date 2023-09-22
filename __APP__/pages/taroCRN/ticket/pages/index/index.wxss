@@ -1,0 +1,411 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+._Oj {
+  font-size: 28rpx;
+  font-weight: 500;
+}
+._dg {
+  height: 20rpx;
+}
+._Zg {
+  margin-left: 8rpx;
+}
+._ov {
+  margin: auto;
+}
+._rd {
+  width: 670rpx;
+}
+._pv {
+  height: auto;
+}
+._qv {
+  padding-bottom: 100rpx;
+}
+._rg {
+  width: 320rpx;
+}
+._rv {
+  margin: 74rpx 80rpx 0;
+}
+._sv {
+  margin: 16rpx 80rpx 0;
+}
+._tv {
+  color: #907662;
+}
+._uv {
+  margin: 24rpx 60rpx 16rpx;
+}
+._jj {
+  background-color: #fff;
+}
+._Qi {
+  border-radius: 40rpx;
+}
+._vv {
+  width: 508rpx;
+}
+._wv {
+  height: 176rpx;
+}
+._xv {
+  width: 176rpx;
+}
+._yv {
+  color: #a01312;
+}
+._zv {
+  font-family: ZX-Regular;
+  font-size: 56rpx;
+}
+._Av {
+  font-size: 52rpx;
+}
+._Bv {
+  font-family: ZX-Regular;
+  font-size: 72rpx;
+}
+._Ef {
+  width: 60rpx;
+}
+._js {
+  margin-left: 30rpx;
+}
+._kk {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+._bd {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+._Cv {
+  margin: 32rpx 24rpx 44rpx;
+}
+._fd {
+  line-height: 100rpx;
+}
+._Dv {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.h5-div.zt-ttripticketindexmodal .index-modal-shadow {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 800;
+}
+.h5-div.zt-ttripticketindexmodal .mini-shadow {
+  background-color: #000;
+  opacity: 0.7;
+}
+.h5-div.zt-ttripticketindexmodal .outer {
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 1040rpx;
+  left: 50%;
+  padding-top: 160rpx;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  z-index: 1000;
+}
+@-webkit-keyframes backlight {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(3.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(4.5);
+  }
+}
+@keyframes backlight {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(3.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(4.5);
+  }
+}
+.h5-div.zt-ttripticketindexmodal .back-light {
+  animation: backlight 2s ease-in-out 1s infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20221118-new-year-gather-cards/pop-back-light.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 480rpx;
+  left: 50%;
+  margin: -340rpx 0 0-240rpx;
+  opacity: 0;
+  position: absolute;
+  top: 59%;
+  width: 480rpx;
+  z-index: 1;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 630rpx;
+  padding-bottom: 16rpx;
+  padding-top: 50rpx;
+  position: relative;
+  width: 658rpx;
+  z-index: 2;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztrip-wrap-img {
+  display: block;
+  height: 630rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 658rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-title {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  padding-left: 80rpx;
+  padding-top: 52rpx;
+  position: relative;
+  width: 100%;
+}
+.h5-div.zt-ttripticketindexmodal .title-img {
+  height: 48rpx;
+  width: 346.8rpx;
+}
+.h5-div.zt-ttripticketindexmodal .title-img-sp {
+  height: 42.8rpx;
+  width: 364rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-lw {
+  height: 196rpx;
+  position: absolute;
+  right: -10rpx;
+  top: -36rpx;
+  width: 196rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-content {
+  box-sizing: border-box;
+  padding: 0 16rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-wrap {
+  background: #fff;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  margin-top: 18rpx;
+  padding: 24rpx 24rpx 32rpx;
+  position: relative;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-close {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-close .h5-img {
+  height: 60rpx;
+  width: 60rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-one-copon {
+  background: url(https://images3.c-ctrip.com/ztrip/train_bin/ll/mpsy_tc_yhq@3x.png)
+    50%no-repeat;
+  background-size: 508rpx 176rpx;
+  height: 176rpx;
+  padding-top: 8rpx;
+  width: 508rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-one-copon,
+.h5-div.zt-ttripticketindexmodal .zt-ztt-left {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-left {
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 176rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-jump {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff3c3c),
+    to(#ff943b)
+  );
+  background: -webkit-linear-gradient(left, #ff3c3c, #ff943b);
+  background: -o-linear-gradient(left, #ff3c3c 0, #ff943b 100%);
+  background: linear-gradient(90deg, #ff3c3c, #ff943b);
+  border-radius: 28rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 32rpx;
+  text-align: center;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-text {
+  color: #a01312;
+  font-family: NumFont;
+  font-size: 40rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-text2 {
+  color: #a01312;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-text3 {
+  color: #a01312;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-text4 {
+  color: #a01312;
+  font-family: NumFont;
+  font-size: 60rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-text5 {
+  color: #907662;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-unit {
+  color: #a01312;
+  font-family: NumFont;
+  font-size: 32rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-subTitle {
+  color: #a01312;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  opacity: 0.6;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ttripticketindexmodal-copon-value {
+  margin-top: -16rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-unit {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-right {
+  padding-left: 30rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-subTitle {
+  margin-top: 4rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-multip {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-left,
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/ztrip/train_bin/ll/tc_yhq_x@3x.png)
+    50%no-repeat;
+  background-size: 246rpx 180rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 180rpx;
+  justify-content: center;
+  width: 246rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right {
+  margin-left: 16rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-left-top,
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right-top {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-left-top {
+  padding-top: 4rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right-unit {
+  color: #a01312;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-left-value {
+  margin-top: -16rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right-value {
+  margin-top: -12rpx;
+}
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-left-subTitle,
+.h5-div.zt-ttripticketindexmodal .zt-ztt-coupon-right-subTitle {
+  margin-top: 32rpx;
+}
+.h5-div.zt-ttripticketindexmodal .pop-midd {
+  box-sizing: border-box;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+.h5-div.zt-ttripticketindexmodal .ztt-toast {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  max-width: 600rpx;
+  padding: 20rpx 40rpx;
+  pointer-events: auto;
+  text-align: center;
+  word-break: break-all;
+}

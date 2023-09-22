@@ -1,0 +1,138 @@
+@import "/functionalPages/sub-vendors.wxss";
+.share-page,
+page {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+}
+.img-box {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  display: table;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  padding: 0 36rpx 140rpx;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.img-mid {
+  display: table-cell;
+  vertical-align: middle;
+}
+.img {
+  width: 100%;
+}
+.btn-box {
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140rpx;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+.btn-save,
+.btn-share {
+  border-radius: 88rpx;
+  display: inline-block;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 10rpx 20rpx;
+  width: 280rpx;
+}
+.btn-save::after,
+.btn-share::after {
+  border: 0;
+}
+.img-box-new {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  flex-flow: column;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 36rpx;
+  position: absolute;
+  width: 100%;
+}
+.img-box-new,
+.img-mid-new {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.img-mid-new {
+  padding: 15rpx 0;
+}
+.img-new {
+  width: 100%;
+}
+.btn-box-new {
+  height: 146rpx;
+  padding-bottom: 30rpx;
+  text-align: center;
+}
+.btn-box-content-new {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.btn-box-content-new,
+.btn-save-new,
+.btn-share-new {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.btn-save-new,
+.btn-share-new {
+  -ms-flex-pack: center;
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  height: 96rpx;
+  justify-content: center;
+  margin: 10rpx;
+  width: 330rpx;
+}
+.btn-share-new {
+  background-color: #03b86f;
+  color: #fff;
+}
+.btn-save-new {
+  background-color: #1c93ff;
+  color: #fff;
+}
+.btn-save-new Image,
+.btn-share-new Image {
+  height: 42rpx;
+  margin-right: 4rpx;
+  width: 42rpx;
+}
+.btn-save-new::after,
+.btn-share-new::after {
+  border: 0;
+}
+.banner-txt {
+  font-size: 28rpx;
+  height: 28rpx;
+}
+.banner,
+.banner-txt {
+  background-color: #fff;
+}
+.banner {
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  padding: 5rpx 3rpx;
+}
+.tred {
+  color: #ff4545;
+}

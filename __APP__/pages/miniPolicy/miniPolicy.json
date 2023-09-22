@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "软件服务协议",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#222",
+  "backgroundColorTop": "#222222",
+  "backgroundColorBottom": "#fff",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

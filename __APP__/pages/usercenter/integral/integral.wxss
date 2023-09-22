@@ -1,0 +1,113 @@
+@import "/pages/usercenter/sub-vendors.wxss";
+.integral-tab-bar {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  box-shadow: 0 0 32rpx 0 rgba(0, 0, 0, 0.04);
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  padding: 30rpx 130rpx calc(30rpx + env(safe-area-inset-bottom));
+}
+.integral-tab-bar .select {
+  color: #0080ff;
+  font-weight: 500;
+}
+.integral-tab-bar .line {
+  background: #000;
+  height: 24rpx;
+  opacity: 0.05;
+  width: 2rpx;
+}
+.integral-detail-item {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 16rpx 16rpx 0;
+  padding: 32rpx;
+}
+.integral-detail-item .title {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.integral-detail-item .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 12rpx;
+}
+.integral-detail-item .num-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ff5959;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.integral-detail-item .num {
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+}
+.integral-detail-item .unit {
+  font-size: 24rpx;
+  margin-left: 2rpx;
+  margin-top: 8rpx;
+}
+.integral-detail-item .discount {
+  color: #999;
+  font-family: ZX-Regular;
+  font-size: 26rpx;
+  margin-top: 8rpx;
+}
+.integral-bottom-empty {
+  height: 20rpx;
+}
+page {
+  background: #f6f6f6;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  box-sizing: border-box;
+  flex: 1;
+  overflow: auto;
+}
+.empty-view {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tips {
+  color: #333;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.empty-icon {
+  height: 190rpx;
+  padding-top: 100rpx;
+  text-align: center;
+  width: 218rpx;
+}

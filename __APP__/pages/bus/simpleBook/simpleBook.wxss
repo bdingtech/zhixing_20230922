@@ -1,0 +1,594 @@
+@charset "UTF-8";
+@import "/pages/bus/sub-vendors.wxss";
+.bus-simple-book-page {
+  background: #f5f5f5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-family: PingFangSC-Medium;
+  min-height: calc(100% - 150rpx - env(safe-area-inset-bottom));
+  padding-bottom: calc(150rpx + env(safe-area-inset-bottom));
+  position: absolute;
+  width: 100%;
+}
+.bus-simple-book-page .content {
+  position: relative;
+  z-index: 1;
+}
+.bus-simple-book-page::before {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/tbg@3x.png)
+    no-repeat 0 0;
+  background-size: 100%auto;
+  content: "";
+  height: 468.6rpx;
+  left: 0;
+  position: absolute;
+  top: -166rpx;
+  width: 100%;
+  z-index: 0;
+}
+.bus-simple-book-page .head-bar {
+  color: #fff;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  padding: 0 20rpx;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: calc(100% - 40rpx);
+}
+.bus-simple-book-page .head-bar .back-btn {
+  color: #fff;
+  left: 0;
+  position: absolute;
+  transform: rotate(180deg);
+}
+.bus-simple-book-page .title-content {
+  margin: 20rpx 0 25rpx 30.8rpx;
+  text-align: center;
+}
+.bus-simple-book-page .title-content .tit {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/wz@3x.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 100rpx;
+  margin: 0 auto;
+  width: 630rpx;
+}
+.bus-simple-book-page .line-info {
+  background-color: #fff;
+  border-radius: 24rpx;
+  box-shadow: 0 0 32rpx 0 rgba(0, 53, 128, 0.082);
+  margin: 0 20rpx;
+  padding: 30rpx;
+}
+.bus-simple-book-page .line-info .line-info-top {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}
+.bus-simple-book-page .line-info .line-info-top .left .line-tag {
+  background: #198cff;
+  border-radius: 6rpx;
+  color: #eef6ff;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 4rpx;
+  vertical-align: middle;
+}
+.bus-simple-book-page .line-info .line-info-top .left .timeline {
+  color: #333;
+  font-size: 30rpx;
+  letter-spacing: 0;
+  margin: 0 12rpx;
+  vertical-align: middle;
+}
+.bus-simple-book-page .line-info .line-info-top .cost-desc {
+  color: #666;
+  flex: 1;
+  font-size: 24rpx;
+  letter-spacing: 0;
+  text-align: right;
+  vertical-align: middle;
+}
+.bus-simple-book-page .line-info .line-info-bottom {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bus-simple-book-page .line-info .line-info-bottom .left {
+  -ms-flex-pack: justify;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+  justify-content: space-between;
+  letter-spacing: 0;
+  line-height: 60rpx;
+  margin-right: 60rpx;
+  position: relative;
+}
+.bus-simple-book-page .line-info .line-info-bottom .left .time:first-child {
+  margin-bottom: 38rpx;
+}
+.bus-simple-book-page .line-info .line-info-bottom .left::after {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/jt@3x.png)
+    no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  content: "";
+  height: calc(100% - 50rpx);
+  position: absolute;
+  right: -60rpx;
+  top: 30rpx;
+  width: 60rpx;
+}
+.bus-simple-book-page .line-info .line-info-bottom .middle {
+  flex: auto;
+  overflow: hidden;
+}
+.bus-simple-book-page .line-info .line-info-bottom .middle .station {
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  letter-spacing: 0;
+  line-height: 60rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bus-simple-book-page .line-info .line-info-bottom .middle .station .con {
+  flex: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bus-simple-book-page
+  .line-info
+  .line-info-bottom
+  .middle
+  .station:first-child {
+  margin-bottom: 38rpx;
+}
+.bus-simple-book-page .line-info .line-info-bottom .middle .station .right {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  letter-spacing: 0;
+  text-align: right;
+}
+.bus-simple-book-page
+  .line-info
+  .line-info-bottom
+  .middle
+  .station
+  .right::before {
+  content: "￥";
+  font-size: 32rpx;
+}
+.bus-simple-book-page .line-info .line-info-bottom .middle .station.to {
+  display: block;
+  width: 100%;
+}
+.bus-simple-book-page .passenger-info {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 20rpx;
+  padding: 30rpx 30rpx 8rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .title {
+  color: #333;
+  font-size: 36rpx;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .title .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-left: 12rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn {
+  color: #0080ff;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn .pas-hand {
+  background-size: contain;
+  display: inline-block;
+  height: 36rpx;
+  margin-right: 6rpx;
+  vertical-align: middle;
+  width: 36rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn .add {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/icon@3x.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn .text {
+  vertical-align: middle;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn .disabled,
+.bus-simple-book-page .passenger-info .passenger-info-top .right-btn:active {
+  opacity: 0.5;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .del-btn.right-btn {
+  color: #999;
+}
+.bus-simple-book-page .passenger-info .passenger-info-top .del-btn .del {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/laji.png)
+    no-repeat 50%;
+  background-size: contain;
+}
+.bus-simple-book-page .passenger-info .passenger-one .input-item {
+  border-top: 1rpx solid #ededed;
+  padding: 29rpx 0;
+  position: relative;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item:last-child:first-child {
+  border: 0;
+  padding: 0;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .input-content {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.bus-simple-book-page .passenger-info .passenger-one .input-item .name {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  line-height: 44rpx;
+  width: 160rpx;
+}
+.bus-simple-book-page .passenger-info .passenger-one .input-item .value {
+  color: #03081a;
+  flex: auto;
+  font-size: 30rpx;
+  line-height: 44rpx;
+  max-width: calc(100% - 160rpx);
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 60rpx;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp:active {
+  opacity: 0.5;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp
+  .radio-cycle {
+  border: 2rpx solid #ccc;
+  border-radius: 50%;
+  height: 20rpx;
+  margin-right: 16rpx;
+  padding: 4rpx;
+  width: 20rpx;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp
+  .radio-cycle::before {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100%;
+  transform: scale(0.1);
+  transform-origin: center;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp.radio-checked
+  .radio-cycle {
+  border-color: #198cff;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .value
+  .radio-comp.radio-checked
+  .radio-cycle::before {
+  background: #198cff;
+  transform: scale(1);
+}
+.bus-simple-book-page .passenger-info .passenger-one .input-item .tip-comp {
+  background: #fff;
+  left: 0;
+  left: -10rpx;
+  opacity: 0;
+  padding: 0 10rpx 80rpx;
+  position: absolute;
+  top: 30rpx;
+  transition: all 0.5s ease;
+  visibility: hidden;
+  width: 100%;
+  z-index: 0;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .tip-comp
+  .tip-comp-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15rpx;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .tip-comp
+  .tip-comp-item
+  .value {
+  color: #333;
+  font-family: PingFangSC-Regular;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .tip-comp
+  .tip-comp-item:last-child {
+  margin-bottom: 0;
+}
+.bus-simple-book-page
+  .passenger-info
+  .passenger-one
+  .input-item
+  .tip-comp.show {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.bus-simple-book-page .passenger-info .input-placehld {
+  color: #ccc;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.bus-simple-book-page .passenger-info.tel-input {
+  box-shadow: none;
+  padding: 30rpx;
+}
+.bus-simple-book-page .empty-content {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  width: 100%;
+}
+.bus-simple-book-page .empty-content .icon {
+  background: url(https://images3.c-ctrip.com/train/yzh/bus-mini/simplebook/kzt@3x.png)
+    no-repeat 50%;
+  background-size: contain;
+  height: 200rpx;
+  width: 100%;
+}
+.bus-simple-book-page .empty-content .tit {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  margin-top: 25rpx;
+  text-align: center;
+}
+.bus-simple-book-page .empty-content .desc {
+  color: #999;
+  font-family: none;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+  text-align: center;
+}
+.bus-simple-book-page .empty-content .btn {
+  border: 2rpx solid #2488ed;
+  border-radius: 38rpx;
+  color: #2488ed;
+  font-size: 30rpx;
+  height: 76rpx;
+  letter-spacing: 0;
+  line-height: 76rpx;
+  margin: 40rpx auto;
+  text-align: center;
+  width: 300rpx;
+}
+.bus-simple-book-page .empty-content .btn:active {
+  opacity: 0.5;
+}
+.bus-simple-book-page .fix-bottom {
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0-4rpx 20rpx 0 rgba(0, 0, 0, 0.05);
+  left: 0;
+  padding: 20rpx 20rpx calc(env(safe-area-inset-bottom) + 20rpx);
+  position: fixed;
+  width: calc(100% - 40rpx);
+  z-index: 3;
+}
+.bus-simple-book-page .fix-bottom .btn-share {
+  background: #198cff;
+  border-radius: 200rpx;
+  border-radius: 44rpx;
+  color: #fff;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0 10rpx;
+  text-align: center;
+}
+.bus-simple-book-page .fix-bottom .btn-share:active {
+  opacity: 0.5;
+}
+.bus-simple-book-page .fix-bottom .btn-share.disabled {
+  background: #ccc;
+  color: #fff;
+  pointer-events: none;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  letter-spacing: 0;
+  text-align: right;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .price::before {
+  content: "￥";
+  font-size: 32rpx;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .pay-right {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  width: 440rpx;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .pay-right .detail {
+  color: #afb4bf;
+  color: #198cff;
+  font-size: 28rpx;
+  letter-spacing: 0;
+}
+.bus-simple-book-page
+  .fix-bottom
+  .pay-desk-content
+  .pay-right
+  .detail
+  .icon-detail {
+  font-size: 20rpx;
+  margin-left: 10rpx;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+.bus-simple-book-page
+  .fix-bottom
+  .pay-desk-content
+  .pay-right
+  .detail
+  .icon-detail.active {
+  transform: rotate(90deg);
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .pay-right .btn-pay {
+  background: #ff5959;
+  border-radius: 200rpx;
+  color: #fff;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  width: 320rpx;
+}
+.bus-simple-book-page .fix-bottom .pay-desk-content .pay-right .btn-pay:active {
+  opacity: 0.5;
+}
+.bus-simple-book-page
+  .fix-bottom
+  .pay-desk-content.disabled
+  .pay-right
+  .detail {
+  color: #999;
+  pointer-events: none;
+}
+.bus-simple-book-page
+  .fix-bottom
+  .pay-desk-content.disabled
+  .pay-right
+  .btn-pay {
+  background: #ccc;
+  color: #fff;
+  pointer-events: none;
+}

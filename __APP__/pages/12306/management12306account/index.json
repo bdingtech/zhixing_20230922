@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTitleText": "12306账号管理",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

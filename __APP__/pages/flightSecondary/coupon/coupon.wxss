@@ -1,0 +1,191 @@
+@charset "UTF-8";
+.flight-coupon-container .coupon-btn {
+  margin: 20rpx;
+}
+.flight-coupon-container .coupon-btn .btn-unused {
+  background: #fff;
+  color: #0493ff;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.flight-coupon-container .coupon-btn .btn-unused_hover::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+.flight-coupon-container .coupon-box .item {
+  background: #fff;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  margin: 20rpx;
+  overflow: hidden;
+  padding: 30rpx 40rpx 0;
+  position: relative;
+}
+.flight-coupon-container .coupon-box.active .item.ty {
+  border: 1rpx solid #fc6e51;
+  position: relative;
+}
+.flight-coupon-container .coupon-box.active .item.zx {
+  border: 1rpx solid #5495e6;
+  position: relative;
+}
+.flight-coupon-container .coupon-box.active.ty .item::before {
+  background: url(http://images3.c-ctrip.com/zt/wechat/icon-select-ty.png)
+    no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48rpx;
+}
+.flight-coupon-container .coupon-box.active.zx .item::before {
+  background: url(http://images3.c-ctrip.com/zt/wechat/icon-select-zx.png)
+    no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48rpx;
+}
+.flight-coupon-container .coupon-box .coupon-price {
+  box-sizing: border-box;
+  color: #fd4d21;
+  float: left;
+  line-height: 100rpx;
+  margin-right: 30rpx;
+  padding-right: 30rpx;
+  position: relative;
+  text-align: right;
+  width: 150rpx;
+}
+.flight-coupon-container .coupon-box .coupon-price .strong {
+  font-size: 56rpx;
+}
+.flight-coupon-container .coupon-box .coupon-price .yuan {
+  font-size: 24rpx;
+}
+.flight-coupon-container .coupon-box .coupon-price .price-tag {
+  background: #fd4d21;
+  border-radius: 28rpx 28rpx 28rpx 0;
+  color: #fff;
+  font-size: 16rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 0 10rpx;
+  position: absolute;
+  right: -20rpx;
+  top: 0;
+}
+.flight-coupon-container .coupon-box .coupon-bd {
+  min-height: 148rpx;
+  overflow: hidden;
+}
+.flight-coupon-container .coupon-box .tit {
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.flight-coupon-container .coupon-box .tit .ifont-detail {
+  color: #999;
+  margin: -4rpx 0 0 8rpx;
+}
+.flight-coupon-container .coupon-box .txt {
+  color: #808f9e;
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+.flight-coupon-container .coupon-box .coupon-hd {
+  border-image: url(data:image/gif;base64,R0lGODlhBQAFAIAAAOrq6v///yH5BAEHAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7)
+    2 stretch;
+  border-style: solid;
+  border-width: 2rpx 0 0;
+  clear: both;
+}
+.flight-coupon-container .coupon-box .coupon-hd .btn-use {
+  background: #fff;
+  color: #0493ff;
+  font-size: 30rpx;
+  height: 80rpx;
+}
+.flight-coupon-container .coupon-box .coupon-hd .btn-use::after {
+  border: 0;
+}
+.flight-coupon-container .coupon-box .coupon-hd .btn-use_hover::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+.flight-coupon-container .coupon-box.disabled {
+  color: #999;
+}
+.flight-coupon-container .coupon-box.disabled .coupon-price .price-tag {
+  background: #999;
+}
+.flight-coupon-container .coupon-box.disabled .coupon-hd .btn-use {
+  color: #999;
+}
+.flight-coupon-container .coupon-tit {
+  color: #979797;
+  margin: 20rpx 20rpx 0;
+}
+.flight-coupon-container .coupon-box.disabled,
+.flight-coupon-container .coupon-box.disabled .coupon-price,
+.flight-coupon-container .coupon-box.disabled .txt {
+  color: #999;
+}
+.flight-coupon-container .coupon-box.disabled .reason.txt {
+  color: #ff5959;
+}
+.flight-coupon-container .coupon-box.disabled .coupon-hd {
+  line-height: 80rpx;
+}
+.flight-coupon-container .block {
+  margin: 40rpx 20rpx 20rpx;
+}
+.flight-coupon-container .block-title {
+  color: #222;
+  font-size: 34rpx;
+  padding-left: 10rpx;
+}
+.flight-coupon-container .unreceive-coupon-list .item {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 16rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16rpx;
+  padding: 38rpx 44rpx;
+}
+.flight-coupon-container .unreceive-coupon-list .price {
+  font-size: 64rpx;
+  position: relative;
+}
+.flight-coupon-container .unreceive-coupon-list .price::after {
+  bottom: 7rpx;
+  content: "元";
+  font-size: 28rpx;
+  position: absolute;
+  right: -30rpx;
+}
+.flight-coupon-container .unreceive-coupon-list .des .main-text {
+  color: #222;
+  font-size: 32rpx;
+}
+.flight-coupon-container .unreceive-coupon-list .des .sub-text {
+  font-size: 24rpx;
+}
+.flight-coupon-container .unreceive-coupon-list .btn {
+  background: #0080ff;
+  border-radius: 40rpx;
+  color: #fff;
+  font-size: 28rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  padding: 0 30rpx;
+  text-align: center;
+}

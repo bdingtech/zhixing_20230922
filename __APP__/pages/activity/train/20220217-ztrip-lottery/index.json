@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "comp": "../../../../comp",
+    "custom-wrapper": "../../../../custom-wrapper",
+    "lottery": "plugin://wx87ebb56764fea681/lottery"
+  }
+}

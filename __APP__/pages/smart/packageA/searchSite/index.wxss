@@ -1,0 +1,230 @@
+@import "/pages/smart/packageA/sub-vendors.wxss";
+page {
+  background: #fff;
+}
+.smart-search-site {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.smart-search-site .search-input-box {
+  background: #fff;
+  padding: 20rpx 30rpx 30rpx;
+}
+.smart-search-site .search-input-box.wxgov {
+  background: #0086f6;
+  padding: 24rpx 20rpx;
+}
+.smart-search-site .search-input-bd {
+  -ms-flex-align: center;
+  -ms-flex-pack: start;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 34rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 68rpx;
+  justify-content: flex-start;
+}
+.smart-search-site .search-input-bd .iconfont {
+  color: #999;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.smart-search-site .icon-del {
+  margin-left: auto;
+}
+.smart-search-site .search-module_input {
+  background: transparent;
+  box-sizing: border-box;
+  flex: 1;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: left;
+}
+.smart-search-site .search-module_input_focus {
+  color: #999;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.smart-search-result .list {
+  background: #fff;
+  font-size: 30rpx;
+  padding: 0 30rpx;
+}
+.smart-search-result .row {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+}
+.smart-search-result .city-tag {
+  background-color: #198cff;
+  border-radius: 18rpx;
+  color: #fff;
+  font-size: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  width: 64rpx;
+}
+.smart-search-result .city-txt {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.smart-search-result .station-list {
+  padding-left: 72rpx;
+}
+.smart-search-result .station-type {
+  border-radius: 18rpx;
+  font-size: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.smart-search-result .station-name {
+  font-family: PingFangSC-Medium;
+  margin-left: 8rpx;
+}
+.smart-search-result .air-tag {
+  background-color: rgba(3, 184, 111, 0.1);
+  color: #03b86f;
+}
+.smart-search-result .train-tag {
+  background-color: rgba(25, 140, 255, 0.1);
+  color: #198cff;
+}
+.smart-search-result .bus-tag {
+  background-color: rgba(255, 157, 0, 0.1);
+  color: #ff9d00;
+}
+.smart-search-result .ship-tag {
+  background-color: rgba(111, 89, 255, 0.1);
+  color: #6f59ff;
+}
+.smart-search-result .scene-tag {
+  background-color: rgba(255, 89, 100, 0.1);
+  color: #ff5959;
+}
+.smart-search-result .tag-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.smart-search-result .subway {
+  border: 1rpx solid #198cff;
+  border-radius: 16rpx;
+  color: #198cff;
+  font-size: 20rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-left: 8rpx;
+  padding: 0 10rpx;
+  text-align: center;
+}
+.smart-search-result .btn-wrap {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.smart-search-result .btn-wrap .moreBtn {
+  border: 1rpx solid #e3e3e3;
+  border-radius: 28rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  margin-top: 40rpx;
+  padding: 12rpx 24rpx;
+}
+.smart-search-result .moreLoc-item {
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30rpx;
+  padding-top: 28rpx;
+}
+.smart-search-result .moreLoc-item .query-tag {
+  background: rgba(25, 140, 255, 0.1);
+  border-radius: 30rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 6rpx;
+  padding: 0 12rpx;
+  white-space: nowrap;
+}
+.smart-search-result .moreLoc-item .loc-info {
+  margin-left: 16rpx;
+}
+.smart-search-result .moreLoc-item .loc-info .loc-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+}
+.smart-search-result .moreLoc-item .loc-info .loc-address {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.smart-nearby-location {
+  color: #333;
+  padding: 50rpx 30rpx 0;
+}
+.smart-nearby-location .title {
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.smart-nearby-location .content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.smart-nearby-location .loc {
+  background: #f5f5f5;
+  border-radius: 10rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+  padding: 0 28rpx;
+  text-align: center;
+}
+.smart-nearby-location .icon {
+  font-size: 30rpx;
+  margin-right: 6rpx;
+}
+.smart-nearby-location .icon-loc {
+  color: #666;
+}
+.smart-nearby-location .icon-train {
+  color: #198cff;
+}
+.smart-nearby-location .icon-plane {
+  color: #03b86f;
+}
+.smart-nearby-location .icon-ship {
+  color: #6f59ff;
+}
+.smart-nearby-location .icon-sc {
+  color: #ff5959;
+}

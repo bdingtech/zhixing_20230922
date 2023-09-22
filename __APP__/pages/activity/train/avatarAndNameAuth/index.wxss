@@ -1,0 +1,92 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.wrap,
+page {
+  height: 100%;
+}
+.wrap {
+  background: #f8f8f8;
+  padding-top: 168rpx;
+}
+image {
+  display: block;
+  height: 88rpx;
+  margin: 0 auto;
+  width: 220rpx;
+}
+.txt-box {
+  border-top: 1rpx solid #d9d9d9;
+  margin: 64rpx auto 0;
+  padding-top: 48rpx;
+  width: 592rpx;
+}
+.txt-box view:nth-of-type(1) {
+  color: #333;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.txt-box view:nth-of-type(2) {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #979797;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  justify-content: center;
+  margin-top: 20rpx;
+  position: relative;
+}
+.txt-box view:nth-of-type(2):before {
+  background: #929292;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  margin-right: 10rpx;
+  width: 8rpx;
+}
+.txt-box .mes {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #979797;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  justify-content: center;
+  margin-top: 20rpx;
+  position: relative;
+}
+.txt-box .mes:before {
+  background: #929292;
+  border-radius: 8rpx;
+  content: "";
+  height: 8rpx;
+  margin-right: 10rpx;
+  width: 8rpx;
+}
+.btn {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #02bf01;
+  border-radius: 10rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  height: 88rpx;
+  justify-content: center;
+  margin-top: 110rpx;
+  width: 592rpx;
+}
+.tips-txt {
+  color: #9d9d9d;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+  text-align: center;
+}

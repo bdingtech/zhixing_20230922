@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#efefef",
+  "backgroundColorTop": "#2693ff",
+  "backgroundColorBottom": "#efefef",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,903 @@
+@charset "UTF-8";
+@import "/pages/smart/packageA/sub-vendors.wxss";
+.smart-time-zone-picker .time-zone-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 36rpx;
+  padding: 32rpx 0;
+}
+.smart-time-zone-picker .cancel {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  margin-left: 10rpx;
+  text-align: left;
+}
+.smart-time-zone-picker .title {
+  color: #333;
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  text-align: center;
+}
+.smart-time-zone-picker .confirm {
+  color: #198cff;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  margin-right: 32rpx;
+  text-align: right;
+}
+.smart-time-zone-picker .time-zone-list {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(2, 50%);
+  padding-bottom: 92rpx;
+  padding-top: 32rpx;
+}
+.smart-time-zone-picker .time-zone-item {
+  background: #f5f5f5;
+  border-radius: 8rpx;
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  margin: 0 24rpx 24rpx 0;
+  padding: 16rpx 24rpx 16rpx 22rpx;
+  text-align: center;
+  white-space: nowrap;
+}
+.smart-time-zone-picker .time-zone-item.selected {
+  background: #198cff;
+  color: #fff;
+}
+.smart-time-zone-picker .time-zone-item.ty.selected {
+  background: #ff925a;
+}
+.smart-date-picker .date-picker {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.smart-date-picker .date-picker .calendar-list {
+  flex: 1;
+  overflow: hidden;
+  padding: 5rpx 0 10rpx 20rpx;
+}
+.smart-date-picker .date-picker .calendar-list .calendar-scroll-list {
+  white-space: nowrap;
+  width: 100%;
+}
+.smart-date-picker
+  .date-picker
+  .calendar-list
+  .calendar-scroll-list::-webkit-scrollbar {
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.smart-date-picker .date-picker .calendar-list.zx .item.cur {
+  background: #0080ff;
+}
+.smart-date-picker .date-picker .calendar-list.ty .item.cur {
+  background: #fc6e51;
+}
+.smart-date-picker .date-picker.three {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  width: 100%;
+}
+.smart-date-picker .date-picker.three .calendar-list .item {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 110rpx;
+  margin-right: 10rpx;
+  padding: 8rpx;
+  text-align: center;
+  width: 112rpx;
+}
+.smart-date-picker .date-picker.three .calendar-list .item::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.smart-date-picker .date-picker.three .calendar-list .item.cur {
+  border-radius: 8rpx;
+  color: #fff;
+  font-weight: 600;
+}
+.smart-date-picker .date-picker.three .calendar-list .item .date {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.smart-date-picker .date-picker.three .calendar-list .item .week {
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.smart-date-picker .date-picker.three .calendar-list .item .desc {
+  font-size: 20rpx;
+  line-height: 36rpx;
+  margin-left: -12rpx;
+}
+.smart-date-picker .date-picker.three .calendar-list .item.cur .desc {
+  font-weight: 600;
+}
+.smart-date-picker .date-picker.three .calendar-all {
+  box-shadow: -10rpx 0 16rpx -14rpx rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 110rpx;
+  padding: 26rpx 26rpx 0;
+  text-align: center;
+  width: 110rpx;
+}
+.smart-date-picker .date-picker.three .calendar-all .img {
+  background-image: url(https://images3.c-ctrip.com/train/wechat/bus/calender.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rpx;
+  width: 60rpx;
+}
+.smart-date-picker .date-picker.two {
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+}
+.smart-date-picker .date-picker.two .calendar-list .item {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 88rpx;
+  margin-right: 24rpx;
+  padding: 12rpx 8rpx;
+  text-align: center;
+  width: 88rpx;
+}
+.smart-date-picker .date-picker.two .calendar-list .item::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.smart-date-picker .date-picker.two .calendar-list .item.cur {
+  border-radius: 12rpx;
+  color: #fff;
+  font-weight: 600;
+}
+.smart-date-picker .date-picker.two .calendar-list .item .date {
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.smart-date-picker .date-picker.two .calendar-list .item .week {
+  font-size: 22rpx;
+  line-height: 28rpx;
+}
+.smart-date-picker .date-picker.two .calendar-all {
+  box-shadow: -10rpx 0 16rpx -14rpx rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 110rpx;
+  padding: 25rpx 25rpx 0;
+  text-align: center;
+  width: 110rpx;
+}
+.smart-date-picker .date-picker.two .calendar-all .img {
+  background-image: url(https://images3.c-ctrip.com/train/wechat/bus/calender.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rpx;
+  width: 60rpx;
+}
+.smart-searchlist-tripitem .cont {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 16rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-searchlist-tripitem .cont .from,
+.smart-searchlist-tripitem .cont .to {
+  flex: 1;
+}
+.smart-searchlist-tripitem .cont .mid {
+  flex: 1.2;
+}
+.smart-searchlist-tripitem .cont .price {
+  flex: 1.5;
+}
+.smart-searchlist-tripitem .cont .mid {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.smart-searchlist-tripitem .cont .mid .separator {
+  border-top: 1rpx solid #ccc;
+  margin: 4rpx 0;
+  width: 120rpx;
+}
+.smart-searchlist-tripitem .cont .price,
+.smart-searchlist-tripitem .cont .to {
+  text-align: right;
+}
+.smart-searchlist-tripitem .cont .check-more,
+.smart-searchlist-tripitem .cont .price,
+.smart-searchlist-tripitem .cont .time,
+.smart-searchlist-tripitem .cont .transit {
+  font-family: PingFangSC-Medium;
+}
+.smart-searchlist-tripitem .cont .cost-time,
+.smart-searchlist-tripitem .cont .depart-distance,
+.smart-searchlist-tripitem .cont .dest-distance,
+.smart-searchlist-tripitem .cont .transit-time,
+.smart-searchlist-tripitem .cont .transport-no {
+  color: #666;
+}
+.smart-searchlist-tripitem .cont .transit {
+  color: #333;
+}
+.smart-searchlist-tripitem .bottom {
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(#f8f8f8)
+  );
+  background-image: -webkit-linear-gradient(right, #fff, #f8f8f8);
+  background-image: -o-linear-gradient(right, #fff 0, #f8f8f8 100%);
+  background-image: linear-gradient(270deg, #fff, #f8f8f8);
+  border-radius: 8rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 54rpx;
+}
+.smart-searchlist-tripitem .time {
+  font-size: 34rpx;
+  line-height: 48rpx;
+}
+.smart-searchlist-tripitem .station {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 140rpx;
+}
+.smart-searchlist-tripitem .cost-time,
+.smart-searchlist-tripitem .transit,
+.smart-searchlist-tripitem .transit-time,
+.smart-searchlist-tripitem .transport-no {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.smart-searchlist-tripitem .transit {
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  max-width: 140rpx;
+  padding: 0 8rpx;
+  position: relative;
+  text-align: center;
+}
+.smart-searchlist-tripitem .transit::after,
+.smart-searchlist-tripitem .transit::before {
+  border-top: 1rpx solid #ccc;
+  content: "";
+  height: 1rpx;
+  position: absolute;
+  top: 50%;
+  width: 16rpx;
+}
+.smart-searchlist-tripitem .transit::before {
+  left: -16rpx;
+}
+.smart-searchlist-tripitem .transit::after {
+  right: -16rpx;
+}
+.smart-searchlist-tripitem .depart-distance,
+.smart-searchlist-tripitem .dest-distance {
+  font-size: 22rpx;
+  white-space: nowrap;
+}
+.smart-searchlist-tripitem .depart-distance::before,
+.smart-searchlist-tripitem .dest-distance::before {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8rpx;
+  margin-bottom: 4rpx;
+  margin-right: 8rpx;
+  width: 8rpx;
+}
+.smart-searchlist-tripitem .depart-distance {
+  padding-left: 16rpx;
+}
+.smart-searchlist-tripitem .dest-distance {
+  padding-left: 26rpx;
+}
+.smart-searchlist-tripitem .dest-distance::before {
+  background-color: #ff5959;
+}
+.smart-searchlist-tripitem .depart-distance::before {
+  background-color: #198cff;
+}
+.smart-searchlist-tripitem .price {
+  padding-bottom: 4rpx;
+}
+.smart-searchlist-tripitem .price .line-one {
+  line-height: 28rpx;
+  vertical-align: middle;
+}
+.smart-searchlist-tripitem .price .num {
+  color: #ff5959;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  vertical-align: middle;
+}
+.smart-searchlist-tripitem .price .num::before {
+  content: "￥";
+  font-size: 20rpx;
+  margin-right: -2rpx;
+}
+.smart-searchlist-tripitem .price .tag {
+  background: #ff5959;
+  border-radius: 89rpx 89rpx 1rpx 89rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  margin-right: 4rpx;
+  text-align: center;
+  width: 60rpx;
+}
+.smart-searchlist-tripitem .price .line-two {
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.smart-searchlist-tripitem .price .ticket {
+  border: none;
+  color: #ff5959;
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding: 0 8rpx;
+  position: relative;
+  text-align: center;
+}
+.smart-searchlist-tripitem .price .ticket::after {
+  border: 2rpx solid #ff5959;
+  border-radius: 6rpx;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.smart-searchlist-tripitem .to {
+  position: relative;
+}
+.smart-searchlist-tripitem .diff {
+  color: #333;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  position: absolute;
+  right: -24rpx;
+  top: 10rpx;
+}
+.smart-searchlist-tripcard {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 16rpx 20rpx 0;
+  overflow: hidden;
+}
+.smart-searchlist-tripcard .card {
+  border-radius: 16rpx;
+  margin: 8rpx 8rpx 24rpx;
+}
+.smart-searchlist-tripcard .card-title {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f5f5f5),
+    to(#fafafa)
+  );
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #fafafa);
+  background-image: -o-linear-gradient(top, #f5f5f5 0, #fafafa 100%);
+  background-image: linear-gradient(180deg, #f5f5f5, #fafafa);
+  border-radius: 16rpx;
+  padding: 24rpx 20rpx 30rpx;
+}
+.smart-searchlist-tripcard .card-title-line {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16rpx;
+}
+.smart-searchlist-tripcard .card-title-plan-txt {
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.smart-searchlist-tripcard .card-title-rt {
+  font-size: 28rpx;
+  margin-left: auto;
+}
+.smart-searchlist-tripcard .divider {
+  border-left: 1rpx solid #ccc;
+  display: inline-block;
+  height: 16rpx;
+  margin: 0 9rpx;
+}
+.smart-searchlist-tripcard .transport-icon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40rpx;
+  line-height: 40rpx;
+  position: relative;
+}
+.smart-searchlist-tripcard .transport-icon .ifont-train {
+  background: green;
+  border-radius: 50%;
+  color: #fff;
+  height: 40rpx;
+  text-align: center;
+  width: 40rpx;
+}
+.smart-searchlist-tripcard .card-content {
+  padding: 24rpx 30rpx;
+}
+.smart-searchlist-tripcard .card {
+  font-family: PingFangSC-Regular;
+}
+.smart-searchlist-tripcard .card .card-title-plan-txt {
+  font-family: PingFangSC-Semibold;
+}
+.smart-searchlist-tripcard .separator {
+  border-top: 2rpx solid #ededed;
+  margin: 22rpx 0;
+}
+.smart-searchlist-tripcard .check-more {
+  color: #198cff;
+  font-size: 28rpx;
+  text-align: center;
+}
+.smart-searchlist-tripcard .check-more .ifont-arr {
+  font-size: 18rpx;
+}
+.smart-searchlist-tripcard .ty.check-more {
+  color: #ff925a;
+}
+.transport-icon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40rpx;
+  margin-left: 20rpx;
+  position: relative;
+}
+.transport-icon .duration {
+  min-width: 50rpx;
+  position: relative;
+}
+.transport-icon .duration.flight {
+  background-color: #cdf1e2;
+}
+.transport-icon .duration.train {
+  background-color: #d1e8ff;
+}
+.transport-icon .duration.bus {
+  background-color: #ffeccc;
+}
+.transport-icon .duration.ship {
+  background-color: #e2deff;
+}
+.transport-icon .icon-background {
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 0;
+  height: 40rpx;
+  left: -20rpx;
+  line-height: 40rpx;
+  position: absolute;
+  top: 0;
+  width: 40rpx;
+}
+.transport-icon .icon-background.flight {
+  border-color: #03b86f;
+}
+.transport-icon .icon-background.train {
+  border-color: #198cff;
+}
+.transport-icon .icon-background.bus {
+  border-color: #ff9d00;
+}
+.transport-icon .icon-background.ship {
+  border-color: #6f59ff;
+}
+.transport-icon .icon-background.desc {
+  left: unset;
+  right: -20rpx;
+}
+.transport-icon .type-icon {
+  font-size: 40rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.transport-icon .type-icon.flight {
+  color: #03b86f;
+}
+.transport-icon .type-icon.train {
+  color: #198cff;
+}
+.transport-icon .type-icon.bus {
+  color: #ff9d00;
+}
+.transport-icon .type-icon.ship {
+  color: #6f59ff;
+}
+.assist {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 20rpx;
+  padding: 20rpx 0 20rpx 20rpx;
+}
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.avatar {
+  position: relative;
+}
+.avatar-img {
+  border-radius: 50%;
+  height: 76rpx;
+  width: 76rpx;
+}
+.avatar-txt {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background-image: -webkit-linear-gradient(left, #0daeff, #07f);
+  background-image: -o-linear-gradient(left, #0daeff 0, #07f 100%);
+  background-image: linear-gradient(90deg, #0daeff, #07f);
+  border: 1rpx solid #fff;
+  border-radius: 13rpx;
+  bottom: 0;
+  color: #fff;
+  font-size: 16rpx;
+  height: 26rpx;
+  left: 50%;
+  line-height: 26rpx;
+  margin-left: -32rpx;
+  position: absolute;
+  text-align: center;
+  width: 64rpx;
+}
+.assist-mid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 8rpx;
+}
+.assist-title {
+  color: #999;
+  font-size: 24rpx;
+}
+.assist-subTitle,
+.assist-title {
+  line-height: 30rpx;
+  margin-top: 12rpx;
+}
+.assist-subTitle {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.like .img {
+  height: 80rpx;
+  width: 74rpx;
+}
+.warn {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 100%, 96%, 0)),
+    color-stop(96%, #fff0f0)
+  );
+  background-image: -webkit-linear-gradient(
+    right,
+    hsla(0, 100%, 96%, 0),
+    #fff0f0 96%
+  );
+  background-image: -o-linear-gradient(
+    right,
+    hsla(0, 100%, 96%, 0) 0,
+    #fff0f0 96%
+  );
+  background-image: linear-gradient(270deg, hsla(0, 100%, 96%, 0), #fff0f0 96%);
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-top: 20rpx;
+  padding-right: 20rpx;
+  width: 100%;
+}
+.warn .ifont-arr {
+  color: #ff5959;
+  font-size: 16rpx;
+}
+.warn-text {
+  color: #ff5959;
+  display: inline-block;
+  font-size: 22rpx;
+  list-style-type: circle;
+  overflow: hidden;
+  padding-left: 30rpx;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 85vw;
+}
+.warn-text::before {
+  background: #ff5959;
+  border-radius: 50%;
+  content: "";
+  height: 6rpx;
+  left: 16rpx;
+  position: absolute;
+  top: 26rpx;
+  width: 6rpx;
+}
+.filter-panel {
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: 16rpx 20rpx;
+  padding: 16rpx 20rpx;
+  position: relative;
+}
+.filter-tag {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.filter-tag .filter-list {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+.filter-tag .filter-list::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.filter-tag .filter-list .item {
+  background: #f7f7f7;
+  border-radius: 10rpx;
+  display: inline-block;
+  line-height: 34rpx;
+  margin-right: 16rpx;
+  padding: 12rpx 16rpx;
+}
+.filter-tag .filter-list .item.cur {
+  background: #e8f3ff;
+  border: 1rpx solid #198cff;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+}
+.filter-tag .filter-list .item.ty.cur {
+  background: rgba(252, 110, 81, 0.1);
+  border-color: #ff925a;
+  color: #ff925a;
+}
+.depart-time {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56rpx;
+  line-height: 56rpx;
+  padding-left: 30rpx;
+  padding-top: 4rpx;
+  text-align: left;
+  width: 172rpx;
+}
+.depart-time .ifont-triangle {
+  font-size: 16rpx;
+  padding-left: 22rpx;
+  position: absolute;
+  right: 28rpx;
+  top: 20rpx;
+}
+.depart-time .depart-time-desc {
+  text-align: center;
+  white-space: nowrap;
+}
+.depart-time.selected {
+  color: #198cff;
+  padding-left: 14rpx;
+}
+.depart-time.selected .depart-time-desc {
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+}
+.depart-time.selected .depart-time-desc .time-zone,
+.depart-time.selected .depart-time-desc .txt {
+  line-height: 26rpx;
+}
+.depart-time.ty.selected {
+  color: #ff925a;
+}
+.smart-searchlist .header .date-picker.two {
+  background: -webkit-linear-gradient(top, #0066e6, #0078f7);
+  padding-top: 21rpx;
+}
+.smart-searchlist .header .date-picker.two.ty {
+  background: #3c4365;
+}
+.smart-searchlist .header .date-picker.two .calendar-list .item {
+  color: #fff;
+  font-family: PingFangSC-Regular;
+}
+.smart-searchlist .header .date-picker.two .calendar-list .item.cur {
+  background: hsla(0, 0%, 100%, 0.15);
+  border: 2rpx solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 12rpx;
+}
+.smart-searchlist .header .date-picker.two .calendar-list .item .week {
+  font-size: 20rpx;
+}
+.smart-searchlist .header .date-picker.two .calendar-all {
+  padding-left: 32rpx;
+  padding-top: 16rpx;
+}
+.smart-searchlist .header .date-picker.two .calendar-all .img {
+  background-image: url(https://images3.c-ctrip.com/zt/smarttrip/common/calender.png);
+  width: 40rpx;
+}
+.smart-searchlist .page .pay-detail-bd {
+  padding-left: 30rpx;
+  padding-right: 4rpx;
+}
+.smart-searchlist .content {
+  color: #333;
+  padding-top: 124rpx;
+  position: relative;
+  z-index: 0;
+}
+.smart-searchlist .content .arc-header {
+  background: #0066e6;
+  height: 124rpx;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.smart-searchlist .content .arc-header.zx {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#0078f7),
+    to(#0066e6)
+  );
+  background-image: -webkit-linear-gradient(bottom, #0078f7, #0066e6);
+  background-image: -o-linear-gradient(bottom, #0078f7 0, #0066e6 100%);
+  background-image: linear-gradient(0deg, #0078f7, #0066e6);
+}
+.smart-searchlist .content .arc-header.ty {
+  background: #3c4365;
+}
+.smart-searchlist .content .arc {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc.png);
+  background-size: cover;
+  height: 60rpx;
+  position: absolute;
+  top: 124rpx;
+  width: 100%;
+  z-index: -1;
+}
+.smart-searchlist .content .arc.ty {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc_ty.png);
+  background-size: cover;
+}
+.smart-searchlist .search-list {
+  position: relative;
+  z-index: 5;
+}
+.smart-searchlist .top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.smart-searchlist .top-bar.zx {
+  background: -webkit-linear-gradient(top, #0066e6, #0075f4);
+}
+.smart-searchlist .top-bar.fixed.ty {
+  background: #3c4365;
+}
+.smart-searchlist .top-bar.fixed.zx {
+  background: #0066e6;
+}
+.smart-searchlist .top-bar .ifont-back,
+.smart-searchlist .top-bar .ifont-home {
+  bottom: 0;
+  font-size: 36rpx;
+  height: 88rpx;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 88rpx;
+}
+.smart-searchlist .top-bar .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin: 0 200rpx;
+  text-align: center;
+}
+.smart-searchlist .top-box {
+  height: 88rpx;
+  position: relative;
+}
+.smart-searchlist .wrap {
+  padding-top: 44rpx;
+}
+.smart-searchlist .tag-blue {
+  border: 1rpx solid #198cff;
+  border-radius: 6rpx;
+  color: #198cff;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin: -4rpx 6rpx 0;
+  padding: 0 8rpx;
+  vertical-align: middle;
+}
+.smart-searchlist .bg.green {
+  background: #cdf1e2;
+}
+.smart-searchlist .bg.blue {
+  background: #d1e8ff;
+}

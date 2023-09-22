@@ -1,0 +1,605 @@
+@import "/pages/train/sub-vendors.wxss";
+@import "/pages/train/sub-common/2e358fff59cb4ed3f035df53adc96079.wxss";
+@import "/pages/train/sub-common/cb60df26715b55121e7e8e93131d105d.wxss";
+.login-bar-with-12306 {
+  background-color: #fff;
+  border-radius: 24rpx;
+  height: 128rpx;
+  overflow: hidden;
+  padding: 0 32rpx;
+}
+.login-bar-with-12306 .ifont-12306 {
+  background: -webkit-linear-gradient(313.02deg, #0d71ff, #0dc2ff);
+  background: -o-linear-gradient(313.02deg, #0d71ff 0, #0dc2ff 100%);
+  background: linear-gradient(-223.02deg, #0d71ff, #0dc2ff);
+  border-radius: 20rpx;
+  color: #fff;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-right: 16rpx;
+  text-align: center;
+  width: 56rpx;
+}
+.login-bar-with-12306 .cont .title {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.login-bar-with-12306 .cont .right-item {
+  display: inline-block;
+  margin-right: 16rpx;
+}
+.login-bar-with-12306 .cont .right-item:last-child {
+  margin-right: 0;
+}
+.login-bar-with-12306 .cont .sub-cont {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.login-bar-with-12306 .cont .sub-cont .ifont2-gou {
+  color: #03b86f;
+  font-size: 20rpx;
+  margin-right: 4rpx;
+}
+.login-bar-with-12306 .login-btn {
+  background: #e8f3ff;
+  color: #198cff;
+  text-align: center;
+}
+.login-bar-with-12306 .login-btn,
+.login-bar-with-12306 .login-btn.unlogin {
+  border-radius: 18rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 68rpx;
+  line-height: 68rpx;
+  width: 128rpx;
+}
+.login-bar-with-12306 .login-btn.unlogin {
+  background: #198cff;
+  color: #fff;
+  letter-spacing: 0;
+}
+.trn-psg-list-footer .btn {
+  background-color: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  text-align: center;
+}
+.trn-psg-list-view-root .trn-common-tab {
+  border-bottom: 2rpx solid hsla(0, 0%, 59%, 0.1);
+  position: relative;
+}
+.trn-psg-list-view-root .trn-common-tab .tab-item {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 96rpx;
+  letter-spacing: 0;
+  line-height: 96rpx;
+  position: relative;
+  text-align: center;
+}
+.trn-psg-list-view-root .trn-common-tab .tab-item.cur {
+  color: #198cff;
+}
+.trn-psg-list-view-root .trn-common-tab .text {
+  display: inline-block;
+  position: relative;
+}
+.trn-psg-list-view-root .trn-common-tab .active-line {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+}
+.trn-psg-list-view-root .trn-common-tab .active-line::after {
+  background-color: #198cff;
+  border-radius: 8rpx 8rpx 0 0;
+  bottom: 0;
+  content: "";
+  height: 10rpx;
+  left: 50%;
+  margin-left: -26rpx;
+  position: absolute;
+  width: 52rpx;
+}
+.trn-psg-list-view-root .trn-common-tab .tag {
+  background-color: #ff5959;
+  border-radius: 10rpx;
+  bottom: calc(50% + 5rpx);
+  color: #fff;
+  font-size: 18rpx;
+  font-weight: 500;
+  line-height: 22rpx;
+  padding: 4rpx 6rpx 3rpx;
+  position: absolute;
+  right: calc(-100% + 5rpx);
+  white-space: nowrap;
+}
+.trn-psg-list-view-root .trn-common-tab .tag .trigons {
+  height: 8rpx;
+  left: 15%;
+  position: absolute;
+  top: 100%;
+  width: 8rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item {
+  overflow: hidden;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .content {
+  left: 0;
+  position: relative;
+  transition: left 0.3s;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .content.del-active {
+  left: -256rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .icon-edit {
+  color: #ccc;
+  font-size: 40rpx;
+  margin-right: 16rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right {
+  border-bottom: 1rpx solid #f2f2f2;
+  padding: 30rpx 0;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .tag {
+  display: inline-block;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .name {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .name .title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .name .tag {
+  color: #999;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  margin-left: 8rpx;
+  padding: 6rpx 7rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .name .tag.blue-tag {
+  color: #198cff;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .right
+  .info
+  .name
+  .tag.green-tag {
+  color: #00c777;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .name .tag::after {
+  border-color: #ccc;
+  border-radius: 16rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .right .info .desc .warn-txt {
+  color: #ff5959;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item:last-child .right {
+  border-bottom: 1rpx solid transparent;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .option-view {
+  padding-right: 2rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .option-view .status {
+  color: #00c777;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 18rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .option-view .status .warn-txt {
+  color: #ff5959;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .content.disabled
+  .right
+  .info
+  .name
+  .title {
+  color: #999;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .content.disabled
+  .right
+  .option-view
+  .radio-comp {
+  opacity: 0.5;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .delete-btn {
+  background-color: #ff5959;
+  bottom: 0;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  position: absolute;
+  right: -144rpx;
+  top: 0;
+  width: 112rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .cancel-btn {
+  background-color: #ededed;
+  bottom: 0;
+  color: #999;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+  position: absolute;
+  right: -256rpx;
+  top: 0;
+  width: 112rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .dash {
+  background-color: #ccc;
+  border-radius: 16rpx;
+  height: 40rpx;
+  margin: 0 20rpx 0 28rpx;
+  width: 2rpx;
+}
+.trn-psg-list-view-root .trn-psglist-psg-item .no-student-discount-view {
+  background-color: #fafbfa;
+  padding: 20rpx 24rpx;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .no-student-discount-view
+  .left-view {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .no-student-discount-view
+  .left-view
+  .active {
+  color: #fd9227;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .no-student-discount-view
+  .right-btn {
+  background: #f4f4f4;
+  border: 1rpx solid #ccc;
+  border-radius: 16rpx;
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 56rpx;
+  letter-spacing: 0;
+  line-height: 56rpx;
+  padding: 0 16rpx;
+}
+.trn-psg-list-view-root
+  .trn-psglist-psg-item
+  .no-student-discount-view
+  .right-btn.active {
+  background: #edf6fe;
+  border: 1rpx solid #b1d8ff;
+  border-radius: 16rpx;
+  color: #1a8cff;
+}
+.trn-psg-list-view-root .btns-view {
+  margin-top: 32rpx;
+}
+.trn-psg-list-view-root .btns-view .btn-item {
+  background-color: #edf6fe;
+  border-radius: 22rpx;
+  color: #198cff;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 80rpx;
+  margin-left: 16rpx;
+}
+.trn-psg-list-view-root .btns-view .btn-item .btn {
+  background: none;
+  color: #198cff;
+  font-size: 32rpx;
+  height: 100%;
+  width: 100%;
+}
+.trn-psg-list-view-root .btns-view .btn-item:first-child {
+  margin-left: 0;
+}
+.trn-psg-list-view-root .btns-view .btn-item .btn-icon {
+  height: 40rpx;
+  margin-right: 6rpx;
+  width: 40rpx;
+}
+.trn-psg-list-view-root .student-tip .desc {
+  margin: 0 32rpx;
+}
+.trn-psg-list-view-root .student-tip .tip-view {
+  background: #f4fafe;
+  border-radius: 22rpx;
+  margin-top: 30rpx;
+  padding: 24rpx;
+  text-align: left;
+}
+.trn-psg-list-view-root .student-tip .tip-view .tip-item {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  margin-bottom: 16rpx;
+}
+.trn-psg-list-view-root .student-tip .tip-view .tip-item:last-child {
+  margin-bottom: 0;
+}
+.trn-psg-list-view-root .student-tip .tip-view .tip-item text {
+  vertical-align: middle;
+}
+.trn-psg-list-view-root .student-tip .tip-view .tip-item::before {
+  background: #879fc2;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8rpx;
+  margin-right: 18rpx;
+  vertical-align: middle;
+  width: 8rpx;
+}
+.trn-psg-list-view-root .student-tip .btm-tip {
+  color: #fd9227;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: -24rpx;
+  margin-top: 12rpx;
+  text-align: center;
+}
+.trn-psg-list-view-root .notice-view {
+  background: #fff;
+  border-radius: 20rpx;
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 72rpx;
+  letter-spacing: 0;
+  line-height: 72rpx;
+  margin-top: 16rpx;
+  overflow: hidden;
+  padding: 0 32rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trn-psg-list-view-root .notice-view .notice-content {
+  overflow: hidden;
+}
+.trn-psg-list-view-root .notice-view .ifont2-arr {
+  color: #ccc;
+  font-size: 24rpx;
+}
+.trn-psg-list-view-root .refesh-tip {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34rpx;
+  margin-top: 24rpx;
+  text-align: center;
+}
+.trn-psg-list-view-root .refesh-tip::before {
+  background-color: #ccc;
+  content: "";
+  display: block;
+  height: 2rpx;
+  margin-right: 4rpx;
+  width: 16rpx;
+}
+.trn-psg-list-view-root .refesh-tip::after {
+  background-color: #ccc;
+  content: "";
+  display: block;
+  height: 2rpx;
+  margin-left: 4rpx;
+  width: 16rpx;
+}
+.train-assignee-tip-module {
+  padding: 48rpx 30rpx 0;
+}
+.train-assignee-tip-module .title-content {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: 16rpx;
+}
+.train-assignee-tip-module .title-content .title {
+  color: #666;
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.train-assignee-tip-module .title-content .rule {
+  color: #ccc;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.train-assignee-tip-module .title-content .rule .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 4rpx;
+  vertical-align: middle;
+}
+.train-invite-pas-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  padding: 106rpx 40rpx 40rpx;
+  position: relative;
+}
+.train-invite-pas-bd .clock-icon {
+  height: 152rpx;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 152rpx;
+}
+.train-invite-pas-bd .tit {
+  color: #333;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.train-invite-pas-bd .desc {
+  color: #666;
+  font-size: 28rpx;
+  margin: 30rpx auto 40rpx;
+  text-align: center;
+}
+.train-invite-pas-bd .invite-btn {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 12rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  height: 88rpx;
+  justify-content: center;
+  width: 520rpx;
+}
+.train-invite-pas-bd .invite-btn.zx {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0080ff),
+    to(#0af)
+  );
+  background: -webkit-linear-gradient(left, #0080ff, #0af);
+  background: -o-linear-gradient(left, #0080ff, #0af);
+  background: linear-gradient(90deg, #0080ff, #0af);
+}
+.train-invite-pas-bd .invite-btn.ty {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc6e51),
+    to(#fc6e51)
+  );
+  background: -webkit-linear-gradient(left, #fc6e51, #fc6e51);
+  background: -o-linear-gradient(left, #fc6e51, #fc6e51);
+  background: linear-gradient(90deg, #fc6e51, #fc6e51);
+}
+.train-invite-pas-bd .invite-btn.invite-btn-zx {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0080ff),
+    to(#0af)
+  );
+  background: -webkit-linear-gradient(left, #0080ff, #0af);
+  background: -o-linear-gradient(left, #0080ff, #0af);
+  background: linear-gradient(left, #0080ff, #0af);
+}
+.train-invite-pas-bd .invite-btn.invite-btn-ty {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc6e51),
+    to(#fc6e51)
+  );
+  background: -webkit-linear-gradient(left, #fc6e51, #fc6e51);
+  background: -o-linear-gradient(left, #fc6e51, #fc6e51);
+  background: linear-gradient(left, #fc6e51, #fc6e51);
+}
+.trn-psg-list-view-root .header-bg-view-content {
+  background-color: #efefef;
+}
+.trn-psg-list-view-root .trn-psg-list-view .page-content {
+  padding: 16rpx 16rpx calc(140rpx + env(safe-area-inset-bottom));
+}
+.trn-psg-list-view-root .psg-list-view {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin-top: 16rpx;
+  overflow: hidden;
+  padding: 0 32rpx 12rpx;
+}
+.trn-psg-list-view-root .child-ticket-tip-btn-view .btn {
+  position: relative;
+}
+.trn-psg-list-view-root .child-ticket-tip-btn-view .tag {
+  height: 46rpx;
+  left: 0;
+  position: absolute;
+  top: -10rpx;
+  width: 64rpx;
+}
+.trn-psg-list-view-root .child-ticket-tip-content {
+  margin: 0 8rpx;
+  text-align: left;
+}

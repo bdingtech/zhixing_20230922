@@ -1,0 +1,133 @@
+.gp.regift-wrap {
+  box-sizing: border-box;
+  height: 81rpx;
+  margin: 16rpx auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 30;
+}
+.gp .regift-innerbox {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  padding-left: 2%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.gp .regiftbar-img {
+  animation: domZoomIn 1.8s ease-in 0s;
+  border-radius: 100%;
+  display: block;
+  height: 64rpx;
+  width: 64rpx;
+}
+.gp .regift-prize-info {
+  align-items: center;
+  animation: textIn 1.8s ease-in 0s;
+  display: -webkit-flex;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 26%;
+  overflow: hidden;
+}
+.gp .regift-prize-text {
+  color: #d06d15;
+  display: block;
+  font-size: 20rpx;
+  max-width: 156rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+  word-break: break-all;
+}
+.gp .regift-prize-desc {
+  color: #444;
+  font-size: 20rpx;
+  padding-right: 6rpx;
+  text-shadow: none;
+  white-space: nowrap;
+}
+.gp .regiftbar-bg-box {
+  position: relative;
+}
+.gp .regiftbar-gift-bg {
+  display: block;
+  width: 100%;
+}
+.gp .regiftbar-bg {
+  display: none;
+  width: 100%;
+}
+.gp .regiftbar-bg.bg-block {
+  display: block;
+}
+.gp .regiftbar-gift-bg.bg-null {
+  opacity: 0;
+}
+.gp .regiftbar-gift-bg.regift-null {
+  display: none;
+}
+@-webkit-keyframes domZoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  70% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes domZoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  70% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+@keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}

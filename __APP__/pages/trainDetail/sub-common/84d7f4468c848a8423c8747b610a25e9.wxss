@@ -1,0 +1,212 @@
+.train-12306-retreveStep2 .retrieve-box {
+  overflow: hidden;
+}
+.train-12306-retreveStep2 .book-tips {
+  background: #fff8f2;
+  border-radius: 8rpx;
+  color: #d96500;
+  font-size: 26rpx;
+  margin: 0 32rpx;
+  padding: 20rpx 24rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd {
+  margin: 40rpx 32rpx 0;
+}
+.train-12306-retreveStep2 .retrieve-bd .item {
+  padding: 0 0 64rpx 76rpx;
+  position: relative;
+}
+.train-12306-retreveStep2 .retrieve-bd .item::after {
+  background: #ededed;
+  bottom: 16rpx;
+  content: "";
+  left: 22rpx;
+  position: absolute;
+  top: 60rpx;
+  width: 2rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .item:last-child {
+  padding-bottom: 0;
+}
+.train-12306-retreveStep2 .retrieve-bd .item:last-child::after {
+  display: none;
+}
+.train-12306-retreveStep2 .retrieve-bd .em {
+  background-color: #0080ff;
+  border-radius: 46rpx;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 700;
+  height: 46rpx;
+  left: 0;
+  line-height: 46rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 46rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .h5 {
+  font-size: 34rpx;
+  line-height: 46rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .p {
+  color: #999;
+  margin-top: 16rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .phone-num {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-top: 24rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .phone-num .input-phonenum {
+  background: #fff;
+  border: 2rpx solid #ededed;
+  border-radius: 8rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 68rpx;
+  margin: 0 20rpx;
+  text-align: center;
+  width: 148rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .li {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .li:last-child {
+  border-bottom: 0;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .label {
+  color: #999;
+  width: 160rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .input-txt {
+  height: 100rpx;
+  width: 100%;
+}
+.train-12306-retreveStep2
+  .retrieve-bd
+  .password-list
+  .input-txt::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.train-12306-retreveStep2
+  .retrieve-bd
+  .password-list
+  .input-txt::-moz-placeholder {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.train-12306-retreveStep2
+  .retrieve-bd
+  .password-list
+  .input-txt:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.train-12306-retreveStep2
+  .retrieve-bd
+  .password-list
+  .input-txt::-ms-input-placeholder {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .input-txt::placeholder {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .i12306-eyeclosed,
+.train-12306-retreveStep2 .retrieve-bd .password-list .i12306-eyeopen {
+  font-size: 30rpx;
+}
+.train-12306-retreveStep2 .retrieve-bd .password-list .i12306-eyeopen {
+  color: #ddd;
+}
+.train-12306-retreveStep2 .retrieve-bd + .btn-box {
+  margin-top: 16rpx;
+}
+.train-12306-retreveStep2 .no-phone-hd {
+  color: #999;
+  font-size: 24rpx;
+  text-align: center;
+}
+.train-12306-retreveStep2 .no-phone-hd::after,
+.train-12306-retreveStep2 .no-phone-hd::before {
+  content: "";
+  display: inline-block;
+  height: 2rpx;
+  margin: -4rpx 24rpx 0;
+  vertical-align: middle;
+  width: 112rpx;
+}
+.train-12306-retreveStep2 .no-phone-hd::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 80%, 0)),
+    to(#ccc)
+  );
+  background: -webkit-linear-gradient(left, hsla(0, 0%, 80%, 0), #ccc);
+  background: -o-linear-gradient(left, hsla(0, 0%, 80%, 0), #ccc);
+  background: linear-gradient(90deg, hsla(0, 0%, 80%, 0), #ccc);
+}
+.train-12306-retreveStep2 .no-phone-hd::after {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 80%, 0)),
+    to(#ccc)
+  );
+  background: -webkit-linear-gradient(right, hsla(0, 0%, 80%, 0), #ccc);
+  background: -o-linear-gradient(right, hsla(0, 0%, 80%, 0), #ccc);
+  background: linear-gradient(270deg, hsla(0, 0%, 80%, 0), #ccc);
+}
+.train-12306-retreveStep2 .no-phone-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  padding: 0 24rpx;
+}
+.train-12306-retreveStep2 .no-phone-bd .icon-power {
+  background-image: url(https://images3.c-ctrip.com/train/wxapp/12306/icon-power-zx.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rpx;
+  margin-right: 20rpx;
+  width: 60rpx;
+}
+.ty .train-12306-retreveStep2 .no-phone-bd .icon-power {
+  background-image: url(https://images3.c-ctrip.com/train/wxapp/12306/icon-power-ty.png);
+}
+.train-12306-retreveStep2 .no-phone-bd .h4 {
+  font-size: 32rpx;
+  font-weight: bolder;
+}
+.train-12306-retreveStep2 .no-phone-bd .p {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 2rpx;
+}
+.train-12306-retreveStep2 .no-phone-bd .btn-logout {
+  font-size: 26rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  width: 136rpx;
+}

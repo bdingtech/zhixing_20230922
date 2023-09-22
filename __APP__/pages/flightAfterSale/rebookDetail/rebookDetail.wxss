@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import "/pages/flightAfterSale/sub-vendors.wxss";
+@import "/pages/flightAfterSale/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+@import "/pages/flightAfterSale/sub-common/53948defd8dcbffac38ad89b13b92b00.wxss";
+.flt-price-detail-bd {
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin: 0 40rpx;
+  padding: 25rpx 0;
+}
+.flt-price-detail-bd .col {
+  margin-bottom: 10rpx;
+}
+.flt-price-detail-bd .col:last-child {
+  margin-bottom: 0;
+}
+.flt-price-detail-bd .tit {
+  color: #999;
+  margin-bottom: 8rpx;
+}
+.flt-price-detail-bd .tit .desc {
+  margin-left: auto;
+}
+.flt-price-detail-bd .price-icon {
+  height: 30rpx;
+  margin-left: 12rpx;
+}
+.rebook-detail-hd {
+  margin: 16rpx 48rpx 30rpx;
+}
+.rebook-detail-hd .status {
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+}
+.rebook-detail-hd .status .urge-btn {
+  color: #3c5a86;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: 16rpx;
+  padding: 4rpx 8rpx;
+  position: relative;
+  z-index: 1;
+}
+.rebook-detail-hd .status .urge-btn::after {
+  border: 2rpx solid #879fc2;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.5);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.rebook-detail-hd .rbox {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.rebook-detail-hd .rbox .ifont2-arr {
+  color: #879fc2;
+  font-size: 24rpx;
+  font-weight: 500;
+  margin: -4rpx 0 0;
+}
+.rebook-detail-hd .tit {
+  color: #3c5a86;
+}
+.rebook-detail-hd .price {
+  color: #ff5959;
+  font-family: ZX-Regular;
+  font-size: 48rpx;
+  font-size: 44rpx;
+  font-weight: 400;
+  height: 48rpx;
+  height: 42rpx;
+  line-height: 48rpx;
+}
+.rebook-detail-hd .price::before {
+  content: "¥";
+  font-size: 36rpx;
+  font-size: 32rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+.rebook-remark {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  border-radius: 20rpx;
+  color: #3c5a86;
+  margin: 0 16rpx 16rpx;
+  padding: 16rpx 32rpx;
+}
+.rebook-swiper {
+  height: 94rpx;
+}
+.swiper-indicator {
+  background: #d3e1f4;
+  margin-bottom: 16rpx;
+  position: relative;
+  width: 28rpx;
+}
+.swiper-indicator,
+.swiper-indicator .indicator {
+  border-radius: 6rpx 6rpx 2rpx 2rpx;
+  display: block;
+  height: 8rpx;
+}
+.swiper-indicator .indicator {
+  background: #198cff;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  width: 16rpx;
+}
+.urge-rebook-dialog .bd {
+  border-radius: 40rpx;
+}
+.urge-rebook-dialog .train-common-dialog-bd .tit {
+  color: #222;
+}
+.urge-rebook-dialog .invite-btn {
+  border-radius: 20rpx;
+}
+.urge-rebook-dialog .invite-btn.invite-btn-zx {
+  background: #198cff;
+}
+.rebook-progress .progress {
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.rebook-progress .progress:last-child {
+  margin-bottom: 0;
+}
+.rebook-progress .progress .progress-icon {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 6rpx;
+  position: relative;
+}
+.rebook-progress .progress .progress-icon::after,
+.rebook-progress .progress .progress-icon::before {
+  border-radius: 6rpx;
+  content: "";
+  display: block;
+  height: 42rpx;
+  left: 50%;
+  position: absolute;
+  width: 6rpx;
+}
+.rebook-progress .progress .progress-icon::before {
+  top: -8rpx;
+  transform: translate3d(-50%, -100%, 0);
+}
+.rebook-progress .progress .progress-icon::after {
+  bottom: -8rpx;
+  transform: translate3d(-50%, 100%, 0);
+}
+.rebook-progress .progress.t11 .progress-icon::after,
+.rebook-progress .progress.t11 .progress-icon::before,
+.rebook-progress .progress.t12 .progress-icon::before {
+  background: #edf6ff;
+}
+.rebook-progress .progress.t12 .progress-icon::after,
+.rebook-progress .progress.t22 .progress-icon::after,
+.rebook-progress .progress.t22 .progress-icon::before {
+  background: #f5f5f5;
+}
+.rebook-progress .progress:first-child .progress-icon::before,
+.rebook-progress .progress:last-child .progress-icon::after {
+  display: none;
+}
+.rebook-progress .progress.checked .progress-icon {
+  margin: 0;
+}
+.rebook-progress .cont {
+  margin-left: 30rpx;
+}
+.rebook-progress .ifont2-checkboxed {
+  font-size: 30rpx;
+}
+.rebook-progress .circle {
+  background: #f5f5f5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+}
+.rebook-progress .remark {
+  margin-top: 4rpx;
+}
+.rebook-detail-bottom-btn .fixed-botm-btn {
+  background: #edf6ff;
+  color: #198cff;
+}
+page {
+  background: #f5f5f5;
+}
+.flight-rebook-detail .ifont2-arr {
+  font-size: 18rpx;
+  margin-left: 4rpx;
+}
+.flight-rebook-detail .rt-tip {
+  position: absolute;
+  right: 32rpx;
+  top: 28rpx;
+  z-index: 1;
+}

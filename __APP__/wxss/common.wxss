@@ -1,0 +1,2 @@
+@import "/wxss/modules/reset.wxss";
+@import "/wxss/modules/dialog.wxss";

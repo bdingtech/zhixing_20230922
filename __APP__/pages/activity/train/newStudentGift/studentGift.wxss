@@ -1,0 +1,2344 @@
+@charset "UTF-8";
+@import "/pages/activity/train/sub-vendors.wxss";
+@import "/pages/activity/train/sub-common/3a67e677ac083fc5ff04ecf959a98fcd.wxss";
+.common-activity-train-barrage .barrage-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80rpx;
+  margin-top: 30rpx;
+  width: 100%;
+}
+.common-activity-train-barrage .barrage-wrap .box {
+  word-wrap: none;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(rgba(0, 62, 165, 0)),
+    to(#003ea5)
+  );
+  background-image: -webkit-linear-gradient(
+    right,
+    rgba(0, 62, 165, 0),
+    #003ea5
+  );
+  background-image: -o-linear-gradient(
+    right,
+    rgba(0, 62, 165, 0) 0,
+    #003ea5 100%
+  );
+  background-image: linear-gradient(270deg, rgba(0, 62, 165, 0), #003ea5);
+  border-radius: 44rpx;
+  height: 80rpx;
+  left: 100%;
+  margin-right: 100rpx;
+  padding-left: 80rpx;
+  position: absolute;
+  white-space: nowrap;
+}
+.common-activity-train-barrage .barrage-wrap .box .box-image {
+  border-radius: 80rpx;
+  height: 60rpx;
+  left: 10rpx;
+  margin-top: -30rpx;
+  position: absolute;
+  top: 50%;
+  width: 60rpx;
+}
+.common-activity-train-barrage .barrage-wrap .box .box-text {
+  color: #eac5a7;
+  font-size: 24rpx;
+  line-height: 80rpx;
+  opacity: 0.5;
+}
+@-webkit-keyframes dmAnimation2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100vw - 100%));
+  }
+}
+@keyframes dmAnimation2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100vw - 100%));
+  }
+}
+page {
+  background: #001eb9;
+  font: 400 0.7rem/1.4 PingFang SC;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.wrap {
+  overflow-x: hidden;
+  padding-bottom: 200rpx;
+  position: relative;
+}
+.logo-zx {
+  left: 50rpx;
+  position: absolute;
+  top: 130rpx;
+  z-index: 2;
+}
+.logo-zx image {
+  height: 27rpx;
+  width: 104rpx;
+}
+.logo-ty {
+  left: 50rpx;
+  position: absolute;
+  top: 130rpx;
+  z-index: 2;
+}
+.logo-ty image {
+  height: 36rpx;
+  width: 94rpx;
+}
+.top-img1 {
+  margin-bottom: 215rpx;
+  position: relative;
+}
+.top-img1 image {
+  height: 760rpx;
+  width: 100%;
+}
+.quanyi-box {
+  background: #1264ff;
+  border-radius: 0 0 30rpx 30rpx;
+  padding: 30rpx 0 56rpx;
+  position: relative;
+  z-index: 9;
+}
+.quanyi-box:after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/dizuo.png)
+    no-repeat;
+  background-size: 100% 250rpx;
+  content: "";
+  height: 250rpx;
+  left: 0;
+  position: absolute;
+  top: -250rpx;
+  width: 100%;
+  z-index: 1;
+}
+.quanyi-box .icon-ren {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/renwu.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 357rpx;
+  left: 0;
+  position: absolute;
+  top: -290rpx;
+  width: 290rpx;
+  z-index: 3;
+}
+.quanyi-box .roll-box {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 54rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22rpx;
+  height: 54rpx;
+  justify-content: center;
+  left: 50%;
+  letter-spacing: 2rpx;
+  margin-left: -302rpx;
+  position: absolute;
+  top: -490rpx;
+  width: 604rpx;
+}
+.quanyi-box .quanyi-tit {
+  left: 50%;
+  position: absolute;
+  top: -560rpx;
+  transform: translateX(-50%);
+}
+.quanyi-box .quanyi-tit Image {
+  display: block;
+  height: 43rpx;
+  margin: 0 auto;
+  width: 373rpx;
+}
+.quanyi-box .quanyi-tit text {
+  color: #bee0fc;
+  display: block;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+  text-align: center;
+}
+.quanyi-box .invitation-box {
+  margin-bottom: 115rpx;
+}
+.quanyi-box .invitation-box.invitation-box-bottom {
+  margin-bottom: 145rpx;
+}
+.quanyi-box .invitation-box .tit {
+  color: #fff;
+  font-size: 35rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  text-align: center;
+}
+.quanyi-box .invitation-box .time {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 27rpx;
+}
+.quanyi-box .invitation-box .time .t {
+  font-size: 26rpx;
+  opacity: 0.6;
+  padding: 0 13rpx;
+}
+.quanyi-box .invitation-box .time .d {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8rpx;
+  color: #3785e8;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  height: 35rpx;
+  justify-content: center;
+  width: 41rpx;
+}
+.quanyi-box .invitation-box .time .f {
+  padding: 0 7rpx;
+}
+.quanyi-box .invitation-box .name {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+.quanyi-box .invitation-box .name view {
+  border-radius: 80rpx;
+  height: 80rpx;
+  margin: 0 20rpx;
+  position: relative;
+  width: 80rpx;
+}
+.quanyi-box .invitation-box .name view .h5-button {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/icon-add.png)
+    no-repeat 50%#fff;
+  background-size: 30rpx 30rpx;
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.quanyi-box .invitation-box .name view image {
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.quanyi-box .invitation-box .name view text {
+  bottom: -36rpx;
+  color: #fff;
+  font-size: 22rpx;
+  left: 50%;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 100rpx;
+}
+.quanyi-box .invitation-box .btn {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 70rpx;
+}
+.quanyi-box .invitation-box .btn.yq-bottom {
+  bottom: 160rpx;
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+}
+.quanyi-box .invitation-box .btn .h5-button {
+  height: 104rpx;
+  margin: 0;
+  padding: 0;
+  width: 309rpx;
+}
+.quanyi-box .invitation-box .btn .pyq {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-pyq.png);
+  background-size: 100% 100%;
+}
+.quanyi-box .invitation-box .btn .wx {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-wx.png);
+  background-size: 100% 100%;
+  margin-left: 22rpx;
+}
+.quanyi-box .card1 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/card-bg1.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 324rpx;
+  left: 50%;
+  margin-left: -303rpx;
+  position: absolute;
+  top: -423rpx;
+  width: 606rpx;
+  z-index: 2;
+}
+.quanyi-box .card1 .card-logo-zx {
+  color: #199eff;
+  font-size: 28rpx;
+  font-weight: 700;
+  left: 155rpx;
+  line-height: 30rpx;
+  position: absolute;
+  top: 48rpx;
+}
+.quanyi-box .card1 .card-logo-zx:after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/logo-zx2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 35rpx;
+  left: -113rpx;
+  position: absolute;
+  top: -2rpx;
+  width: 87rpx;
+}
+.quanyi-box .card1 .card-logo-zx:before {
+  background: #199eff;
+  content: "";
+  height: 30rpx;
+  left: -12rpx;
+  position: absolute;
+  top: 0;
+  width: 2rpx;
+}
+.quanyi-box .card1 .card-logo-ty {
+  color: #199eff;
+  font-size: 28rpx;
+  font-weight: 700;
+  left: 155rpx;
+  line-height: 30rpx;
+  position: absolute;
+  top: 48rpx;
+}
+.quanyi-box .card1 .card-logo-ty:after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/logo-ty2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 35rpx;
+  left: -113rpx;
+  position: absolute;
+  top: -4rpx;
+  width: 87rpx;
+}
+.quanyi-box .card1 .card-logo-ty:before {
+  background: #199eff;
+  content: "";
+  height: 30rpx;
+  left: -12rpx;
+  position: absolute;
+  top: 0;
+  width: 2rpx;
+}
+.quanyi-box .card1 .card-txt {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/card-txt.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 47rpx;
+  left: 40rpx;
+  position: absolute;
+  top: 120rpx;
+  width: 330rpx;
+}
+.quanyi-box .card1 .card-date {
+  bottom: 22rpx;
+  color: #97590f;
+  font-size: 24rpx;
+  font-weight: 700;
+  left: 44rpx;
+  line-height: 26rpx;
+  position: absolute;
+}
+.quanyi-box .card1 .card-pic {
+  bottom: 11rpx;
+  color: #97590f;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 34rpx;
+}
+.quanyi-box .card1 .card-pic text {
+  font-weight: 700;
+}
+.quanyi-box .card1 .card-pic text:nth-of-type(1) {
+  font-size: 24rpx;
+  margin-top: 28rpx;
+}
+.quanyi-box .card1 .card-pic text:nth-of-type(2) {
+  font-family: ZX-Regular;
+  font-size: 51rpx;
+  margin: 0 6rpx 0 10rpx;
+}
+.quanyi-box .card1 .card-pic text:nth-of-type(3) {
+  font-size: 26rpx;
+  margin-top: 25rpx;
+}
+.quanyi-box .card2 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/card-bg2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 296rpx;
+  left: 50%;
+  margin-left: -303rpx;
+  position: absolute;
+  top: -395rpx;
+  width: 606rpx;
+  z-index: 2;
+}
+.quanyi-box .card2 .card-logo-zx {
+  color: #199eff;
+  font-size: 28rpx;
+  font-weight: 700;
+  left: 155rpx;
+  line-height: 30rpx;
+  position: absolute;
+  top: 48rpx;
+}
+.quanyi-box .card2 .card-logo-zx:after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/logo-zx2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 35rpx;
+  left: -113rpx;
+  position: absolute;
+  top: -2rpx;
+  width: 87rpx;
+}
+.quanyi-box .card2 .card-logo-ty {
+  color: #199eff;
+  font-size: 28rpx;
+  font-weight: 700;
+  left: 155rpx;
+  line-height: 30rpx;
+  position: absolute;
+  top: 48rpx;
+}
+.quanyi-box .card2 .card-logo-ty:after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/logo-ty2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 35rpx;
+  left: -113rpx;
+  position: absolute;
+  top: -2rpx;
+  width: 87rpx;
+}
+.quanyi-box .card2 .card-txt {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/card-txt.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 47rpx;
+  left: 40rpx;
+  position: absolute;
+  top: 120rpx;
+  width: 330rpx;
+}
+.quanyi-box .card2 .card-zs {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/card-icon.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 123rpx;
+  position: absolute;
+  right: 39rpx;
+  top: 39rpx;
+  width: 143rpx;
+}
+.quanyi-box .decorate-box {
+  background: #fff;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/guang.png)
+    no-repeat center 10rpx #fff;
+  background-size: 698rpx 122rpx;
+  border-radius: 0 0 20rpx 20rpx;
+  margin: 0 auto;
+  padding-top: 38rpx;
+  position: relative;
+  width: 710rpx;
+}
+.quanyi-box .decorate-box.fuli,
+.quanyi-box .decorate-box.rk {
+  margin-top: 90rpx;
+}
+.quanyi-box .decorate-box .jieshao {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  padding: 50rpx 0;
+}
+.quanyi-box .decorate-box .jieshao .zx {
+  height: 738rpx;
+  width: 650rpx;
+}
+.quanyi-box .decorate-box .tit-box {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/tit-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  font-weight: 700;
+  height: 93rpx;
+  justify-content: center;
+  left: 50%;
+  margin-left: -372rpx;
+  position: absolute;
+  top: -46rpx;
+  width: 744rpx;
+  z-index: 2;
+}
+.quanyi-box .decorate-box .tit-box text {
+  color: #fff;
+  margin-top: -6rpx;
+  position: relative;
+}
+.quanyi-box .decorate-box .tit-box text:after,
+.quanyi-box .decorate-box .tit-box text:before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/tit-icon.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 13rpx;
+  margin-top: -6.5rpx;
+  position: absolute;
+  top: 50%;
+  width: 43rpx;
+}
+.quanyi-box .decorate-box .tit-box text:after {
+  left: -55rpx;
+}
+.quanyi-box .decorate-box .tit-box text:before {
+  right: -55rpx;
+  transform: scaleX(-1);
+}
+.quanyi-box .decorate-box .coupon {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/coupon-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 110rpx;
+  margin: 30rpx auto 0;
+  position: relative;
+  width: 616rpx;
+}
+.quanyi-box .decorate-box .coupon .pic {
+  color: #9f5802;
+  font-size: 50rpx;
+  font-weight: 700;
+  left: 40rpx;
+  line-height: 50rpx;
+  position: absolute;
+  top: 34rpx;
+}
+.quanyi-box .decorate-box .coupon .pic:after {
+  content: "元";
+  font-size: 24rpx;
+}
+.quanyi-box .decorate-box .coupon .pic:before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/icon-pic.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 27rpx;
+  position: absolute;
+  right: -40rpx;
+  top: -14rpx;
+  width: 64rpx;
+}
+.quanyi-box .decorate-box .coupon .name {
+  color: #9f5802;
+  font-size: 24rpx;
+  font-weight: 700;
+  left: 250rpx;
+  line-height: 30rpx;
+  position: absolute;
+  top: 42rpx;
+}
+.quanyi-box .decorate-box .rights-list {
+  padding-top: 30rpx;
+}
+.quanyi-box .decorate-box .rights-list:after,
+.quanyi-box .decorate-box .rights-list:before {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.quanyi-box .decorate-box .rights-list .li {
+  color: #eac5a7;
+  float: left;
+  margin-bottom: 36rpx;
+  width: 25%;
+}
+.quanyi-box .decorate-box .rights-list .li image,
+.quanyi-box .decorate-box .rights-list .li text,
+.quanyi-box .decorate-box .rights-list .li view {
+  display: block;
+  font-size: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.quanyi-box .decorate-box .rights-list .li image {
+  height: 80rpx;
+  width: 80rpx;
+}
+.quanyi-box .decorate-box .rights-list .li text {
+  color: #414b65;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  margin-top: 16rpx;
+}
+.quanyi-box .decorate-box .rights-list .li view {
+  color: #6e7b9c;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.quanyi-box .decorate-btm {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/box-icon.png)
+    no-repeat top;
+  background-size: 629rpx 100%;
+  height: 18rpx;
+  margin: 0 auto;
+  width: 100%;
+}
+.quanyi-box .unlock-box {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #acd1ff;
+  border-radius: 60rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  height: 60rpx;
+  justify-content: center;
+  margin: 30rpx auto 0;
+  width: 365rpx;
+}
+.quanyi-box .unlock-box image {
+  height: 27rpx;
+  width: 24rpx;
+}
+.quanyi-box .unlock-box text {
+  color: #3581f5;
+  font-size: 26rpx;
+  font-weight: 700;
+  margin-left: 14rpx;
+}
+.bullet-chat {
+  height: 328rpx;
+  position: relative;
+}
+.bullet-chat .box {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(rgba(0, 62, 165, 0)),
+    to(#003ea5)
+  );
+  background-image: -webkit-linear-gradient(
+    right,
+    rgba(0, 62, 165, 0),
+    #003ea5
+  );
+  background-image: -o-linear-gradient(
+    right,
+    rgba(0, 62, 165, 0) 0,
+    #003ea5 100%
+  );
+  background-image: linear-gradient(270deg, rgba(0, 62, 165, 0), #003ea5);
+  border-radius: 44rpx;
+  height: 80rpx;
+  left: 0;
+  padding-left: 80rpx;
+  position: absolute;
+  top: 0;
+}
+.bullet-chat .box image {
+  border-radius: 80rpx;
+  height: 60rpx;
+  left: 10rpx;
+  margin-top: -30rpx;
+  position: absolute;
+  top: 50%;
+  width: 60rpx;
+}
+.bullet-chat .box view {
+  color: #eac5a7;
+  font-size: 24rpx;
+  line-height: 80rpx;
+  opacity: 0.5;
+}
+.btn-shadow {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-shadow.png)
+    no-repeat 0 100%;
+  background-size: 100% 149rpx;
+  bottom: 0;
+  left: 0;
+  padding: 20rpx 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.btn-shadow .btn-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/button-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 137rpx;
+  position: relative;
+  width: 724rpx;
+}
+.btn-shadow .btn-box text {
+  display: block;
+  text-align: center;
+  text-shadow: 2rpx 0 2rpx rgba(176, 31, 17, 0.5);
+}
+.btn-shadow .btn-box text.txt1 {
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  padding-top: 22rpx;
+}
+.btn-shadow .btn-box text.txt2 {
+  color: #ffecac;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  margin-top: 2rpx;
+}
+.btn-shadow .btn-box text.txt3 {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  padding-top: 38rpx;
+}
+.btn-shadow .btn-box view {
+  border-radius: 100rpx;
+  height: 100rpx;
+  left: 34rpx;
+  overflow: hidden;
+  position: absolute;
+  top: 9rpx;
+  width: 678rpx;
+}
+.btn-shadow .btn-box view Icon {
+  animation: mymove 3s infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-guang.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 98rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 156rpx;
+}
+@-webkit-keyframes mymove {
+  from {
+    left: -134rpx;
+  }
+  to {
+    left: 700rpx;
+  }
+}
+@keyframes mymove {
+  from {
+    left: -134rpx;
+  }
+  to {
+    left: 700rpx;
+  }
+}
+.pop-close-btn {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/close-btn.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: -120rpx;
+  height: 30rpx;
+  left: 50%;
+  margin-left: -14.5rpx;
+  position: absolute;
+  width: 30rpx;
+}
+.pop-close-btn::after {
+  bottom: -30rpx;
+  content: "";
+  left: -30rpx;
+  position: absolute;
+  right: -30rpx;
+  top: -30rpx;
+}
+.pop1 {
+  left: 50%;
+  margin-left: -301rpx;
+  position: fixed;
+  top: 20%;
+  width: 602rpx;
+}
+.pop1 .pop1-top {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop1-1.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 288rpx;
+}
+.pop1 .pop1-wrap {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop1-2.png)
+    repeat-y;
+  background-size: 100% 35rpx;
+}
+.pop1 .pop1-btm {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop1-3.png)
+    no-repeat 0 100%;
+  background-size: 100% 59rpx;
+  height: 50rpx;
+}
+.pop1 .school {
+  color: #414b65;
+}
+.pop1 .school .tips-txt {
+  font-size: 26rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.pop1 .school .choice-txt {
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 30rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+.pop1 .school .choice-btn {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 100%,
+    from(#ff9726),
+    to(#fe1717)
+  );
+  border-radius: 96rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  margin: 50rpx auto 0;
+  width: 520rpx;
+}
+.pop1 .school .btm-txt {
+  color: #414b65;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  opacity: 0.6;
+  padding: 14rpx 40rpx 0;
+}
+.pop1 .school .school-name {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ffe4d2;
+  border-radius: 10rpx;
+  color: #9f5802;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  margin: 40rpx auto 0;
+}
+.pop1 .school .school-btn-box,
+.pop1 .school .school-name {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 520rpx;
+}
+.pop1 .school .school-btn-box {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 30rpx auto 0;
+}
+.pop1 .school .school-btn-box .h5-button {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fe4317;
+  border-radius: 90rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  height: 90rpx;
+  justify-content: center;
+  width: 252rpx;
+}
+.pop2 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 820rpx;
+  left: 50%;
+  margin-left: -374rpx;
+  position: fixed;
+  top: 10%;
+  width: 731rpx;
+}
+.pop2 .logo {
+  height: 28rpx;
+  left: 166rpx;
+  position: absolute;
+  top: 247rpx;
+  width: 70rpx;
+}
+.pop2 .tx-img {
+  border-radius: 50%;
+  height: 90rpx;
+  left: 50%;
+  margin-left: -45rpx;
+  overflow: hidden;
+  position: absolute;
+  top: 152rpx;
+  width: 90rpx;
+}
+.pop2 .tit {
+  font-size: 36rpx;
+  line-height: 40rpx;
+  padding-top: 540rpx;
+}
+.pop2 .tit,
+.pop2 .txt {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.pop2 .txt {
+  font-size: 28rpx;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+}
+.pop2 .txt text {
+  color: #fa5;
+  font-size: 28rpx;
+  padding: 0 6rpx;
+}
+.pop2 .dhk {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/dhk.png)
+    no-repeat;
+  background-size: 100% 100%;
+  color: #9f5802;
+  font-size: 28rpx;
+  height: 71rpx;
+  left: 50%;
+  line-height: 62rpx;
+  margin-left: -159.5rpx;
+  position: absolute;
+  text-align: center;
+  top: 60rpx;
+  width: 319rpx;
+}
+.pop2 .txtStyle1 {
+  font-size: 36rpx;
+  padding-top: 554rpx;
+}
+.pop2 .txtStyle1,
+.pop2 .txtStyle2 {
+  color: #fff;
+  font-weight: 700;
+  line-height: 40rpx;
+  text-align: center;
+}
+.pop2 .txtStyle2 {
+  font-size: 28rpx;
+  padding-top: 520rpx;
+}
+.pop2 .txtStyle3 {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  padding-top: 20rpx;
+  text-align: center;
+}
+.pop2 .btn {
+  -ms-flex-pack: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/btn-bg1.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: 20rpx;
+  box-sizing: border-box;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34rpx;
+  font-weight: 700;
+  height: 144rpx;
+  justify-content: center;
+  left: 50%;
+  margin: 0 0 0-283rpx;
+  padding-top: 14rpx;
+  position: absolute;
+  text-shadow: 2rpx 0 2rpx rgba(176, 31, 17, 0.5);
+  width: 566rpx;
+}
+.top-img2 {
+  position: relative;
+}
+.top-img2 image {
+  height: 577rpx;
+  width: 100%;
+}
+.top-img3 {
+  position: relative;
+}
+.top-img3 image {
+  height: 1017rpx;
+  width: 100%;
+}
+.page2 .quanyi-box {
+  margin-top: 60rpx;
+}
+.btn-change {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/change-btn.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 295rpx;
+  position: absolute;
+  position: fixed;
+  right: 0;
+  top: 256rpx;
+  width: 80rpx;
+  z-index: 10;
+}
+.pop-invitation-rest {
+  height: calc(100% - 600rpx);
+}
+.pop-invitation {
+  background: #1264ff;
+  border-radius: 30rpx 30rpx 0 0;
+  bottom: 0;
+  height: 593rpx;
+  left: 0;
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.pop-invitation icon {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/icon-ren2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 522rpx;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: -153rpx;
+  width: 558rpx;
+  z-index: -1;
+}
+.pop-invitation .tit {
+  color: #fff;
+  font-size: 35rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  padding-top: 80rpx;
+  text-align: center;
+}
+.pop-invitation .time {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 27rpx;
+}
+.pop-invitation .time .t {
+  font-size: 26rpx;
+  opacity: 0.6;
+  padding: 0 13rpx;
+}
+.pop-invitation .time .d {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8rpx;
+  color: #3785e8;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  height: 35rpx;
+  justify-content: center;
+  width: 41rpx;
+}
+.pop-invitation .time .f {
+  padding: 0 7rpx;
+}
+.pop-invitation .name {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+.pop-invitation .name view {
+  border-radius: 80rpx;
+  height: 80rpx;
+  margin: 0 20rpx;
+  position: relative;
+  width: 80rpx;
+}
+.pop-invitation .name view .h5-button {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/icon-add.png)
+    no-repeat 50%#fff;
+  background-size: 30rpx 30rpx;
+}
+.pop-invitation .name view .h5-button,
+.pop-invitation .name view image {
+  border-radius: 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.pop-invitation .name view text {
+  bottom: -36rpx;
+  color: #fff;
+  font-size: 22rpx;
+  left: 50%;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 100rpx;
+}
+.pop-invitation .btn {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 70rpx;
+}
+.pop-invitation .btn .h5-button {
+  height: 104rpx;
+  margin: 0;
+  padding: 0;
+  width: 309rpx;
+}
+.pop-invitation .btn .pyq {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-pyq.png);
+  background-size: 100% 100%;
+}
+.pop-invitation .btn .wx {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/btn-wx.png);
+  background-size: 100% 100%;
+  margin-left: 22rpx;
+}
+.pop-invitation .txt {
+  color: #fff;
+  font-size: 22rpx;
+  opacity: 0.5;
+  padding-top: 24rpx;
+  text-align: center;
+}
+.pop-box {
+  background: #fff;
+  border: 2rpx solid #fff;
+  border-radius: 26rpx;
+  box-shadow: inset 0 0 29rpx 10rpx #c4deff;
+  left: 50%;
+  padding: 54rpx 0 62rpx;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 598rpx;
+}
+.pop-box .top-bg1 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-icon1.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 252rpx;
+  left: 50%;
+  position: absolute;
+  top: -234.5rpx;
+  transform: translateX(-50%);
+  width: 554rpx;
+}
+.pop-box .txt,
+.pop-box .txt2 {
+  color: #414b65;
+  display: block;
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 50rpx;
+  text-align: center;
+}
+.pop-box .txt2 {
+  padding-top: 20rpx;
+}
+.pop-box .pop-btn1 {
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 100%,
+    from(#ff8f16),
+    to(#fe1717)
+  );
+  border-radius: 96rpx;
+  color: #fff;
+  font-weight: 700;
+  height: 96rpx;
+  margin: 56rpx auto 0;
+  width: 385rpx;
+}
+.pop-box .top-bg2 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/top-icon2.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 213rpx;
+  top: -214rpx;
+}
+.pop-box .top-bg2,
+.pop-box .top-bg3 {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 554rpx;
+}
+.pop-box .top-bg3 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-icon3.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 227rpx;
+  top: -210rpx;
+}
+.pop-box .top-bg4 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/top-icon4.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 252rpx;
+  top: -235rpx;
+  width: 554rpx;
+}
+.pop-box .top-bg4,
+.pop-box .top-bg5 {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.pop-box .top-bg5 {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/top-icon5.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 169rpx;
+  top: -170rpx;
+  width: 556rpx;
+}
+.pop-box .top-bg5 .dt {
+  color: #fff;
+  font-size: 38rpx;
+  font-weight: 700;
+  left: 40rpx;
+  position: absolute;
+  text-shadow: 2rpx 0 6rpx rgba(21, 123, 219, 0.5);
+  top: 46rpx;
+}
+.pop-box .top-bg5 .dd {
+  color: #fff;
+  font-size: 28rpx;
+  left: 40rpx;
+  opacity: 0.9;
+  position: absolute;
+  top: 100rpx;
+}
+.pop-box .top-bg5 image {
+  height: 154rpx;
+  position: absolute;
+  right: 0;
+  top: 7rpx;
+  width: 154rpx;
+  z-index: -1;
+}
+.pop-box .txt-center {
+  color: #414b65;
+  display: block;
+  font-size: 32rpx;
+  font-weight: 700;
+  line-height: 50rpx;
+  text-align: center;
+}
+.pop-box .pop-coupon-box {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 182rpx;
+  justify-content: center;
+}
+.pop-box .pop-coupon-box .coupon-bg {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-coupon.png);
+  background-size: 100% 100%;
+  height: 182rpx;
+  position: relative;
+  width: 191rpx;
+}
+.pop-box .pop-coupon-box .coupon-bg .jiaobiao {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f47c55;
+  border-radius: 0 18rpx 0 18rpx;
+  color: #ffefda;
+  font-size: 24rpx;
+  height: 32rpx;
+  padding: 0 12rpx 0 16rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.pop-box .pop-coupon-box .coupon-bg .jiaobiao,
+.pop-box .pop-coupon-box .coupon-bg .top {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.pop-box .pop-coupon-box .coupon-bg .top {
+  box-sizing: border-box;
+  height: 113rpx;
+  padding-top: 26rpx;
+}
+.pop-box .pop-coupon-box .coupon-bg .top text {
+  color: #b56f58;
+}
+.pop-box .pop-coupon-box .coupon-bg .top text:nth-of-type(1) {
+  font-family: ZX-Regular;
+  font-size: 67rpx;
+  line-height: 70rpx;
+}
+.pop-box .pop-coupon-box .coupon-bg .top text:nth-of-type(2) {
+  font-size: 28rpx;
+  line-height: 30rpx;
+  margin: 33rpx 0 0;
+}
+.pop-box .pop-coupon-box .coupon-bg .btm {
+  color: #b56f58;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  padding-top: 20rpx;
+  text-align: center;
+}
+.pop-box .pop-coupon-box .coupon-bg:nth-of-type(2) {
+  margin-left: 34rpx;
+}
+.pop-box .pop-coupon-box .coupon-bg:nth-of-type(2):after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-jia.png)
+    no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 23rpx;
+  left: -27rpx;
+  position: absolute;
+  top: 100rpx;
+  width: 23rpx;
+}
+.pop-box .pop-btn2 {
+  -ms-flex-pack: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-button.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 104rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 104rpx;
+  justify-content: center;
+  line-height: 96rpx;
+  margin: 98rpx auto -10rpx;
+  position: relative;
+  text-shadow: 2rpx 0 6rpx rgba(176, 31, 17, 0.35);
+  width: 520rpx;
+}
+.pop-box .pop-btn2 .am {
+  height: 104rpx;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 520rpx;
+}
+.pop-box .pop-btn2 .guang {
+  animation: btn 3s infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/guang.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 95rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 174rpx;
+}
+.pop-box .pop-btn2 .more {
+  animation: rubberBand 1s ease-in-out infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/more-icon.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 46rpx;
+  position: absolute;
+  right: 0;
+  top: -52rpx;
+  width: 262rpx;
+}
+@-webkit-keyframes btn {
+  from {
+    left: -520rpx;
+  }
+  to {
+    left: 520rpx;
+  }
+}
+@keyframes btn {
+  from {
+    left: -520rpx;
+  }
+  to {
+    left: 520rpx;
+  }
+}
+.pop-box .tit {
+  color: #414b65;
+  display: block;
+  font-size: 36rpx;
+  font-weight: 700;
+  text-align: center;
+}
+.pop-box .coupon {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.pop-box .coupon .bg-hc,
+.pop-box .coupon .bg-jd,
+.pop-box .coupon .bg-jp {
+  height: 182rpx;
+  margin: 0 11rpx;
+  position: relative;
+  width: 154rpx;
+}
+.pop-box .coupon .bg-hc view,
+.pop-box .coupon .bg-jd view,
+.pop-box .coupon .bg-jp view {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.pop-box .coupon .bg-hc view text,
+.pop-box .coupon .bg-jd view text,
+.pop-box .coupon .bg-jp view text {
+  position: relative;
+}
+.pop-box .coupon .bg-hc view text:after,
+.pop-box .coupon .bg-jd view text:after,
+.pop-box .coupon .bg-jp view text:after {
+  content: "元";
+  font-size: 18rpx;
+}
+.pop-box .coupon .bg-hc {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/coupon-bg1.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-box .coupon .bg-jp {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/coupon-bg2.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-box .coupon .bg-jd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/coupon-bg3.png)
+    no-repeat;
+  background-size: 100% 100%;
+}
+.pop-box .coupon .t1 {
+  color: #9f5802;
+  font-size: 29rpx;
+  font-weight: 700;
+  top: 26rpx;
+}
+.pop-box .coupon .t2 {
+  color: #9f5802;
+  font-size: 18rpx;
+  opacity: 0.6;
+  top: 70rpx;
+}
+.pop-box .coupon .t3 {
+  color: #ff5f20;
+  font-size: 34rpx;
+  font-weight: 700;
+  top: 120rpx;
+}
+.privilege-coupon {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/privilege-coupon.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 178rpx;
+  margin: -26rpx auto 68rpx;
+  padding: 50rpx 20rpx 26rpx 152rpx;
+  position: relative;
+  width: 700rpx;
+}
+.privilege-coupon .tag {
+  color: #fdeccc;
+  font-size: 22rpx;
+  font-weight: 700;
+  line-height: 36rpx;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 14rpx;
+  width: 164rpx;
+}
+.privilege-coupon .price {
+  color: #fe6536;
+  font-family: DIN Alternate;
+  font-size: 68rpx;
+  font-weight: 700;
+  margin-right: 16rpx;
+}
+.privilege-coupon .price::before {
+  content: "¥";
+  font-size: 40rpx;
+  margin-right: 2rpx;
+}
+.privilege-coupon .cont {
+  color: #fe6536;
+  font-size: 32rpx;
+}
+.am-guang {
+  animation: turn 10s linear infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/am-guang.png)
+    no-repeat;
+  background-size: 100% 100%;
+  height: 750rpx;
+  left: 50%;
+  margin-left: -375rpx;
+  opacity: 0.4;
+  position: absolute;
+  top: 45rpx;
+  width: 750rpx;
+  z-index: -1;
+}
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+  }
+}
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+  }
+}
+.zhezhao-bai {
+  background: #fff;
+  height: 410rpx;
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+}
+.renzheng {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/renzheng.png)
+    no-repeat 0;
+  background-size: 108rpx 27rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  height: 30rpx;
+  left: 64rpx;
+  padding-left: 110rpx;
+  position: absolute;
+  top: 134rpx;
+  z-index: 3;
+}
+.top-bar {
+  color: #fff;
+  height: 88rpx;
+  left: 0;
+  line-height: 88rpx;
+  padding-top: 40rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: background 0.3s ease-in-out;
+  z-index: 100;
+}
+.doc-bangs .top-bar,
+.top-bar.top-bar-iphonex {
+  padding-top: 88rpx;
+}
+.top-bar .ifont-back,
+.top-bar .ifont-share {
+  bottom: 0;
+  height: 88rpx;
+  position: absolute;
+  width: 88rpx;
+}
+.top-bar .ifont-back {
+  font-size: 32rpx;
+  left: 0;
+}
+.top-bar text {
+  display: none;
+  font-size: 32rpx;
+  margin: 0 120rpx;
+}
+.top-bar.fixed {
+  background: #0c76d8;
+}
+.top-bar.fixed text {
+  display: block;
+}
+.rule-btn {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/rule.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0;
+  height: 104rpx;
+  left: 0;
+  position: fixed;
+  top: 210rpx;
+  width: 47rpx;
+  z-index: 10;
+}
+.bullet-bottom {
+  height: 420rpx;
+}
+.pop-rule {
+  background: #fff7dd;
+  border-radius: 26rpx;
+  box-sizing: border-box;
+  left: 50%;
+  padding: 48rpx 54rpx 60rpx;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 590rpx;
+}
+.pop-rule .rule-box {
+  font-size: 26rpx;
+  height: 640rpx;
+  overflow: scroll;
+}
+.pop-rule .tit {
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  text-align: center;
+}
+.pop-rule text {
+  display: block;
+  line-height: 34rpx;
+  margin-top: 30rpx;
+}
+.pop-rule .popCloseBtn {
+  background: url(https://images3.c-ctrip.com/train/hd/20191030-student-ticket/popBg/popCloseBtn.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: -120rpx;
+  height: 67rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 67rpx;
+}
+.mt60 {
+  margin-top: 60rpx;
+}
+.share-image {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+.popIn {
+  animation: am-popIn 1.2s;
+}
+@-webkit-keyframes am-popIn {
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1);
+  }
+  30% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  50% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  70% {
+    opacity: 1;
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  80% {
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  90% {
+    transform: scale3d(0.98, 0.98, 0.98);
+  }
+}
+@keyframes am-popIn {
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1);
+  }
+  30% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  50% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  70% {
+    opacity: 1;
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  80% {
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  90% {
+    transform: scale3d(0.98, 0.98, 0.98);
+  }
+}
+.fuli .tips {
+  color: #414b65;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 32rpx;
+  padding-top: 30rpx;
+  text-align: center;
+}
+.fuli .fuli-box {
+  margin-top: 40rpx;
+  padding-bottom: 42rpx;
+}
+.fuli .fuli-box:after,
+.fuli .fuli-box:before {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.fuli .fuli-box .item {
+  border: 2rpx solid #d8e9ff;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  float: left;
+  height: 226rpx;
+  margin: 16rpx 0 0 17rpx;
+  width: 212rpx;
+}
+.fuli .fuli-box .item:nth-of-type(1),
+.fuli .fuli-box .item:nth-of-type(2),
+.fuli .fuli-box .item:nth-of-type(3) {
+  margin-top: 0;
+}
+.fuli .fuli-box .item:nth-of-type(1),
+.fuli .fuli-box .item:nth-of-type(4) {
+  margin-left: 20rpx;
+}
+.fuli .fuli-box .item image {
+  display: block;
+  height: 106rpx;
+  width: 192rpx;
+}
+.fuli .fuli-box .item view {
+  overflow: hidden;
+  padding: 0 10rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fuli .fuli-box .item view:nth-of-type(1) {
+  color: #414b65;
+  font-size: 26rpx;
+  font-weight: 700;
+  line-height: 30rpx;
+  padding-top: 20rpx;
+}
+.fuli .fuli-box .item view:nth-of-type(2) {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #6e7b9c;
+  display: -webkit-box;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding-top: 8rpx;
+  white-space: normal;
+}
+@-webkit-keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pop-card {
+  left: 50%;
+  position: fixed;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 618rpx;
+}
+.pop-card::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-card-light.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 340rpx;
+  left: 50%;
+  position: absolute;
+  top: -110rpx;
+  transform: translateX(-50%);
+  width: 724rpx;
+}
+.pop-card-small {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-card-s.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 384rpx;
+  position: relative;
+  z-index: 2;
+}
+.pop-card-small .logo {
+  height: 28rpx;
+  left: 100rpx;
+  position: absolute;
+  top: 144rpx;
+  width: 70rpx;
+}
+.pop-card-big {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-card-s.png)
+    no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  box-sizing: border-box;
+  height: 424rpx;
+  position: relative;
+  z-index: 2;
+}
+.pop-card-big .logo {
+  height: 28rpx;
+  left: 100rpx;
+  position: absolute;
+  top: 190rpx;
+  width: 70rpx;
+}
+.pop-card-big .avatar {
+  border-radius: 90rpx;
+  height: 90rpx;
+  top: 44rpx;
+  width: 90rpx;
+}
+.pop-card-big .avatar,
+.pop-card-big .txt {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.pop-card-big .txt {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/dhk.png)
+    no-repeat;
+  background-size: cover;
+  color: #9f5802;
+  font-size: 28rpx;
+  height: 72rpx;
+  line-height: 62rpx;
+  text-align: center;
+  top: -48rpx;
+  width: 320rpx;
+}
+.pop-card-big .name {
+  color: #9f5802;
+  font-size: 20rpx;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  top: 140rpx;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 180rpx;
+}
+.pop-card-bd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-card-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0 0 32rpx 32rpx;
+  box-sizing: border-box;
+  margin: -32rpx auto 0;
+  padding: 54rpx 43rpx 58rpx;
+  position: relative;
+  width: 606rpx;
+}
+.pop-card-bd .btn-submit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20200926-newStudentGift/pop/pop-card-btn.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 104rpx;
+  box-shadow: 0 12rpx 26rpx rgba(61, 139, 237, 0.41);
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 700;
+  height: 104rpx;
+  line-height: 96rpx;
+  margin-top: 32rpx;
+  text-shadow: 2rpx 0 2rpx rgba(176, 31, 17, 0.5);
+  width: 520rpx;
+}
+.pop-card-bd-txt {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 90rpx;
+  justify-content: center;
+  text-align: center;
+}
+.pop-card-bd-txt .tit {
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 50rpx;
+  white-space: pre-wrap;
+}
+.pop-card-bd-txt .torage {
+  color: #fa5;
+  margin: 0 8rpx;
+}
+.pop-card-bd-txt .txt {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.pop-blister {
+  left: 50%;
+  position: fixed;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 618rpx;
+}
+.pop-blister::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-light.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 570rpx;
+  left: 50%;
+  position: absolute;
+  top: -144rpx;
+  transform: translateX(-50%);
+  width: 636rpx;
+}
+.pop-blister-hd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-top.png)
+    no-repeat;
+  background-size: cover;
+  height: 348rpx;
+  position: relative;
+  z-index: 5;
+}
+.pop-blister-hd .tit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100rpx;
+  left: 50%;
+  position: absolute;
+  top: -120rpx;
+  transform: translateX(-50%);
+}
+.pop-blister-hd .tit.suc {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-tit-1.png);
+  width: 546rpx;
+}
+.pop-blister-hd .tit.get {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-tit-2.png);
+  width: 516rpx;
+}
+.pop-blister-hd .tit.done {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-tit-3.png);
+  width: 492rpx;
+}
+.pop-blister-bd {
+  -ms-flex-pack: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-blister-bg.png)
+    no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0 0 32rpx 32rpx;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -26rpx;
+  min-height: 260rpx;
+  padding: 40rpx 36rpx;
+  position: relative;
+  z-index: 2;
+}
+.pop-blister-bd .btn-submit {
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 108rpx;
+  width: 100%;
+}
+.pop-blister-bd .btn-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-blister-bd .btn-box .cont {
+  position: relative;
+  width: 100%;
+}
+.pop-blister-bd .btn-box .lbox {
+  margin-right: 24rpx;
+  width: 248rpx;
+}
+.pop-blister-bd .btn-box .light-box {
+  border-radius: 108rpx;
+  height: 108rpx;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+.pop-blister-bd .btn-box .light-box .light {
+  animation: lighter 1.5s linear infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/btn-light.png)
+    no-repeat;
+  background-size: cover;
+  height: 98rpx;
+  left: 0;
+  position: absolute;
+  top: 4rpx;
+  width: 152rpx;
+  z-index: 2;
+}
+.pop-blister-bd .btn-box .btn-submit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/btn-pop.png)
+    no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.pop-blister-bd .btn-box .btn-submit .desc {
+  color: #ffecab;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.pop-blister-bd .btn-box .btn-submit .text {
+  line-height: 58rpx;
+}
+@-webkit-keyframes lighter {
+  0% {
+    transform: translateX(-3.8rem);
+  }
+  100% {
+    transform: translateX(600%);
+  }
+}
+@keyframes lighter {
+  0% {
+    transform: translateX(-3.8rem);
+  }
+  100% {
+    transform: translateX(600%);
+  }
+}
+.page3 .approve-name {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2c85ff),
+    to(#99c5ff)
+  );
+  background: -webkit-linear-gradient(left, #2c85ff, #99c5ff);
+  background: -o-linear-gradient(left, #2c85ff, #99c5ff);
+  background: linear-gradient(90deg, #2c85ff, #99c5ff);
+  border-radius: 56rpx;
+  color: #fff;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  flex-flow: row wrap;
+  font-size: 26rpx;
+  height: 56rpx;
+  left: 34rpx;
+  line-height: 40rpx;
+  margin: 32rpx 0 0 20rpx;
+  padding: 0 16rpx 0 8rpx;
+  position: absolute;
+  top: 84rpx;
+  z-index: 100;
+}
+.page3 .approve-name .icon-approve {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/icon-approve.png)
+    no-repeat;
+  background-size: cover;
+  height: 40rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+}
+.page3 .approve-name .name {
+  font-size: 26rpx;
+  font-weight: 700;
+  margin-left: 6rpx;
+  max-width: 160rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page3 .pop-verif.pop-botm {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-result-verif-botm.png)
+    no-repeat 0 100%#2e62f6 !important;
+  background-size: 276rpx 240rpx !important;
+  bottom: 0;
+  left: 0;
+  padding: 74rpx 80rpx 60rpx;
+  position: absolute;
+  text-align: center;
+  width: calc(100% - 160rpx);
+}
+.page3 .pop-verif.pop-botm .btn-box-verify {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48rpx;
+}
+.page3 .pop-verif.pop-botm .btn-box-verify .cont {
+  position: relative;
+  width: 100%;
+}
+.page3 .pop-verif.pop-botm .btn-box-verify .btn-submit-verify {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/btn-botm.png);
+  background-repeat: no-repeat;
+  background-size: 100% 108rpx;
+  border-radius: 108rpx;
+  box-shadow: 0 6rpx 16rpx rgba(0, 30, 185, 0.41);
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: 700;
+  height: 108rpx;
+  line-height: 40rpx;
+  padding-bottom: 8rpx;
+  text-shadow: 0 2rpx 0 rgba(176, 31, 17, 0.35);
+  width: 100%;
+}
+.page3 .pop-verif.pop-botm .btn-box-verify .btn-submit-verify .desc {
+  color: #ffecab;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.page3 .pop-verif.pop-botm .btn-box-verify .btn-submit-verify .btn-tit {
+  padding-top: 14rpx;
+}
+.page3 .pop-verif.pop-botm::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-result-verif-top.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 522rpx;
+  position: absolute;
+  right: 0;
+  top: -152rpx;
+  width: 554rpx;
+}
+.page3 .pop-verif.pop-botm .icon-closed {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201125-ztrip-spring-festival-cal/icon-closed.png)
+    no-repeat;
+  background-size: cover;
+  height: 50rpx;
+  left: 20rpx !important;
+  position: absolute;
+  top: -70rpx !important;
+  width: 50rpx;
+}
+.page3 .pop-verif.pop-botm .icon-closed::after {
+  background: hsla(0, 0%, 100%, 0.3);
+  bottom: -20rpx;
+  content: "";
+  height: 20rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 4rpx;
+}
+.page3 .pop-verif.pop-botm .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20201022-ztrip-student-cash-back/pop-result-verif-tit.png)
+    no-repeat;
+  background-size: cover;
+  height: 34rpx;
+  margin: 0 auto;
+  position: relative;
+  width: 386rpx;
+  z-index: 2;
+}
+.page3 .pop-verif.pop-botm .txt {
+  color: #fff;
+  margin-top: 28rpx;
+  position: relative;
+  z-index: 2;
+}
+.page3 .pop-verif.pop-botm .btn-box {
+  margin-top: 32rpx;
+}
+.page3 .pop-verif.pop-botm .info {
+  color: #fff;
+  font-size: 22rpx;
+  margin-top: 24rpx;
+  opacity: 0.5;
+}

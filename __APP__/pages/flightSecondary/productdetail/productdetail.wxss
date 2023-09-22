@@ -1,0 +1,127 @@
+page {
+  background: #fff;
+}
+.detail {
+  background: #e9f3ff;
+  color: #5998e7;
+  padding: 30rpx;
+}
+.detail .title {
+  font-size: 34rpx;
+  position: relative;
+  text-align: center;
+}
+.detail .title::before {
+  left: 0;
+}
+.detail .title::after,
+.detail .title::before {
+  background: #c6ddf8;
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 24rpx;
+  width: 32vw;
+}
+.detail .title::after {
+  right: 0;
+}
+.detail .content {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.table {
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+}
+.table .title {
+  color: #333;
+  font-size: 34rpx;
+  margin-bottom: 15rpx;
+}
+.table .tr {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  justify-content: space-between;
+  width: 100%;
+}
+.table .tr:nth-child(2) {
+  border-top: 2rpx solid #e6e6e6;
+}
+.table .td {
+  border-bottom: 2rpx solid #e6e6e6;
+  border-right: 2rpx solid #e6e6e6;
+  padding: 20rpx;
+  text-align: center;
+  width: 100%;
+}
+.table .td.left {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 2rpx solid #e6e6e6;
+  justify-content: center;
+  width: 30%;
+}
+.table .td.left,
+.table .td.right .col {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.table .td.right .col {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.table .td.right .col .content {
+  text-align: left;
+}
+.tail {
+  padding: 30rpx;
+}
+.tail .content {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 6rpx;
+  word-break: break-all;
+}
+.tail .content:nth-child(2) {
+  margin-bottom: 20rpx;
+}
+.rich-text {
+  padding: 30rpx;
+}
+.rich-text.coupon {
+  color: #999;
+  font-size: 26rpx;
+  padding: 30rpx;
+}
+.round-trip {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.insurance-title {
+  background: #0c9ddc;
+  color: #fff;
+  height: 70rpx;
+  line-height: 70rpx;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.insurance-tip {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 70rpx;
+}
+.license {
+  color: #5998e7;
+  font-size: 24rpx;
+  padding: 0 30rpx 30rpx;
+}

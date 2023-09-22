@@ -1,0 +1,912 @@
+@charset "UTF-8";
+@import "/pages/flightIntl/sub-vendors.wxss";
+._Ki {
+  margin: 20rpx;
+}
+._Li {
+  height: 126rpx;
+}
+._Ei {
+  padding: 24rpx 32rpx;
+}
+._Pa {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+._Mi {
+  margin-bottom: 6rpx;
+}
+._Kc {
+  color: #999;
+}
+._Bd {
+  color: #ccc;
+}
+._Ni {
+  margin: 30rpx;
+}
+._Oi {
+  padding: -30rpx;
+}
+._Hi {
+  background: #ff5959;
+}
+._ig {
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+._Ii {
+  padding: 16rpx 20rpx;
+}
+._Ji {
+  min-width: 120rpx;
+}
+._Fi {
+  margin: 16rpx;
+}
+._Gi {
+  margin-bottom: 8rpx;
+}
+._bf {
+  color: #ff5959;
+}
+._Pi {
+  width: 600rpx;
+}
+._Qi {
+  border-radius: 40rpx;
+}
+._Ri {
+  border-radius: 36rpx;
+}
+._Si {
+  margin-top: 36rpx;
+}
+._Ti {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+}
+._Ui {
+  width: 88%;
+}
+._Vi {
+  margin-bottom: 40rpx;
+  margin-top: 36rpx;
+}
+.order-box {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.mt48 {
+  margin-top: 48rpx;
+}
+::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.order-status {
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 30rpx 320rpx;
+  position: relative;
+}
+.order-status.zx {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.order-status.ty {
+  background: #3c4365;
+}
+.order-status::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/arc-mask.png)
+    no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  width: 750rpx;
+  z-index: 2;
+}
+.order-status .cont {
+  flex: 1;
+}
+.order-status .iconfont {
+  font-size: 64rpx;
+  margin: 20rpx 24rpx 0 0;
+}
+.order-status .tit {
+  font-size: 46rpx;
+  font-weight: 600;
+  line-height: 64rpx;
+}
+.order-status .txt {
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 4rpx;
+}
+.order-status .price {
+  font-size: 46rpx;
+  font-weight: 600;
+}
+.order-status .price::before {
+  content: "￥";
+  font-size: 32rpx;
+}
+.order-status .info {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.order-status .ifont-arr {
+  font-size: 20rpx;
+  font-weight: 400;
+  margin: -4rpx 0 0 6rpx;
+}
+.order-bd {
+  margin-top: -300rpx;
+  padding-bottom: 48rpx;
+  position: relative;
+  z-index: 5;
+}
+.order-download {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  margin: 0 20rpx 30rpx;
+  padding: 18rpx 24rpx;
+}
+.order-download.zx {
+  background: rgba(8, 19, 70, 0.1);
+}
+.order-download.ty {
+  background: rgba(14, 21, 55, 0.2);
+}
+.order-download .icon-bell {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/icon-order.png)
+    no-repeat;
+  background-size: 120rpx 40rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+  width: 36rpx;
+}
+.order-download.zx .icon-bell {
+  background-position: 0 0;
+}
+.order-download.ty .icon-bell {
+  background-position: -40rpx 0;
+}
+.order-download .cont {
+  flex: 1;
+}
+.order-download .strong {
+  font-weight: 600;
+}
+.order-download .ifont-arr {
+  font-size: 16rpx;
+  margin-left: 8rpx;
+}
+.order-wbox {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding: 0 40rpx;
+}
+.order-modify {
+  padding: 30rpx 0 50rpx;
+  position: relative;
+}
+.order-modify::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/order-modify.png)
+    no-repeat;
+  background-size: 100% 20rpx;
+  bottom: 0;
+  content: "";
+  height: 20rpx;
+  left: -40rpx;
+  position: absolute;
+  right: -40rpx;
+  z-index: 4;
+}
+.order-modify-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-bottom: 24rpx;
+}
+.order-modify-hd .tag {
+  border-radius: 38rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin: -4rpx 16rpx 0 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 38rpx;
+}
+.fromto,
+.order-modify-bd {
+  position: relative;
+}
+.order-modify-bd .info {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 28rpx;
+}
+.order-modify-bd .flight-num {
+  color: #999;
+  font-size: 24rpx;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 12rpx;
+}
+.order-modify-bd .zhongzhuan {
+  color: #999;
+  font-size: 26rpx;
+  margin: 16rpx 0;
+  padding-left: 170rpx;
+  position: relative;
+}
+.order-modify-bd .zhongzhuan::before {
+  background: #fff;
+  border: 6rpx solid #ddd;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 20rpx;
+  left: 126rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20rpx;
+  z-index: 4;
+}
+.order-modify-bd .zhongzhuan .tip {
+  float: right;
+  font-size: 22rpx;
+}
+.order-modify .dashed {
+  border-top: 2rpx dashed #eee;
+  height: 1rpx;
+  margin: 25rpx 0;
+}
+.fromto .from {
+  padding-bottom: 11rpx;
+}
+.fromto .from,
+.fromto .to {
+  line-height: 56rpx;
+  position: relative;
+}
+.fromto .to {
+  padding-top: 11rpx;
+}
+.fromto .mid {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  padding: 5rpx 0 5rpx 170rpx;
+  position: relative;
+}
+.fromto .time {
+  display: inline-block;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 60rpx;
+  width: 110rpx;
+}
+.fromto .station {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.fromto .station.middle {
+  font-size: 30rpx;
+}
+.fromto .station.small {
+  font-size: 24rpx;
+}
+.fromto .em {
+  color: #666;
+  font-size: 20rpx;
+  left: 0;
+  line-height: 22rpx;
+  position: absolute;
+  top: -2rpx;
+}
+.fromto .from .em {
+  top: -22rpx;
+}
+.fromto .from::after,
+.fromto .mid::after,
+.fromto .to::after {
+  background: #ddd;
+  content: "";
+  left: 136rpx;
+  position: absolute;
+  width: 6rpx;
+}
+.fromto .from::after {
+  border-radius: 5rpx 5rpx 0 0;
+  bottom: 0;
+  top: 28rpx;
+}
+.fromto .mid::after {
+  bottom: 0;
+  top: 0;
+}
+.fromto .to::after {
+  border-radius: 0 0 5rpx 5rpx;
+  bottom: 28rpx;
+  top: 0;
+}
+.fromto .mid::before {
+  background: #fff;
+  border: 6rpx solid #ddd;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 20rpx;
+  left: 127rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20rpx;
+  z-index: 4;
+}
+.order-modify-hd .round-mark {
+  border-radius: 20rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 22rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 10rpx;
+  text-align: center;
+  width: 40rpx;
+}
+.order-pasg {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12rpx 0 30rpx;
+}
+.order-email .label,
+.order-pasg .label,
+.order-phone .label {
+  font-size: 30rpx;
+  line-height: 42rpx;
+  width: 150rpx;
+}
+.order-email .cont,
+.order-pasg .cont,
+.order-phone .cont {
+  flex: 1;
+}
+.order-pasg .name {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  margin-top: -10rpx;
+}
+.order-pasg .name .txt {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 24rpx;
+  margin-top: 10rpx;
+  max-width: 380rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.order-pasg .card,
+.order-pasg .name .type {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-top: 10rpx;
+}
+.order-pasg .rbox {
+  color: #999;
+  font-size: 28rpx;
+}
+.order-pasg .rbox .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+  transform: rotate(90deg);
+}
+.order-pasg .rbox.open .ifont-arr {
+  transform: rotate(-90deg);
+}
+.order-pasg .pasg-detail {
+  margin-bottom: 24rpx;
+}
+.order-pasg .pasg-detail:last-child {
+  margin-bottom: 0;
+}
+.order-phone {
+  padding: 32rpx 0 0;
+}
+.order-email,
+.order-phone {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 42rpx;
+}
+.order-email {
+  padding: 32rpx 0 40rpx;
+}
+.order-send {
+  color: #0080ff;
+  font-size: 26rpx;
+  margin-top: -30rpx;
+  padding: 0 0 40rpx 150rpx;
+}
+.order-send.ty {
+  color: #fc6e51;
+}
+.order-send .ifont-send-arrow {
+  font-size: 26rpx;
+}
+.order-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 110rpx;
+}
+.order-info .strong {
+  font-size: 36rpx;
+  font-weight: 600;
+  width: 250rpx;
+}
+.order-info .cont {
+  color: #999;
+  flex: 1;
+  font-size: 28rpx;
+  text-align: right;
+}
+.order-info .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.order-insr {
+  line-height: 110rpx;
+  padding-left: 190rpx;
+  position: relative;
+}
+.order-insr .strong {
+  font-size: 36rpx;
+  font-weight: 600;
+  left: 40rpx;
+  position: absolute;
+  top: 0;
+  width: 150rpx;
+}
+.order-insr .item {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.order-insr .item:last-child {
+  border-bottom: 0;
+}
+.order-insr .item .cont {
+  flex: 1;
+  font-size: 30rpx;
+  text-align: left;
+}
+.order-insr .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.pay-box {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0-1rpx 8rpx rgba(0, 0, 0, 0.05);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  padding: 0 20rpx;
+  position: relative;
+  z-index: 960;
+}
+.pay-box.iphone-x {
+  padding-bottom: 60rpx;
+}
+.pay-box .lbox {
+  flex: 1;
+}
+.pay-price {
+  font-size: 48rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.pay-price::before {
+  content: "￥";
+  font-size: 28rpx;
+}
+.pay-box .coupon {
+  font-size: 24rpx;
+  margin-top: -10rpx;
+}
+.pay-detail {
+  color: #999;
+  font-size: 28rpx;
+  margin-right: 30rpx;
+}
+.pay-detail .ifont-arr {
+  color: #ccc;
+  font-size: 18rpx;
+  margin: -4rpx 0 0 10rpx;
+  transform: rotate(-90deg);
+  transition: all 0.25s ease-in-out;
+}
+.pay-detail.open .ifont-arr {
+  transform: rotate(90deg);
+}
+.pay-box .btn-pay {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 50rpx;
+  padding: 6rpx 0;
+  width: 320rpx;
+}
+.pay-box .btn-pay text {
+  display: block;
+  font-size: 22rpx;
+  line-height: 24rpx;
+}
+.btn-box {
+  background: #fff;
+  box-shadow: 0-1rpx 4rpx rgba(0, 0, 0, 0.05);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx;
+}
+.btn-box .h5-button {
+  flex: 1;
+  margin-right: 20rpx;
+}
+.btn-box .h5-button:last-child {
+  margin-right: 0;
+}
+.btn-box .btn-primary {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.order-cancel {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 110rpx;
+}
+.order-cancel.disabled {
+  opacity: 0.5;
+}
+.order-cancel:not(:last-child) {
+  margin-right: 0;
+}
+.cancel {
+  background: #fff;
+  color: #999;
+  font-size: 34rpx;
+}
+.pay-derail {
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 128rpx;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 950;
+}
+.pay-derail.iphone-x {
+  bottom: 188rpx;
+}
+.pay-derail-bd {
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+  border-radius: 20rpx 20rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 40rpx;
+  position: fixed;
+  right: 0;
+  top: auto;
+  transform: translate3d(0, 100%, 0);
+  transition: all 0.25s ease-in-out;
+}
+.pay-derail-bd.active {
+  transform: translate3d(0, -128rpx, 0);
+}
+.pay-derail.iphone-x .pay-derail-bd.active {
+  transform: translate3d(0, -188rpx, 0);
+}
+.pay-derail-bd .item {
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  padding: 25rpx 0;
+}
+.pay-derail-bd .item:last-child {
+  border-bottom: 0;
+}
+.pay-derail-bd .item .lst {
+  margin-bottom: 20rpx;
+}
+.pay-derail-bd .item .lst:last-child {
+  margin-bottom: 0;
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translate3d(0, 100%, 0);
+  transition: opacity 0.25s ease-in-out;
+  z-index: 960;
+}
+.pop-mask.active {
+  opacity: 1;
+  transform: translateZ(0);
+}
+.pop-botm-hd .tit {
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.pop-botm-hd .btn-cancel,
+.pop-botm-hd .btn-submit {
+  font-size: 32rpx;
+  width: 144rpx;
+}
+.pop-botm-hd .btn-cancel {
+  color: #666;
+}
+.pop-botm-hd .btn-submit {
+  font-weight: 600;
+}
+.pop-botm-bd {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}
+.pop-note .pop-botm-bd {
+  border-top: 1rpx solid #eee;
+}
+.pop-order .pop-botm-bd {
+  padding: 32rpx 40rpx 40rpx;
+}
+.pop-order .txt {
+  color: #666;
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+.pop-order .order-num {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  margin: 10rpx 0 40rpx;
+}
+.pop-order .order-num:last-child {
+  margin-bottom: 0;
+}
+.activity {
+  overflow: hidden;
+  padding: 0;
+}
+.swiper-box {
+  background: rgba(96, 0, 0, 0.4);
+  border-radius: 19rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 38rpx;
+  line-height: 38rpx;
+  overflow: hidden;
+  padding-left: 20rpx;
+  position: relative;
+  width: 370rpx;
+}
+.swiper-box .rule {
+  color: #ff0f50;
+  font-size: 22rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  position: absolute;
+  right: 23rpx;
+  text-align: right;
+  top: 0;
+  width: 100rpx;
+}
+.close {
+  background: url(http://pic.c-ctrip.com/train/railway_v2/zhuli/close.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: -160rpx;
+  height: 40rpx;
+  left: 50%;
+  margin-left: -20rpx;
+  position: absolute;
+  width: 40rpx;
+}
+.pop-canres {
+  padding-top: 30rpx;
+}
+.pop-canres .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin: 0 40rpx;
+}
+.pop-canres .ifont-closed {
+  color: #ccc;
+  float: right;
+  font-size: 20rpx;
+  font-weight: 400;
+}
+.pop-canres .btn-box {
+  box-shadow: none;
+}
+.pop-canres-bd {
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  flex-flow: row wrap;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin: 40rpx 40rpx 0;
+}
+.pop-canres-bd,
+.pop-canres-bd .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-canres-bd .item {
+  margin-bottom: 40rpx;
+  width: 300rpx;
+}
+.pop-canres-bd .item:nth-child(even) {
+  margin-left: 70rpx;
+}
+.pop-canres-bd .item .iconfont {
+  font-size: 34rpx;
+  margin-right: 16rpx;
+}
+.pop-canres-bd .item .ifont-radio {
+  color: #ccc;
+}
+.pop-canres-bd .canres-tar {
+  border: 2rpx solid #e6e6e6;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  height: 150rpx;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  width: 100%;
+}
+.pop-canres-bd .canres-tar-pld {
+  color: #ccc;
+  font-size: 28rpx;
+}
+.pop-botm {
+  background: #fff;
+  border-radius: 20rpx 20rpx 0 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: auto;
+  transform: translate3d(0, 100%, 0);
+  transition: all 0.25s ease-in-out;
+  z-index: 1000;
+}
+.pop-botm.active {
+  transform: translateZ(0);
+}
+.pop-botm-hd {
+  font-size: 34rpx;
+  height: 112rpx;
+  line-height: 112rpx;
+  text-align: center;
+}
+.flight-note,
+.pop-botm-hd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flight-note {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fef8e9;
+  border-radius: 8rpx;
+  color: #f50;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  padding: 14rpx 24rpx;
+}
+.flight-note .txt {
+  color: #666;
+  font-size: 24rpx;
+}
+.flight-note .ifont-arr {
+  font-size: 22rpx;
+}
+.pop-note .pop-botm-bd {
+  max-height: 1000rpx;
+}
+.pop-note .item {
+  margin-bottom: 40rpx;
+  padding: 0 60rpx;
+}
+.pop-note .item:first-child {
+  margin-top: 30rpx;
+}
+.pop-note .item .tit {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 500;
+  position: relative;
+}
+.pop-note .item .tit::before {
+  background: #fc6e51;
+  border-radius: 20rpx;
+  content: "";
+  height: 10rpx;
+  left: -20rpx;
+  position: absolute;
+  top: 16rpx;
+  width: 10rpx;
+}
+.pop-note .item .content {
+  word-wrap: break-word;
+  color: #666;
+  font-size: 26rpx;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+.-M::before {
+  content: "¥";
+  display: inline-block;
+}

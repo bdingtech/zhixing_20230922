@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#0066E6",
+  "backgroundColorBottom": "#efefef",
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

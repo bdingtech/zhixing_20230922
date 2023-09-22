@@ -1,0 +1,87 @@
+@import "/pages/train/sub-vendors.wxss";
+.gaiqian-box {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+.gaiqian-list {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding: 0 40rpx;
+}
+.gaiqian-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 100rpx;
+}
+.gaiqian-list .item:last-child {
+  border-bottom: 0;
+}
+.gaiqian-list .cont {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.gaiqian-list .label {
+  color: #999;
+  font-size: 30rpx;
+  width: 180rpx;
+}
+.gaiqian-list .disable-gaiqian {
+  color: #ccc;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+.gaiqian-list .cont.disabled {
+  color: #ccc;
+  font-weight: 400;
+}
+.gaiqian-list .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+}
+.gaiqian-list .tag-type {
+  background: transparent;
+  border: 1rpx solid #c5c9d4;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+  color: #999;
+  display: inline-block;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 30rpx;
+  margin: -4rpx 12rpx 0;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.gaiqian-list .ifont-checkbox,
+.gaiqian-list .ifont-checkboxed {
+  font-size: 38rpx;
+}
+.gaiqian-list .ifont-checkbox {
+  color: #ccc;
+}
+.gaiqian-botm {
+  background: #fff;
+  box-shadow: 0-4rpx 20rpx rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  height: 128rpx;
+  padding: 20rpx;
+  position: relative;
+  z-index: 990;
+}
+.gaiqian-botm .btn-primary {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}

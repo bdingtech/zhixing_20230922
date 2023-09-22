@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "智行内部福利",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFF",
+  "backgroundColorTop": "#FFF",
+  "backgroundColorBottom": "#FFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "comp": "../../../../comp",
+    "custom-wrapper": "../../../../custom-wrapper",
+    "chatGroupPlugin": "plugin://wx4d2deeab3aed6e5a/cell"
+  }
+}

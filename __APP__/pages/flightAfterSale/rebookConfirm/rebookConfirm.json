@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "改签确认",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#f5f5f5",
+  "backgroundColorBottom": "#f5f5f5",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

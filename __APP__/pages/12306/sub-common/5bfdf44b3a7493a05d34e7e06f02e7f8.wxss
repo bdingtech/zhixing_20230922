@@ -1,0 +1,4 @@
+.moblieCode-seletor .expand-icon {
+  font-size: 14rpx;
+  margin-left: 4rpx;
+}

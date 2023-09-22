@@ -1,0 +1,399 @@
+@charset "UTF-8";
+.price {
+  color: #fe4839;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.price::before {
+  content: "¥";
+  font-size: 22rpx;
+  margin-right: 4rpx;
+}
+.price.noIcon::before {
+  content: "";
+  font-size: 22rpx;
+  margin-right: 4rpx;
+}
+.price .em {
+  content: "起";
+}
+.price .em,
+.price.noIcon .em {
+  color: #666;
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: 5rpx;
+}
+.price.noIcon .em {
+  content: "";
+}
+.cont {
+  flex: 1;
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 990;
+}
+.pop-mask.active {
+  display: block;
+}
+.pop-mid {
+  background: #fff;
+  border-radius: 20rpx;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  z-index: 1000;
+}
+.pop-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-btn .h5-button {
+  border-radius: 176rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 20rpx;
+}
+.pop-btn .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-btn .btn-submit {
+  font-weight: 600;
+}
+.pop-btn .btn-cancel {
+  background: #eee;
+  color: #666;
+  font-size: 32rpx;
+}
+.modal-box {
+  box-sizing: border-box;
+  padding-top: 50rpx;
+}
+.modal-box .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.modal-box .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin: 40rpx 50rpx 0;
+}
+.modal-box .ifont-closed {
+  color: #666;
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  position: absolute;
+  right: 20rpx;
+  text-align: center;
+  top: 20rpx;
+  width: 60rpx;
+}
+.modal-box .pop-btn {
+  margin-top: 60rpx;
+  padding: 0 30rpx 40rpx;
+}
+.pop-botm {
+  background: #fff;
+  border-radius: 20rpx 20rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  right: 0;
+  top: auto;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.pop-mask.active .pop-botm {
+  transform: translateZ(0);
+}
+.pop-botm-hd {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+}
+.pop-botm-hd .btn-cancel,
+.pop-botm-hd .btn-submit {
+  background: transparent;
+  border-radius: 20rpx 20rpx 0 0;
+  font-size: 32rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+  width: 150rpx;
+}
+.pop-botm-hd .btn-submit {
+  font-weight: 600;
+}
+.pop-botm-hd .btn-cancel {
+  color: #666;
+}
+.pop-botm-hd .tit {
+  flex: 1;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.pop-botm-hd .ifont-closed {
+  color: #666;
+  font-size: 30rpx;
+  height: 110rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 110rpx;
+}
+.pop-botm-hd .ifont-closed.l {
+  left: 0;
+}
+.pop-botm-hd .ifont-closed.r {
+  right: 0;
+}
+.pop-botm .pop-btn {
+  padding: 20rpx 30rpx;
+}
+.pop-botm .book-botm {
+  padding-bottom: 0 !important;
+}
+.pop-scroll {
+  max-height: 820rpx;
+}
+.book-botm,
+.fixed-botm {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-top: 2rpx solid #f2f2f2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  padding: 0 30rpx env(safe-area-inset-bottom);
+  position: relative;
+  z-index: 100;
+}
+.book-botm .price {
+  font-size: 48rpx;
+}
+.book-botm .price::before {
+  font-size: 28rpx;
+}
+.book-botm .book-detail {
+  color: #999;
+  font-size: 28rpx;
+  height: 128rpx;
+  line-height: 128rpx;
+  padding: 0 32rpx 0 30rpx;
+}
+.book-botm .book-detail .iconfont {
+  font-size: 22rpx;
+  margin: -4rpx 0 0 10rpx;
+}
+.book-botm .btn-book {
+  font-weight: 600;
+  width: 280rpx;
+}
+.book-botm .btn-book,
+.fixed-botm .h5-button {
+  border-radius: 88rpx;
+  font-size: 36rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.fixed-botm .btn-cancel {
+  flex: 0.5;
+  margin-right: 30rpx;
+}
+.fixed-botm .btn-submit {
+  flex: 1;
+  font-weight: 600;
+}
+.book-price-detail,
+.pop-detail {
+  bottom: 128rpx;
+  bottom: calc(env(safe-area-inset-bottom) + 128rpx);
+}
+.pop-detail {
+  padding: 30rpx 30rpx 10rpx;
+}
+.pop-detail .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.pop-detail .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  height: 96rpx;
+}
+.pop-detail .item:last-child {
+  border-bottom: 0;
+}
+.book-tips-grey {
+  background: #f5f5f5;
+  color: #999;
+}
+.book-tips-grey,
+.book-tips-yellow {
+  border-radius: 4rpx;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  padding: 12rpx 16rpx;
+}
+.book-tips-yellow {
+  background: #fef8e9;
+  color: #f76e21;
+}
+.blank-botm {
+  height: 60rpx;
+}
+.ticket-red {
+  color: #fe4839;
+}
+.ticket-btn-red {
+  background-color: #fe4839;
+  color: #fff;
+}
+.refund-view,
+page {
+  background: #fff;
+}
+.refund-view {
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 60rpx;
+}
+.refund-tips {
+  background: #fef8e9;
+  color: #f76e21;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  padding: 16rpx 30rpx;
+}
+.refund-list .item {
+  border-bottom: 1rpx solid #eee;
+  margin: 0 30rpx;
+  padding: 30rpx 0;
+}
+.refund-list .tit,
+.refund-list .txt {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.refund-list .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-bottom: 8rpx;
+}
+.refund-list .txt {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 12rpx;
+}
+.refund-list .rbox {
+  text-align: right;
+  width: 160rpx;
+}
+.refund-list .ifont-detail {
+  font-size: 24rpx;
+  margin: -4rpx 0 0 12rpx;
+}
+.refund-list .total {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  margin: 30rpx;
+}
+.refund-list .total .price {
+  font-size: 40rpx;
+}
+.refund-list .total .price::before {
+  font-size: 24rpx;
+}
+.pop-refund .pop-botm-bd {
+  padding: 40rpx 30rpx 50rpx;
+}
+.refund-table {
+  border: 2rpx solid #eee;
+  border-radius: 8rpx;
+  display: table;
+  overflow: hidden;
+  width: 100%;
+}
+.refund-table .tr {
+  border-bottom: 2rpx solid #eee;
+  width: 100%;
+}
+.refund-table .tr:first-child {
+  background: #f5f5f5;
+}
+.refund-table .tr:last-child {
+  border-bottom: 0;
+}
+.refund-table .td,
+.refund-table .th {
+  box-sizing: border-box;
+  display: table-cell;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  padding: 24rpx 40rpx;
+  vertical-align: middle;
+}
+.refund-table .td:first-child,
+.refund-table .th:first-child {
+  border-right: 2rpx solid #eee;
+  width: 480rpx;
+}
+.refund-table .th:last-child {
+  text-align: center;
+}
+.refund-rule {
+  margin-top: 30rpx;
+}
+.refund-rule .item {
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-bottom: 8rpx;
+  padding-left: 18rpx;
+  position: relative;
+}
+.refund-rule .item::before {
+  background: #999;
+  border-radius: 12rpx;
+  content: "";
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 15rpx;
+  width: 6rpx;
+}

@@ -1,0 +1,67 @@
+@import "/libs/style/iconfont.wxss";
+.route-select {
+  display: -webkit-flex;
+  display: flex;
+  padding: 10px 0 1px;
+  background-color: #fff;
+}
+.route-input-area {
+  margin-left: 16px;
+  flex: 1;
+}
+.route-end,
+.route-start {
+  display: -webkit-flex;
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 7px;
+  background: #f2f3f5;
+}
+.route-input {
+  width: 560rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.route-start {
+  margin-bottom: 8px;
+}
+.route-img {
+  margin: 8px 6px 8px 7px;
+  width: 14px;
+  height: 14px;
+}
+.route-exchange {
+  margin: 15px 0;
+  width: 100rpx;
+  text-align: center;
+}
+.route-exchange-image {
+  margin: 0 auto;
+  width: 38px;
+  height: 38px;
+}
+.type-select-area {
+  display: -webkit-flex;
+  display: flex;
+  height: 32px;
+}
+.type-select {
+  flex: 1;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+.type-img {
+  vertical-align: -2px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.active-text {
+  color: #427cff;
+}

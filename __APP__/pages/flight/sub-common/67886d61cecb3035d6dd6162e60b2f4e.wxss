@@ -1,0 +1,41 @@
+.common-flight-coupon-fixed {
+  bottom: 400rpx;
+  height: 136rpx;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 136rpx;
+  z-index: 33;
+}
+.common-flight-coupon-fixed .coupon-fixed {
+  background: url(https://images3.c-ctrip.com/zt/flight/flight-coupon-fixed-bg.png);
+  background-size: 100% 100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.common-flight-coupon-fixed .coupon-price {
+  color: #e61402;
+  position: absolute;
+  text-align: center;
+  top: 20rpx;
+  width: 100%;
+}
+.common-flight-coupon-fixed .count-down {
+  color: #fffdbe;
+  font-size: 18rpx;
+  left: 50%;
+  position: absolute;
+  top: 56rpx;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+}
+.common-flight-coupon-fixed .close-btn {
+  height: 32rpx;
+  position: absolute;
+  right: 5rpx;
+  top: -10rpx;
+  width: 32rpx;
+  z-index: 1000;
+}

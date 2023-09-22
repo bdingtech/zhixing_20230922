@@ -1,0 +1,281 @@
+@import "/pages/trainDetail/sub-vendors.wxss";
+@import "/pages/trainDetail/sub-common/2e358fff59cb4ed3f035df53adc96079.wxss";
+.setskill-train-selector {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin-bottom: 20rpx;
+  padding: 28rpx 32rpx 16rpx;
+}
+.setskill-train-selector .tit {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.setskill-train-selector .right-btn {
+  color: #198cff;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.setskill-train-selector .right-btn .icon {
+  font-size: 20rpx;
+}
+.setskill-train-selector .content {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  overflow: hidden;
+  padding: 0 32rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.setskill-train-selector .content.active {
+  color: #222;
+}
+.setskill-train-selector .train-list {
+  padding-top: 32rpx;
+}
+.setskill-train-selector .train-list .train-li {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(100%, #fafcff),
+    color-stop(0, #f4f8ff)
+  );
+  background: -webkit-linear-gradient(right, #fafcff 100%, #f4f8ff 0);
+  background: -o-linear-gradient(right, #fafcff 100%, #f4f8ff 0);
+  background: linear-gradient(-90deg, #fafcff 100%, #f4f8ff 0);
+  border-radius: 20rpx;
+  margin-bottom: 16rpx;
+  padding: 24rpx 16rpx;
+}
+.setskill-train-selector .train-list .train-li:last-child {
+  margin-bottom: 0;
+}
+.setskill-train-selector .train-list .left-content {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.setskill-train-selector .train-list .station .time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.setskill-train-selector .train-list .station .name {
+  color: #222;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.setskill-train-selector .train-list .travel-line {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.setskill-train-selector .train-list .travel-line .img-line {
+  height: 5.2rpx;
+  width: 112rpx;
+}
+.setskill-train-selector .train-list .right {
+  margin-left: 150rpx;
+}
+.trn-secSkill-fee-detail {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx 32rpx;
+}
+.trn-secSkill-fee-detail .tit {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.trn-secSkill-fee-detail .fee-li {
+  border-bottom: 1rpx solid #ededed;
+  padding-bottom: 20rpx;
+  padding-top: 26rpx;
+}
+.trn-secSkill-fee-detail .fee-li:last-child {
+  border-bottom: 0;
+  padding-bottom: 14rpx;
+  padding-top: 36rpx;
+}
+.trn-secSkill-fee-detail .fee-li .name {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.trn-secSkill-fee-detail .fee-li .desc {
+  color: #000;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.train-sec-skill {
+  font-family: PingFangSC-Regular;
+  padding: 0 16rpx;
+}
+.train-sec-skill .sec-kill-count-down {
+  color: #198cff;
+  display: inline-block;
+  vertical-align: middle;
+}
+.train-sec-skill .status-bar {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16rpx 36rpx 22rpx;
+}
+.train-sec-skill .status-bar .icon {
+  height: 52rpx;
+  margin-right: 8rpx;
+  width: 52rpx;
+}
+.train-sec-skill .status-bar .left {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  font-weight: 600;
+  line-height: 56rpx;
+}
+.train-sec-skill .status-bar .left .desc {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+}
+.train-sec-skill .status-bar .right {
+  color: #0b1323;
+  font-size: 32rpx;
+  font-weight: 400;
+}
+.train-sec-skill .status-bar .right .zt-countdown-container {
+  color: #0080ff;
+}
+.train-sec-skill .ticket-view {
+  background: #fff;
+  border-radius: 24rpx;
+  margin-bottom: 18rpx;
+  padding-bottom: 4rpx;
+  padding-top: 24rpx;
+}
+.train-sec-skill .ticket-view .v-t {
+  color: #222;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  padding: 0 32rpx 20rpx;
+}
+.train-sec-skill .ticket-view .v-b {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7f7f7),
+    to(hsla(0, 0%, 97%, 0))
+  );
+  background: -webkit-linear-gradient(top, #f7f7f7, hsla(0, 0%, 97%, 0));
+  background: -o-linear-gradient(top, #f7f7f7 0, hsla(0, 0%, 97%, 0) 100%);
+  background: linear-gradient(-180deg, #f7f7f7, hsla(0, 0%, 97%, 0));
+  border-radius: 20rpx;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin: 0 6rpx;
+  padding: 20rpx 26rpx;
+}
+.train-sec-skill .ticket-view .v-b-yellow {
+  background-color: #fffaf5;
+  border-radius: 24rpx;
+  color: #fd9227;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0 6rpx;
+  padding: 20rpx 32rpx;
+}
+.train-sec-skill .ticket-view .v-b-yellow .icon-zs {
+  margin-right: 8rpx;
+}
+.train-sec-skill .pas-item {
+  white-space: nowrap;
+}
+.train-sec-skill .pas-item .name {
+  color: #666;
+}
+.train-sec-skill .pas-item .name,
+.train-sec-skill .pas-item .seat {
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.train-sec-skill .pas-item .seat {
+  color: #222;
+}
+.train-sec-skill .pas-item .tag {
+  color: #03b86f;
+  font-family: PingFangSC-Regular;
+  font-size: 18rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-left: 8rpx;
+  padding: 2rpx 6rpx;
+  position: relative;
+  top: -2rpx;
+}
+.train-sec-skill .pas-item .tag::after {
+  border-color: #03b86f;
+  border-radius: 20rpx;
+}
+.train-sec-skill .train-info {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-top: 12rpx;
+}
+.train-sec-skill .train-info .line {
+  background-color: #ccc;
+  display: inline-block;
+  height: 24rpx;
+  margin: 0 14rpx;
+  vertical-align: middle;
+  width: 2rpx;
+}
+.train-sec-skill .train-info .text {
+  vertical-align: middle;
+}

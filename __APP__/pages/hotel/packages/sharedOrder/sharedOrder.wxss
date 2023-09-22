@@ -1,0 +1,312 @@
+@charset "UTF-8";
+@import "/pages/hotel/sub-vendors.wxss";
+.hotel-order-status {
+  box-sizing: border-box;
+  display: table;
+  padding: 20rpx 30rpx 10rpx 40rpx;
+  width: 100%;
+}
+.hotel-order-status .cont,
+.hotel-order-status .lbox {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hotel-order-status .right {
+  position: relative;
+  vertical-align: right;
+}
+.hotel-order-status .right .rightTit {
+  color: #fff;
+  font-size: 26rpx;
+}
+.hotel-order-status .lbox {
+  color: #fff;
+  width: 88rpx;
+}
+.hotel-order-status .lbox .iconfont {
+  font-size: 64rpx;
+}
+.hotel-order-status .cont .tit {
+  color: #fff;
+  font-size: 46rpx;
+  font-weight: 600;
+  line-height: 64rpx;
+  margin-bottom: 4rpx;
+}
+.hotel-order-status .cont .txt {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+.hotel-order-top {
+  margin-top: -200rpx;
+  padding: 0 40rpx;
+  position: relative;
+  z-index: 2;
+}
+.hotel-order-top .order-pay {
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  padding: 28rpx 0 32rpx;
+}
+.hotel-order-top .order-pay .p {
+  line-height: 40rpx;
+  margin-bottom: 16rpx;
+  overflow: hidden;
+}
+.hotel-order-top .order-pay .p:last-child {
+  margin-bottom: 0;
+}
+.hotel-order-top .order-pay .tgrey {
+  float: right;
+  font-size: 26rpx;
+}
+.hotel-order-top .order-pay .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin: -20rpx 0 16rpx;
+}
+.hotel-order-top .order-pay .color-red {
+  display: inline-block;
+  font-size: 26rpx;
+  margin: -4rpx 0 0 8rpx;
+  vertical-align: middle;
+}
+.hotel-order-top .order-pay .price {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.hotel-order-top .order-pay .price::before {
+  content: "￥";
+  font-size: 24rpx;
+}
+.hotel-order-top .order-ads {
+  border-bottom: 1rpx solid #eee;
+  padding: 30rpx 0 20rpx;
+}
+.hotel-order-top .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-bottom: 16rpx;
+}
+.hotel-order-top .name {
+  margin-bottom: 10rpx;
+  padding-right: 30rpx;
+  position: relative;
+}
+.hotel-order-top .tit .ifont-arr {
+  color: #ccc;
+  font-size: 20rpx;
+  line-height: 44rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hotel-order-top .txt {
+  color: #666;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.hotel-order-top .oper {
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.hotel-order-top .oper .btn-primary {
+  background: #fff;
+  color: #fc6e51;
+  display: inline-block;
+  font-size: 26rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 30rpx;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 150rpx;
+}
+.hotel-order-top .oper .iconfont {
+  font-size: 24rpx;
+  margin: -6rpx 10rpx 0 0;
+}
+.hotel-order-top .order-house {
+  padding: 30rpx 0;
+}
+.hotel-order-top .order-tips {
+  background: #fef8e9;
+  border-radius: 0 0 20rpx 20rpx;
+  color: #f50;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin: 0-40rpx;
+  padding: 16rpx 40rpx;
+}
+.hotel-order-info {
+  padding: 30rpx 40rpx 40rpx;
+}
+.hotel-order-info .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+}
+.hotel-order-info .item {
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-bottom: 28rpx;
+  padding-left: 180rpx;
+}
+.hotel-order-info .item:last-child {
+  margin-bottom: 0;
+}
+.hotel-order-info .item .label {
+  color: #999;
+  float: left;
+  margin-left: -180rpx;
+}
+.hotel-order-coupon {
+  background: url(https://images3.ctrip.com/ztrip/hotel/coupon.png);
+  background-size: 710rpx 149rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 20rpx;
+  height: 149rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  width: 710rpx;
+}
+.hotel-order-coupon .btn {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fbf8aa),
+    to(#febd39)
+  );
+  background-image: -webkit-linear-gradient(top, #fbf8aa, #febd39);
+  background-image: -o-linear-gradient(top, #fbf8aa 0, #febd39 100%);
+  background-image: linear-gradient(180deg, #fbf8aa, #febd39);
+  border-radius: 32rpx;
+  box-shadow: 0 6rpx 0 0#ea771c, 0 6rpx 16rpx 0#d0391d;
+  color: #734718;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  height: 64rpx;
+  letter-spacing: 0;
+  line-height: 64rpx;
+  position: absolute;
+  right: 46rpx;
+  text-align: center;
+  top: 42rpx;
+  width: 124rpx;
+}
+.hotel-order-coupon .price {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 70rpx;
+  left: 39rpx;
+  letter-spacing: 0;
+  position: absolute;
+  top: 28rpx;
+}
+.hotel-order-coupon .price .num ::before {
+  content: "￥";
+  font-size: 28rpx;
+}
+.hotel-order-coupon .price .num,
+.hotel-order-coupon .price .num ::before {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#ff5739),
+    to(#fb824a)
+  );
+}
+.hotel-order-coupon .txt {
+  left: 212rpx;
+  position: absolute;
+  top: 38rpx;
+}
+.hotel-order-coupon .txt .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  line-height: 42rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300rpx;
+}
+.hotel-order-coupon .txt .sub-tit {
+  color: #b29571;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 30rpx;
+}
+.hotel-order-discount {
+  background: url(https://images3.c-ctrip.com/ztrip/hotel/discount.png);
+  background-size: 710rpx 120rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 20rpx;
+  height: 120rpx;
+  margin: 0 20rpx 20rpx;
+  position: relative;
+  width: 710rpx;
+}
+.hotel-order-discount .btn {
+  background: #fe4839;
+  border-radius: 28rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  position: absolute;
+  right: 20rpx;
+  text-align: center;
+  top: 32rpx;
+  width: 136rpx;
+}
+.hotel-order-discount .txt {
+  left: 100rpx;
+  position: absolute;
+  top: 20rpx;
+}
+.hotel-order-discount .txt .tit {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+.hotel-order-discount .txt .tag .item {
+  color: #fc6054;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+}
+.hotel-order-discount .txt .tag .item:not(:last-child)::after {
+  color: #fc6054;
+  content: "|";
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin: 0 8rpx;
+}
+.order-str {
+  background: #fef8e9;
+  border-radius: 0 0 20rpx 20rpx;
+  left: -40rpx;
+  padding: 16rpx 40rpx;
+  position: relative;
+  width: 627rpx;
+}
+.order-txt {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  line-height: 30rpx;
+}
+.cancelPrice {
+  color: #fe4839;
+}

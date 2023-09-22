@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../../custom-wrapper",
+    "comp": "../../../../comp"
+  }
+}

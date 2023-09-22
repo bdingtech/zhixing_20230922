@@ -1,0 +1,217 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+._Ms {
+  padding: 16rpx;
+}
+._Ns {
+  border: 3rpx solid #e6e6e6;
+  border-radius: 24rpx;
+}
+._Os {
+  padding: 0 30rpx;
+}
+._os {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+._Bd,
+._we {
+  color: #ccc;
+}
+._Ps {
+  font-size: 50rpx;
+}
+._vr {
+  border-radius: 32rpx 32rpx 0 0;
+}
+._er {
+  margin: 16rpx 16rpx 0;
+}
+._nl {
+  flex: 1;
+  flex-direction: row;
+}
+._sj {
+  overflow-y: auto;
+}
+._lf {
+  margin-top: 54rpx;
+}
+._at {
+  width: 112rpx;
+}
+._Sm {
+  height: 92rpx;
+}
+._yl {
+  background: #fff2f2;
+}
+._vi {
+  border-radius: 12rpx;
+}
+._mn {
+  margin-left: 32rpx;
+}
+._ve {
+  padding: 0 12rpx;
+}
+._Ze {
+  color: #ff5959;
+}
+._Cl {
+  font-size: 20rpx;
+  font-weight: 500;
+}
+._Io {
+  margin-right: 32rpx;
+}
+._bt {
+  border-bottom: 1rpx solid #ededed;
+}
+._ct {
+  font-size: 30rpx;
+  font-weight: 500;
+}
+._dt {
+  line-height: 92rpx;
+}
+._Ec {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+._ms {
+  width: 44rpx;
+}
+._Ia {
+  height: 8rpx;
+}
+._Ys {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff 0, #07f 100%);
+  background: linear-gradient(90deg, #0daeff, #07f);
+}
+._Zs {
+  border-radius: 6rpx 6rpx 0 0;
+}
+._Hg {
+  width: 200rpx;
+}
+._Ae {
+  height: 96rpx;
+}
+._ng {
+  line-height: 96rpx;
+}
+._qt {
+  padding-bottom: 20rpx;
+}
+._ij {
+  height: 72rpx;
+}
+._fk {
+  line-height: 72rpx;
+}
+._Mn {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+._Ik {
+  padding: 0 24rpx;
+}
+._rt {
+  width: 204rpx;
+}
+._gg {
+  height: 68rpx;
+}
+._ol {
+  background: #f7f7f7;
+}
+._st {
+  margin-right: 16rpx;
+  margin-top: 16rpx;
+}
+._tt {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+._hg {
+  line-height: 68rpx;
+}
+._Ym {
+  white-space: nowrap;
+}
+._hk {
+  font-size: 26rpx;
+  font-weight: 500;
+}
+._bg {
+  margin-top: 20rpx;
+}
+._ut {
+  padding: 20rpx 30rpx 0;
+}
+._gt {
+  padding: 8rpx 0 32rpx;
+}
+._ht {
+  height: 112rpx;
+}
+._qd {
+  margin-top: 24rpx;
+}
+._Yk {
+  background: #ccc;
+}
+._it {
+  margin-right: 28rpx;
+}
+._Qs {
+  right: 10rpx;
+}
+._Rs {
+  z-index: 10;
+}
+._Ss {
+  padding-top: 240rpx;
+}
+._qr {
+  overflow: auto;
+}
+._Ts {
+  padding: 10rpx;
+}
+._Rj {
+  height: 28rpx;
+}
+._Al {
+  padding: 0 6rpx;
+}
+page {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.-pa ::-webkit-scrollbar,
+.-sa ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.-ra ::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}

@@ -1,0 +1,19 @@
+.zt-tab {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 16rpx;
+  padding: 4rpx;
+}
+.zt-tab .zt-tab-item {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  height: 60rpx;
+  width: 236rpx;
+}
+.zt-tab .zt-tab-item.cur {
+  background: #fefffe;
+  border-radius: 14rpx;
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}

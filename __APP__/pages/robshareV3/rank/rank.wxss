@@ -1,0 +1,170 @@
+page {
+  background: #fff;
+}
+.tag-blue,
+.tag-gold,
+.tag-red {
+  border-radius: 30rpx;
+  font-size: 20rpx;
+  font-weight: 600;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  width: 80rpx;
+}
+.tag-gold {
+  background: -webkit-linear-gradient(left, #f3b467, #d17615);
+  color: #fff;
+}
+.tag-blue {
+  background: #d9e8fb;
+  color: #0064ef;
+}
+.rank-top {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background: -webkit-linear-gradient(top, #0066e6, #008cff);
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500rpx;
+  padding-top: 6rpx;
+  position: relative;
+}
+.rank-top::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/robshare/rank-table.png)
+    no-repeat;
+  background-size: 100% 256rpx;
+  bottom: 24rpx;
+  content: "";
+  height: 256rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.rank-top .item {
+  color: #fff;
+  flex: 1;
+  overflow: hidden;
+  padding: 22rpx 40rpx 0;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.rank-top .item::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/robshare/rank-top.png)
+    no-repeat;
+  background-size: 160rpx 516rpx;
+  content: "";
+  height: 164rpx;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 148rpx;
+}
+.rank-top .avatar {
+  border-radius: 128rpx;
+  height: 128rpx;
+  position: relative;
+  width: 128rpx;
+  z-index: 2;
+}
+.rank-top .name {
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-top: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rank-top .txt {
+  font-size: 26rpx;
+  margin-top: 16rpx;
+}
+.rank-top .tag-blue,
+.rank-top .tag-gold,
+.rank-top .tag-red {
+  left: 50%;
+  position: absolute;
+  top: 140rpx;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+.rank-top .no1 {
+  margin-top: 0;
+  padding-top: 26rpx;
+}
+.rank-top .no1::after {
+  background-position: 0 0;
+  height: 176rpx;
+  width: 160rpx;
+}
+.rank-top .no1 .avatar {
+  border: 6rpx solid #ffb519;
+  height: 136rpx;
+  width: 136rpx;
+}
+.rank-top .no1 .tag-blue,
+.rank-top .no1 .tag-gold,
+.rank-top .no1 .tag-red {
+  top: 150rpx;
+}
+.rank-top .no2 {
+  margin-top: 76rpx;
+}
+.rank-top .no2::after {
+  background-position: 0-180rpx;
+}
+.rank-top .no2 .avatar {
+  border: 6rpx solid #c0c5cb;
+}
+.rank-top .no3 {
+  margin-top: 92rpx;
+}
+.rank-top .no3::after {
+  background-position: 0-350rpx;
+}
+.rank-top .no3 .avatar {
+  border: 6rpx solid #d4876a;
+}
+.rank-list {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  margin-top: -88rpx;
+  padding: 40rpx;
+  position: relative;
+  z-index: 5;
+}
+.rank-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+}
+.rank-list .no {
+  color: #999;
+  width: 48rpx;
+}
+.rank-list .avatar {
+  border-radius: 64rpx;
+  height: 64rpx;
+  margin-right: 16rpx;
+  width: 64rpx;
+}
+.rank-list .name {
+  font-weight: 600;
+  margin-right: 8rpx;
+  max-width: 240rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rank-list .rbox {
+  margin-left: auto;
+}

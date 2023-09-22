@@ -1,0 +1,310 @@
+@import "/pages/smart/packageA/sub-vendors.wxss";
+.task-con .task-title {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 34rpx 32rpx 40rpx;
+}
+.task-con .task-num {
+  color: #fff;
+  font-family: ZX-Regular;
+  font-size: 63rpx;
+  line-height: 76rpx;
+}
+.task-con .task-desc {
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  margin-left: 4rpx;
+  margin-top: 22rpx;
+}
+.task-con .task-subdesc {
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+}
+.task-con .task-icon {
+  height: 152rpx;
+  width: 280rpx;
+}
+.rob-speed {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 20rpx 20rpx;
+  padding-bottom: 8rpx;
+}
+.rob-speed .speed-title {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  margin: 26rpx 0 8rpx 30rpx;
+}
+.rob-speed .share-speed {
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+}
+.rob-speed .speed-icon {
+  height: 48rpx;
+  margin-right: 16rpx;
+  width: 48rpx;
+}
+.rob-speed .invite-btn {
+  background-color: #0080ff;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 68rpx;
+  line-height: 68rpx;
+  margin: 30rpx 0 30rpx 10rpx;
+  text-align: center;
+  width: 160rpx;
+}
+.rob-speed .invited-btn {
+  color: #0080ff;
+}
+.rob-speed .invited-btn.ty {
+  background-color: #ffeeeb;
+}
+.rob-speed .invited-btn.zx {
+  background-color: #e8f3ff;
+}
+.rob-speed .speed-desc {
+  color: #222;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.rob-speed .speed-val {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-top: 6rpx;
+}
+.alertnative-con {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 20rpx;
+}
+.alertnative-con .title-con {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 26rpx 40rpx 8rpx 30rpx;
+}
+.alertnative-con .title-con .txt {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.alertnative-con .title-con .guide-icon {
+  height: 24rpx;
+  margin-right: 10rpx;
+  width: 24rpx;
+}
+.alertnative-con .title-con .sub-txt {
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 500;
+  line-height: 32rpx;
+}
+.alertnative-con .plans-con {
+  border-radius: 20rpx;
+  padding: 0 30rpx 6rpx;
+}
+.alertnative-con .plan-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.alertnative-con .plan-item:not(:last-child) {
+  border-bottom: 0.8rpx solid #ededed;
+}
+.alertnative-con .plan-icon {
+  height: 48rpx;
+  margin-right: 16rpx;
+  width: 48rpx;
+}
+.alertnative-con .plan-title {
+  color: #222;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.alertnative-con .plan-desc {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-top: 6rpx;
+}
+.alertnative-con .add-btn {
+  background-color: #0080ff;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 68rpx;
+  line-height: 68rpx;
+  margin: 30rpx 0 30rpx 10rpx;
+  text-align: center;
+  width: 160rpx;
+}
+.alertnative-con .added-btn {
+  color: #0080ff;
+}
+.alertnative-con .added-btn.ty {
+  background-color: #ffeeeb;
+}
+.alertnative-con .added-btn.zx {
+  background-color: #e8f3ff;
+}
+.train-robseats-dialog .cui-hd {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50rpx;
+  justify-content: space-between;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 30rpx;
+}
+.train-robseats-dialog .cancel-btn {
+  color: #666;
+  font-size: 32rpx;
+}
+.train-robseats-dialog .center-tit {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.train-robseats-dialog .ok-btn {
+  color: #666;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.train-robseats-dialog .cui-bg {
+  background: #fff;
+  padding: 40rpx;
+}
+.train-robseats-dialog .book-tips {
+  background: #fef8e9;
+  border-radius: 8rpx;
+  color: #f50;
+  font-size: 24rpx;
+  line-height: 1.5em;
+  padding: 16rpx 30rpx;
+}
+.train-robseats-dialog .train-list .item {
+  border-bottom: 1rpx solid #eee;
+}
+.train-robseats-dialog .train-list .item:last-child {
+  border-bottom: 0;
+}
+.train-robseats-dialog .seat-list {
+  margin-top: 20rpx;
+}
+.train-robseats-dialog .item {
+  height: 88rpx;
+}
+.train-robseats-dialog .item,
+.train-robseats-dialog .left {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-robseats-dialog .left {
+  color: #222;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.train-robseats-dialog .middle {
+  color: #333;
+  font-size: 28rpx;
+}
+.train-robseats-dialog .no-seat {
+  background-color: rgba(252, 110, 81, 0.2);
+  border-radius: 4rpx;
+  color: #fc6e51;
+  font-size: 22rpx;
+  margin-left: 10rpx;
+  padding: 4rpx 6rpx;
+}
+.train-robseats-dialog .iconfont {
+  -ms-flex-pack: end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 38rpx;
+  justify-content: flex-end;
+}
+.train-robseats-dialog .ifont-checkbox {
+  color: #ccc;
+}
+.rob-task-setting-page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.rob-task-setting-page .arc-header {
+  background: #0066e6;
+  height: 212rpx;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.rob-task-setting-page .arc-header.zx {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#0078f7),
+    to(#0066e6)
+  );
+  background-image: -webkit-linear-gradient(bottom, #0078f7, #0066e6);
+  background-image: -o-linear-gradient(bottom, #0078f7 0, #0066e6 100%);
+  background-image: linear-gradient(0deg, #0078f7, #0066e6);
+}
+.rob-task-setting-page .arc-header.ty {
+  background: #3c4365;
+}
+.rob-task-setting-page .arc {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc.png);
+  background-size: cover;
+  height: 60rpx;
+  position: absolute;
+  top: 212rpx;
+  width: 100%;
+  z-index: 1;
+}
+.rob-task-setting-page .arc.ty {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc_ty.png);
+  background-size: cover;
+}
+.rob-task-setting-page .content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  z-index: 11;
+}

@@ -1,0 +1,20 @@
+.common-tips-icon .common-tips-icon-content {
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.common-tips-icon .ifont2-zhushi_linea_12 {
+  color: #999;
+  font-size: 24rpx;
+  margin-left: 4rpx;
+}
+.common-tips-icon .c-icon {
+  height: 32rpx;
+  margin-left: 4rpx;
+  width: 32rpx;
+}

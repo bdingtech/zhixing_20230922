@@ -1,0 +1,341 @@
+@charset "UTF-8";
+@import "/pages/trainRob/sub-common/8eb6adebf46f3f880fd68265fe6db89c.wxss";
+@import "/pages/trainRob/sub-common/a863444fcb7ce6ca91a0d9f0dee2b0fe.wxss";
+@import "/pages/trainRob/sub-common/d0fabd2119016579fc156bf233206a6f.wxss";
+.common-stride-train {
+  border-bottom: 2rpx solid #ededed;
+  padding: 30rpx 0;
+  position: relative;
+}
+.common-stride-train:last-child {
+  border-bottom: 0;
+}
+.common-stride-train .txt {
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.common-stride-train .txt .tgrey {
+  margin-left: 12rpx;
+}
+.common-stride-train .txt .tgrey,
+.common-stride-train .txt .tgrey-station {
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.common-stride-train .more-price {
+  color: #ff5959;
+}
+.common-stride-train .stride-bd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 100rpx;
+  padding-top: 24rpx;
+  position: relative;
+}
+.common-stride-train .stride-bd .list {
+  color: #999;
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+.common-stride-train .stride-bd .list::before {
+  background: #fff;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  content: "";
+  height: 16rpx;
+  left: 50%;
+  margin: -10rpx 0 0-10rpx;
+  position: absolute;
+  top: 10%;
+  width: 16rpx;
+  z-index: 5;
+}
+.common-stride-train.zx .stride-bd .list::before {
+  border: 2rpx solid #198cff;
+}
+.common-stride-train.ty .stride-bd .list::before {
+  border: 2rpx solid #fc6e51;
+}
+.common-stride-train .stride-bd .list-original {
+  color: #222;
+}
+.common-stride-train.zx .stride-bd .list-original::before {
+  background: #198cff;
+}
+.common-stride-train.ty .stride-bd .list-original::before {
+  background: #fc6e51;
+}
+.common-stride-train .stride-bd .list::after {
+  content: "";
+  height: 2rpx;
+  margin-top: -2rpx;
+  position: absolute;
+  right: 50%;
+  top: 10%;
+  width: 100%;
+  z-index: 2;
+}
+.common-stride-train.zx .stride-bd .list::after {
+  background: #198cff;
+}
+.common-stride-train.ty .stride-bd .list::after {
+  background: #fc6e51;
+}
+.common-stride-train .stride-bd .list.bu::after {
+  background: #fff;
+  height: 2rpx;
+}
+.common-stride-train.zx .stride-bd .list.bu::after {
+  border-top: 2rpx dashed #198cff;
+}
+.common-stride-train.ty .stride-bd .list.bu::after {
+  border-top: 2rpx dashed #fc6e51;
+}
+.common-stride-train .stride-bd .list:first-child {
+  text-align: left;
+}
+.common-stride-train .stride-bd .list:first-child::before {
+  left: 0;
+  margin: -8rpx 0 0;
+}
+.common-stride-train .stride-bd .list:first-child::after {
+  right: 0;
+}
+.common-stride-train .stride-bd .list:last-child {
+  text-align: right;
+}
+.common-stride-train .stride-bd .list:last-child::before {
+  left: auto;
+  margin: -8rpx 0 0;
+  right: 0;
+}
+.common-stride-train .stride-bd .list:last-child::after {
+  right: 0;
+  width: 150%;
+  z-index: 1;
+}
+.common-stride-train .stride-bd .list .station {
+  font-size: 24rpx;
+  margin-top: 26rpx;
+}
+.common-stride-train .stride-bd .list .station.now {
+  color: #222;
+}
+.common-stride-train .stride-bd .list .station.now .station-tag {
+  background: #fff;
+  border-radius: 10rpx;
+  font-size: 18rpx;
+  line-height: 24rpx;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  position: absolute;
+  text-align: center;
+  top: -10rpx;
+  z-index: 20;
+}
+.common-stride-train .stride-bd .list:first-child .station.now .station-tag {
+  left: 0;
+}
+.common-stride-train .stride-bd .list:last-child .station.now .station-tag {
+  right: 0;
+}
+.common-stride-train .stride-bd .list .station.now .station-tag.middle {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.common-stride-train.zx .stride-bd .list .station.now .station-tag {
+  border: 2rpx solid #198cff;
+  color: #198cff;
+}
+.common-stride-train.ty .stride-bd .list .station.now .station-tag {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.common-stride-train .stride-bd .list .info {
+  background: #fff;
+  border-radius: 10rpx;
+  font-size: 18rpx;
+  line-height: 28rpx;
+  margin-top: -16rpx;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  z-index: 10;
+}
+.common-stride-train.zx .stride-bd .list .info {
+  border: 2rpx solid #198cff;
+  color: #198cff;
+}
+.common-stride-train.ty .stride-bd .list .info {
+  border: 2rpx solid #fc6e51;
+  color: #fc6e51;
+}
+.common-stride-train .stride-bd .list:first-child .info {
+  right: -8rpx;
+}
+.common-stride-train .stride-bd .list:last-child .info {
+  left: -8rpx；;
+}
+.common-stride-train .stride-bd .list:first-child .info.info-left-middle {
+  right: -24rpx;
+}
+.common-stride-train .stride-bd .list:last-child .info.info-right-middle {
+  left: -24rpx;
+}
+.common-stride-train .iconfont {
+  font-size: 38rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.common-stride-train .ifont-radio {
+  color: #ccc;
+}
+.common-stride-train.disabled .ifont-radio {
+  color: #eee;
+}
+page {
+  background: #f5f5f5;
+}
+.top-box {
+  height: 88rpx;
+  position: relative;
+}
+.page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: fixed;
+}
+.page,
+.wrap {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  width: 100%;
+}
+.wrap {
+  flex: 1;
+  padding-bottom: calc(128rpx + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 1;
+}
+.top-bg {
+  height: 40rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.ty .top-bg {
+  background: #3c4365;
+}
+.zx .top-bg {
+  background: #0066e6;
+}
+.top-bg-top {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5);
+  border-radius: 32rpx 32rpx 0 0;
+  height: 400rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.wrap .content {
+  background: #fff;
+  border-radius: 20rpx;
+  height: auto;
+  margin: 0 16rpx;
+  padding: 0 30rpx 30rpx;
+  position: relative;
+  z-index: 3;
+}
+.wrap .title {
+  padding-top: 50rpx;
+}
+.zx .wrap .title .top {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-06/icon_plan.png)
+    no-repeat;
+  background-size: cover;
+  height: 30rpx;
+  width: 156rpx;
+}
+.ty .wrap .title .top {
+  background: url(https://images3.c-ctrip.com/ztrip/train_xie/2021-06/icon_plan_tie.png)
+    no-repeat;
+  background-size: cover;
+  height: 30rpx;
+  width: 132rpx;
+}
+.wrap .other-title {
+  padding: 24rpx 0 0;
+}
+.wrap .other-title .txt {
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.bottom-btn {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  line-height: 96rpx;
+  padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  width: auto;
+  z-index: 500;
+}
+.bottom-btn .btn {
+  border-radius: 48rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+.empty-container {
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.empty-icon {
+  height: 274rpx;
+  margin-left: 70rpx;
+  margin-top: 300rpx;
+  width: 428rpx;
+}
+.empty-desc {
+  color: #222;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}

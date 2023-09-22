@@ -1,0 +1,108 @@
+.content-children {
+  box-sizing: border-box;
+  height: 688rpx;
+  padding: 240rpx 22rpx 0;
+  width: 600rpx;
+}
+.content-children.normal-content-children {
+  background: url(https://images3.c-ctrip.com/zt/flight/flight-allowance-bg.png)
+    no-repeat;
+  background-size: cover;
+}
+.content-children.newyear-content-children {
+  background: url(https://images3.c-ctrip.com/zt/flight/newyear-coupon-bg.png)
+    no-repeat;
+  background-size: cover;
+}
+.content-children .header-des {
+  color: #fff;
+  display: block;
+  font-size: 28rpx;
+  margin-bottom: 22rpx;
+  text-align: center;
+}
+.content-children .allowance-content {
+  box-sizing: border-box;
+  color: red;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200rpx;
+  padding: 60rpx 64rpx;
+  width: 556rpx;
+}
+.content-children .allowance-content.normal-allowance-content {
+  background: url(https://images3.c-ctrip.com/zt/flight/flight-coupon-bg.png)
+    no-repeat;
+  background-size: cover;
+}
+.content-children .allowance-content.newyearp-allowance-content {
+  background: url(https://images3.c-ctrip.com/zt/flight/newyear-coupon-textbg.png)
+    no-repeat;
+  background-size: cover;
+}
+.content-children .allowance-content .price-box {
+  bottom: 8rpx;
+  margin-right: 30rpx;
+  padding: 0 15rpx;
+  position: relative;
+  text-align: center;
+  width: 132rpx;
+}
+.content-children .allowance-content .price {
+  display: inline-block;
+  font-size: 85rpx;
+  font-weight: 400;
+}
+.content-children .allowance-content .unit {
+  display: inline-block;
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}
+.content-children .allowance-content .allowance-des {
+  flex: 1;
+  font-size: 20rpx;
+  padding-left: 10rpx;
+}
+.content-children .allowance-content .top {
+  color: #c24100;
+  display: block;
+  font-size: 30rpx;
+}
+.content-children .allowance-content .bottom {
+  color: #df743f;
+  display: block;
+  font-size: 22rpx;
+}
+.content-children .btn {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ffc94a),
+    color-stop(83%, #ffe76e)
+  );
+  background-image: -webkit-linear-gradient(bottom, #ffc94a, #ffe76e 83%);
+  background-image: -o-linear-gradient(bottom, #ffc94a 0, #ffe76e 83%);
+  background-image: linear-gradient(0deg, #ffc94a, #ffe76e 83%);
+  border: 2rpx solid #ffe168;
+  border-radius: 50rpx;
+  color: #d00202;
+  font-size: 40rpx;
+  font-weight: 400;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 34rpx;
+  width: 480rpx;
+}
+.content-children .newyear-btn {
+  background: url(https://images3.c-ctrip.com/zt/flight/newyear-coupon-btn.png)
+    no-repeat;
+  background-size: cover;
+  height: 88rpx;
+  margin: 34rpx auto 0;
+  width: 480rpx;
+}
+.ztrip-h5 .allowance-des .bottom {
+  margin-top: 10rpx;
+}

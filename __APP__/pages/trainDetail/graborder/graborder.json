@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "抢票详情",
+  "navigationBarBackgroundColor": "#0066E6",
+  "backgroundColorTop": "#0066E6",
+  "backgroundColorBottom": "#EFEFEF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "backgroundColor": "#fff",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

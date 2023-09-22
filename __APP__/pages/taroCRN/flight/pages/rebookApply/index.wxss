@@ -1,0 +1,49 @@
+@import "/pages/taroCRN/sub-vendors.wxss";
+@import "/pages/taroCRN/sub-common/d21ca39141151ffc9630a87cc35d5e00.wxss";
+@import "/pages/taroCRN/sub-common/2f3662a88dba7fa6bc654d00c4d0d059.wxss";
+@import "/pages/taroCRN/sub-common/2f75d899712c41f8a5cde794aa504fbb.wxss";
+@import "/pages/taroCRN/sub-common/f55fcb579ad3f2636766fd0dffa05506.wxss";
+@import "/pages/taroCRN/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+@import "/pages/taroCRN/sub-common/cb60df26715b55121e7e8e93131d105d.wxss";
+@import "/pages/taroCRN/sub-common/8dc8004593f7bd9cd1d8d395733401d6.wxss";
+@import "/pages/taroCRN/sub-common/6bc784c5fa07ff338d099f8b9a233dbf.wxss";
+._Kc {
+  color: #999;
+}
+._Pa {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+._Xk {
+  margin-top: 16rpx;
+}
+._nj {
+  flex: 1;
+  flex-direction: column;
+}
+._sj {
+  overflow-y: auto;
+}
+._Cj {
+  padding: 26rpx 32rpx 30rpx 30rpx;
+}
+._Dj {
+  margin: 16rpx 16rpx 0;
+}
+._Ej {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+}
+._Lc {
+  margin-top: 30rpx;
+}
+._Bd {
+  color: #ccc;
+}
+._wp {
+  color: #198cff;
+}
+page {
+  height: 100vh;
+}

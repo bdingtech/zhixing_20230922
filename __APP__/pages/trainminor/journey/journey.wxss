@@ -1,0 +1,458 @@
+page {
+  background: #f6f6f6;
+  padding-bottom: 184rpx;
+}
+.journey-top.zx {
+  background: #0066e6;
+}
+.journey-top.ty {
+  background: #3c4365;
+}
+.journey-top {
+  box-sizing: border-box;
+  color: #fff;
+  height: 196rpx;
+  padding-bottom: 32rpx;
+  padding-left: 40rpx;
+  padding-top: 32rpx;
+  position: relative;
+}
+.journey-top .txt {
+  bottom: 60rpx;
+  position: absolute;
+}
+.journey-top .depart-station {
+  font-size: 44rpx;
+  font-weight: 500;
+  line-height: 56rpx;
+  margin-bottom: 8rpx;
+}
+.journey-top .weather {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.journey-top .weather .icon-weather {
+  height: 32rpx;
+  margin-right: 12rpx;
+  width: 32rpx;
+}
+.journey-top .weather .weather-txt {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+}
+.train-info {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train.xin/2021_09/zhi@3x.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  height: 336rpx;
+  position: absolute;
+  right: 0;
+  top: 20rpx;
+  width: 408rpx;
+  z-index: 2;
+}
+.train-info .txt {
+  position: absolute;
+  right: 64rpx;
+  text-align: right;
+  top: 120rpx;
+}
+.train-info .train-no {
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  margin-bottom: 8rpx;
+}
+.train-info .jianpiao-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-info .jianpiao-box .jianpiao {
+  font-weight: 400;
+  margin-right: 8rpx;
+  overflow: hidden;
+  width: 200rpx;
+}
+.train-info .jianpiao-box .ifont-arr,
+.train-info .jianpiao-box .jianpiao {
+  font-size: 28rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.journey-content {
+  background-color: #f6f6f6;
+  border-radius: 32rpx 32rpx 0 0;
+  margin-bottom: 20rpx;
+  margin-top: -32rpx;
+  padding: 16rpx 20rpx 0;
+  position: relative;
+}
+.journey-top-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff, #f5f5f5);
+  border-radius: 32rpx 32rpx 0 0;
+  height: 200rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 0;
+}
+.journey-tick {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 30rpx 30rpx 24rpx;
+  position: relative;
+  z-index: 1;
+}
+.journey-tick .journey-tick-top .journey-date {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 44rpx;
+  margin-bottom: 8rpx;
+}
+.journey-tick .journey-tick-top .day {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.journey-tick-hd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32rpx 0;
+}
+.journey-tick-hd .from,
+.journey-tick-hd .to {
+  flex: 1;
+}
+.journey-tick-hd .to {
+  text-align: right;
+}
+.journey-tick-hd .mid {
+  color: #666;
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin-top: 20rpx;
+  position: relative;
+  text-align: center;
+  width: 200rpx;
+}
+.journey-tick-hd .mid::after {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/order_details/icon_ht_lb@3x.png)
+    no-repeat;
+  background-size: contain;
+  bottom: -14rpx;
+  content: "";
+  height: 10rpx;
+  left: 35rpx;
+  position: absolute;
+  width: 130rpx;
+}
+.journey-tick-hd .station {
+  font-size: 32rpx;
+  line-height: 44rpx;
+}
+.journey-tick-hd .time {
+  color: #0b1323;
+  font-family: ZX_2\.0-Regular;
+  font-size: 60rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  margin-bottom: 18rpx;
+}
+.journey-tick-hd .time .add {
+  color: #333;
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  margin-right: 4rpx;
+  vertical-align: top;
+}
+.journey-tick-bd {
+  background: #f6fafe;
+  border-radius: 12rpx;
+  padding: 24rpx;
+}
+.journey-tick-bd .title {
+  color: #999;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+}
+.journey-tick-bd.ty {
+  background: #fff9f7;
+}
+.journey-tick-bd.zx {
+  background: #f6fafe;
+}
+.journey-tick-bd .item {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  line-height: 44rpx;
+  margin-top: 16rpx;
+}
+.journey-tick-bd .item .name {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.journey-tick-bd .item .tag {
+  background: #f0f0f0;
+  border-radius: 4rpx;
+  color: #666;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 32rpx;
+  margin: -4rpx 0 0 12rpx;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.journey-tick-bd .item .seat {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
+.journey-tick-bd .item .seat .seatTag {
+  border: 2rpx solid #03b86f;
+  border-radius: 6rpx;
+  color: #03b86f;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 20rpx;
+  margin-right: 12rpx;
+  padding: 3rpx 4rpx;
+}
+.journey-tick-bd .item .seat .seatNum {
+  color: #333;
+  margin-right: 12rpx;
+}
+.journey-tick-bd .item .seat .seatName {
+  color: #999;
+}
+.btn-more {
+  margin-top: 30rpx;
+  text-align: center;
+}
+.btn-more text {
+  border: 2rpx solid #ebebeb;
+  border-radius: 54rpx;
+  color: #666;
+  display: inline-block;
+  font-size: 26rpx;
+  line-height: 54rpx;
+  padding: 0 28rpx;
+}
+.btn-more text::after {
+  border-color: #787878 transparent transparent;
+  border-style: solid dashed dashed;
+  border-width: 12rpx 10rpx;
+  content: "";
+  display: inline-block;
+  height: 0;
+  line-height: 0;
+  margin: 8rpx 0 0 8rpx;
+  vertical-align: middle;
+  width: 0;
+}
+.btn-more.open text::after {
+  border-color: transparent transparent #787878;
+  border-style: dashed dashed solid;
+  margin: -18rpx 0 0 16rpx;
+}
+.journey-zwd {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx 24rpx;
+  position: relative;
+  z-index: 1;
+}
+.journey-zwd .tit {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  margin-bottom: 32rpx;
+  margin-left: 6rpx;
+  padding: 0 6rpx;
+}
+.journey-zwd .tit,
+.journey-zwd .tit .tit-l {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.journey-zwd .tit .tit-l {
+  flex: 1;
+}
+.journey-zwd .tit .r-info {
+  color: #ccc;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.journey-zwd .tit .r-btn {
+  background: rgba(25, 140, 255, 0.063);
+  border-radius: 32rpx;
+  color: #198cff;
+  font-size: 28rpx;
+  font-weight: 600;
+  line-height: 64rpx;
+  padding: 0 24rpx;
+}
+.ty .journey-zwd .tit .r-btn {
+  background-color: rgba(255, 86, 72, 0.063);
+  color: #ff5648;
+}
+.journey-zwd .tit .fr {
+  color: #5495e6;
+  font-size: 26rpx;
+  font-weight: 400;
+}
+.journey-zwd .icon-refresh {
+  background: url(https://images3.c-ctrip.com/zt/wechat/icon-journey.png)
+    no-repeat;
+  background-position: -75rpx 0;
+  background-size: 130rpx 30rpx;
+  height: 27rpx;
+  margin: -4rpx 6rpx 0 0;
+  width: 27rpx;
+}
+.journey-zwd-hd {
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f6fafe;
+  border-radius: 12rpx;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 64rpx;
+  line-height: 64rpx;
+  padding: 0 30rpx;
+}
+.journey-zwd-hd.ty {
+  background-color: #fff9f7;
+}
+.journey-zwd-hd.zx {
+  background-color: #f6fafe;
+}
+.journey-zwd .station {
+  font-weight: 400;
+  width: 180rpx;
+}
+.journey-zwd .time {
+  width: 164rpx;
+}
+.journey-zwd .stay {
+  width: 160rpx;
+}
+.journey-zwd .ontime {
+  flex: 1;
+  text-align: right;
+}
+.journey-zwd-bd .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  padding: 0 30rpx;
+}
+.journey-zwd-bd .item.zx {
+  background: #f6faff;
+}
+.journey-zwd-bd .item.ty {
+  background: #fff8f6;
+}
+.journey-zwd-bd .item.disabled {
+  color: #999;
+}
+.journey-zwd-bd .item.disabled .station {
+  font-weight: 400;
+}
+.tred {
+  color: #ff5648;
+}
+.tblue {
+  color: #5495e6;
+}
+.journey-share-jump {
+  -ms-flex-pack: distribute;
+  background: #fff;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: calc(4rpx + env(safe-area-inset-bottom));
+  padding-top: 20rpx;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.journey-share-jump .btn-share {
+  background: #fff;
+  border: 2rpx solid #0080ff;
+  border-radius: 48rpx;
+  color: #0080ff;
+  width: 240rpx;
+}
+.journey-share-jump .btn-jump {
+  background: #0080ff;
+  border: 2rpx solid #0080ff;
+  border-radius: 200rpx;
+  color: #fff;
+  width: 450rpx;
+}
+.journey-share-jump .btn {
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 96rpx;
+  line-height: 96rpx;
+}

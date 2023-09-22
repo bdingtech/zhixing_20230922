@@ -1,0 +1,111 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.school-hd,
+page {
+  background: #fff;
+}
+.school-hd {
+  height: 200rpx;
+  left: 0;
+  padding-top: 32rpx;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.school-hd .tit {
+  font-size: 48rpx;
+  font-weight: 600;
+  margin: 0 50rpx 32rpx;
+}
+.school-hd .input-txt {
+  border-bottom: 1rpx solid #eee;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 50rpx;
+}
+.school-hd .input-plr {
+  color: #c9c9c9;
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.school-list {
+  padding-top: 232rpx;
+}
+.school-list .item {
+  border-bottom: 1rpx solid #eee;
+  color: #666;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  margin: 0 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-mid {
+  background: #fff;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  left: 50%;
+  padding: 106rpx 40rpx 50rpx;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  z-index: 1000;
+}
+.pop-mid .ifont-12306 {
+  border: 10rpx solid #fff;
+  border-radius: 132rpx;
+  color: #fff;
+  font-size: 64rpx;
+  height: 132rpx;
+  left: 50%;
+  line-height: 132rpx;
+  position: absolute;
+  text-align: center;
+  top: -76rpx;
+  transform: translateX(-50%);
+  width: 132rpx;
+}
+.pop-mid .ifont-12306.zx {
+  background: -webkit-linear-gradient(-45deg, #07acff, #1367ff);
+}
+.pop-mid .ifont-12306.ty {
+  background: -webkit-linear-gradient(-45deg, #fea112, #fe4912);
+}
+.pop-mid .tit {
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.pop-mid .item {
+  color: #666;
+  font-size: 28rpx;
+  margin: 30rpx 10rpx 50rpx;
+}
+.pop-mid .pop-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pop-mid .pop-btn .h5-button {
+  border-radius: 88rpx;
+  flex: 1;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 16rpx;
+}
+.pop-mid .pop-btn .h5-button:last-child {
+  margin-right: 0;
+}
+.pop-mid .btn-cancel {
+  background: #fff;
+  border: 1rpx solid #ccc;
+  color: #666;
+}
+.pop-mid .btn-submit {
+  font-weight: 600;
+}

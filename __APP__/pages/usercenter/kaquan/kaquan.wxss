@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import "/pages/usercenter/sub-vendors.wxss";
+.wrap {
+  padding-bottom: 112rpx;
+}
+.kaquan-box {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 26rpx;
+  line-height: 40rpx;
+  padding: 20rpx 0 40rpx;
+  text-align: center;
+}
+.kaquan-box.zx {
+  background: -webkit-linear-gradient(top, #0066e6, #0080ff);
+}
+.kaquan-box.ty {
+  background: #3c4365;
+}
+.kaquan-box .lock {
+  width: 50%;
+}
+.kaquan-box .lock .no {
+  color: #fff;
+}
+.kaquan-box .lock .ifont-arr {
+  color: #fff;
+  font-size: 18rpx;
+  margin-left: 6rpx;
+}
+.kaquan-box .cont {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24rpx;
+}
+.kaquan-box .cont .item {
+  flex: 1;
+  position: relative;
+}
+.kaquan-box .cont .item::after {
+  background: hsla(0, 0%, 100%, 0.3);
+  content: "";
+  height: 72rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rpx;
+}
+.kaquan-box .cont .item .strong {
+  color: #fff;
+  font-size: 68rpx;
+  font-weight: 600;
+  line-height: 96rpx;
+}
+.kaquan-box .cont .item .ifont-detail {
+  color: #fff;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+.kq-tit {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 42rpx;
+  margin: 40rpx 30rpx 20rpx;
+}
+.kq-tit .ifont-quan {
+  font-size: 38rpx;
+  font-weight: 400;
+  margin: -6rpx 12rpx 0 0;
+}
+.kq-coupon .item {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 180rpx;
+  margin: 20rpx;
+  position: relative;
+}
+.kq-coupon .item::after,
+.kq-coupon .item::before {
+  background: #efefef;
+  border-radius: 32rpx;
+  content: "";
+  height: 32rpx;
+  margin-top: -16rpx;
+  position: absolute;
+  top: 50%;
+  width: 32rpx;
+}
+.kq-coupon .item::before {
+  left: -16rpx;
+}
+.kq-coupon .item::after {
+  right: -16rpx;
+}
+.kq-coupon .item .price {
+  font-size: 68rpx;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  width: 188rpx;
+}
+.kq-coupon .item .price::before {
+  content: "￥";
+  font-size: 26rpx;
+}
+.kq-coupon .item .cont {
+  flex: 1;
+}
+.kq-coupon .item .tit {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 42rpx;
+  margin-bottom: 14rpx;
+}
+.kq-coupon .item .ifont-detail {
+  color: #999;
+  font-size: 30rpx;
+  font-weight: 400;
+  margin: -4rpx 0 0 12rpx;
+}
+.kq-coupon .item .txt {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.kq-coupon .item .no-coupon {
+  flex: 1;
+  font-size: 30rpx;
+  text-align: center;
+}
+.kq-coupon .item .btn-used {
+  border-radius: 56rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-right: 40rpx;
+  padding: 0;
+  width: 136rpx;
+}

@@ -1,0 +1,194 @@
+.routerplan-router-detail-container {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+  overflow: hidden;
+}
+.h2-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.des-text {
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+}
+.color-grey {
+  color: #666;
+}
+.color-primary {
+  color: #427cff;
+}
+.base-icon {
+  margin-right: 1px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.des-icon {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+}
+.dashed-line {
+  border-left: 6px dotted #666;
+  top: 25px;
+  left: 30px;
+  bottom: 48px;
+  z-index: 1;
+}
+.dashed-line,
+.solid-line {
+  position: absolute;
+  width: 0;
+}
+.solid-line {
+  border-left: 6px solid #3b69ef;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  z-index: 9;
+}
+.border-solid {
+  border-left-style: solid;
+  border-left-color: #3b69ef;
+}
+.border-dotted {
+  border-left-style: dotted;
+  border-left-color: #666;
+}
+.cards {
+  justify-content: space-around;
+  flex-direction: row;
+  border-bottom: 1px solid #e5e5e5;
+}
+.card-item,
+.cards {
+  display: -webkit-flex;
+  display: flex;
+}
+.card-item {
+  width: 33.3%;
+  padding: 8px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.meta-data {
+  padding: 10px 20px;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.meta-data .title {
+  height: 28px;
+  font-size: 20px;
+  color: #333;
+  line-height: 28px;
+}
+.detail-wrapper {
+  padding-top: 20px;
+  position: relative;
+}
+.chilren-view {
+  padding-top: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-color: #efefef;
+}
+.item {
+  margin: 0 20px;
+  padding-bottom: 28px;
+  position: relative;
+  z-index: 10;
+}
+.item-des {
+  min-height: 22px;
+  align-items: center;
+}
+.icon-box,
+.item-des {
+  flex-direction: row;
+  display: -webkit-flex;
+  display: flex;
+}
+.icon-box {
+  position: relative;
+  z-index: 11;
+  justify-content: center;
+  margin-right: 6px;
+  width: 26px;
+}
+.item .title {
+  font-size: 14px;
+  color: #3e3e3e;
+}
+.item .extra {
+  margin-left: 32px;
+  color: grey;
+  font-size: 12px;
+}
+.extra-btn-wrapper {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.extra-btn {
+  color: #3b69ef;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+.bottom-button {
+  border-top: 1px solid #e5e5e5;
+  padding: 0 20px;
+  height: 34px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-button,
+.button-left {
+  display: -webkit-flex;
+  display: flex;
+}
+.button-left {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+.button-item {
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.logo-content {
+  height: 34px;
+  font-size: 12px;
+  color: #a8a8a8;
+  letter-spacing: 0;
+  text-align: center;
+}
+.tencent-map-logo {
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  margin-right: 6px;
+}

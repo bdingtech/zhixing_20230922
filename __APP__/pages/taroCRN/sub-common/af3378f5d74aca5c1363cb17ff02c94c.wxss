@@ -1,0 +1,23 @@
+.setgrab-calendar-btn-box {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 16rpx;
+}
+.setgrab-calendar-btn-box .calendar-btn {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 718rpx;
+}
+.setgrab-calendar-btn-box .calendar-btn.disabled {
+  background: #baddff;
+  color: #fff;
+}

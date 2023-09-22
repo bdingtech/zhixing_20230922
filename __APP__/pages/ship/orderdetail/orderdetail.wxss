@@ -1,0 +1,952 @@
+@charset "UTF-8";
+@import "/pages/ship/sub-vendors.wxss";
+@import "/pages/ship/sub-common/c662e30f7bfa79dab6da4c848f90ef2e.wxss";
+.ship-order-status-bar {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16rpx 38rpx 24rpx;
+}
+.ship-order-status-bar .icon {
+  height: 60rpx;
+  margin-right: 16rpx;
+  width: 60rpx;
+}
+.ship-order-status-bar .status {
+  color: #222;
+  font-size: 44rpx;
+  font-weight: 600;
+  line-height: 56rpx;
+}
+.ship-order-status-bar .pay-desc {
+  color: #6882a8;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.ship-order-status-bar .pay-down {
+  color: #3c5a86;
+  font-weight: 500;
+  margin: 0 8rpx;
+}
+.ship-order-status-bar .price-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0080ff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ZX-Regular;
+}
+.ship-order-status-bar .unit {
+  font-size: 32rpx;
+  margin-top: 8rpx;
+}
+.ship-order-status-bar .price {
+  font-size: 44rpx;
+  margin-left: 4rpx;
+}
+.ship-order-status-bar .arr {
+  height: 20rpx;
+  margin-left: 6rpx;
+  margin-top: 10rpx;
+  width: 12rpx;
+}
+.ship-order-notice {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  );
+  border-radius: 20rpx;
+  color: #3c5a86;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22rpx;
+  height: 64rpx;
+  margin: 0 16rpx;
+  padding: 0 32rpx;
+}
+.ship-order-notice .tip {
+  font-weight: 500;
+}
+.ship-order-notice .desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ship-order-notice .arr {
+  color: #3c5a86;
+  font-size: 16rpx;
+}
+.ship-common-notice-board .bus-orderDetail-noticeboard {
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(111, 147, 187, 0.1)),
+    to(rgba(111, 147, 187, 0.05))
+  ) !important;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  ) !important;
+  background: -o-linear-gradient(
+    left,
+    rgba(111, 147, 187, 0.1) 0,
+    rgba(111, 147, 187, 0.05) 100%
+  ) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 147, 187, 0.1),
+    rgba(111, 147, 187, 0.05)
+  ) !important;
+  border-radius: 20rpx !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64rpx !important;
+  margin: 0 16rpx !important;
+  padding: 0 32rpx !important;
+}
+.ship-common-notice-board .notice-cont,
+.ship-common-notice-board .text {
+  color: #3c5a86 !important;
+  font-size: 22rpx !important;
+}
+.ship-order-trip-detail {
+  border-radius: 20rpx;
+  margin: 4rpx 4rpx 0;
+  padding: 20rpx 22rpx 16rpx;
+}
+.ship-order-trip-detail.ty,
+.ship-order-trip-detail.zx {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2f8ff),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, #f2f8ff, #fff);
+  background: -o-linear-gradient(top, #f2f8ff 0, #fff 100%);
+  background: linear-gradient(-180deg, #f2f8ff, #fff);
+}
+.ship-order-trip-detail .time-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ship-order-trip-detail .from-tag {
+  background-color: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 18rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  width: 52rpx;
+}
+.ship-order-trip-detail .time {
+  color: #222;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-left: 8rpx;
+}
+.ship-order-trip-detail .tip {
+  color: #3c5a86;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.ship-order-trip-detail .arr {
+  height: 20rpx;
+  margin-left: 10rpx;
+  width: 10rpx;
+}
+.ship-order-trip-detail .detail-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 24rpx 6rpx 0;
+}
+.ship-order-trip-detail .detail-from {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  max-width: 200rpx;
+}
+.ship-order-trip-detail .date {
+  color: #666;
+  font-size: 24rpx;
+}
+.ship-order-trip-detail .detail-time {
+  color: #222;
+  font-family: ZX-Regular;
+  font-size: 58rpx;
+}
+.ship-order-trip-detail .station {
+  color: #222;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 8rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ship-order-trip-detail .ship-wrap {
+  -ms-flex-pack: end;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ship-order-trip-detail .detail-to,
+.ship-order-trip-detail .ship-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.ship-order-trip-detail .detail-to {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 200rpx;
+}
+.ship-order-trip-detail .number-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ship-order-trip-detail .line {
+  height: 2rpx;
+  width: 24rpx;
+}
+.ship-order-trip-detail .line.left {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(135, 159, 194, 0)),
+    to(#879fc2)
+  );
+  background: -webkit-linear-gradient(left, rgba(135, 159, 194, 0), #879fc2);
+  background: -o-linear-gradient(left, rgba(135, 159, 194, 0), #879fc2);
+  background: linear-gradient(90deg, rgba(135, 159, 194, 0), #879fc2);
+}
+.ship-order-trip-detail .line.right {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#879fc2),
+    to(rgba(135, 159, 194, 0))
+  );
+  background: -webkit-linear-gradient(left, #879fc2, rgba(135, 159, 194, 0));
+  background: -o-linear-gradient(left, #879fc2, rgba(135, 159, 194, 0));
+  background: linear-gradient(90deg, #879fc2, rgba(135, 159, 194, 0));
+}
+.ship-order-trip-detail .number {
+  border: 2rpx solid #879fc2;
+  border-radius: 14rpx;
+  box-sizing: border-box;
+  color: #3c5a86;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 40rpx;
+  padding: 0 18rpx;
+}
+.ship-order-trip-detail .cost-time {
+  color: #222;
+  font-size: 22rpx;
+  line-height: 34rpx;
+  margin-top: 12rpx;
+}
+.ship-order-passengers .passenger {
+  background: #fafafa;
+  border-radius: 20rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 24rpx 20rpx 20rpx;
+}
+.ship-order-passengers .passenger:first-child {
+  margin-top: 8rpx;
+}
+.ship-order-passengers .info-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ship-order-passengers .name {
+  color: #222;
+  font-size: 30rpx;
+  font-weight: 500;
+  line-height: 38rpx;
+  margin-right: 8rpx;
+}
+.ship-order-passengers .tag {
+  border: 1rpx solid hsla(0, 0%, 53%, 0.4);
+  border-radius: 8rpx;
+  color: #666;
+  font-size: 18rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-right: 12rpx;
+  padding: 0 6rpx;
+}
+.ship-order-passengers .tag.fetcher {
+  border: 1rpx solid rgba(255, 89, 89, 0.2);
+  color: #ff5959;
+}
+.ship-order-passengers .more-txt {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.ship-order-passengers .arrow {
+  height: 12rpx;
+  margin-left: 8rpx;
+  width: 20rpx;
+}
+.ship-order-passengers .status-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22rpx;
+}
+.ship-order-passengers .status {
+  color: #00c777;
+  font-size: 26rpx;
+  font-weight: 500;
+  line-height: 34rpx;
+}
+.ship-order-passengers .action {
+  background: #fff;
+  border: 2rpx solid #f0f7ff;
+  border-radius: 14rpx;
+  color: #0080ff;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-left: 16rpx;
+  padding: 0 22rpx;
+}
+.ship-order-passengers .card-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24rpx;
+}
+.ship-order-passengers .card-wrap:first-child {
+  margin-top: 30rpx;
+}
+.ship-order-passengers .card-title {
+  color: #999;
+  font-size: 26rpx;
+  width: 136rpx;
+}
+.ship-order-passengers .card-value {
+  color: #222;
+  font-size: 26rpx;
+}
+.ship-order-trip-card {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx 16rpx 0;
+  overflow: hidden;
+  padding-bottom: 16rpx;
+}
+.ship-ticket-qrcode-component {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding-top: 48rpx;
+}
+.ship-ticket-qrcode-component .qrcodes-wrap {
+  height: 440rpx;
+  width: 100%;
+}
+.ship-ticket-qrcode-component .qrcodes-wrap::-webkit-scrollbar {
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.ship-ticket-qrcode-component .qritem {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.ship-ticket-qrcode-component .qritem .name,
+.ship-ticket-qrcode-component .qritem .num {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.ship-ticket-qrcode-component .qritem .num {
+  color: #666;
+}
+.ship-ticket-qrcode-component .qrimg {
+  height: 280rpx;
+  margin: 24rpx 0;
+  width: 280rpx;
+}
+.ship-order-pick-ticket {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx 16rpx 0;
+  padding: 0 32rpx;
+}
+.ship-order-pick-ticket .title-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 0;
+}
+.ship-order-pick-ticket .title {
+  color: #222;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+.ship-order-pick-ticket .info-txt {
+  color: #999;
+  font-size: 26rpx;
+  line-height: 38rpx;
+}
+.ship-order-pick-ticket .arrow {
+  height: 12rpx;
+  margin-left: 8rpx;
+  width: 20rpx;
+}
+.ship-order-pick-ticket .info-ls {
+  padding-bottom: 32rpx;
+}
+.ship-order-pick-ticket .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.ship-order-pick-ticket .item:not(:first-child) {
+  margin-top: 24rpx;
+}
+.ship-order-pick-ticket .name {
+  -ms-flex-negative: 0;
+  color: #999;
+  flex-shrink: 0;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  width: 136rpx;
+}
+.ship-order-pick-ticket .value {
+  color: #222;
+  flex: 1;
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+.ship-order-pick-ticket .line {
+  background-color: #ededed;
+  height: 32rpx;
+  margin: 0 24rpx;
+  width: 2rpx;
+}
+.ship-order-pick-ticket .map-wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.ship-order-pick-ticket .map {
+  color: #0080ff;
+}
+.ship-order-pick-ticket .map-txt {
+  color: #666;
+  font-size: 18rpx;
+  line-height: 26rpx;
+}
+.ship-order-cancel-btn {
+  background: #fff;
+  border-radius: 24rpx;
+  color: #999;
+  font-size: 28rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 16rpx 16rpx 0;
+  text-align: center;
+}
+.ship-order-actions {
+  background-color: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  box-shadow: 0 0 32rpx 0 rgba(0, 0, 0, 0.04);
+  padding: 16rpx 16rpx calc(env(safe-area-inset-bottom) + 16rpx);
+}
+.ship-order-actions .btn {
+  border-radius: 24rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.ship-order-actions .btn:not(:last-child) {
+  margin-right: 16rpx;
+}
+.ship-order-actions .btn.pay {
+  background: #ff5959;
+  color: #fff;
+}
+.ship-order-actions .btn.left.zx {
+  background-color: #edf6ff;
+  color: #0080ff;
+}
+.ship-order-actions .btn.left.ty {
+  background-color: #fff0ed;
+  color: #0080ff;
+}
+.ship-order-actions .btn.right {
+  background-color: #0080ff;
+  color: #fff;
+}
+.ship-order-price-detail-pop .zt-drawer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #fff),
+    to(#f5f5f5)
+  );
+  background: -webkit-linear-gradient(top, #fff 10%, #f5f5f5);
+  background: -o-linear-gradient(top, #fff 10%, #f5f5f5 100%);
+  background: linear-gradient(-180deg, #fff 10%, #f5f5f5);
+}
+.ship-order-price-detail-pop .zt-drawer-title {
+  color: #333;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.ship-order-price-detail-pop .content {
+  background-color: #fff;
+  border-radius: 24rpx;
+  margin: 0 32rpx calc(env(safe-area-inset-bottom) + 80rpx);
+  padding: 0 32rpx;
+}
+.ship-order-price-detail-pop .total-wrap {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  justify-content: space-between;
+}
+.ship-order-price-detail-pop .total-wrap .name {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.ship-order-price-detail-pop .total-wrap .val {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 36rpx;
+}
+.ship-order-price-detail-pop .item {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 84rpx;
+  justify-content: space-between;
+}
+.ship-order-price-detail-pop .item:not(:last-child) {
+  border-bottom: 1rpx solid #eee;
+}
+.ship-order-price-detail-pop .item .name {
+  color: #333;
+  font-size: 28rpx;
+}
+.ship-order-price-detail-pop .item .val {
+  color: #333;
+  font-family: ZX-Regular;
+  font-size: 28rpx;
+}
+.ship-order-actions-view {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16rpx 16rpx 0;
+}
+.ship-order-actions-view .item {
+  background: #fff;
+  border-radius: 24rpx;
+  color: #0080ff;
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: 500;
+  height: 88rpx;
+  margin-right: 20rpx;
+}
+.ship-order-actions-view .item:last-child {
+  margin-right: 0;
+}
+.ship-refund-layer-component .zt-pop-content {
+  background-color: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  max-height: calc(75% - env(safe-area-inset-bottom) + 20rpx);
+  padding: 30rpx 30rpx calc(env(safe-area-inset-bottom) + 20rpx);
+  position: fixed;
+  right: 0;
+}
+.ship-refund-layer-component .zt-pop-content .zt-main-content {
+  flex: 1;
+}
+.ship-refund-layer-component .ship-refund-layer-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.ship-refund-layer-component .ship-refund-layer-content .head-content {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 50rpx;
+  padding-bottom: 28rpx;
+  text-align: center;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .head-content
+  .close-cycle-btn {
+  background: url(https://pages.c-ctrip.com/bus-images/zhixing/icon/gbn@3x.png)
+    no-repeat 50%;
+  background-size: 100% 100%;
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48rpx;
+}
+.ship-refund-layer-component .ship-refund-layer-content .body-scroll-content {
+  flex: 1;
+  margin-bottom: 20rpx;
+  overflow: auto;
+}
+.ship-refund-layer-component .ship-refund-layer-content .title {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 48rpx;
+  letter-spacing: 0;
+}
+.ship-refund-layer-component .ship-refund-layer-content .passenger-selector {
+  margin-bottom: 42rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item {
+  -ms-flex-pack: justify;
+  border-bottom: 1rpx solid #ededed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 34rpx 0;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .passenger-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  font-weight: 500;
+  height: 44rpx;
+  letter-spacing: 0;
+  line-height: 44rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .seat-name {
+  color: #333;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 40rpx;
+  letter-spacing: 0;
+  margin-right: 16rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .select-disable-text {
+  color: "#999";
+  font-size: 28rpx;
+  margin-left: 24rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .pass-select,
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .pass-selected {
+  border: 4rpx solid #ccc;
+  border-radius: 50%;
+  height: 40rpx;
+  width: 40rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .pass-select.pass-selected,
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .passenger-selector
+  .passenger-item
+  .right
+  .pass-selected.pass-selected {
+  background: url(https://pages.c-ctrip.com/bus-images/zhixing/icon/xzln@3x.png)
+    no-repeat 50%;
+  background-size: 100% 100%;
+  border: 0 solid #ccc;
+  height: 48rpx;
+  width: 48rpx;
+}
+.ship-refund-layer-component .ship-refund-layer-content .fee-detail {
+  border-bottom: 1rpx solid #ededed;
+  padding-bottom: 32rpx;
+}
+.ship-refund-layer-component .ship-refund-layer-content .fee-detail .title {
+  margin-bottom: 2rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .fee-detail
+  .fee-detail-item {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .fee-detail
+  .fee-detail-item
+  .detail-desc,
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .fee-detail
+  .fee-detail-item
+  .detail-name {
+  color: #333;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .fee-detail
+  .fee-detail-item
+  .detail-desc
+  .detail-desc-price {
+  color: #ff5959;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .fee-detail
+  .fee-detail-item
+  .detail-desc
+  .detail-desc-price::before {
+  content: "￥";
+}
+.ship-refund-layer-component .ship-refund-layer-content .fee-no-refund-text {
+  font-size: 28rpx;
+  text-align: center;
+}
+.ship-refund-layer-component .ship-refund-layer-content .refund-desc-area {
+  margin-bottom: 28rpx;
+  margin-top: 42rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .refund-desc-area
+  .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  font-weight: 600;
+  height: 40rpx;
+  letter-spacing: 0;
+  line-height: 40rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .refund-desc-area
+  .refund-desc-content {
+  margin-top: 10rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .refund-desc-area
+  .refund-desc-content
+  .rule-li {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 30rpx;
+}
+.ship-refund-layer-component
+  .ship-refund-layer-content
+  .refund-desc-area
+  .refund-desc-content
+  .rule-li:last-child {
+  margin-bottom: 0;
+}
+.ship-refund-layer-component .ship-refund-layer-bottom-content {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.ship-refund-layer-component .ship-refund-layer-bottom-content .cancel-btn {
+  border: 1rpx solid #198cff;
+  border-radius: 48rpx;
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  width: 240rpx;
+}
+.ship-refund-layer-component .ship-refund-layer-bottom-content .sure-btn {
+  background: #198cff;
+  border-radius: 48rpx;
+  color: #fff;
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+page {
+  height: 100%;
+  width: 100%;
+}
+.ship-order-detail,
+page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.ship-order-detail .content {
+  flex: 1;
+  overflow: auto;
+}
+.ship-order-logo {
+  height: 232rpx;
+  margin-bottom: 96rpx;
+  text-align: center;
+  width: 618rpx;
+}

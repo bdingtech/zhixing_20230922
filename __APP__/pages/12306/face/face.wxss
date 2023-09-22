@@ -1,0 +1,251 @@
+@import "/pages/12306/sub-vendors.wxss";
+.image-txt {
+  background: url(https://images3.c-ctrip.com/train/dulujie/mengceng@3x.png)
+    no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  height: 360rpx;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+.image-txt .tit {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-top: 32rpx;
+}
+.image-txt .txt {
+  font-size: 26rpx;
+  margin: 16rpx 0;
+}
+.image-avatar {
+  height: 800rpx;
+  position: fixed;
+  top: 232rpx;
+  width: 750rpx;
+  z-index: 950;
+}
+.image-avatar .img {
+  height: 100%;
+  width: 100%;
+}
+.reject-btn {
+  margin-left: -127rpx;
+  width: 254rpx;
+}
+.btn,
+.reject-btn {
+  bottom: 10%;
+  height: 144rpx;
+  left: 50%;
+  position: fixed;
+  z-index: 950;
+}
+.btn {
+  animation: breath 0.75s ease-in-out 3;
+  animation-delay: 3s;
+  margin-left: -72rpx;
+  transform-origin: 72rpx 72rpx;
+  width: 144rpx;
+}
+.btn image {
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes breath {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+@keyframes breath {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+.security-tip {
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 16rpx;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  height: 500rpx;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 500rpx;
+  z-index: 960;
+}
+.security-tip .security-img {
+  height: 186rpx;
+  margin: 32rpx 0 46rpx;
+  width: 186rpx;
+}
+.security-tip .notice {
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  width: 420rpx;
+}
+.security-tip .countdown {
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.7);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+  margin-top: 26rpx;
+  text-align: center;
+}
+.security-tip .countdown .int {
+  color: #fff;
+  margin-right: 4rpx;
+  width: 20rpx;
+}
+.security-tip .tip {
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.9);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22rpx;
+  margin-top: 52rpx;
+  text-align: center;
+}
+.security-tip .tip .img {
+  height: 26rpx;
+  margin-right: 10rpx;
+  width: 26rpx;
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 960;
+}
+.pop-mask.active {
+  opacity: 1;
+}
+.pop-submit {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 16rpx;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  height: 500rpx;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 500rpx;
+  z-index: 960;
+}
+.pop-submit .box {
+  margin: 56rpx 0 72rpx;
+  position: relative;
+}
+.pop-submit .box .head-img {
+  height: 186rpx;
+  width: 186rpx;
+}
+.pop-submit .box .line-img {
+  animation: updown 3s linear infinite;
+  height: 6rpx;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 186rpx;
+}
+.pop-submit .row {
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+  padding: 0 32rpx;
+  width: 100%;
+}
+.pop-submit .row .loading {
+  animation: rotate 1.5s linear infinite;
+  background: url(https://images3.c-ctrip.com/train/dulujie/Kirby-Yicon-13768.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 36rpx;
+  margin-left: auto;
+  width: 36rpx;
+}
+.pop-submit .row .done {
+  background: url(https://images3.c-ctrip.com/train/dulujie/Yicon-right.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 36rpx;
+  margin-left: auto;
+  width: 36rpx;
+}
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes updown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 180rpx;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes updown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 180rpx;
+  }
+  100% {
+    top: 0;
+  }
+}

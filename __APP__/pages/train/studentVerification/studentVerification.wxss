@@ -1,0 +1,47 @@
+@import "/pages/train/sub-vendors.wxss";
+@import "/pages/train/sub-common/d30e6573d0c9e02cc6e88158b69eb179.wxss";
+._er {
+  margin: 16rpx 16rpx 0;
+}
+._Lz {
+  padding: 54rpx 0 32rpx;
+}
+._Ee {
+  margin-left: 12rpx;
+}
+._Nc {
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+._lf {
+  margin-top: 54rpx;
+}
+._gh {
+  width: 654rpx;
+}
+._bg {
+  margin-top: 20rpx;
+}
+._xl {
+  width: 30rpx;
+}
+._Zg {
+  margin-left: 8rpx;
+}
+._wp {
+  color: #198cff;
+}
+._Ug {
+  width: 180rpx;
+}
+._Lm {
+  height: 180rpx;
+}
+._Mz {
+  margin: 0 auto 34rpx;
+}
+._Nz {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

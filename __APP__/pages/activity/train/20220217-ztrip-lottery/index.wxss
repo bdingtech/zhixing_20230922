@@ -1,0 +1,50 @@
+@import "/pages/activity/train/sub-vendors.wxss";
+.page {
+  height: 1446rpx;
+}
+.index-top {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_wzry_bg_01.jpg)
+    no-repeat;
+  background-size: cover;
+  height: 320rpx;
+  width: 750rpx;
+}
+.index-center {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_wzry_bg_02.jpg)
+    no-repeat;
+  background-size: cover;
+  height: 564rpx;
+  position: relative;
+  width: 750rpx;
+}
+.lottery {
+  bottom: -88rpx;
+  height: 360rpx;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 646rpx;
+}
+.index-bottom {
+  background: url(https://images3.c-ctrip.com/ztrip/train_zhu/img_wzry_bg_03.jpg)
+    no-repeat;
+  background-size: cover;
+  height: 564rpx;
+  width: 750rpx;
+}
+.shadow {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  position: fixed;
+  width: 750rpx;
+}
+.shadow-lottery {
+  border-radius: 32rpx;
+  height: 356rpx;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 646rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "取消订单",
+  "navigationBarFrontColor": "#ffffff",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

@@ -1,0 +1,53 @@
+@import "/pages/usercenter/sub-vendors.wxss";
+.account-management .item {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32rpx;
+  height: 108rpx;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  padding: 38rpx 40rpx;
+}
+.account-management .item .desc {
+  color: #999;
+  font-size: 22rpx;
+}
+.account-management .item .right-box {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.account-management .item .right-box .account {
+  color: #999;
+  font-size: 32rpx;
+}
+.account-management .item .right-box .iconfont {
+  font-size: 24rpx;
+  margin-top: 2rpx;
+}
+.account-management .item .right-box .icon {
+  color: #ccc;
+  margin-left: 20rpx;
+  width: 32rpx;
+}
+.account-management .handleWithdraw {
+  background: #0080ff;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 60rpx auto 0;
+  width: 670rpx;
+}

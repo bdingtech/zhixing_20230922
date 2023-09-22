@@ -1,0 +1,1640 @@
+@charset "UTF-8";
+page {
+  background: #fe9232;
+}
+.tred {
+  color: #f9463c;
+}
+.tyellow {
+  color: #ffeb1f;
+}
+.cont {
+  flex: 1;
+}
+.top {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/top-2020.png)
+    no-repeat;
+  background-size: 100% 496rpx;
+  box-sizing: border-box;
+  height: 496rpx;
+  padding-top: 40rpx;
+  position: relative;
+}
+.top .logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82rpx;
+  left: 20rpx;
+  position: absolute;
+  top: 0;
+  width: 76rpx;
+}
+.top .logo.zx {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/logo-zx.png);
+}
+.top .logo.ty {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/logo-ty.png);
+}
+.top .rule {
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 28rpx;
+  position: absolute;
+  right: 28rpx;
+  text-decoration: underline;
+  top: 26rpx;
+  white-space: pre-wrap;
+}
+.top .slogan {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/slogan-new-2020.png)
+    no-repeat;
+  background-size: cover;
+  height: 170rpx;
+  margin: 0 auto;
+  width: 540rpx;
+}
+.wrap {
+  background: #fe9232;
+  box-shadow: 0 6rpx 6rpx #ffca4b;
+  margin-top: -80rpx;
+  padding-bottom: 200rpx;
+  position: relative;
+  z-index: 2;
+}
+.wrap::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/main-hd-2020.png)
+    no-repeat;
+  background-size: 100% 180rpx;
+  height: 180rpx;
+  top: -208rpx;
+  z-index: 5;
+}
+.wrap::after,
+.wrap::before {
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.wrap::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/main-bg.png)
+    no-repeat;
+  background-size: 100% 120rpx;
+  height: 120rpx;
+  top: -80rpx;
+}
+.main-box {
+  background: #fff;
+  border-radius: 48rpx;
+  box-shadow: inset 0 0 24rpx #ffbc81;
+  margin: 0 20rpx 12rpx;
+  position: relative;
+  z-index: 2;
+}
+.friend-box {
+  padding: 60rpx 20rpx 0;
+}
+.friend-box .tit {
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+.friend-box .tit::after,
+.friend-box .tit::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat;
+  background-size: 192rpx 240rpx;
+  content: "";
+  display: inline-block;
+  height: 28rpx;
+  margin: -2rpx 14rpx 0;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.friend-box .tit::before {
+  background-position: 0 0;
+}
+.friend-box .tit::after {
+  background-position: -40rpx 0;
+}
+.friend-box .price {
+  color: #f9463c;
+  font-size: 92rpx;
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  text-align: center;
+}
+.friend-box .price::before {
+  content: "¥";
+  font-size: 52rpx;
+  margin-right: 8rpx;
+}
+.progress-box {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 116rpx 16rpx 0;
+  position: relative;
+}
+.progress-bar {
+  background: #ffdabb;
+  border-radius: 18rpx;
+  flex: 1;
+  height: 18rpx;
+  margin-right: 12rpx;
+  position: relative;
+}
+.progress-box .t {
+  font-size: 24rpx;
+}
+.progress-bar .line {
+  background: -webkit-linear-gradient(left, #fa7d53, #f9463c);
+  border-radius: 18rpx;
+  height: 18rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.progress-bar .line::after {
+  background: hsla(0, 0%, 100%, 0.9);
+  border-radius: 6rpx;
+  box-shadow: -12rpx 0 0 hsla(0, 0%, 100%, 0.5),
+    -24rpx 0 0 hsla(0, 0%, 100%, 0.2);
+  content: "";
+  height: 6rpx;
+  position: absolute;
+  right: 8rpx;
+  top: 6rpx;
+  width: 6rpx;
+}
+.progress-bar .line .tag {
+  background: #f9463c;
+  border-radius: 64rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 64rpx;
+  padding: 0 25rpx;
+  position: absolute;
+  right: 0;
+  top: -88rpx;
+  transform: translateX(50%);
+  white-space: nowrap;
+}
+.progress-bar .line .tag::after {
+  background: #f9463c;
+  border-radius: 2rpx;
+  bottom: -6rpx;
+  content: "";
+  height: 16rpx;
+  left: 50%;
+  margin-left: -8rpx;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 16rpx;
+}
+.progress-bar .line .tag .txt {
+  font-size: 34rpx;
+}
+.progress-bar .line .tag .txt::before {
+  content: "¥";
+  font-size: 24rpx;
+  margin: 0 2rpx;
+}
+.friend-bd {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 34rpx;
+}
+.invite-text {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/duihuak_kanjia.png)
+    no-repeat 50% / cover;
+  box-sizing: border-box;
+  color: #732f12;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  height: 128rpx;
+  line-height: 44rpx;
+  margin-left: 28rpx;
+  padding: 20rpx 32rpx 20rpx 30rpx;
+  width: 466rpx;
+}
+.friend-list .item {
+  display: inline-block;
+  margin-right: 30rpx;
+  position: relative;
+  vertical-align: top;
+  z-index: 2;
+}
+.friend-list .item::after {
+  border-top: 2rpx dashed #e5e5e5;
+  content: "";
+  height: 2rpx;
+  left: 0;
+  position: absolute;
+  right: -36rpx;
+  top: 56rpx;
+  z-index: -1;
+}
+.friend-list .item:last-child {
+  margin-right: 0;
+}
+.friend-list .item:last-child::after {
+  right: 0;
+}
+.friend-list .item .tag {
+  background: #fe9232;
+  border-radius: 4rpx;
+  color: #fff;
+  font-size: 20rpx;
+  height: 30rpx;
+  left: 50%;
+  line-height: 30rpx;
+  padding: 0 8rpx;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.friend-list .item .avatar {
+  border: 6rpx solid #fff;
+  border-radius: 80rpx;
+  box-shadow: 0 6rpx 12rpx 0 rgba(255, 148, 85, 0.2);
+  height: 108rpx;
+  width: 108rpx;
+}
+.friend-list .item .name {
+  font-size: 22rpx;
+  line-height: 32rpx;
+  max-width: 88rpx;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.friend-list .item.more,
+.friend-list .item.only {
+  padding-top: 12rpx;
+}
+.friend-list .item.more .txt {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  text-align: center;
+}
+.friend-list .item.more .txt .ifont-arr {
+  color: #999;
+  font-size: 16rpx;
+}
+.friend-list .item.more .avatar {
+  margin-left: -38rpx;
+}
+.friend-list .item.more .avatar:first-child {
+  margin-left: 0;
+}
+.friend-list .item .icon-add {
+  background-position: -100rpx -140rpx;
+}
+.friend-list .item .icon-more {
+  background-position: 0-140rpx;
+}
+.friend-list .item.all {
+  padding-top: 38rpx;
+}
+.assist-btn {
+  margin-top: 40rpx;
+}
+.assist-btn .btn-invite {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/button_kanjia.png)
+    no-repeat 50% / cover;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 206rpx;
+  height: 176rpx;
+  line-height: 120rpx;
+  width: 670rpx;
+}
+.assist-btn .btn-invite.disabled {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/huodong/button_kanjia5.png)
+    no-repeat 50% / cover;
+}
+.notice-box {
+  padding: 30rpx;
+}
+.notice-box::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/chain.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 46rpx;
+  left: 50%;
+  position: absolute;
+  top: -30rpx;
+  transform: translateX(-50%);
+  width: 620rpx;
+}
+.notice-hd {
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  text-align: center;
+}
+.notice-hd .icon-coin {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat -40rpx -60rpx;
+  background-size: 192rpx 240rpx;
+  height: 44rpx;
+  margin: -4rpx 8rpx 0 0;
+  width: 44rpx;
+}
+.notice-new {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/notice-2020.png)
+    no-repeat;
+  background-size: 100% 138rpx;
+  box-sizing: border-box;
+  height: 138rpx;
+  margin: 0 20rpx 20rpx;
+  padding-top: 20rpx;
+  position: relative;
+  z-index: 2;
+}
+.notice-list {
+  height: 48rpx;
+  margin: 8rpx 56rpx 0;
+  overflow: hidden;
+}
+.notice-list .swiper-box {
+  height: 48rpx;
+}
+.notice-list .item {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  height: 48rpx;
+  justify-content: center;
+}
+.notice-list .avatar {
+  border-radius: 32rpx;
+  height: 32rpx;
+  margin-right: 8rpx;
+  width: 32rpx;
+}
+.notice-list .txt {
+  color: #fff;
+  font-size: 22rpx;
+}
+.notice-list .tyellow {
+  font-weight: 700;
+}
+.tit-join {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/tit-join.png)
+    no-repeat;
+  background-size: cover;
+  height: 62rpx;
+  margin: 36rpx auto 0;
+  width: 458rpx;
+}
+.white-box {
+  background: #fff;
+  border-radius: 32rpx;
+  margin: 20rpx;
+}
+.intr-box {
+  padding: 50rpx 0 40rpx;
+}
+.step-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.step-box .item {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+.step-box .item::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat 0-108rpx;
+  background-size: 192rpx 240rpx;
+  content: "";
+  height: 28rpx;
+  margin-right: -76rpx;
+  position: absolute;
+  right: 0;
+  top: 6rpx;
+  width: 152rpx;
+}
+.step-box .item:last-child::after {
+  display: none;
+}
+.step-box .item .step {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat -80rpx 0;
+  background-size: 192rpx 240rpx;
+  color: #fff;
+  font-size: 26rpx;
+  height: 48rpx;
+  line-height: 42rpx;
+  margin: 0 auto;
+  width: 44rpx;
+}
+.step-box .item .txt {
+  font-size: 24rpx;
+  margin-top: 16rpx;
+  white-space: pre-wrap;
+}
+.coupon-box {
+  margin-top: 60rpx;
+}
+.coupon-box .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  text-align: center;
+}
+.coupon-box .tit::after,
+.coupon-box .tit::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat;
+  background-size: 192rpx 240rpx;
+  content: "";
+  display: inline-block;
+  height: 28rpx;
+  margin: -4rpx 12rpx 0;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.coupon-box .tit::before {
+  background-position: 0 0;
+}
+.coupon-box .tit::after {
+  background-position: -40rpx 0;
+}
+.flt-recom {
+  padding: 30rpx 30rpx 0;
+  position: relative;
+}
+.flt-recom .wtit {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.flt-recom .city {
+  color: #666;
+  font-size: 26rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 36rpx;
+}
+.flt-recom .city .ifont-more {
+  font-size: 20rpx;
+  margin: -8rpx 0 0 8rpx;
+  transform: rotate(90deg);
+}
+.flt-recom-tag {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 36rpx;
+}
+.flt-recom-tag .item {
+  background: #f8f8f8;
+  border-radius: 68rpx;
+  font-size: 28rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  margin-bottom: 24rpx;
+  text-align: center;
+  width: 200rpx;
+}
+.flt-recom-tag .item.cur {
+  background: #f9463c;
+  color: #fff;
+  font-weight: 600;
+}
+.flt-recom-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2rpx dashed #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 0;
+}
+.flt-recom-list .fromto {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.flt-recom-list .fromto .tag {
+  border: 1rpx solid #999;
+  border-radius: 4rpx;
+  color: #666;
+  display: inline-block;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 30rpx;
+  margin: -4rpx 0 0 10rpx;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.flt-recom-list .date {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 2rpx;
+}
+.flt-recom-list .price {
+  font-size: 44rpx;
+  font-weight: 600;
+  text-align: right;
+}
+.flt-recom-list .price::before {
+  content: "¥";
+  font-size: 28rpx;
+  margin-right: 2rpx;
+}
+.flt-recom-list .price .em {
+  color: #666;
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-left: 2rpx;
+}
+.flt-recom-list .btn-more {
+  background: #fff;
+  border: 2rpx solid rgba(249, 70, 60, 0.4);
+  border-radius: 60rpx;
+  color: #f9463c;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 60rpx;
+  line-height: 56rpx;
+  margin-left: 16rpx;
+  padding: 0;
+  width: 156rpx;
+}
+.flt-recom-list .btn-more .ifont-more {
+  font-size: 16rpx;
+  font-weight: 400;
+  margin-top: -4rpx;
+}
+.flt-recom-more {
+  color: #f9463c;
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 100rpx;
+  text-align: center;
+}
+.flt-recom-more .ifont-arr {
+  font-size: 20rpx;
+  font-weight: 400;
+  margin: -4rpx 0 0 8rpx;
+}
+.btom-box {
+  background: -webkit-linear-gradient(-30deg, #ffedc9, #f5cd96);
+  padding: 24rpx 30rpx 20rpx;
+}
+.btom-box,
+.btom-box-img {
+  border-radius: 24rpx 24rpx 0 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.btom-box-img {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 176rpx;
+}
+.btom-box .btn-buy {
+  background: hsla(0, 0%, 100%, 0.8);
+  border-radius: 88rpx;
+  color: #f9463c;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.btom-box .btn-buy .icon-light {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat 0-60rpx;
+  background-size: 192rpx 240rpx;
+  height: 36rpx;
+  margin: -4rpx 4rpx 0 0;
+  width: 36rpx;
+}
+.btom-box .txt {
+  color: rgba(249, 70, 60, 0.5);
+  font-size: 20rpx;
+  line-height: 34rpx;
+  margin-top: 12rpx;
+  text-align: center;
+}
+.btom-box .txt text {
+  color: #f9463c;
+  font-size: 24rpx;
+  margin: 0 12rpx;
+}
+.fixed-botm {
+  background: -webkit-linear-gradient(top left, #ffedc9, #f5cd96);
+  border-radius: 24rpx 24rpx 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 22rpx 24rpx calc(36rpx + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.fixed-botm::after {
+  animation: scale 1s linear infinite;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff8539),
+    color-stop(12%, #ffc244),
+    color-stop(24%, #fdaf52),
+    color-stop(76%, #fdaf52),
+    color-stop(88%, #ffc244),
+    to(#ff8539)
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #ff8539,
+    #ffc244 12%,
+    #fdaf52 24%,
+    #fdaf52 76%,
+    #ffc244 88%,
+    #ff8539
+  );
+  background: -o-linear-gradient(
+    left,
+    #ff8539,
+    #ffc244 12%,
+    #fdaf52 24%,
+    #fdaf52 76%,
+    #ffc244 88%,
+    #ff8539
+  );
+  background: linear-gradient(
+    90deg,
+    #ff8539,
+    #ffc244 12%,
+    #fdaf52 24%,
+    #fdaf52 76%,
+    #ffc244 88%,
+    #ff8539
+  );
+  border-radius: 102rpx;
+  bottom: 24rpx;
+  bottom: calc(24rpx + env(safe-area-inset-bottom));
+  box-shadow: 0 2rpx 4rpx rgba(233, 45, 0, 0.2),
+    0 6rpx 12rpx rgba(239, 56, 2, 0.3);
+  content: "";
+  height: 102rpx;
+  left: 24rpx;
+  position: absolute;
+  right: 24rpx;
+}
+.fixed-botm .btn-buy {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  animation: breathe 1s linear infinite;
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/btn-buy.png)
+    no-repeat;
+  background-size: 100% 102rpx;
+  border-radius: 102rpx;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 40rpx;
+  font-weight: 700;
+  height: 102rpx;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.fixed-botm .ifont-arr {
+  font-size: 0.65rem;
+  font-weight: 400;
+  margin-left: 4rpx;
+}
+@-webkit-keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.96);
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.96);
+  }
+}
+@-webkit-keyframes scale2 {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.94);
+  }
+}
+@keyframes scale2 {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.94);
+  }
+}
+@-webkit-keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(0.95) translateY(-4rpx);
+  }
+}
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(0.95) translateY(-4rpx);
+  }
+}
+.pop-mask {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 960;
+}
+.pop-mask.active {
+  opacity: 1;
+}
+.pop-mid {
+  box-sizing: border-box;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  z-index: 1000;
+}
+.pop-mid .ifont-closed {
+  border: 4rpx solid #999;
+  border-radius: 52rpx;
+  bottom: -160rpx;
+  color: #fff;
+  height: 52rpx;
+  line-height: 54rpx;
+  text-align: center;
+  width: 52rpx;
+}
+.pop-mid .ifont-closed,
+.pop-mid .wtxt {
+  font-size: 24rpx;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.pop-mid .wtxt {
+  bottom: -88rpx;
+  color: #ccc;
+  line-height: 34rpx;
+  white-space: nowrap;
+}
+.pop-yellow {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-top.png)
+    no-repeat #fe9232;
+  background-size: 600rpx 92rpx;
+  border-radius: 64rpx 64rpx 48rpx 48rpx;
+  padding: 66rpx 20rpx 20rpx;
+}
+.pop-yellow-hd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit-bg.png)
+    no-repeat;
+  background-size: cover;
+  height: 68rpx;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: -42rpx;
+  transform: translateX(-50%);
+  width: 362rpx;
+}
+.pop-yellow-hd .tit {
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 68rpx;
+}
+.pop-yellow-hd .tit::after,
+.pop-yellow-hd .tit::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat;
+  background-size: 192rpx 240rpx;
+  content: "";
+  display: inline-block;
+  height: 28rpx;
+  margin: -4rpx 12rpx 0;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.pop-yellow-hd .tit::before {
+  background-position: -128rpx 0;
+}
+.pop-yellow-hd .tit::after {
+  background-position: -160rpx 0;
+}
+.pop-yellow .white-box {
+  background: #fff;
+  border-radius: 32rpx;
+  box-shadow: inset 0 0 20rpx #ffbc81;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+.pop-friend-list {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 20rpx 0;
+}
+.pop-friend-list scroll-view {
+  height: 700rpx;
+}
+.pop-friend-list .total {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  padding: 0 30rpx;
+}
+.pop-friend-list .item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  position: relative;
+}
+.pop-friend-list .item:last-child {
+  padding-bottom: 20rpx;
+}
+.pop-friend-list .avatar {
+  border-radius: 72rpx;
+  height: 72rpx;
+  margin-right: 20rpx;
+  width: 72rpx;
+}
+.pop-friend-list .tit {
+  font-size: 28rpx;
+  line-height: 36rpx;
+  max-width: 280rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-friend-list .txt {
+  color: hsla(0, 0%, 60%, 0.7);
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.pop-friend-list .tag {
+  background: #fe9232;
+  border-radius: 4rpx;
+  color: #fff;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin: -4rpx 0 0 12rpx;
+  padding: 0 8rpx;
+  vertical-align: middle;
+}
+.pop-friend-list .icon-crown {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat -86rpx -60rpx;
+  background-size: 192rpx 240rpx;
+  height: 36rpx;
+  left: 14rpx;
+  position: absolute;
+  top: -14rpx;
+  width: 40rpx;
+}
+.pop-friend-list .rbox {
+  color: #f75356;
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-left: 20rpx;
+}
+.pop-rule-bd {
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  padding: 40rpx 0;
+}
+.pop-rule-bd,
+.pop-rule-bd scroll-view {
+  box-sizing: border-box;
+}
+.pop-rule-bd scroll-view {
+  height: 500rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.pop-rule-bd .tit {
+  font-size: 28rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+  margin-bottom: 10rpx;
+}
+.pop-rule-bd .txt {
+  color: #666;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-bottom: 10rpx;
+}
+.pop-general::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-qian.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 176rpx;
+  left: 50%;
+  position: absolute;
+  top: -120rpx;
+  transform: translateX(-50%);
+  width: 540rpx;
+}
+.pop-general.pop-baoxiang::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-baoxiang.png)
+    no-repeat;
+  background-size: cover;
+}
+.pop-general .white-box {
+  border-radius: 32rpx 32rpx 0 0;
+  padding: 20rpx 30rpx 110rpx;
+  position: relative;
+}
+.pop-general .white-box::after {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(254, 146, 50, 0),
+    rgba(254, 146, 50, 0.28) 20%,
+    #fe9232 80%
+  );
+  bottom: 0;
+  content: "";
+  height: 100rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.pop-general .btn-invite {
+  background-color: initial;
+  background-image: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-btn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: 600;
+  height: 164rpx;
+  line-height: 104rpx;
+  margin-top: -70rpx;
+  padding: 18rpx 36rpx 42rpx;
+  position: relative;
+  width: 560rpx;
+  z-index: 2;
+}
+.pop-general .btn-invite.s {
+  font-size: 34rpx;
+}
+.pop-general .info {
+  font-size: 24rpx;
+  margin: -12rpx 0 10rpx;
+  text-align: center;
+}
+.pop-general .bprice {
+  color: #f9463c;
+  display: inline-block;
+  font-size: 92rpx;
+  font-weight: 600;
+  line-height: 100rpx;
+  position: relative;
+}
+.pop-general .bprice::before {
+  content: "¥";
+  font-size: 52rpx;
+}
+.pop-general .bprice .tag {
+  background: #fe9232;
+  border-radius: 34rpx 34rpx 34rpx 0;
+  color: #fff;
+  font-size: 22rpx;
+  font-weight: 400;
+  line-height: 34rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  right: 0;
+  top: -30rpx;
+  white-space: nowrap;
+}
+.pop-general .pop-withdraw {
+  padding-top: 72rpx;
+  text-align: center;
+}
+.pop-withdraw .txt {
+  color: #f9463c;
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-top: -16rpx;
+}
+.pop-withdraw .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit.png)
+    no-repeat;
+  background-size: 500rpx 440rpx;
+  height: 60rpx;
+  margin: 0 auto 6rpx;
+  width: 304rpx;
+}
+.pop-withdraw .tit2 {
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  margin-top: -10rpx;
+  text-align: center;
+}
+.pop-withdraw .tit2::after,
+.pop-withdraw .tit2::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat;
+  background-size: 192rpx 240rpx;
+  content: "";
+  display: inline-block;
+  height: 28rpx;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.pop-withdraw .tit2::before {
+  background-position: 0 0;
+  margin: -4rpx 12rpx 0 0;
+}
+.pop-withdraw .tit2::after {
+  background-position: -40rpx 0;
+  margin: -4rpx 0 0 12rpx;
+}
+.pop-general .progress-box .t {
+  color: #999;
+}
+.pop-general .progress-bar .line .tag {
+  font-size: 28rpx;
+  line-height: 48rpx;
+  padding: 0 16rpx;
+  top: -64rpx;
+  white-space: nowrap;
+}
+.pop-general .progress-bar .line .tag .txt {
+  color: #fff;
+  font-size: 28rpx;
+}
+.pop-general .progress-box .result {
+  color: #f9463c;
+  font-size: 26rpx;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: -50rpx;
+  transform: translateX(-50%);
+}
+.pop-general .pop-login {
+  padding-top: 20rpx;
+}
+.pop-login .avatar {
+  border-radius: 120rpx;
+  display: block;
+  height: 100rpx;
+  margin: 0 auto -20rpx;
+  width: 100rpx;
+}
+.pop-login .tit {
+  color: #f9463c;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  margin-top: 12rpx;
+  text-align: center;
+}
+.pop-login .coupon-get {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-coupon.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 138rpx;
+  margin: 36rpx auto 0;
+  padding: 10rpx 24rpx 0;
+  width: 488rpx;
+}
+.pop-login .coupon-get .price {
+  color: #f9463c;
+  font-size: 56rpx;
+  font-weight: 600;
+  margin-right: 22rpx;
+  text-align: center;
+  width: 132rpx;
+}
+.pop-login .coupon-get .price::before {
+  content: "¥";
+  font-size: 28rpx;
+  margin-right: 2rpx;
+}
+.pop-login .coupon-get .strong {
+  color: #f9463c;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 38rpx;
+}
+.pop-login .coupon-get .txt {
+  color: #666;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+}
+.pop-login .coupon-box {
+  border-top: 2rpx dashed #eee;
+  margin-top: 34rpx;
+  padding-top: 8rpx;
+}
+.pop-login .coupon-box .tit {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 400;
+  line-height: 42rpx;
+}
+.pop-login .coupon-box .tit::after,
+.pop-login .coupon-box .tit::before {
+  display: none;
+}
+.pop-login .coupon-box .tit .tred {
+  font-weight: 600;
+}
+.pop-login .coupon-done {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-coupon-done.png)
+    no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  margin: 12rpx auto 0;
+  position: relative;
+  width: 500rpx;
+}
+.pop-login .coupon-done .price {
+  color: #f9463c;
+  font-size: 56rpx;
+  font-weight: 600;
+  margin-right: 24rpx;
+  text-align: center;
+  width: 142rpx;
+}
+.pop-login .coupon-done .price::before {
+  content: "¥";
+  font-size: 28rpx;
+  margin-right: 2rpx;
+}
+.pop-login .coupon-done .strong {
+  color: #f9463c;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 38rpx;
+}
+.pop-login .coupon-done .txt {
+  color: #666;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+}
+.pop-login .coupon-done .tag {
+  color: #fff;
+  font-size: 22rpx;
+  font-weight: 600;
+  height: 32rpx;
+  line-height: 32rpx;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 90rpx;
+}
+.pop-general .pop-treasure {
+  padding-top: 28rpx;
+  text-align: center;
+}
+.pop-treasure .count-down2 {
+  color: #732f12;
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+  margin-bottom: 60rpx;
+  text-align: center;
+}
+.pop-treasure .count-down2 .no {
+  background: #904424;
+  border-radius: 4rpx;
+  color: #fff;
+  display: inline-block;
+  height: 40rpx;
+  margin: -4rpx 6rpx 0;
+  vertical-align: middle;
+  width: 40rpx;
+}
+.pop-treasure .count-down2::after,
+.pop-treasure .count-down2::before {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/icon.png)
+    no-repeat;
+  background-size: 192rpx 240rpx;
+  content: "";
+  display: inline-block;
+  height: 28rpx;
+  margin: -4rpx 12rpx 0;
+  vertical-align: middle;
+  width: 28rpx;
+}
+.pop-treasure .count-down2::before {
+  background-position: 0 0;
+}
+.pop-treasure .count-down2::after {
+  background-position: -40rpx 0;
+}
+.pop-treasure .txt {
+  color: #f9463c;
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-top: -16rpx;
+}
+.pop-treasure .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit.png)
+    no-repeat 0-64rpx;
+  background-size: 500rpx 440rpx;
+  height: 60rpx;
+  margin: 10rpx auto 24rpx;
+  width: 420rpx;
+}
+.pop-suc {
+  margin-top: -80rpx;
+  padding-bottom: 0;
+}
+.pop-suc .avatar {
+  margin: 0 auto;
+}
+.pop-suc .progress-box {
+  margin-top: 50rpx;
+}
+.pop-suc .progress-box .result {
+  top: -40rpx;
+}
+.pop-suc .white-box {
+  padding-bottom: 88rpx;
+}
+.pop-suc .white-box::after {
+  bottom: -44rpx;
+}
+.pop-suc .coupon-box {
+  margin-top: 24rpx;
+}
+.pop-suc .btn-invite {
+  margin-bottom: -28rpx;
+}
+.pop-suc .ifont-closed {
+  bottom: -264rpx;
+}
+.pop-suc-botm {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: -132rpx;
+  height: 206rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.pop-redbox {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-redbox.png)
+    no-repeat;
+  background-size: cover;
+  height: 646rpx;
+  padding-top: 200rpx;
+  width: 620rpx;
+}
+.pop-redhd {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit.png)
+    no-repeat;
+  background-size: 500rpx 440rpx;
+  height: 32rpx;
+  margin: 0 auto;
+  width: 124rpx;
+}
+.pop-redhd.zx {
+  background-position: 0-400rpx;
+}
+.pop-redhd.ty {
+  background-position: -128rpx -400rpx;
+}
+.pop-redbd {
+  margin: 44rpx 48rpx 0;
+}
+.pop-redbd .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit.png)
+    no-repeat 0-288rpx;
+  background-size: 500rpx 440rpx;
+  height: 108rpx;
+  margin: 0 auto;
+  width: 480rpx;
+}
+.pop-redbd .txt {
+  color: #fff3cb;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-bottom: 44rpx;
+  text-align: center;
+}
+.pop-hongbao .btn-get,
+.pop-redbd .btn-get {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-btn-get.png)
+    no-repeat;
+  background-size: cover;
+  border-radius: 20rpx;
+  box-shadow: 0 10rpx 20rpx rgba(211, 38, 28, 0.5);
+  color: red;
+  display: block;
+  font-size: 40rpx;
+  font-weight: 600;
+  height: 114rpx;
+  line-height: 114rpx;
+  margin: 0 auto;
+  width: 524rpx;
+}
+.pop-hongbao {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/poop-hongbao.png)
+    no-repeat;
+  background-size: cover;
+  height: 670rpx;
+  padding-top: 88rpx;
+  text-align: center;
+  width: 636rpx;
+}
+.pop-hongbao .tit {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/pop-tit.png)
+    no-repeat;
+  background-size: 500rpx 440rpx;
+  height: 76rpx;
+  margin: 0 auto;
+  width: 440rpx;
+}
+.pop-hongbao .tit.zx {
+  background-position: 0-128rpx;
+}
+.pop-hongbao .tit.ty {
+  background-position: 0-208rpx;
+}
+.pop-hongbao .txt {
+  color: #fff3cb;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  margin-top: 6rpx;
+}
+.pop-hongbao .price {
+  color: #f9463c;
+  font-size: 92rpx;
+  font-weight: 600;
+  line-height: 110rpx;
+  margin: 80rpx 0 92rpx;
+  position: relative;
+}
+.pop-hongbao .price::before {
+  content: "¥";
+  font-size: 52rpx;
+  margin-right: 4rpx;
+}
+.pop-hongbao .price .tag {
+  background: #fe9232;
+  border-radius: 34rpx 34rpx 34rpx 0;
+  color: #fff;
+  font-size: 22rpx;
+  left: 50%;
+  line-height: 34rpx;
+  margin-left: 96rpx;
+  padding: 0 8rpx;
+  position: absolute;
+  top: -20rpx;
+}
+.fail-pop {
+  background: url(https://pic.c-ctrip.com/train/railway_v2/zhuli/chaoshi.png)
+    #fff center 48rpx no-repeat;
+  background-size: 440rpx 254rpx;
+  border-radius: 20rpx;
+  height: 580rpx;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 550rpx;
+  z-index: 961;
+}
+.fail-pop .title {
+  color: #666;
+  font-size: 36rpx;
+  line-height: 36rpx;
+  padding-top: 332rpx;
+  text-align: center;
+}
+.fail-pop .btnbox {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  padding-top: 60rpx;
+  text-align: center;
+}
+.fail-pop .btnbox .left {
+  border: 2rpx solid #e5e5e5;
+  color: #5495e6;
+}
+.fail-pop .btnbox .right {
+  background: #5495e6;
+  color: #fff;
+  margin-left: 30rpx;
+}
+.coupon-top {
+  padding: 32rpx 24rpx;
+}
+.coupon-top .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 44rpx;
+  text-align: center;
+}
+.coupon-top .coupon-big {
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/coupon-big.png)
+    no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128rpx;
+  margin: 26rpx auto 20rpx;
+  width: 560rpx;
+}
+.coupon-top .coupon-big .price {
+  color: #f9463c;
+  font-size: 56rpx;
+  font-weight: 600;
+  margin-right: 28rpx;
+  text-align: center;
+  width: 150rpx;
+}
+.coupon-top .coupon-big .price::before {
+  content: "¥";
+  font-size: 28rpx;
+  margin-right: 2rpx;
+}
+.coupon-top .coupon-big .strong {
+  color: #f9463c;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 38rpx;
+}
+.coupon-top .coupon-big .txt {
+  color: #f9463c;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-top: 4rpx;
+  opacity: 0.6;
+}
+.coupon-top .btn-go {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/btn-invite.png);
+  background-size: 100% 176rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  height: 176rpx;
+  line-height: 106rpx;
+  padding: 14rpx 64rpx 56rpx;
+}
+.wrap-bijia {
+  background: #fe9232;
+  box-shadow: 0 6rpx 6rpx #ffca4b;
+  margin-top: -124rpx;
+  padding-bottom: 200rpx;
+  position: relative;
+  z-index: 2;
+}
+.wrap-bijia::after {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/main-bg.png)
+    no-repeat;
+  background-size: 100% 120rpx;
+  content: "";
+  height: 120rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -88rpx;
+}
+.bijia-box {
+  background: url(https://images3.c-ctrip.com/zt/activity/20191017-flight-kanjia/bijia-bg.png)
+    no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 196rpx;
+  left: 50%;
+  padding-top: 28rpx;
+  position: absolute;
+  top: -240rpx;
+  transform: translateX(-50%);
+  width: 750rpx;
+  z-index: 5;
+}
+.bijia-box .tit {
+  font-size: 26rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.bijia-bd {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20rpx 124rpx 0;
+}
+.bijia-bd .item {
+  flex: 1;
+  text-align: center;
+}
+.bijia-bd .price {
+  font-size: 30rpx;
+  line-height: 32rpx;
+}
+.bijia-bd .price::before {
+  content: "¥";
+  font-size: 24rpx;
+}
+.bijia-bd .tred {
+  font-weight: 600;
+}
+.bijia-bd .txt {
+  font-size: 22rpx;
+  line-height: 30rpx;
+}

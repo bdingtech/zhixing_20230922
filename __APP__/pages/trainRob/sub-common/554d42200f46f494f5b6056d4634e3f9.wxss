@@ -1,0 +1,13 @@
+.brandPromotionImageBox {
+  -ms-flex-pack: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 80rpx;
+  width: 100%;
+}
+.brandPromotionImage {
+  height: 160rpx;
+  width: 546rpx;
+}

@@ -1,0 +1,23 @@
+.radio-comp {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  justify-content: center;
+}
+.radio-comp.disabled {
+  opacity: 0.5;
+}
+.radio-comp.icon-check {
+  color: #ccc;
+  transition: all 0.2s ease-in-out;
+}
+.radio-comp.icon-checked {
+  color: #0080ff;
+}
+.radio-comp.icon-checked:not(.disabled) {
+  transform: scale(0.99);
+  transform-origin: center;
+}

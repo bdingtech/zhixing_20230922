@@ -1,0 +1,900 @@
+@import "/pages/hotel/sub-vendors.wxss";
+.zx .color-red {
+  color: #fe4839;
+}
+.ty .color-red {
+  color: #fc6e51;
+}
+.hotel-box .page-blank-bd {
+  margin-top: 60rpx;
+}
+.hotel-box .next-loading {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f5f5f5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50rpx;
+}
+.hotel-box .next-loading .tips {
+  color: #333;
+  font-size: 28rpx;
+}
+.hotel-box .next-loading .img {
+  height: 40rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+}
+.everybody-watch {
+  margin: 12rpx 0;
+  padding-top: 20rpx;
+  position: relative;
+}
+.everybody-watch::before {
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  bottom: 0;
+  content: "";
+  left: 20rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+}
+.everybody-watch .tit {
+  color: #666;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.everybody-watch::after,
+.everybody-watch::before {
+  background: #d9d9d9;
+  content: "";
+  display: inline-block;
+  height: 1rpx;
+  margin: -4rpx 14rpx 0;
+  vertical-align: middle;
+  width: 120rpx;
+}
+.everybody-watch .everybody-watch-bd {
+  padding: 0 44rpx 24rpx;
+  position: relative;
+  z-index: 2;
+}
+.everybody-watch .everybody-watch-bd .lst {
+  background: #fff;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  height: 96rpx;
+  margin: 16rpx 16rpx 0 0;
+  padding: 14rpx 12rpx;
+  text-align: center;
+  width: 210rpx;
+}
+.everybody-watch .everybody-watch-bd .strong {
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.everybody-watch .everybody-watch-bd .txt {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.everybody-watch .everybody-watch-bd.scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.everybody-watch .everybody-watch-bd.scroll .lst {
+  display: inline-block;
+}
+.everybody-watch .everybody-watch-bd.scroll .lst:last-child {
+  margin-right: 16rpx;
+}
+.everybody-watch .everybody-watch-bd.filter-two-line {
+  -ms-flex-pack: justify;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.everybody-watch .everybody-watch-bd.filter-two-line .lst:nth-child(3n) {
+  margin-right: 0;
+}
+.item.blank .lbox::after {
+  display: none;
+}
+.item.blank .tit {
+  background: #f5f5f5;
+  height: 44rpx;
+}
+.item.blank .desb,
+.item.blank .dist,
+.item.blank .tag {
+  background: #f5f5f5;
+  height: 28rpx;
+  margin-top: 12rpx;
+}
+.item.blank .desb {
+  width: 440rpx;
+}
+.item.blank .dist {
+  width: 320rpx;
+}
+.item.blank .tag {
+  width: 200rpx;
+}
+.item.blank .rbox {
+  background: #f5f5f5;
+  height: 44rpx;
+  width: 128rpx;
+}
+.recommend-tip {
+  color: #333;
+  font-size: 28rpx;
+  padding: 20rpx 20rpx 15rpx;
+}
+.item {
+  background: #fff;
+  box-sizing: border-box;
+  min-height: 240rpx;
+  padding: 12rpx 20rpx 12rpx 250rpx;
+  position: relative;
+}
+.lbox {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  bottom: 12rpx;
+  left: 20rpx;
+  overflow: hidden;
+  position: absolute;
+  top: 12rpx;
+  width: 210rpx;
+}
+.lbox::after {
+  background: url(https://pic.c-ctrip.com/train/zt/wechat/hotel-pic-default.png)
+    no-repeat;
+  background-size: cover;
+  content: "";
+  height: 42rpx;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 66rpx;
+}
+.lbox .pic-hotel {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.lbox .pic-hotel,
+.lbox .pic-hotel .tag-wrap {
+  border-radius: 16rpx;
+}
+.lbox .collected-hotel {
+  height: 28.4rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+  width: 32rpx;
+  z-index: 10;
+}
+.lbox .logo-show-icon {
+  bottom: 0;
+  height: 40rpx;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.lbox .tag-black,
+.lbox .tag-blue,
+.lbox .tag-red {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 0 0 6rpx 6rpx;
+  bottom: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20rpx;
+  height: 36rpx;
+  left: 0;
+  line-height: 36rpx;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
+.lbox .tag-red {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/2022/2/redtag@3x.png);
+}
+.lbox .tag-blue {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/2022/2/bluetag.png);
+}
+.lbox .tag-black {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/2022/2/viptag@3x.png);
+  color: #fcca8b;
+}
+.lbox .tag-jinpai {
+  background: -webkit-linear-gradient(left, #333747, #545a69);
+  border-radius: 4rpx 0 18rpx;
+  color: #ebd3a8;
+  font-size: 20rpx;
+  font-weight: 700;
+  left: 0;
+  line-height: 36rpx;
+  padding: 0 10rpx;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.lbox .tag-yxh {
+  height: 36rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 126rpx;
+  z-index: 2;
+}
+.lbox .tag-popular {
+  bottom: 0;
+  color: #fff;
+  font-size: 20rpx;
+  height: 38rpx;
+  left: 0;
+  line-height: 36rpx;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+.lbox .tag-ad {
+  bottom: 10rpx;
+  box-shadow: 0 0 2rpx 0 rgba(0, 0, 0, 0.2);
+  color: #888;
+  font-family: PingFangSC-Regular;
+  font-size: 16rpx;
+  font-weight: 400;
+  left: 10rpx;
+  position: absolute;
+  z-index: 2;
+}
+.lbox .tag-txt {
+  bottom: 0;
+  color: #fff;
+  font-size: 20rpx;
+  height: 36rpx;
+  left: 0;
+  line-height: 36rpx;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+.lbox .tag-popular .remark-txt {
+  margin-left: 10rpx;
+}
+.item .cont {
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+  margin-bottom: 14rpx;
+}
+.tit .name {
+  margin-right: 10rpx;
+}
+.tit .type {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(165, 185, 207, 0.2)),
+    to(rgba(148, 161, 193, 0.2))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(165, 185, 207, 0.2),
+    rgba(148, 161, 193, 0.2)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(165, 185, 207, 0.2) 0,
+    rgba(148, 161, 193, 0.2) 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(165, 185, 207, 0.2),
+    rgba(148, 161, 193, 0.2)
+  );
+  border-radius: 4rpx;
+  color: #5e729c;
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+  font-size: 18rpx;
+  height: 28rpx;
+  line-height: 26rpx;
+  margin-right: 15rpx;
+  padding: 0 4rpx;
+  position: relative;
+  top: -4rpx;
+}
+.tit .hotel-star {
+  background: url(https://images3.c-ctrip.com/zt/wechat/hotel/xing.png);
+  background-size: cover;
+}
+.tit .hotel-star,
+.tit .hotel-zuanshi {
+  display: inline-block;
+  height: 20rpx;
+  margin-right: 2rpx;
+  width: 20rpx;
+}
+.tit .hotel-zuanshi {
+  background: url(https://images3.c-ctrip.com/zt/wechat/hotel/zuan.png);
+  background-size: cover;
+}
+.tit .icon-wrapper {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.tit .icon-wrapper .star-icon {
+  height: 28rpx;
+  margin-left: 10rpx;
+  width: 28rpx;
+}
+.tit .icon-wrapper .diam-icon {
+  height: 36rpx;
+  margin-left: 8rpx;
+  width: 74rpx;
+}
+.desb {
+  color: #666;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.desb,
+.desb .score {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.desb .score {
+  -ms-flex-pack: center;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  font-family: ZX-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  height: 28rpx;
+  justify-content: center;
+  width: 46rpx;
+}
+.desb .comment-wrap {
+  color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-left: 8rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.comment-txt,
+.desb .comment-wrap {
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.comment-txt {
+  color: #469;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+.dist {
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 14rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dist .line {
+  border-right: 1rpx solid #bbb;
+  height: 20rpx;
+  line-height: 28rpx;
+  position: relative;
+  top: 2rpx;
+  width: 1rpx;
+}
+.dist .dot,
+.dist .line {
+  display: inline-block;
+  margin-right: 8rpx;
+}
+.dist .c-as {
+  margin-right: 8rpx;
+}
+.tag {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12rpx;
+  max-height: 30rpx;
+  overflow: hidden;
+  width: 100%;
+}
+.tag.mb0 {
+  margin-bottom: 0;
+}
+.tag .tag-white,
+.tag .text {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4rpx;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 19rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+  margin-bottom: 2rpx;
+  margin-right: 8rpx;
+  padding: 1rpx 6rpx;
+  position: relative;
+  z-index: 1;
+}
+.tag .tag-white::after,
+.tag .text::after {
+  border: 2rpx solid rgba(77, 111, 158, 0.4);
+  box-sizing: border-box;
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: scale(0.5);
+  transform-origin: center;
+  width: 200%;
+  z-index: -1;
+}
+.tag .tag-white.member,
+.tag .text.member {
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.tag .tag-white.member::after,
+.tag .text.member::after {
+  display: none;
+}
+.tag .tag-white .icon,
+.tag .text .icon {
+  height: 20rpx;
+  margin-right: 4rpx;
+  width: 20rpx;
+}
+.tag .tag-white text,
+.tag .text text {
+  height: 20rpx;
+  line-height: 20rpx;
+}
+.tag .tag-gold {
+  background: rgba(232, 157, 54, 0.2);
+  border: 1rpx solid rgba(169, 109, 25, 0.5);
+  color: #a96d19;
+  line-height: 28rpx;
+}
+.tag .tag-huiyuan {
+  display: inline-block;
+  height: 32rpx;
+  margin: -4rpx 8rpx 0 0;
+  vertical-align: middle;
+  width: 154rpx;
+}
+.info.stu {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.info .s {
+  margin-right: 6rpx;
+  text-decoration: line-through;
+}
+.info .price {
+  font-family: ZX-Regular;
+  font-size: 44rpx;
+  font-weight: 600;
+  margin-top: 6rpx;
+}
+.info .price::before {
+  content: "￥";
+  font-size: 26rpx;
+  margin-right: 5rpx;
+}
+.info .price::after {
+  color: #999;
+  content: "起";
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-left: 4rpx;
+}
+.info .price.hour-num::after {
+  content: "";
+}
+.info .normal {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.info .normal .n-up {
+  font-family: ZX-Regular;
+  font-size: 30rpx;
+}
+.info .normal .n-down {
+  font-size: 20rpx;
+}
+.info {
+  -ms-flex-pack: justify;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #999;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24rpx;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: right;
+}
+.info .pinfo,
+.info.end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.info .pinfo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.info .pinfo .bagain-icon {
+  height: 20rpx;
+  margin: 0 6rpx 6rpx 0;
+  width: 60rpx;
+}
+.info .price-wrapper {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.info .price-wrapper .price {
+  font-family: ZX-Regular;
+  font-size: 40rpx;
+}
+.info .price-wrapper .price.student,
+.info .price-wrapper .price.young {
+  color: #6961d0;
+}
+.info .price-wrapper .price.exam {
+  color: #007065;
+}
+.info .price-wrapper .price::before {
+  content: "￥";
+  font-size: 26rpx;
+}
+.info .price-wrapper .price::after {
+  color: #999;
+  content: "起";
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-left: 4rpx;
+}
+.info .price-wrapper .tag {
+  height: 28rpx;
+  width: 112rpx;
+}
+.info .pk {
+  display: inline-block;
+  height: 50rpx;
+  vertical-align: middle;
+  width: 36rpx;
+}
+.info .price.tgold {
+  color: #c27b19;
+}
+.info .txt-green {
+  color: #00a663;
+}
+.binfo {
+  -ms-flex-pack: end;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 28rpx;
+  justify-content: flex-end;
+  margin: 4rpx 0 0;
+}
+.binfo.spb {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 6rpx;
+}
+.binfo .binfo-left {
+  min-width: 20rpx;
+}
+.binfo .glabel {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 24rpx;
+}
+.koubei {
+  color: #9f7732;
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.koubei::after,
+.koubei::before {
+  background: url(https://pic.c-ctrip.com/train/zt/hotel/maisui.png) no-repeat;
+  background-size: 24rpx 26rpx;
+  content: "";
+  display: inline-block;
+  height: 26rpx;
+  vertical-align: middle;
+  width: 12rpx;
+}
+.koubei::before {
+  background-position: 0 0;
+  margin: -8rpx 6rpx 0 0;
+}
+.koubei::after {
+  background-position: -12rpx 0;
+  margin: -8rpx 0 0 6rpx;
+}
+.cont {
+  position: relative;
+}
+.tonight-sale-bg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.tonight-icon-price {
+  height: 26rpx;
+  width: 70rpx;
+}
+.tonight-countdown {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fee6c1;
+  border-radius: 0 0 12rpx 12rpx;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32rpx;
+  left: 0;
+  line-height: 28rpx;
+  position: absolute;
+  width: 100%;
+  z-index: 950;
+}
+.tonight-countdown .tonight-icon {
+  height: 32rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 124rpx;
+}
+.tonight-countdown .count-time {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #803906;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 500;
+  height: 24rpx;
+  line-height: 24rpx;
+  position: absolute;
+  right: 12rpx;
+}
+.item.zx .desb .score {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/t.ding/liebiaoyouhua/ic_lb_pinfen@3x.png);
+}
+.item.ty .desb .score {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/t.ding/liebiaoyouhua/ic_lb_pinfen_tieyou@3x.png);
+}
+.item .parity-info {
+  -ms-flex-pack: center;
+  background: #f8f8f8;
+  border-radius: 6rpx;
+  justify-content: center;
+  margin-top: 10rpx;
+}
+.item .parity-info,
+.item .parity-info .parity-wrapper {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.item .parity-info .parity-wrapper {
+  width: 33.3%;
+}
+.item .parity-info .parity-wrapper .parity {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+  height: 30rpx;
+  padding: 8rpx 0;
+  text-align: center;
+  width: 100%;
+}
+.item .parity-info .parity-wrapper .slash {
+  color: #ddd;
+}
+.remark {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 22rpx;
+  line-height: 22rpx;
+}
+.remark.color-hl {
+  color: #386ca3;
+}
+.rank {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff4de;
+  border-radius: 4rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 14rpx;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.rank .icon,
+.rank .left {
+  height: 28rpx;
+}
+.rank .icon {
+  width: 72rpx;
+}
+.rank .desc {
+  -ms-flex-pack: center;
+  color: #803906;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  justify-content: center;
+  padding: 0 6rpx;
+}
+.discount-tags,
+.rank .desc {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 28rpx;
+}
+.discount-tags {
+  border: 1rpx solid rgba(255, 89, 89, 0.4);
+  border-radius: 6rpx;
+}
+.discount-tags .discount-tag {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  color: #ff5959;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  justify-content: center;
+}
+.discount-tags .discount-tag .v-line {
+  background-color: rgba(255, 89, 89, 0.4);
+  height: 18rpx;
+  width: 1rpx;
+}
+.discount-tags .discount-tag .icon {
+  height: 18rpx;
+  padding: 0 10rpx;
+  width: 80rpx;
+}
+.discount-tags .discount-tag .text {
+  line-height: 30rpx;
+  padding: 0 10rpx;
+}
+.discount-tags .discount-tag.discount-price {
+  background: rgba(255, 89, 89, 0.1);
+}
+.discount-tags .discount-tag.discount-price .text {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.discount-tags .discount-tag.discount-price .ifont-arr {
+  font-size: 14rpx;
+  margin-left: 2rpx;
+}
+.ellipsis-wrap {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.abnormal-status {
+  position: relative;
+}
+.abnormal-status .status-image {
+  height: 128rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 80rpx;
+  width: 128rpx;
+  z-index: 1;
+}
+.abnormal-status .cont text,
+.abnormal-status .cont view {
+  color: #999;
+}
+.abnormal-status .cont .desb .score {
+  background-image: url(https://images3.c-ctrip.com/ztrip/hotel/dahua/list/ic_lb_pinfen_hui.webp) !important;
+  color: #fff;
+}
+.abnormal-status .cont .discount-tags {
+  filter: grayscale(1);
+}

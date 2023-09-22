@@ -1,0 +1,757 @@
+@font-face {
+  font-family: ifont-12306;
+  src: url(https://images3.c-ctrip.com/zt/ztmini/12306.woff) format("woff");
+}
+[class*=" i12306-"],
+[class^="i12306-"] {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ifont-12306 !important;
+  font-style: normal;
+}
+.i12306-back:before {
+  content: "";
+}
+.i12306-arr:before {
+  content: "";
+}
+.i12306-12306:before {
+  content: "";
+}
+.i12306-closed:before {
+  content: "";
+}
+.i12306-detail:before {
+  content: "";
+}
+.i12306-eyeclosed:before {
+  content: "";
+}
+.i12306-eyeopen:before {
+  content: "";
+}
+.i12306-suc:before {
+  content: "";
+}
+.i12306-save:before {
+  content: "";
+}
+.i12306-select:before {
+  content: "";
+}
+.i12306-radio:before {
+  content: "";
+}
+.i12306-radioed:before {
+  content: "";
+}
+.i12306-12306 {
+  background: #0080ff;
+}
+.i12306-eyeclosed,
+.i12306-radioed,
+.i12306-select,
+.i12306-suc {
+  color: #0080ff;
+}
+.ty .i12306-12306 {
+  background: #fc6e51;
+}
+.ty .i12306-radioed,
+.ty .i12306-select,
+.ty .i12306-suc {
+  color: #fc6e51;
+}
+.ty .pop-12306-pasg-selector .tag {
+  border-color: rgba(252, 110, 81, 0.5);
+  color: #fc6e51;
+}
+.ty .i12306-eyeclosed {
+  color: #fc6e51;
+}
+.register-12306-member-success-pop .cont,
+.register-12306-success-pop .cont,
+.train-12306-common-form-view .cont,
+.train-12306-common-pas-reader .cont,
+.train-12306-login-page .cont,
+.train-12306-register-page .cont,
+.train-12306-retreveStep2 .cont,
+.train-12306-retrieve-page .cont,
+.train-12306-smsVerify-page .cont {
+  flex: 1;
+}
+.register-12306-member-success-pop .btn-blue,
+.register-12306-member-success-pop .btn-grey,
+.register-12306-member-success-pop .btn-line,
+.register-12306-member-success-pop .btn-white,
+.register-12306-success-pop .btn-blue,
+.register-12306-success-pop .btn-grey,
+.register-12306-success-pop .btn-line,
+.register-12306-success-pop .btn-white,
+.train-12306-common-form-view .btn-blue,
+.train-12306-common-form-view .btn-grey,
+.train-12306-common-form-view .btn-line,
+.train-12306-common-form-view .btn-white,
+.train-12306-common-pas-reader .btn-blue,
+.train-12306-common-pas-reader .btn-grey,
+.train-12306-common-pas-reader .btn-line,
+.train-12306-common-pas-reader .btn-white,
+.train-12306-login-page .btn-blue,
+.train-12306-login-page .btn-grey,
+.train-12306-login-page .btn-line,
+.train-12306-login-page .btn-white,
+.train-12306-register-page .btn-blue,
+.train-12306-register-page .btn-grey,
+.train-12306-register-page .btn-line,
+.train-12306-register-page .btn-white,
+.train-12306-retreveStep2 .btn-blue,
+.train-12306-retreveStep2 .btn-grey,
+.train-12306-retreveStep2 .btn-line,
+.train-12306-retreveStep2 .btn-white,
+.train-12306-retrieve-page .btn-blue,
+.train-12306-retrieve-page .btn-grey,
+.train-12306-retrieve-page .btn-line,
+.train-12306-retrieve-page .btn-white,
+.train-12306-smsVerify-page .btn-blue,
+.train-12306-smsVerify-page .btn-grey,
+.train-12306-smsVerify-page .btn-line,
+.train-12306-smsVerify-page .btn-white {
+  border-radius: 24rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+.register-12306-member-success-pop .btn-blue,
+.register-12306-success-pop .btn-blue,
+.train-12306-common-form-view .btn-blue,
+.train-12306-common-pas-reader .btn-blue,
+.train-12306-login-page .btn-blue,
+.train-12306-register-page .btn-blue,
+.train-12306-retreveStep2 .btn-blue,
+.train-12306-retrieve-page .btn-blue,
+.train-12306-smsVerify-page .btn-blue {
+  background-color: #198cff;
+  color: #fff;
+  font-weight: 700;
+}
+.register-12306-member-success-pop .btn-blue:disabled,
+.register-12306-success-pop .btn-blue:disabled,
+.train-12306-common-form-view .btn-blue:disabled,
+.train-12306-common-pas-reader .btn-blue:disabled,
+.train-12306-login-page .btn-blue:disabled,
+.train-12306-register-page .btn-blue:disabled,
+.train-12306-retreveStep2 .btn-blue:disabled,
+.train-12306-retrieve-page .btn-blue:disabled,
+.train-12306-smsVerify-page .btn-blue:disabled {
+  background: #ededed !important;
+  color: #999;
+  font-weight: 400;
+}
+.register-12306-member-success-pop .btn-linear,
+.register-12306-success-pop .btn-linear,
+.train-12306-common-form-view .btn-linear,
+.train-12306-common-pas-reader .btn-linear,
+.train-12306-login-page .btn-linear,
+.train-12306-register-page .btn-linear,
+.train-12306-retreveStep2 .btn-linear,
+.train-12306-retrieve-page .btn-linear,
+.train-12306-smsVerify-page .btn-linear {
+  border-radius: 96rpx;
+  color: #fff;
+  font-weight: 700;
+  height: 96rpx;
+}
+.register-12306-member-success-pop .btn-linear:disabled,
+.register-12306-success-pop .btn-linear:disabled,
+.train-12306-common-form-view .btn-linear:disabled,
+.train-12306-common-pas-reader .btn-linear:disabled,
+.train-12306-login-page .btn-linear:disabled,
+.train-12306-register-page .btn-linear:disabled,
+.train-12306-retreveStep2 .btn-linear:disabled,
+.train-12306-retrieve-page .btn-linear:disabled,
+.train-12306-smsVerify-page .btn-linear:disabled {
+  color: #fff;
+}
+.register-12306-member-success-pop .btn-grey,
+.register-12306-success-pop .btn-grey,
+.train-12306-common-form-view .btn-grey,
+.train-12306-common-pas-reader .btn-grey,
+.train-12306-login-page .btn-grey,
+.train-12306-register-page .btn-grey,
+.train-12306-retreveStep2 .btn-grey,
+.train-12306-retrieve-page .btn-grey,
+.train-12306-smsVerify-page .btn-grey {
+  background: #f5f5f5;
+  color: #333;
+}
+.register-12306-member-success-pop .btn-white,
+.register-12306-success-pop .btn-white,
+.train-12306-common-form-view .btn-white,
+.train-12306-common-pas-reader .btn-white,
+.train-12306-login-page .btn-white,
+.train-12306-register-page .btn-white,
+.train-12306-retreveStep2 .btn-white,
+.train-12306-retrieve-page .btn-white,
+.train-12306-smsVerify-page .btn-white {
+  background-color: #fff;
+  border: 2rpx solid #ccc;
+  color: #666;
+}
+.register-12306-member-success-pop .btn-big,
+.register-12306-success-pop .btn-big,
+.train-12306-common-form-view .btn-big,
+.train-12306-common-pas-reader .btn-big,
+.train-12306-login-page .btn-big,
+.train-12306-register-page .btn-big,
+.train-12306-retreveStep2 .btn-big,
+.train-12306-retrieve-page .btn-big,
+.train-12306-smsVerify-page .btn-big {
+  font-size: 32rpx;
+  width: 100%;
+}
+.register-12306-member-success-pop .btn-line,
+.register-12306-success-pop .btn-line,
+.train-12306-common-form-view .btn-line,
+.train-12306-common-pas-reader .btn-line,
+.train-12306-login-page .btn-line,
+.train-12306-register-page .btn-line,
+.train-12306-retreveStep2 .btn-line,
+.train-12306-retrieve-page .btn-line,
+.train-12306-smsVerify-page .btn-line {
+  background: #fff;
+  border-style: solid;
+  border-width: 1rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 96rpx;
+  line-height: 44rpx;
+  padding: 12rpx 0;
+}
+.register-12306-member-success-pop .btn-line .desc,
+.register-12306-success-pop .btn-line .desc,
+.train-12306-common-form-view .btn-line .desc,
+.train-12306-common-pas-reader .btn-line .desc,
+.train-12306-login-page .btn-line .desc,
+.train-12306-register-page .btn-line .desc,
+.train-12306-retreveStep2 .btn-line .desc,
+.train-12306-retrieve-page .btn-line .desc,
+.train-12306-smsVerify-page .btn-line .desc {
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 28rpx;
+}
+.register-12306-member-success-pop .btn-light,
+.register-12306-success-pop .btn-light,
+.train-12306-common-form-view .btn-light,
+.train-12306-common-pas-reader .btn-light,
+.train-12306-login-page .btn-light,
+.train-12306-register-page .btn-light,
+.train-12306-retreveStep2 .btn-light,
+.train-12306-retrieve-page .btn-light,
+.train-12306-smsVerify-page .btn-light {
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  font-weight: 700;
+  height: 56rpx;
+  width: 128rpx;
+}
+.register-12306-member-success-pop .white-box,
+.register-12306-success-pop .white-box,
+.train-12306-common-form-view .white-box,
+.train-12306-common-pas-reader .white-box,
+.train-12306-login-page .white-box,
+.train-12306-register-page .white-box,
+.train-12306-retreveStep2 .white-box,
+.train-12306-retrieve-page .white-box,
+.train-12306-smsVerify-page .white-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+}
+.register-12306-member-success-pop .input-txt,
+.register-12306-success-pop .input-txt,
+.train-12306-common-form-view .input-txt,
+.train-12306-common-pas-reader .input-txt,
+.train-12306-login-page .input-txt,
+.train-12306-register-page .input-txt,
+.train-12306-retreveStep2 .input-txt,
+.train-12306-retrieve-page .input-txt,
+.train-12306-smsVerify-page .input-txt {
+  font-size: 30rpx;
+}
+.register-12306-member-success-pop .pop-modal-bd,
+.register-12306-success-pop .pop-modal-bd,
+.train-12306-common-form-view .pop-modal-bd,
+.train-12306-common-pas-reader .pop-modal-bd,
+.train-12306-login-page .pop-modal-bd,
+.train-12306-register-page .pop-modal-bd,
+.train-12306-retreveStep2 .pop-modal-bd,
+.train-12306-retrieve-page .pop-modal-bd,
+.train-12306-smsVerify-page .pop-modal-bd {
+  color: #666;
+  margin: 30rpx 10rpx 40rpx;
+}
+.register-12306-member-success-pop .pop-modal-bd .tc,
+.register-12306-success-pop .pop-modal-bd .tc,
+.train-12306-common-form-view .pop-modal-bd .tc,
+.train-12306-common-pas-reader .pop-modal-bd .tc,
+.train-12306-login-page .pop-modal-bd .tc,
+.train-12306-register-page .pop-modal-bd .tc,
+.train-12306-retreveStep2 .pop-modal-bd .tc,
+.train-12306-retrieve-page .pop-modal-bd .tc,
+.train-12306-smsVerify-page .pop-modal-bd .tc {
+  text-align: center;
+}
+.register-12306-member-success-pop .btn-box,
+.register-12306-success-pop .btn-box,
+.train-12306-common-form-view .btn-box,
+.train-12306-common-pas-reader .btn-box,
+.train-12306-login-page .btn-box,
+.train-12306-register-page .btn-box,
+.train-12306-retreveStep2 .btn-box,
+.train-12306-retrieve-page .btn-box,
+.train-12306-smsVerify-page .btn-box {
+  margin: 40rpx 30rpx 30rpx;
+}
+.register-12306-member-success-pop .info-txt,
+.register-12306-success-pop .info-txt,
+.train-12306-common-form-view .info-txt,
+.train-12306-common-pas-reader .info-txt,
+.train-12306-login-page .info-txt,
+.train-12306-register-page .info-txt,
+.train-12306-retreveStep2 .info-txt,
+.train-12306-retrieve-page .info-txt,
+.train-12306-smsVerify-page .info-txt {
+  color: #666;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin: 30rpx;
+}
+.zx .register-12306-member-success-pop .tblue,
+.zx .register-12306-success-pop .tblue,
+.zx .train-12306-common-form-view .tblue,
+.zx .train-12306-common-pas-reader .tblue,
+.zx .train-12306-login-page .tblue,
+.zx .train-12306-register-page .tblue,
+.zx .train-12306-retreveStep2 .tblue,
+.zx .train-12306-retrieve-page .tblue,
+.zx .train-12306-smsVerify-page .tblue {
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .btn-blue,
+.zx .register-12306-member-success-pop .i12306-12306,
+.zx .register-12306-success-pop .btn-blue,
+.zx .register-12306-success-pop .i12306-12306,
+.zx .train-12306-common-form-view .btn-blue,
+.zx .train-12306-common-form-view .i12306-12306,
+.zx .train-12306-common-pas-reader .btn-blue,
+.zx .train-12306-common-pas-reader .i12306-12306,
+.zx .train-12306-login-page .btn-blue,
+.zx .train-12306-login-page .i12306-12306,
+.zx .train-12306-register-page .btn-blue,
+.zx .train-12306-register-page .i12306-12306,
+.zx .train-12306-retreveStep2 .btn-blue,
+.zx .train-12306-retreveStep2 .i12306-12306,
+.zx .train-12306-retrieve-page .btn-blue,
+.zx .train-12306-retrieve-page .i12306-12306,
+.zx .train-12306-smsVerify-page .btn-blue,
+.zx .train-12306-smsVerify-page .i12306-12306 {
+  background: #198cff;
+}
+.zx .register-12306-member-success-pop .btn-line,
+.zx .register-12306-success-pop .btn-line,
+.zx .train-12306-common-form-view .btn-line,
+.zx .train-12306-common-pas-reader .btn-line,
+.zx .train-12306-login-page .btn-line,
+.zx .train-12306-register-page .btn-line,
+.zx .train-12306-retreveStep2 .btn-line,
+.zx .train-12306-retrieve-page .btn-line,
+.zx .train-12306-smsVerify-page .btn-line {
+  border-color: #198cff;
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .btn-linear,
+.zx .register-12306-success-pop .btn-linear,
+.zx .train-12306-common-form-view .btn-linear,
+.zx .train-12306-common-pas-reader .btn-linear,
+.zx .train-12306-login-page .btn-linear,
+.zx .train-12306-register-page .btn-linear,
+.zx .train-12306-retreveStep2 .btn-linear,
+.zx .train-12306-retrieve-page .btn-linear,
+.zx .train-12306-smsVerify-page .btn-linear {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0daeff),
+    to(#07f)
+  );
+  background: -webkit-linear-gradient(left, #0daeff, #07f);
+  background: -o-linear-gradient(left, #0daeff, #07f);
+  background: linear-gradient(90deg, #0daeff, #07f);
+}
+.zx .register-12306-member-success-pop .btn-linear:disabled,
+.zx .register-12306-success-pop .btn-linear:disabled,
+.zx .train-12306-common-form-view .btn-linear:disabled,
+.zx .train-12306-common-pas-reader .btn-linear:disabled,
+.zx .train-12306-login-page .btn-linear:disabled,
+.zx .train-12306-register-page .btn-linear:disabled,
+.zx .train-12306-retreveStep2 .btn-linear:disabled,
+.zx .train-12306-retrieve-page .btn-linear:disabled,
+.zx .train-12306-smsVerify-page .btn-linear:disabled {
+  background: #7fbfff;
+}
+.zx .register-12306-member-success-pop .tab-box .cur,
+.zx .register-12306-success-pop .tab-box .cur,
+.zx .train-12306-common-form-view .tab-box .cur,
+.zx .train-12306-common-pas-reader .tab-box .cur,
+.zx .train-12306-login-page .tab-box .cur,
+.zx .train-12306-register-page .tab-box .cur,
+.zx .train-12306-retreveStep2 .tab-box .cur,
+.zx .train-12306-retrieve-page .tab-box .cur,
+.zx .train-12306-smsVerify-page .tab-box .cur {
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .tab-box .cur:after,
+.zx .register-12306-success-pop .tab-box .cur:after,
+.zx .train-12306-common-form-view .tab-box .cur:after,
+.zx .train-12306-common-pas-reader .tab-box .cur:after,
+.zx .train-12306-login-page .tab-box .cur:after,
+.zx .train-12306-register-page .tab-box .cur:after,
+.zx .train-12306-retreveStep2 .tab-box .cur:after,
+.zx .train-12306-retrieve-page .tab-box .cur:after,
+.zx .train-12306-smsVerify-page .tab-box .cur:after {
+  background: #198cff;
+}
+.zx .register-12306-member-success-pop .btn-light,
+.zx .register-12306-success-pop .btn-light,
+.zx .train-12306-common-form-view .btn-light,
+.zx .train-12306-common-pas-reader .btn-light,
+.zx .train-12306-login-page .btn-light,
+.zx .train-12306-register-page .btn-light,
+.zx .train-12306-retreveStep2 .btn-light,
+.zx .train-12306-retrieve-page .btn-light,
+.zx .train-12306-smsVerify-page .btn-light {
+  background: #e5f2ff;
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .warn-red,
+.zx .register-12306-success-pop .warn-red,
+.zx .train-12306-common-form-view .warn-red,
+.zx .train-12306-common-pas-reader .warn-red,
+.zx .train-12306-login-page .warn-red,
+.zx .train-12306-register-page .warn-red,
+.zx .train-12306-retreveStep2 .warn-red,
+.zx .train-12306-retrieve-page .warn-red,
+.zx .train-12306-smsVerify-page .warn-red {
+  color: #fe4839;
+}
+.zx .register-12306-member-success-pop .no,
+.zx .register-12306-success-pop .no,
+.zx .train-12306-common-form-view .no,
+.zx .train-12306-common-pas-reader .no,
+.zx .train-12306-login-page .no,
+.zx .train-12306-register-page .no,
+.zx .train-12306-retreveStep2 .no,
+.zx .train-12306-retrieve-page .no,
+.zx .train-12306-smsVerify-page .no {
+  background: #198cff;
+}
+.zx .register-12306-member-success-pop .i12306-suc,
+.zx .register-12306-success-pop .i12306-suc,
+.zx .train-12306-common-form-view .i12306-suc,
+.zx .train-12306-common-pas-reader .i12306-suc,
+.zx .train-12306-login-page .i12306-suc,
+.zx .train-12306-register-page .i12306-suc,
+.zx .train-12306-retreveStep2 .i12306-suc,
+.zx .train-12306-retrieve-page .i12306-suc,
+.zx .train-12306-smsVerify-page .i12306-suc {
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .register-pasg-bd .pas-li.cur,
+.zx .register-12306-success-pop .register-pasg-bd .pas-li.cur,
+.zx .train-12306-common-form-view .register-pasg-bd .pas-li.cur,
+.zx .train-12306-common-pas-reader .register-pasg-bd .pas-li.cur,
+.zx .train-12306-login-page .register-pasg-bd .pas-li.cur,
+.zx .train-12306-register-page .register-pasg-bd .pas-li.cur,
+.zx .train-12306-retreveStep2 .register-pasg-bd .pas-li.cur,
+.zx .train-12306-retrieve-page .register-pasg-bd .pas-li.cur,
+.zx .train-12306-smsVerify-page .register-pasg-bd .pas-li.cur {
+  background: #e5f2ff;
+  border-color: #198cff;
+}
+.zx .register-12306-member-success-pop .i12306-radioed,
+.zx
+  .register-12306-member-success-pop
+  .register-pasg-bd
+  .pas-li.cur
+  .i12306-select,
+.zx .register-12306-success-pop .i12306-radioed,
+.zx .register-12306-success-pop .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-common-form-view .i12306-radioed,
+.zx .train-12306-common-form-view .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-common-pas-reader .i12306-radioed,
+.zx .train-12306-common-pas-reader .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-login-page .i12306-radioed,
+.zx .train-12306-login-page .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-register-page .i12306-radioed,
+.zx .train-12306-register-page .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-retreveStep2 .i12306-radioed,
+.zx .train-12306-retreveStep2 .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-retrieve-page .i12306-radioed,
+.zx .train-12306-retrieve-page .register-pasg-bd .pas-li.cur .i12306-select,
+.zx .train-12306-smsVerify-page .i12306-radioed,
+.zx .train-12306-smsVerify-page .register-pasg-bd .pas-li.cur .i12306-select {
+  color: #198cff;
+}
+.zx .register-12306-member-success-pop .more-btn,
+.zx .register-12306-success-pop .more-btn,
+.zx .train-12306-common-form-view .more-btn,
+.zx .train-12306-common-pas-reader .more-btn,
+.zx .train-12306-login-page .more-btn,
+.zx .train-12306-register-page .more-btn,
+.zx .train-12306-retreveStep2 .more-btn,
+.zx .train-12306-retrieve-page .more-btn,
+.zx .train-12306-smsVerify-page .more-btn {
+  color: #198cff;
+  font-size: 20rpx;
+}
+.ty .register-12306-member-success-pop .tblue,
+.ty .register-12306-success-pop .tblue,
+.ty .train-12306-common-form-view .tblue,
+.ty .train-12306-common-pas-reader .tblue,
+.ty .train-12306-login-page .tblue,
+.ty .train-12306-register-page .tblue,
+.ty .train-12306-retreveStep2 .tblue,
+.ty .train-12306-retrieve-page .tblue,
+.ty .train-12306-smsVerify-page .tblue {
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .btn-blue,
+.ty .register-12306-member-success-pop .i12306-12306,
+.ty .register-12306-success-pop .btn-blue,
+.ty .register-12306-success-pop .i12306-12306,
+.ty .train-12306-common-form-view .btn-blue,
+.ty .train-12306-common-form-view .i12306-12306,
+.ty .train-12306-common-pas-reader .btn-blue,
+.ty .train-12306-common-pas-reader .i12306-12306,
+.ty .train-12306-login-page .btn-blue,
+.ty .train-12306-login-page .i12306-12306,
+.ty .train-12306-register-page .btn-blue,
+.ty .train-12306-register-page .i12306-12306,
+.ty .train-12306-retreveStep2 .btn-blue,
+.ty .train-12306-retreveStep2 .i12306-12306,
+.ty .train-12306-retrieve-page .btn-blue,
+.ty .train-12306-retrieve-page .i12306-12306,
+.ty .train-12306-smsVerify-page .btn-blue,
+.ty .train-12306-smsVerify-page .i12306-12306 {
+  background: #fc6e51;
+}
+.ty .register-12306-member-success-pop .btn-line,
+.ty .register-12306-success-pop .btn-line,
+.ty .train-12306-common-form-view .btn-line,
+.ty .train-12306-common-pas-reader .btn-line,
+.ty .train-12306-login-page .btn-line,
+.ty .train-12306-register-page .btn-line,
+.ty .train-12306-retreveStep2 .btn-line,
+.ty .train-12306-retrieve-page .btn-line,
+.ty .train-12306-smsVerify-page .btn-line {
+  border-color: #fc6e51;
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .btn-linear,
+.ty .register-12306-success-pop .btn-linear,
+.ty .train-12306-common-form-view .btn-linear,
+.ty .train-12306-common-pas-reader .btn-linear,
+.ty .train-12306-login-page .btn-linear,
+.ty .train-12306-register-page .btn-linear,
+.ty .train-12306-retreveStep2 .btn-linear,
+.ty .train-12306-retrieve-page .btn-linear,
+.ty .train-12306-smsVerify-page .btn-linear {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fe6f40),
+    to(#ff5959)
+  );
+  background: -webkit-linear-gradient(left, #fe6f40, #ff5959);
+  background: -o-linear-gradient(left, #fe6f40, #ff5959);
+  background: linear-gradient(90deg, #fe6f40, #ff5959);
+}
+.ty .register-12306-member-success-pop .btn-linear:disabled,
+.ty .register-12306-success-pop .btn-linear:disabled,
+.ty .train-12306-common-form-view .btn-linear:disabled,
+.ty .train-12306-common-pas-reader .btn-linear:disabled,
+.ty .train-12306-login-page .btn-linear:disabled,
+.ty .train-12306-register-page .btn-linear:disabled,
+.ty .train-12306-retreveStep2 .btn-linear:disabled,
+.ty .train-12306-retrieve-page .btn-linear:disabled,
+.ty .train-12306-smsVerify-page .btn-linear:disabled {
+  background: #fdb6a8;
+}
+.ty .register-12306-member-success-pop .tab-box .cur,
+.ty .register-12306-success-pop .tab-box .cur,
+.ty .train-12306-common-form-view .tab-box .cur,
+.ty .train-12306-common-pas-reader .tab-box .cur,
+.ty .train-12306-login-page .tab-box .cur,
+.ty .train-12306-register-page .tab-box .cur,
+.ty .train-12306-retreveStep2 .tab-box .cur,
+.ty .train-12306-retrieve-page .tab-box .cur,
+.ty .train-12306-smsVerify-page .tab-box .cur {
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .tab-box .cur:after,
+.ty .register-12306-success-pop .tab-box .cur:after,
+.ty .train-12306-common-form-view .tab-box .cur:after,
+.ty .train-12306-common-pas-reader .tab-box .cur:after,
+.ty .train-12306-login-page .tab-box .cur:after,
+.ty .train-12306-register-page .tab-box .cur:after,
+.ty .train-12306-retreveStep2 .tab-box .cur:after,
+.ty .train-12306-retrieve-page .tab-box .cur:after,
+.ty .train-12306-smsVerify-page .tab-box .cur:after {
+  background: #fc6e51;
+}
+.ty .register-12306-member-success-pop .btn-light,
+.ty .register-12306-success-pop .btn-light,
+.ty .train-12306-common-form-view .btn-light,
+.ty .train-12306-common-pas-reader .btn-light,
+.ty .train-12306-login-page .btn-light,
+.ty .train-12306-register-page .btn-light,
+.ty .train-12306-retreveStep2 .btn-light,
+.ty .train-12306-retrieve-page .btn-light,
+.ty .train-12306-smsVerify-page .btn-light {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .warn-red,
+.ty .register-12306-success-pop .warn-red,
+.ty .train-12306-common-form-view .warn-red,
+.ty .train-12306-common-pas-reader .warn-red,
+.ty .train-12306-login-page .warn-red,
+.ty .train-12306-register-page .warn-red,
+.ty .train-12306-retreveStep2 .warn-red,
+.ty .train-12306-retrieve-page .warn-red,
+.ty .train-12306-smsVerify-page .warn-red {
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .no,
+.ty .register-12306-success-pop .no,
+.ty .train-12306-common-form-view .no,
+.ty .train-12306-common-pas-reader .no,
+.ty .train-12306-login-page .no,
+.ty .train-12306-register-page .no,
+.ty .train-12306-retreveStep2 .no,
+.ty .train-12306-retrieve-page .no,
+.ty .train-12306-smsVerify-page .no {
+  background: #fc6e51;
+}
+.ty .register-12306-member-success-pop .i12306-suc,
+.ty .register-12306-success-pop .i12306-suc,
+.ty .train-12306-common-form-view .i12306-suc,
+.ty .train-12306-common-pas-reader .i12306-suc,
+.ty .train-12306-login-page .i12306-suc,
+.ty .train-12306-register-page .i12306-suc,
+.ty .train-12306-retreveStep2 .i12306-suc,
+.ty .train-12306-retrieve-page .i12306-suc,
+.ty .train-12306-smsVerify-page .i12306-suc {
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .register-pasg-bd .pas-li.cur,
+.ty .register-12306-success-pop .register-pasg-bd .pas-li.cur,
+.ty .train-12306-common-form-view .register-pasg-bd .pas-li.cur,
+.ty .train-12306-common-pas-reader .register-pasg-bd .pas-li.cur,
+.ty .train-12306-login-page .register-pasg-bd .pas-li.cur,
+.ty .train-12306-register-page .register-pasg-bd .pas-li.cur,
+.ty .train-12306-retreveStep2 .register-pasg-bd .pas-li.cur,
+.ty .train-12306-retrieve-page .register-pasg-bd .pas-li.cur,
+.ty .train-12306-smsVerify-page .register-pasg-bd .pas-li.cur {
+  background: #fcf0ed;
+  border-color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .i12306-radioed,
+.ty
+  .register-12306-member-success-pop
+  .register-pasg-bd
+  .pas-li.cur
+  .i12306-select,
+.ty .register-12306-success-pop .i12306-radioed,
+.ty .register-12306-success-pop .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-common-form-view .i12306-radioed,
+.ty .train-12306-common-form-view .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-common-pas-reader .i12306-radioed,
+.ty .train-12306-common-pas-reader .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-login-page .i12306-radioed,
+.ty .train-12306-login-page .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-register-page .i12306-radioed,
+.ty .train-12306-register-page .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-retreveStep2 .i12306-radioed,
+.ty .train-12306-retreveStep2 .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-retrieve-page .i12306-radioed,
+.ty .train-12306-retrieve-page .register-pasg-bd .pas-li.cur .i12306-select,
+.ty .train-12306-smsVerify-page .i12306-radioed,
+.ty .train-12306-smsVerify-page .register-pasg-bd .pas-li.cur .i12306-select {
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .pop-12306-pasg-selector .tag,
+.ty .register-12306-success-pop .pop-12306-pasg-selector .tag,
+.ty .train-12306-common-form-view .pop-12306-pasg-selector .tag,
+.ty .train-12306-common-pas-reader .pop-12306-pasg-selector .tag,
+.ty .train-12306-login-page .pop-12306-pasg-selector .tag,
+.ty .train-12306-register-page .pop-12306-pasg-selector .tag,
+.ty .train-12306-retreveStep2 .pop-12306-pasg-selector .tag,
+.ty .train-12306-retrieve-page .pop-12306-pasg-selector .tag,
+.ty .train-12306-smsVerify-page .pop-12306-pasg-selector .tag {
+  border-color: rgba(252, 110, 81, 0.5);
+  color: #fc6e51;
+}
+.ty .register-12306-member-success-pop .more-btn,
+.ty .register-12306-success-pop .more-btn,
+.ty .train-12306-common-form-view .more-btn,
+.ty .train-12306-common-pas-reader .more-btn,
+.ty .train-12306-login-page .more-btn,
+.ty .train-12306-register-page .more-btn,
+.ty .train-12306-retreveStep2 .more-btn,
+.ty .train-12306-retrieve-page .more-btn,
+.ty .train-12306-smsVerify-page .more-btn {
+  color: #fc6e51;
+  font-size: 20rpx;
+}
+.register-12306-member-success-pop .pop-modal-hd,
+.register-12306-success-pop .pop-modal-hd,
+.train-12306-common-form-view .pop-modal-hd,
+.train-12306-common-pas-reader .pop-modal-hd,
+.train-12306-login-page .pop-modal-hd,
+.train-12306-register-page .pop-modal-hd,
+.train-12306-retreveStep2 .pop-modal-hd,
+.train-12306-retrieve-page .pop-modal-hd,
+.train-12306-smsVerify-page .pop-modal-hd {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 48rpx;
+  text-align: center;
+}
+.register-12306-member-success-pop .pop-modal-hd .i12306-suc,
+.register-12306-success-pop .pop-modal-hd .i12306-suc,
+.train-12306-common-form-view .pop-modal-hd .i12306-suc,
+.train-12306-common-pas-reader .pop-modal-hd .i12306-suc,
+.train-12306-login-page .pop-modal-hd .i12306-suc,
+.train-12306-register-page .pop-modal-hd .i12306-suc,
+.train-12306-retreveStep2 .pop-modal-hd .i12306-suc,
+.train-12306-retrieve-page .pop-modal-hd .i12306-suc,
+.train-12306-smsVerify-page .pop-modal-hd .i12306-suc {
+  display: inline-block;
+  font-size: 48rpx;
+  font-weight: 400;
+  margin: -4rpx 8rpx 0 0;
+  vertical-align: middle;
+}
+.train-12306-useName-pop.pop-modal-bd {
+  color: #666;
+  font-size: 24rpx;
+  margin: 30rpx 10rpx 40rpx;
+}
+.train-12306-useName-pop.pop-modal-bd .tc {
+  text-align: center;
+}

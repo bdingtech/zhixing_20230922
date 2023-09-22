@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColorTop": "#EFEFEF",
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-wrapper": "../../custom-wrapper",
+    "comp": "../../comp"
+  }
+}

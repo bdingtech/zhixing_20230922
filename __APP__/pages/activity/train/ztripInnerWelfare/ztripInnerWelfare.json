@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "comp": "../../../../comp",
+    "custom-wrapper": "../../../../custom-wrapper",
+    "chatGroupPlugin": "plugin://wx4d2deeab3aed6e5a/cell"
+  }
+}

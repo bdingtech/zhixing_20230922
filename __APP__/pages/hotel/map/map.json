@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "地图",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#fff",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

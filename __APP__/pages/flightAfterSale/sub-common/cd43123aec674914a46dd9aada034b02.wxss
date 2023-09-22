@@ -1,0 +1,57 @@
+.flt-common-drawer-content {
+  position: relative;
+  z-index: 0;
+}
+.flt-common-drawer-content::before {
+  background: url(https://images3.c-ctrip.com/ztrip/zhixingios/list/baby/icon_qinzi_bg@3x.png)
+    no-repeat 0 0 / cover;
+  content: "";
+  height: 296rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.flt-common-drawer-content .head-img {
+  height: 296rpx;
+  width: 560rpx;
+}
+.flt-common-drawer-content .body {
+  position: relative;
+  z-index: 1;
+}
+.flt-common-drawer-content .f-title {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+}
+.flt-common-drawer-content .f-sub-title {
+  color: #666;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin: 24rpx 40rpx 0;
+  text-align: center;
+}
+.flt-common-drawer-content .btm {
+  margin: 56rpx 34rpx 16rpx;
+  position: relative;
+  z-index: 1;
+}
+.flt-common-drawer-content .btn {
+  background: #198cff;
+  border-radius: 20rpx;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+  height: 88rpx;
+}
+.flt-common-drawer-content .btn.cancel {
+  background: #edf6ff;
+  color: #198cff;
+  margin-right: 16rpx;
+}

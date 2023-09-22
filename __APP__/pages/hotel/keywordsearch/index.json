@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#f5f5f5",
+  "backgroundColorTop": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "关键词搜索",
+  "usingComponents": {
+    "custom-wrapper": "../../../custom-wrapper",
+    "comp": "../../../comp"
+  }
+}

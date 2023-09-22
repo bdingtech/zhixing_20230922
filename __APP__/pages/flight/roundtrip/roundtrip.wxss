@@ -1,0 +1,109 @@
+@import "/pages/flight/sub-vendors.wxss";
+@import "/pages/flight/sub-common/fa100b4d0df918bb326f38abed01ce42.wxss";
+@import "/pages/flight/sub-common/5e1fd1858439c7431a3d4add0d231fa0.wxss";
+@import "/pages/flight/sub-common/0e10418e4827a63c37420d1e1d9c2589.wxss";
+@import "/pages/flight/sub-common/e0215ac25a0e7e180074f8c6a5a9b55b.wxss";
+@import "/pages/flight/sub-common/67886d61cecb3035d6dd6162e60b2f4e.wxss";
+.title-view .city {
+  color: #222;
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 500;
+}
+.title-view .iconfont2 {
+  color: #222;
+  font-size: 28rpx;
+  margin: 0 12rpx;
+}
+.btn-screen {
+  background: #fff;
+  border-radius: 100rpx;
+  bottom: calc(126rpx + env(safe-area-inset-bottom));
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.1);
+  color: #666;
+  font-size: 20rpx;
+  height: 92rpx;
+  line-height: 34rpx;
+  padding: 16rpx 0;
+  position: fixed;
+  right: 30rpx;
+  transition: all 0.35s ease-in-out;
+  width: 92rpx;
+  z-index: 100;
+}
+.btn-screen.iphone-x {
+  bottom: 228rpx;
+}
+.btn-screen .ifont-fltscreen {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 36rpx;
+}
+.btn-screen.hidden {
+  opacity: 0.7;
+  transform: translateX(76rpx);
+}
+.announcement-drawer .zt-drawer,
+.announcement-drawer .zt-layer,
+.entrance-pop,
+.entrance-pop .zt-layer {
+  z-index: 10002 !important;
+}
+.entrance-pop .zt-pop-content {
+  border-radius: 32rpx !important;
+  z-index: 10003 !important;
+}
+.flt-round-trip {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 128rpx);
+}
+.flt-round-trip .round-trip-box {
+  margin: 0 10rpx;
+  overflow: hidden;
+}
+.flt-round-trip .round-trip-box .trip {
+  overflow: hidden;
+}
+.flt-round-trip .round-trip-box .trip:first-child {
+  margin-right: 10rpx;
+}
+.flt-round-trip .round-trip-box .both-list-none {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flt-round-trip .round-trip-box .both-list-none .icon-none {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  height: 140rpx;
+  margin: 0 auto;
+  width: 300rpx;
+}
+.zx .flt-round-trip .round-trip-box .both-list-none .icon-none {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-zx.png);
+}
+.ty .flt-round-trip .round-trip-box .both-list-none .icon-none {
+  background-image: url(https://pic.c-ctrip.com/train/zt/flight/img-sel-none-ty.png);
+}
+.flt-round-trip .round-trip-box .both-list-none .tit {
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}
+.flt-round-trip .round-trip-box .both-list-none .txt {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.flt-round-trip .pay-box {
+  z-index: 3000;
+}
+.flt-round-trip .roundtrip-allowance-modal {
+  z-index: 3001;
+}

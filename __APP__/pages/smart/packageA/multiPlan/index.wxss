@@ -1,0 +1,421 @@
+@charset "UTF-8";
+@import "/pages/smart/packageA/sub-vendors.wxss";
+.smart-header .header {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36rpx;
+  margin: 20rpx 30rpx 24rpx;
+}
+.smart-header .left {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  line-height: 36rpx;
+}
+.smart-header .right {
+  -ms-flex-align: center;
+  -ms-flex-pack: end;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.smart-header .min-price,
+.smart-header .min-time {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  text-align: right;
+}
+.smart-header .separator {
+  background: #fff;
+  border: 0;
+  display: inline-block;
+  height: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 12rpx;
+  opacity: 0.6;
+  width: 2rpx;
+}
+.smart-filter-panel .filter-panel {
+  background: #fff;
+  border-radius: 24rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16rpx 24rpx;
+}
+.smart-filter-panel .filter-panel.with-tab {
+  border-radius: 0 0 24rpx 24rpx;
+  border-top: 0;
+  padding: 24rpx;
+}
+.smart-filter-panel .filter-list {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.smart-filter-panel .filter-scroll-view {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.smart-filter-panel .filter-scroll-view::-webkit-scrollbar {
+  background: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.smart-filter-panel .title {
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  padding-right: 20rpx;
+  white-space: nowrap;
+}
+.smart-filter-panel .item {
+  background: #f7f7f7;
+  border-radius: 10rpx;
+  color: #333;
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  margin-right: 16rpx;
+  padding: 12rpx 28rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.smart-filter-panel .item .name {
+  line-height: 34rpx;
+}
+.smart-filter-panel .item .distance {
+  color: #999;
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.smart-filter-panel .item.current {
+  background: #e8f3ff;
+  border: 1rpx solid #198cff;
+  border-radius: 10rpx;
+}
+.smart-filter-panel .item.current .name {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+}
+.smart-filter-panel .item.current .distance {
+  color: #75baff;
+}
+.ty .smart-filter-panel .item.current {
+  background: rgba(252, 110, 81, 0.1);
+  border-color: #ff925a;
+}
+.ty .smart-filter-panel .item.current .distance,
+.ty .smart-filter-panel .item.current .name {
+  color: #ff925a;
+}
+.smart-filter-panel .item.has-distance {
+  padding: 8rpx 16rpx 6rpx;
+}
+.smart-filter-panel .item.has-distance.all {
+  padding: 22rpx 30rpx 20rpx;
+}
+.smart-filter-card .filter-card {
+  background: #fff;
+  border-radius: 20rpx;
+}
+.smart-filter-card .filter-tab {
+  padding: 0 24rpx;
+}
+.smart-filter-card .filter-tab-item {
+  color: #666;
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  margin-right: 40rpx;
+  padding: 24rpx 0 12rpx;
+  position: relative;
+}
+.smart-filter-card .filter-tab-item.current {
+  color: #198cff;
+  font-family: PingFangSC-Medium;
+}
+.ty .smart-filter-card .filter-tab-item.current {
+  color: #ff925a;
+}
+.smart-filter-card .filter-tab-item::before {
+  background: #198cff;
+  border-bottom: 0;
+  border-radius: 3rpx;
+  content: "";
+  height: 6rpx;
+  left: 100%;
+  position: absolute;
+  top: 70rpx;
+  width: 0;
+}
+.ty .smart-filter-card .filter-tab-item::before {
+  background: #ff925a;
+}
+.smart-filter-card .filter-tab-item.current::before {
+  left: 34rpx;
+  transition: all 0.2s linear;
+  width: 44rpx;
+}
+.smart-filter-card .filter-tab-item.current ~ .filter-tab-item::before {
+  left: 0;
+}
+.smart-filter-card .filter-panel-container {
+  min-height: 108rpx;
+}
+.smart-filter-module {
+  margin: 12rpx 20rpx;
+}
+.smart-trip-item .trip-item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 12rpx 20rpx;
+  padding: 18rpx 24rpx 20rpx;
+}
+.smart-trip-item .trip-item.best {
+  padding-top: 30rpx;
+  position: relative;
+}
+.smart-trip-item .trip-item.best .best-tag {
+  background: #ffefef;
+  border-radius: 16rpx 0 16rpx 0;
+  font-size: 18rpx;
+  height: 28rpx;
+  left: 0;
+  line-height: 28rpx;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 96rpx;
+}
+.smart-trip-item .cont {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-trip-item .cont .from,
+.smart-trip-item .cont .to {
+  flex: 1;
+}
+.smart-trip-item .cont .mid {
+  flex: 1.2;
+}
+.smart-trip-item .cont .price {
+  flex: 1.5;
+}
+.smart-trip-item .cont .mid {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.smart-trip-item .cont .mid .separator {
+  border-top: 2rpx solid #ccc;
+  margin: 4rpx 0;
+  width: 120rpx;
+}
+.smart-trip-item .cont .price,
+.smart-trip-item .cont .to {
+  text-align: right;
+}
+.smart-trip-item .price .num,
+.smart-trip-item .time {
+  font-size: 42rpx;
+  line-height: 58rpx;
+}
+.smart-trip-item .station {
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+.smart-trip-item .cost-time,
+.smart-trip-item .transit,
+.smart-trip-item .transit-time,
+.smart-trip-item .transport-no {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.smart-trip-item .transit {
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  max-width: 140rpx;
+  padding: 0 8rpx;
+  position: relative;
+  text-align: center;
+}
+.smart-trip-item .transit::after,
+.smart-trip-item .transit::before {
+  border-top: 2rpx solid #ccc;
+  content: "";
+  height: 2rpx;
+  position: absolute;
+  top: 50%;
+  width: 16rpx;
+}
+.smart-trip-item .transit::before {
+  left: -16rpx;
+}
+.smart-trip-item .transit::after {
+  right: -16rpx;
+}
+.smart-trip-item .price {
+  height: 74rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.smart-trip-item .price .num::before {
+  content: "￥";
+  font-size: 28rpx;
+  margin-right: -2rpx;
+}
+.smart-trip-item .to {
+  position: relative;
+}
+.smart-trip-item .diff {
+  color: #333;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  position: absolute;
+  right: -22rpx;
+  top: 10rpx;
+}
+.smart-trip-item .ty.time {
+  color: #ff925a;
+}
+.smart-trip-item .station,
+.smart-trip-item .transport-no {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.smart-trip-item .station {
+  width: 140rpx;
+}
+.smart-trip-item .transport-no {
+  max-width: 140rpx;
+}
+.smart-multi-plan {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.smart-multi-plan::before {
+  content: "";
+  height: 80rpx;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.smart-multi-plan.zx::before {
+  background: -webkit-linear-gradient(top, #0066e6, #0078f7);
+}
+.smart-multi-plan.ty::before {
+  background: #3c4365;
+}
+.smart-multi-plan::after {
+  content: "";
+  height: 60rpx;
+  left: 0;
+  position: absolute;
+  top: 80rpx;
+  width: 750rpx;
+  z-index: -1;
+}
+.smart-multi-plan.zx::after {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc.png)
+    no-repeat;
+  background-size: cover;
+}
+.smart-multi-plan.ty::after {
+  background: url(https://images3.c-ctrip.com/ztrip/train.xin/2020_11/mini/arc_ty.png)
+    no-repeat;
+  background-size: cover;
+}
+.smart-multi-plan .color-dark {
+  color: #333;
+}
+.smart-multi-plan .color-grey {
+  color: #666;
+}
+.smart-multi-plan .color-red {
+  color: #ff5959;
+}
+.smart-multi-plan .color-blue {
+  color: #198cff;
+}
+.smart-multi-plan .font-regular {
+  font-family: PingFangSC-Regular;
+}
+.smart-multi-plan .font-medium {
+  font-family: PingFangSC-Medium;
+}
+.smart-multi-plan .seat-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 24rpx;
+}
+.smart-multi-plan .seat-item {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  line-height: 24rpx;
+}
+.smart-multi-plan .seat-item .order {
+  background: #f8f8f8;
+  border: none;
+  color: #999;
+  font-size: 20rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  margin-right: 6rpx;
+  position: relative;
+  text-align: center;
+  width: 24rpx;
+}
+.smart-multi-plan .seat-item .order::after {
+  border: 1rpx solid #999;
+  border-radius: 6rpx;
+  content: "";
+  height: 24rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24rpx;
+}
+.smart-multi-plan .seat-item .ticket-desc {
+  font-size: 22rpx;
+}
+.smart-multi-plan .seat-item:nth-child(3) {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.smart-multi-plan .seat-item:nth-child(4) {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}

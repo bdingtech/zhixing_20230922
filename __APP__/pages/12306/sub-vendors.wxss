@@ -1,0 +1,757 @@
+._Xi {
+  padding: 48rpx 0 40rpx;
+}
+._Sf {
+  margin-left: 16rpx;
+}
+._Yi {
+  height: 78rpx;
+}
+._cg {
+  margin-top: 12rpx;
+}
+._Qi {
+  border-radius: 40rpx;
+}
+._xk {
+  padding: 32rpx 24rpx;
+}
+._yk {
+  margin: 82rpx 24rpx 0;
+}
+._zk {
+  bottom: calc(100% - 56rpx);
+}
+._Ak {
+  background: #f5faff;
+}
+._Bk {
+  padding: 32rpx 28rpx 80rpx;
+}
+._Ye {
+  width: 24rpx;
+}
+._og {
+  height: 24rpx;
+}
+._Tj {
+  width: 28rpx;
+}
+._Rj {
+  height: 28rpx;
+}
+._Ck {
+  background: #9bcdff;
+}
+._Dk {
+  font-family: ZX-Regular;
+  font-size: 22rpx;
+  font-weight: 400;
+}
+._Uc {
+  letter-spacing: 0;
+}
+._Ne {
+  margin-right: 6rpx;
+}
+._Ek {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+._Wi {
+  height: 736rpx;
+}
+.activite-12306-member-view {
+  padding-top: 118rpx;
+}
+.activite-12306-member-view .face-icon {
+  height: 222rpx;
+  margin-bottom: 50rpx;
+  width: 222rpx;
+}
+.activite-12306-member-view .title {
+  color: #222;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+.activite-12306-member-view .title2 {
+  font-size: 30rpx;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 10rpx 30rpx 0;
+  text-align: center;
+}
+.activite-12306-member-view .face-tip {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.activite-12306-member-view .face-tip .name {
+  color: #0080ff;
+  font-size: 26rpx;
+}
+.activite-12306-member-view .face-btn {
+  background: #0080ff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-bottom: 20rpx;
+  margin-top: 60rpx;
+  text-align: center;
+  width: 654rpx;
+}
+.face-verify-protocol .button {
+  height: 40rpx;
+  width: 40rpx;
+}
+.face-verify-protocol .selected {
+  background-size: cover;
+}
+.face-verify-protocol .selected.zx {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2022-06/icon_dx_yx.png);
+}
+.face-verify-protocol .selected.ty {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2022-06/icon_dx_yx_ty.png);
+}
+.face-verify-protocol .select {
+  background-image: url(https://images3.c-ctrip.com/ztrip/train_xie/2022-06/icon_dx_wx.png);
+  background-size: cover;
+}
+.face-verify-protocol .protocol-radio {
+  margin-right: 8rpx;
+}
+.face-verify-protocol-content {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  padding: 20rpx 0;
+}
+.face-verify-protocol-content .book {
+  color: #0080ff;
+}
+.pop-12306-pasg-selector {
+  -webkit-overflow-scrolling: touch;
+  max-height: 800rpx;
+  overflow-y: auto;
+}
+.pop-12306-pasg-selector .cont {
+  flex: 1;
+}
+.pop-12306-pasg-selector .psg-li {
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 50rpx;
+  padding: 20rpx 0;
+}
+.pop-12306-pasg-selector .psg-li:last-child {
+  border-bottom: transparent;
+}
+.pop-12306-pasg-selector .h5 {
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-bottom: 8rpx;
+}
+.pop-12306-pasg-selector .p {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 6rpx;
+}
+.pop-12306-pasg-selector .tag {
+  border: 2rpx solid rgba(0, 128, 255, 0.5);
+  border-radius: 4rpx;
+  color: #0080ff;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 26rpx;
+  margin: -4rpx 0 0 12rpx;
+  padding: 0 6rpx;
+  vertical-align: middle;
+}
+.pop-12306-pasg-selector .i12306-radio,
+.pop-12306-pasg-selector .i12306-radioed {
+  font-size: 40rpx;
+}
+.pop-12306-pasg-selector .i12306-radio {
+  color: #ccc;
+}
+.train-12306-common-pas-reader .white-box {
+  padding: 30rpx 40rpx;
+}
+.train-12306-common-pas-reader .white-box .p {
+  font-size: 26rpx;
+}
+.train-12306-common-pas-reader .white-box .p.title {
+  -ms-flex-pack: justify;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999;
+  justify-content: space-between;
+}
+.train-12306-common-pas-reader .register-pasg-bd {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24rpx;
+}
+.train-12306-common-pas-reader .register-pasg-bd .pas-li {
+  border: 2rpx solid #eee;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  flex: 1;
+  height: 96rpx;
+  margin-right: 14rpx;
+  position: relative;
+  text-align: center;
+}
+.train-12306-common-pas-reader .register-pasg-bd .pas-li:last-child {
+  margin-right: 0;
+}
+.train-12306-common-pas-reader .register-pasg-bd .pas-li .h4 {
+  font-size: 25rpx;
+  font-weight: 700;
+  line-height: 42rpx;
+}
+.train-12306-common-pas-reader .register-pasg-bd .pas-li .p {
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.train-12306-common-pas-reader .register-pasg-bd .pas-li .i12306-select {
+  bottom: -4rpx;
+  color: transparent;
+  font-size: 38rpx;
+  line-height: 38rpx;
+  position: absolute;
+  right: -2rpx;
+}
+.train-dark-components-check-face-box .white-box {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx 20rpx 0;
+}
+.train-dark-components-check-face-box .white-box .btn-linear {
+  border-radius: 24rpx;
+  margin-top: 40rpx;
+}
+.train-dark-components-check-face-box .white-box .btn-light {
+  border-radius: 24rpx;
+  margin-top: 30rpx;
+}
+.train-dark-components-check-face-box .import-before,
+.train-dark-components-check-face-box .import-code,
+.train-dark-components-check-face-box .import-result {
+  padding: 40rpx;
+  text-align: center;
+}
+.train-dark-components-check-face-box .import-result .result-hd {
+  height: 200rpx;
+  margin: 0 auto;
+  position: relative;
+  width: 200rpx;
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-screen {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 200rpx;
+  width: 200rpx;
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-hd
+  .icon-screen.zx {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/img-screen-zx.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-hd
+  .icon-screen.ty {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/img-screen-ty.png);
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-fail,
+.train-dark-components-check-face-box .import-result .result-hd .icon-suc {
+  background: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/icon-heyan.png)
+    no-repeat;
+  background-size: 88rpx 616rpx;
+  border-radius: 64rpx;
+  bottom: 12rpx;
+  height: 64rpx;
+  position: absolute;
+  right: 12rpx;
+  transform: scale(0.85);
+  width: 64rpx;
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-suc.zx {
+  background-position: 0 0;
+  box-shadow: 0 4rpx 6rpx rgba(40, 193, 132, 0.5);
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-suc.ty {
+  background-position: 0-160rpx;
+  box-shadow: 0 4rpx 6rpx rgba(40, 193, 132, 0.5);
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-fail.zx {
+  background-position: 0-80rpx;
+  box-shadow: 0 4rpx 6rpx rgba(179, 29, 29, 0.3);
+}
+.train-dark-components-check-face-box .import-result .result-hd .icon-fail.ty {
+  background-position: 0-240rpx;
+  box-shadow: 0 4rpx 6rpx rgba(40, 193, 132, 0.5);
+}
+.train-dark-components-check-face-box .import-result .result-anim {
+  height: 200rpx;
+  margin: 60rpx auto 0;
+  position: relative;
+  width: 200rpx;
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim
+  .screen-light {
+  animation: light 1.5s linear infinite;
+  background-size: cover;
+  height: 200rpx;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200rpx;
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim
+  .screen-avatar {
+  background-size: cover;
+  border-radius: 184rpx;
+  height: 184rpx;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 184rpx;
+}
+.train-dark-components-check-face-box .import-result .result-anim .screen-line {
+  animation: screen 1.5s linear infinite;
+  background-size: cover;
+  height: 44rpx;
+  left: 0;
+  position: absolute;
+  top: -44rpx;
+  width: 184rpx;
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.zx
+  .screen-light {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-light-zx.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.zx
+  .screen-avatar {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-avatar-zx.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.zx
+  .screen-line {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-line-zx.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.ty
+  .screen-light {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-light-ty.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.ty
+  .screen-avatar {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-avatar-ty.png);
+}
+.train-dark-components-check-face-box
+  .import-result
+  .result-anim.ty
+  .screen-line {
+  background-image: url(https://images3.c-ctrip.com/zt/activity/ztrip-train-12306/screen-line-ty.png);
+}
+.train-dark-components-check-face-box .import-result .txt {
+  color: #666;
+  font-size: 28rpx;
+  margin-top: 40rpx;
+}
+.train-dark-components-check-face-box .import-result .txt .gray-txt {
+  color: #333;
+  margin-right: 8rpx;
+}
+.train-dark-components-check-face-box .import-result .txt .change-pas {
+  font-size: 24rpx;
+}
+.train-dark-components-check-face-box .import-result .btnName {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 400;
+  line-height: 44rpx;
+  padding-top: 15rpx;
+  text-align: center;
+}
+.train-dark-components-check-face-box .import-result .btnDesc {
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 28rpx;
+  text-align: center;
+}
+.train-dark-components-check-face-box .import-result .center-title {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+  text-align: center;
+}
+.train-dark-components-check-face-box .import-result .center-title-desc {
+  color: #666;
+  font-size: 26rpx;
+  font-weight: 6400;
+  line-height: 34rpx;
+  text-align: center;
+}
+@-webkit-keyframes light {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+@keyframes light {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+@-webkit-keyframes screen {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(272rpx);
+  }
+}
+@keyframes screen {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(272rpx);
+  }
+}
+.train-dark-components-check-face-box .face-box-position {
+  position: relative;
+}
+.train-dark-components-check-face-box .face-box-position .top-tag {
+  font-family: PingFangSC-Medium;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 30rpx;
+  left: 2rpx;
+  line-height: 30rpx;
+  position: absolute;
+  text-align: center;
+  top: 2rpx;
+  white-space: nowrap;
+  width: 74rpx;
+}
+.train-dark-components-check-face-box .face-box-position .top-tag.zx {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/order_details/icon/tag_1@3x.png);
+  background-size: cover;
+  color: #198cff;
+}
+.train-dark-components-check-face-box .face-box-position .top-tag.ty {
+  background: url(https://images3.c-ctrip.com/ztrip/train.song/order_details/icon/tag_t@3x.png);
+  background-size: cover;
+  color: #fef0ed;
+}
+.train-dark-components-check-face-box .txt-need-know {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: 8rpx;
+}
+.train-dark-components-check-face-box .txt-need-know .ifont-detail {
+  color: #ccc;
+  font-size: 28rpx;
+  margin-left: 8rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80rpx 44rpx 40rpx;
+  position: relative;
+}
+.train-dark-components-findback-12306-password-box .note-box .tag {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 18rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20rpx;
+  font-weight: 700;
+  height: 34rpx;
+  left: 2rpx;
+  padding-right: 14rpx;
+  position: absolute;
+  top: 2rpx;
+}
+.zx .train-dark-components-findback-12306-password-box .note-box .tag {
+  background: #f3f7ff;
+  color: #0080ff;
+}
+.ty .train-dark-components-findback-12306-password-box .note-box .tag {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.train-dark-components-findback-12306-password-box .note-box .tag text {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #fff;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-right: 6rpx;
+  padding-right: 4rpx;
+  text-align: center;
+  width: 88rpx;
+}
+.zx .train-dark-components-findback-12306-password-box .note-box .tag text {
+  background-image: url(https://images3.c-ctrip.com/zt/wxapp/note-tag-zx.png);
+}
+.ty .train-dark-components-findback-12306-password-box .note-box .tag text {
+  background-image: url(https://images3.c-ctrip.com/zt/wxapp/note-tag-ty.png);
+}
+.train-dark-components-findback-12306-password-box .note-box .icon-phone {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 128rpx;
+  height: 128rpx;
+  width: 128rpx;
+}
+.zx .train-dark-components-findback-12306-password-box .note-box .icon-phone {
+  background-image: url(https://images3.c-ctrip.com/zt/wxapp/icon-code-zx.png);
+}
+.ty .train-dark-components-findback-12306-password-box .note-box .icon-phone {
+  background-image: url(https://images3.c-ctrip.com/zt/wxapp/icon-code-ty.png);
+}
+.train-dark-components-findback-12306-password-box .note-box .tit {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box .txt {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-top: 16rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box .txt .ifont-arr {
+  font-size: 20rpx;
+  margin: 2rpx 0 0 2rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box .input-txt {
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  height: 100rpx;
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+  width: 100%;
+}
+.train-dark-components-findback-12306-password-box .note-box .input-pld {
+  color: #999;
+  font-size: 32rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box .btn-submit {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  border-radius: 96rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  font-weight: 700;
+  height: 96rpx;
+  justify-content: center;
+  line-height: 44rpx;
+  margin-top: 40rpx;
+  width: 100%;
+}
+.train-dark-components-findback-12306-password-box .note-box .btn-submit .t {
+  font-size: 20rpx;
+  font-weight: 400;
+  line-height: 28rpx;
+}
+.train-dark-components-findback-12306-password-box .note-box .btn-submit .swan {
+  width: 200rpx;
+}
+.train-dark-components-findback-12306-password-box .not-prove {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 144rpx;
+  padding: 0 30rpx;
+  position: relative;
+}
+.train-dark-components-findback-12306-password-box .not-prove .tag {
+  border-radius: 18rpx 0;
+  font-size: 20rpx;
+  left: 2rpx;
+  line-height: 34rpx;
+  padding: 0 18rpx 0 12rpx;
+  position: absolute;
+  top: 2rpx;
+}
+.zx .train-dark-components-findback-12306-password-box .not-prove .tag {
+  background: #f3f7ff;
+  color: #0080ff;
+}
+.ty .train-dark-components-findback-12306-password-box .not-prove .tag {
+  background: #fcf0ed;
+  color: #fc6e51;
+}
+.train-dark-components-findback-12306-password-box .not-prove .logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60rpx;
+  height: 60rpx;
+  margin-right: 12rpx;
+  width: 60rpx;
+}
+.zx .train-dark-components-findback-12306-password-box .not-prove .logo {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/avatar-logo-zx.png);
+}
+.ty .train-dark-components-findback-12306-password-box .not-prove .logo {
+  background-image: url(https://pic.c-ctrip.com/train/zt/wechat/avatar-logo-ty.png);
+}
+.train-dark-components-findback-12306-password-box .not-prove .tit {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.train-dark-components-findback-12306-password-box .not-prove .txt {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.train-dark-components-findback-12306-password-box .not-prove .rbox {
+  font-size: 24rpx;
+}
+.train-dark-components-findback-12306-password-box .not-prove .btn-line {
+  border-radius: 60rpx;
+  font-size: 26rpx;
+  font-weight: 700;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left: 8rpx;
+  width: 144rpx;
+}
+.sms-code-input-box {
+  background: #f5f5f5;
+  border-radius: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  line-height: 38rpx;
+  padding: 26rpx 32rpx 24rpx;
+}
+.sms-code-input-box .btn-get {
+  color: #1a8cff;
+}
+.sms-code-input-box .name {
+  color: #666;
+}
+.sms-code-input-box .ghost {
+  color: #999;
+}
+.trn-t6-sms-view {
+  background: #fff;
+  border-radius: 24rpx;
+  margin: 16rpx;
+  padding: 40rpx 38rpx;
+  text-align: center;
+}
+.trn-t6-sms-view .title {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 48rpx;
+}
+.trn-t6-sms-view .desc {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+}
+.trn-t6-sms-view .sms-code-input-box {
+  margin-top: 40rpx;
+}
+.trn-t6-sms-view .btn-register {
+  background: #198cff;
+  border-radius: 24rpx;
+  color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  letter-spacing: 0;
+  line-height: 88rpx;
+  margin-top: 28rpx;
+  text-align: center;
+}
+.trn-t6-sms-view .input {
+  text-align: left;
+}

@@ -1,0 +1,23 @@
+.tip-plugin-wrap button,
+.tip-plugin-wrap image,
+.tip-plugin-wrap navigator,
+.tip-plugin-wrap swiper,
+.tip-plugin-wrap text,
+.tip-plugin-wrap view {
+  box-sizing: border-box;
+}
+.tip-plugin-wrap button {
+  background: 0;
+  border: 0;
+  font-size: 28rpx;
+  line-height: 1;
+  margin: 0;
+  opacity: 1;
+  padding: 0;
+}
+.tip-plugin-wrap button::after {
+  border: 0;
+}
+.tip-plugin-wrap .button-hover {
+  background: 0;
+}
